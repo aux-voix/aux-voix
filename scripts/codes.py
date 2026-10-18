@@ -5,10 +5,11 @@ import datetime, html, io, json, os, re, sys, tarfile, time, urllib.request
 import xml.etree.ElementTree as ET
 
 BASE = "https://echanges.dila.gouv.fr/OPENDATA/LEGI/"
-UA = "AuxVoix/2.0 (https://lereleve.github.io ; reutilisation de donnees ouvertes)"
+UA = "AuxVoix/2.0 (https://aux-voix.github.io ; reutilisation de donnees ouvertes)"
 # identifiant LEGI du code (et identifiant JORF d'origine, qui sert parfois de dossier), abréviation d'usage
 CODES = [
-    {"slug": "constitution", "hf": ["legi_constitution", "legi_constitution_du_4_octobre_1958"], "ids": ["LEGITEXT000006071194", "JORFTEXT000000571356"], "abr": "Const.", "titre": "Constitution du 4 octobre 1958", "code": False},
+    {"slug": "constitution", "hf": ["legi_constitution", "legi_constitution_du_4_octobre_1958"], "ids": ["LEGITEXT000006071194", "JORFTEXT000000571356"], "abr": "Const.", "titre": "Constitution du 4 octobre 1958", "code": False,
+     "depuis": "1958-10-04"},  # la copie de secours mêle d'anciennes constitutions (ex. art. 81 de celle de 1848)
     {"slug": "civil", "hf": ["legi_code_civil"], "ids": ["LEGITEXT000006070721"], "abr": "C. civ.", "titre": "Code civil", "code": True},
     {"slug": "penal", "hf": ["legi_code_penal"], "ids": ["LEGITEXT000006070719"], "abr": "C. pén.", "titre": "Code pénal", "code": True},
     {"slug": "procedure-civile", "hf": ["legi_code_de_procedure_civile"], "ids": ["LEGITEXT000006070716"], "abr": "C. pr. civ.", "titre": "Code de procédure civile", "code": True},
@@ -20,6 +21,7 @@ CODES = [
     {"slug": "relations-administration", "hf": ["legi_code_des_relations_entre_le_public_et_l_administration"], "ids": ["LEGITEXT000031366350"], "abr": "CRPA", "titre": "Code des relations entre le public et l'administration", "code": True},
 ]
 EN_VIGUEUR = ("VIGUEUR", "VIGUEUR_DIFF")
+FORMAT = 2   # à augmenter quand la mise en forme change : force une reconstruction au passage suivant
 
 
 def obtenir(url, timeout=120):
@@ -83,8 +85,10 @@ def lire_article(data):
            "nota": texte_brut(root.find("NOTA/CONTENU")), "chemin": [], "liens": []}
     tm = root.find("CONTEXTE/TEXTE/TM")
     while tm is not None:
-        t = tm.find("TITRE_TM")
-        if t is not None and (t.text or "").strip():
+        # un niveau peut porter plusieurs intitulés successifs (debut/fin) : on garde le plus récent
+        ts = [t for t in tm.findall("TITRE_TM") if (t.text or "").strip()]
+        if ts:
+            t = max(ts, key=lambda x: (x.get("fin", "") >= "2999", x.get("debut", "")))
             art["chemin"].append(re.sub(r"\s+", " ", t.text).strip())
         tm = tm.find("TM")
     for l in root.findall("LIENS/LIEN"):
@@ -119,6 +123,80 @@ def parcourir(chemin_tar, motifs, articles, suppr):
                 articles[a["id"]] = a
                 n += 1
     return n
+
+
+# Les intitulés de section arrivent souvent avec leur historique : ancien et nouvel intitulé d'un même niveau à la
+# suite (« Titre IV : A », puis « Titre IV : B »), parfois fusionnés en une seule chaîne. Pour chaque code, on
+# redécoupe les niveaux, puis, quand plusieurs intitulés d'un même niveau se suivent, on garde celui qui porte le plus
+# grand numéro (les renumérotations ne font que monter), puis celui qui sert seul au plus grand nombre d'articles en
+# vigueur, puis celui qui ne se termine pas par un point (ancienne présentation), puis le dernier. Le texte des intitulés n'est jamais réécrit.
+NIVEAU = r"(?:Livre|Titre|Sous-titre|Chapitre|Section|Sous-section|Paragraphe|Sous-paragraphe)"
+NIV_RE = re.compile(r"^(" + NIVEAU + r")\s+[^\s:]+(?:\s+\w+)?\s*:")
+COUPE_RE = re.compile(r"\s+-\s+(?=" + NIVEAU + r"\s+[^\s:]+(?:\s+\w+)?\s*:|(?:Première|Deuxième|Troisième|Quatrième) partie\s*:|Dispositions (?:générales|communes)\b)")
+
+
+def _groupes(chemin):
+    morceaux = []
+    for el in chemin:
+        for m in COUPE_RE.split(re.sub(r"\s+", " ", el or "").strip()):
+            m = re.sub(r"^-\s*", "", m.strip()).strip()
+            if m and m not in morceaux:
+                morceaux.append(m)
+    groupes = []
+    for m in morceaux:
+        k = NIV_RE.match(m)
+        k0 = NIV_RE.match(groupes[-1][-1]) if groupes else None
+        if k and k0 and k.group(1) == k0.group(1):
+            groupes[-1].append(m)
+        else:
+            groupes.append([m])
+    return groupes
+
+
+ROMAINS = {"i": 1, "v": 5, "x": 10, "l": 50, "c": 100}
+SUFFIXES = ["bis", "ter", "quater", "quinquies", "sexies", "septies", "octies", "nonies", "decies"]
+NUM_RE = re.compile(r"^" + NIVEAU + r"\s+([^\s:]+)(?:\s+(\w+))?\s*:", re.I)
+
+
+def rang_numero(titre):
+    """Numéro d'un niveau (« Titre XII bis » -> 12,1) ; les renumérotations ne font que monter, le plus grand est l'actuel."""
+    m = NUM_RE.match(titre)
+    if not m:
+        return (-1, 0)
+    n, suf = m.group(1).lower(), (m.group(2) or "").lower()
+    if n in ("premier", "ier", "1er", "première", "ire"):
+        v = 1
+    elif n.isdigit():
+        v = int(n)
+    elif re.fullmatch(r"[ivxlc]+(er)?", n):
+        n = n[:-2] if n.endswith("er") else n
+        v, prec = 0, 0
+        for ch in reversed(n):
+            x = ROMAINS[ch]
+            v = v - x if x < prec else v + x
+            prec = max(prec, x)
+    else:
+        return (-1, 0)
+    return (v, SUFFIXES.index(suf) + 1 if suf in SUFFIXES else 0)
+
+
+def normaliser_chemins(chemins):
+    """Liste de chemins bruts -> liste de chemins nettoyés (un intitulé par niveau)."""
+    tous = [_groupes(c) for c in chemins]
+    seul = {}
+    for G in tous:
+        for g in G:
+            if len(g) == 1:
+                seul[g[0]] = seul.get(g[0], 0) + 1
+    sortie = []
+    for G in tous:
+        c = []
+        for g in G:
+            choix = g[0] if len(g) == 1 else max(enumerate(g), key=lambda x: (rang_numero(x[1]), seul.get(x[1], 0), not x[1].endswith("."), x[0]))[1]
+            if choix not in c:
+                c.append(choix)
+        sortie.append(c)
+    return sortie
 
 
 def cle_num(num):
@@ -237,14 +315,14 @@ def construire_codes(site_dir, cache_dir):
     except Exception:
         etat, age = None, 999
     cache_codes = os.path.join(cache_dir, "codes")
-    if etat and age < 7 and os.environ.get("RELEVE_FORCER_CODES") != "1" and os.path.isdir(cache_codes):
+    if etat and age < 7 and etat.get("format") == FORMAT and os.environ.get("RELEVE_FORCER_CODES") != "1" and os.path.isdir(cache_codes):
         for nom in os.listdir(cache_codes):
             open(os.path.join(out_dir, nom), "wb").write(open(os.path.join(cache_codes, nom), "rb").read())
         print(f"Codes : cache de {age} jour(s) réutilisé")
         return
     motifs = [i for c in CODES for i in c["ids"]]
     articles, suppr, source, erreurs = {}, set(), None, []
-    globale, incr = None, []
+    globale, incr, lus = None, [], []
     debut = time.time()
     try:
         racine, globale, incr = lister_archives()
@@ -263,6 +341,7 @@ def construire_codes(site_dir, cache_dir):
                                 break
                             f.write(b)
                 k = parcourir(tmp, motifs, articles, suppr)
+                lus.append(nom)
                 print(f"  {k} versions d'articles retenues")
             finally:
                 if not racine.startswith("file://") and os.path.exists(tmp):
@@ -273,7 +352,13 @@ def construire_codes(site_dir, cache_dir):
         source = "DILA, base LEGI (Légifrance)"
     except Exception as e:
         erreurs.append(f"serveur de la DILA : {e}")
-        annonce("warning", f"Serveur de la DILA indisponible ({e}) : bascule sur la copie publiée par la DINUM")
+        if lus and articles:
+            # l'archive complète a été lue : les codes restent valables, à jour jusqu'à la dernière mise à jour lue
+            m = re.search(r"(\d{4})(\d\d)(\d\d)-", lus[-1])
+            source = "DILA, base LEGI (Légifrance)" + (f", mises à jour lues jusqu'au {m.group(3)}/{m.group(2)}/{m.group(1)}" if m else "")
+            annonce("warning", f"Lecture de la DILA interrompue après {len(lus)} archive(s) ({e}) : codes publiés à jour au {lus[-1]}")
+        else:
+            annonce("warning", f"Serveur de la DILA indisponible ({e}) : bascule sur la copie publiée par la DINUM")
     if not articles:
         articles, suppr = {}, set()
         for c in CODES:
@@ -303,11 +388,12 @@ def construire_codes(site_dir, cache_dir):
     os.makedirs(cache_codes, exist_ok=True)
     resume = []
     for c in CODES:
-        mes = [a for a in articles.values() if a["_motif"] in c["ids"]]
+        mes = [a for a in articles.values() if a["_motif"] in c["ids"] and (a["debut"] or "9999") >= c.get("depuis", "")]
         par_num = {}
         for a in mes:
             par_num.setdefault(a["num"], []).append(a)
         sortie, toc, toc_i = [], [], {}
+        choisis = []
         for num, versions in par_num.items():
             versions.sort(key=lambda a: a["debut"] or "")
             courantes = [a for a in versions if a["etat"] in EN_VIGUEUR]
@@ -317,12 +403,8 @@ def construire_codes(site_dir, cache_dir):
             cur = en_cours[-1]
             avant = [a for a in versions if a is not cur and (a["fin"] or "") <= (cur["debut"] or "9999") and a["etat"] not in EN_VIGUEUR]
             prec = avant[-1] if avant else None
-            chemin = []
-            for t in cur["chemin"]:
-                if t not in toc_i:
-                    toc_i[t] = len(toc)
-                    toc.append(t)
-                chemin.append(toc_i[t])
+            choisis.append(cur["chemin"])
+            chemin = len(choisis) - 1
             src = version_issue_de(cur)
             item = {"n": num, "id": cur["id"], "t": cur["texte"], "d": cur["debut"], "e": cur["etat"], "p": chemin,
                     "nv": len(versions)}
@@ -335,6 +417,15 @@ def construire_codes(site_dir, cache_dir):
             if prec and prec["texte"] and prec["texte"] != cur["texte"]:
                 item["v"] = {"t": prec["texte"], "d": prec["debut"]}
             sortie.append(item)
+        propres = normaliser_chemins(choisis)
+        for item in sortie:
+            chemin = []
+            for t in propres[item["p"]]:
+                if t not in toc_i:
+                    toc_i[t] = len(toc)
+                    toc.append(t)
+                chemin.append(toc_i[t])
+            item["p"] = chemin
         sortie.sort(key=lambda x: cle_num(x["n"]))
         if not sortie:
             print(f"  {c['titre']} : aucun article trouvé")
@@ -351,7 +442,7 @@ def construire_codes(site_dir, cache_dir):
     idx = json.dumps({"maj": aujourd_hui, "source": source, "codes": resume}, ensure_ascii=False)
     open(os.path.join(out_dir, "index.json"), "w", encoding="utf-8").write(idx)
     open(os.path.join(cache_codes, "index.json"), "w", encoding="utf-8").write(idx)
-    json.dump({"date": datetime.datetime.now(datetime.timezone.utc).isoformat(), "globale": globale, "maj": len(incr)},
+    json.dump({"date": datetime.datetime.now(datetime.timezone.utc).isoformat(), "globale": globale, "maj": len(incr), "format": FORMAT},
               open(etat_path, "w", encoding="utf-8"))
 
 

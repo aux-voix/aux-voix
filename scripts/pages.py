@@ -2,7 +2,7 @@
 """Aux Voix : pages statiques lisibles par les moteurs de recherche (députés, votes, lois, articles de code),
 plan du site, robots.txt et flux RSS. Un seul interrupteur, "public" dans contenu/site.json, ouvre le site à
 l'indexation ; tant qu'il vaut false, chaque page porte noindex et robots.txt interdit l'exploration."""
-import datetime, html, json, os, re, statistics
+import datetime, html, json, os, re, statistics, unicodedata
 from email.utils import format_datetime
 
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"]
@@ -86,7 +86,7 @@ class Generateur:
 <title>{ESC(titre)} | Aux Voix</title><link rel="icon" type="image/svg+xml" href="/favicon.svg">{self.audience}<meta name="description" content="{ESC(description[:300])}">
 {robots}<link rel="canonical" href="{ESC(self.url + chemin)}">{alt}<link rel="stylesheet" href="/statique.css"></head><body>
 {'' if self.public else '<aside class="beta" aria-label="État du site"><div class="w">Version bêta du site.</div></aside>'}
-<header><div class="w"><a class="logo" href="/" aria-label="Aux Voix, accueil"><svg class="emb" viewBox="0 2 120 64" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"><path d="M43.0 60.0 A17 17 0 0 1 50.0 46.2"/><path d="M53.1 44.5 A17 17 0 0 1 66.9 44.5"/><path d="M70.0 46.2 A17 17 0 0 1 77.0 60.0"/><path d="M32.0 60.0 A28 28 0 0 1 43.5 37.3"/><path d="M48.6 34.4 A28 28 0 0 1 71.4 34.4"/><path d="M76.5 37.3 A28 28 0 0 1 88.0 60.0"/><path d="M21.0 60.0 A39 39 0 0 1 37.1 28.4"/><path d="M44.1 24.4 A39 39 0 0 1 75.9 24.4"/><path d="M82.9 28.4 A39 39 0 0 1 99.0 60.0"/><path d="M10.0 60.0 A50 50 0 0 1 30.6 19.5"/><path d="M39.7 14.3 A50 50 0 0 1 80.3 14.3"/><path d="M89.4 19.5 A50 50 0 0 1 110.0 60.0"/></g></svg><span><span class="wm1">Aux </span><span class="wm2">Voix</span></span></a><nav aria-label="Rubriques"><a href="/#/lois">Lois</a><a href="/#/votes">Votes</a><a href="/#/elus">Élus</a><a href="/#/groupes">Groupes</a><a href="/#/codes">Codes</a></nav></div></header>
+<header><div class="w"><a class="logo" href="/" aria-label="Aux Voix, accueil"><svg class="emb" viewBox="0 2 120 64" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"><path d="M43.0 60.0 A17 17 0 0 1 50.0 46.2"/><path d="M53.1 44.5 A17 17 0 0 1 66.9 44.5"/><path d="M70.0 46.2 A17 17 0 0 1 77.0 60.0"/><path d="M32.0 60.0 A28 28 0 0 1 43.5 37.3"/><path d="M48.6 34.4 A28 28 0 0 1 71.4 34.4"/><path d="M76.5 37.3 A28 28 0 0 1 88.0 60.0"/><path d="M21.0 60.0 A39 39 0 0 1 37.1 28.4"/><path d="M44.1 24.4 A39 39 0 0 1 75.9 24.4"/><path d="M82.9 28.4 A39 39 0 0 1 99.0 60.0"/><path d="M10.0 60.0 A50 50 0 0 1 30.6 19.5"/><path d="M39.7 14.3 A50 50 0 0 1 80.3 14.3"/><path d="M89.4 19.5 A50 50 0 0 1 110.0 60.0"/></g></svg><span><span class="wm1">Aux </span><span class="wm2">Voix</span></span></a><nav aria-label="Rubriques"><a href="/#/presidentielle">Présidentielle 2027</a><a href="/#/actualites">Actualités</a><a href="/#/lois">Lois</a><a href="/#/votes">Votes</a><a href="/#/elus">Députés</a><a href="/#/codes">Codes</a></nav></div></header>
 <main id="main"><div class="w">{corps}</div></main>
 <footer><div class="w"><p>Données officielles de l'Assemblée nationale et de la DILA (Légifrance), sous Licence Ouverte, mises à jour le {fd(self.aujourdhui)}.</p>
 <p><a href="/#/methode/sources">Sources</a><a href="/#/methode/mentions">Mentions légales</a><a href="/#/methode/accessibilite">Accessibilité</a><a href="/flux/">Flux de suivi</a></p></div></footer>
@@ -158,7 +158,7 @@ class Generateur:
             chemin = f"/depute/{x['id']}/"
             cit = [("Référence", f"{nom}, {qual.lower()}{(' (' + x['dept'] + ', ' + ordinal(x['circ']) + ' circonscription)') if x.get('dept') else ''}, groupe {g['nom']}, {d['label']}, Assemblée nationale."),
                    ("Avec la source", f"Aux Voix, fiche de {nom}, d'après les données de l'Assemblée nationale, {self.url}{chemin} (consulté le {fd(self.aujourdhui)}).")]
-            corps = f"""<p class="fil"><a href="/#/elus">Élus</a>, {ESC(d['label'])}</p><h1>{ESC(nom)}</h1>
+            corps = f"""<p class="fil"><a href="/#/elus">Députés</a>, {ESC(d['label'])}</p><h1>{ESC(nom)}</h1>
 <p class="lede">{qual}{'' if x['actif'] else ' (mandat terminé)'}, {ESC(lieu)}. Groupe : {ESC(g['nom'])} ({ESC(g['sigle'])}).</p>
 <a class="cta" href="/#/elu/{x['id']}">Ouvrir la fiche complète</a><a class="cta s" href="https://www.assemblee-nationale.fr/dyn/deputes/{x['id']}">Fiche officielle à l'Assemblée</a>
 <dl><dt>Parti de rattachement</dt><dd>{ESC(x.get('parti') or 'Aucun déclaré')}</dd><dt>Commission</dt><dd>{ESC(x.get('commission') or '—')}</dd><dt>Mandat</dt><dd>Depuis le {fd(x.get('debut'))}</dd>
@@ -314,11 +314,60 @@ class Generateur:
                 return format_datetime(datetime.datetime.fromisoformat(iso[:10] + "T12:00:00+00:00"))
             except Exception:
                 return ""
-        it = "".join(f"<item><title>{ESC(t)}</title><link>{ESC(u)}</link><guid>{ESC(u)}#{ESC(dt)}</guid><pubDate>{rfc(dt)}</pubDate><description>{ESC(dd)}</description></item>" for t, u, dt, dd in items)
+        def item(x):
+            t, u, dt, dd = x[:4]
+            guid = x[4] if len(x) > 4 else f"{u}#{dt}"   # identifiant stable : un même élément n'apparaît qu'une fois dans les lecteurs
+            pub = f"<pubDate>{rfc(dt)}</pubDate>" if dt else ""
+            return f'<item><title>{ESC(t)}</title><link>{ESC(u)}</link><guid isPermaLink="false">{ESC(guid)}</guid>{pub}<description>{ESC(dd)}</description></item>'
+        it = "".join(item(x) for x in items)
         xml = f'<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>{ESC(titre)}</title><link>{ESC(self.url)}</link><description>{ESC(desc)}</description><language>fr</language>{it}</channel></rss>'
         dest = os.path.join(self.site, chemin.strip("/"))
         os.makedirs(os.path.dirname(dest), exist_ok=True)
         open(dest, "w", encoding="utf-8").write(xml)
+
+    def flux_agenda(self):
+        a = json.load(open(os.path.join(self.site, "agenda.json"), encoding="utf-8"))
+        maj = (a.get("maj") or self.aujourdhui)[:10]
+        items, vus = [], set()
+        for x in a.get("s", []):
+            j = x["d"][:10]
+            if j < self.aujourdhui:
+                continue
+            for k, p in enumerate(x.get("p", [])):
+                if not re.match(r"(?i)vote solennel", p[0] or "") or (j, p[1]) in vus:
+                    continue
+                vus.add((j, p[1]))
+                objet = re.sub(r"(?i)^vote solennel (sur )?", "", p[1]).strip()
+                cle = re.sub(r"[^a-z0-9]+", "-", unicodedata.normalize("NFKD", objet.lower()).encode("ascii", "ignore").decode()).strip("-")[:80]
+                items.append((f"Vote solennel le {fd(j)} : {objet}", f"{self.url}/#/agenda", maj,
+                              f"Vote solennel inscrit à l'ordre du jour de l'Assemblée nationale le {fd(j)}. L'ordre du jour peut encore changer.",
+                              f"aux-voix-vote-solennel-{j}-{cle}"))
+        self.flux("/flux/agenda.xml", "Aux Voix, votes solennels à venir", "Les votes solennels annoncés à l'ordre du jour de l'Assemblée nationale.", items)
+
+    def flux_presidentielle(self):
+        items = []
+        try:
+            C = json.load(open(os.path.join(self.site, "contenu", "candidats.json"), encoding="utf-8"))
+        except Exception:
+            C = []
+        for c in C if isinstance(C, list) else []:
+            if c.get("publie") is not True:
+                continue
+            nom = f"{c.get('prenom', '')} {c.get('nom', '')}".strip()
+            dt = ((c.get("declaration") or {}).get("date") or "")[:10]
+            src = next((x.get("url") for x in c.get("sources") or [] if isinstance(x, dict) and str(x.get("url", "")).startswith("http")), "")
+            cle = re.sub(r"[^a-z0-9]+", "-", unicodedata.normalize("NFKD", nom.lower()).encode("ascii", "ignore").decode()).strip("-")
+            items.append((f"Candidature annoncée : {nom}" + (f" ({c['soutien']})" if c.get("soutien") else ""), f"{self.url}/#/candidats",
+                          dt, (c.get("note") or "Candidature déclarée publiquement.") + (f" Source : {src}" if src else ""), f"aux-voix-candidature-{cle}"))
+        try:
+            A = json.load(open(os.path.join(self.site, "actualites-officielles.json"), encoding="utf-8"))
+        except Exception:
+            A = []
+        for x in A if isinstance(A, list) else []:
+            if x.get("presi") and str(x.get("lien", "")).startswith("http"):
+                items.append((f"{x.get('source', '')} : {x.get('titre', '')}", x["lien"], x.get("date") or "", x.get("titre", ""), x["lien"]))
+        items.sort(key=lambda t: t[2] or "0000", reverse=True)
+        self.flux("/flux/presidentielle.xml", "Aux Voix, présidentielle 2027", "Les candidatures annoncées et les titres de LCP, Public Sénat et vie-publique.fr sur la campagne présidentielle.", items[:60])
 
     def finaliser(self):
         open(os.path.join(self.site, "statique.css"), "w", encoding="utf-8").write(CSS)
@@ -336,8 +385,18 @@ class Generateur:
         open(os.path.join(self.site, "sitemap.xml"), "w", encoding="utf-8").write(f'<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{index}</sitemapindex>')
         robots = f"User-agent: *\nAllow: /\nSitemap: {self.url}/sitemap.xml\n" if self.public else "# Site en version bêta : exploration désactivée jusqu'à l'ouverture publique.\nUser-agent: *\nDisallow: /\n"
         open(os.path.join(self.site, "robots.txt"), "w", encoding="utf-8").write(robots)
+        # flux de l'ordre du jour (votes solennels annoncés) et de la présidentielle
+        try:
+            self.flux_agenda()
+        except Exception as e:
+            print(f"Flux de l'ordre du jour : {e}")
+        try:
+            self.flux_presidentielle()
+        except Exception as e:
+            print(f"Flux de la présidentielle : {e}")
         # page d'accueil des flux
-        liens = "".join(f'<li><a href="/flux/{f}">{t}</a></li>' for f, t in (("votes.xml", "Votes importants de l'Assemblée"), ("lois.xml", "Étapes des lois")))
+        liens = "".join(f'<li><a href="/flux/{f}">{t}</a></li>' for f, t in (("votes.xml", "Votes importants de l'Assemblée"), ("lois.xml", "Étapes des lois"),
+                                                                              ("agenda.xml", "Prochains votes solennels annoncés à l'Assemblée"), ("presidentielle.xml", "Présidentielle 2027 : candidatures et actualités de la campagne")))
         self.page("/flux/", "Flux de suivi", "Suivre les votes, les lois et les modifications des codes avec un lecteur de flux RSS.",
                   f"<h1>Flux de suivi</h1><p class='lede'>Un flux RSS est une adresse que l'on ne lit pas dans le navigateur : on la colle dans une application de lecture (Feedly, Inoreader, Thunderbird, NetNewsWire…), qui vous prévient à chaque nouveauté. Si vous ouvrez un flux directement, votre navigateur affiche du code : c'est normal. Ajoutez ces adresses à votre lecteur pour être prévenu automatiquement. Chaque fiche de député et chaque code a aussi son propre flux.</p><ul class='l'>{liens}</ul>")
         # l'interrupteur s'applique aussi à la page principale du site
@@ -395,6 +454,12 @@ def generer(site_dir):
     for L in sorted(ix.get("legislatures", []), key=lambda x: (x.get("au") is not None, -(int(x.get("leg", 0) or 0)))):
         try:
             d = json.load(open(os.path.join(site_dir, L["fichier"]), encoding="utf-8"))
+            fv = os.path.join(site_dir, L.get("votes") or f"votes-{L['leg']}.json")
+            if os.path.exists(fv) and d.get("scrutins") and "v" not in d["scrutins"][0]:
+                vv = json.load(open(fv, encoding="utf-8"))
+                m = dict(zip(vv.get("n", []), vv.get("v", [])))
+                for x in d["scrutins"]:
+                    x["v"] = m.get(x["n"], "")
             g.legislature(d, d.get("courante", False))
         except Exception as e:
             print(f"Pages : {L.get('label')} ignorée ({e})")

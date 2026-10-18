@@ -418,7 +418,7 @@ def charger_lois(data, numeros, leg, am_textes=None, gi=None):
 
 
 # ---------- photos libres (Wikidata + Wikimedia Commons) ----------
-UA = "AuxVoix/2.0 (https://lereleve.github.io ; reutilisation de donnees ouvertes)"
+UA = "AuxVoix/2.0 (https://aux-voix.github.io ; reutilisation de donnees ouvertes)"
 LICENCES_LIBRES = re.compile(r"^(cc0|public domain|pd|domaine public|cc[ -]by(-sa)?([ -][\d.]+)?)", re.I)
 def obtenir(url, accept=None, timeout=120):
     h = {"User-Agent": UA}
@@ -885,11 +885,18 @@ def construire_legislature(L, acteurs, organes, aujourd_hui, credits=None):
         "amendements": {"total": amdt.get("total", 0), "date": amdt.get("date", "")[:10]},
         "scrutins": sortie,
     }
-    nom = f"data-{leg}.json"
+    # Le vote de chaque député (la moitié du poids) part dans un fichier à part, chargé seulement par les pages qui
+    # en ont besoin (fiche d'un député, détail d'un scrutin, comparateur, suivis) : l'accueil s'affiche deux fois plus vite.
+    nom, nom_v = f"data-{leg}.json", f"votes-{leg}.json"
+    votes = {"leg": leg, "n": [x["n"] for x in sortie], "v": [x.pop("v", "") for x in sortie]}
+    with open(os.path.join(SITE, nom_v), "w", encoding="utf-8") as f:
+        json.dump(votes, f, ensure_ascii=False, separators=(",", ":"))
     with open(os.path.join(SITE, nom), "w", encoding="utf-8") as f:
         json.dump(donnees, f, ensure_ascii=False, separators=(",", ":"))
-    print(f"  écrit : {nom} ({os.path.getsize(os.path.join(SITE, nom)) / 1e6:.1f} Mo) ; groupes : " + ", ".join(f"{g['sigle']} {g['effectif']}" for g in groupes if g["actif"]))
-    return {"leg": leg, "label": L["label"], "du": L["du"], "au": L["au"], "fichier": nom, "nb": len(scrutins),
+    for x, v in zip(sortie, votes["v"]):   # la suite du script (pages publiques) garde l'accès aux votes
+        x["v"] = v
+    print(f"  écrit : {nom} ({os.path.getsize(os.path.join(SITE, nom)) / 1e6:.1f} Mo) et {nom_v} ({os.path.getsize(os.path.join(SITE, nom_v)) / 1e6:.1f} Mo) ; groupes : " + ", ".join(f"{g['sigle']} {g['effectif']}" for g in groupes if g["actif"]))
+    return {"leg": leg, "label": L["label"], "du": L["du"], "au": L["au"], "fichier": nom, "votes": nom_v, "nb": len(scrutins),
             "premier": min(s["d"] for s in scrutins), "dernier": max(s["d"] for s in scrutins), "deputes": len(actifs), "lois": len(lois)}
 
 # ---------- contenus éditoriaux ----------
@@ -1004,6 +1011,26 @@ def main():
         actualites_officielles()
     except Exception as e:
         print(f"Actualités officielles : collecte interrompue ({e})")
+    # Ordre du jour à venir de l'Assemblée (prochaines séances, votes solennels annoncés) : facultatif
+    if not os.environ.get("RELEVE_LOCAL") or os.environ.get("RELEVE_AGENDA_LOCAL"):
+        try:
+            sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+            import agenda
+            tel = (lambda url, requis=True: open(os.environ["RELEVE_AGENDA_LOCAL"], "rb").read()) if os.environ.get("RELEVE_AGENDA_LOCAL") else telecharger
+            nb, votes = agenda.construire_agenda(SITE, tel, LEGISLATURES[0]["leg"])
+            os.makedirs(os.path.join(RACINE, "cache"), exist_ok=True)
+            open(os.path.join(RACINE, "cache", "agenda.json"), "wb").write(open(os.path.join(SITE, "agenda.json"), "rb").read())
+            bilan = f"{nb} séances à venir, dont {votes} votes solennels annoncés"
+            print("Agenda : " + bilan)
+            if os.environ.get("GITHUB_ACTIONS"):
+                print("::notice title=Agenda::" + bilan)
+        except Exception as e:
+            copie = os.path.join(RACINE, "cache", "agenda.json")
+            if os.path.exists(copie):
+                open(os.path.join(SITE, "agenda.json"), "wb").write(open(copie, "rb").read())   # les séances déjà passées sont masquées par le site
+            print(f"Agenda : lecture interrompue ({e}) ; {'dernière version connue republiée' if os.path.exists(copie) else 'rubrique vide jusqu’au prochain passage'}")
+            if os.environ.get("GITHUB_ACTIONS"):
+                print(f"::warning title=Agenda::{e}")
     # Communes et circonscriptions (trouver son député avec son code postal) : facultatif, ne bloque jamais le site
     if not os.environ.get("RELEVE_LOCAL") or os.environ.get("RELEVE_COMMUNES_LOCAL"):
         try:

@@ -170,7 +170,7 @@
   },
   "sources": [
    {
-    "nom": "liste de LCP (24 septembre 2026)",
+    "nom": "liste de LCP (14 octobre 2026)",
     "url": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373"
    },
    {
@@ -178,7 +178,7 @@
     "url": "https://www.leparisien.fr/elections/presidentielle/cest-par-un-contrat-qui-me-lie-aux-francais-que-je-presente-ma-candidature-bernard-cazeneuve-devoile-sa-lettre-pour-2027-16-07-2026-IZIQSDYXKBBT5MZBHIDBXGXFYE.php"
    }
   ],
-  "note": "Hors primaire.",
+  "note": "Hors primaire. Dans sa lettre du 16 juillet 2026, il écrit qu'il « présente [sa] candidature » ; au 14 octobre 2026, LCP le classe parmi les « prétendants » et Public Sénat parmi les candidats « pressentis ».",
   "propositions": [],
   "auteur": "Claude (assistant IA), relevé du 6 octobre 2026 d'après LCP",
   "verif": ""
@@ -458,7 +458,7 @@
     "url": "https://lcp.fr/actualites/presidentielle-2027-s-il-n-y-a-pas-de-primaire-moi-j-y-vais-annonce-francois-ruffin"
    }
   ],
-  "note": "Maintient sa candidature après l'abandon de la primaire unitaire de la gauche.",
+  "note": "A annoncé qu'il serait candidat s'il n'y avait pas de primaire unitaire de la gauche ; LCP le classe parmi les candidatures « sous conditions » (14 octobre 2026).",
   "propositions": [],
   "auteur": "Claude (assistant IA), relevé du 6 octobre 2026 d'après LCP",
   "verif": ""
@@ -480,9 +480,13 @@
    {
     "nom": "article de LCP",
     "url": "https://lcp.fr/actualites/les-adherents-du-ps-ont-decide-d-enterrer-la-primaire-marine-tondelier-acte-la-rupture"
+   },
+   {
+    "nom": "liste de LCP (14 octobre 2026)",
+    "url": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373"
    }
   ],
-  "note": "Maintient sa candidature après l'abandon de la primaire unitaire de la gauche.",
+  "note": "Maintient sa candidature après l'abandon de la primaire unitaire de la gauche. Selon LCP, un nouveau vote des adhérents des Écologistes est prévu en décembre 2026.",
   "propositions": [],
   "auteur": "Claude (assistant IA), relevé du 6 octobre 2026 d'après LCP",
   "verif": ""
@@ -512,79 +516,100 @@
   "verif": ""
  },
  {
-  "publie": false,
+  "publie": true,
   "statut": "annonce",
   "prenom": "Juan",
   "nom": "Branco",
   "soutien": "Sans étiquette",
   "declaration": {
-   "date": "",
-   "source": "https://www.france-vote.fr/actualites/candidats-presidentielle-2027-qui-se-presente"
+   "date": ""
   },
   "propositions": [],
-  "a_verifier": [
-   "https://www.france-vote.fr/actualites/candidats-presidentielle-2027-qui-se-presente",
-   "https://elections2027.com/candidats"
-  ],
-  "note": "Déclaré depuis décembre 2025 selon France-Vote : date exacte à préciser. Absent de la liste de référence de LCP : à vérifier.",
-  "auteur": "Claude (assistant IA), recherche du 5 octobre 2026",
-  "verif": ""
+  "note": "Candidature déclarée en décembre 2025 selon France-Vote. Absent de la liste de LCP.",
+  "auteur": "Claude (assistant IA), relevé du 18 octobre 2026",
+  "verif": "",
+  "sources": [
+   {
+    "nom": "liste de Public Sénat (14 octobre 2026)",
+    "url": "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque"
+   },
+   {
+    "nom": "France-Vote",
+    "url": "https://www.france-vote.fr/actualites/candidats-presidentielle-2027-qui-se-presente"
+   }
+  ]
  },
  {
-  "publie": false,
+  "publie": true,
   "statut": "annonce",
   "prenom": "Anasse",
   "nom": "Kazib",
   "soutien": "Révolution permanente",
   "declaration": {
-   "date": "",
-   "source": "https://www.france-vote.fr/actualites/candidats-presidentielle-2027-qui-se-presente"
+   "date": ""
   },
   "propositions": [],
-  "a_verifier": [
-   "https://www.france-vote.fr/actualites/candidats-presidentielle-2027-qui-se-presente",
-   "https://elections2027.com/candidats"
-  ],
-  "note": "Date de déclaration à préciser. Absent de la liste de référence de LCP : à vérifier.",
-  "auteur": "Claude (assistant IA), recherche du 5 octobre 2026",
-  "verif": ""
+  "note": "Candidature annoncée en juin 2026. Absent de la liste de LCP.",
+  "auteur": "Claude (assistant IA), relevé du 18 octobre 2026",
+  "verif": "",
+  "sources": [
+   {
+    "nom": "liste de Public Sénat (14 octobre 2026)",
+    "url": "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque"
+   },
+   {
+    "nom": "France 24",
+    "url": "https://www.france24.com/fr/france/20260524-france-presidentielle-2027-qui-sont-les-candidats-officiellement-declares"
+   }
+  ]
  },
  {
-  "publie": false,
+  "publie": true,
   "statut": "annonce",
   "prenom": "Selma",
   "nom": "Labib",
   "soutien": "NPA-Révolutionnaires",
   "declaration": {
-   "date": "",
-   "source": "https://www.france24.com/fr/france/20260524-france-presidentielle-2027-qui-sont-les-candidats-officiellement-declares"
+   "date": ""
   },
   "propositions": [],
-  "a_verifier": [
-   "https://www.france24.com/fr/france/20260524-france-presidentielle-2027-qui-sont-les-candidats-officiellement-declares",
-   "https://www.france-vote.fr/actualites/candidats-presidentielle-2027-qui-se-presente"
-  ],
-  "note": "Désignée en juin 2026 selon France 24 : date exacte à préciser. Absent de la liste de référence de LCP : à vérifier.",
-  "auteur": "Claude (assistant IA), recherche du 5 octobre 2026",
-  "verif": ""
+  "note": "Désignée par son organisation en juin 2026. Absente de la liste de LCP.",
+  "auteur": "Claude (assistant IA), relevé du 18 octobre 2026",
+  "verif": "",
+  "sources": [
+   {
+    "nom": "liste de Public Sénat (14 octobre 2026)",
+    "url": "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque"
+   },
+   {
+    "nom": "France 24",
+    "url": "https://www.france24.com/fr/france/20260524-france-presidentielle-2027-qui-sont-les-candidats-officiellement-declares"
+   }
+  ]
  },
  {
-  "publie": false,
-  "statut": "declare",
+  "publie": true,
+  "statut": "annonce",
   "prenom": "Mira",
   "nom": "Markovic",
   "soutien": "Parti animaliste",
   "declaration": {
-   "date": "2026-10-02",
-   "source": "https://elections2027.com/candidats"
+   "date": "2026-10-02"
   },
   "propositions": [],
-  "a_verifier": [
-   "https://elections2027.com/candidats"
-  ],
-  "note": "Une seule source trouvée : à confirmer. Absent de la liste de référence de LCP : à vérifier.",
-  "auteur": "Claude (assistant IA), recherche du 5 octobre 2026",
-  "verif": ""
+  "note": "Absente de la liste de LCP.",
+  "auteur": "Claude (assistant IA), relevé du 18 octobre 2026",
+  "verif": "",
+  "sources": [
+   {
+    "nom": "liste de Public Sénat (14 octobre 2026)",
+    "url": "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque"
+   },
+   {
+    "nom": "Elections 2027",
+    "url": "https://elections2027.com/candidats"
+   }
+  ]
  },
  {
   "publie": false,
@@ -600,8 +625,158 @@
   "a_verifier": [
    "https://elections2027.com/candidats"
   ],
-  "note": "Une seule source trouvée : à confirmer. Absent de la liste de référence de LCP : à vérifier.",
+  "note": "Une seule source trouvée ; absent des listes de LCP et de Public Sénat au 14 octobre 2026. Reste en brouillon.",
   "auteur": "Claude (assistant IA), recherche du 5 octobre 2026",
+  "verif": ""
+ },
+ {
+  "publie": true,
+  "statut": "annonce",
+  "prenom": "Raphaël",
+  "nom": "Glucksmann",
+  "soutien": "Place publique, Parti socialiste et Gauche républicaine et socialiste",
+  "declaration": {
+   "date": "2026-10-11"
+  },
+  "sources": [
+   {
+    "nom": "article de LCP",
+    "url": "https://lcp.fr/actualites/primaire-socialiste-vainqueur-des-le-1er-tour-raphael-glucksmann-sera-le-candidat-de-la"
+   },
+   {
+    "nom": "article de Public Sénat",
+    "url": "https://www.publicsenat.fr/actualites/politique/primaire-de-la-gauche-raphael-glucksmann-plie-le-match-et-remporte-le-scrutin-des-le-premier-tour-avec-66"
+   }
+  ],
+  "note": "Désigné le 11 octobre 2026 par la primaire du PS, de Place publique et de la GRS, dès le premier tour (66,17 % des suffrages exprimés).",
+  "propositions": [],
+  "auteur": "Claude (assistant IA), relevé du 18 octobre 2026",
+  "verif": ""
+ },
+ {
+  "publie": true,
+  "statut": "annonce",
+  "prenom": "Natacha",
+  "nom": "Polony",
+  "soutien": "Sans étiquette",
+  "declaration": {
+   "date": "2026-10-14"
+  },
+  "sources": [
+   {
+    "nom": "article de LCP",
+    "url": "https://lcp.fr/actualites/natacha-polony-annonce-sa-candidature-a-l-election-presidentielle-443808"
+   },
+   {
+    "nom": "liste de LCP (14 octobre 2026)",
+    "url": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373"
+   }
+  ],
+  "note": "Annonce faite sur France Inter. Journaliste et essayiste, ancienne directrice de la rédaction de l'hebdomadaire Marianne (2018-2024).",
+  "propositions": [],
+  "auteur": "Claude (assistant IA), relevé du 18 octobre 2026",
+  "verif": ""
+ },
+ {
+  "publie": false,
+  "statut": "annonce",
+  "prenom": "Jean",
+  "nom": "Lassalle",
+  "soutien": "Résistons",
+  "declaration": {
+   "date": ""
+  },
+  "propositions": [],
+  "a_verifier": [
+   "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque"
+  ],
+  "note": "Une seule source trouvée (Public Sénat, 14 octobre 2026) ; absent de la liste de LCP : à confirmer par une deuxième source.",
+  "auteur": "Claude (assistant IA), relevé du 18 octobre 2026",
+  "verif": ""
+ },
+ {
+  "publie": false,
+  "statut": "annonce",
+  "prenom": "Sylvain",
+  "nom": "Durif",
+  "soutien": "",
+  "declaration": {
+   "date": ""
+  },
+  "propositions": [],
+  "a_verifier": [
+   "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque"
+  ],
+  "note": "Une seule source trouvée (Public Sénat, 14 octobre 2026) ; absent de la liste de LCP : à confirmer par une deuxième source.",
+  "auteur": "Claude (assistant IA), relevé du 18 octobre 2026",
+  "verif": ""
+ },
+ {
+  "publie": false,
+  "statut": "annonce",
+  "prenom": "Manolo",
+  "nom": "Mlekuz",
+  "soutien": "Trajectoire",
+  "declaration": {
+   "date": ""
+  },
+  "propositions": [],
+  "a_verifier": [
+   "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque"
+  ],
+  "note": "Une seule source trouvée (Public Sénat, 14 octobre 2026) ; absent de la liste de LCP : à confirmer par une deuxième source.",
+  "auteur": "Claude (assistant IA), relevé du 18 octobre 2026",
+  "verif": ""
+ },
+ {
+  "publie": false,
+  "statut": "annonce",
+  "prenom": "Benoît",
+  "nom": "Mathieu",
+  "soutien": "",
+  "declaration": {
+   "date": ""
+  },
+  "propositions": [],
+  "a_verifier": [
+   "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque"
+  ],
+  "note": "Une seule source trouvée (Public Sénat, 14 octobre 2026) ; absent de la liste de LCP : à confirmer par une deuxième source.",
+  "auteur": "Claude (assistant IA), relevé du 18 octobre 2026",
+  "verif": ""
+ },
+ {
+  "publie": false,
+  "statut": "annonce",
+  "prenom": "Jean-François",
+  "nom": "Legendre",
+  "soutien": "A nous maintenant",
+  "declaration": {
+   "date": ""
+  },
+  "propositions": [],
+  "a_verifier": [
+   "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque"
+  ],
+  "note": "Une seule source trouvée (Public Sénat, 14 octobre 2026) ; absent de la liste de LCP : à confirmer par une deuxième source.",
+  "auteur": "Claude (assistant IA), relevé du 18 octobre 2026",
+  "verif": ""
+ },
+ {
+  "publie": false,
+  "statut": "annonce",
+  "prenom": "Gilles",
+  "nom": "Platret",
+  "soutien": "",
+  "declaration": {
+   "date": ""
+  },
+  "propositions": [],
+  "a_verifier": [
+   "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque"
+  ],
+  "note": "Public Sénat indique qu'il « a déclaré son intention ». Une seule source trouvée (Public Sénat, 14 octobre 2026) ; absent de la liste de LCP : à confirmer par une deuxième source.",
+  "auteur": "Claude (assistant IA), relevé du 18 octobre 2026",
   "verif": ""
  }
 ]
