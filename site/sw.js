@@ -1,9 +1,9 @@
 /* Aux Voix : fonctionnement hors connexion.
    Pages et données : réseau d'abord (toujours la version la plus récente), copie locale si le réseau ne répond pas.
    Polices, icônes et photos : copie locale d'abord, rafraîchie en arrière-plan. Rien n'est envoyé à un tiers. */
-const VERSION = "av-3";
-const BASE = ["./", "index.html", "favicon.svg", "manifest.webmanifest", "icones/icone-192.png", "icones/icone-512.png",
-  "fonts/Lexend.ttf", "fonts/SourceSans3.ttf", "fonts/SourceSans3-Italic.ttf"];
+const VERSION = "av-5";
+const BASE = ["./", "index.html", "app.js", "favicon.svg", "manifest.webmanifest", "icones/icone-192.png", "icones/icone-512.png",
+  "fonts/Lexend.woff2", "fonts/SourceSans3.woff2", "fonts/SourceSans3-Italic.woff2"];
 
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(VERSION).then(c => Promise.all(BASE.map(u => c.add(u).catch(() => null)))).then(() => self.skipWaiting()));
@@ -36,6 +36,6 @@ self.addEventListener("fetch", e => {
     e.respondWith(reseauDabord(req, accueil ? "index.html" : undefined));
     return;
   }
-  if (/\.json$/.test(url.pathname)) { e.respondWith(reseauDabord(req)); return; }
+  if (/\.(json|js)$/.test(url.pathname)) { e.respondWith(reseauDabord(req)); return; }
   if (/\.(ttf|woff2?|png|jpe?g|svg|webp|webmanifest)$/.test(url.pathname)) { e.respondWith(copieDabord(req)); return; }
 });

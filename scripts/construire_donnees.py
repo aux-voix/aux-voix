@@ -28,6 +28,8 @@ POLICES = {
     "SourceSans3.ttf": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourcesans3/SourceSans3%5Bwght%5D.ttf",
     "SourceSans3-Italic.ttf": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourcesans3/SourceSans3-Italic%5Bwght%5D.ttf",
 }
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import bilan as bilan_maj  # noqa: E402  bilan affiché en haut de la page du passage, onglet Actions
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = os.path.join(RACINE, "site")
 SEUIL = 20
@@ -706,14 +708,12 @@ def actualites_officielles():
         except Exception as e:
             bilan.append(f"{source} : indisponible ({e})")
             print(f"Actualités : {url} indisponible ({e})")
-            if os.environ.get("GITHUB_ACTIONS"):
-                print(f"::warning title=Actualités::{url} indisponible : {e}")
+            bilan_maj.noter("warning", "Actualités", f"{url} indisponible : {e}")
     items.sort(key=lambda x: x["date"], reverse=True)
     if items or not os.path.exists(sortie):
         json.dump(items[:160], open(sortie, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     print("Actualités : " + " ; ".join(bilan))
-    if os.environ.get("GITHUB_ACTIONS"):
-        print("::notice title=Actualités::" + " ; ".join(bilan))
+    bilan_maj.noter("notice", "Actualités", " ; ".join(bilan))
 
 # ---------- calcul d'une législature ----------
 def periodes(L, aujourd_hui):
@@ -981,19 +981,70 @@ def verifier_contenus():
         sys.exit(1)
     print("Contenus éditoriaux vérifiés.")
 
+# Caractères gardés dans les polices allégées : latin, accents, œ, ponctuation française (’ « » … espaces fines), €, flèches
+UNICODES_POLICES = "U+0000-017F,U+0192,U+02C6-02DC,U+0300-0328,U+2000-206F,U+20AC,U+2122,U+2190-2193,U+2212,U+2713,U+2715,U+25B2-25BC"
+
 def polices():
     dossier = os.path.join(SITE, "fonts")
     os.makedirs(dossier, exist_ok=True)
     for nom, url in POLICES.items():
         chemin = os.path.join(dossier, nom)
-        if os.path.exists(chemin) or os.environ.get("RELEVE_LOCAL"):
-            continue
-        data = telecharger(url, False)
-        if data:
-            open(chemin, "wb").write(data)
+        if not os.path.exists(chemin) and not os.environ.get("RELEVE_LOCAL"):
+            data = telecharger(url, False)
+            if data:
+                open(chemin, "wb").write(data)
+        # version WOFF2 allégée (5 à 10 fois plus légère) ; le site retombe sur le TTF si elle manque
+        leger = chemin[:-4] + ".woff2"
+        if os.path.exists(chemin) and not os.path.exists(leger):
+            try:
+                try:
+                    from fontTools import subset
+                    import brotli  # noqa: F401
+                except ImportError:
+                    import subprocess
+                    subprocess.run([sys.executable, "-m", "pip", "install", "--quiet", "fonttools", "brotli"], check=True)
+                    from fontTools import subset
+                opts = subset.Options()
+                opts.flavor, opts.layout_features = "woff2", ["*"]
+                f = subset.load_font(chemin, opts)
+                sub = subset.Subsetter(opts)
+                sub.populate(unicodes=subset.parse_unicodes(UNICODES_POLICES))
+                sub.subset(f)
+                subset.save_font(f, leger, opts)
+                print(f"Police allégée : {os.path.basename(leger)} ({os.path.getsize(leger) // 1024} Ko)")
+            except Exception as e:
+                print(f"Police {nom} : version allégée impossible ({e}), le TTF reste utilisé")
+
+def demarrage():
+    """demarrage.json : l'index et tous les contenus en un seul fichier, que la page demande dès son ouverture
+    (un seul aller-retour au lieu de neuf). Les fichiers séparés restent publiés et servent de secours."""
+    try:
+        d = {"index": json.load(open(os.path.join(SITE, "index.json"), encoding="utf-8")), "contenu": {}}
+        for nom in ("lois", "corrections", "site", "articles", "candidats", "actualites", "programmes"):
+            d["contenu"][nom] = json.load(open(os.path.join(SITE, "contenu", nom + ".json"), encoding="utf-8"))
+        try:
+            d["actualites"] = json.load(open(os.path.join(SITE, "actualites-officielles.json"), encoding="utf-8"))
+        except Exception:
+            d["actualites"] = []
+        with open(os.path.join(SITE, "demarrage.json"), "w", encoding="utf-8") as f:
+            json.dump(d, f, ensure_ascii=False, separators=(",", ":"))
+    except Exception as e:
+        bilan_maj.noter("warning", "Démarrage", f"demarrage.json non écrit ({e}) : la page lit les fichiers un par un")
+
+def estampiller():
+    """index.html charge app.js?v=<empreinte> : après chaque modification, les navigateurs prennent la nouvelle version."""
+    import hashlib
+    app, idx = os.path.join(SITE, "app.js"), os.path.join(SITE, "index.html")
+    if os.path.exists(app) and os.path.exists(idx):
+        v = hashlib.sha256(open(app, "rb").read()).hexdigest()[:10]
+        s = open(idx, encoding="utf-8").read()
+        s = re.sub(r'app\.js\?v=[^"]*"', f'app.js?v={v}"', s)
+        s = re.sub(r'href="accueil-\d+\.json"', f'href="accueil-{LEGISLATURES[0]["leg"]}.json"', s)   # fichier léger préchargé
+        open(idx, "w", encoding="utf-8").write(s)
 
 def main():
     verifier_contenus()
+    estampiller()
     polices()
     acteurs, organes = charger_annuaire()
     aujourd_hui = datetime.date.today().isoformat()
@@ -1022,27 +1073,39 @@ def main():
             open(os.path.join(RACINE, "cache", "agenda.json"), "wb").write(open(os.path.join(SITE, "agenda.json"), "rb").read())
             bilan = f"{nb} séances à venir, dont {votes} votes solennels annoncés"
             print("Agenda : " + bilan)
-            if os.environ.get("GITHUB_ACTIONS"):
-                print("::notice title=Agenda::" + bilan)
+            bilan_maj.noter("notice", "Agenda", bilan)
         except Exception as e:
             copie = os.path.join(RACINE, "cache", "agenda.json")
             if os.path.exists(copie):
                 open(os.path.join(SITE, "agenda.json"), "wb").write(open(copie, "rb").read())   # les séances déjà passées sont masquées par le site
             print(f"Agenda : lecture interrompue ({e}) ; {'dernière version connue republiée' if os.path.exists(copie) else 'rubrique vide jusqu’au prochain passage'}")
-            if os.environ.get("GITHUB_ACTIONS"):
-                print(f"::warning title=Agenda::{e}")
+            bilan_maj.noter("warning", "Agenda", str(e))
+    # Fichier léger de l'accueil (derniers votes, groupes, quelques textes) : facultatif, le site sait s'en passer
+    try:
+        import accueil
+        courante = next((x for x in index if x["leg"] == LEGISLATURES[0]["leg"]), None)
+        if courante:
+            nom_a, nb_s, nb_l, poids = accueil.ecrire_accueil(SITE, courante)
+            ix = json.load(open(os.path.join(SITE, "index.json"), encoding="utf-8"))
+            for x in ix["legislatures"]:
+                if x["leg"] == courante["leg"]:
+                    x["accueil"] = nom_a
+            with open(os.path.join(SITE, "index.json"), "w", encoding="utf-8") as f:
+                json.dump(ix, f, ensure_ascii=False)
+            bilan_maj.noter("notice", "Accueil", f"fichier léger écrit ({nb_s} votes récents, {nb_l} textes, {poids // 1024} Ko)")
+    except Exception as e:
+        bilan_maj.noter("warning", "Accueil", f"fichier léger non écrit ({e}) : l'accueil charge les données complètes")
+    demarrage()
     # Communes et circonscriptions (trouver son député avec son code postal) : facultatif, ne bloque jamais le site
     if not os.environ.get("RELEVE_LOCAL") or os.environ.get("RELEVE_COMMUNES_LOCAL"):
         try:
             sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
             import communes
             communes.construire_communes(SITE, os.environ.get("RELEVE_COMMUNES_LOCAL") or os.path.join(RACINE, "cache", "communes"))
-            if os.environ.get("GITHUB_ACTIONS"):
-                print("::notice title=Communes::table des communes et circonscriptions à jour")
+            bilan_maj.noter("notice", "Communes", "table des communes et circonscriptions à jour")
         except Exception as e:
             print(f"Communes : construction interrompue ({e}) ; la recherche par département reste disponible")
-            if os.environ.get("GITHUB_ACTIONS"):
-                print(f"::warning title=Communes::{e}")
+            bilan_maj.noter("warning", "Communes", str(e))
     # Codes consolidés (Constitution, Code civil…) : facultatif, ne bloque jamais le reste du site
     if not os.environ.get("RELEVE_LOCAL") or os.environ.get("RELEVE_LEGI_LOCAL"):
         try:
@@ -1067,8 +1130,7 @@ def main():
             ecrits, nouveaux, echecs, absents = textes.construire_textes(SITE, os.path.join(RACINE, "cache", "textes"), par_leg)
             bilan = f"{ecrits} textes expliqués ({nouveaux} nouveaux lus sur le site de l'Assemblée, {absents} pas encore en ligne, {echecs} échecs)"
             print("Textes : " + bilan)
-            if os.environ.get("GITHUB_ACTIONS"):
-                print(("::warning" if echecs and not nouveaux else "::notice") + " title=Textes::" + bilan)
+            bilan_maj.noter("warning" if echecs and not nouveaux else "notice", "Textes", bilan)
         except Exception as e:
             print(f"Textes : lecture interrompue ({e}) ; le reste du site est publié normalement")
     # Pages publiques (moteurs de recherche), plan du site, flux RSS : facultatif, ne bloque jamais le site
@@ -1078,6 +1140,8 @@ def main():
         pages.generer(SITE)
     except Exception as e:
         print(f"Pages publiques : génération interrompue ({e}) ; le site est publié normalement")
+    bilan_maj.noter("notice", "Votes", ", ".join(f"{x['label']} : {x['nb']} scrutins" for x in index[:1]) + f" ; données au {datetime.date.today().strftime('%d/%m/%Y')}")
+    bilan_maj.ecrire()
     print("\nTerminé : " + ", ".join(f"{x['label']} ({x['nb']} scrutins)" for x in index))
 
 if __name__ == "__main__":

@@ -298,10 +298,13 @@ def lire_hf(c, articles, cache_dir):
 
 
 def annonce(niveau, message):
-    """Affiche le message dans le journal et, sur GitHub, dans le résumé du passage."""
+    """Affiche le message dans le journal et, sur GitHub, dans le bilan du passage."""
     print(message)
-    if os.environ.get("GITHUB_ACTIONS"):
-        print(f"::{niveau} title=Codes::{message}")
+    try:
+        import bilan
+        bilan.noter(niveau, "Codes", message)
+    except ImportError:
+        pass
 
 
 def construire_codes(site_dir, cache_dir):
@@ -318,7 +321,7 @@ def construire_codes(site_dir, cache_dir):
     if etat and age < 7 and etat.get("format") == FORMAT and os.environ.get("RELEVE_FORCER_CODES") != "1" and os.path.isdir(cache_codes):
         for nom in os.listdir(cache_codes):
             open(os.path.join(out_dir, nom), "wb").write(open(os.path.join(cache_codes, nom), "rb").read())
-        print(f"Codes : cache de {age} jour(s) réutilisé")
+        annonce("notice", f"Codes : version de moins de 7 jours réutilisée ({age} jour(s)) ; relecture complète une fois par semaine")
         return
     motifs = [i for c in CODES for i in c["ids"]]
     articles, suppr, source, erreurs = {}, set(), None, []

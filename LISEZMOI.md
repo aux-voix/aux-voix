@@ -65,7 +65,7 @@ Le champ « url » de `site/contenu/site.json` vaut https://aux-voix.github.io. 
 ## Présidentielle 2027 : candidats et actualités
 
 Les fiches se remplissent dans `site/contenu/candidats.json` et `site/contenu/actualites.json`, sur le modèle de `modeles/fiche-candidat.json` et `modeles/fiche-actualite.json`.
-Règles, vérifiées automatiquement : chaque information a une source en https ; l'auteur et le vérificateur sont deux personnes différentes ; une fiche n'apparaît que si « publie » vaut true.
+Règles, vérifiées automatiquement : chaque information a une source en https ; une fiche n'apparaît que si « publie » vaut true ; pour les propositions, les programmes et les actualités rédigées, l'auteur et le vérificateur sont deux personnes différentes. Une simple annonce de candidature (statut « annonce ») doit seulement citer sa source : le site dit qu'elle est relevée d'après LCP et Public Sénat, sans parler de double vérification.
 Règles de neutralité, à respecter par la personne qui rédige : propositions reprises des documents officiels des candidats, sans reformulation qui en change le sens ; mêmes thèmes pour tous ; pas d'adjectif ni de jugement ; pas de « pressentis » ni de sondages ; la liste officielle du Conseil constitutionnel remplace les candidatures déclarées dès sa publication.
 
 ## Outils pour le public
@@ -86,3 +86,10 @@ Règles de neutralité, à respecter par la personne qui rédige : propositions 
 - **Codes** : les intitulés de parties fusionnés ou en double (ancien et nouvel intitulé d'un même titre ou chapitre) sont nettoyés par `scripts/codes.py` ; la Constitution ne garde que les articles de celle de 1958.
 - **Poids des données** : le vote de chaque député est rangé dans `votes-17.json`, à part de `data-17.json`. L'accueil n'en a pas besoin et s'affiche donc deux fois plus vite ; les pages qui en ont besoin (fiche d'un député, détail d'un scrutin, comparateur, suivis, « Comment on vérifie ») le chargent à la demande, dès qu'on survole ou touche un lien vers elles.
 - **Tests automatiques** : `scripts/tests/` (lancés par `python -m unittest discover -s scripts/tests`) et une vérification de la syntaxe du site tournent avant chaque mise à jour. Si l'un échoue, la mise à jour s'arrête et le site en ligne reste tel quel : l'onglet Actions indique lequel.
+- **Bilan de chaque mise à jour** : onglet « Actions » du dépôt, cliquer sur le passage le plus récent (« Mise à jour quotidienne »). Le tableau « Bilan de la mise à jour » s'affiche en haut de la page, une ligne par rubrique (Votes, Actualités, Agenda, Communes, Textes, Codes) : ✅ tout va bien, ⚠️ à regarder.
+- **Vitesse** (mesurée avec Lighthouse, téléphone lent simulé) : l'accueil et les pages publiques (`/depute/…`, `/loi/…`, `/vote/…`, `/code/…`) obtiennent 97 à 100 sur 100. Comment :
+  - `site/app.js` contient tout le code du site ; `index.html` le charge avec une empreinte (`app.js?v=…`) posée automatiquement à chaque mise à jour, pour que les navigateurs prennent toujours la dernière version. Après une modification de `app.js`, rien d'autre à faire.
+  - `accueil-17.json` (environ 15 Ko compressé) suffit pour l'accueil, la présidentielle, les candidats, l'agenda, les codes, le lexique, le quiz, la méthode… Le fichier complet `data-17.json` n'est chargé que pour les pages de votes, de lois et de députés, ou dès qu'on s'apprête à les ouvrir.
+  - `demarrage.json` regroupe l'index et tous les fichiers de `site/contenu/` en un seul téléchargement ; il est refait à chaque mise à jour. Les fichiers séparés restent la référence à modifier.
+  - Les polices sont converties en WOFF2 allégé (5 à 10 fois plus léger que le TTF) à chaque mise à jour.
+  - Le haut de l'accueil est écrit directement dans `index.html` : il s'affiche avant même le chargement du code. S'il change dans `app.js` (fonction `pageHome`), le recopier aussi dans `index.html` (bloc `<main>`).

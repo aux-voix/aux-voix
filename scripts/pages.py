@@ -33,8 +33,8 @@ def mediane(v):
     return statistics.median(v) if v else None
 
 
-CSS = """@font-face{font-family:"Lexend";src:url("/fonts/Lexend.ttf") format("truetype");font-weight:300 800;font-display:swap}
-@font-face{font-family:"Source Sans 3";src:url("/fonts/SourceSans3.ttf") format("truetype");font-weight:200 900;font-display:swap}
+CSS = """@font-face{font-family:"Lexend";src:url("/fonts/Lexend.woff2") format("woff2"),url("/fonts/Lexend.ttf") format("truetype");font-weight:300 800;font-display:swap}
+@font-face{font-family:"Source Sans 3";src:url("/fonts/SourceSans3.woff2") format("woff2"),url("/fonts/SourceSans3.ttf") format("truetype");font-weight:200 900;font-display:swap}
 :root{--t:#1B1D1F;--t2:#5A6169;--b:#DDE1E5;--b2:#EDF0F3;--g:#F5F7F9;--bl:#123B6D;--bl2:#1B58A3;--blc:#EAF0F7;--pour:#1F6FB2;--contre:#B42318;--abst:#8A9099}
 *{box-sizing:border-box}body{margin:0;font:400 16.5px/1.6 "Source Sans 3",Helvetica,Arial,sans-serif;color:var(--t);background:#fff}
 a{color:var(--bl2);text-underline-offset:.18em}h1,h2,h3{font-family:"Lexend","Source Sans 3",Arial,sans-serif;font-weight:600;letter-spacing:-.015em;line-height:1.22;margin:0}
