@@ -1154,7 +1154,7 @@ function pageArticle(slug,num){
 }
 
 /* ============ Citer : référence, phrase prête pour un devoir ou un article, lien permanent ============ */
-const BASEURL=()=>String((SITE&&SITE.url)||"https://aux-voix.github.io").replace(/\/$/,"");
+const BASEURL=()=>String((SITE&&SITE.url)||"https://auxvoix.fr").replace(/\/$/,"");
 const estRetenu=s=>s.sol||s.moc||estEnsemble(s);
 function ouvrirCiter(titre,lignes){
   openDialog("Citer : "+titre,`<div class="citer">${lignes.map((l,i)=>`<div class="citer-l"><p class="lab">${esc(l[0])}</p><p class="citer-t" id="ct-${i}">${esc(l[1])}</p><button type="button" class="btn" data-ct="${i}">Copier</button></div>`).join("")}<p class="meta">Indiquez toujours la date de consultation : les données sont mises à jour deux fois par jour.</p></div>`);
@@ -2142,17 +2142,33 @@ document.addEventListener("click",e=>{const b=e.target.closest&&e.target.closest
   try{if(localStorage.getItem("skipgc")==="t")localStorage.removeItem("skipgc");else localStorage.setItem("skipgc","t");}catch(e){}etatMesure();});
 /* ============ Routeur ============ */
 const main=$("#main");let first=true;
+/* Changement de page animé. Sur téléphone (styles dans index.html), la page glisse : vers la gauche quand on avance,
+   vers la droite quand on revient en arrière. Le sens vient d'un numéro rangé dans l'historique du navigateur : une page
+   déjà numérotée et plus ancienne = retour. Si le navigateur anime déjà lui-même le retour (glissement du doigt sur
+   iPhone), on n'ajoute rien. Sinon (rechargement de la même page, données arrivées), simple fondu. */
+let TRANS=null,NAV_I=1,NAV_MAX=1,UA_TRANS=false,VT_ID=0;
+try{const st=history.state;if(st&&st.avI){NAV_I=NAV_MAX=st.avI;}else history.replaceState(Object.assign({},st,{avI:1}),"");}catch(e){}
+addEventListener("popstate",e=>{UA_TRANS=e.hasUAVisualTransition===true;});
+function noterNavigation(){const st=history.state,i=st&&st.avI;let sens="avant";
+  if(i){sens=i<NAV_I?"retour":"avant";NAV_I=i;NAV_MAX=Math.max(NAV_MAX,i);}
+  else{NAV_MAX++;NAV_I=NAV_MAX;try{history.replaceState(Object.assign({},st,{avI:NAV_I}),"");}catch(e){}}
+  TRANS={sens,ua:UA_TRANS};UA_TRANS=false;}
+function changerVue(fn){const t=TRANS;TRANS=null;
+  if(first||PRM||!document.startViewTransition||(t&&t.ua)){fn();return;}
+  const r=document.documentElement,id=++VT_ID;r.dataset.sens=t?t.sens:"fondu";
+  const fin=()=>{if(id===VT_ID)delete r.dataset.sens;};
+  try{document.startViewTransition(fn).finished.finally(fin);}catch(e){fin();fn();}}
 function route(){
   if(!DATA)return;
   const h=location.hash.replace(/^#\/?/,""),qi=h.indexOf("?"),path=qi<0?h:h.slice(0,qi),q=new URLSearchParams(qi<0?"":h.slice(qi+1));
   const parts=path.split("/").filter(Boolean).map(decodeURIComponent),p0=parts[0];let pg,nav="";
   if(DATA.lite){const cle=cleGraine(p0,parts,q);
-    if(cle!==DATA.graine){const h0=location.hash,lent=setTimeout(()=>{if(location.hash===h0){main.innerHTML=`<div class="wrap loading"><b>Chargement</b>Lecture des données officielles de l'Assemblée nationale…</div>`;frTypo(main);}},120);
+    if(cle!==DATA.graine){const h0=location.hash,lent=setTimeout(()=>{if(location.hash===h0)changerVue(()=>{main.innerHTML=`<div class="wrap loading"><b>Chargement</b>Lecture des données officielles de l'Assemblée nationale…</div>`;frTypo(main);});},120);
       const suite=()=>{clearTimeout(lent);if(location.hash===h0)route();};
       (cle&&(grainesOK()||cle==="accueil"&&IDX&&LEG===IDX.legislatures[0].leg)?chargerGraine(cle).then(d=>{if(DATA.lite&&location.hash===h0)prepare(d);}):Promise.reject(new Error("pas de graine")))
         .catch(()=>chargerComplet()).then(suite).catch(e=>{clearTimeout(lent);erreur(e);});return;}}
   if(!DATA.lite&&BESOIN_VOTES.includes(p0)&&!VOTES_OK){const h0=location.hash;
-    main.innerHTML=`<div class="wrap loading"><b>Chargement</b>Lecture du vote de chaque député…</div>`;frTypo(main);
+    changerVue(()=>{main.innerHTML=`<div class="wrap loading"><b>Chargement</b>Lecture du vote de chaque député…</div>`;frTypo(main);});
     chargerVotes().then(()=>{if(location.hash===h0)route();majSuivisFolio();}).catch(erreur);return;}
   if(p0==="votes"&&q.get("q")){VF.q=q.get("q");VF.type="all";VF.per="all";VF.res="all";}
   switch(p0){case undefined:pg=pageHome();break;case "lois":pg=pageLois();nav="lois";break;case "loi":pg=pageLoi(parts[1]);nav="lois";break;
@@ -2173,9 +2189,9 @@ function route(){
   if(p0==="methode"&&parts[1]){const el=document.getElementById(parts[1]);if(el){el.scrollIntoView();first=false;return;}}
   if(!first){window.scrollTo({top:0,behavior:"instant"});const h1=$("h1",main);if(h1){h1.setAttribute("tabindex","-1");h1.focus({preventScroll:true});}}first=false;
   };
-  if(!first&&document.startViewTransition&&!PRM)document.startViewTransition(rendre);else rendre();
+  changerVue(rendre);
 }
-window.addEventListener("hashchange",route);
+window.addEventListener("hashchange",()=>{noterNavigation();route();});
 
 /* ============ Démarrage et changement de législature ============ */
 (function(){const apply=t=>{if(t==="auto")delete document.documentElement.dataset.theme;else document.documentElement.dataset.theme=t;$$("#theme-seg button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.th===t?"true":"false"));};

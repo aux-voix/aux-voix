@@ -5,7 +5,7 @@ import datetime, html, io, json, os, re, sys, tarfile, time, urllib.request
 import xml.etree.ElementTree as ET
 
 BASE = "https://echanges.dila.gouv.fr/OPENDATA/LEGI/"
-UA = "AuxVoix/2.0 (https://aux-voix.github.io ; reutilisation de donnees ouvertes)"
+UA = "AuxVoix/2.0 (https://auxvoix.fr ; reutilisation de donnees ouvertes)"
 # identifiant LEGI du code (et identifiant JORF d'origine, qui sert parfois de dossier), abréviation d'usage
 CODES = [
     {"slug": "constitution", "hf": ["legi_constitution", "legi_constitution_du_4_octobre_1958"], "ids": ["LEGITEXT000006071194", "JORFTEXT000000571356"], "abr": "Const.", "titre": "Constitution du 4 octobre 1958", "code": False,

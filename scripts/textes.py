@@ -80,7 +80,7 @@ def couper(p, n):
 
 
 def lire(uid):
-    req = urllib.request.Request(URL.format(uid), headers={"User-Agent": "Mozilla/5.0 (compatible; AuxVoix/1.0; +https://aux-voix.github.io)"})
+    req = urllib.request.Request(URL.format(uid), headers={"User-Agent": "Mozilla/5.0 (compatible; AuxVoix/1.0; +https://auxvoix.fr)"})
     with urllib.request.urlopen(req, timeout=60) as r:
         brut = r.read(MAX_OCTETS)
     return brut.decode("utf-8", errors="replace")

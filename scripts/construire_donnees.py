@@ -420,7 +420,7 @@ def charger_lois(data, numeros, leg, am_textes=None, gi=None):
 
 
 # ---------- photos libres (Wikidata + Wikimedia Commons) ----------
-UA = "AuxVoix/2.0 (https://aux-voix.github.io ; reutilisation de donnees ouvertes)"
+UA = "AuxVoix/2.0 (https://auxvoix.fr ; reutilisation de donnees ouvertes)"
 LICENCES_LIBRES = re.compile(r"^(cc0|public domain|pd|domaine public|cc[ -]by(-sa)?([ -][\d.]+)?)", re.I)
 def obtenir(url, accept=None, timeout=120):
     h = {"User-Agent": UA}
@@ -657,7 +657,7 @@ def lien_propre(lien):
     return urllib.parse.urlunsplit((p.scheme, p.netloc, p.path, urllib.parse.urlencode(q), ""))
 
 def lire_flux(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; AuxVoix/1.0; +https://aux-voix.github.io)",
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; AuxVoix/1.0; +https://auxvoix.fr)",
                                                "Accept": "application/rss+xml, application/xml;q=0.9, */*;q=0.8", "Accept-Language": "fr-FR,fr;q=0.9"})
     with urllib.request.urlopen(req, timeout=60) as r:
         brut = r.read()

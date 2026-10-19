@@ -503,6 +503,31 @@ main{view-transition-name:page;min-height:calc(100vh - 60px)}
   details.nom::details-content{transition:none}
   ::view-transition-old(page),::view-transition-new(page){animation:none}
 }
+/* Téléphone : la page glisse comme dans une application (vers la gauche en avançant, vers la droite en revenant).
+   Seule la partie visible de l'écran est animée, l'en-tête reste immobile. Réglage du sens : app.js (changerVue). */
+@media (max-width:768px) and (prefers-reduced-motion:no-preference){
+  main{view-transition-name:none}
+  .mast{view-transition-name:mast}
+  ::view-transition-group(mast){animation:none}
+  ::view-transition-old(mast){display:none}
+  ::view-transition-new(mast){animation:none}
+  /* l'ancienne page s'efface d'abord, la nouvelle arrive ensuite : les deux textes ne se chevauchent presque pas */
+  ::view-transition-old(root){animation:vtTelOut .15s cubic-bezier(.4,0,1,1) both}
+  ::view-transition-new(root){animation:vtTelIn .3s cubic-bezier(0,0,.2,1) .09s both}
+  :root[data-sens="retour"]::view-transition-old(root){animation-name:vtTelOutR}
+  :root[data-sens="retour"]::view-transition-new(root){animation-name:vtTelInR}
+  :root[data-sens="fondu"]::view-transition-old(root){animation:vtFonduOut .14s ease-out both}
+  :root[data-sens="fondu"]::view-transition-new(root){animation:vtFonduIn .24s ease-out both}
+  /* retour au toucher : ce qu'on touche s'atténue un instant, comme sur iPhone */
+  a,button,summary,label{-webkit-tap-highlight-color:transparent}
+  a:active,summary:active{opacity:.55;transition:none}
+}
+@keyframes vtTelOut{to{opacity:0;transform:translateX(-30px)}}
+@keyframes vtTelIn{from{opacity:0;transform:translateX(30px)}}
+@keyframes vtTelOutR{to{opacity:0;transform:translateX(30px)}}
+@keyframes vtTelInR{from{opacity:0;transform:translateX(-30px)}}
+@keyframes vtFonduOut{to{opacity:0}}
+@keyframes vtFonduIn{from{opacity:0}}
 
 /* Le chemin d'un texte : étapes franchies, étape en cours, étapes restantes */
 .chemin{list-style:none;margin:18px 0 14px;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(172px,1fr));row-gap:26px}

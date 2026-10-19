@@ -66,13 +66,14 @@ site en ligne reste inchangé.
 > Seriez-vous intéressés par un échange ? Bien cordialement.
 
 
-## Adresse du site : https://aux-voix.github.io
+## Adresse du site : https://auxvoix.fr
 
-Organisation GitHub « aux-voix », dépôt « aux-voix.github.io » (renommés le 6 octobre 2026 ; le nom « auxvoix » sans tiret est pris sur GitHub).
-Le champ « url » de `site/contenu/site.json` vaut https://aux-voix.github.io. C'est la seule adresse écrite dans le site :
+Nom de domaine acheté chez OVHcloud le 19 octobre 2026 (titulaire non publié par l'Afnic). Le site reste hébergé par
+GitHub Pages : organisation « aux-voix », dépôt « aux-voix.github.io » ; l'ancienne adresse aux-voix.github.io renvoie
+vers auxvoix.fr. Le champ « url » de `site/contenu/site.json` vaut https://auxvoix.fr. C'est la seule adresse écrite dans le site :
 liens des pages publiques, plan du site, flux RSS, code d'intégration, fiches imprimées et compteur de visites la lisent toutes.
 
-### Passer à un nom de domaine (auxvoix.fr, libre le 19 octobre 2026)
+### Brancher le nom de domaine (fait le 19 octobre 2026 ; à refaire seulement en cas de changement)
 
 Le site reste hébergé par GitHub Pages (gratuit, mis à jour deux fois par jour, HTTPS automatique) : on n'achète que le nom.
 

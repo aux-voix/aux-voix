@@ -77,7 +77,7 @@ class Generateur:
         except Exception:
             pass
         self.public = bool(cfg.get("public"))
-        self.url = (cfg.get("url") or "https://aux-voix.github.io").rstrip("/")
+        self.url = (cfg.get("url") or "https://auxvoix.fr").rstrip("/")
         from urllib.parse import urlparse
         self.base = urlparse(self.url).path.rstrip("/")   # « /Auxvoix.github.io » si le site n'est pas à la racine
         gc = str((cfg.get("mesure_audience") or {}).get("goatcounter") or "").strip().lower()
