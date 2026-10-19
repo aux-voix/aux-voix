@@ -24,11 +24,20 @@ deux fois par jour (vers 7 h 15 et 21 h 15) ; codes et amendements relus une foi
      21 juin 2004, art. 1-1, II). Ce régime est réservé aux sites sans publicité, vente ni don.
    - **Éditeur identifié** : passer `anonyme` à `false` et remplir `editeur`, `directeur_publication` et `contact`.
    Si les mentions sont incomplètes, la mise à jour s'arrête avec un message d'erreur et le site en ligne n'est pas modifié.
-2. Faire relire les mentions légales et la méthode par un juriste (une clinique juridique universitaire convient).
+2. Faire relire les mentions légales et la méthode par un juriste. Gratuit et sans rendez-vous possible :
+   - clinique juridique de l'Université Paris Cité (faculté de droit, 10 avenue Pierre Larousse, Malakoff) :
+     clinique.juridique.deg@u-paris.fr ; consultations gratuites pour particuliers, entreprises et associations ;
+   - clinique juridique de Paris 8, à la BnF (site François-Mitterrand, salle de l'Aquarium), le mercredi de 16 h 30 à 19 h 30,
+     d'octobre à mai, pour tout public ; lacliniquejuridique@gmail.com, 01 49 40 65 29 ;
+   - clinique juridique de l'Université Paris-Panthéon-Assas : cliniquejuridique.contact@gmail.com ;
+   - pour la question des données personnelles seulement : CNIL, 01 53 73 22 22 (touche 2, lundi, mardi, jeudi et
+     vendredi de 10 h à 12 h) ou formulaire « Je veux poser une question » sur cnil.fr.
+   L'anonymat vaut à l'égard du public, pas de son conseil : on peut écrire à une clinique depuis son adresse personnelle.
+   (Avec SimpleLogin, écrire un nouveau message depuis l'alias du site demande l'offre payante.)
 3. Dans le même fichier, passer `"public": false` à `"public": true`. C'est le seul interrupteur :
    au passage suivant, toutes les pages deviennent visibles des moteurs de recherche, le plan du site est
    publié et `robots.txt` autorise l'exploration. Pour refermer, remettre `false`.
-4. Déclarer `https://aux-voix.github.io/sitemap.xml` dans Google Search Console (gratuit) pour accélérer l'indexation.
+4. Déclarer `<adresse du site>/sitemap.xml` (par exemple `https://auxvoix.fr/sitemap.xml`) dans Google Search Console (gratuit) pour accélérer l'indexation.
 
 ## Pages publiques et liens permanents
 
@@ -60,7 +69,47 @@ site en ligne reste inchangé.
 ## Adresse du site : https://aux-voix.github.io
 
 Organisation GitHub « aux-voix », dépôt « aux-voix.github.io » (renommés le 6 octobre 2026 ; le nom « auxvoix » sans tiret est pris sur GitHub).
-Le champ « url » de `site/contenu/site.json` vaut https://aux-voix.github.io. Pour un nom de domaine acheté (auxvoix.fr), remplacer ce champ et saisir le domaine dans Settings, Pages, « Custom domain ».
+Le champ « url » de `site/contenu/site.json` vaut https://aux-voix.github.io. C'est la seule adresse écrite dans le site :
+liens des pages publiques, plan du site, flux RSS, code d'intégration, fiches imprimées et compteur de visites la lisent toutes.
+
+### Passer à un nom de domaine (auxvoix.fr, libre le 19 octobre 2026)
+
+Le site reste hébergé par GitHub Pages (gratuit, mis à jour deux fois par jour, HTTPS automatique) : on n'achète que le nom.
+
+1. Acheter le nom chez OVHcloud, sans hébergement ni option (5,99 € TTC la première année, puis 9,35 € TTC par an,
+   tarifs relevés le 19 octobre 2026). Pour un particulier, l'Afnic ne publie ni le nom ni l'adresse du titulaire.
+2. GitHub, organisation aux-voix : Settings, Pages, « Add a domain », saisir `auxvoix.fr`. GitHub donne un
+   enregistrement TXT `_github-pages-challenge-aux-voix.auxvoix.fr` : l'ajouter dans OVH (Zone DNS), puis « Verify ».
+   Cela empêche quiconque d'utiliser le domaine sur GitHub. Garder cet enregistrement ensuite.
+3. Dépôt aux-voix.github.io : Settings, Pages, « Custom domain » : `auxvoix.fr`, Save. (Pas de fichier CNAME à créer :
+   le site est publié par GitHub Actions, qui l'ignore.)
+4. OVH, Zone DNS de auxvoix.fr : supprimer les enregistrements A et AAAA du nom nu et de `www` créés par OVH, puis ajouter :
+   - A (nom vide) : 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153 (quatre lignes) ;
+   - AAAA (nom vide) : 2606:50c0:8000::153, 2606:50c0:8001::153, 2606:50c0:8002::153, 2606:50c0:8003::153 ;
+   - CNAME `www` vers `aux-voix.github.io.`
+   Ne pas toucher aux enregistrements MX, SPF ou DKIM si une adresse e-mail OVH est utilisée.
+5. Attendre que GitHub affiche « DNS check successful » (quelques minutes à 24 heures), puis cocher « Enforce HTTPS »
+   dès que la case est disponible.
+6. Seulement alors, mettre `"url": "https://auxvoix.fr"` dans `site/contenu/site.json` et téléverser. L'ancienne adresse
+   aux-voix.github.io redirige ensuite toute seule vers la nouvelle.
+
+## Compteur de visites (GoatCounter, sans cookie)
+
+Éteint tant que `"goatcounter"` est vide dans `site/contenu/site.json` (bloc `mesure_audience`). Pour l'allumer :
+
+1. Créer un compte sur goatcounter.com (gratuit pour un site comme celui-ci). Code du site : par exemple `auxvoix`,
+   ce qui donne le tableau de bord https://auxvoix.goatcounter.com. Adresse e-mail : l'alias SimpleLogin convient.
+2. Écrire ce code dans `site/contenu/site.json` : `"mesure_audience": {"goatcounter": "auxvoix"}`, puis téléverser.
+
+Ce qui se passe alors :
+- aucun script n'est chargé depuis un autre site : `app.js` (pages du site) et `statique.js` (pages publiques) envoient
+  un seul appel par page à https://auxvoix.goatcounter.com/count, une fois la page affichée (vitesse inchangée) ;
+- l'adresse envoyée ne contient jamais ce qui suit « ? » (recherche tapée, filtres) ;
+- rien n'est compté ailleurs qu'à l'adresse du champ « url » (ni l'aperçu, ni une copie de test), ni pour un visiteur
+  qui a refusé (bouton dans Méthode, Données personnelles) ou dont le navigateur envoie Do Not Track ou Global
+  Privacy Control ;
+- la page Données personnelles et le pied de page décrivent automatiquement ce qui est compté.
+Pour ne pas compter tes propres visites : clique « Ne pas compter mes visites » dans Méthode, sur chacun de tes appareils.
 
 ## Présidentielle 2027 : candidats et actualités
 
@@ -70,7 +119,7 @@ Règles de neutralité, à respecter par la personne qui rédige : propositions 
 
 ## Outils pour le public
 
-- **Lexique** (`#/lexique`) : les mots techniques sont soulignés en pointillé dans tout le site et s'expliquent au toucher. Les définitions sont dans `site/index.html` (tableau `LEX`).
+- **Lexique** (`#/lexique`) : les mots techniques sont soulignés en pointillé dans tout le site et s'expliquent au toucher. Les définitions sont dans `site/app.js` (tableau `LEX`).
 - **Quiz** (`#/quiz`) et **Aux Voix en classe** (`#/classe`) : questions de fonctionnement et fiches d'activités imprimables (tableaux `QUIZ` et `CLASSE`).
 - **Trouver son député** par commune ou code postal : `site/communes.json`, construit à chaque mise à jour par `scripts/communes.py` à partir des résultats officiels des législatives 2024 par bureau de vote (gardés en cache) et de l'API Découpage administratif. En cas de panne, le choix par département reste proposé.
 - **Mes suivis** (`#/suivis`) : sans compte, enregistrés dans le navigateur de chaque personne.
@@ -87,7 +136,8 @@ Règles de neutralité, à respecter par la personne qui rédige : propositions 
 - **Poids des données** : le vote de chaque député est rangé dans `votes-17.json`, à part de `data-17.json`. L'accueil n'en a pas besoin et s'affiche donc deux fois plus vite ; les pages qui en ont besoin (fiche d'un député, détail d'un scrutin, comparateur, suivis, « Comment on vérifie ») le chargent à la demande, dès qu'on survole ou touche un lien vers elles.
 - **Tests automatiques** : `scripts/tests/` (lancés par `python -m unittest discover -s scripts/tests`) et une vérification de la syntaxe du site tournent avant chaque mise à jour. Si l'un échoue, la mise à jour s'arrête et le site en ligne reste tel quel : l'onglet Actions indique lequel.
 - **Bilan de chaque mise à jour** : onglet « Actions » du dépôt, cliquer sur le passage le plus récent (« Mise à jour quotidienne »). Le tableau « Bilan de la mise à jour » s'affiche en haut de la page, une ligne par rubrique (Votes, Actualités, Agenda, Communes, Textes, Codes) : ✅ tout va bien, ⚠️ à regarder.
-- **Vitesse** (mesurée avec Lighthouse, téléphone lent simulé) : l'accueil et les pages publiques (`/depute/…`, `/loi/…`, `/vote/…`, `/code/…`) obtiennent 97 à 100 sur 100. Comment :
+- **Vitesse** (mesurée avec Lighthouse, téléphone lent simulé) : l'accueil et les pages publiques (`/depute/…`, `/loi/…`, `/vote/…`, `/code/…`) obtiennent 97 à 100 sur 100 ; depuis la V0.27, les pages du site ouvertes directement par un lien (fiche d'un député, vote, loi, listes) obtiennent 93 à 100, contre 53 à 80 avant ; le comparateur, qui doit lire tous les scrutins, 80 à 90. Comment :
+  - **Graines** (`scripts/graines.py`, dossier `g/17/` du site, environ 4 200 petits fichiers refaits à chaque mise à jour) : chaque page a son petit fichier, qui contient seulement ce qu'elle affiche. Une fiche de député ouverte par un lien lit environ 25 Ko au lieu de 1,7 Mo. Le fichier complet n'est téléchargé qu'au premier geste qui en a besoin (filtrer une liste, chercher dans le site, choisir un autre député dans le comparateur). Le tronc commun (groupes, périodes, médianes) est dans `demarrage.json`. Les règles de choix recopient celles de `app.js` : si l'on change par exemple le nombre de « derniers votes » d'une fiche (25), il faut le changer aussi dans `graines.py`. Les tests de `scripts/tests` vérifient ces règles avant chaque mise à jour. Si l'écriture des graines échoue, le bilan l'indique et le site charge simplement les données complètes, comme avant.
   - `site/app.js` contient tout le code du site ; `index.html` le charge avec une empreinte (`app.js?v=…`) posée automatiquement à chaque mise à jour, pour que les navigateurs prennent toujours la dernière version. Après une modification de `app.js`, rien d'autre à faire.
   - `accueil-17.json` (environ 15 Ko compressé) suffit pour l'accueil, la présidentielle, les candidats, l'agenda, les codes, le lexique, le quiz, la méthode… Le fichier complet `data-17.json` n'est chargé que pour les pages de votes, de lois et de députés, ou dès qu'on s'apprête à les ouvrir.
   - `demarrage.json` regroupe l'index et tous les fichiers de `site/contenu/` en un seul téléchargement ; il est refait à chaque mise à jour. Les fichiers séparés restent la référence à modifier.

@@ -1015,11 +1015,14 @@ def polices():
             except Exception as e:
                 print(f"Police {nom} : version allégée impossible ({e}), le TTF reste utilisé")
 
-def demarrage():
+def demarrage(graines_info=None):
     """demarrage.json : l'index et tous les contenus en un seul fichier, que la page demande dès son ouverture
-    (un seul aller-retour au lieu de neuf). Les fichiers séparés restent publiés et servent de secours."""
+    (un seul aller-retour au lieu de neuf). Les fichiers séparés restent publiés et servent de secours.
+    Il porte aussi le tronc commun des graines (groupes, périodes, médianes), partagé par toutes les pages rapides."""
     try:
         d = {"index": json.load(open(os.path.join(SITE, "index.json"), encoding="utf-8")), "contenu": {}}
+        if graines_info:
+            d["graines"] = graines_info
         for nom in ("lois", "corrections", "site", "articles", "candidats", "actualites", "programmes"):
             d["contenu"][nom] = json.load(open(os.path.join(SITE, "contenu", nom + ".json"), encoding="utf-8"))
         try:
@@ -1095,7 +1098,18 @@ def main():
             bilan_maj.noter("notice", "Accueil", f"fichier léger écrit ({nb_s} votes récents, {nb_l} textes, {poids // 1024} Ko)")
     except Exception as e:
         bilan_maj.noter("warning", "Accueil", f"fichier léger non écrit ({e}) : l'accueil charge les données complètes")
-    demarrage()
+    # Graines : un petit fichier par page (fiche d'un député, vote, loi, listes) pour les liens ouverts directement
+    graines_info = None
+    try:
+        import graines
+        courante = next((x for x in index if x["leg"] == LEGISLATURES[0]["leg"]), None)
+        if courante:
+            graines_info, gb = graines.ecrire_graines(SITE, courante)
+            bilan_maj.noter("notice", "Pages rapides", f"{gb['fichiers']} petits fichiers écrits ({gb['octets'] // 1048576} Mo)")
+    except Exception as e:
+        graines_info = None
+        bilan_maj.noter("warning", "Pages rapides", f"non écrites ({e}) : les pages ouvertes directement chargent les données complètes")
+    demarrage(graines_info)
     # Communes et circonscriptions (trouver son député avec son code postal) : facultatif, ne bloque jamais le site
     if not os.environ.get("RELEVE_LOCAL") or os.environ.get("RELEVE_COMMUNES_LOCAL"):
         try:
@@ -1126,7 +1140,7 @@ def main():
                 except Exception:
                     continue
                 par_leg[x["leg"]] = [(l["id"], l.get("tx"), (l.get("prom") or {}).get("date") or (l["etapes"][-1][2] if l.get("etapes") else ""))
-                                     for l in dl.get("lois", []) if l.get("tx")]
+                                     for l in dl.get("lois", [])]   # toutes : un fichier par loi, même sans texte
             ecrits, nouveaux, echecs, absents = textes.construire_textes(SITE, os.path.join(RACINE, "cache", "textes"), par_leg)
             bilan = f"{ecrits} textes expliqués ({nouveaux} nouveaux lus sur le site de l'Assemblée, {absents} pas encore en ligne, {echecs} échecs)"
             print("Textes : " + bilan)

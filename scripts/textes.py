@@ -94,10 +94,14 @@ def construire_textes(site_dir, cache_dir, lois_par_leg, max_nouveaux=350, duree
         dossier = os.path.join(site_dir, "textes", str(leg))
         os.makedirs(dossier, exist_ok=True)
         for ident, uid, _ in sorted(L, key=lambda x: x[2] or "", reverse=True):  # les textes actifs d'abord
+            if not re.fullmatch(r"[A-Za-z0-9]+", ident or ""):
+                continue
+            x = None
             if not uid or not re.fullmatch(r"[A-Z0-9]+", uid):
+                # pas de texte déposé connu : un petit fichier « absent » plutôt qu'une erreur 404 dans la console
+                json.dump({"absent": 1}, open(os.path.join(dossier, ident + ".json"), "w", encoding="utf-8"))
                 continue
             cache = os.path.join(cache_dir, uid + ".json")
-            x = None
             if os.path.exists(cache):
                 try:
                     x = json.load(open(cache, encoding="utf-8"))
@@ -120,4 +124,6 @@ def construire_textes(site_dir, cache_dir, lois_par_leg, max_nouveaux=350, duree
             if x is not None:
                 json.dump(x, open(os.path.join(dossier, ident + ".json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
                 ecrits += 1
+            else:   # pas encore en ligne à l'Assemblée : la page de la loi l'indique, sans erreur
+                json.dump({"absent": 1}, open(os.path.join(dossier, ident + ".json"), "w", encoding="utf-8"))
     return ecrits, nouveaux, echecs, absents

@@ -35,27 +35,102 @@ const offDos=l=>`https://www.assemblee-nationale.fr/dyn/${LEG}/dossiers/${encode
 function getJSON(url,fallback,cache){return fetch(url,{cache:cache||"no-cache"}).then(r=>{if(!r.ok)throw new Error(url+" : "+r.status);return r.json();}).catch(e=>{if(fallback!==undefined)return fallback;throw e;});}
 /* Accueil : fichier léger (accueil-17.json). Le fichier complet n'est téléchargé que pour une autre page, ou dès qu'on s'y apprête */
 let COMPLET_P=null;
-/* Pages qui s'affichent avec le seul fichier léger (elles n'utilisent ni la liste des votes ni celle des textes) */
+/* Pages qui s'affichent avec le seul fichier léger de l'accueil (elles n'utilisent ni la liste des votes ni celle des textes) */
 const LITE_OK=new Set(["presidentielle","candidats","programmes","elections","campagne","agenda","signaler","lexique","quiz","classe","comprendre","methode","codes","code"]);
-function liteSuffit(p0){if(!p0)return true;if(p0==="candidats")return !PCAND.some(c=>c.depute);return LITE_OK.has(p0);}
-const p0DuHash=()=>decodeURIComponent((location.hash.replace(/^#\/?/,"").split(/[/?]/)[0])||"");
 function chargerComplet(){
   if(!DATA||!DATA.lite)return Promise.resolve();
   if(!COMPLET_P){const leg=LEG,L=IDX.legislatures.find(x=>x.leg===leg);
-    COMPLET_P=getJSON(L.fichier).then(d=>{if(leg!==LEG||!DATA.lite)return;prepare(d);buildSearch();majSuivisFolio();}).finally(()=>{COMPLET_P=null;});}
+    /* fiche d'un député ouverte depuis sa graine : ses votes doivent arriver en même temps que le reste */
+    const avecVotes=/^(elu\/|cmp)/.test(DATA.graine||"")&&!!L.votes;
+    COMPLET_P=Promise.all([getJSON(L.fichier),avecVotes?getJSON(L.votes):null]).then(([d,vx])=>{if(leg!==LEG||!DATA.lite)return;prepare(d);if(vx)appliquerVotes(vx);buildSearch();majSuivisFolio();}).finally(()=>{COMPLET_P=null;});}
   return COMPLET_P;}
+/* ============ Graines : le petit fichier d'une page ouverte directement (lien partagé, favori) ============
+   Chaque graine (dossier g/17/, écrit par scripts/graines.py) contient seulement ce que la page affiche. Le tronc commun
+   (groupes, périodes, médianes) arrive avec demarrage.json. Le fichier complet n'est lu qu'au premier geste qui en a besoin. */
+let BASEG=null;const GFETCH={};
+function getG(url){return GFETCH[url]||(GFETCH[url]=getJSON(url,undefined,"default").catch(e=>{delete GFETCH[url];throw e;}));}
+const LISTE_DEFAUT={lois:()=>!LF.q&&LF.st==="all"&&LF.sort.k==="date"&&LF.sort.dir===-1,
+  votes:()=>!VF.q&&VF.type==="all"&&VF.per==="all"&&VF.res==="all"&&VF.sort.k==="n"&&VF.sort.dir===-1,
+  elus:()=>!EF.q&&EF.g==="all"&&!EF.d&&!EF.anc&&EF.sort.k==="nom"&&EF.sort.dir===1};
+/* Quelle graine suffit pour cette page ? null : il faut les données complètes */
+function cleGraine(p0,parts,q){
+  if(!p0)return "accueil";
+  if(p0==="candidats")return PCAND.some(c=>c.depute)?null:"accueil";
+  if(LITE_OK.has(p0)||p0==="groupes"||p0==="simulateur")return "accueil";
+  const id=parts[1]||"";
+  switch(p0){
+    case "elu":return /^PA\d+$/.test(id)?"elu/"+id:null;
+    case "scrutin":return /^\d+$/.test(id)?"scrutin/"+Math.floor(+id/50):null;
+    case "loi":return /^[A-Za-z0-9]+$/.test(id)?"loi/"+id:null;
+    case "groupe":return /^PO\d+$/.test(id)?"groupe/"+id:null;
+    case "lois":return LISTE_DEFAUT.lois()?"lois":null;
+    case "votes":return !q.get("q")&&LISTE_DEFAUT.votes()?"votes":null;
+    case "elus":case "classements":return LISTE_DEFAUT.elus()?"elus":null;
+    case "actualites":return "actualites";
+    case "verifier":return "verifier";
+    case "suivis":return lireSuivis().length?null:"accueil";   /* rien de suivi : la page n'a besoin d'aucune donnée */
+    case "semaine":{const d=q.get("d");return d?(/^\d{4}-\d\d-\d\d$/.test(d)?"semaine/"+lundiDe(d):null):"semaine";}
+    case "calendrier":{const m=q.get("m");return m?(/^\d{4}-\d\d$/.test(m)?"calendrier/"+m:null):"calendrier";}
+    case "themes":{const t=q.get("t");return t?(/^[a-z]+$/.test(t)?"themes/"+t:null):"themes";}
+    /* comparateur : une comparaison déjà réglée pendant la visite garde son état, avec les données complètes */
+    case "comparateur":{if(CMP.a&&CMP.leg===LEG)return null;const a=q.get("a"),b=q.get("b");if(q.get("g")||!a)return "cmp";
+      return /^PA\d+$/.test(a)&&(!b||/^PA\d+$/.test(b))?"cmp/"+a+(b?"/"+b:""):null;}
+  }
+  return null;
+}
+function routeDe(href){const h=String(href||"").replace(/^#\/?/,""),qi=h.indexOf("?"),path=qi<0?h:h.slice(0,qi);
+  const parts=path.split("/").filter(Boolean).map(x=>{try{return decodeURIComponent(x);}catch(e){return x;}});return {p0:parts[0],parts,q:new URLSearchParams(qi<0?"":h.slice(qi+1))};}
+/* La graine n'existe que pour la législature en cours, et seulement si elle vient de la même mise à jour que le tronc commun */
+const grainesOK=()=>!!(BASEG&&IDX&&LEG===IDX.legislatures[0].leg);
+function chargerGraine(cle){
+  const L=IDX.legislatures[0];
+  if(cle==="accueil"){if(!L.accueil)return Promise.reject(new Error("pas de fichier léger"));
+    return getG(L.accueil).then(d=>Object.assign(JSON.parse(JSON.stringify(d)),{graine:"accueil"}));}
+  if(!BASEG)return Promise.reject(new Error("pas de graines"));
+  if(/^cmp(\/|$)/.test(cle))return chargerCmp(cle);
+  return getG(BASEG.dir+cle+".json").then(g=>{if(!g||g.maj!==BASEG.maj)throw new Error("graine d'une autre mise à jour");
+    return g.noms?getG(BASEG.dir+"noms.json").then(N=>{if(N.maj!==BASEG.maj)throw new Error("noms d'une autre mise à jour");return assembler(cle,g,N);}):assembler(cle,g,null);});
+}
+function assembler(cle,g,N){
+  const x=JSON.parse(JSON.stringify(g)),d=Object.assign(JSON.parse(JSON.stringify(BASEG.base)),{lois:[],scrutins:[],deputes:[],personnes:{}},x,{lite:true,graine:cle});
+  if(N){const D=JSON.parse(JSON.stringify(N.deputes));(x.dep||[]).forEach(p=>{const k=D.findIndex(y=>y.id===p.id);if(k>=0)D[k]=p;});d.deputes=D;}
+  /* fiche d'un député : seul son vote est dans la graine, à sa place dans la liste des députés */
+  if(x.vi!=null){const avant="-".repeat(x.vi),apres="-".repeat(Math.max(0,d.deputes.length-x.vi-1));d.scrutins.forEach(s=>{s.v=avant+(s.vi||"-")+apres;delete s.vi;});}
+  ["dep","noms","vi"].forEach(k=>delete d[k]);
+  return d;
+}
+/* Comparateur : tous les scrutins (sans détail), la position de chaque groupe, et le vote des deux députés comparés */
+function chargerCmp(cle){const p=cle.split("/"),a=p[1],b=p[2];
+  return Promise.all([getG(BASEG.dir+"cmp.json"),getG(BASEG.dir+"noms.json")]).then(([g,N])=>{if(g.maj!==BASEG.maj||N.maj!==BASEG.maj)throw new Error("graine d'une autre mise à jour");
+    const ids=[];if(a){const A=N.deputes.find(x=>x.id===a);if(!A)throw new Error("député inconnu");ids.push(a);
+      const act=N.deputes.filter(x=>x.actif),L=act.length?act:N.deputes,B=b&&b!==a&&N.deputes.find(x=>x.id===b)||L.find(x=>x.id!==a&&x.groupe!==A.groupe);if(B)ids.push(B.id);}
+    return Promise.all(ids.filter(x=>!(g.cols||{})[x]).map(x=>getG(BASEG.dir+"v/"+x+".json").then(c=>{if(c.maj!==BASEG.maj)throw new Error("vote d'une autre mise à jour");return [x,c.v];})))
+      .then(V=>{const cols=Object.assign({},g.cols||{});V.forEach(([x,v])=>{cols[x]=v;});
+        const d=assembler(cle,{maj:g.maj,graine:g.graine,noms:1,scrutins:g.scrutins},N),idx={};d.deputes.forEach((x,i)=>{idx[x.id]=i;});
+        const C=Object.keys(cols).filter(x=>idx[x]!=null).map(x=>[idx[x],cols[x]]);
+        d.scrutins.forEach((s,k)=>{const v={};C.forEach(([i,col])=>{v[i]=col[k];});s.v=v;s.m=[];
+          s.g=[];(g.gp||[]).forEach((pos,gi)=>{const c=pos[k];if(c>="1"&&c<="3")s.g.push([gi,0,+c,0,0,0,0]);});});
+        return d;});});}
+/* Page ouverte depuis une graine : au premier geste sur un filtre, un tri ou « afficher plus », on lit tout puis on redessine */
+function siGraine(redessiner,attente){if(!DATA||!DATA.lite)return false;
+  if(attente)attente();chargerComplet().then(()=>{if(!DATA.lite)redessiner();}).catch(erreur);return true;}
+/* Les filtres et les tris d'une page en graine : le fichier complet part dès qu'on s'en approche */
+["pointerover","touchstart","focusin"].forEach(ev=>document.addEventListener(ev,e=>{if(!DATA||!DATA.lite)return;
+  if(e.target.closest&&e.target.closest("#main [data-complet]"))chargerComplet().catch(()=>{});},{passive:true}));
 /* Le vote de chaque député est dans un fichier à part (votes-17.json), chargé seulement quand une page en a besoin */
 let VOTES_OK=false,VOTES_P=null;
 const BESOIN_VOTES=["elu","scrutin","comparateur","verifier","suivis"];
 function chargerVotes(){
   if(VOTES_OK)return Promise.resolve();
   if(!VOTES_P){const leg=LEG,L=IDX&&IDX.legislatures.find(x=>x.leg===leg),f=(L&&L.votes)||`votes-${leg}.json`;
-    VOTES_P=getJSON(f).then(x=>{if(leg!==LEG)return;const m={},vide="-".repeat(DEP.length);(x.n||[]).forEach((num,i)=>{m[num]=x.v[i];});
-      SC.forEach(s=>{s.v=m[s.n]||vide;});VOTES_OK=true;}).catch(e=>{VOTES_P=null;throw e;});}
+    VOTES_P=getJSON(f).then(x=>{if(leg!==LEG||DATA.lite)return;appliquerVotes(x);}).catch(e=>{VOTES_P=null;throw e;});}
   return VOTES_P;}
+function appliquerVotes(x){const m={},vide="-".repeat(DEP.length);(x.n||[]).forEach((num,i)=>{m[num]=x.v[i];});SC.forEach(s=>{s.v=m[s.n]||vide;});VOTES_OK=true;}
 function prepare(d){
+  if(d.lite&&!d.graine)d.graine="accueil";
   DATA=d;LEG=d.legislature;COURANTE=!!d.courante;PER=d.periodes;MED=d.medianes;
-  VOTES_P=null;VOTES_OK=!!(d.scrutins&&d.scrutins.length&&typeof d.scrutins[0].v==="string");
+  /* une graine contient le vote de chaque député pour les scrutins de sa page : rien d'autre à télécharger */
+  VOTES_P=null;VOTES_OK=!!(d.graine&&d.graine!=="accueil")||!!(d.scrutins&&d.scrutins.length&&typeof d.scrutins[0].v==="string");
   GRP=d.groupes.map((g,i)=>Object.assign(g,{i}));
   DEP=d.deputes.map((x,i)=>Object.assign(x,{i,nc:(x.prenom+" "+x.nom).trim()}));DEPID={};DEP.forEach(x=>DEPID[x.id]=x);
   SC=d.scrutins;SCN={};SC.forEach(s=>{SCN[s.n]=s;s.ti=String(s.ti||"").replace(/\s*\.\s*$/,"");s.sol=s.t==="SPS";s.moc=s.t==="MOC"||/motion de censure/i.test(s.ti);s.adopte=/adopt/i.test(s.so);s.per=perOf(s.d);});SC.forEach(s=>{Object.defineProperty(s,"th",{configurable:true,enumerable:true,get(){const v=themeOf(this);Object.defineProperty(this,"th",{value:v,writable:true,enumerable:true});return v;}});});
@@ -315,13 +390,14 @@ function pageLois(){
     {k:"votes",label:"Votes publics",wd:"11%",hide:"hs",num:1,desc:1,get:l=>l.scrutins.length,render:l=>n(l.scrutins.length)}];
   return {title:"Lois",html:`<div class="wrap sec"><h1 class="h1s">Lois</h1>
     <p class="lede intro">Les textes de loi de la ${esc(DATA.label)}, d'après les dossiers législatifs officiels : leur parcours entre l'Assemblée et le Sénat, les votes des députés et, une fois promulgués, le lien vers le Journal officiel.${COURANTE?' <a href="flux/lois.xml">Suivre les lois (RSS)</a>.':""}</p>
-    ${LOIS.length?`<div class="filters"><div><label class="lab" for="lf-q">Mot-clé</label><input id="lf-q" type="search" placeholder="retraites, budget, agriculture…"></div><div><label class="lab" for="lf-s">Statut</label><select id="lf-s"><option value="all">Tous</option><option value="prom">Promulguées</option><option value="cours">En cours</option></select></div><p class="meta" id="lf-c" aria-live="polite" style="margin:0 0 10px"></p></div><div id="lf-out"></div>`:`<p class="empty-note">Les dossiers législatifs de cette législature ne sont pas disponibles dans les données ouvertes. Les votes restent consultables dans <a href="#/votes">Votes</a>.</p>`}</div>`,
+    ${LOIS.length?`<div class="filters" data-complet><div><label class="lab" for="lf-q">Mot-clé</label><input id="lf-q" type="search" placeholder="retraites, budget, agriculture…"></div><div><label class="lab" for="lf-s">Statut</label><select id="lf-s"><option value="all">Tous</option><option value="prom">Promulguées</option><option value="cours">En cours</option></select></div><p class="meta" id="lf-c" aria-live="polite" style="margin:0 0 10px"></p></div><div id="lf-out" data-complet></div>`:`<p class="empty-note">Les dossiers législatifs de cette législature ne sont pas disponibles dans les données ouvertes. Les votes restent consultables dans <a href="#/votes">Votes</a>.</p>`}</div>`,
   after(){if(!LOIS.length)return;$("#lf-q").value=LF.q;$("#lf-s").value=LF.st;
-    const draw=()=>{const q=norm(LF.q.trim());let L=LOIS.filter(l=>(LF.st==="all"||(LF.st==="prom")===!!l.prom)&&(!q||norm(l.titre).includes(q)));
-      $("#lf-c").textContent=frStr(`${n(L.length)} ${plural(L.length,"texte")}`);L=sortRows(L,cols,LF.sort);
-      $("#lf-out").innerHTML=tableHTML(cols,L.slice(0,LF.lim),LF.sort)+(L.length>LF.lim?`<button type="button" class="btn btn-q more" id="lf-m">Afficher 60 textes de plus</button>`:"");frTypo($("#lf-out"));frTypo($("#lf-c"));
+    const draw=debut=>{if(debut!==true&&siGraine(draw,()=>{$("#lf-c").textContent=frStr("Chargement de tous les textes…");}))return;
+      const q=norm(LF.q.trim());let L=LOIS.filter(l=>(LF.st==="all"||(LF.st==="prom")===!!l.prom)&&(!q||norm(l.titre).includes(q)));const tot=DATA.graine==="lois"?DATA.vue.tot:L.length;
+      $("#lf-c").textContent=frStr(`${n(tot)} ${plural(tot,"texte")}`);L=sortRows(L,cols,LF.sort);
+      $("#lf-out").innerHTML=tableHTML(cols,L.slice(0,LF.lim),LF.sort)+(tot>LF.lim?`<button type="button" class="btn btn-q more" id="lf-m">Afficher 60 textes de plus</button>`:"");frTypo($("#lf-out"));frTypo($("#lf-c"));
       const m=$("#lf-m");if(m)m.addEventListener("click",()=>{LF.lim+=60;draw();});};
-    bindSort($("#lf-out"),LF.sort,cols,draw);$("#lf-q").addEventListener("input",e=>{LF.q=e.target.value;LF.lim=60;draw();});$("#lf-s").addEventListener("change",e=>{LF.st=e.target.value;LF.lim=60;draw();});draw();}};
+    bindSort($("#lf-out"),LF.sort,cols,draw);$("#lf-q").addEventListener("input",e=>{LF.q=e.target.value;LF.lim=60;draw();});$("#lf-s").addEventListener("change",e=>{LF.st=e.target.value;LF.lim=60;draw();});draw(true);}};
 }
 /* Ce que représente un texte, en une phrase tirée de son titre officiel */
 function natureTexte(titre){
@@ -446,10 +522,10 @@ function pageLoi(id){
     <section><h2 class="sr">En une phrase</h2><p class="phrase" style="margin-top:14px">${esc(phrase)}</p>
       <p class="ui"><strong>${esc(statutLoi(l))}.</strong> ${esc(resultat)}</p>
       ${(()=>{const x=senatInfo(l);return x&&x.court?`<p class="ui"><strong>Au Sénat :</strong> ${esc(x.court)}.${x.bilan?" "+esc(x.bilan):""}</p>`:"";})()}
-      ${COURANTE&&!l.prom?`<p class="ui loi-ag" id="loi-ag" hidden></p>`:""}
+      ${COURANTE&&!l.prom?`<p class="ui loi-ag" id="loi-ag" data-lex-local hidden></p>`:""}
       ${!ed?`<p class="meta">Résumé établi à partir du titre officiel du texte. <a href="#/methode/themes">Comment</a></p>`:""}</section>
 
-    <section class="tx" id="tx-zone" aria-labelledby="tx-t" aria-busy="true"><h2 class="h2" id="tx-t">Ce que propose ce texte</h2><p class="meta">Chargement du texte déposé…</p></section>
+    <section class="tx" id="tx-zone" data-lex-local aria-labelledby="tx-t" aria-busy="true"><h2 class="h2" id="tx-t">Ce que propose ce texte</h2><p class="meta">Chargement du texte déposé…</p></section>
 
     <section class="lv2" style="margin-top:30px"><h2 class="h2">Comprendre ce texte</h2>
       ${(l.auteurs||[]).length&&listeNoms(l.auteurs,5)?`<p class="ui">Déposé par ${listeNoms(l.auteurs,5)}.</p>`:""}
@@ -485,7 +561,7 @@ function texteDepose(l){
   const ailleurs=()=>safeUrl(l.senat)&&/^SN/.test(((l.etapes||[])[0]||[])[0]||"")
     ?`<p class="ui">Ce texte a d'abord été déposé au Sénat : sa présentation par ses auteurs (l'exposé des motifs) se lit sur ${ext(l.senat,"le site du Sénat")}.</p>`
     :`<p class="ui">La présentation de ce texte par ses auteurs (l'exposé des motifs) n'est pas encore disponible ici. Elle se lit dans le ${ext(offDos(l),"dossier législatif de l'Assemblée nationale")}.</p>`;
-  fetch(`textes/${LEG}/${encodeURIComponent(l.id)}.json`,{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error();return r.json();}).then(x=>{
+  fetch(`textes/${LEG}/${encodeURIComponent(l.id)}.json`,{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error();return r.json();}).then(x=>{if(!x||x.absent){fini(ailleurs());return;}
     const gouv=/^PRJL/.test(x.u||""),qui=gouv?"le Gouvernement":(l.auteurs||[]).length>1?"ses auteurs":"son auteur",Qui=cap(qui);
     const src=x.u?`https://www.assemblee-nationale.fr/dyn/docs/${x.u}.raw`:offDos(l);
     const P=x.p||[],E=x.e||[];
@@ -501,7 +577,7 @@ function texteDepose(l){
 /* ============ Élus ============ */
 let EF={q:"",g:"all",d:"",anc:false,lim:60,sort:{k:"nom",dir:1}};
 function pageElus(){
-  EF.lim=60;const depts=[...new Set(DEP.map(d=>d.dept).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"fr"));const K=PER.length;
+  EF.lim=60;const G=DATA.graine==="elus"?DATA.vue:null,depts=(G?G.depts.slice():[...new Set(DEP.map(d=>d.dept).filter(Boolean))]).sort((a,b)=>a.localeCompare(b,"fr"));const K=PER.length;
   const cols=[{k:"nom",label:"Nom",get:d=>d.nom+" "+d.prenom,render:d=>`<span class="nm"><span class="pt-s" aria-hidden="true">${d.photo?`<img src="${esc(d.photo.f)}" alt="" loading="lazy" width="36" height="36">`:esc(initials(d))}</span><span><a href="#/elu/${d.id}">${esc(d.nom)}</a> ${esc(d.prenom)}</span></span>`},
     {k:"groupe",label:"Groupe",wd:"9%",get:d=>grp(d.groupe).sigle,render:d=>esc(grp(d.groupe).sigle)},
     {k:"circ",label:"Circonscription",wd:"15%",hide:"hm",get:d=>(d.numDept||"").padStart(3,"0")+String(d.circ).padStart(2,"0"),render:d=>esc(d.dept?`${d.dept}, ${ord(d.circ)}`:"—")},
@@ -509,22 +585,23 @@ function pageElus(){
     {k:"part",label:"Tous scrutins",tip:"Trier par participation à tous les scrutins publics",wd:"12%",num:1,desc:1,hide:"hs",get:d=>d.st[K].part,render:d=>pc(d.st[K].part)},
     {k:"align",label:"Comme son groupe",tip:"Trier par part des votes identiques à la position de son groupe",wd:"14%",num:1,desc:1,hide:"hs",get:d=>d.st[K].align,render:d=>pc(d.st[K].align)},
     ...(DATA.amendements&&DATA.amendements.total?[{k:"am",label:"Amende­ments",tip:"Trier par nombre d'amendements déposés en premier signataire",wd:"11%",num:1,desc:1,get:d=>d.am?d.am[0]:0,render:d=>n(d.am?d.am[0]:0)}]:[])];
-  return {title:"Députés",html:`<div class="wrap sec"><h1 class="h1s">Les députés</h1><p class="lede intro">Les ${n(actifs().length)} députés ${enExercice()} de la ${esc(DATA.label)}. Participation : part des scrutins où le député a voté, pour les scrutins solennels puis pour tous les scrutins. Pour trier, touchez ou cliquez un intitulé ; une seconde fois pour inverser l'ordre.</p>${COURANTE?trouverHTML("Trouver votre député"):""}
-    <div class="filters"><div><label class="lab" for="ef-q">Nom</label><input id="ef-q" type="search" placeholder="Nom ou prénom" style="width:220px"></div>
+  return {title:"Députés",html:`<div class="wrap sec"><h1 class="h1s">Les députés</h1><p class="lede intro">Les ${n(G?G.actifs:actifs().length)} députés ${enExercice()} de la ${esc(DATA.label)}. Participation : part des scrutins où le député a voté, pour les scrutins solennels puis pour tous les scrutins. Pour trier, touchez ou cliquez un intitulé ; une seconde fois pour inverser l'ordre.</p>${COURANTE?trouverHTML("Trouver votre député"):""}
+    <div class="filters" data-complet><div><label class="lab" for="ef-q">Nom</label><input id="ef-q" type="search" placeholder="Nom ou prénom" style="width:220px"></div>
       <div><label class="lab" for="ef-g">Groupe</label><select id="ef-g"><option value="all">Tous les groupes</option>${GRP.filter(g=>g.effectif>0).map(g=>`<option value="${g.i}">${esc(g.nom)} (${esc(g.sigle)})</option>`).join("")}</select></div>
       <div><label class="lab" for="ef-d">Département</label><select id="ef-d"><option value="">Tous</option>${depts.map(x=>`<option>${esc(x)}</option>`).join("")}</select></div>
       <div><span class="lab" aria-hidden="true">Mandat</span><label class="chk"><input type="checkbox" id="ef-a"> Ayant quitté leur mandat</label></div>
       <p class="meta" id="ef-c" aria-live="polite"></p></div>
-    <div id="ef-out"></div><p class="meta">Définitions : <a href="#/methode/indicateurs">comment sont calculés ces pourcentages</a>.</p></div>`,after(){brancherTrouver();
+    <div id="ef-out" data-complet></div><p class="meta">Définitions : <a href="#/methode/indicateurs">comment sont calculés ces pourcentages</a>.</p></div>`,after(){brancherTrouver();
     $("#ef-q").value=EF.q;$("#ef-g").value=EF.g;$("#ef-d").value=EF.d;$("#ef-a").checked=EF.anc;
-    const draw=()=>{const q=norm(EF.q.trim());
-      let L=DEP.filter(dp=>(EF.anc?!dp.actif:dp.actif)&&(EF.g==="all"||dp.groupe===+EF.g)&&(!EF.d||dp.dept===EF.d)&&(!q||norm(dp.nc).includes(q)));
-      $("#ef-c").textContent=frStr(`${n(L.length)} ${plural(L.length,"député")}`);L=sortRows(L,cols,EF.sort);
-      $("#ef-out").innerHTML=L.length?tableHTML(cols,L.slice(0,EF.lim),EF.sort)+(L.length>EF.lim?`<button type="button" class="btn btn-q more" id="ef-m">Afficher 60 députés de plus</button>`:""):`<p class="empty-note">Aucun député ne correspond. Vérifiez l'orthographe ou retirez un filtre.</p>`;
+    const draw=debut=>{if(debut!==true&&siGraine(draw,()=>{$("#ef-c").textContent=frStr("Chargement de tous les députés…");}))return;
+      const q=norm(EF.q.trim());
+      let L=DEP.filter(dp=>(EF.anc?!dp.actif:dp.actif)&&(EF.g==="all"||dp.groupe===+EF.g)&&(!EF.d||dp.dept===EF.d)&&(!q||norm(dp.nc).includes(q)));const tot=DATA.graine==="elus"?DATA.vue.actifs:L.length;
+      $("#ef-c").textContent=frStr(`${n(tot)} ${plural(tot,"député")}`);L=sortRows(L,cols,EF.sort);
+      $("#ef-out").innerHTML=L.length?tableHTML(cols,L.slice(0,EF.lim),EF.sort)+(tot>EF.lim?`<button type="button" class="btn btn-q more" id="ef-m">Afficher 60 députés de plus</button>`:""):`<p class="empty-note">Aucun député ne correspond. Vérifiez l'orthographe ou retirez un filtre.</p>`;
       frTypo($("#ef-out"));frTypo($("#ef-c"));const m=$("#ef-m");if(m)m.addEventListener("click",()=>{EF.lim+=60;draw();});};
     bindSort($("#ef-out"),EF.sort,cols,draw);
     $("#ef-q").addEventListener("input",e=>{EF.q=e.target.value;EF.lim=60;draw();});$("#ef-g").addEventListener("change",e=>{EF.g=e.target.value;EF.lim=60;draw();});
-    $("#ef-d").addEventListener("change",e=>{EF.d=e.target.value;EF.lim=60;draw();});$("#ef-a").addEventListener("change",e=>{EF.anc=e.target.checked;EF.lim=60;draw();});draw();}};
+    $("#ef-d").addEventListener("change",e=>{EF.d=e.target.value;EF.lim=60;draw();});$("#ef-a").addEventListener("change",e=>{EF.anc=e.target.checked;EF.lim=60;draw();});draw(true);}};
 }
 function indic(titre,val,med,phrase){
   const R=38,C=2*Math.PI*R,off=val==null?C:C*(1-val),ma=med==null?null:med*2*Math.PI;
@@ -533,7 +610,10 @@ function indic(titre,val,med,phrase){
 }
 /* Médianes de groupe et de commission, pour mettre chaque chiffre en contexte */
 const CTX={};
-function contexte(k){const cle=LEG+":"+k;if(CTX[cle])return CTX[cle];const g={},c={};
+function contexte(k){const cle=LEG+":"+k;if(CTX[cle])return CTX[cle];
+  /* graine d'un député : médianes calculées à la mise à jour, sur tous les députés (scripts/graines.py) */
+  const X=DATA.ctx&&DATA.ctx[k];if(X){const f=o=>(gi,x)=>{const y=(o||{})[gi];return y?y[x]:null;};return {g:f(X.g),c:f(X.c)};}
+  const g={},c={};
   DEP.forEach(d=>{if(!d.actif||d.st[k].el<20)return;(g[d.groupe]=g[d.groupe]||[]).push(d.st[k]);if(d.commission)(c[d.commission]=c[d.commission]||[]).push(d.st[k]);});
   const med=(L,x)=>{const v=L.map(s=>s[x]).filter(y=>y!=null).sort((a,b)=>a-b);if(!v.length)return null;const m=Math.floor(v.length/2);return v.length%2?v[m]:(v[m-1]+v[m])/2;};
   return CTX[cle]={g:(gi,x)=>g[gi]?med(g[gi],x):null,c:(cm,x)=>c[cm]?med(c[cm],x):null};}
@@ -641,22 +721,24 @@ function pageVotes(){
     {k:"po",label:"Pour",wd:"7%",num:1,desc:1,get:s=>s.po,render:s=>n(s.po)},
     {k:"co",label:"Contre",wd:"7%",hide:"hs",num:1,desc:1,get:s=>s.moc?null:s.co,render:s=>s.moc?"—":n(s.co)},
     {k:"ec",label:"Écart",wd:"7%",hide:"hm",num:1,desc:1,get:s=>s.moc?null:Math.abs(s.po-s.co),render:s=>s.moc?"—":n(Math.abs(s.po-s.co))}];
-  return {title:"Votes",html:`<div class="wrap sec"><h1 class="h1s">Votes</h1><p class="lede intro">Les ${n(SC.length)} scrutins publics de la ${esc(DATA.label)}, du ${fd(SC[0].d)} au ${fd(last(SC).d)}, avec le vote de chaque député. Pour trier, touchez ou cliquez un intitulé ; une seconde fois pour inverser l'ordre.</p>
+  const V=DATA.graine==="votes"?DATA.vue:{tot:SC.length,du:SC[0].d,au:last(SC).d};
+  return {title:"Votes",html:`<div class="wrap sec"><h1 class="h1s">Votes</h1><p class="lede intro">Les ${n(V.tot)} scrutins publics de la ${esc(DATA.label)}, du ${fd(V.du)} au ${fd(V.au)}, avec le vote de chaque député. Pour trier, touchez ou cliquez un intitulé ; une seconde fois pour inverser l'ordre.</p>
     <p class="ui"><a href="#/comparateur">Comparer les votes de deux députés ou de deux groupes</a>${COURANTE?' ; <a href="flux/votes.xml">suivre les votes importants (RSS)</a>':""}.</p>
-    <div class="filters"><div><label class="lab" for="vf-type">Type</label><select id="vf-type"><option value="all">Tous les scrutins</option><option value="SPS">Scrutins solennels</option><option value="MOC">Motions de censure</option></select></div>
+    <div class="filters" data-complet><div><label class="lab" for="vf-type">Type</label><select id="vf-type"><option value="all">Tous les scrutins</option><option value="SPS">Scrutins solennels</option><option value="MOC">Motions de censure</option></select></div>
       <div><label class="lab" for="vf-res">Résultat</label><select id="vf-res"><option value="all">Tous</option><option value="a">Adoptés</option><option value="r">Rejetés</option></select></div>
       <div><label class="lab" for="vf-per">Période</label><select id="vf-per"><option value="all">Toute la législature</option>${PER.map(p=>`<option value="${p.id}">${p.label}</option>`).join("")}</select></div>
       <div><label class="lab" for="vf-q">Numéro ou mot-clé</label><input id="vf-q" type="search" placeholder="retraites, budget, 1234…"></div><p class="meta" id="vf-c" aria-live="polite" style="margin:0 0 10px"></p></div>
-    <div id="vf-out"></div></div>`,after(){
+    <div id="vf-out" data-complet></div></div>`,after(){
     $("#vf-type").value=VF.type;$("#vf-per").value=VF.per;$("#vf-res").value=VF.res;$("#vf-q").value=VF.q;
-    const draw=()=>{const q=norm(VF.q.trim());
-      let L=SC.filter(s=>(VF.type==="all"||(VF.type==="MOC"?s.moc:s.t===VF.type))&&(VF.per==="all"||s.per===+VF.per)&&(VF.res==="all"||(VF.res==="a")===s.adopte)&&(!q||String(s.n)===q||norm(s.ti).includes(q)));
-      $("#vf-c").textContent=frStr(`${n(L.length)} ${plural(L.length,"scrutin")}`);L=sortRows(L,cols,VF.sort);
-      $("#vf-out").innerHTML=L.length?tableHTML(cols,L.slice(0,VF.lim),VF.sort)+(L.length>VF.lim?`<button type="button" class="btn btn-q more" id="vf-more">Afficher 50 scrutins de plus</button>`:""):`<p class="empty-note">Aucun scrutin ne correspond. Modifiez un filtre ou le mot-clé.</p>`;
+    const draw=debut=>{if(debut!==true&&siGraine(draw,()=>{$("#vf-c").textContent=frStr("Chargement de tous les scrutins…");}))return;
+      const q=norm(VF.q.trim());
+      let L=SC.filter(s=>(VF.type==="all"||(VF.type==="MOC"?s.moc:s.t===VF.type))&&(VF.per==="all"||s.per===+VF.per)&&(VF.res==="all"||(VF.res==="a")===s.adopte)&&(!q||String(s.n)===q||norm(s.ti).includes(q)));const tot=DATA.graine==="votes"?DATA.vue.tot:L.length;
+      $("#vf-c").textContent=frStr(`${n(tot)} ${plural(tot,"scrutin")}`);L=sortRows(L,cols,VF.sort);
+      $("#vf-out").innerHTML=L.length?tableHTML(cols,L.slice(0,VF.lim),VF.sort)+(tot>VF.lim?`<button type="button" class="btn btn-q more" id="vf-more">Afficher 50 scrutins de plus</button>`:""):`<p class="empty-note">Aucun scrutin ne correspond. Modifiez un filtre ou le mot-clé.</p>`;
       frTypo($("#vf-out"));frTypo($("#vf-c"));const m=$("#vf-more");if(m)m.addEventListener("click",()=>{VF.lim+=50;draw();});};
     bindSort($("#vf-out"),VF.sort,cols,draw);
     [["#vf-type","type"],["#vf-per","per"],["#vf-res","res"]].forEach(([s,k])=>$(s).addEventListener("change",e=>{VF[k]=e.target.value;VF.lim=50;draw();}));
-    $("#vf-q").addEventListener("input",e=>{VF.q=e.target.value;VF.lim=50;draw();});draw();}};
+    $("#vf-q").addEventListener("input",e=>{VF.q=e.target.value;VF.lim=50;draw();});draw(true);}};
 }
 function pageScrutin(num){
   const s=SCN[num];if(!s)return pageNotFound();
@@ -718,6 +800,9 @@ function pageCmp(q){
         box.innerHTML=`<div class="cmp-pick"><div><label class="lab" for="ga">Premier groupe</label><select id="ga">${opts(CMP.a.id)}</select></div><span class="vs">et</span><div><label class="lab" for="gb">Second groupe</label><select id="gb">${opts(CMP.b.id)}</select></div></div>`;
         $("#ga").addEventListener("change",e=>{CMP.a={t:"grp",id:+e.target.value};run();});$("#gb").addEventListener("change",e=>{CMP.b={t:"grp",id:+e.target.value};run();});}frTypo(box);};
     const run=suite=>{if(suite!==true)CMP.lim=25;const A=CMP.a,B=CMP.b,out=$("#cmp-out");
+      /* graine du comparateur : seuls les votes des deux députés du lien sont là ; pour un autre, on lit tout */
+      const manque=e=>e.t==="elu"&&DATA.lite&&SC.length&&typeof SC[0].v==="object"&&!(e.id in SC[0].v);
+      if((manque(A)||manque(B))&&siGraine(()=>run(suite),()=>{out.innerHTML=`<p class="meta">Chargement des votes de chaque député…</p>`;frTypo(out);}))return;
       if(A.t===B.t&&A.id===B.id){out.innerHTML=`<p class="empty-note">Choisissez deux entités différentes.</p>`;frTypo(out);return;}
       const L=SC.filter(s=>(CMP.per==="all"||s.per===+CMP.per)&&(CMP.type==="all"||s.t===CMP.type)&&!s.moc);let N=0,Acc=0;const div=[],marks=[];
       L.forEach(s=>{const a=entVote(A,s),b=entVote(B,s);if(a&&b){N++;if(a===b){Acc++;marks.push("acc");}else{div.push(s);marks.push("div");}}else marks.push("abs");});
@@ -738,8 +823,8 @@ function pageCmp(q){
 
 /* ============ Calendrier mensuel ============ */
 function pageCal(q){
-  const mois=[...new Set(SC.map(s=>s.d.slice(0,7)))].sort();
-  LOIS.forEach(l=>{if(l.prom&&l.prom.date&&l.prom.date>=DATA.du&&!mois.includes(l.prom.date.slice(0,7)))mois.push(l.prom.date.slice(0,7));});mois.sort();
+  const mois=DATA.vue&&DATA.vue.mois?DATA.vue.mois.slice():[...new Set(SC.map(s=>s.d.slice(0,7)))].sort();
+  if(!(DATA.vue&&DATA.vue.mois))LOIS.forEach(l=>{if(l.prom&&l.prom.date&&l.prom.date>=DATA.du&&!mois.includes(l.prom.date.slice(0,7)))mois.push(l.prom.date.slice(0,7));});mois.sort();
   if(!mois.length)return pageNotFound();
   let m=q.get("m");if(!m||!mois.includes(m))m=last(mois);
   const i=mois.indexOf(m),[y,mm]=m.split("-").map(Number),lib=`${MOIS[mm-1]} ${y}`;
@@ -847,20 +932,22 @@ function pageMethode(){
     <section id="mentions" style="margin-top:40px"><h2 class="h2">Mentions légales</h2>
       ${todo?`<p class="todo">${anon?"À compléter avant toute ouverture publique : l'adresse de contact (fichier contenu/site.json).":"À compléter avant toute ouverture publique : fichier contenu/site.json."}</p>`:""}
       <dl class="facts">${anon?`<dt>Éditeur</dt><dd>Site édité à titre non professionnel par un particulier qui a choisi de rester anonyme à l'égard du public, conformément à l'article 1-1, II, de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique. Son identité a été communiquée à l'hébergeur.</dd><dt>Directeur de la publication</dt><dd>L'éditeur du site.</dd>`:`<dt>Éditeur</dt><dd>${esc(M.editeur||"—")}</dd><dt>Directeur de la publication</dt><dd>${esc(M.directeur_publication||"—")}</dd>`}<dt>Contact</dt><dd>${M.contact?`<a href="mailto:${esc(M.contact)}">${esc(M.contact)}</a>`:"—"}</dd><dt>Hébergeur</dt><dd>${esc(M.hebergeur||"—")}. L'hébergeur assure aussi le stockage de l'ensemble des données du service.</dd></dl>
-      <p class="ui" style="margin-top:14px">Droit de réponse : toute personne nommée ou désignée dans le service dispose d'un droit de réponse, prévu à l'article 1-1, III, de la loi du 21 juin 2004 précitée. ${anon?"L'éditeur étant anonyme, la demande est adressée à l'hébergeur, qui la transmet sans délai au directeur de la publication ; elle peut aussi être envoyée à l'adresse de contact ci-dessus.":"La demande peut être adressée au directeur de la publication, à l'adresse de contact ci-dessus."} Toute erreur signalée est corrigée et consignée dans le journal des corrections.</p>
+      <p class="ui" style="margin-top:14px">Droit de réponse : toute personne nommée ou désignée dans le service dispose d'un droit de réponse, prévu à l'article 1-1, III, de la loi du 21 juin 2004 précitée. ${anon?"L'éditeur étant anonyme, la demande est adressée à l'hébergeur, qui la transmet sans délai au directeur de la publication ; elle peut aussi être envoyée à l'adresse de contact ci-dessus.":"La demande peut être adressée au directeur de la publication, à l'adresse de contact ci-dessus."} Elle doit être présentée dans les trois mois qui suivent la mise en ligne du contenu concerné ; la réponse est publiée dans les trois jours qui suivent sa réception. Toute erreur signalée est corrigée et consignée dans le journal des corrections.</p>
       <p class="ui">Réutilisation : les données de l'Assemblée nationale sont réutilisées sous Licence Ouverte, avec mention de leur source et de leur date de mise à jour. Les polices Lexend et Source Sans 3 sont distribuées sous licence SIL Open Font License et hébergées sur ce site.</p>
       <p class="ui">Photographies : portraits issus de Wikimedia Commons, publiés sous licence libre (Creative Commons ou domaine public). L'auteur, la licence et la page d'origine sont indiqués sous chaque photo. Les photos sont hébergées sur ce site. Elles représentent les députés dans l'exercice de leur mandat ; toute personne souhaitant le retrait d'une photo peut écrire au contact ci-dessus.</p></section>
     <section id="accessibilite" style="margin-top:40px"><h2 class="h2">Accessibilité</h2>
       <p style="margin-top:12px">Le site vise la conformité au référentiel général d'amélioration de l'accessibilité (RGAA). <strong>État : non audité.</strong> Aucun audit de conformité complet n'a encore été réalisé ; ce site ne peut donc pas se déclarer conforme.</p>
-      <p class="ui">Mesures déjà prises : contrastes de texte supérieurs à 4,5 pour 1, navigation complète au clavier avec focus visible, lien d'évitement vers le contenu, titres hiérarchisés, tableaux avec en-têtes, graphiques accompagnés d'une description textuelle, animations désactivées si l'utilisateur limite les mouvements, cibles tactiles d'au moins 44 pixels sur mobile, aucune information transmise par la couleur seule. Le site est vérifié automatiquement avec l'outil axe à chaque version.</p>
-      <p class="ui">Dernière vérification, le 5 octobre 2026 : aucun défaut détecté par l'outil axe-core (règles WCAG 2.2 niveaux A et AA et bonnes pratiques) sur 71 états de page, en mode clair, sombre et sur téléphone ; affichage sans défilement horizontal à 320 pixels de large ; texte lisible avec un espacement augmenté ; focus visible sur tous les éléments atteints au clavier. Ces contrôles ne remplacent pas un audit RGAA complet, qui reste à réaliser.</p>
+      <p class="ui">Mesures déjà prises : contrastes de texte supérieurs à 4,5 pour 1, navigation complète au clavier avec focus visible, lien d'évitement vers le contenu, titres hiérarchisés, tableaux avec en-têtes, graphiques accompagnés d'une description textuelle, animations désactivées si l'utilisateur limite les mouvements, cibles tactiles d'au moins 24 pixels, et de 44 pixels de haut pour la plupart sur téléphone, aucune information transmise par la couleur seule. Le site est vérifié automatiquement avec l'outil axe à chaque version.</p>
+      <p class="ui">Dernière vérification, le 19 octobre 2026 : aucun défaut détecté par l'outil axe-core (règles WCAG 2.2 niveaux A et AA et bonnes pratiques) sur 90 états de page (15 pages, en mode clair et sombre, sur ordinateur et sur téléphone) ; lecture simulée au lecteur d'écran sur 18 pages, sans bouton, lien ni image dépourvus de nom ; affichage sans défilement horizontal à 320 pixels de large ; texte lisible avec un espacement augmenté ; focus visible sur tous les éléments atteints au clavier. Ces contrôles ne remplacent pas un audit RGAA complet, qui reste à réaliser.</p>
       <p class="ui">Un défaut d'accessibilité vous empêche d'accéder à un contenu ? Écrivez à l'adresse de contact des mentions légales : nous vous répondrons et fournirons le contenu sous une autre forme. Si vous n'obtenez pas de réponse satisfaisante, vous pouvez saisir le Défenseur des droits.</p></section>
     <section id="independance" style="margin-top:40px"><h2 class="h2">Indépendance</h2>
       <p style="margin-top:12px">Aux Voix ne reçoit aucun financement d'un parti, d'un élu, d'une entreprise ou d'un groupe d'intérêts, et n'affiche aucune publicité. Il ne note pas les élus et ne prend pas position sur les textes : il publie des faits officiels, avec leur source, et une méthode que chacun peut vérifier.</p></section>
     <section id="donnees-personnelles" style="margin-top:40px"><h2 class="h2">Données personnelles</h2>
-      <p style="margin-top:12px">${AUDIENCE?`Ce site ne dépose aucun cookie et n'affiche aucune publicité. Il mesure son audience avec GoatCounter, un outil sans cookie qui compte les pages consultées sans créer de profil individuel et sans suivre les visiteurs d'un site à l'autre. Les statistiques servent uniquement à savoir combien de personnes consultent le site et quelles pages. ${ext("https://www.goatcounter.com/help/privacy","Politique de confidentialité de GoatCounter")}. Aucun autre service tiers n'est utilisé.`:`Ce site ne dépose aucun cookie, n'utilise aucun outil de mesure d'audience ni aucun service tiers : ni publicité, ni police ou script chargés depuis un autre site.`} Seuls vos choix d'affichage (thème, niveau de lecture, législature) et, si vous en ajoutez, la liste de vos suivis sont conservés dans votre navigateur, sans être transmis. Si vous installez Aux Voix comme une application, une copie des pages et des données déjà consultées est gardée sur votre appareil pour rester lisible sans connexion ; elle n'est envoyée nulle part. La recherche par commune se fait entièrement dans votre navigateur : la commune ou le code postal saisis ne sont pas transmis. L'hébergeur conserve, pour des raisons de sécurité, les journaux techniques de connexion.</p>
+      <p style="margin-top:12px">${AUDIENCE?`Ce site ne dépose aucun cookie et n'affiche aucune publicité. Pour savoir combien de personnes le consultent et quelles pages, il compte les visites avec GoatCounter, un service sans cookie. À chaque page ouverte, votre navigateur envoie à GoatCounter l'adresse de la page (sans ce que vous tapez dans une recherche), son titre, le site d'où vous venez et la largeur de votre écran ; comme pour toute connexion, GoatCounter reçoit aussi votre adresse IP et le nom de votre navigateur. Il s'en sert pour produire des totaux (pages vues, sites d'origine, navigateurs, tailles d'écran, pays), sans conserver votre adresse IP, sans créer de profil et sans vous suivre d'un site à l'autre. Ses serveurs sont en Finlande et en Allemagne. ${ext("https://www.goatcounter.com/help/privacy","Politique de confidentialité de GoatCounter")}. Aucun script n'est chargé depuis un autre site et aucun autre service tiers n'est utilisé.</p>
+      <p class="ui"><span id="mesure-etat" role="status"></span> <button type="button" class="btn" id="mesure-bouton">Ne pas compter mes visites</button> Ce choix est gardé dans votre navigateur. Si celui-ci envoie le signal « Ne pas pister » (Do Not Track ou Global Privacy Control), vos visites ne sont jamais comptées.</p>
+      <p style="margin-top:12px">`:`Ce site ne dépose aucun cookie, n'utilise aucun outil de mesure d'audience ni aucun service tiers : ni publicité, ni police ou script chargés depuis un autre site.`} Seuls vos choix d'affichage (thème, niveau de lecture, législature) et, si vous en ajoutez, la liste de vos suivis sont conservés dans votre navigateur, sans être transmis. Si vous installez Aux Voix comme une application, une copie des pages et des données déjà consultées est gardée sur votre appareil pour rester lisible sans connexion ; elle n'est envoyée nulle part. La recherche par commune se fait entièrement dans votre navigateur : la commune ou le code postal saisis ne sont pas transmis. L'hébergeur conserve, pour des raisons de sécurité, les journaux techniques de connexion.</p>
       <p class="ui">Les informations sur les députés (nom, circonscription, groupe, parti de rattachement, votes) sont des données publiques relatives à l'exercice de leur mandat, publiées par l'Assemblée nationale. Elles sont reproduites sans modification, pour l'information du public. Toute demande relative à ces données peut être adressée au contact ci-dessus.</p></section>
-  </div>`};
+  </div>`,after:etatMesure};
 }
 function pageComprendre(id){const c=COMP.find(x=>x.id===id);if(!c)return pageNotFound();return {title:c.titre,html:`<div class="wrap sec col" style="--col:760px"><p class="meta">Comprendre</p><h1 class="h1s">${c.titre}</h1><p class="lede" style="margin-top:12px;color:var(--texte2)">${c.sous}.</p><div class="prose" style="margin-top:28px">${c.corps.map(p=>`<p>${p}</p>`).join("")}</div><p class="ui" style="margin-top:36px;border-top:1px solid var(--bord);padding-top:14px">Voir aussi : ${COMP.filter(x=>x.id!==id).map(x=>`<a href="#/comprendre/${x.id}">${x.titre}</a>`).join(", ")}.</p></div>`};}
 function pageNotFound(){return {title:"Page introuvable",html:`<div class="wrap sec" style="max-width:760px"><h1 class="h1s">Cette page n'existe pas</h1><p class="lede" style="margin-top:12px">Elle appartient peut-être à une autre législature : changez de législature en haut de page, ou reprenez depuis <a href="#/">l'accueil</a>.</p></div>`};}
@@ -888,7 +975,7 @@ const estEnsemble=s=>/^l.ensemble/i.test(norm(s.ti));
 function posCell(s,g){const b=blockOf(s,g.i);const p=b?b[2]:0,lib=p?POSL[p]:"absent du vote";return `<span class="pos p${p}" title="${esc(g.sigle+" : "+lib)}" aria-hidden="true">${{1:"P",2:"C",3:"A"}[p]||""}</span><span class="sr">${esc(g.sigle+" : "+lib)}</span>`;}
 
 function pageThemes(q){
-  const cpt={};SC.forEach(s=>{if(s.th)cpt[s.th]=(cpt[s.th]||0)+1;});
+  const cpt=DATA.vue&&DATA.vue.cpt?Object.assign({},DATA.vue.cpt):{};if(!(DATA.vue&&DATA.vue.cpt))SC.forEach(s=>{if(s.th)cpt[s.th]=(cpt[s.th]||0)+1;});
   const dispo=THEMES.filter(t=>cpt[t[0]]);
   let th=q.get("t");if(!th||!cpt[th])th=(dispo.slice().sort((a,b)=>cpt[b[0]]-cpt[a[0]])[0]||[])[0];
   const G=groupesActifs().filter(g=>!g.ni);
@@ -908,7 +995,7 @@ function pageSim(){
   const G=groupesActifs(),T=G.reduce((a,g)=>a+g.effectif,0)||577,M=Math.floor(T/2)+1;
   return {title:"Simulateur de coalition",html:`<div class="wrap sec"><h1 class="h1s">Simulateur de coalition</h1>
     <p class="lede intro">Cochez des groupes pour voir combien de sièges ils réunissent, et à quelle fréquence ils ont réellement voté de la même façon depuis le début de la législature.</p>
-    <div class="sim"><fieldset class="sim-list"><legend class="lab">Groupes, dans l'ordre de l'hémicycle</legend>
+    <div class="sim"><fieldset class="sim-list" data-complet><legend class="lab">Groupes, dans l'ordre de l'hémicycle</legend>
       ${G.map(g=>`<label class="sim-g"><input type="checkbox" value="${g.i}"${SIM.has(g.i)?" checked":""}><span class="sw" style="--w:${(g.effectif/T*100).toFixed(1)}%"></span><b>${esc(g.sigle)}</b><span class="nm2">${esc(g.nom)}</span><span class="st">${n(g.effectif)}</span></label>`).join("")}
       <p class="dlg-acts"><button type="button" class="btn" id="sim-0">Tout décocher</button></p>
       <p class="sim-mini" id="sim-mini" aria-hidden="true"></p></fieldset>
@@ -929,6 +1016,7 @@ function pageSim(){
       const mini=$("#sim-mini");if(mini){mini.innerHTML=`<b>${n(tot)}</b> ${plural(tot,"siège")} sur ${n(T)}<span>${ok?"majorité absolue atteinte":`majorité absolue : ${n(M)}`}</span>`;mini.classList.toggle("ok",ok);}
       $$("#sim-h circle").forEach(c=>c.classList.toggle("on",SIM.has(+c.dataset.g)));const hn=$("#sim-h-n");if(hn){compter(hn,+(hn.dataset.v||0),tot,380);hn.dataset.v=tot;hn.classList.toggle("ok",ok);}
       const bloc=sel.filter(g=>!g.ni);let N=0,A=0,NE=0,AE=0;
+      if(bloc.length>1&&siGraine(draw,()=>{out.innerHTML=`<p class="sim-tot"><b>${n(tot)}</b> ${plural(tot,"siège")} sur ${n(T)}</p><p class="ui">Calcul de l'accord de vote sur tous les scrutins…</p>`;frTypo(out);}))return;
       if(bloc.length>1)SC.forEach(s=>{if(s.moc)return;const p=bloc.map(g=>{const b=blockOf(s,g.i);return b?b[2]:0;});if(p.every(x=>x>=1&&x<=3)){N++;const eq=p.every(x=>x===p[0]);if(eq)A++;if(estEnsemble(s)){NE++;if(eq)AE++;}}});
       out.innerHTML=`<p class="sim-tot"><b>${n(tot)}</b> ${plural(tot,"siège")} sur ${n(T)}</p>
         <div class="sim-bar" role="img" aria-label="${esc(`${tot} sièges, majorité absolue à ${M}`)}"><span style="width:${(tot/T*100).toFixed(2)}%"></span><i style="left:${(M/T*100).toFixed(2)}%"></i></div>
@@ -1321,7 +1409,10 @@ const LEX_SANS="a,button,label,select,option,input,textarea,h1,h2,svg,code,scrip
 function lexiquer(root,max){
   if(!root||root.matches("[data-sans-lexique]")||root.querySelector("[data-sans-lexique-page]"))return;
   const vus=new Set();let nb=0;max=max||10;
-  const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode:t=>t.nodeValue.trim().length<3||t.parentElement.closest(LEX_SANS)?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});
+  /* une zone remplie après coup ([data-lex-local] : texte déposé, ordre du jour) a sa propre passe : la passe de la page la saute,
+     sinon le résultat dépendrait de ce qui arrive en premier, la zone ou la passe */
+  const local=t=>{const z=t.parentElement.closest("[data-lex-local]");return !!z&&z!==root;};
+  const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode:t=>t.nodeValue.trim().length<3||t.parentElement.closest(LEX_SANS)||local(t)?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});
   const L=[];let t;while((t=w.nextNode()))L.push(t);
   for(const node of L){if(nb>=max)break;let rest=node;
     for(let guard=0;guard<4&&rest&&nb<max;guard++){const m=LEXRE.exec(rest.nodeValue);if(!m)break;
@@ -1484,7 +1575,7 @@ function pageClasse(q){
     <h1 class="h1s">Aux Voix en classe</h1>
     <p class="lede intro">Des activités courtes pour l'enseignement moral et civique ou l'histoire-géographie, prêtes à imprimer. Elles s'appuient sur les données officielles et respectent la neutralité attendue à l'école : on étudie le fonctionnement des institutions, jamais les opinions.</p>
     <nav class="sauts" aria-label="Aller à une fiche"><span class="meta">Les fiches :</span>${CLASSE.map((c,i)=>`<button type="button" data-ancre="cl-${c.id}">${n(i+1)}. ${esc(c.titre)}</button>`).join("")}</nav>
-    ${CLASSE.map((c,i)=>`<article class="cl-f${c.id===f?" lx-on":""}" id="cl-${c.id}" tabindex="-1" aria-labelledby="clt-${c.id}">
+    ${CLASSE.map((c,i)=>`<article class="cl-f${c.id===f?" lx-on":""}" data-site="${esc(BASEURL().replace(/^https?:\/\//,""))}" id="cl-${c.id}" tabindex="-1" aria-labelledby="clt-${c.id}">
       <p class="cat">Fiche ${n(i+1)} · ${esc(c.duree)} · ${esc(c.niveau)}</p>
       <h2 class="h2" id="clt-${c.id}">${esc(c.titre)}</h2>
       <p class="ui"><b>Objectif.</b> ${esc(c.but)}</p>
@@ -1734,7 +1825,7 @@ function pageAgenda(){
   return {title:"À venir à l'Assemblée",html:`<div class="wrap sec col" style="--col:900px"><p class="meta"><a href="#/votes" style="color:var(--texte2)">Votes</a></p>
     <h1 class="h1s">À venir à l'Assemblée</h1>
     <p class="lede intro">Les prochaines séances publiques des députés : les textes qui seront examinés et les votes solennels déjà annoncés. C'est l'ordre du jour officiel, tel que publié par l'Assemblée nationale.</p>
-    <div id="ag-v" aria-busy="true"><p class="loading">Chargement de l'ordre du jour…</p></div></div>`,
+    <div id="ag-v" data-lex-local aria-busy="true"><p class="loading">Chargement de l'ordre du jour…</p></div></div>`,
   after(){chargerAgenda().then(a=>{const box=$("#ag-v");if(!box)return;box.removeAttribute("aria-busy");
     if(!a||!a.s.length){box.innerHTML=`<p class="empty-note">Aucune séance à venir n'est encore publiée. L'ordre du jour est fixé chaque semaine par la Conférence des présidents ; il apparaît ici à la mise à jour suivante du site. ${ext(AG_FICHE,"Comment est fixé l'ordre du jour (fiche de l'Assemblée)")}.</p>`;frTypo(box);return;}
     const J=joursAg(a),V=J.flatMap(o=>o.v.map(p=>({j:o.j,p})));
@@ -1755,7 +1846,7 @@ function carteAgendaAccueil(){chargerAgenda().then(a=>{const box=$("#acc-ag");if
 function agendaLoi(l){chargerAgenda().then(a=>{const box=$("#loi-ag");if(!box||!a||a.leg!==LEG)return;
   const S=a.s.filter(x=>x.p.some(p=>p[2]===l.id));if(!S.length)return;
   const vs=S.find(x=>x.p.some(p=>p[2]===l.id&&estVS(p))),j=S[0].d.slice(0,10);
-  box.innerHTML=`<strong>À venir :</strong> ce texte est inscrit à l'ordre du jour de l'Assemblée le ${fd(j,true)}${vs?`, avec un vote solennel prévu le ${fd(vs.d.slice(0,10),true)}`:""}. <a href="#/agenda">Voir l'ordre du jour</a>. Le programme peut encore changer.`;box.hidden=false;frTypo(box);});}
+  box.innerHTML=`<strong>À venir :</strong> ce texte est inscrit à l'ordre du jour de l'Assemblée le ${fd(j,true)}${vs?`, avec un vote solennel prévu le ${fd(vs.d.slice(0,10),true)}`:""}. <a href="#/agenda">Voir l'ordre du jour</a>. Le programme peut encore changer.`;box.hidden=false;frTypo(box);try{lexiquer(box,2);}catch(e){}});}
 
 function pageSemaine(q){
   const ref=q.get("d")&&/^\d{4}-\d\d-\d\d$/.test(q.get("d"))?q.get("d"):(SC.length?last(SC).d.slice(0,10):TODAY_ISO);
@@ -1975,6 +2066,8 @@ function segInd(seg){let ind=$(".seg-ind",seg);if(!ind){ind=document.createEleme
 function segs(){$$(".seg").forEach(segInd);}
 document.addEventListener("click",e=>{const b=e.target.closest(".seg button");if(b)requestAnimationFrame(()=>segInd(b.closest(".seg")));});
 addEventListener("resize",()=>{navInd();segs();});
+/* une page affichée avant l'arrivée des polices : les repères se recalent quand elles sont chargées */
+if(document.fonts&&document.fonts.addEventListener)document.fonts.addEventListener("loadingdone",()=>{navInd();segs();});
 addEventListener("scroll",()=>{$(".mast").classList.toggle("scrolled",scrollY>8);},{passive:true});
 function compter(el,de,a,ms,suf){if(PRM){el.textContent=frStr(n(a)+(suf||""));return;}const t0=performance.now();
   const pas=t=>{const q=Math.min(1,(t-t0)/ms),e=1-Math.pow(1-q,3);el.textContent=frStr(n(Math.round(de+(a-de)*e))+(suf||""));if(q<1)requestAnimationFrame(pas);};requestAnimationFrame(pas);}
@@ -2021,25 +2114,44 @@ function barreHaut(p0){
 document.addEventListener("change",e=>{const s=e.target.closest&&e.target.closest(".legsel-x");if(s)chargerLeg(s.value).catch(erreur);});
 document.addEventListener("click",e=>{const b=e.target.closest&&e.target.closest("[data-leg]");if(b){e.preventDefault();chargerLeg(b.dataset.leg).catch(erreur);}});
 
-/* ============ Mesure d'audience (facultative, sans cookie) ============ */
-let AUDIENCE=false;
+/* ============ Mesure d'audience (facultative, sans cookie) ============
+   GoatCounter compte les pages vues, sans cookie. Aucun script n'est chargé depuis un autre site : à chaque page, le
+   navigateur envoie un seul appel à https://CODE.goatcounter.com/count. Éteint tant que "goatcounter" est vide dans
+   contenu/site.json, et seulement actif sur l'adresse du site (ni l'aperçu, ni une copie de test). Le visiteur peut refuser
+   (bouton dans Méthode > Données personnelles, même clé « skipgc » que GoatCounter) ; Do Not Track et GPC sont respectés. */
+let AUDIENCE=false,GC_URL="",GC_DERN="",GC_REF=true;
+const refusMesure=()=>{let r=false;try{r=localStorage.getItem("skipgc")==="t";}catch(e){}return r||navigator.globalPrivacyControl===true||navigator.doNotTrack==="1";};
 function brancherAudience(){const code=String(((SITE.mesure_audience||{}).goatcounter)||"").trim().toLowerCase();
-  if(!/^[a-z0-9][a-z0-9-]{1,40}$/.test(code)||!/^https?:$/.test(location.protocol))return;
-  AUDIENCE=true;window.goatcounter={no_onload:true};const s=document.createElement("script");s.async=true;s.src="https://gc.zgo.at/count.js";
-  s.dataset.goatcounter=`https://${code}.goatcounter.com/count`;s.onload=()=>compterPage();document.head.appendChild(s);
-  const li=$("#foot-indep");if(li)li.textContent=frStr("Aucune publicité, aucun cookie. Mesure d'audience anonyme, sans cookie.");}
-function compterPage(){if(!AUDIENCE||!window.goatcounter||!window.goatcounter.count)return;
-  window.goatcounter.count({path:"/"+location.hash.replace(/^#\/?/,"").split("?")[0],title:document.title});}
+  if(!/^[a-z0-9][a-z0-9-]{1,40}$/.test(code)||location.protocol!=="https:")return;
+  let hote="";try{hote=new URL(BASEURL()).hostname.replace(/^www\./,"");}catch(e){}
+  if(location.hostname.replace(/^www\./,"")!==hote)return;
+  AUDIENCE=true;GC_URL=`https://${code}.goatcounter.com/count`;
+  const li=$("#foot-indep");if(li)li.textContent=frStr("Aucune publicité, aucun cookie. Visites comptées sans cookie (GoatCounter).");}
+function compterPage(){if(!AUDIENCE||refusMesure()||navigator.webdriver||document.visibilityState==="prerender")return;
+  const p="/#/"+location.hash.replace(/^#\/?/,"").split("?")[0];   /* sans ce qui suit « ? » : ni recherche tapée, ni filtre */
+  if(p===GC_DERN)return;GC_DERN=p;
+  const q={p,t:document.title,r:GC_REF?document.referrer:"",s:screen.width,rnd:Math.random().toString(36).slice(2,7)};GC_REF=false;
+  const url=GC_URL+"?"+Object.keys(q).filter(k=>q[k]!=="").map(k=>k+"="+encodeURIComponent(q[k])).join("&");
+  const envoi=()=>{try{if(navigator.sendBeacon&&navigator.sendBeacon(url))return;}catch(e){}new Image().src=url;};
+  if(window.requestIdleCallback)requestIdleCallback(envoi,{timeout:4000});else setTimeout(envoi,1500);}
+function etatMesure(){const b=$("#mesure-bouton"),t=$("#mesure-etat");if(!b||!t)return;let refus=false;try{refus=localStorage.getItem("skipgc")==="t";}catch(e){}
+  const signal=!refus&&(navigator.globalPrivacyControl===true||navigator.doNotTrack==="1");
+  t.textContent=frStr(refus?"Vos visites ne sont pas comptées sur ce navigateur.":signal?"Votre navigateur demande à ne pas être suivi : vos visites ne sont pas comptées.":"Vos visites sont comptées, sans cookie.");
+  b.hidden=signal;b.textContent=refus?"Accepter d'être compté":"Ne pas compter mes visites";}
+document.addEventListener("click",e=>{const b=e.target.closest&&e.target.closest("#mesure-bouton");if(!b)return;
+  try{if(localStorage.getItem("skipgc")==="t")localStorage.removeItem("skipgc");else localStorage.setItem("skipgc","t");}catch(e){}etatMesure();});
 /* ============ Routeur ============ */
 const main=$("#main");let first=true;
 function route(){
   if(!DATA)return;
   const h=location.hash.replace(/^#\/?/,""),qi=h.indexOf("?"),path=qi<0?h:h.slice(0,qi),q=new URLSearchParams(qi<0?"":h.slice(qi+1));
   const parts=path.split("/").filter(Boolean).map(decodeURIComponent),p0=parts[0];let pg,nav="";
-  if(DATA.lite&&!liteSuffit(p0)){const h0=location.hash;
-    main.innerHTML=`<div class="wrap loading"><b>Chargement</b>Lecture des données officielles de l'Assemblée nationale…</div>`;frTypo(main);
-    chargerComplet().then(()=>{if(location.hash===h0)route();}).catch(erreur);return;}
-  if(BESOIN_VOTES.includes(p0)&&!VOTES_OK){const h0=location.hash;
+  if(DATA.lite){const cle=cleGraine(p0,parts,q);
+    if(cle!==DATA.graine){const h0=location.hash,lent=setTimeout(()=>{if(location.hash===h0){main.innerHTML=`<div class="wrap loading"><b>Chargement</b>Lecture des données officielles de l'Assemblée nationale…</div>`;frTypo(main);}},120);
+      const suite=()=>{clearTimeout(lent);if(location.hash===h0)route();};
+      (cle&&(grainesOK()||cle==="accueil"&&IDX&&LEG===IDX.legislatures[0].leg)?chargerGraine(cle).then(d=>{if(DATA.lite&&location.hash===h0)prepare(d);}):Promise.reject(new Error("pas de graine")))
+        .catch(()=>chargerComplet()).then(suite).catch(e=>{clearTimeout(lent);erreur(e);});return;}}
+  if(!DATA.lite&&BESOIN_VOTES.includes(p0)&&!VOTES_OK){const h0=location.hash;
     main.innerHTML=`<div class="wrap loading"><b>Chargement</b>Lecture du vote de chaque député…</div>`;frTypo(main);
     chargerVotes().then(()=>{if(location.hash===h0)route();majSuivisFolio();}).catch(erreur);return;}
   if(p0==="votes"&&q.get("q")){VF.q=q.get("q");VF.type="all";VF.per="all";VF.res="all";}
@@ -2075,10 +2187,12 @@ if(innerWidth<560)$("#q").setAttribute("placeholder","Rechercher");
 function erreur(err){main.innerHTML=`<div class="wrap loading"><b>Les données n'ont pas pu être chargées</b>Les fichiers de données sont produits deux fois par jour par l'automatisation GitHub ; vérifiez l'onglet « Actions » du dépôt. Ouvert directement depuis un ordinateur, le site ne peut pas lire ses données : il doit être servi par GitHub Pages.<br><span class="meta">${esc(err.message)}</span></div>`;frTypo(main);}
 function chargerLeg(leg){
   const L=IDX.legislatures.find(x=>x.leg===leg)||IDX.legislatures[0];
-  const boot=!!$("#pre-ch")||first&&!DATA,accueil=boot&&L.accueil&&liteSuffit(p0DuHash())?L.accueil:null,f=accueil||L.fichier;
+  /* à l'ouverture, la page lit sa graine (législature en cours) ; sinon, ou si la graine manque, les données complètes */
+  const boot=!!$("#pre-ch")||first&&!DATA,r=routeDe(location.hash),cle=boot&&L===IDX.legislatures[0]?cleGraine(r.p0,r.parts,r.q):null;
   if(!$("#pre-ch")){main.innerHTML=`<div class="wrap loading"><b>Chargement</b>${esc(L.label)} : lecture des données officielles…</div>`;frTypo(main);}
-  const tot=PRE_DATA&&PRE_DATA.f===f?PRE_DATA.p:null;PRE_DATA=null;
-  return (tot||getJSON(f,null)).then(d=>d||(f!==L.fichier?getJSON(L.fichier):Promise.reject(new Error(f+" : illisible")))).then(d=>{prepare(d);try{localStorage.setItem("lr-leg",d.legislature);}catch(e){}
+  const tot=PRE_DATA&&PRE_DATA.f===L.fichier?PRE_DATA.p:null;PRE_DATA=null;
+  const g=cle&&(cle==="accueil"||BASEG&&BASEG.base.legislature===L.leg)?chargerGraine(cle).catch(()=>null):Promise.resolve(null);
+  return g.then(d=>d||(tot?tot.then(x=>x||getJSON(L.fichier)):getJSON(L.fichier))).then(d=>{prepare(d);try{localStorage.setItem("lr-leg",d.legislature);}catch(e){}
     const fm=$("#folio-maj");fm.innerHTML=COURANTE?`<span class="fm-l">${esc(frStr(`Données officielles de l'Assemblée nationale, vérifiées le ${fd(d.maj.slice(0,10))}`))}</span><span class="fm-c">${esc(frStr(`Données vérifiées le ${fds(d.maj.slice(0,10))}`))}</span>`
       :`${esc(frStr(`Archives : ${d.label}`))} <button type="button" class="lien-leg" data-leg="${esc(IDX.legislatures[0].leg)}">${esc(frStr("Revenir à la législature actuelle"))}</button>`;
     $("#foot-maj").textContent=frStr(`Aux Voix, version bêta. Données de l'Assemblée nationale au ${fd(d.maj.slice(0,10))}, Licence Ouverte.`);
@@ -2087,17 +2201,21 @@ function chargerLeg(leg){
 }
 /* Les votes détaillés se téléchargent dès qu'on s'apprête à ouvrir une page qui en a besoin (survol, toucher, focus) */
 ["pointerover","touchstart","focusin"].forEach(ev=>document.addEventListener(ev,e=>{if(!DATA)return;
-  const a=e.target.closest&&e.target.closest("a[href^='#/']");if(!a)return;const p=a.getAttribute("href").slice(2).split(/[/?]/)[0];
-  if(DATA.lite){if(!liteSuffit(p)&&!COMPLET_P)chargerComplet().catch(()=>{});return;}
+  const a=e.target.closest&&e.target.closest("a[href^='#/']");if(!a)return;const r=routeDe(a.getAttribute("href")),p=r.p0;
+  if(DATA.lite){const cle=cleGraine(p,r.parts,r.q);if(cle===DATA.graine)return;
+    if(cle&&(grainesOK()||cle==="accueil"&&LEG===IDX.legislatures[0].leg))chargerGraine(cle).catch(()=>{});else if(!COMPLET_P)chargerComplet().catch(()=>{});return;}
   if(BESOIN_VOTES.includes(p)&&!VOTES_OK&&!VOTES_P)chargerVotes().then(majSuivisFolio).catch(()=>{});},{passive:true}));
 document.getElementById("q").addEventListener("focus",()=>{if(DATA&&DATA.lite)chargerComplet().then(()=>{const q=$("#q");if(q.value.trim())q.dispatchEvent(new Event("input"));}).catch(()=>{});});
 /* Le fichier de la législature retenue part en même temps que l'index, au lieu d'attendre celui-ci */
 let PRE_DATA=null;{let lg="17",cour="17";try{lg=localStorage.getItem("lr-leg")||lg;cour=localStorage.getItem("lr-courante")||cour;}catch(e){}
-  const p0=(location.hash.replace(/^#\/?/,"").split(/[/?]/)[0])||"";
-  const acc=!p0||LITE_OK.has(p0);   /* le fichier léger n'existe que pour la législature en cours */
-  if(/^\d{2}$/.test(lg)&&(!acc||lg===cour)){const f=(acc?"accueil-":"data-")+lg+".json";PRE_DATA={f,p:getJSON(f,null,acc?"default":undefined)};}}
+  /* les graines n'existent que pour la législature en cours ; leurs adresses suivent une règle fixe (g/17/…) */
+  if(/^\d{2}$/.test(lg)){const r=routeDe(location.hash),cle=lg===cour?cleGraine(r.p0,r.parts,r.q):null;
+    if(cle==="accueil")getG(`accueil-${lg}.json`).catch(()=>{});
+    else if(/^cmp/.test(cle)){[`g/${lg}/cmp.json`,`g/${lg}/noms.json`].concat(cle.split("/").slice(1).map(x=>`g/${lg}/v/${x}.json`)).forEach(u=>getG(u).catch(()=>{}));}
+    else if(cle){getG(`g/${lg}/${cle}.json`).catch(()=>{});if(/^(elu|scrutin|loi|groupe)\/|^verifier$/.test(cle))getG(`g/${lg}/noms.json`).catch(()=>{});}
+    else PRE_DATA={f:`data-${lg}.json`,p:getJSON(`data-${lg}.json`,null)};}}
 const CONTENUS=["lois","corrections","site","articles","candidats","actualites","programmes"];
-getJSON("demarrage.json",null,"default").then(dm=>dm&&dm.index?[dm.index,...CONTENUS.map(k=>dm.contenu&&dm.contenu[k]!==undefined?dm.contenu[k]:(k==="site"?{}:[])),dm.actualites||[]]:
+getG("demarrage.json").catch(()=>null).then(dm=>{if(dm&&dm.graines&&dm.graines.base&&dm.graines.dir)BASEG=dm.graines;return dm;}).then(dm=>dm&&dm.index?[dm.index,...CONTENUS.map(k=>dm.contenu&&dm.contenu[k]!==undefined?dm.contenu[k]:(k==="site"?{}:[])),dm.actualites||[]]:
 Promise.all([getJSON("index.json"),getJSON("contenu/lois.json",[]),getJSON("contenu/corrections.json",[]),getJSON("contenu/site.json",{}),getJSON("contenu/articles.json",[]),getJSON("contenu/candidats.json",[]),getJSON("contenu/actualites.json",[]),getJSON("contenu/programmes.json",[]),getJSON("actualites-officielles.json",[])])).then(([ix,ed,c,s,ae,pc_,pa_,pp_,po_])=>{ARTED=Array.isArray(ae)?ae:[];PCAND=Array.isArray(pc_)?pc_:[];PACTU=Array.isArray(pa_)?pa_:[];PPROG=Array.isArray(pp_)?pp_:[];POFF=Array.isArray(po_)?po_:[];bandePresi();
   IDX=ix;EDIT=Array.isArray(ed)?ed:[];CORR=(Array.isArray(c)?c:[]).slice().sort((a,b)=>a.date<b.date?1:-1);SITE=s||{};brancherAudience();
   if(!IDX.legislatures||!IDX.legislatures.length)throw new Error("index.json vide");

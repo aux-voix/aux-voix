@@ -57,7 +57,15 @@ footer{border-top:1px solid var(--b);background:var(--g);font-size:14px;color:va
 
 JS = """document.addEventListener("click",function(e){var b=e.target.closest("[data-copie]");if(!b)return;var t=document.getElementById(b.getAttribute("data-copie")).textContent;
 function ok(){var x=b.textContent;b.textContent="Copié";setTimeout(function(){b.textContent=x;},1500);}
-if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(t).then(ok);}else{var a=document.createElement("textarea");a.value=t;document.body.appendChild(a);a.select();try{document.execCommand("copy");ok();}catch(_){}a.remove();}});"""
+if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(t).then(ok);}else{var a=document.createElement("textarea");a.value=t;document.body.appendChild(a);a.select();try{document.execCommand("copy");ok();}catch(_){}a.remove();}});
+/* Visites comptées par GoatCounter, sans cookie ni script tiers (voir app.js) : seulement si le site l'active, sur sa propre adresse */
+(function(){var m=document.querySelector('meta[name="av-mesure"]'),c=document.querySelector('link[rel="canonical"]');if(!m||!c)return;
+var r=false;try{r=localStorage.getItem("skipgc")==="t";}catch(_){}if(r||navigator.globalPrivacyControl===true||navigator.doNotTrack==="1"||navigator.webdriver)return;
+var h=function(x){return x.replace(/^www\\./,"");};if(location.protocol!=="https:"||h(location.hostname)!==h(new URL(c.href).hostname))return;
+var q={p:location.pathname,t:document.title,r:document.referrer,s:screen.width,rnd:Math.random().toString(36).slice(2,7)},u=m.content+"?";
+for(var k in q)if(q[k]!=="")u+=k+"="+encodeURIComponent(q[k])+"&";
+var go=function(){try{if(navigator.sendBeacon&&navigator.sendBeacon(u))return;}catch(_){}new Image().src=u;};
+if(window.requestIdleCallback)requestIdleCallback(go,{timeout:4000});else setTimeout(go,1500);})();"""
 
 
 class Generateur:
@@ -73,7 +81,8 @@ class Generateur:
         from urllib.parse import urlparse
         self.base = urlparse(self.url).path.rstrip("/")   # « /Auxvoix.github.io » si le site n'est pas à la racine
         gc = str((cfg.get("mesure_audience") or {}).get("goatcounter") or "").strip().lower()
-        self.audience = (f'<script data-goatcounter="https://{gc}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>'
+        # compteur de visites (GoatCounter) : rien n'est chargé depuis un autre site, statique.js envoie un seul appel
+        self.audience = (f'<meta name="av-mesure" content="https://{gc}.goatcounter.com/count">'
                          if re.fullmatch(r"[a-z0-9][a-z0-9-]{1,40}", gc) else "")
         self.urls = {"deputes": [], "votes": [], "lois": [], "codes": []}
         self.deputes_faits = set()   # un député élu sous plusieurs législatures garde la page de la plus récente
@@ -383,7 +392,7 @@ class Generateur:
                 cartes.append(fichier)
         index = "".join(f"<sitemap><loc>{ESC(self.url)}/{f}</loc><lastmod>{self.aujourdhui}</lastmod></sitemap>" for f in cartes)
         open(os.path.join(self.site, "sitemap.xml"), "w", encoding="utf-8").write(f'<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{index}</sitemapindex>')
-        robots = f"User-agent: *\nAllow: /\nSitemap: {self.url}/sitemap.xml\n" if self.public else "# Site en version bêta : exploration désactivée jusqu'à l'ouverture publique.\nUser-agent: *\nDisallow: /\n"
+        robots = f"User-agent: *\nAllow: /\nDisallow: /g/\nSitemap: {self.url}/sitemap.xml\n" if self.public else "# Site en version bêta : exploration désactivée jusqu'à l'ouverture publique.\nUser-agent: *\nDisallow: /\n"
         open(os.path.join(self.site, "robots.txt"), "w", encoding="utf-8").write(robots)
         # flux de l'ordre du jour (votes solennels annoncés) et de la présidentielle
         try:
