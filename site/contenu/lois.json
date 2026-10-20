@@ -1,200 +1,263 @@
 [
- {
-  "publie": false,
-  "dossier": "DLR5L17N54951",
-  "titre_officiel": "Projet de loi de financement de la sécurité sociale pour 2027",
-  "phrase": "Le budget 2027 de la Sécurité sociale veut presque diviser son déficit par deux : pensions et dépenses de santé freinées, certaines cotisations patronales relevées.",
-  "note": "Fiche établie d'après la version déposée par le gouvernement le 1er octobre 2026. Les députés peuvent la modifier jusqu'au vote du 27 octobre, puis le Sénat en novembre.",
-  "resume": [
-   "Chaque année, le Parlement vote le budget de la Sécurité sociale : ce qu'elle dépense et ce qu'elle reçoit pour les retraites, la santé et les familles.",
-   "Pour 2027, le gouvernement veut ramener le déficit (l'écart entre dépenses et recettes) de 21,8 milliards d'euros en 2026 à 12,7 milliards.",
-   "Pour cela, il limite la hausse des pensions au-dessus de 1 260 € par mois, freine les dépenses de santé et fait payer une partie de certains soins par les mutuelles.",
-   "Il réduit aussi certaines baisses de cotisations accordées aux entreprises et étend la taxe sur les boissons sucrées à d'autres produits sucrés.",
-   "En parallèle, il finance de nouvelles maisons de santé et augmente de 3 % les moyens des hôpitaux."
-  ],
-  "pourquoi": [
-   "La Constitution impose au Parlement de voter chaque année le budget de la Sécurité sociale.",
-   "Sans nouvelles mesures, le gouvernement estime que le déficit atteindrait 22,6 milliards d'euros en 2027. Il présente ce texte comme un « budget de sauvegarde » destiné à réduire cet écart."
-  ],
-  "change": [
-   [
-    "Chaque 1er janvier, les pensions de retraite augmentent comme les prix.",
-    "Hausse comme les prix jusqu'à 1 260 € par mois. Au-dessus, pension gelée, sauf si le gouvernement décide une hausse par décret.",
-    "Les retraités : environ deux sur trois touchent plus de 1 260 € par mois.",
-    "1er janvier 2027"
-   ],
-   [
-    "Les parents de 3 enfants ou plus ont une pension majorée de 10 %.",
-    "Un montant fixe, le même pour les femmes et les hommes, fixé par décret.",
-    "Les futurs retraités parents de 3 enfants ou plus",
-    "Pensions qui commencent à partir du 1er juillet 2027"
-   ],
-   [
-    "L'Assurance maladie rembourse une partie des soins dentaires et des transports sanitaires.",
-    "Une partie de ces remboursements passe aux complémentaires santé (les mutuelles).",
-    "Les assurés et leurs mutuelles",
-    "2027"
-   ],
-   [
-    "Les prestations familiales augmentent chaque année comme les prix.",
-    "Elles seraient gelées, et l'allocation de rentrée scolaire « recentrée ».",
-    "Les familles qui touchent des allocations",
-    "2027"
-   ],
-   [
-    "La taxe sur le sucre vise surtout les boissons (« taxe soda »).",
-    "Elle s'étend aux biscuits, gâteaux, céréales, confiseries et glaces sucrés emballés.",
-    "Fabricants et importateurs (produits artisanaux exclus)",
-    "1er janvier 2027"
-   ],
-   [
-    "Les indemnités de départ (licenciement, rupture conventionnelle) échappent en partie aux cotisations, avec des plafonds différents selon les cas.",
-    "Un seul plafond : pas de cotisations jusqu'à 48 060 €, des cotisations au-delà.",
-    "Les salariés qui partent avec une indemnité élevée (les 5 % les plus hautes, selon le ministre du Travail)",
-    "Départs à partir du 1er janvier 2027"
-   ],
-   [
-    "Les primes (intéressement, participation, prime de partage de la valeur) ne comptent pas dans le calcul des baisses de cotisations patronales.",
-    "Elles comptent : les entreprises ont moins de baisses de cotisations, pour 3,7 milliards d'euros au total.",
-    "Les employeurs",
-    "2027"
-   ],
-   [
-    "—",
-    "Objectif de 5 000 maisons France Santé fin 2027, et des médecins envoyés en renfort dans les zones qui en manquent.",
-    "Les habitants des zones où il manque des médecins",
-    "D'ici fin 2027"
-   ]
-  ],
-  "pasfait": [
-   "Il ne fixe pas encore les nouvelles règles des arrêts maladie : elles doivent être négociées avec les syndicats et le patronat d'ici fin 2026.",
-   "Il ne fait pas baisser la dette de la Sécurité sociale : tant qu'il y a un déficit, la dette continue d'augmenter, moins vite.",
-   "Ce n'est pas le budget de l'État : l'impôt sur le revenu, y compris l'abattement de 10 % des retraités, dépend du projet de loi de finances, voté à part le 17 novembre."
-  ],
-  "arguments": {
-   "pour": [
-    {
-     "qui": "Le gouvernement",
-     "arg": "Réduire le déficit est indispensable. C'est un « budget de sauvegarde » : « on peut discuter du comment, mais pas du combien » (David Amiel, ministre des Comptes publics).",
-     "source": "https://www.lecourrierdesstrateges.fr/budget-2027-ce-que-lassemblee-a-fait-mardi-du-plf-et-du-plfss/"
+  {
+    "publie": false,
+    "dossier": "DLR5L17N54951",
+    "titre_officiel": "Projet de loi de financement de la sécurité sociale pour 2027",
+    "phrase": "Le budget 2027 de la Sécurité sociale veut presque diviser son déficit par deux : pensions et dépenses de santé freinées, certaines cotisations patronales relevées.",
+    "note": "Fiche établie d'après la version déposée par le gouvernement le 1er octobre 2026. Les députés peuvent la modifier jusqu'au vote du 27 octobre, puis le Sénat en novembre.",
+    "resume": [
+      "Chaque année, le Parlement vote le budget de la Sécurité sociale : ce qu'elle dépense et ce qu'elle reçoit pour les retraites, la santé et les familles.",
+      "Pour 2027, le gouvernement veut ramener le déficit (l'écart entre dépenses et recettes) de 21,8 milliards d'euros en 2026 à 12,7 milliards.",
+      "Pour cela, il limite la hausse des pensions au-dessus de 1 260 € par mois, freine les dépenses de santé et fait payer une partie de certains soins par les mutuelles.",
+      "Il réduit aussi certaines baisses de cotisations accordées aux entreprises et étend la taxe sur les boissons sucrées à d'autres produits sucrés.",
+      "En parallèle, il finance de nouvelles maisons de santé et augmente de 3 % les moyens des hôpitaux."
+    ],
+    "pourquoi": [
+      "La Constitution impose au Parlement de voter chaque année le budget de la Sécurité sociale.",
+      "Sans nouvelles mesures, le gouvernement estime que le déficit atteindrait 22,6 milliards d'euros en 2027. Il présente ce texte comme un « budget de sauvegarde » destiné à réduire cet écart."
+    ],
+    "change": [
+      [
+        "Chaque 1er janvier, les pensions de retraite augmentent comme les prix.",
+        "Hausse comme les prix jusqu'à 1 260 € par mois. Au-dessus, pension gelée, sauf si le gouvernement décide une hausse par décret.",
+        "Les retraités : environ deux sur trois touchent plus de 1 260 € par mois.",
+        "1er janvier 2027"
+      ],
+      [
+        "Les parents de 3 enfants ou plus ont une pension majorée de 10 %.",
+        "Un montant fixe, le même pour les femmes et les hommes, fixé par décret.",
+        "Les futurs retraités parents de 3 enfants ou plus",
+        "Pensions qui commencent à partir du 1er juillet 2027"
+      ],
+      [
+        "L'Assurance maladie rembourse une partie des soins dentaires et des transports sanitaires.",
+        "Une partie de ces remboursements passe aux complémentaires santé (les mutuelles).",
+        "Les assurés et leurs mutuelles",
+        "2027"
+      ],
+      [
+        "Les prestations familiales augmentent chaque année comme les prix.",
+        "Elles seraient gelées, et l'allocation de rentrée scolaire « recentrée ».",
+        "Les familles qui touchent des allocations",
+        "2027"
+      ],
+      [
+        "La taxe sur le sucre vise surtout les boissons (« taxe soda »).",
+        "Elle s'étend aux biscuits, gâteaux, céréales, confiseries et glaces sucrés emballés.",
+        "Fabricants et importateurs (produits artisanaux exclus)",
+        "1er janvier 2027"
+      ],
+      [
+        "Les indemnités de départ (licenciement, rupture conventionnelle) échappent en partie aux cotisations, avec des plafonds différents selon les cas.",
+        "Un seul plafond : pas de cotisations jusqu'à 48 060 €, des cotisations au-delà.",
+        "Les salariés qui partent avec une indemnité élevée (les 5 % les plus hautes, selon le ministre du Travail)",
+        "Départs à partir du 1er janvier 2027"
+      ],
+      [
+        "Les primes (intéressement, participation, prime de partage de la valeur) ne comptent pas dans le calcul des baisses de cotisations patronales.",
+        "Elles comptent : les entreprises ont moins de baisses de cotisations, pour 3,7 milliards d'euros au total.",
+        "Les employeurs",
+        "2027"
+      ],
+      [
+        "—",
+        "Objectif de 5 000 maisons France Santé fin 2027, et des médecins envoyés en renfort dans les zones qui en manquent.",
+        "Les habitants des zones où il manque des médecins",
+        "D'ici fin 2027"
+      ]
+    ],
+    "pasfait": [
+      "Il ne fixe pas encore les nouvelles règles des arrêts maladie : elles doivent être négociées avec les syndicats et le patronat d'ici fin 2026.",
+      "Il ne fait pas baisser la dette de la Sécurité sociale : tant qu'il y a un déficit, la dette continue d'augmenter, moins vite.",
+      "Ce n'est pas le budget de l'État : l'impôt sur le revenu, y compris l'abattement de 10 % des retraités, dépend du projet de loi de finances, voté à part le 17 novembre."
+    ],
+    "arguments": {
+      "pour": [
+        {
+          "qui": "Le gouvernement",
+          "arg": "Réduire le déficit est indispensable. C'est un « budget de sauvegarde » : « on peut discuter du comment, mais pas du combien » (David Amiel, ministre des Comptes publics).",
+          "source": "https://www.lecourrierdesstrateges.fr/budget-2027-ce-que-lassemblee-a-fait-mardi-du-plf-et-du-plfss/"
+        },
+        {
+          "qui": "Le gouvernement",
+          "arg": "Les petites pensions, jusqu'à 1 260 € par mois, continuent d'augmenter comme les prix. Le Premier ministre s'est dit ouvert à une hausse partielle jusqu'à 2 000 €.",
+          "source": "https://www.parlons-politique.fr/actualite-nationale/pensions-2027-les-deputes-peuvent-ils-proteger-le-pouvoir-dachat-sans-aggraver-le-deficit-de-la-securite-sociale_29567/"
+        },
+        {
+          "qui": "Le gouvernement",
+          "arg": "La taxe sur les produits sucrés doit lutter contre l'obésité et les maladies chroniques. Le montant fixe pour les parents de 3 enfants met fin à une différence entre femmes et hommes.",
+          "source": "https://www.sudradio.fr/societe/projet-de-budget-de-la-securite-sociale-les-principales-mesures"
+        },
+        {
+          "qui": "Le gouvernement",
+          "arg": "Le texte investit dans l'accès aux soins : 5 000 maisons France Santé fin 2027 et des moyens en hausse de 3 % pour les hôpitaux.",
+          "source": "https://www.weka.fr/actualite/sante/article/plfss-2027-les-mesures-d-economies-pour-reduire-de-50-le-deficit-220586/"
+        }
+      ],
+      "contre": [
+        {
+          "qui": "Des députés de La France insoumise, du groupe socialiste, de la Droite républicaine et du Rassemblement national",
+          "arg": "En commission, ils ont voté pour supprimer le gel des pensions au-dessus de 1 260 € par mois.",
+          "source": "https://www.parlons-politique.fr/actualite-nationale/pensions-2027-les-deputes-peuvent-ils-proteger-le-pouvoir-dachat-sans-aggraver-le-deficit-de-la-securite-sociale_29567/"
+        },
+        {
+          "qui": "Le Rassemblement national",
+          "arg": "Le texte pèse sur les actifs, les retraités, les entreprises et les patients (gel des pensions, nouvelles taxes, taxe sur les mutuelles), sans réforme de fond contre les déserts médicaux (Sandrine Dogor-Such, députée).",
+          "source": "https://ouillade.eu/politique/paris-assemblee-nationale-sandrine-dogor-such-rn-deputee-plfss-2027-son-rejet-en-commission-marque-un-desaveu-pour-le-gouvernement/444288"
+        },
+        {
+          "qui": "La CFDT (syndicat de salariés)",
+          "arg": "Un budget « injuste et brutal pour les plus modestes » : prestations familiales gelées, pensions non revalorisées au-dessus de 1 260 €, efforts demandés surtout aux salariés, retraités et malades plutôt qu'aux plus aisés.",
+          "source": "https://www.cfdt.fr/sinformer/communiques-de-presse/plfss-2027-un-budget-desequilibre-sur-les-efforts-demandes-injuste-et-brutal-pour-les-plus-modestes"
+        },
+        {
+          "qui": "La Mutualité française (fédération des mutuelles)",
+          "arg": "« Taxer les mutuelles, c'est taxer les assurés » : taxe et transferts de remboursements coûteraient plus de 3 milliards d'euros aux assurés en 2027, selon elle.",
+          "source": "https://www.vivamagazine.fr/plfss-2027-la-mutualite-francaise-denonce-un-budget-de-sanctions-taxes-et-deremboursements/"
+        },
+        {
+          "qui": "Union TLF (employeurs du transport et de la logistique)",
+          "arg": "Un « choc brutal sur le coût du travail » qui aggrave le manque de compétitivité des entreprises.",
+          "source": "https://www.trm24.fr/plfss-2027-tlf-redoute-un-nouveau-choc-sur-le-cout-du-travail/"
+        }
+      ]
     },
-    {
-     "qui": "Le gouvernement",
-     "arg": "Les petites pensions, jusqu'à 1 260 € par mois, continuent d'augmenter comme les prix. Le Premier ministre s'est dit ouvert à une hausse partielle jusqu'à 2 000 €.",
-     "source": "https://www.parlons-politique.fr/actualite-nationale/pensions-2027-les-deputes-peuvent-ils-proteger-le-pouvoir-dachat-sans-aggraver-le-deficit-de-la-securite-sociale_29567/"
+    "details": [
+      {
+        "titre": "Déficit",
+        "texte": "21,8 milliards d'euros en 2026 ; objectif de 12,7 milliards en 2027 ; 22,6 milliards sans mesures, selon le gouvernement. Effort d'environ 10 milliards, surtout sur les dépenses."
+      },
+      {
+        "titre": "Assurance maladie",
+        "texte": "Objectif national de dépenses d'assurance maladie (Ondam) de 278,7 milliards d'euros, en hausse de 2 % (environ 3 % les années précédentes) : hôpitaux +3 %, soins de ville +0,77 %. 5,1 milliards d'euros d'économies."
+      },
+      {
+        "titre": "Retraites",
+        "texte": "Hausse comme les prix jusqu'à 1 260 € par mois (avec un lissage jusqu'à 1 281 €). Au-delà, hausse fixée par décret, au plus égale à l'inflation ; sans décret, pension gelée jusqu'au 31 octobre 2027. Économie d'environ 4 milliards d'euros selon l'AFP."
+      },
+      {
+        "titre": "Santé",
+        "texte": "Transferts vers les complémentaires : 1,2 milliard (soins dentaires, transports sanitaires) et 500 millions de frais d'hôpital. Taxe de 2,05 % sur les cotisations santé prolongée (1,1 milliard). Baisse des prix des médicaments et dispositifs médicaux (environ 2 milliards). Arrêts maladie : environ 1 milliard d'économies, règles à négocier d'ici fin 2026."
+      },
+      {
+        "titre": "Familles",
+        "texte": "Gel des prestations familiales et recentrage de l'allocation de rentrée scolaire (1,1 milliard). Étrangers non européens en situation régulière : un an de résidence exigé pour certaines prestations familiales et aides au logement, selon l'AFP."
+      },
+      {
+        "titre": "Entreprises",
+        "texte": "Gel des baisses de cotisations prolongé (2,9 milliards). Primes intégrées au calcul des baisses de cotisations (3,7 milliards). Indemnités de départ : plafond unique de 48 060 € (0,3 milliard). Prime de partage de la valeur et rachat de jours de RTT rendus permanents."
+      },
+      {
+        "titre": "Nouvelles taxes santé",
+        "texte": "Produits sucrés emballés : 4,07 € à 22 € par quintal (100 kg) selon le taux de sucre (0,3 milliard). Fabricants de dispositifs médicaux : 3,6 % sur 70 % des montants remboursés. Groupements de pharmacies : 15 % des sommes reçues des laboratoires."
+      },
+      {
+        "titre": "Accès aux soins",
+        "texte": "5 000 maisons France Santé fin 2027 ; « mission de solidarité territoriale » pour les médecins dans les zones sous-dotées ; 17 % d'internes en médecine en plus à la rentrée 2026."
+      },
+      {
+        "titre": "Agriculteurs",
+        "texte": "Nouvelle allocation de remplacement, jusqu'à 100 jours, pour les exploitants qui s'arrêtent pour s'occuper d'un enfant gravement malade, handicapé ou accidenté (au plus tard au 1er juillet 2027)."
+      },
+      {
+        "titre": "Parcours",
+        "texte": "Déposé le 1er octobre 2026 (texte n° 3211). Rejeté en commission des affaires sociales le 16 octobre, un vote seulement indicatif. Débat dans l'hémicycle du 20 au 26 octobre, vote solennel le 27 octobre. Puis Sénat en novembre ; le Parlement a jusqu'au 26 novembre pour se prononcer (50 jours) ; adoption définitive attendue en décembre."
+      }
+    ],
+    "sources": [
+      {
+        "titre": "Assemblée nationale : dossier du PLFSS 2027",
+        "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/plfss_2027"
+      },
+      {
+        "titre": "Legifiscal : tableau des principales mesures",
+        "url": "https://www.legifiscal.fr/vie-affaires/plfss-2027-tableau-synthese-principales-mesures.html"
+      },
+      {
+        "titre": "AFP (via Sud Radio) : les principales mesures",
+        "url": "https://www.sudradio.fr/societe/projet-de-budget-de-la-securite-sociale-les-principales-mesures"
+      },
+      {
+        "titre": "Weka : chiffres et économies",
+        "url": "https://www.weka.fr/actualite/sante/article/plfss-2027-les-mesures-d-economies-pour-reduire-de-50-le-deficit-220586/"
+      },
+      {
+        "titre": "NosParlementaires : calendrier d'examen",
+        "url": "https://nosparlementaires.fr/actualites/plfss-2027-calendrier-examen-date-par-date"
+      },
+      {
+        "titre": "Le Club des Juristes : rejet en commission",
+        "url": "https://www.leclubdesjuristes.com/?p=17866"
+      }
+    ],
+    "auteur": "Rédaction Aux Voix (brouillon préparé avec l'aide d'une IA)",
+    "verif": "",
+    "version": {
+      "n": 1,
+      "date": "2026-10-20"
     },
-    {
-     "qui": "Le gouvernement",
-     "arg": "La taxe sur les produits sucrés doit lutter contre l'obésité et les maladies chroniques. Le montant fixe pour les parents de 3 enfants met fin à une différence entre femmes et hommes.",
-     "source": "https://www.sudradio.fr/societe/projet-de-budget-de-la-securite-sociale-les-principales-mesures"
+    "essentiel": {
+      "points": [
+        "Le but : réduire le déficit de la Sécurité sociale de 21,8 à 12,7 milliards d'euros en 2027.",
+        "Les pensions au-dessus de 1 260 € par mois seraient gelées, sauf décision contraire du gouvernement.",
+        "Les mutuelles paieraient une plus grande part de certains soins (dents, transports médicaux).",
+        "La taxe sur les sodas s'étendrait aux biscuits, gâteaux et confiseries sucrés."
+      ],
+      "pour": "Le gouvernement : il faut réduire le déficit sans attendre, tout en finançant l'accès aux soins.",
+      "contre": "Des syndicats, les mutuelles et des députés de plusieurs groupes : l'effort pèse surtout sur les retraités, les familles et les malades."
     },
-    {
-     "qui": "Le gouvernement",
-     "arg": "Le texte investit dans l'accès aux soins : 5 000 maisons France Santé fin 2027 et des moyens en hausse de 3 % pour les hôpitaux.",
-     "source": "https://www.weka.fr/actualite/sante/article/plfss-2027-les-mesures-d-economies-pour-reduire-de-50-le-deficit-220586/"
+    "court": {
+      "resume": [
+        "Chaque année, le Parlement vote le budget de la Sécurité sociale : ce qu'elle dépense et ce qu'elle reçoit pour les retraites, la santé et les familles.",
+        "Pour 2027, le gouvernement veut réduire le déficit (l'écart entre dépenses et recettes) de 21,8 à 12,7 milliards d'euros, en freinant certaines dépenses et en relevant certaines cotisations des entreprises.",
+        "Il finance aussi de nouvelles maisons de santé et 3 % de moyens en plus pour les hôpitaux."
+      ],
+      "change": [
+        [
+          "Les pensions augmentent chaque année comme les prix.",
+          "Au-dessus de 1 260 € par mois, elles seraient gelées, sauf hausse décidée par le gouvernement.",
+          "Les retraités (environ deux sur trois sont au-dessus de ce seuil)"
+        ],
+        [
+          "L'Assurance maladie rembourse une partie des soins dentaires et des transports médicaux.",
+          "Une partie passerait aux mutuelles.",
+          "Les assurés et leurs mutuelles"
+        ],
+        [
+          "Les allocations familiales augmentent comme les prix.",
+          "Elles seraient gelées.",
+          "Les familles qui touchent des allocations"
+        ],
+        [
+          "La taxe sur le sucre vise surtout les boissons.",
+          "Elle s'étend aux biscuits, gâteaux, céréales, confiseries et glaces sucrés emballés.",
+          "Fabricants et importateurs"
+        ]
+      ],
+      "pour": [
+        {
+          "qui": "Le gouvernement",
+          "arg": "Réduire le déficit est indispensable : « on peut discuter du comment, mais pas du combien » (David Amiel, ministre des Comptes publics).",
+          "source": "https://www.lecourrierdesstrateges.fr/budget-2027-ce-que-lassemblee-a-fait-mardi-du-plf-et-du-plfss/"
+        },
+        {
+          "qui": "Le gouvernement",
+          "arg": "Les petites pensions continuent d'augmenter comme les prix, et le texte finance 5 000 maisons France Santé d'ici fin 2027.",
+          "source": "https://www.weka.fr/actualite/sante/article/plfss-2027-les-mesures-d-economies-pour-reduire-de-50-le-deficit-220586/"
+        }
+      ],
+      "contre": [
+        {
+          "qui": "La CFDT (syndicat de salariés)",
+          "arg": "Un budget « injuste et brutal pour les plus modestes » : les efforts pèsent surtout sur les salariés, les retraités et les malades.",
+          "source": "https://www.cfdt.fr/sinformer/communiques-de-presse/plfss-2027-un-budget-desequilibre-sur-les-efforts-demandes-injuste-et-brutal-pour-les-plus-modestes"
+        },
+        {
+          "qui": "La Mutualité française (fédération des mutuelles)",
+          "arg": "« Taxer les mutuelles, c'est taxer les assurés » : plus de 3 milliards d'euros à la charge des assurés en 2027, selon elle.",
+          "source": "https://www.vivamagazine.fr/plfss-2027-la-mutualite-francaise-denonce-un-budget-de-sanctions-taxes-et-deremboursements/"
+        }
+      ]
     }
-   ],
-   "contre": [
-    {
-     "qui": "Des députés de La France insoumise, du groupe socialiste, de la Droite républicaine et du Rassemblement national",
-     "arg": "En commission, ils ont voté pour supprimer le gel des pensions au-dessus de 1 260 € par mois.",
-     "source": "https://www.parlons-politique.fr/actualite-nationale/pensions-2027-les-deputes-peuvent-ils-proteger-le-pouvoir-dachat-sans-aggraver-le-deficit-de-la-securite-sociale_29567/"
-    },
-    {
-     "qui": "Le Rassemblement national",
-     "arg": "Le texte pèse sur les actifs, les retraités, les entreprises et les patients (gel des pensions, nouvelles taxes, taxe sur les mutuelles), sans réforme de fond contre les déserts médicaux (Sandrine Dogor-Such, députée).",
-     "source": "https://ouillade.eu/politique/paris-assemblee-nationale-sandrine-dogor-such-rn-deputee-plfss-2027-son-rejet-en-commission-marque-un-desaveu-pour-le-gouvernement/444288"
-    },
-    {
-     "qui": "La CFDT (syndicat de salariés)",
-     "arg": "Un budget « injuste et brutal pour les plus modestes » : prestations familiales gelées, pensions non revalorisées au-dessus de 1 260 €, efforts demandés surtout aux salariés, retraités et malades plutôt qu'aux plus aisés.",
-     "source": "https://www.cfdt.fr/sinformer/communiques-de-presse/plfss-2027-un-budget-desequilibre-sur-les-efforts-demandes-injuste-et-brutal-pour-les-plus-modestes"
-    },
-    {
-     "qui": "La Mutualité française (fédération des mutuelles)",
-     "arg": "« Taxer les mutuelles, c'est taxer les assurés » : taxe et transferts de remboursements coûteraient plus de 3 milliards d'euros aux assurés en 2027, selon elle.",
-     "source": "https://www.vivamagazine.fr/plfss-2027-la-mutualite-francaise-denonce-un-budget-de-sanctions-taxes-et-deremboursements/"
-    },
-    {
-     "qui": "Union TLF (employeurs du transport et de la logistique)",
-     "arg": "Un « choc brutal sur le coût du travail » qui aggrave le manque de compétitivité des entreprises.",
-     "source": "https://www.trm24.fr/plfss-2027-tlf-redoute-un-nouveau-choc-sur-le-cout-du-travail/"
-    }
-   ]
-  },
-  "details": [
-   {
-    "titre": "Déficit",
-    "texte": "21,8 milliards d'euros en 2026 ; objectif de 12,7 milliards en 2027 ; 22,6 milliards sans mesures, selon le gouvernement. Effort d'environ 10 milliards, surtout sur les dépenses."
-   },
-   {
-    "titre": "Assurance maladie",
-    "texte": "Objectif national de dépenses d'assurance maladie (Ondam) de 278,7 milliards d'euros, en hausse de 2 % (environ 3 % les années précédentes) : hôpitaux +3 %, soins de ville +0,77 %. 5,1 milliards d'euros d'économies."
-   },
-   {
-    "titre": "Retraites",
-    "texte": "Hausse comme les prix jusqu'à 1 260 € par mois (avec un lissage jusqu'à 1 281 €). Au-delà, hausse fixée par décret, au plus égale à l'inflation ; sans décret, pension gelée jusqu'au 31 octobre 2027. Économie d'environ 4 milliards d'euros selon l'AFP."
-   },
-   {
-    "titre": "Santé",
-    "texte": "Transferts vers les complémentaires : 1,2 milliard (soins dentaires, transports sanitaires) et 500 millions de frais d'hôpital. Taxe de 2,05 % sur les cotisations santé prolongée (1,1 milliard). Baisse des prix des médicaments et dispositifs médicaux (environ 2 milliards). Arrêts maladie : environ 1 milliard d'économies, règles à négocier d'ici fin 2026."
-   },
-   {
-    "titre": "Familles",
-    "texte": "Gel des prestations familiales et recentrage de l'allocation de rentrée scolaire (1,1 milliard). Étrangers non européens en situation régulière : un an de résidence exigé pour certaines prestations familiales et aides au logement, selon l'AFP."
-   },
-   {
-    "titre": "Entreprises",
-    "texte": "Gel des baisses de cotisations prolongé (2,9 milliards). Primes intégrées au calcul des baisses de cotisations (3,7 milliards). Indemnités de départ : plafond unique de 48 060 € (0,3 milliard). Prime de partage de la valeur et rachat de jours de RTT rendus permanents."
-   },
-   {
-    "titre": "Nouvelles taxes santé",
-    "texte": "Produits sucrés emballés : 4,07 € à 22 € par quintal (100 kg) selon le taux de sucre (0,3 milliard). Fabricants de dispositifs médicaux : 3,6 % sur 70 % des montants remboursés. Groupements de pharmacies : 15 % des sommes reçues des laboratoires."
-   },
-   {
-    "titre": "Accès aux soins",
-    "texte": "5 000 maisons France Santé fin 2027 ; « mission de solidarité territoriale » pour les médecins dans les zones sous-dotées ; 17 % d'internes en médecine en plus à la rentrée 2026."
-   },
-   {
-    "titre": "Agriculteurs",
-    "texte": "Nouvelle allocation de remplacement, jusqu'à 100 jours, pour les exploitants qui s'arrêtent pour s'occuper d'un enfant gravement malade, handicapé ou accidenté (au plus tard au 1er juillet 2027)."
-   },
-   {
-    "titre": "Parcours",
-    "texte": "Déposé le 1er octobre 2026 (texte n° 3211). Rejeté en commission des affaires sociales le 16 octobre, un vote seulement indicatif. Débat dans l'hémicycle du 20 au 26 octobre, vote solennel le 27 octobre. Puis Sénat en novembre ; le Parlement a jusqu'au 26 novembre pour se prononcer (50 jours) ; adoption définitive attendue en décembre."
-   }
-  ],
-  "sources": [
-   {
-    "titre": "Assemblée nationale : dossier du PLFSS 2027",
-    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/plfss_2027"
-   },
-   {
-    "titre": "Legifiscal : tableau des principales mesures",
-    "url": "https://www.legifiscal.fr/vie-affaires/plfss-2027-tableau-synthese-principales-mesures.html"
-   },
-   {
-    "titre": "AFP (via Sud Radio) : les principales mesures",
-    "url": "https://www.sudradio.fr/societe/projet-de-budget-de-la-securite-sociale-les-principales-mesures"
-   },
-   {
-    "titre": "Weka : chiffres et économies",
-    "url": "https://www.weka.fr/actualite/sante/article/plfss-2027-les-mesures-d-economies-pour-reduire-de-50-le-deficit-220586/"
-   },
-   {
-    "titre": "NosParlementaires : calendrier d'examen",
-    "url": "https://nosparlementaires.fr/actualites/plfss-2027-calendrier-examen-date-par-date"
-   },
-   {
-    "titre": "Le Club des Juristes : rejet en commission",
-    "url": "https://www.leclubdesjuristes.com/?p=17866"
-   }
-  ],
-  "auteur": "Rédaction Aux Voix (brouillon préparé avec l'aide d'une IA)",
-  "verif": "",
-  "version": {
-   "n": 1,
-   "date": "2026-10-20"
   }
- }
 ]

@@ -991,6 +991,29 @@ def verifier_contenus():
                             erreurs.append(f"lois.json, fiche {i + 1} : chaque ligne de « change » a 3 cases (avant, après, qui) ou 4 (plus : à partir de quand)")
                     if len(t.get("resume") or []) > 5:
                         erreurs.append(f"lois.json, fiche {i + 1} : le résumé tient en 5 phrases au plus")
+                    E = t.get("essentiel") or {}
+                    if E:
+                        if not (2 <= len(E.get("points") or []) <= 4):
+                            erreurs.append(f"lois.json, fiche {i + 1} : « essentiel » a de 2 à 4 points")
+                        if not E.get("pour") or not E.get("contre"):
+                            erreurs.append(f"lois.json, fiche {i + 1} : « essentiel » doit donner une ligne « pour » et une ligne « contre »")
+                        for x in list(E.get("points") or []) + [E.get("pour", ""), E.get("contre", "")]:
+                            if len(str(x).split()) > 30:
+                                erreurs.append(f"lois.json, fiche {i + 1} : une ligne de « essentiel » dépasse 30 mots : {str(x)[:40]}…")
+                    C = t.get("court") or {}
+                    if C:
+                        if len(C.get("resume") or []) > 3:
+                            erreurs.append(f"lois.json, fiche {i + 1} : le résumé « court » tient en 3 phrases au plus")
+                        if len(C.get("change") or []) > 5 or any(not isinstance(r, list) or len(r) != 3 for r in C.get("change") or []):
+                            erreurs.append(f"lois.json, fiche {i + 1} : « court.change » a 5 lignes au plus, de 3 cases")
+                        if not C.get("pour") or not C.get("contre") or len(C["pour"]) != len(C["contre"]):
+                            erreurs.append(f"lois.json, fiche {i + 1} : « court » doit présenter autant d'arguments « pour » que « contre »")
+                        for cote in ("pour", "contre"):
+                            for a in C.get(cote) or []:
+                                if not isinstance(a, dict) or not a.get("qui") or not a.get("arg"):
+                                    erreurs.append(f"lois.json, fiche {i + 1} : chaque argument « court.{cote} » a un « qui » et un « arg »")
+                                elif a.get("source") and not str(a["source"]).startswith("https://"):
+                                    erreurs.append(f"lois.json, fiche {i + 1} : la source d'un argument court doit commencer par https://")
     if erreurs:
         print("\nERREURS DANS LES CONTENUS (le site en ligne n'est pas modifié) :")
         for x in erreurs:

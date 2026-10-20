@@ -510,14 +510,32 @@ function suiteLoi(l){
 function ficheComprendre(ed){
   if(!ed)return "";
   const P=x=>[].concat(x||[]).filter(Boolean).map(t=>`<p class="ui">${esc(t)}</p>`).join("");
-  const rows=(ed.change||[]).filter(r=>Array.isArray(r)&&r.length>=3),quand=rows.some(r=>r[3]);
   const cote=(L,titre)=>`<div class="arg-c"><h4>${titre}</h4><ul>${L.map(a=>`<li><strong>${esc(a.qui||"")}</strong> : ${esc(a.arg||"")}${a.source&&safeUrl(a.source)?` <span class="meta">(${ext(a.source,"source")})</span>`:""}</li>`).join("")}</ul></div>`;
+  const camps=(pour,contre)=>pour.length&&contre.length?`<h3 class="h3" style="margin-top:22px">Ce qu'en disent les différents camps</h3><div class="args">${cote(pour,"Ceux qui le soutiennent")}${cote(contre,"Ceux qui s'y opposent")}</div><p class="meta">Chaque argument est rapporté tel que son auteur le présente. Aux Voix ne le reprend pas à son compte et ne tranche pas.</p>`:"";
+  const table=(rows,quand)=>`<div class="tw" style="margin-top:10px"><table class="t t-cartes"><thead><tr><th>Avant</th><th>Après</th><th>Qui est concerné</th>${quand?"<th>À partir de quand</th>":""}</tr></thead><tbody>${rows.map(r=>`<tr>${r.slice(0,quand?4:3).map(c=>`<td>${esc(c||"—")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+  const C=ed.court,court=C&&(C.resume||[]).length;
+  /* Niveau « Comprendre » : version courte, si elle existe (sinon la version complète) */
+  let h="";
+  if(court){
+    const cr=(C.change||[]).filter(r=>Array.isArray(r)&&r.length>=3);
+    h+=`<div class="lv2only">${P(C.resume)}
+      ${cr.length?`<h3 class="h3" style="margin-top:22px">Ce qui change, en bref</h3>${table(cr,false)}`:""}
+      ${camps((C.pour||[]).filter(a=>a&&a.arg),(C.contre||[]).filter(a=>a&&a.arg))}
+      <p class="meta" style="margin-top:14px">Le détail complet (pourquoi ce texte, toutes les mesures, tous les arguments, les chiffres) est au niveau « Expert ».</p></div>`;}
+  const rows=(ed.change||[]).filter(r=>Array.isArray(r)&&r.length>=3),quand=rows.some(r=>r[3]);
   const A=ed.arguments||{},pour=(A.pour||[]).filter(a=>a&&a.arg),contre=(A.contre||[]).filter(a=>a&&a.arg);
-  return `${(ed.resume||[]).length?`<h3 class="h3" style="margin-top:18px">En bref</h3>${P(ed.resume)}`:""}
+  h+=`<div${court?' class="lv3"':""}>${(ed.resume||[]).length?`<h3 class="h3" style="margin-top:18px">En bref</h3>${P(ed.resume)}`:""}
     ${ed.pourquoi?`<h3 class="h3" style="margin-top:22px">Pourquoi ce texte</h3>${P(ed.pourquoi)}`:""}
-    ${rows.length?`<h3 class="h3" style="margin-top:22px">Ce qui change</h3><div class="tw" style="margin-top:10px"><table class="t t-cartes"><thead><tr><th>Avant</th><th>Après</th><th>Qui est concerné</th>${quand?"<th>À partir de quand</th>":""}</tr></thead><tbody>${rows.map(r=>`<tr>${r.slice(0,quand?4:3).map(c=>`<td>${esc(c||"—")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`:""}
+    ${rows.length?`<h3 class="h3" style="margin-top:22px">Ce qui change</h3>${table(rows,quand)}`:""}
     ${(ed.pasfait||[]).length?`<h3 class="h3" style="margin-top:22px">Ce que ce texte ne fait pas</h3><ul class="ui">${ed.pasfait.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}
-    ${pour.length&&contre.length?`<h3 class="h3" style="margin-top:22px">Ce qu'en disent les différents camps</h3><div class="args">${cote(pour,"Ceux qui le soutiennent")}${cote(contre,"Ceux qui s'y opposent")}</div><p class="meta">Chaque argument est rapporté tel que son auteur le présente. Aux Voix ne le reprend pas à son compte et ne tranche pas.</p>`:""}`;
+    ${camps(pour,contre)}</div>`;
+  return h;
+}
+/* Niveau « Essentiel » : quelques lignes, lisibles en 20 secondes */
+function ficheEssentiel(ed){
+  const E=ed&&ed.essentiel;if(!E||!(E.points||[]).length)return "";
+  return `<div class="lv1only"><ul class="ess">${E.points.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
+    ${E.pour&&E.contre?`<div class="args ess-c"><div class="arg-c"><h4>Ceux qui le soutiennent</h4><p class="ui">${esc(E.pour)}</p></div><div class="arg-c"><h4>Ceux qui s'y opposent</h4><p class="ui">${esc(E.contre)}</p></div></div><p class="meta">Chaque position est rapportée telle que son auteur la présente. Aux Voix ne tranche pas. Pour comprendre, passez au niveau « Comprendre ».</p>`:""}</div>`;
 }
 function pageLoi(id){
   const l=LOIID[id];if(!l)return pageNotFound();
@@ -538,10 +556,11 @@ function pageLoi(id){
       ${(()=>{const x=senatInfo(l);return x&&x.court?`<p class="ui"><strong>Au Sénat :</strong> ${esc(x.court)}.${x.bilan?" "+esc(x.bilan):""}</p>`:"";})()}
       ${COURANTE&&!l.prom?`<p class="ui loi-ag" id="loi-ag" data-lex-local hidden></p>`:""}
       ${ed&&ed.note?`<p class="meta">${esc(ed.note)}</p>`:""}
+      ${ficheEssentiel(ed)}
       ${ed&&ed.publie!==true?`<div class="notice"><strong>Brouillon à vérifier.</strong> Cette fiche n'est pas publiée : elle n'apparaît qu'avec ?brouillons=1 dans l'adresse. Contrôlez chaque chiffre et chaque source, puis indiquez le nom du vérificateur dans « verif » et passez « publie » à true dans contenu/lois.json.</div>`:""}
       ${!ed?`<p class="meta">Résumé établi à partir du titre officiel du texte. <a href="#/methode/themes">Comment</a></p>`:""}</section>
 
-    <section class="tx" id="tx-zone" data-lex-local aria-labelledby="tx-t" aria-busy="true"><h2 class="h2" id="tx-t">Ce que propose ce texte</h2><p class="meta">Chargement du texte déposé…</p></section>
+    <section class="tx lv3" id="tx-zone" data-lex-local aria-labelledby="tx-t" aria-busy="true"><h2 class="h2" id="tx-t">Ce que propose ce texte</h2><p class="meta">Chargement du texte déposé…</p></section>
 
     <section class="lv2" style="margin-top:30px"><h2 class="h2">Comprendre ce texte</h2>
       ${(l.auteurs||[]).length&&listeNoms(l.auteurs,5)?`<p class="ui">Déposé par ${listeNoms(l.auteurs,5)}.</p>`:""}

@@ -53,11 +53,15 @@ donnent ces adresses.
 ## Rédiger un résumé de loi ou une explication d'article
 
 Copier `modeles/fiche-loi.json` ou `modeles/fiche-article.json` dans le fichier de contenu correspondant
-(entre les crochets) et remplir chaque champ. Une fiche de loi s'affiche selon les trois niveaux de lecture :
-- **Essentiel** : `phrase` (25 mots au plus), avec le statut du texte et, si besoin, `note` (de quelle version on parle) ;
-- **Comprendre** : `resume` (3 à 5 phrases), `pourquoi`, `change` (avant, après, qui, à partir de quand), `pasfait`,
-  `arguments` (« pour » et « contre », chacun avec `qui`, `arg` et `source` ; les deux côtés sont obligatoires) ;
-- **Expert** : `details` (les chiffres, thème par thème) et `sources`, en plus du dossier officiel.
+(entre les crochets) et remplir chaque champ. Une fiche de loi s'affiche selon les trois niveaux de lecture,
+avec un texte différent à chaque niveau, du plus court au plus complet :
+- **Essentiel** (lu en 20 secondes) : `phrase` (25 mots au plus, affichée à tous les niveaux), le statut du texte,
+  puis `essentiel` : 2 à 4 `points` et une ligne `pour` et une ligne `contre` (30 mots au plus chacune) ;
+- **Comprendre** (2 minutes) : `court` : `resume` (3 phrases au plus), `change` (5 lignes au plus : avant, après, qui),
+  et autant d'arguments `pour` que `contre` (chacun avec `qui`, `arg` et `source`), plus le parcours et les votes ;
+- **Expert** (tout) : `resume` (3 à 5 phrases), `pourquoi`, `change` complet (avec « à partir de quand »), `pasfait`,
+  tous les `arguments` (les deux côtés sont obligatoires), `details` (les chiffres), `sources`, et le texte déposé.
+Si `essentiel` ou `court` manque, le niveau Essentiel n'affiche que la phrase et le niveau Comprendre affiche la version complète.
 
 Pour relire une fiche avant de la publier, ouvrir la fiche loi avec `?brouillons=1` à la fin de l'adresse
 (par exemple `https://auxvoix.fr/#/loi/DLR5L17N54951?brouillons=1`) : elle s'affiche avec la mention « Brouillon à vérifier ».
