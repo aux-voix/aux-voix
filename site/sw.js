@@ -1,7 +1,7 @@
 /* Aux Voix : fonctionnement hors connexion.
    Pages et données : réseau d'abord (toujours la version la plus récente), copie locale si le réseau ne répond pas.
    Polices, icônes et photos : copie locale d'abord, rafraîchie en arrière-plan. Rien n'est envoyé à un tiers. */
-const VERSION = "av-7";
+const VERSION = "av-8";
 const BASE = ["./", "index.html", "app.js", "favicon.svg", "manifest.webmanifest", "icones/icone-192.png", "icones/icone-512.png",
   "fonts/Lexend.woff2", "fonts/SourceSans3.woff2", "fonts/SourceSans3-Italic.woff2"];
 

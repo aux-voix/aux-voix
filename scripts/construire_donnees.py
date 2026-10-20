@@ -974,6 +974,23 @@ def verifier_contenus():
                             erreurs.append(f"lois.json, fiche {i + 1} : le champ « {champ} » est vide")
                     if t.get("auteur") and t.get("auteur") == t.get("verif"):
                         erreurs.append(f"lois.json, fiche {i + 1} : l'auteur et le vérificateur doivent être deux personnes différentes")
+                    A = t.get("arguments") or {}
+                    if A and (not A.get("pour") or not A.get("contre")):
+                        erreurs.append(f"lois.json, fiche {i + 1} : les arguments doivent présenter les deux côtés (« pour » et « contre »)")
+                    for cote in ("pour", "contre"):
+                        for a in A.get(cote) or []:
+                            if not isinstance(a, dict) or not a.get("qui") or not a.get("arg"):
+                                erreurs.append(f"lois.json, fiche {i + 1} : chaque argument « {cote} » doit dire qui le défend (qui) et ce qu'il dit (arg)")
+                            elif a.get("source") and not str(a["source"]).startswith("https://"):
+                                erreurs.append(f"lois.json, fiche {i + 1} : la source d'un argument doit commencer par https://")
+                    for x in t.get("sources") or []:
+                        if not isinstance(x, dict) or not str(x.get("url", "")).startswith("https://"):
+                            erreurs.append(f"lois.json, fiche {i + 1} : chaque source doit avoir une adresse en https")
+                    for r in t.get("change") or []:
+                        if not isinstance(r, list) or len(r) not in (3, 4):
+                            erreurs.append(f"lois.json, fiche {i + 1} : chaque ligne de « change » a 3 cases (avant, après, qui) ou 4 (plus : à partir de quand)")
+                    if len(t.get("resume") or []) > 5:
+                        erreurs.append(f"lois.json, fiche {i + 1} : le résumé tient en 5 phrases au plus")
     if erreurs:
         print("\nERREURS DANS LES CONTENUS (le site en ligne n'est pas modifié) :")
         for x in erreurs:

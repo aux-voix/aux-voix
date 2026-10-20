@@ -53,9 +53,16 @@ donnent ces adresses.
 ## Rédiger un résumé de loi ou une explication d'article
 
 Copier `modeles/fiche-loi.json` ou `modeles/fiche-article.json` dans le fichier de contenu correspondant
-(entre les crochets), remplir chaque champ, mettre `"publie": true`. L'auteur et le vérificateur doivent être
-deux personnes différentes. En cas d'erreur de saisie, l'onglet Actions affiche la ligne en cause et le
-site en ligne reste inchangé.
+(entre les crochets) et remplir chaque champ. Une fiche de loi s'affiche selon les trois niveaux de lecture :
+- **Essentiel** : `phrase` (25 mots au plus), avec le statut du texte et, si besoin, `note` (de quelle version on parle) ;
+- **Comprendre** : `resume` (3 à 5 phrases), `pourquoi`, `change` (avant, après, qui, à partir de quand), `pasfait`,
+  `arguments` (« pour » et « contre », chacun avec `qui`, `arg` et `source` ; les deux côtés sont obligatoires) ;
+- **Expert** : `details` (les chiffres, thème par thème) et `sources`, en plus du dossier officiel.
+
+Pour relire une fiche avant de la publier, ouvrir la fiche loi avec `?brouillons=1` à la fin de l'adresse
+(par exemple `https://auxvoix.fr/#/loi/DLR5L17N54951?brouillons=1`) : elle s'affiche avec la mention « Brouillon à vérifier ».
+Pour publier : indiquer le vérificateur dans `verif` et mettre `"publie": true`. L'auteur et le vérificateur doivent être
+deux personnes différentes. En cas d'erreur de saisie, l'onglet Actions affiche la ligne en cause et le site en ligne reste inchangé.
 
 ## Proposer un partenariat à une association d'étudiants en droit (modèle de message)
 

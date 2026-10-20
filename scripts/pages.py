@@ -237,6 +237,10 @@ class Generateur:
                         f"{s['po']} pour, {s['co']} contre, {s['ab']} abstentions.") for s in list(reversed(retenus))[:50]])
         # --- lois ---
         evenements = []
+        try:
+            fiches = {f.get("dossier"): f for f in json.load(open(os.path.join(self.site, "contenu", "lois.json"), encoding="utf-8")) if isinstance(f, dict) and f.get("publie") is True}
+        except Exception:
+            fiches = {}
         for l in d.get("lois", []):
             E = l.get("etapes") or []
             chemin = f"/loi/{l['id']}/"
@@ -259,7 +263,21 @@ class Generateur:
                             + (f"<h3>Pourquoi ce texte est proposé, selon {qui}</h3>" + "".join(f"<p>{ESC(x)}</p>" for x in Ex[:2]) if Ex else ""))
             except Exception:
                 pass
-            corps = f"""<p class="fil"><a href="/#/lois">Lois</a>, {ESC(d['label'])}</p><h1>{ESC(titre)}</h1><p class="lede">{ESC(statut)}.</p>
+            fiche = ""
+            f = fiches.get(l["id"])
+            if f:
+                A = f.get("arguments") or {}
+                cote = lambda L: "<ul class='l'>" + "".join(f"<li><strong>{ESC(a.get('qui', ''))}</strong> : {ESC(a.get('arg', ''))}</li>" for a in L if isinstance(a, dict)) + "</ul>"
+                lignes = [r for r in (f.get("change") or []) if isinstance(r, list) and len(r) >= 3]
+                fiche = (f"<p class='lede'><strong>{ESC(f.get('phrase', ''))}</strong></p>"
+                         + ("<h2>En bref</h2>" + "".join(f"<p>{ESC(x)}</p>" for x in f.get("resume") or []) if f.get("resume") else "")
+                         + ("<h2>Pourquoi ce texte</h2>" + "".join(f"<p>{ESC(x)}</p>" for x in ([f["pourquoi"]] if isinstance(f.get("pourquoi"), str) else f.get("pourquoi") or [])) if f.get("pourquoi") else "")
+                         + ("<h2>Ce qui change</h2><table><thead><tr><th>Avant</th><th>Après</th><th>Qui est concerné</th><th>À partir de quand</th></tr></thead><tbody>"
+                            + "".join("<tr>" + "".join(f"<td>{ESC((r + ['', ''])[k] or '—')}</td>" for k in range(4)) + "</tr>" for r in lignes) + "</tbody></table>" if lignes else "")
+                         + (f"<h2>Ce qu’en disent les différents camps</h2><h3>Ceux qui le soutiennent</h3>{cote(A.get('pour') or [])}<h3>Ceux qui s’y opposent</h3>{cote(A.get('contre') or [])}"
+                            "<p><em>Chaque argument est rapporté tel que son auteur le présente ; Aux Voix ne tranche pas.</em></p>" if A.get("pour") and A.get("contre") else "")
+                         + ("<h2>Sources de cette fiche</h2><ul class='l'>" + "".join(f"<li><a href=\"{ESC(x['url'])}\">{ESC(x.get('titre') or x['url'])}</a></li>" for x in f.get("sources") or [] if isinstance(x, dict) and str(x.get("url", "")).startswith("https://")) + "</ul>" if f.get("sources") else ""))
+            corps = f"""<p class="fil"><a href="/#/lois">Lois</a>, {ESC(d['label'])}</p><h1>{ESC(titre)}</h1><p class="lede">{ESC(statut)}.</p>{fiche}
 <a class="cta" href="/#/loi/{ESC(l['id'])}">Voir le parcours et les votes</a>{f'<a class="cta s" href="{ESC(prom["url"])}">Texte sur Légifrance</a>' if prom and prom.get("url") else ''}
 {expo}
 {f'<h2>Son parcours</h2><table><thead><tr><th>Date</th><th>Étape</th><th>Résultat</th></tr></thead><tbody>{etapes}</tbody></table>' if etapes else ''}

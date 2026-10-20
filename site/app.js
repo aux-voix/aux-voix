@@ -134,7 +134,8 @@ function prepare(d){
   GRP=d.groupes.map((g,i)=>Object.assign(g,{i}));
   DEP=d.deputes.map((x,i)=>Object.assign(x,{i,nc:(x.prenom+" "+x.nom).trim()}));DEPID={};DEP.forEach(x=>DEPID[x.id]=x);
   SC=d.scrutins;SCN={};SC.forEach(s=>{SCN[s.n]=s;s.ti=String(s.ti||"").replace(/\s*\.\s*$/,"");s.sol=s.t==="SPS";s.moc=s.t==="MOC"||/motion de censure/i.test(s.ti);s.adopte=/adopt/i.test(s.so);s.per=perOf(s.d);});SC.forEach(s=>{Object.defineProperty(s,"th",{configurable:true,enumerable:true,get(){const v=themeOf(this);Object.defineProperty(this,"th",{value:v,writable:true,enumerable:true});return v;}});});
-  LOIS=(d.lois||[]).map(l=>Object.assign(l,{ed:EDIT.find(e=>e.publie===true&&(e.dossier===l.id||norm(e.titre_officiel)===norm(l.titre)))}));
+  const voirBr=/[?&]brouillons=1(&|$)/.test(location.hash);
+  LOIS=(d.lois||[]).map(l=>Object.assign(l,{ed:EDIT.find(e=>e&&(e.publie===true||voirBr)&&(e.dossier===l.id||norm(e.titre_officiel||"")===norm(l.titre)))}));
   LOIID={};SCR2LOI={};LOIS.forEach(l=>{LOIID[l.id]=l;l.scrutins.forEach(k=>SCR2LOI[k]=l);});
 }
 function perOf(date){for(const p of PER)if(date>=p.du&&date<=p.au)return p.id;return PER.length-1;}
@@ -505,6 +506,19 @@ function suiteLoi(l){
     return autreAVote?`Prochaine étape : un nouvel examen ${LIEU[autre]}, ou une commission mixte paritaire si elle est convoquée.`:`Prochaine étape : l'examen ${LIEU[autre]}.`;}
   return "Le texte poursuit son parcours entre l'Assemblée et le Sénat.";
 }
+/* Fiche rédigée d'un texte, niveau « Comprendre » : en bref, pourquoi, ce qui change, ce qu'il ne fait pas, arguments des deux côtés */
+function ficheComprendre(ed){
+  if(!ed)return "";
+  const P=x=>[].concat(x||[]).filter(Boolean).map(t=>`<p class="ui">${esc(t)}</p>`).join("");
+  const rows=(ed.change||[]).filter(r=>Array.isArray(r)&&r.length>=3),quand=rows.some(r=>r[3]);
+  const cote=(L,titre)=>`<div class="arg-c"><h4>${titre}</h4><ul>${L.map(a=>`<li><strong>${esc(a.qui||"")}</strong> : ${esc(a.arg||"")}${a.source&&safeUrl(a.source)?` <span class="meta">(${ext(a.source,"source")})</span>`:""}</li>`).join("")}</ul></div>`;
+  const A=ed.arguments||{},pour=(A.pour||[]).filter(a=>a&&a.arg),contre=(A.contre||[]).filter(a=>a&&a.arg);
+  return `${(ed.resume||[]).length?`<h3 class="h3" style="margin-top:18px">En bref</h3>${P(ed.resume)}`:""}
+    ${ed.pourquoi?`<h3 class="h3" style="margin-top:22px">Pourquoi ce texte</h3>${P(ed.pourquoi)}`:""}
+    ${rows.length?`<h3 class="h3" style="margin-top:22px">Ce qui change</h3><div class="tw" style="margin-top:10px"><table class="t t-cartes"><thead><tr><th>Avant</th><th>Après</th><th>Qui est concerné</th>${quand?"<th>À partir de quand</th>":""}</tr></thead><tbody>${rows.map(r=>`<tr>${r.slice(0,quand?4:3).map(c=>`<td>${esc(c||"—")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`:""}
+    ${(ed.pasfait||[]).length?`<h3 class="h3" style="margin-top:22px">Ce que ce texte ne fait pas</h3><ul class="ui">${ed.pasfait.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}
+    ${pour.length&&contre.length?`<h3 class="h3" style="margin-top:22px">Ce qu'en disent les différents camps</h3><div class="args">${cote(pour,"Ceux qui le soutiennent")}${cote(contre,"Ceux qui s'y opposent")}</div><p class="meta">Chaque argument est rapporté tel que son auteur le présente. Aux Voix ne le reprend pas à son compte et ne tranche pas.</p>`:""}`;
+}
 function pageLoi(id){
   const l=LOIID[id];if(!l)return pageNotFound();
   const ed=l.ed,scr=l.scrutins.map(k=>SCN[k]).filter(Boolean);
@@ -523,13 +537,15 @@ function pageLoi(id){
       <p class="ui"><strong>${esc(statutLoi(l))}.</strong> ${esc(resultat)}</p>
       ${(()=>{const x=senatInfo(l);return x&&x.court?`<p class="ui"><strong>Au Sénat :</strong> ${esc(x.court)}.${x.bilan?" "+esc(x.bilan):""}</p>`:"";})()}
       ${COURANTE&&!l.prom?`<p class="ui loi-ag" id="loi-ag" data-lex-local hidden></p>`:""}
+      ${ed&&ed.note?`<p class="meta">${esc(ed.note)}</p>`:""}
+      ${ed&&ed.publie!==true?`<div class="notice"><strong>Brouillon à vérifier.</strong> Cette fiche n'est pas publiée : elle n'apparaît qu'avec ?brouillons=1 dans l'adresse. Contrôlez chaque chiffre et chaque source, puis indiquez le nom du vérificateur dans « verif » et passez « publie » à true dans contenu/lois.json.</div>`:""}
       ${!ed?`<p class="meta">Résumé établi à partir du titre officiel du texte. <a href="#/methode/themes">Comment</a></p>`:""}</section>
 
     <section class="tx" id="tx-zone" data-lex-local aria-labelledby="tx-t" aria-busy="true"><h2 class="h2" id="tx-t">Ce que propose ce texte</h2><p class="meta">Chargement du texte déposé…</p></section>
 
     <section class="lv2" style="margin-top:30px"><h2 class="h2">Comprendre ce texte</h2>
       ${(l.auteurs||[]).length&&listeNoms(l.auteurs,5)?`<p class="ui">Déposé par ${listeNoms(l.auteurs,5)}.</p>`:""}
-      ${ed&&ed.change&&ed.change.length?`<h3 class="h3" style="margin-top:18px">Ce qui change</h3><div class="tw" style="margin-top:10px"><table class="t t-cartes"><thead><tr><th>Avant</th><th>Après</th><th>Qui est concerné</th></tr></thead><tbody>${ed.change.map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`:""}
+      ${ficheComprendre(ed)}
       ${rail.length?`<h3 class="h3" style="margin-top:22px">Son parcours</h3>${cheminHTML(l)}`:""}
       <p class="explain ui">${esc(suiteLoi(l))}</p>
       ${senatHTML(l)}
@@ -539,6 +555,7 @@ function pageLoi(id){
     </section>
 
     <section class="lv3" style="margin-top:34px"><h2 class="h2">Le dossier complet</h2>
+      ${ed&&(ed.details||[]).length?`<h3 class="h3" style="margin-top:18px">Le détail, chiffres compris</h3><dl class="facts">${ed.details.map(x=>`<dt>${esc(x.titre||"")}</dt><dd>${esc(x.texte||"")}</dd>`).join("")}</dl>`:""}
       <dl class="facts"><dt>Titre officiel</dt><dd>${esc(cap(l.titre))}</dd><dt>Procédure</dt><dd>${esc(l.proc||"—")}</dd>
         ${(l.auteurs||[]).length?`<dt>Auteurs</dt><dd>${listeNoms(l.auteurs)}</dd>`:""}
         ${(l.rapporteurs||[]).length?`<dt>Rapporteurs</dt><dd>${listeNoms(l.rapporteurs)}</dd>`:""}
@@ -549,7 +566,8 @@ function pageLoi(id){
         <div class="tw"><table class="t"><thead><tr><th>Déposés par</th><th class="n">Déposés</th><th class="n">Adoptés</th><th class="n">Taux d'adoption</th></tr></thead><tbody>${am.g.map(r=>`<tr><td>${esc(glab(r[0]))}</td><td class="n">${n(r[1])}</td><td class="n">${n(r[2])}</td><td class="n">${pc(r[1]?r[2]/r[1]:null)}</td></tr>`).join("")}</tbody></table></div>`:""}
       ${scr.length?`<h3 class="h3" style="margin-top:24px">Tous les votes publics sur ce texte</h3><div class="tw" style="margin-top:10px"><table class="t t-cartes"><thead><tr><th class="tc sl">Date</th><th class="tm">Scrutin</th><th class="tc">Résultat</th></tr></thead><tbody>${scr.slice().reverse().map(s=>`<tr><td class="dt">${fds(s.d)}</td><td class="w"><a href="#/scrutin/${s.n}">${esc(cap(s.ti))}</a></td><td class="dt">${s.adopte?"Adopté":"Rejeté"} <span class="meta">(${n(s.po)} pour, ${n(s.co)} contre)</span></td></tr>`).join("")}</tbody></table></div>`:""}
       <h3 class="h3" style="margin-top:24px">Sources officielles</h3><ul class="pieces" style="margin-top:10px"><li>${ext(offDos(l),"Dossier législatif sur le site de l'Assemblée nationale")}</li>${safeUrl(l.senat)?`<li>${ext(l.senat,"Dossier législatif sur le site du Sénat")}</li>`:""}${l.prom&&l.prom.url?`<li>${ext(l.prom.url,"Texte promulgué sur Légifrance")}</li>`:""}${l.cc&&l.cc.url?`<li>${ext(l.cc.url,"Décision du Conseil constitutionnel")}</li>`:""}${fin?`<li>${ext(offScr(fin.n),"Scrutin n° "+fin.n+" sur le site de l'Assemblée")}</li>`:""}</ul>
-      ${ed?`<p class="meta" style="margin-top:12px">Résumé rédigé par ${esc(ed.auteur)}, vérifié par ${esc(ed.verif)}.</p>`:""}</section>
+      ${ed&&(ed.sources||[]).filter(x=>x&&safeUrl(x.url)).length?`<h3 class="h3" style="margin-top:24px">Sources de cette fiche</h3><ul class="pieces" style="margin-top:10px">${ed.sources.filter(x=>x&&safeUrl(x.url)).map(x=>`<li>${ext(x.url,x.titre||x.url)}</li>`).join("")}</ul>`:""}
+      ${ed?`<p class="meta" style="margin-top:12px">Résumé rédigé par ${esc(ed.auteur||"—")}, vérifié par ${esc(ed.verif||"personne pour l'instant")}${ed.version&&ed.version.date?`, version ${esc(String(ed.version.n||1))} du ${fd(ed.version.date)}`:""}.</p>`:""}</section>
     <p class="dlg-acts" style="margin-top:28px"><button type="button" class="btn btn-p" id="partager">${fin?"Partager et citer":"Citer ce texte"}</button></p></div>`,after(){bindLv();texteDepose(l);if(COURANTE&&!l.prom)agendaLoi(l);
     $("#partager").addEventListener("click",()=>fin?partager("Partager et citer ce texte",[["Citer ce texte","Référence prête à coller dans un devoir ou un article.",()=>citerLoi(l)],["Visuel Flash","Image au format des réseaux sociaux, avec la source incrustée.",()=>openFlash("loi:"+l.id)]]):citerLoi(l));}};
 }
