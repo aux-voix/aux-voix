@@ -1,0 +1,133 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N52000",
+ "titre_officiel": "Projet de loi autorisant l’approbation de la convention d’entraide judiciaire en matière pénale entre le Gouvernement de la République française et le Gouvernement de la République du Suriname",
+ "phrase": "La France approuve un traité avec le Suriname, voisin de la Guyane, pour que leurs justices s'aident dans les enquêtes pénales, notamment contre le narcotrafic et l'orpaillage illégal.",
+ "note": "Loi promulguée le 1er juillet 2026, adoptée sans vote public (procédure simplifiée). Le traité s'appliquera quand le Suriname l'aura aussi approuvé.",
+ "essentiel": {
+  "points": [
+   "Jusqu'ici, la France et le Suriname coopéraient en justice au cas par cas, sans traité.",
+   "Le traité organise l'échange de preuves, d'informations et de renseignements bancaires entre les deux justices.",
+   "Il vise surtout le trafic de cocaïne et l'orpaillage illégal le long du fleuve Maroni."
+  ],
+  "pour": "La rapporteure et les groupes en commission : un outil nécessaire face au narcotrafic et à l'orpaillage illégal, à la frontière de la Guyane.",
+  "contre": "Personne ne s'y est opposé. Des députés ont émis des réserves : protection des données, efficacité réelle sur le terrain."
+ },
+ "court": {
+  "resume": [
+   "Une convention d'entraide judiciaire permet à la justice d'un pays de demander à celle d'un autre d'entendre un témoin, de saisir des biens ou de transmettre des documents.",
+   "La France et le Suriname, qui partagent plus de 500 km de frontière avec la Guyane, n'avaient pas de tel traité : depuis 2014, la France n'a envoyé que 21 demandes, et le Suriname 7.",
+   "Signée en 2021 et complétée en 2023 sur les données personnelles, la convention a été approuvée sans vote public."
+  ],
+  "change": [
+   [
+    "Coopération au cas par cas, selon la « courtoisie internationale ».",
+    "Un cadre écrit : l'entraide « la plus large possible » dans les procédures pénales.",
+    "Les justices des deux pays"
+   ],
+   [
+    "Pas de règle sur les données bancaires.",
+    "Les demandes de renseignements financiers aux banques entrent dans le traité.",
+    "Enquêtes sur les trafics"
+   ],
+   [
+    "—",
+    "Refus possible pour les infractions politiques, les demandes discriminatoires ou contraires aux intérêts essentiels d'un pays.",
+    "Les personnes visées"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "La rapporteure, Maud Petit (Démocrates)",
+    "arg": "La convention, « conforme aux standards juridiques internationaux », doit renforcer la lutte contre l'orpaillage illégal et le narcotrafic.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2937.html"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "La convention a été signée à Paris le 15 mars 2021 ; un avenant du 2 juin 2023 modernise les règles de protection des données personnelles.",
+  "Elle engage les deux pays à s'accorder « l'entraide judiciaire la plus large possible » dans les procédures pénales, y compris pour obtenir des renseignements bancaires.",
+  "Elle prévoit des cas de refus (infractions politiques, atteinte à la souveraineté ou à l'ordre public, discrimination) et des délais d'exécution.",
+  "Selon le rapport de l'Assemblée, elle vise d'abord la criminalité organisée transfrontalière : narcotrafic et orpaillage illégal sur le Maroni.",
+  "Le Sénat l'a adoptée en juin 2025, l'Assemblée en juin 2026, sans vote public."
+ ],
+ "pourquoi": [
+  "Selon le rapport, le Suriname est l'un des points de passage de la cocaïne colombienne vers l'Europe, et l'orpaillage illégal y occuperait 20 000 personnes et représenterait 40 % de l'or extrait.",
+  "Sans traité, l'entraide était peu utilisée et jugée « discutable et aléatoire » par l'étude d'impact citée en commission."
+ ],
+ "change": [
+  [
+   "Pas de traité bilatéral : coopération au cas par cas, selon la réciprocité.",
+   "Entraide la plus large possible, demandes écrites, traduction dans la langue du pays sollicité.",
+   "Justices française et surinamaise",
+   "À l'entrée en vigueur"
+  ],
+  [
+   "—",
+   "Les demandes de renseignements financiers auprès des banques sont couvertes ; les confiscations aussi.",
+   "Enquêtes sur les trafics",
+   "À l'entrée en vigueur"
+  ],
+  [
+   "—",
+   "Refus possible : infraction politique, atteinte à la souveraineté ou à l'ordre public, demande fondée sur une discrimination.",
+   "Personnes poursuivies",
+   "À l'entrée en vigueur"
+  ]
+ ],
+ "pasfait": [
+  "Ce n'est pas un traité d'extradition : le rapport indique que des négociations en ce sens restent à ouvrir.",
+  "Il ne s'applique pas aux infractions purement militaires ni à l'exécution des peines (sauf confiscations)."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Charlotte Parmentier-Lecocq (Horizons)",
+    "arg": "Les deux pays font face à des défis communs (narcotrafic, orpaillage illégal, trafics transfrontaliers) : le texte a des enjeux « très concrets », en particulier pour la Guyane.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2937.html"
+   },
+   {
+    "qui": "Stéphane Hablot (socialiste)",
+    "arg": "Il faut lutter contre le narcotrafic « de manière efficace, dans le respect du droit international ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2937.html"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucun groupe ne s'y est opposé ; le texte a été adopté sans vote public. Des réserves ont été exprimées en commission : protection des données personnelles (Dominique Voynet, écologiste), efficacité limitée sans moyens sur le terrain en Guyane (Aurélien Taché, LFI), faible usage de l'entraide jusqu'ici (Michel Guiniot, RN)."
+ },
+ "details": [
+  {
+   "titre": "Les demandes depuis 2014",
+   "texte": "21 demandes d'entraide de la France vers le Suriname (dont 8 en attente selon l'étude d'impact citée en commission) et 7 du Suriname vers la France."
+  },
+  {
+   "titre": "Le Suriname",
+   "texte": "Plus petit pays d'Amérique du Sud (163 270 km², environ 630 000 habitants), ancienne colonie néerlandaise, voisin de la Guyane française."
+  },
+  {
+   "titre": "Le vote",
+   "texte": "Sénat : 23 juin 2025. Assemblée : 24 juin 2026, sans modification, en procédure d'examen simplifiée (pas de scrutin public)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de la commission des affaires étrangères de l'Assemblée nationale (n° 2937)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2937.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N52000"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/pjl24-553.html"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

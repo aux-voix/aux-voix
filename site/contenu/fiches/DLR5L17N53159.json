@@ -1,0 +1,155 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53159",
+ "titre_officiel": "Proposition de loi visant à améliorer les moyens d'action de l'Agence de gestion et de recouvrement des avoirs saisis et confisqués et à faciliter l'exercice des missions d'expert judiciaire",
+ "phrase": "Les biens saisis aux délinquants seraient gérés plus vite : vente des cryptomonnaies saisies, destruction des objets sans valeur, et victimes mieux informées pour être indemnisées.",
+ "note": "Texte venu du Sénat, adopté avec modifications par l'Assemblée le 3 juin 2026. Il doit revenir au Sénat.",
+ "essentiel": {
+  "points": [
+   "L'AGRASC est l'agence publique qui gère les biens saisis et confisqués aux délinquants : voitures, argent, immeubles, cryptomonnaies…",
+   "Les cryptomonnaies saisies pourraient être vendues avant le jugement, et les objets de faible valeur détruits plus tôt.",
+   "Les victimes seraient informées, dès la plainte, qu'elles peuvent être indemnisées sur les biens confisqués.",
+   "Les frais des experts judiciaires devraient être payés dans des délais encadrés."
+  ],
+  "pour": "Presque tous les groupes : frapper les délinquants au portefeuille et mieux indemniser les victimes.",
+  "contre": "LFI a voté contre : le vrai blocage serait le manque de moyens de l'agence et des enquêteurs, pas le droit."
+ },
+ "court": {
+  "resume": [
+   "Depuis une dizaine d'années, la saisie et la confiscation des biens des délinquants sont devenues un outil central de la justice pénale.",
+   "Le texte simplifie la gestion de ces biens avant le jugement, facilite l'exécution des confiscations, même contre une personne en fuite, et associe davantage les victimes.",
+   "Il traite aussi du paiement des frais de justice, notamment aux experts judiciaires ; adopté par 93 voix contre 20, il retourne au Sénat."
+  ],
+  "change": [
+   [
+    "Cryptomonnaies saisies conservées jusqu'au jugement.",
+    "Vente automatique avant jugement.",
+    "Personnes poursuivies, État"
+   ],
+   [
+    "Biens saisis de faible valeur stockés, avec des frais de gardiennage.",
+    "Destruction possible avant le jugement.",
+    "Justice, services de police"
+   ],
+   [
+    "Victime peu informée sur les biens confisqués.",
+    "Informée dès la plainte et à la fin de la procédure de la possibilité d'être indemnisée sur ces biens.",
+    "Victimes"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Philippe Latombe (Démocrates)",
+    "arg": "Le texte intègre « les victimes au dispositif, comme nous le demandent régulièrement les victimes elles-mêmes, les OPJ et les magistrats ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2840.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Ugo Bernalicis (La France insoumise)",
+    "arg": "« Le principal facteur bloquant pour l'Agrasc, ce sont ses moyens », comme ceux des enquêteurs chargés des saisies.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2840.html"
+   }
+  ]
+ },
+ "resume": [
+  "L'Agence de gestion et de recouvrement des avoirs saisis et confisqués (AGRASC) gère les biens retirés aux personnes poursuivies ou condamnées.",
+  "Le texte précise que les objets saisis peuvent être rendus à la victime et impose d'informer celle-ci, dès la plainte, des biens qui ont pu servir à l'infraction et de ses droits à indemnisation.",
+  "Il permet de détruire avant jugement les biens saisis de faible valeur, d'affecter plus facilement certains biens à des services publics et de vendre automatiquement les crypto-actifs saisis.",
+  "Il organise l'exécution des confiscations prononcées contre une personne en fuite et crée un cadre d'enquête après la condamnation pour retrouver ses biens.",
+  "Il encadre aussi les délais de paiement des frais de justice, dont ceux des experts judiciaires."
+ ],
+ "pourquoi": [
+  "Selon le rapport, la confiscation est passée d'une peine secondaire à un outil central contre la délinquance, ce qui pose des problèmes pratiques de gestion des biens.",
+  "En commission, des députés ont dénoncé des retards de paiement « hallucinants » des frais d'expertise judiciaire."
+ ],
+ "change": [
+  [
+   "Crypto-actifs conservés.",
+   "Vente automatique avant jugement.",
+   "Personnes mises en cause",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "—",
+   "Destruction avant jugement des biens de faible valeur ; affectation gratuite élargie à des services de l'État.",
+   "Justice",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "Confiscation difficile contre une personne en fuite.",
+   "Exécution organisée et enquête après condamnation pour retrouver les biens.",
+   "Condamnés en fuite",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "Paiement des frais de justice sans délai garanti.",
+   "Délai de paiement encadré.",
+   "Experts judiciaires",
+   "Si le texte est adopté définitivement"
+  ]
+ ],
+ "pasfait": [
+  "Il ne donne pas de moyens budgétaires supplémentaires à l'AGRASC.",
+  "Il n'est pas adopté définitivement : le Sénat doit se prononcer sur les modifications de l'Assemblée."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Jean-Luc Warsmann (LIOT), rapporteur",
+    "arg": "Les frais d'expertise judiciaire doivent être payés en 30 jours, avec des intérêts de retard au-delà : c'est « la seule position qui est tenable ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2840.html"
+   },
+   {
+    "qui": "Philippe Latombe (Démocrates)",
+    "arg": "Associer les victimes à la confiscation est « extraordinairement important ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2840.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Ugo Bernalicis (La France insoumise)",
+    "arg": "Vouloir surtout « se débarrasser de ce qui traîne sur les étagères » ne règle pas le manque de moyens de l'agence et des enquêteurs.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2840.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée : 93 pour, 20 contre (LFI), 2 abstentions (3 juin 2026, scrutin n° 7294)."
+  },
+  {
+   "titre": "Le texte adopté",
+   "texte": "Texte adopté n° 299 de l'Assemblée nationale, après le texte du Sénat (T.A. 39, 2025-2026)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Jean-Luc Warsmann, commission des lois (n° 2840)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2840.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée nationale (n° 299)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0299.raw"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53159"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl25-128.html"
+  },
+  {
+   "titre": "Scrutin n° 7294 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/7294"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

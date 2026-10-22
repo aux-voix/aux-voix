@@ -1,0 +1,160 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N50444",
+ "titre_officiel": "Proposition de loi visant à améliorer la protection et l'accompagnement des parents d'enfants atteints d'un cancer, d'une maladie grave ou d'un handicap",
+ "phrase": "Les parents d'un enfant gravement malade ou handicapé ont plus de congés, une protection contre le licenciement et de meilleurs remboursements de soins pour leur enfant.",
+ "note": "Loi promulguée le 12 juin 2026, adoptée à l'unanimité à l'Assemblée.",
+ "essentiel": {
+  "points": [
+   "Le congé à l'annonce d'une maladie grave ou d'un handicap passe de 5 à 10 jours.",
+   "Un employeur ne peut plus licencier un parent dans les 10 semaines qui suivent son retour de congé de présence parentale.",
+   "Les séances de psychologue, d'ergothérapie ou de psychomotricité de l'enfant sont mieux remboursées.",
+   "Les parents peuvent faire suspendre le remboursement de leur crédit."
+  ],
+  "pour": "Vincent Thiébaut (Horizons), auteur, et tous les groupes : éviter la « double peine » de la maladie et des difficultés matérielles.",
+  "contre": "Personne n'a voté contre. Certains députés auraient voulu aller plus loin, par exemple sur la durée des congés."
+ },
+ "court": {
+  "resume": [
+   "Quand un enfant tombe gravement malade ou est handicapé, ses parents réduisent souvent leur travail et font face à des démarches et des dépenses importantes.",
+   "La loi, préparée avec des associations comme Eva pour la vie et Grandir sans cancer, renforce leurs droits au travail, simplifie les aides et améliore le remboursement de certains soins.",
+   "Elle a été votée sans voix contre à l'Assemblée et au Sénat."
+  ],
+  "change": [
+   [
+    "Congé de 5 jours à l'annonce de la maladie ou du handicap.",
+    "Congé de 10 jours.",
+    "Parents salariés"
+   ],
+   [
+    "Pas de protection particulière au retour du congé de présence parentale.",
+    "Licenciement interdit pendant les 10 semaines suivant le retour.",
+    "Parents salariés"
+   ],
+   [
+    "Séances de psychologue limitées ; ergothérapie, psychomotricité, diététique en ville peu remboursées.",
+    "Séances de psychologue sans plafond et remboursement de ces soins dans le cadre du protocole de soins.",
+    "Enfants en affection de longue durée"
+   ],
+   [
+    "Délais longs pour l'allocation d'éducation de l'enfant handicapé.",
+    "Expérimentation dans 10 départements : avance automatique après 2 mois sans réponse.",
+    "Familles d'enfants handicapés"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Vincent Thiébaut (Horizons), auteur et rapporteur",
+    "arg": "Aux préoccupations liées à la maladie s'ajoutent des difficultés financières et administratives : c'est « souvent la double peine » pour les familles.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0625.html"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "En France, entre 1,5 et 4 millions d'enfants seraient atteints de maladies chroniques, environ 2 500 enfants sont diagnostiqués d'un cancer chaque année et 560 000 sont en situation de handicap.",
+  "La loi protège l'emploi des parents : interdiction de licencier dans les 10 semaines suivant le congé de présence parentale, horaires aménagés, congé d'annonce porté de 5 à 10 jours.",
+  "Elle les aide financièrement : aide au logement, suspension possible du remboursement de crédits, déblocage anticipé de l'épargne, partage de l'allocation de présence parentale en cas de garde alternée.",
+  "Elle simplifie les démarches : expérimentation d'une avance automatique de l'allocation pour enfant handicapé, carte de stationnement plus rapide, réexamens moins fréquents.",
+  "Elle améliore les remboursements : séances de psychologue sans plafond et prise en charge de l'ergothérapie, de la psychomotricité, de la diététique et des bilans neuropsychologiques."
+ ],
+ "pourquoi": [
+  "Selon le rapporteur, malgré plusieurs lois depuis 2019, les associations décrivent des démarches complexes, des délais trop longs pour les aides, des difficultés d'hébergement près de l'hôpital et un reste à charge élevé.",
+  "Le texte, cosigné par plus de 140 députés, a été construit avec des associations et des médecins."
+ ],
+ "change": [
+  [
+   "Congé d'annonce de 5 jours ; délai de prévenance de 15 jours pour le congé de présence parentale.",
+   "Congé d'annonce de 10 jours ; délai de prévenance de 10 jours.",
+   "Parents salariés",
+   "Depuis la promulgation"
+  ],
+  [
+   "—",
+   "Interdiction de licencier dans les 10 semaines suivant le retour de congé de présence parentale ; droit à des horaires individualisés.",
+   "Parents salariés",
+   "Depuis la promulgation"
+  ],
+  [
+   "Allocation journalière de présence parentale versée à un seul parent.",
+   "Partage possible entre les deux parents en résidence alternée ; réexamen médical tous les 14 mois au plus.",
+   "Parents séparés",
+   "Depuis la promulgation"
+  ],
+  [
+   "—",
+   "Hébergement temporaire non médicalisé près de l'hôpital, pouvant être pris en charge par l'Assurance maladie.",
+   "Familles éloignées de l'hôpital",
+   "Après décret"
+  ],
+  [
+   "Séances « Mon soutien psy » plafonnées.",
+   "Pas de plafond ; remboursement de l'ergothérapie, de la psychomotricité, de la diététique et des bilans neuropsychologiques.",
+   "Enfants en affection de longue durée",
+   "Selon les textes d'application"
+  ]
+ ],
+ "pasfait": [
+  "Elle ne crée pas un statut unique de « parent d'enfant malade », que certains députés demandaient.",
+  "Elle n'allonge pas le congé de présence parentale lui-même : seuls le congé d'annonce et ses conditions changent."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Vincent Thiébaut (Horizons), auteur",
+    "arg": "Le texte doit sécuriser financièrement et professionnellement les parents et leur simplifier la vie.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2754.html"
+   },
+   {
+    "qui": "Nathalie Colin-Oesterlé (Horizons)",
+    "arg": "Une proposition de loi transpartisane, élaborée avec des associations, qui illustre « toute la noblesse de l'action publique ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0625.html"
+   },
+   {
+    "qui": "Sophie Mette (Démocrates)",
+    "arg": "Les enfants de moins de 12 ans ne représentent que 5 % des dépenses d'Assurance maladie : mieux les soutenir est un investissement.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0625.html"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucun député n'a voté contre (190 puis 212 voix pour). En commission, des députés de gauche (LFI, GDR) ont jugé certaines avancées insuffisantes, par exemple sur la durée des congés, tandis que d'autres (Thibault Bazin, Droite républicaine) ont rappelé que « le progrès social demande des moyens »."
+ },
+ "details": [
+  {
+   "titre": "Les lois précédentes",
+   "texte": "Loi du 8 mars 2019 sur les cancers pédiatriques, loi du 17 décembre 2021 sur les enfants atteints de pathologie chronique ou de cancer, et loi dite « Christophe » sur la protection des parents."
+  },
+  {
+   "titre": "Les votes",
+   "texte": "Assemblée, première lecture : 190 pour, 0 contre, 1 abstention (3 décembre 2024, scrutin n° 515). Sénat : 26 février 2026. Assemblée, deuxième lecture : 212 pour, 0 contre (2 juin 2026, scrutin n° 7270), adoption définitive."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Vincent Thiébaut, deuxième lecture (n° 2754)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2754.html"
+  },
+  {
+   "titre": "Rapport de Vincent Thiébaut, première lecture (n° 625)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0625.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N50444"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl24-180.html"
+  },
+  {
+   "titre": "Scrutin n° 7270 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/7270"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

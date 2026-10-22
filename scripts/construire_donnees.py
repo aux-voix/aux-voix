@@ -253,12 +253,25 @@ def charger_scrutins(data, organes=None):
                         if ref:
                             sc["votes"][ref] = (code, gid)
                             compte[code] += 1
-                if dv:
-                    compte = {1: entier(premier(dv, "pour", "pours")), 2: entier(premier(dv, "contre", "contres")),
-                              3: entier(premier(dv, "abstentions", "abstention")),
-                              4: entier(premier(dv, "nonVotants", "nonVotant")) + entier(dv.get("nonVotantsVolontaires"))}
+                # Les listes nominatives font foi. Le décompte chiffré du groupe ne sert que si elles sont vides :
+                # dans les données de l'Assemblée, son champ « nonVotantsVolontaires » recopie souvent les abstentions
+                # (d'où plus de votants que de sièges), on ne l'ajoute donc que s'il diffère des abstentions.
+                if dv and not any(compte.values()):
+                    ab_v, nvv = entier(premier(dv, "abstentions", "abstention")), entier(dv.get("nonVotantsVolontaires"))
+                    compte = {1: entier(premier(dv, "pour", "pours")), 2: entier(premier(dv, "contre", "contres")), 3: ab_v,
+                              4: entier(premier(dv, "nonVotants", "nonVotant")) + (nvv if nvv != ab_v else 0)}
                 somme += compte[1]
-                sc["groupes"].append([gid, entier(g.get("nombreMembresGroupe")), POS.get(txt(vote.get("positionMajoritaire")).lower(), 0),
+                # Position majoritaire : celle de la majorité des membres du groupe qui ont voté (pour, contre ou abstention).
+                # Le champ « positionMajoritaire » de l'Assemblée est parfois contraire aux votes eux-mêmes
+                # (ex. : groupe classé « pour » avec 12 pour et 106 contre) ; il ne sert qu'à départager une égalité.
+                pos_an = POS.get(txt(vote.get("positionMajoritaire")).lower(), 0)
+                m = max(compte[1], compte[2], compte[3])
+                gagnants = [k for k in (1, 2, 3) if compte[k] == m] if m else []
+                if not m:  # aucun membre du groupe n'a voté : pas de position (sauf si l'Assemblée ne publie aucun décompte)
+                    pos = 0 if (dn or dv) else pos_an
+                else:
+                    pos = pos_an if pos_an in gagnants else (gagnants[0] if len(gagnants) == 1 else 0)
+                sc["groupes"].append([gid, entier(g.get("nombreMembresGroupe")), pos,
                                       compte[1], compte[2], compte[3], compte[4]])
             if somme != sc["po"]:
                 ecarts += 1
@@ -900,6 +913,8 @@ def construire_legislature(L, acteurs, organes, aujourd_hui, credits=None):
             "premier": min(s["d"] for s in scrutins), "dernier": max(s["d"] for s in scrutins), "deputes": len(actifs), "lois": len(lois)}
 
 # ---------- contenus éditoriaux ----------
+FICHES_INDEX = {"publies": [], "brouillons": []}
+
 def verifier_contenus():
     dossier = os.path.join(SITE, "contenu")
     erreurs = []
@@ -967,58 +982,81 @@ def verifier_contenus():
                     if t.get("auteur") and t.get("auteur") == t.get("verif"):
                         erreurs.append(f"articles.json, fiche {i + 1} : l'auteur et le vérificateur doivent être deux personnes différentes")
         if nom == "lois.json":
-            for i, t in enumerate(contenu or []):
+            # Une fiche de loi = un fichier site/contenu/fiches/<dossier>.json (lu par le site seulement quand on ouvre la loi).
+            # lois.json peut encore contenir des fiches complètes : les deux sont vérifiées avec les mêmes règles.
+            entrees = [(f"lois.json, fiche {i + 1}", t) for i, t in enumerate(contenu or [])]
+            rep = os.path.join(dossier, "fiches")
+            for fn in sorted(os.listdir(rep)) if os.path.isdir(rep) else []:
+                if not fn.endswith(".json"):
+                    continue
+                try:
+                    t = json.load(open(os.path.join(rep, fn), encoding="utf-8"))
+                except json.JSONDecodeError as e:
+                    erreurs.append(f"fiches/{fn}, ligne {e.lineno}, colonne {e.colno} : {e.msg} (virgule, guillemet ou crochet manquant ?)")
+                    continue
+                if not isinstance(t, dict) or t.get("dossier") != fn[:-5]:
+                    erreurs.append(f"fiches/{fn} : le champ « dossier » doit être identique au nom du fichier ({fn[:-5]})")
+                    continue
+                entrees.append((f"fiches/{fn}", t))
+            FICHES_INDEX["publies"] = sorted({t["dossier"] for _, t in entrees if isinstance(t, dict) and t.get("publie") and t.get("dossier")})
+            FICHES_INDEX["brouillons"] = sorted({t["dossier"] for _, t in entrees if isinstance(t, dict) and not t.get("publie") and t.get("dossier")} - set(FICHES_INDEX["publies"]))
+            for lieu, t in entrees:
                 if isinstance(t, dict) and t.get("publie"):
-                    for champ in ("titre_officiel", "phrase", "auteur", "verif"):
+                    for champ in ("titre_officiel", "phrase", "auteur"):
                         if not t.get(champ):
-                            erreurs.append(f"lois.json, fiche {i + 1} : le champ « {champ} » est vide")
+                            erreurs.append(f"{lieu} : le champ « {champ} » est vide")
                     if t.get("auteur") and t.get("auteur") == t.get("verif"):
-                        erreurs.append(f"lois.json, fiche {i + 1} : l'auteur et le vérificateur doivent être deux personnes différentes")
+                        erreurs.append(f"{lieu} : l'auteur et le vérificateur doivent être deux personnes différentes")
                     A = t.get("arguments") or {}
-                    if A and (not A.get("pour") or not A.get("contre")):
-                        erreurs.append(f"lois.json, fiche {i + 1} : les arguments doivent présenter les deux côtés (« pour » et « contre »)")
+                    if not t.get("sources"):
+                        erreurs.append(f"{lieu} : une fiche publiée cite au moins une source")
+                    if A and (not A.get("pour") or not A.get("contre")) and not A.get("consensus"):
+                        erreurs.append(f"{lieu} : les arguments doivent présenter les deux côtés (« pour » et « contre »)")
                     for cote in ("pour", "contre"):
                         for a in A.get(cote) or []:
                             if not isinstance(a, dict) or not a.get("qui") or not a.get("arg"):
-                                erreurs.append(f"lois.json, fiche {i + 1} : chaque argument « {cote} » doit dire qui le défend (qui) et ce qu'il dit (arg)")
+                                erreurs.append(f"{lieu} : chaque argument « {cote} » doit dire qui le défend (qui) et ce qu'il dit (arg)")
                             elif a.get("source") and not str(a["source"]).startswith("https://"):
-                                erreurs.append(f"lois.json, fiche {i + 1} : la source d'un argument doit commencer par https://")
+                                erreurs.append(f"{lieu} : la source d'un argument doit commencer par https://")
                     for x in t.get("sources") or []:
                         if not isinstance(x, dict) or not str(x.get("url", "")).startswith("https://"):
-                            erreurs.append(f"lois.json, fiche {i + 1} : chaque source doit avoir une adresse en https")
+                            erreurs.append(f"{lieu} : chaque source doit avoir une adresse en https")
                     for r in t.get("change") or []:
                         if not isinstance(r, list) or len(r) not in (3, 4):
-                            erreurs.append(f"lois.json, fiche {i + 1} : chaque ligne de « change » a 3 cases (avant, après, qui) ou 4 (plus : à partir de quand)")
+                            erreurs.append(f"{lieu} : chaque ligne de « change » a 3 cases (avant, après, qui) ou 4 (plus : à partir de quand)")
                     if len(t.get("resume") or []) > 5:
-                        erreurs.append(f"lois.json, fiche {i + 1} : le résumé tient en 5 phrases au plus")
+                        erreurs.append(f"{lieu} : le résumé tient en 5 phrases au plus")
                     E = t.get("essentiel") or {}
                     if E:
                         if not (2 <= len(E.get("points") or []) <= 4):
-                            erreurs.append(f"lois.json, fiche {i + 1} : « essentiel » a de 2 à 4 points")
+                            erreurs.append(f"{lieu} : « essentiel » a de 2 à 4 points")
                         if not E.get("pour") or not E.get("contre"):
-                            erreurs.append(f"lois.json, fiche {i + 1} : « essentiel » doit donner une ligne « pour » et une ligne « contre »")
+                            erreurs.append(f"{lieu} : « essentiel » doit donner une ligne « pour » et une ligne « contre »")
                         for x in list(E.get("points") or []) + [E.get("pour", ""), E.get("contre", "")]:
                             if len(str(x).split()) > 30:
-                                erreurs.append(f"lois.json, fiche {i + 1} : une ligne de « essentiel » dépasse 30 mots : {str(x)[:40]}…")
+                                erreurs.append(f"{lieu} : une ligne de « essentiel » dépasse 30 mots : {str(x)[:40]}…")
                     C = t.get("court") or {}
                     if C:
                         if len(C.get("resume") or []) > 3:
-                            erreurs.append(f"lois.json, fiche {i + 1} : le résumé « court » tient en 3 phrases au plus")
+                            erreurs.append(f"{lieu} : le résumé « court » tient en 3 phrases au plus")
                         if len(C.get("change") or []) > 5 or any(not isinstance(r, list) or len(r) != 3 for r in C.get("change") or []):
-                            erreurs.append(f"lois.json, fiche {i + 1} : « court.change » a 5 lignes au plus, de 3 cases")
-                        if not C.get("pour") or not C.get("contre") or len(C["pour"]) != len(C["contre"]):
-                            erreurs.append(f"lois.json, fiche {i + 1} : « court » doit présenter autant d'arguments « pour » que « contre »")
+                            erreurs.append(f"{lieu} : « court.change » a 5 lignes au plus, de 3 cases")
+                        if (not C.get("pour") or not C.get("contre") or len(C["pour"]) != len(C["contre"])) and not A.get("consensus"):
+                            erreurs.append(f"{lieu} : « court » doit présenter autant d'arguments « pour » que « contre »")
                         for cote in ("pour", "contre"):
                             for a in C.get(cote) or []:
                                 if not isinstance(a, dict) or not a.get("qui") or not a.get("arg"):
-                                    erreurs.append(f"lois.json, fiche {i + 1} : chaque argument « court.{cote} » a un « qui » et un « arg »")
+                                    erreurs.append(f"{lieu} : chaque argument « court.{cote} » a un « qui » et un « arg »")
                                 elif a.get("source") and not str(a["source"]).startswith("https://"):
-                                    erreurs.append(f"lois.json, fiche {i + 1} : la source d'un argument court doit commencer par https://")
+                                    erreurs.append(f"{lieu} : la source d'un argument court doit commencer par https://")
     if erreurs:
         print("\nERREURS DANS LES CONTENUS (le site en ligne n'est pas modifié) :")
         for x in erreurs:
             print("  - " + x)
         sys.exit(1)
+    # index des fiches de loi (quelques Ko) : le site sait quelles lois ont une fiche sans les télécharger toutes
+    with open(os.path.join(dossier, "fiches.json"), "w", encoding="utf-8") as f:
+        json.dump(FICHES_INDEX, f, ensure_ascii=False, separators=(",", ":"))
     print("Contenus éditoriaux vérifiés.")
 
 # Caractères gardés dans les polices allégées : latin, accents, œ, ponctuation française (’ « » … espaces fines), €, flèches
@@ -1063,7 +1101,7 @@ def demarrage(graines_info=None):
         d = {"index": json.load(open(os.path.join(SITE, "index.json"), encoding="utf-8")), "contenu": {}}
         if graines_info:
             d["graines"] = graines_info
-        for nom in ("lois", "corrections", "site", "articles", "candidats", "actualites", "programmes"):
+        for nom in ("lois", "corrections", "site", "articles", "candidats", "actualites", "programmes", "fiches"):
             d["contenu"][nom] = json.load(open(os.path.join(SITE, "contenu", nom + ".json"), encoding="utf-8"))
         try:
             d["actualites"] = json.load(open(os.path.join(SITE, "actualites-officielles.json"), encoding="utf-8"))

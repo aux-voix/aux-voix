@@ -1,0 +1,121 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N54006",
+ "titre_officiel": "Proposition de loi pour une montagne vivante et souveraine",
+ "phrase": "La troisième loi Montagne assouplit les règles de construction en montagne, facilite le stockage de l'eau et adapte services publics et tourisme.",
+ "note": "Loi promulguée le 18 août 2026.",
+ "essentiel": {
+  "points": [
+   "En montagne, on ne peut construire qu'en continuité des villages existants : la loi assouplit cette règle.",
+   "Elle facilite les retenues d'eau, y compris pour la neige de culture.",
+   "Elle adapte les écoles, la santé et le tourisme « quatre saisons » aux territoires de montagne."
+  ],
+  "pour": "Les élus de la montagne et le Sénat : un assouplissement « très attendu » des règles d'urbanisme, qui pesaient sur le développement de ces territoires.",
+  "contre": "LFI et écologistes : plus de constructions dans des espaces naturels de montagne, sans garanties suffisantes pour l'environnement."
+ },
+ "court": {
+  "resume": [
+   "Rédigée avec l'Association nationale des élus de la montagne, cette loi actualise la loi Montagne de 1985, quarante ans après.",
+   "Elle touche à l'urbanisme, à l'eau, à l'agriculture, aux services publics et au tourisme dans les communes de montagne.",
+   "Adoptée définitivement le 21 juillet 2026, elle a été validée par le Conseil constitutionnel."
+  ],
+  "change": [
+   [
+    "Construire seulement en continuité des bourgs, villages et groupes de constructions « traditionnelles ou d'habitations ».",
+    "Continuité possible avec tout groupe de constructions existant ; une route ne coupe plus forcément la continuité.",
+    "Communes de montagne"
+   ],
+   [
+    "—",
+    "Retenues et stockage d'eau autorisés pour plusieurs usages, dont l'eau potable, l'agriculture et la neige de culture.",
+    "Communes, stations, agriculteurs"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "La commission des affaires économiques du Sénat (rapporteur : Jean-Marc Boyer)",
+    "arg": "Un « assouplissement très attendu » de la règle de continuité, qui pèse sur le développement des territoires de montagne.",
+    "source": "https://www.senat.fr/lessentiel/ppl25-629.pdf"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Les députés LFI et écologistes, auteurs de recours",
+    "arg": "Le texte étend les possibilités de construire dans les espaces naturels, agricoles et forestiers de montagne, sans garanties suffisantes, et favoriserait la dispersion des constructions.",
+    "source": "https://www.conseil-constitutionnel.fr/decision/2026/2026912DC.htm"
+   }
+  ]
+ },
+ "resume": [
+  "La loi Montagne de 1985 protège les territoires de montagne, notamment en limitant les constructions isolées. Elle avait été modifiée en 2016.",
+  "Cette troisième loi, préparée avec l'Association nationale des élus de la montagne, assouplit la règle de « l'urbanisation en continuité ».",
+  "Elle facilite les retenues et le stockage d'eau pour plusieurs usages, dont la neige de culture, en excluant certains pompages.",
+  "Elle contient aussi des mesures sur les services publics (écoles, santé), l'agriculture de montagne et le tourisme toute l'année."
+ ],
+ "pourquoi": [
+  "Selon le Sénat, la règle de continuité « pèse sur le développement des territoires » de montagne, qui couvrent plus de 6 000 communes et près de 30 % du territoire métropolitain."
+ ],
+ "change": [
+  [
+   "Continuité avec les constructions « traditionnelles ou d'habitations ».",
+   "Continuité avec tout groupe de constructions existant, quelle que soit sa vocation ; certaines coupures physiques ne rompent plus la continuité.",
+   "Communes de montagne",
+   "Après promulgation"
+  ],
+  [
+   "—",
+   "Retenues d'eau et stockage autorisés pour l'eau potable, la sécurité civile, l'irrigation, le bétail, l'industrie, l'électricité et les loisirs de neige.",
+   "Communes, stations, agriculteurs",
+   "Après promulgation"
+  ]
+ ],
+ "pasfait": [
+  "Elle ne supprime pas la règle de l'urbanisation en continuité : elle l'assouplit."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "La commission des affaires économiques du Sénat (rapporteur : Jean-Marc Boyer)",
+    "arg": "Un « assouplissement très attendu » des règles d'urbanisme et une meilleure articulation des différents usages de la montagne.",
+    "source": "https://www.senat.fr/lessentiel/ppl25-629.pdf"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Les députés LFI et écologistes, auteurs de recours",
+    "arg": "Les nouvelles règles favoriseraient une dispersion des constructions dans des espaces naturels sans garanties pour les équilibres environnementaux. Le Conseil constitutionnel a jugé la loi conforme.",
+    "source": "https://www.conseil-constitutionnel.fr/decision/2026/2026912DC.htm"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Les votes",
+   "texte": "Assemblée, première lecture (13 mai 2026) : 42 pour, 11 contre. Vote final (20 juillet 2026) : 376 pour, 92 contre, 4 abstentions (scrutin n° 8421). LFI et écologistes ont voté contre."
+  },
+  {
+   "titre": "Les territoires concernés",
+   "texte": "6 097 communes classées en zone de montagne, près de 30 % du territoire métropolitain (Sénat)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Sénat, « L'essentiel » du rapport de la commission des affaires économiques, juillet 2026",
+   "url": "https://www.senat.fr/lessentiel/ppl25-629.pdf"
+  },
+  {
+   "titre": "Conseil constitutionnel, décision n° 2026-912 DC du 14 août 2026",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026912DC.htm"
+  },
+  {
+   "titre": "Scrutin n° 8421 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8421"
+  }
+ ],
+ "auteur": "Rédaction Aux Voix",
+ "verif": "",
+ "version": {
+  "n": 1,
+  "date": "2026-10-20"
+ }
+}

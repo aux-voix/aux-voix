@@ -1,0 +1,144 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N54083",
+ "titre_officiel": "Projet de loi actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense",
+ "phrase": "Les armées reçoivent 36 milliards d'euros de plus d'ici 2030, soit 436 milliards au total depuis 2024, avec un effort sur les munitions et les drones.",
+ "note": "Loi promulguée en août 2026, après validation par le Conseil constitutionnel le 6 août.",
+ "essentiel": {
+  "points": [
+   "La loi de programmation militaire fixe le budget des armées sur plusieurs années.",
+   "Cette mise à jour ajoute 36 milliards d'euros d'ici 2030, soit environ 2,5 % de la richesse nationale.",
+   "Elle met l'accent sur les stocks de munitions et les drones."
+  ],
+  "pour": "La ministre des Armées, Catherine Vautrin : « Attendre l'échéance prévue en 2027 aurait été fermer les yeux sur le réel. »",
+  "contre": "LFI, écologistes et communistes ont voté contre : effort jugé possible, mais méthode critiquée et inquiétudes sur la surveillance algorithmique."
+ },
+ "court": {
+  "resume": [
+   "La loi de programmation militaire votée en 2023 prévoyait les dépenses des armées jusqu'en 2030. Cette actualisation l'augmente, en tirant les leçons des guerres en Ukraine et au Moyen-Orient.",
+   "Elle prévoit 436 milliards d'euros de 2024 à 2030, soit 36 milliards de plus, et accélère la hausse du budget.",
+   "Elle a été adoptée définitivement le 1er juillet 2026, avec le soutien des socialistes et du RN, mais contre l'avis du reste de la gauche."
+  ],
+  "change": [
+   [
+    "Budget des armées fixé par la loi de 2023 pour 2024-2030.",
+    "36 milliards d'euros de plus, soit 436 milliards au total, avec une hausse plus rapide.",
+    "Les armées"
+   ],
+   [
+    "—",
+    "Priorité aux munitions et aux drones ; extension de la surveillance algorithmique des services de renseignement.",
+    "Armées, services de renseignement"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Catherine Vautrin, ministre des Armées",
+    "arg": "« Cette actualisation […], nous la devons aux Français, car le contexte l'exige. »",
+    "source": "https://lcp.fr/actualites/programmation-militaire-l-assemblee-adopte-definitivement-l-effort-budgetaire"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Damien Girard (Écologiste et social)",
+    "arg": "« Nous soutenons le principe d'un effort supplémentaire de nos armées. Mais nous regrettons profondément la méthode choisie », sans « véritable débat de société ».",
+    "source": "https://lcp.fr/actualites/programmation-militaire-l-assemblee-adopte-definitivement-l-effort-budgetaire"
+   }
+  ]
+ },
+ "resume": [
+  "Une loi de programmation militaire fixe pour plusieurs années les moyens et les priorités des armées.",
+  "Celle de 2023 couvrait 2024-2030. Cette actualisation porte l'enveloppe à 436 milliards d'euros, soit 36 milliards de plus, pour atteindre environ 2,5 % du PIB.",
+  "Le texte ne change pas le format des armées, mais met l'accent sur les munitions et les drones, devenus centraux dans les conflits récents.",
+  "Il contient aussi des mesures de sécurité intérieure, comme l'extension de la surveillance algorithmique pour le renseignement et la neutralisation de drones par certains agents.",
+  "Le Sénat avait d'abord rejeté l'article sur la hausse, jugée insuffisante ; un compromis a accéléré la montée en puissance du budget."
+ ],
+ "pourquoi": [
+  "Selon la ministre des Armées, « le contexte l'exige » : la guerre en Ukraine et au Moyen-Orient a montré l'importance des stocks de munitions et des drones."
+ ],
+ "change": [
+  [
+   "Budget fixé par la loi de programmation de 2023.",
+   "436 milliards d'euros sur 2024-2030, soit 36 milliards de plus, avec une hausse plus rapide du budget.",
+   "Armées",
+   "2024-2030"
+  ],
+  [
+   "—",
+   "Effort renforcé sur les munitions et les drones.",
+   "Armées",
+   "D'ici 2030"
+  ],
+  [
+   "—",
+   "Des agents d'opérateurs d'importance vitale peuvent neutraliser des drones aux abords des sites qu'ils protègent.",
+   "Sites sensibles",
+   "Après promulgation"
+  ]
+ ],
+ "pasfait": [
+  "Elle ne change pas le format des armées (nombre de soldats, de matériels) en tant que tel.",
+  "Elle ne vaut que jusqu'en 2030 : une nouvelle programmation pourra être présentée après l'élection présidentielle de 2027."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Catherine Vautrin, ministre des Armées",
+    "arg": "« Attendre l'échéance prévue en 2027 aurait été fermer les yeux sur le réel, et renoncer à préparer la France à ce qui vient. »",
+    "source": "https://lcp.fr/actualites/programmation-militaire-l-assemblee-adopte-definitivement-l-effort-budgetaire"
+   },
+   {
+    "qui": "Anna Pic (socialiste), qui a voté pour",
+    "arg": "Elle met en garde : « Si l'argent magique n'existe pas pour nos hôpitaux, nos écoles ou l'adaptation au dérèglement climatique, il n'existe pas plus pour notre défense. »",
+    "source": "https://lcp.fr/actualites/programmation-militaire-l-assemblee-adopte-definitivement-l-effort-budgetaire"
+   },
+   {
+    "qui": "Julien Limongi (RN), qui a voté pour",
+    "arg": "Il critique un texte qui « répare les erreurs de la précédente » loi, sans « véritable remontée en puissance de nos forces ».",
+    "source": "https://lcp.fr/actualites/programmation-militaire-l-assemblee-adopte-definitivement-l-effort-budgetaire"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Damien Girard (Écologiste et social)",
+    "arg": "« Nous soutenons le principe d'un effort supplémentaire de nos armées. Mais nous regrettons profondément la méthode choisie. »",
+    "source": "https://lcp.fr/actualites/programmation-militaire-l-assemblee-adopte-definitivement-l-effort-budgetaire"
+   },
+   {
+    "qui": "Les députés LFI, écologistes et GDR, auteurs de recours",
+    "arg": "Confier à des agents d'opérateurs privés la neutralisation de drones ne serait pas assez encadré. Le Conseil constitutionnel a jugé la loi conforme.",
+    "source": "https://www.conseil-constitutionnel.fr/decision/2026/2026907DC.htm"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Les votes",
+   "texte": "Assemblée, première lecture (19 mai 2026) : 440 pour, 122 contre. Vote final (1er juillet 2026) : 375 pour, 113 contre, 2 abstentions (scrutin n° 7905). LFI, écologistes et GDR ont voté contre."
+  },
+  {
+   "titre": "Le Conseil constitutionnel",
+   "texte": "Décision n° 2026-907 DC du 6 août 2026 : loi conforme."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "LCP, « Programmation militaire : l'Assemblée adopte définitivement l'effort budgétaire supplémentaire de 36 milliards d'euros », 1er juillet 2026",
+   "url": "https://lcp.fr/actualites/programmation-militaire-l-assemblee-adopte-definitivement-l-effort-budgetaire"
+  },
+  {
+   "titre": "Conseil constitutionnel, décision n° 2026-907 DC du 6 août 2026",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026907DC.htm"
+  },
+  {
+   "titre": "Scrutin n° 7905 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/7905"
+  }
+ ],
+ "auteur": "Rédaction Aux Voix",
+ "verif": "",
+ "version": {
+  "n": 1,
+  "date": "2026-10-20"
+ }
+}

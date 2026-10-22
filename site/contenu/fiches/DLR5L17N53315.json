@@ -1,0 +1,152 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53315",
+ "titre_officiel": "Proposition de loi visant à instaurer une procédure simplifiée de recouvrement des créances commerciales incontestées",
+ "phrase": "Une entreprise dont la facture n'est pas payée ni contestée peut obtenir de quoi forcer le paiement sans passer devant un juge.",
+ "note": "Loi promulguée en avril 2026. Ses modalités doivent être précisées par décret.",
+ "essentiel": {
+  "points": [
+   "Les retards de paiement fragilisent les entreprises : 68 296 ont fait faillite en 2025, un record.",
+   "Désormais, un commissaire de justice (ex-huissier) somme le client de payer sous un mois.",
+   "Sans paiement ni contestation, le greffe du tribunal de commerce rend la dette exécutoire ; les frais sont pour le débiteur."
+  ],
+  "pour": "Majorité, RN, droite et socialistes : un outil rapide pour les PME dont les factures ne sont pas payées.",
+  "contre": "LFI, écologistes et communistes : écarter le juge fragilise les petites entreprises face aux grands donneurs d'ordres."
+ },
+ "court": {
+  "resume": [
+   "Selon la Banque de France, les retards de paiement augmentent de 25 % le risque de faillite ; les grandes entreprises sont les plus en retard.",
+   "Les procédures existantes passent par le juge (injonction de payer) ou sont peu utilisées (petites créances de moins de 5 000 euros).",
+   "Le texte du sénateur François Patriat (Renaissance) crée une procédure sans juge pour les factures impayées entre commerçants."
+  ],
+  "change": [
+   [
+    "Injonction de payer devant le juge, ou procédure limitée à 5 000 euros.",
+    "Procédure sans juge et sans plafond pour les factures entre commerçants.",
+    "Entreprises créancières"
+   ],
+   [
+    "Frais à la charge du créancier dans la procédure des petites créances.",
+    "Frais à la charge du débiteur.",
+    "Entreprises débitrices"
+   ],
+   [
+    "—",
+    "Le président du tribunal de commerce est informé, pour repérer les entreprises en difficulté.",
+    "Tribunaux de commerce"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Daniel Labaronne (Ensemble pour la République)",
+    "arg": "Une procédure « simple, encadrée et rapide, de l'ordre d'un mois », pour soutenir la trésorerie des entreprises.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2578.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Elsa Faucillon (Gauche démocrate et républicaine)",
+    "arg": "Confier la procédure à des acteurs privés est « une privatisation silencieuse de la fonction juridictionnelle ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2578.html"
+   }
+  ]
+ },
+ "resume": [
+  "La procédure vise les créances « certaines, liquides et exigibles » ayant fait l'objet d'une facture entre commerçants ; elle ne concerne pas les dettes des particuliers.",
+  "À la demande du créancier, un commissaire de justice adresse au débiteur une sommation de payer dans un délai d'un mois.",
+  "Si le débiteur paie ou conteste, la procédure s'arrête ; le créancier peut alors aller devant le juge.",
+  "S'il ne fait rien, le commissaire de justice dresse un procès-verbal de non-contestation, que le greffier de la juridiction commerciale rend exécutoire après avoir vérifié la régularité de la procédure.",
+  "Les frais sont à la charge du débiteur, et une copie est transmise au président du tribunal de commerce du siège du débiteur."
+ ],
+ "pourquoi": [
+  "Selon le rapporteur Charles Sitzenstuhl (Ensemble pour la République), les PME ont perdu 15,3 milliards d'euros de trésorerie en 2024 à cause des paiements hors délais.",
+  "Dans la grande majorité des cas, la facture n'est pas contestée mais simplement ignorée, et beaucoup d'entreprises hésitent à aller en justice contre un client important."
+ ],
+ "change": [
+  [
+   "—",
+   "Sommation de payer sous un mois par un commissaire de justice.",
+   "Débiteurs",
+   "Après le décret d'application"
+  ],
+  [
+   "—",
+   "Titre exécutoire délivré par le greffe en cas de silence du débiteur.",
+   "Créanciers",
+   "Après le décret d'application"
+  ],
+  [
+   "Procédure des petites créances ouverte aux créances commerciales.",
+   "Celles-ci en sont retirées, au profit de la nouvelle procédure.",
+   "Entreprises",
+   "Après le décret d'application"
+  ]
+ ],
+ "pasfait": [
+  "Il ne fixe aucun plafond de montant ; un plafond de 10 000 euros proposé par les communistes a été rejeté.",
+  "Il ne renforce ni les contrôles ni les sanctions contre les retards de paiement.",
+  "Il ne concerne pas les dettes des particuliers (loyers, pensions…)."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Daniel Labaronne (Ensemble pour la République)",
+    "arg": "Quand 25 % des défaillances sont liées à des retards de paiement, « nous sommes confrontés à un enjeu économique majeur ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2578.html"
+   },
+   {
+    "qui": "Monique Griseti (RN)",
+    "arg": "Le diagnostic est juste : la procédure de 2015 reste « trop souvent lettre morte », entravée par des seuils trop bas.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2578.html"
+   },
+   {
+    "qui": "Sacha Houlié (socialiste)",
+    "arg": "Acheteurs publics et grandes entreprises se font de la trésorerie grâce aux impayés, au détriment des petites : « C'est évidemment inacceptable. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2578.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Élisa Martin (La France insoumise)",
+    "arg": "Faire valoir le silence comme absence de contestation crée des inégalités : les grandes entreprises suivent les procédures, les petites et les autoentrepreneurs moins.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2578.html"
+   },
+   {
+    "qui": "Arnaud Bonnet (écologiste)",
+    "arg": "La lenteur de la justice vient surtout du manque de moyens ; retirer les tribunaux est dangereux quand les entreprises sont de taille inégale.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2578.html"
+   },
+   {
+    "qui": "Elsa Faucillon (Gauche démocrate et républicaine)",
+    "arg": "Le texte ne s'attaque pas aux rapports de force entre petites entreprises et grands donneurs d'ordres : « une nouvelle gamme de pansements ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2578.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Sénat : adopté le 29 janvier 2026. Assemblée : 41 pour, 14 contre (LFI, écologistes, communistes), 10 avril 2026, scrutin n° 6135, sans modification."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Charles Sitzenstuhl, Assemblée nationale (n° 2578)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2578.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53315"
+  },
+  {
+   "titre": "Scrutin n° 6135 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/6135"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

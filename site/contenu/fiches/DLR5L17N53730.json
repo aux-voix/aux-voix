@@ -1,0 +1,120 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53730",
+ "titre_officiel": "Projet de loi autorisant l’approbation de la convention entre le Gouvernement de la République française et le Gouvernement de la République italienne relative à l’entretien courant et à l’exploitation de la section située en territoire français de la ligne ferroviaire Coni-Breil-Vintimille",
+ "phrase": "France et Italie se partagent désormais les frais d'entretien de la ligne de train Coni-Vintimille dans la vallée de la Roya, selon le nombre de trains de chacun.",
+ "note": "Loi promulguée en avril 2026, adoptée sans vote public.",
+ "essentiel": {
+  "points": [
+   "La ligne relie le Piémont à la Ligurie en traversant la vallée de la Roya, dans les Alpes-Maritimes.",
+   "Depuis 1970, l'Italie devait payer tout l'entretien de la partie française ; elle a cessé de payer en 2008.",
+   "Désormais, chaque pays paie selon le nombre de ses trains, et au moins 25 % du déficit s'il fait rouler des trains."
+  ],
+  "pour": "Tous les groupes : le texte règle un vieux différend et préserve une ligne utile aux habitants et au tourisme.",
+  "contre": "Personne ne s'y est opposé. Des députés regrettent que les gros travaux de rénovation ne soient pas prévus."
+ },
+ "court": {
+  "resume": [
+   "Ouverte en 1928, détruite à la fin de la Seconde Guerre mondiale puis rouverte en 1979, la ligne dessert seize gares, dont six en France ; des TER y circulent depuis Nice.",
+   "La convention de 1970 faisait payer à l'Italie l'entretien de la partie française ; le désaccord a créé une dette de près de 20 millions d'euros, réglée en 2020 à 14,7 millions.",
+   "La nouvelle convention, signée à Milan en 2024, répartit les frais entre les deux pays."
+  ],
+  "change": [
+   [
+    "L'Italie paie tout l'entretien de la section française.",
+    "Partage selon le nombre de trains français et italiens.",
+    "SNCF Réseau, réseau italien"
+   ],
+   [
+    "—",
+    "Chaque pays paie au moins 25 % du déficit dès qu'un de ses trains circule.",
+    "États français et italien"
+   ],
+   [
+    "—",
+    "Les gros travaux de rénovation restent hors de l'accord.",
+    "Usagers de la ligne"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Constance Le Grip (Ensemble pour la République)",
+    "arg": "Le texte « apporte une solution concrète à un différend ancien » avec un partage des coûts plus équilibré.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2581.html"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "La convention signée à Milan le 12 avril 2024 remplace celle du 24 juin 1970, qui mettait à la charge de l'Italie tout l'entretien et l'exploitation de la section française au nord de Viévola et au sud de Breil-sur-Roya.",
+  "Le déficit ou l'excédent de gestion courante est désormais réparti au prorata des trains français et italiens qui circulent.",
+  "Chaque État paie au moins 25 % du déficit dès lors qu'un de ses trains emprunte la ligne.",
+  "Les travaux d'investissement destinés à régénérer la ligne sont expressément exclus.",
+  "La rapporteure estime que l'accord, conforme à l'esprit du traité du Quirinal de 2021, « ne lève pas toutes les zones d'ombre » de la coopération transfrontalière."
+ ],
+ "pourquoi": [
+  "Depuis 2008, l'Italie refusait de payer les dépenses de SNCF Réseau, ce qui a abouti à une dette de près de 20 millions d'euros.",
+  "Après la tempête Alex d'octobre 2020, qui a coupé les routes de la Roya, la ligne a servi à acheminer secours et ravitaillement."
+ ],
+ "change": [
+  [
+   "Italie seule payeuse (convention de 1970).",
+   "Partage au prorata des circulations.",
+   "France, Italie",
+   "Depuis l'entrée en vigueur de la convention"
+  ],
+  [
+   "—",
+   "Contribution minimale de 25 % du déficit pour chaque pays dont les trains circulent.",
+   "France, Italie",
+   "Depuis l'entrée en vigueur de la convention"
+  ]
+ ],
+ "pasfait": [
+  "Il ne finance pas la rénovation de la ligne, sur laquelle les trains roulent à vitesse réduite selon le RN.",
+  "Il ne règle pas le financement des investissements futurs, qui demandera une autre coopération, selon les Horizons."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Constance Le Grip (Ensemble pour la République)",
+    "arg": "Un cadre plus équilibré, qui préserve une ligne historique et l'attractivité touristique du territoire transfrontalier.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2581.html"
+   },
+   {
+    "qui": "Stéphane Hablot (socialiste)",
+    "arg": "La ligne « symbolise une Europe où les pays doivent se tendre la main, dans l'intérêt des travailleurs, des habitants et des touristes ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2581.html"
+   },
+   {
+    "qui": "Jean-Paul Lecoq (Gauche démocrate et républicaine)",
+    "arg": "« Le rapprochement de nos régions et de l'Italie est toujours une bonne chose. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2581.html"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucune opposition : tous les groupes ont soutenu le texte. Michel Guiniot (RN) a jugé « étonnante » l'exclusion des travaux de régénération ; Sylvain Berrios (Horizons) a estimé qu'il faudra un suivi pour les investissements futurs."
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Sénat : adopté le 18 février 2026. Assemblée : adopté le 31 mars 2026, sans vote public."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport d'Alexandra Masson, Assemblée nationale (n° 2581)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2581.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53730"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

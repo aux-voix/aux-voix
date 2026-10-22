@@ -1,0 +1,154 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53095",
+ "titre_officiel": "Projet de loi autorisant l’approbation de la convention d’extradition entre le Gouvernement de la République française et le Gouvernement de la République de Colombie",
+ "phrase": "La France approuve un nouveau traité avec la Colombie pour se remettre les personnes poursuivies ou condamnées, notamment pour trafic de drogue.",
+ "note": "Loi promulguée en octobre 2026. Le traité n'entre en vigueur qu'une fois approuvé aussi par la Colombie.",
+ "essentiel": {
+  "points": [
+   "Il remplace un traité de 1850, qui ne permettait pas d'extrader pour trafic de drogue.",
+   "L'extradition devient possible pour tout fait puni d'au moins deux ans de prison.",
+   "Elle reste refusée pour les infractions politiques, et la peine de mort ne peut pas être appliquée."
+  ],
+  "pour": "Le rapporteur, Hadrien Clouet : un outil « tout à fait opportun » contre le narcotrafic, la Colombie étant le premier producteur mondial de coca.",
+  "contre": "5 députés socialistes et écologistes ont voté contre ; en commission, leurs groupes demandaient surtout de la vigilance sur son application."
+ },
+ "court": {
+  "resume": [
+   "La France et la Colombie ont signé en 2024 un traité d'extradition : chaque pays s'engage à remettre à l'autre les personnes poursuivies ou condamnées qui se trouvent sur son territoire.",
+   "Il remplace un traité de 1850 qui ne couvrait pas le trafic de drogue, alors que près de la moitié des demandes portent sur ce motif, selon le rapport de l'Assemblée.",
+   "Cette loi autorise la France à approuver le traité : le Sénat puis l'Assemblée l'ont adoptée sans la modifier."
+  ],
+  "change": [
+   [
+    "Traité de 1850 : une liste fermée d'infractions, sans le trafic de drogue.",
+    "Extradition possible pour tout fait puni d'au moins 2 ans de prison, y compris en matière fiscale et douanière.",
+    "Les personnes poursuivies ou condamnées dans l'un des deux pays"
+   ],
+   [
+    "Pas de délai ni de règle de traduction prévus.",
+    "60 jours pour compléter la demande après l'arrestation, 60 jours pour remettre la personne.",
+    "La justice des deux pays"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Hadrien Clouet (LFI-NFP), rapporteur à l'Assemblée",
+    "arg": "Il juge l'approbation « tout à fait opportune » : la Colombie est le premier producteur mondial de coca et ses réseaux criminels dépassent ses frontières.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2758.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "5 députés socialistes et écologistes",
+    "arg": "Ils ont voté contre en séance le 12 octobre 2026. Leurs raisons ne figurent pas dans les sources consultées ; en commission, leurs groupes avaient demandé d'être « vigilants » sur son application.",
+    "source": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8696"
+   }
+  ]
+ },
+ "resume": [
+  "Une convention d'extradition est un traité par lequel deux pays s'engagent à se remettre les personnes recherchées par la justice de l'autre.",
+  "Celle-ci a été signée à Paris le 11 novembre 2024 entre la France et la Colombie.",
+  "Elle remplace un traité signé en 1850, dont la liste d'infractions ne comprenait pas le trafic de stupéfiants.",
+  "Elle fixe des délais précis et des cas où l'extradition doit ou peut être refusée.",
+  "La loi autorise la France à l'approuver ; le traité s'appliquera lorsque les deux pays l'auront approuvé."
+ ],
+ "pourquoi": [
+  "Selon le rapport de l'Assemblée, le traité de 1850 est inadapté : il ne couvre pas les stupéfiants, alors que près de la moitié des demandes portent sur ce motif, et il ne fixe ni délai ni règle de traduction.",
+  "Le rapport présente la lutte contre le narcotrafic comme le principal objectif : la Colombie reste le premier producteur mondial de coca."
+ ],
+ "change": [
+  [
+   "Liste fermée d'infractions datant de 1850, sans le trafic de drogue.",
+   "Tout fait puni d'au moins 2 ans de prison ; pour exécuter une peine, il doit rester au moins 1 an à purger. Les infractions fiscales, douanières et de change sont incluses.",
+   "Les personnes poursuivies ou condamnées",
+   "À l'entrée en vigueur du traité"
+  ],
+  [
+   "La Colombie appliquait un délai de 5 jours après l'arrestation, jugé « intenable » par les ministères français.",
+   "60 jours pour formaliser la demande après l'arrestation, puis 60 jours pour la remise après l'accord ; traduction en français ou en espagnol.",
+   "La justice des deux pays",
+   "À l'entrée en vigueur du traité"
+  ],
+  [
+   "—",
+   "Refus obligatoire pour les infractions politiques ou militaires, les poursuites discriminatoires, les faits déjà jugés ou prescrits, et devant un tribunal d'exception.",
+   "Les personnes réclamées",
+   "À l'entrée en vigueur du traité"
+  ],
+  [
+   "—",
+   "La personne ne peut être extradée que si la peine de mort ne sera ni prononcée ni exécutée (la Colombie l'a abolie en 1910).",
+   "Les personnes réclamées",
+   "À l'entrée en vigueur du traité"
+  ]
+ ],
+ "pasfait": [
+  "Elle n'oblige pas la France à extrader ses propres ressortissants : chaque pays peut refuser de remettre ses nationaux.",
+  "Elle ne s'applique pas encore : elle doit aussi être approuvée par la Colombie, ce qui n'était pas fait à la date du rapport de l'Assemblée."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Hadrien Clouet (LFI-NFP), rapporteur à l'Assemblée",
+    "arg": "L'approbation est « tout à fait opportune » face à un narcotrafic transnational ; le traité modernise un cadre jugé obsolète.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2758.html"
+   },
+   {
+    "qui": "Des députés de huit groupes, en commission",
+    "arg": "Des orateurs des groupes RN, EPR, LFI-NFP, socialiste, Démocrates, Horizons, écologiste et GDR ont soutenu le texte en commission, certains en demandant de la vigilance sur son application.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2758.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "5 députés socialistes et écologistes",
+    "arg": "Ils ont voté contre en séance (28 pour, 5 contre, 2 abstentions). Leurs raisons ne figurent pas dans les sources consultées.",
+    "source": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8696"
+   },
+   {
+    "qui": "Alain David (socialiste) et Jean-Louis Roumégas (écologiste), en commission",
+    "arg": "Sans s'y opposer, ils appellent à rester « vigilants » sur le seuil de peine et sur la prise en compte de la juridiction spéciale colombienne pour la paix.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2758.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Les demandes depuis 2016",
+   "texte": "Selon le rapport, la France a adressé 28 demandes d'extradition à la Colombie (15 remises, 10 en cours) ; la Colombie en a adressé 2 à la France (1 remise)."
+  },
+  {
+   "titre": "La clause propre à la Colombie",
+   "texte": "La juridiction spéciale pour la paix, créée après l'accord de paix de 2016, peut accorder une garantie de non-extradition pour des faits liés au conflit commis avant le 1er décembre 2016 ; la Cour suprême colombienne peut lever cette protection."
+  },
+  {
+   "titre": "Le vote",
+   "texte": "Sénat : adopté le 18 février 2026. Assemblée : adopté le 12 octobre 2026 par 28 voix pour, 5 contre et 2 abstentions (scrutin n° 8696)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de la commission des affaires étrangères de l'Assemblée nationale (n° 2758)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2758.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53095"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/pjl25-098.html"
+  },
+  {
+   "titre": "Scrutin n° 8696 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8696"
+  }
+ ],
+ "auteur": "Rédaction Aux Voix",
+ "verif": "",
+ "version": {
+  "n": 1,
+  "date": "2026-10-20"
+ }
+}

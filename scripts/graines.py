@@ -30,7 +30,7 @@ def est_moc(s):
 
 
 def est_ensemble(s):
-    return bool(re.match(r"l.ensemble", norm(ti_propre(s.get("ti")))))
+    return bool(re.match(r"l.ensemble|(la|le) (proposition|projet) de loi|l.article unique (du|de la|de l.) (projet|proposition) de loi", norm(ti_propre(s.get("ti")))))
 
 
 def lundi_de(iso):

@@ -1,0 +1,160 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53775",
+ "titre_officiel": "Proposition de loi visant à encadrer les regroupements pédagogiques intercommunaux afin de garantir l’égalité d’accès à l’école en milieu rural",
+ "phrase": "Les regroupements d'écoles entre communes rurales auraient un cadre légal, et ces communes ne paieraient plus pour des élèves partis ailleurs s'il reste de la place.",
+ "note": "Texte adopté par l'Assemblée en première lecture le 9 avril 2026 (132 voix pour, aucune contre). Le Sénat doit encore l'examiner.",
+ "essentiel": {
+  "points": [
+   "Plus de 13 000 communes n'ont pas d'école ; 4 745 regroupements pédagogiques intercommunaux (RPI) réunissent 15 784 communes pour en garder.",
+   "Beaucoup de RPI reposent sur une simple entente entre communes, sans vraie base dans la loi.",
+   "Le texte les définit, encadre retrait et dissolution, et évite à leurs communes de payer pour des élèves scolarisés hors du RPI quand il y a de la place."
+  ],
+  "pour": "Majorité, RN, droite, socialistes et écologistes : les RPI permettent de garder une école de proximité dans les villages.",
+  "contre": "LFI et les communistes se sont abstenus : selon LFI, les RPI servent surtout à accompagner les fermetures de classes."
+ },
+ "court": {
+  "resume": [
+   "Avec la baisse des naissances (645 000 en 2025, 24 % de moins qu'en 2010), les écoles rurales perdent des élèves.",
+   "Depuis les années 1980, des communes s'associent en regroupements pédagogiques intercommunaux (RPI) pour garder une école de proximité.",
+   "Le texte de Pierre Henriet (Horizons) leur donne un statut dans le code de l'éducation."
+  ],
+  "change": [
+   [
+    "Les RPI fondés sur une convention n'ont pas de statut légal.",
+    "Définition dans la loi ; convention approuvée par chaque conseil municipal après avis de l'académie et des parents.",
+    "Communes rurales"
+   ],
+   [
+    "Une commune d'un RPI par convention paie pour ses élèves scolarisés hors du RPI.",
+    "Plus d'obligation s'il reste de la place dans le RPI, comme pour les RPI gérés par une intercommunalité.",
+    "Communes, familles"
+   ],
+   [
+    "—",
+    "Retrait avec deux ans de préavis ; dissolution avec l'accord de tous les conseils municipaux.",
+    "Communes"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Pierre Henriet (Horizons), auteur et rapporteur",
+    "arg": "Le maintien d'une école dans une commune rurale « est le dernier rempart contre la désertification ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2611.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Rodrigo Arenas (La France insoumise)",
+    "arg": "Sous couvert de sécuriser les RPI, il s'agirait de « soutenir l'accélération de la fermeture des classes des écoles publiques ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2611.html"
+   }
+  ]
+ },
+ "resume": [
+  "Les RPI sont définis comme des structures permettant à plusieurs communes de mutualiser leurs moyens pour construire, équiper, faire fonctionner et entretenir une ou plusieurs écoles publiques du premier degré.",
+  "Ils reposent soit sur une convention entre communes, approuvée par chaque conseil municipal après avis de l'autorité académique et consultation des parents d'élèves, soit sur une intercommunalité compétente.",
+  "La convention fixe sa durée, la répartition des dépenses et la coordination avec les transports scolaires ; une commune peut se retirer avec un préavis de deux années scolaires, après avis du conseil d'école.",
+  "Pour savoir si une commune doit payer la scolarisation d'un enfant ailleurs, la capacité d'accueil s'apprécie à l'échelle du RPI ; la règle vaut aussi pour les écoles privées situées hors du RPI.",
+  "Un décret fixera la représentation de chaque commune au conseil d'école ; les conventions existantes ont deux ans pour se mettre en conformité."
+ ],
+ "pourquoi": [
+  "Selon le rapporteur, les communes d'un RPI conventionnel sans école doivent aujourd'hui financer la scolarisation de leurs élèves hors du RPI même s'il y reste de la place, contrairement aux RPI adossés à une intercommunalité.",
+  "Plus de 13 000 communes, près de 40 % du total, n'ont aucune école sur leur territoire."
+ ],
+ "change": [
+  [
+   "—",
+   "Statut légal des RPI dans le code de l'éducation.",
+   "Communes",
+   "À la rentrée suivant la promulgation"
+  ],
+  [
+   "Capacité d'accueil appréciée commune par commune.",
+   "Appréciée à l'échelle du RPI pour le financement des élèves scolarisés ailleurs.",
+   "Communes, écoles privées",
+   "À la rentrée suivant la promulgation"
+  ],
+  [
+   "—",
+   "Mise en conformité des conventions existantes.",
+   "RPI existants",
+   "Dans les deux ans"
+  ]
+ ],
+ "pasfait": [
+  "Il n'empêche pas les fermetures de classes, décidées par l'Éducation nationale.",
+  "Il ne règle pas le coût des transports scolaires, soulevé par le RN.",
+  "Il n'est pas en vigueur : le Sénat doit l'examiner."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Pierre Henriet (Horizons), auteur et rapporteur",
+    "arg": "Une école qui ferme, « c'est la garantie de ne pas pouvoir attirer des familles avec des enfants ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2611.html"
+   },
+   {
+    "qui": "Julie Delpech (Ensemble pour la République)",
+    "arg": "Environ 4 800 RPI impliquent près d'une commune sur trois, mais ce « vide juridique crée des incertitudes ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2611.html"
+   },
+   {
+    "qui": "Géraldine Bannier (Démocrates)",
+    "arg": "Des élus découvrent qu'ils doivent payer pour des élèves scolarisés hors du RPI, y compris dans le privé : « Ce texte clarifie les choses. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2611.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Rodrigo Arenas (La France insoumise)",
+    "arg": "Plus de 17 000 écoles ont fermé en quarante ans ; le texte accompagnerait la fermeture de classes publiques.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2611.html"
+   },
+   {
+    "qui": "Jean-Claude Raux (écologiste)",
+    "arg": "Le texte prend le problème à l'envers : « les RPI ne sont pas des projets choisis », les communes y sont contraintes après qu'on a fragilisé leurs écoles.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2611.html"
+   },
+   {
+    "qui": "Julien Odoul (RN)",
+    "arg": "Son groupe vote le texte, mais juge que les RPI restent « le cache-misère d'un abandon organisé » par l'État.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2611.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée : 132 pour, 0 contre, 25 abstentions (LFI, communistes), 9 avril 2026, scrutin n° 6076."
+  },
+  {
+   "titre": "Deux rapports demandés",
+   "texte": "Le gouvernement devrait remettre au Parlement un rapport sur la possibilité de limiter le transport scolaire à quinze minutes, et un autre sur les effets des fermetures de classes en zone rurale."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Pierre Henriet, Assemblée nationale (n° 2611)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2611.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 267)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0267.raw"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53775"
+  },
+  {
+   "titre": "Scrutin n° 6076 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/6076"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

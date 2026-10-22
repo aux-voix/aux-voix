@@ -1,0 +1,174 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53530",
+ "titre_officiel": "Proposition de loi visant à relancer les investissements dans le secteur de l’hydroélectricité pour contribuer à la transition énergétique",
+ "phrase": "Les grands barrages sortent du système des concessions : leurs exploitants actuels, surtout EDF, les gardent sans mise en concurrence, en échange d'une ouverture partielle de leur production.",
+ "note": "Loi promulguée le 29 juin 2026. Elle met en œuvre un accord passé en 2025 entre la France et la Commission européenne.",
+ "essentiel": {
+  "points": [
+   "Depuis 1919, les grands barrages sont confiés par l'État à des exploitants, comme EDF, par des concessions.",
+   "Bruxelles exigeait de remettre ces concessions en concurrence ; le conflit bloquait les investissements depuis plus de dix ans.",
+   "La loi remplace les concessions par des autorisations : les exploitants actuels restent, l'État reste propriétaire des barrages.",
+   "En échange, au moins 40 % de la production doit être proposée à d'autres entreprises, par des enchères."
+  ],
+  "pour": "Socialistes, centre et droite : la loi débloque les investissements sans mise en concurrence et sans vendre les barrages.",
+  "contre": "LFI a voté contre et le RN s'est abstenu : selon eux, la France cède à Bruxelles et l'électricité des barrages échappera en partie au contrôle public."
+ },
+ "court": {
+  "resume": [
+   "L'hydroélectricité couvre environ 13 % de la consommation d'électricité en France : c'est la première énergie renouvelable du pays, et elle peut être pilotée selon les besoins.",
+   "Depuis plus de dix ans, la Commission européenne contestait le régime des concessions et la position d'EDF ; faute de visibilité, les investissements étaient gelés.",
+   "La loi, préparée par deux députés de bords différents, remplace les concessions par des autorisations, garde les exploitants actuels et ouvre une partie de la production à la concurrence."
+  ],
+  "change": [
+   [
+    "Concessions limitées dans le temps, qui devaient être remises en concurrence à leur échéance.",
+    "Autorisations d'exploiter ; les concessions de plus de 4,5 mégawatts sont résiliées, avec indemnisation.",
+    "EDF et les autres exploitants"
+   ],
+   [
+    "L'exploitant est concessionnaire d'ouvrages de l'État.",
+    "Il reçoit un « droit réel » de 70 ans sur les installations, contre paiement ; l'État reste propriétaire.",
+    "Exploitants, État"
+   ],
+   [
+    "La production reste chez l'exploitant historique.",
+    "Au moins 40 % de la capacité est proposée à d'autres entreprises par des enchères contrôlées par la Commission de régulation de l'énergie.",
+    "Fournisseurs d'électricité"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Marie-Noëlle Battistel (socialiste) et Philippe Bolo (Démocrates), auteurs et rapporteurs",
+    "arg": "Le statu quo n'était « plus soutenable » : la loi met fin à l'insécurité juridique qui gelait les investissements, sans céder les installations.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2405.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Matthias Tavel (La France insoumise)",
+    "arg": "« La Commission européenne s'attaque au service public de l'hydroélectricité en France ; aujourd'hui, vous lui donnez raison. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2405.html"
+   }
+  ]
+ },
+ "resume": [
+  "Depuis la loi de 1919, les grands barrages appartiennent à l'État, qui en confie l'exploitation par concession ; on en compte plus de 340.",
+  "Deux procédures de la Commission européenne, sur la position dominante d'EDF et sur l'absence de remise en concurrence, ont créé une insécurité juridique qui a gelé les investissements.",
+  "Fin 2025, le Gouvernement et la Commission ont conclu un accord de principe ; la loi le traduit en droit français.",
+  "Pour les installations de plus de 4,5 mégawatts, les concessions sont résiliées contre indemnité et remplacées par des autorisations ; les exploitants actuels reçoivent un droit réel de 70 ans, contre paiement, et l'État garde la propriété.",
+  "En contrepartie, au moins 40 % de la capacité hydroélectrique doit être rendue accessible à d'autres entreprises qu'EDF, par des enchères sous le contrôle de la Commission de régulation de l'énergie."
+ ],
+ "pourquoi": [
+  "Selon le rapport de l'Assemblée, le blocage empêchait de développer le parc pour répondre aux nouveaux besoins du réseau, notamment en stockage et en flexibilité.",
+  "Le texte reprend les conclusions d'une mission d'information transpartisane de l'Assemblée, terminée en mai 2025, et d'un rapport du Sénat de novembre 2025."
+ ],
+ "change": [
+  [
+   "Régime de concession pour les installations de plus de 4,5 MW.",
+   "Régime d'autorisation ; résiliation des concessions en cours, avec indemnisation des exploitants.",
+   "Exploitants, État",
+   "Selon les conventions signées avec chaque exploitant"
+  ],
+  [
+   "Concession à durée limitée, à remettre en concurrence.",
+   "Droit réel de 70 ans assorti d'un droit d'occupation du domaine public, contre une contrepartie financière.",
+   "EDF et autres exploitants",
+   "Après signature des conventions"
+  ],
+  [
+   "—",
+   "Si l'exploitant refuse la convention, le droit est attribué après une sélection à laquelle il ne peut pas participer.",
+   "Exploitants",
+   "Le cas échéant"
+  ],
+  [
+   "Production réservée à l'exploitant.",
+   "Mise à disposition de capacités « virtuelles » aux enchères : au moins 40 % de la capacité accessible à d'autres qu'EDF.",
+   "Fournisseurs d'électricité",
+   "Selon les décrets"
+  ]
+ ],
+ "pasfait": [
+  "Elle ne privatise pas les barrages : les installations restent la propriété de l'État.",
+  "Elle ne concerne pas la concession du Rhône, qui garde un statut à part, ni les petites installations de moins de 4,5 MW."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Marie-Noëlle Battistel (socialiste) et Philippe Bolo (Démocrates), rapporteurs",
+    "arg": "La loi sécurise durablement l'exploitation au regard du droit européen et relance les investissements, avec des garde-fous : pas de cession des installations.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2405.html"
+   },
+   {
+    "qui": "Marie-Noëlle Battistel (socialiste), rapporteure, après l'accord avec les sénateurs",
+    "arg": "« L'essentiel est là : pas de mise en concurrence, le maintien de la propriété des ouvrages à l'État, la relance des investissements. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2856.html"
+   },
+   {
+    "qui": "Julien Brugerolles (GDR)",
+    "arg": "Le texte vise à « solder le contentieux » de plus de dix ans avec la Commission européenne, enjeu essentiel pour la souveraineté énergétique.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2405.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Matthias Tavel (La France insoumise)",
+    "arg": "L'État risque de perdre le contrôle de ses barrages et les prix de l'électricité d'être « encore plus spéculatifs ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2405.html"
+   },
+   {
+    "qui": "Lionel Tivoli (RN), dont le groupe s'est abstenu",
+    "arg": "Mettre 40 % de la capacité aux enchères, c'est se soumettre aux « injonctions » européennes : moins de contrôle public et, à terme, des factures plus élevées.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2405.html"
+   },
+   {
+    "qui": "Julie Laernoes (écologiste), dont le groupe s'est abstenu",
+    "arg": "Une autre voie existait, la « quasi-régie », qui garantissait le caractère public des barrages ; les gouvernements ne l'ont pas choisie.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2405.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le poids de l'hydroélectricité",
+   "texte": "Plus de 340 concessions ; environ 13 % de la consommation électrique française et près de 14 % de la production, selon les débats en commission."
+  },
+  {
+   "titre": "Les réserves du Sénat",
+   "texte": "Le rapporteur du Sénat, Jean-Jacques Michau, a regretté qu'aucune étude d'impact n'ait été fournie aux collectivités sur la réforme des redevances qui financent les territoires."
+  },
+  {
+   "titre": "Les votes",
+   "texte": "Assemblée, première lecture : 56 pour, 8 contre, 12 abstentions (5 février 2026, scrutin n° 5354). Texte de la commission mixte paritaire : 290 pour, 59 contre (LFI), 116 abstentions (RN, écologistes) (17 juin 2026, scrutin n° 7409)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Marie-Noëlle Battistel et Philippe Bolo, Assemblée nationale (n° 2405)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2405.html"
+  },
+  {
+   "titre": "Rapport de la commission mixte paritaire (n° 2856)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2856.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53530"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl25-359.html"
+  },
+  {
+   "titre": "Scrutin n° 7409 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/7409"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

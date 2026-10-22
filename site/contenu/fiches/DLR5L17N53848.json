@@ -1,0 +1,106 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53848",
+ "titre_officiel": "Projet de loi autorisant l'approbation de l'accord entre le Gouvernement de la République française et le Gouvernement du Royaume des Pays-Bas portant délimitation de la frontière entre la République française (Saint-Martin) et le Royaume des Pays-Bas (Sint Maarten)",
+ "phrase": "La France et les Pays-Bas fixent enfin le tracé de leur frontière sur l'île de Saint-Martin, partagée depuis 1648, et règlent un vieux litige sur une baie.",
+ "note": "Loi promulguée en juillet 2026.",
+ "essentiel": {
+  "points": [
+   "L'île de Saint-Martin, aux Antilles, est partagée entre la France et les Pays-Bas depuis un traité de 1648.",
+   "La frontière, longue de 10 km, n'avait jamais été tracée officiellement.",
+   "L'accord fixe ce tracé et partage l'étang aux Huîtres, une baie disputée, à égale distance des deux côtes."
+  ],
+  "pour": "Le rapport de l'Assemblée : l'accord met fin à un contentieux territorial vieux de plusieurs siècles.",
+  "contre": "Aucune opposition n'a été enregistrée : il n'y a pas eu de scrutin public à l'Assemblée."
+ },
+ "court": {
+  "resume": [
+   "Depuis le traité de Concordia de 1648, l'île de Saint-Martin est partagée entre une partie française et une partie néerlandaise (Sint Maarten).",
+   "Faute de tracé officiel, les deux pays se disputaient notamment l'étang aux Huîtres, une baie touristique.",
+   "Signé en 2023, l'accord fixe la frontière ; cette loi autorise la France à l'approuver."
+  ],
+  "change": [
+   [
+    "Frontière coutumière, jamais tracée officiellement.",
+    "Tracé fixé par un accord, mis en œuvre par une commission mixte.",
+    "Habitants et autorités de l'île"
+   ],
+   [
+    "Souveraineté disputée sur l'étang aux Huîtres.",
+    "Partage selon le principe d'équidistance.",
+    "Riverains de la baie"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Le rapport de la commission des affaires étrangères de l'Assemblée",
+    "arg": "« Trois cent soixante-dix-huit ans après le traité de Concordia, les deux parties ont décidé de mettre un terme à leur contentieux territorial. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2996.html"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "Saint-Martin, dans les Petites Antilles, est traversée par une frontière de 10 km entre la partie française et Sint Maarten, pays du Royaume des Pays-Bas.",
+  "Le traité de Concordia de 1648 prévoyait un partage de l'île, mais aucun tracé n'avait été formellement accepté par les deux États.",
+  "Le principal litige portait sur l'étang aux Huîtres (Oyster Pond), en réalité une baie ouverte sur la mer, à l'est de l'île.",
+  "L'accord du 23 mai 2023 fixe le tracé, applique le principe d'équidistance à cette baie et confie sa mise en œuvre à une commission mixte."
+ ],
+ "pourquoi": [
+  "Selon le rapport de l'Assemblée, l'absence de tracé « a conduit à des litiges de souveraineté, en particulier sur une baie où l'activité touristique est importante »."
+ ],
+ "change": [
+  [
+   "Frontière coutumière.",
+   "Frontière délimitée par traité.",
+   "Saint-Martin et Sint Maarten",
+   "À l'entrée en vigueur de l'accord"
+  ],
+  [
+   "Étang aux Huîtres disputé.",
+   "Partage à égale distance des deux rives.",
+   "Riverains, activités touristiques",
+   "À l'entrée en vigueur de l'accord"
+  ]
+ ],
+ "pasfait": [
+  "Il ne crée pas de contrôles à la frontière : la libre circulation entre les deux parties de l'île continue."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Le rapport de la commission des affaires étrangères de l'Assemblée",
+    "arg": "L'accord est « équilibré » et met fin à un contentieux ancien.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2996.html"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucune opposition n'a été enregistrée : la procédure accélérée a été engagée le 25 février 2026 et il n'y a pas eu de scrutin public à l'Assemblée."
+ },
+ "details": [
+  {
+   "titre": "Chiffres",
+   "texte": "Frontière de 10 km ; partie française de 53 km² (rapport de l'Assemblée)."
+  },
+  {
+   "titre": "Rareté",
+   "texte": "Selon le rapporteur, le Parlement n'a été saisi que de trois accords de délimitation de frontière en vingt ans (Allemagne en 2003, Andorre en 2015 et 2024)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de la commission des affaires étrangères de l'Assemblée nationale (n° 2996)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2996.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53848"
+  }
+ ],
+ "auteur": "Rédaction Aux Voix",
+ "verif": "",
+ "version": {
+  "n": 1,
+  "date": "2026-10-20"
+ }
+}

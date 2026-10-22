@@ -1,0 +1,148 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51791",
+ "titre_officiel": "Proposition de loi portant pérennisation du contrat de professionnalisation expérimental",
+ "phrase": "Un contrat en alternance qui forme à des compétences choisies par l'employeur, plutôt qu'à un diplôme complet, devient permanent après huit ans d'expérimentation.",
+ "note": "Loi promulguée le 4 juin 2026. Le texte venait du Sénat ; l'Assemblée l'a adopté sans modification.",
+ "essentiel": {
+  "points": [
+   "Le contrat de professionnalisation alterne travail en entreprise et formation ; il est ouvert aux jeunes et aux demandeurs d'emploi.",
+   "Depuis 2018, une version « expérimentale » permet de se former à des compétences précises, définies par l'employeur, sans viser un diplôme entier.",
+   "Cette version devient permanente : 35 356 contrats avaient été signés entre 2018 et 2023."
+  ],
+  "pour": "La droite, le centre et le RN : un outil souple pour former des personnes éloignées de l'emploi aux métiers qui recrutent.",
+  "contre": "LFI, écologistes et GDR : former à des « compétences » plutôt qu'à des qualifications reconnues enferme les salariés dans un poste."
+ },
+ "court": {
+  "resume": [
+   "Le contrat de professionnalisation, créé en 2004, est un contrat de travail en alternance qui mène en principe à une qualification reconnue.",
+   "La loi de 2018 a permis, à titre d'essai, de le construire autour de « blocs de compétences » choisis par l'employeur et l'opérateur de compétences, au plus près de ses besoins.",
+   "L'expérimentation étant arrivée à son terme, la loi la rend définitive."
+  ],
+  "change": [
+   [
+    "Version expérimentale, prolongée plusieurs fois, puis arrivée à échéance.",
+    "Version inscrite durablement dans le code du travail.",
+    "Employeurs, demandeurs d'emploi"
+   ],
+   [
+    "Contrat classique : formation vers un diplôme ou un titre reconnu.",
+    "Possibilité de formation vers des compétences définies avec l'employeur.",
+    "Salariés en alternance"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Didier Le Gac (Ensemble pour la République)",
+    "arg": "Le bilan de l'expérimentation est « encourageant » : le contrat répond aux métiers en tension, pour lesquels les certifications ne reflètent pas toujours la réalité des recrutements.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2812.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Hadrien Clouet (La France insoumise)",
+    "arg": "« Les compétences enferment ; les qualifications émancipent » : sans diplôme reconnu, le salarié est moins bien classé et moins bien payé.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2812.html"
+   }
+  ]
+ },
+ "resume": [
+  "Le contrat de professionnalisation, créé par la loi du 4 mai 2004, est un contrat de travail en alternance ouvert aux jeunes, aux demandeurs d'emploi et à certains allocataires de minima sociaux.",
+  "La loi du 5 septembre 2018 a créé une version expérimentale : l'employeur et l'opérateur de compétences définissent ensemble les compétences à acquérir, sans passer par une certification existante.",
+  "Entre 2018 et 2023, 35 356 contrats expérimentaux ont été conclus avec près de 8 400 entreprises, soit environ 4 % des contrats de professionnalisation.",
+  "L'expérimentation étant arrivée à échéance, la loi la pérennise.",
+  "Venue du Sénat, la proposition a été adoptée sans modification par l'Assemblée le 28 mai 2026."
+ ],
+ "pourquoi": [
+  "Selon les partisans du texte, des entreprises qui ne trouvent pas les profils recherchés sont prêtes à former, à condition que la formation corresponde à leurs besoins réels.",
+  "La fin de l'expérimentation créait un vide juridique que la loi vient combler."
+ ],
+ "change": [
+  [
+   "Contrat expérimental à durée limitée.",
+   "Contrat permanent, inscrit dans le code du travail.",
+   "Employeurs, alternants",
+   "Depuis la promulgation"
+  ],
+  [
+   "—",
+   "Rémunération de 55 % du Smic à 1 Smic selon l'âge et le niveau, comme le contrat de professionnalisation classique.",
+   "Alternants",
+   "Inchangé"
+  ]
+ ],
+ "pasfait": [
+  "Elle ne remplace pas le contrat de professionnalisation classique, qui continue de mener à des diplômes et titres.",
+  "Elle ne change pas la rémunération des alternants : les amendements pour la relever ont été rejetés."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Didier Le Gac (Ensemble pour la République)",
+    "arg": "Le dispositif est « complémentaire et non concurrent » des parcours classiques et répond à des besoins spécifiques.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2812.html"
+   },
+   {
+    "qui": "Nicolas Turquois (Démocrates)",
+    "arg": "Pour les personnes très éloignées de l'emploi, une formation de base, même limitée, est déjà une première étape.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2812.html"
+   },
+   {
+    "qui": "Sylvie Bonnet (Droite républicaine)",
+    "arg": "Un « choix politique clair en faveur de l'emploi, de la montée en compétences ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2812.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Hadrien Clouet (La France insoumise)",
+    "arg": "Le texte remplace la qualification par des « blocs de compétences » qui varient d'une entreprise à l'autre et ne sont pas reconnus partout.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2812.html"
+   },
+   {
+    "qui": "Sébastien Peytavie (écologiste)",
+    "arg": "Ce contrat mène « vers une main-d'œuvre monovalente » : on apprend « un quart voire un dixième du métier ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2812.html"
+   },
+   {
+    "qui": "Yannick Monnet (GDR)",
+    "arg": "Il critique un texte qui ressemble à « un projet de loi déguisé », venu d'un groupe sénatorial proche du Gouvernement.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2812.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Les chiffres",
+   "texte": "81 800 contrats de professionnalisation ont débuté en 2025 ; 35 356 contrats expérimentaux ont été signés de 2018 à 2023 avec près de 8 400 entreprises (débats en commission)."
+  },
+  {
+   "titre": "Les votes",
+   "texte": "Sénat : 3 juillet 2025. Assemblée : 68 pour, 28 contre (article unique, scrutin n° 7036) puis 64 pour, 30 contre, 4 abstentions sur l'ensemble (28 mai 2026, scrutin n° 7039)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Stéphane Viry, commission des affaires sociales (n° 2812)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2812.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51791"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl24-475.html"
+  },
+  {
+   "titre": "Scrutin n° 7039 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/7039"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

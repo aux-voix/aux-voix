@@ -1,0 +1,169 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53067",
+ "titre_officiel": "Proposition de loi visant à reconnaître une politique nationale d’adaptation au changement climatique et à adapter les mécanismes d’assurance",
+ "phrase": "Le plan d'adaptation au réchauffement entrerait dans la loi, et après une catastrophe naturelle, l'assurance financerait une reconstruction plus solide plutôt qu'à l'identique.",
+ "note": "Adopté par l'Assemblée le 8 avril 2026, puis modifié par le Sénat le 19 octobre 2026 : le texte revient à l'Assemblée.",
+ "essentiel": {
+  "points": [
+   "La France retient l'hypothèse d'un réchauffement de 4 °C d'ici 2100 : sécheresses, inondations et fissures des maisons coûtent de plus en plus cher.",
+   "Le texte inscrit dans la loi le plan d'adaptation et cette trajectoire de réchauffement, dont les futurs plans d'urbanisme devront tenir compte.",
+   "Après une catastrophe naturelle, l'assureur pourrait payer plus pour réparer en rendant le bâtiment plus résistant."
+  ],
+  "pour": "La gauche, la majorité et le centre : il faut préparer le pays et cesser de reconstruire à l'identique dans les zones à risque.",
+  "contre": "Le RN et la droite se sont abstenus. Le RN refuse des surprimes d'assurance plus élevées pour les résidences secondaires en zone exposée."
+ },
+ "court": {
+  "resume": [
+   "Le régime « CatNat » indemnise les victimes de catastrophes naturelles grâce à une surprime payée sur chaque contrat d'assurance ; il est sous tension.",
+   "Une mission parlementaire a fait en 2025 des propositions pour adapter le pays au réchauffement ; ce texte de Fabrice Barusseau (socialiste) en reprend une partie.",
+   "Il vise à reconstruire mieux après un sinistre et à rendre le régime CatNat plus solide."
+  ],
+  "change": [
+   [
+    "Le plan national d'adaptation n'a pas de base dans la loi.",
+    "Plan révisé tous les 5 ans ; trajectoire de réchauffement de référence prise en compte dans les plans d'urbanisme.",
+    "État, communes"
+   ],
+   [
+    "L'indemnité ne peut dépasser la valeur du bien ou la réparation à l'identique.",
+    "Elle peut la dépasser pour des travaux qui réduisent la vulnérabilité ; refuser ces travaux augmente la franchise.",
+    "Assurés sinistrés"
+   ],
+   [
+    "Surprime CatNat identique partout.",
+    "Réexamen tous les 5 ans ; surprime plus élevée possible pour résidences secondaires et gros biens professionnels en zone à risque.",
+    "Assurés"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Mickaël Cosson (Démocrates)",
+    "arg": "Le cœur du texte est de « mettre fin aux reconstructions à l'identique », face à une « urgence financière et humaine immédiate ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2193.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Emmanuel Blairy (RN)",
+    "arg": "« Si vous avez le malheur de vivre au mauvais endroit, vous paierez plus cher » : le régime CatNat est universel, il ne faut pas le détricoter.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2193.html"
+   }
+  ]
+ },
+ "resume": [
+  "Le plan national d'adaptation au changement climatique entre dans le code de l'environnement : il est révisé tous les cinq ans, après avis publics du Conseil national de la transition écologique et du Haut Conseil pour le climat.",
+  "La trajectoire de réchauffement de référence, qui projette le climat français au moins jusqu'en 2100, est fixée par arrêté ; les plans locaux d'urbanisme élaborés ou révisés ensuite devront en tenir compte.",
+  "Après une catastrophe naturelle reconnue, les biens indemnisés ne peuvent être réparés ou reconstruits que de manière « résiliente », dans la limite de l'indemnité ; l'assureur peut payer au-delà de la valeur du bien pour ces travaux.",
+  "Un rapport d'expertise fixe les travaux ; si l'assuré les refuse, sa franchise augmente pour ce sinistre et les suivants, même s'il change d'assureur.",
+  "La surprime CatNat est réexaminée tous les cinq ans ; les assureurs peuvent la relever, sous plafond, pour les résidences secondaires et les biens professionnels de plus de 20 millions d'euros en zone exposée."
+ ],
+ "pourquoi": [
+  "Selon le rapport, la France doit se préparer à +4 °C en 2100 dans le scénario retenu pour l'adaptation, contre +2,9 °C au niveau mondial.",
+  "Les événements climatiques auraient coûté 5 milliards d'euros aux assureurs en 2024, selon une étude d'UFC-Que Choisir citée par Chantal Jourdan (socialiste)."
+ ],
+ "change": [
+  [
+   "—",
+   "Plan d'adaptation et trajectoire de réchauffement inscrits dans la loi.",
+   "État, collectivités",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "Réparation à l'identique dans les faits.",
+   "Réparation résiliente obligatoire, financée par l'assurance.",
+   "Assurés sinistrés",
+   "Six mois après la promulgation"
+  ],
+  [
+   "Surprime fixée sans calendrier.",
+   "Réexamen tous les cinq ans, modulation possible pour certains biens.",
+   "Assurés",
+   "Si le texte est adopté définitivement"
+  ]
+ ],
+ "pasfait": [
+  "Il ne prévoit pas de financement nouveau pour l'adaptation, regrette LFI.",
+  "Il ne s'applique pas aux plans d'urbanisme dont l'élaboration ou la révision était déjà lancée.",
+  "Il n'est pas définitif : le Sénat l'a modifié, l'Assemblée doit le réexaminer."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Sandrine Le Feur (Ensemble pour la République)",
+    "arg": "« L'adaptation au changement climatique n'est pas une option, mais une responsabilité régalienne. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2193.html"
+   },
+   {
+    "qui": "Nicolas Bonnet (écologiste)",
+    "arg": "Inscrire la trajectoire dans le droit la rend opposable : elle sera prise en compte dans les documents d'urbanisme.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2193.html"
+   },
+   {
+    "qui": "Mickaël Cosson (Démocrates)",
+    "arg": "Les coûts pourraient doubler d'ici 2050 et menacent la pérennité du régime CatNat.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2193.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Emmanuel Blairy (RN)",
+    "arg": "La hausse de surprime pénaliserait la classe moyenne, notamment militaires ou fonctionnaires mutés qui gardent une résidence secondaire « par contrainte ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2193.html"
+   },
+   {
+    "qui": "Sylvie Ferrer (La France insoumise)",
+    "arg": "Le texte repose sur « la responsabilisation individuelle et la modulation des primes, donc sur les assurés », au risque d'accentuer les inégalités.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2193.html"
+   },
+   {
+    "qui": "Vincent Descoeur (Droite républicaine)",
+    "arg": "Il faudrait mieux mesurer les conséquences pour les collectivités, pour « ne pas opposer adaptation au changement climatique et développement local ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2193.html"
+   },
+   {
+    "qui": "Commission des finances du Sénat",
+    "arg": "La surprime ciblée comporte « un double risque de désertification des zones les plus exposées et de recul de la couverture assurantielle ».",
+    "source": "https://www.senat.fr/rap/l26-061/l26-0611.pdf"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée : 70 pour, 0 contre, 27 abstentions (RN, Droite républicaine, UDR), 8 avril 2026, scrutin n° 6069."
+  },
+  {
+   "titre": "Au Sénat",
+   "texte": "La commission des finances du Sénat a jugé la réparation résiliente « équilibrée », mais proposé de remplacer la surprime ciblée par un taux différent pour particuliers et professionnels, et de rendre la revalorisation automatique. Le Sénat a adopté le texte modifié le 19 octobre 2026."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Fabrice Barusseau, Assemblée nationale (n° 2193)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2193.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 266)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0266.raw"
+  },
+  {
+   "titre": "Rapport de Christine Lavarde, Sénat (n° 61)",
+   "url": "https://www.senat.fr/rap/l26-061/l26-0611.pdf"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53067"
+  },
+  {
+   "titre": "Scrutin n° 6069 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/6069"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

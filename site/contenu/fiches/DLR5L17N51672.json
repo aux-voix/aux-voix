@@ -1,0 +1,165 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51672",
+ "titre_officiel": "Proposition de loi visant à garantir l’égal accès de tous à l’accompagnement et aux soins palliatifs",
+ "phrase": "La loi inscrit le droit aux soins palliatifs, prévoit des moyens sur dix ans, au moins deux unités spécialisées par région d'ici 2030 et des maisons d'accompagnement.",
+ "note": "Loi n° 2026-404 du 26 mai 2026. Elle a été examinée en parallèle de la loi sur l'aide à mourir, qui fait l'objet d'une fiche séparée.",
+ "essentiel": {
+  "points": [
+   "Les soins palliatifs soulagent la douleur et accompagnent les personnes gravement malades et leurs proches.",
+   "Selon la Cour des comptes (2023), seuls 48 % des besoins étaient couverts.",
+   "La loi fixe une stratégie nationale avec des moyens chiffrés chaque année jusqu'en 2034, et au moins deux unités de soins palliatifs par région d'ici fin 2030.",
+   "Chaque patient grave pourra se voir proposer un « plan personnalisé d'accompagnement »."
+  ],
+  "pour": "Tous les groupes : « on meurt mal en France », il faut développer ces soins partout.",
+  "contre": "Personne n'a voté contre à l'Assemblée. La gauche voulait un droit « opposable », c'est-à-dire réclamable en justice, refusé."
+ },
+ "court": {
+  "resume": [
+   "Les soins palliatifs prennent en charge la douleur et l'accompagnement des personnes atteintes de maladies graves ; ils restent très inégalement répartis sur le territoire.",
+   "La loi définit ces soins, organise leur maillage territorial, inscrit une stratégie nationale financée et crée des outils comme le plan personnalisé d'accompagnement.",
+   "Le texte a été adopté sans voix contre à l'Assemblée ; la principale division a porté sur un droit « opposable » aux soins palliatifs, finalement écarté."
+  ],
+  "change": [
+   [
+    "Stratégie décennale annoncée en 2024, sans base légale.",
+    "Stratégie nationale inscrite dans la loi, avec un tableau de moyens nouveaux de 2026 à 2034.",
+    "Patients, hôpitaux"
+   ],
+   [
+    "Certains départements sans unité de soins palliatifs.",
+    "Objectif d'au moins deux unités par région avant fin 2030, et création de maisons d'accompagnement.",
+    "Patients et familles"
+   ],
+   [
+    "—",
+    "Plan personnalisé d'accompagnement proposé dès l'annonce d'une maladie grave.",
+    "Patients"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Annie Vidal (Ensemble pour la République), rapporteure",
+    "arg": "Un droit opposable serait un droit « dont on sait qu'il ne sera pas effectif » : il vaut mieux garantir les soins et organiser l'offre.",
+    "source": "https://lcp.fr/actualites/fin-de-vie-les-deputes-ont-termine-la-deuxieme-lecture-de-la-proposition-de-loi-sur-les"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Hadrien Clouet (La France insoumise)",
+    "arg": "« Depuis la Révolution française, proclamer un droit précède sa concrétisation matérielle » : il fallait rendre ce droit opposable.",
+    "source": "https://lcp.fr/actualites/fin-de-vie-les-deputes-ont-termine-la-deuxieme-lecture-de-la-proposition-de-loi-sur-les"
+   }
+  ]
+ },
+ "resume": [
+  "La loi redéfinit l'accompagnement et les soins palliatifs dans le code de la santé publique : destinés aux personnes de tout âge, ils mettent en œuvre le droit fondamental à la protection de la santé.",
+  "Elle crée une stratégie nationale pluriannuelle avec des moyens nouveaux chiffrés : par exemple 194 millions d'euros en 2026 et 222 millions en 2034.",
+  "Elle vise au moins deux unités de soins palliatifs par région avant le 31 décembre 2030, y compris pédiatriques, et finance la création de maisons d'accompagnement et de soins palliatifs.",
+  "Elle prévoit un plan personnalisé d'accompagnement, élaboré avec le patient, et renforce le rôle des bénévoles et des médecins traitants.",
+  "Elle demande un rapport sur une réforme du congé de solidarité familiale pour mieux indemniser les proches aidants."
+ ],
+ "pourquoi": [
+  "Selon un rapport de la Cour des comptes de juillet 2023 cité par LCP, seulement 48 % des besoins en soins palliatifs étaient couverts.",
+  "La loi donne un cadre à la stratégie décennale annoncée en avril 2024, dotée de 1,1 milliard d'euros supplémentaires sur dix ans."
+ ],
+ "change": [
+  [
+   "Pas de programmation légale.",
+   "Stratégie nationale et moyens nouveaux inscrits pour chaque année de 2026 à 2034.",
+   "Système de santé",
+   "Depuis la promulgation"
+  ],
+  [
+   "Unités inégalement réparties.",
+   "Objectif de deux unités par région avant fin 2030.",
+   "Patients",
+   "D'ici 2030"
+  ],
+  [
+   "—",
+   "Maisons d'accompagnement et de soins palliatifs, entre domicile et hôpital.",
+   "Patients en fin de vie",
+   "Selon les financements"
+  ],
+  [
+   "—",
+   "Rapport sous six mois sur le congé de solidarité familiale.",
+   "Proches aidants",
+   "Six mois après la promulgation"
+  ]
+ ],
+ "pasfait": [
+  "Elle ne crée pas de droit « opposable » : un patient ne peut pas saisir un juge pour obtenir une place.",
+  "Elle ne traite pas de l'aide à mourir, qui relève d'une autre loi."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Stéphanie Rist, ministre de la Santé",
+    "arg": "Un droit opposable aurait produit « plus de contentieux que d'offre de soins ».",
+    "source": "https://lcp.fr/actualites/fin-de-vie-les-deputes-ont-termine-la-deuxieme-lecture-de-la-proposition-de-loi-sur-les"
+   },
+   {
+    "qui": "Sandrine Dogor-Such (RN)",
+    "arg": "« Un droit opposable ne crée ni de lits, ni d'équipes, ni de formation, il transforme une pénurie en contentieux. »",
+    "source": "https://lcp.fr/actualites/fin-de-vie-les-deputes-ont-termine-la-deuxieme-lecture-de-la-proposition-de-loi-sur-les"
+   },
+   {
+    "qui": "Annie Vidal et François Gernigon, rapporteurs",
+    "arg": "Les soins palliatifs sont « avant tout, une promesse de non-abandon ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2457.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Hadrien Clouet (La France insoumise), dont le groupe s'est abstenu en deuxième lecture",
+    "arg": "Un droit opposable existe pour la scolarité et « marche très bien » ; le refuser affaiblit la promesse du texte.",
+    "source": "https://lcp.fr/actualites/fin-de-vie-les-deputes-ont-termine-la-deuxieme-lecture-de-la-proposition-de-loi-sur-les"
+   },
+   {
+    "qui": "Sandrine Rousseau (écologiste)",
+    "arg": "Elle a dénoncé « l'hypocrisie politique » d'opposants à l'aide à mourir qui lieraient leur vote à un droit opposable préalable aux soins palliatifs.",
+    "source": "https://lcp.fr/actualites/fin-de-vie-les-deputes-ont-termine-la-deuxieme-lecture-de-la-proposition-de-loi-sur-les"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Les votes",
+   "texte": "Assemblée, première lecture : 560 pour, 0 contre (27 mai 2025, scrutin n° 2106). Deuxième lecture : 491 pour, 0 contre, 69 abstentions, surtout LFI (25 février 2026, scrutin n° 5728). Sénat : adoption définitive le 11 mai 2026 (325 pour, 18 contre, selon Le Quotidien du médecin)."
+  },
+  {
+   "titre": "Une phrase retirée",
+   "texte": "Les députés ont supprimé en deuxième lecture la mention ajoutée par le Sénat selon laquelle ces soins ne visent « ni à hâter, ni à différer » la mort, selon LCP."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Loi n° 2026-404 du 26 mai 2026 (texte publié au Journal officiel)",
+   "url": "https://affairesjuridiques.aphp.fr/textes/loi-n-2026-404-du-26-mai-2026-visant-a-garantir-legal-acces-de-tous-a-laccompagnement-et-aux-soins-palliatifs-1/"
+  },
+  {
+   "titre": "LCP : fin de la deuxième lecture à l'Assemblée, 18 février 2026",
+   "url": "https://lcp.fr/actualites/fin-de-vie-les-deputes-ont-termine-la-deuxieme-lecture-de-la-proposition-de-loi-sur-les"
+  },
+  {
+   "titre": "Rapport d'Annie Vidal et François Gernigon, deuxième lecture (n° 2457)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2457.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51672"
+  },
+  {
+   "titre": "Scrutin n° 5728 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/5728"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

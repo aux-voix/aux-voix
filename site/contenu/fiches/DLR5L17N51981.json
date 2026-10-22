@@ -1,0 +1,143 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51981",
+ "titre_officiel": "Proposition de loi visant à renforcer la solidarité envers les retraités pauvres",
+ "phrase": "Les retraités qui touchent le minimum vieillesse pourraient choisir que leurs héritiers n'aient rien à rembourser, en échange d'une aide un peu plus basse. Le Sénat doit encore voter.",
+ "note": "Texte adopté par l'Assemblée en première lecture le 11 juin 2026, sans voix contre. Le Sénat doit encore l'examiner.",
+ "essentiel": {
+  "points": [
+   "L'Aspa, ou minimum vieillesse, complète les petites retraites ; elle peut être reprise sur l'héritage au-delà d'environ 100 000 €.",
+   "Par peur de cette reprise, la moitié des personnes qui y ont droit ne la demandent pas.",
+   "Le texte supprimerait la reprise sur l'héritage pour les propriétaires, contre une baisse d'environ 40 € par mois de l'aide.",
+   "Les bénéficiaires actuels pourraient choisir entre l'ancien et le nouveau système."
+  ],
+  "pour": "Tous les groupes : beaucoup de retraités pauvres renoncent à l'aide pour ne pas « laisser des dettes » à leurs enfants.",
+  "contre": "Personne n'a voté contre. Le Gouvernement a refusé une suppression totale pour des raisons de coût, d'où un compromis."
+ },
+ "court": {
+  "resume": [
+   "L'allocation de solidarité aux personnes âgées (Aspa) complète les revenus des retraités modestes ; à leur décès, les sommes versées peuvent être réclamées aux héritiers si la succession dépasse environ 100 000 € (150 000 € outre-mer).",
+   "Selon la Cnav, cette « récupération sur succession » explique 67 % des renoncements à l'aide.",
+   "Le compromis adopté avec le Gouvernement supprime cette récupération pour les bénéficiaires propriétaires ou logés gratuitement, contre un « forfait logement » retiré de l'aide."
+  ],
+  "change": [
+   [
+    "Sommes versées récupérables sur la succession au-delà d'un seuil.",
+    "Plus de récupération pour les bénéficiaires du nouveau système.",
+    "Héritiers des bénéficiaires"
+   ],
+   [
+    "Montant de l'aide sans forfait logement.",
+    "Aide abaissée d'environ 40 € par mois pour une personne seule propriétaire ou logée gratuitement.",
+    "Bénéficiaires concernés"
+   ],
+   [
+    "—",
+    "Les bénéficiaires actuels choisissent l'ancien ou le nouveau système.",
+    "Bénéficiaires actuels"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Émeline K/Bidi (GDR), autrice et rapporteure",
+    "arg": "« C'est une drôle de conception de la solidarité de demander un remboursement à ceux qui sont le plus dans le besoin. »",
+    "source": "https://lcp.fr/actualites/retraites-pauvres-les-deputes-adoptent-un-texte-pour-favoriser-le-recours-aux-aides"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "L'Aspa est une allocation différentielle versée à partir de 65 ans : elle complète les ressources jusqu'à environ 1 034 € par mois pour une personne seule ; la somme versée est en moyenne de 500 €.",
+  "Au décès, les caisses peuvent récupérer les sommes versées sur la succession au-delà d'un peu plus de 100 000 € dans l'Hexagone et 150 000 € outre-mer.",
+  "Selon la rapporteure, plus de 300 000 personnes âgées très précaires ne demandent pas l'Aspa, surtout à cause de ce mécanisme.",
+  "Le texte initial excluait la résidence principale de la récupération ; la commission l'avait supprimée totalement ; le compromis final remplace la récupération par un « forfait logement » d'environ 40 € par mois.",
+  "Selon le ministre du Travail, le nouveau système, au coût « neutre pour le contribuable », entrerait en vigueur neuf mois après l'adoption définitive."
+ ],
+ "pourquoi": [
+  "Selon les enquêtes de la Cnav citées par la rapporteure, la récupération sur succession est le principal motif de non-recours (67 %), loin devant le refus de demander un minimum social.",
+  "Les prix des logements anciens ont augmenté de près de 165 % entre 2000 et 2024 : des retraités modestes dépassent le seuil avec un seul logement."
+ ],
+ "change": [
+  [
+   "Récupération sur succession au-delà de ~100 000 € (150 000 € outre-mer).",
+   "Suppression pour les bénéficiaires du nouveau système, y compris pour les sommes déjà perçues, selon la rapporteure.",
+   "Héritiers",
+   "9 mois après l'adoption définitive, selon le ministre"
+  ],
+  [
+   "—",
+   "« Forfait logement » déduit de l'aide pour les propriétaires et personnes logées gratuitement (environ 40 € pour une personne seule).",
+   "Bénéficiaires concernés",
+   "Idem"
+  ],
+  [
+   "—",
+   "Droit d'option pour les bénéficiaires actuels.",
+   "Bénéficiaires actuels",
+   "Idem"
+  ]
+ ],
+ "pasfait": [
+  "Il ne relève pas le montant de l'Aspa.",
+  "Il n'est pas en vigueur : le Sénat doit l'examiner."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Émeline K/Bidi (GDR), autrice",
+    "arg": "Le dispositif oblige à choisir « entre vivre dignement et laisser des dettes à leurs enfants » ou renoncer à l'aide.",
+    "source": "https://lcp.fr/actualites/retraites-pauvres-les-deputes-adoptent-un-texte-pour-favoriser-le-recours-aux-aides"
+   },
+   {
+    "qui": "Frédéric Maillot (GDR)",
+    "arg": "« Les Réunionnais qui peuvent prétendre à cette allocation ont tranché, ils préfèrent garder leur maison. »",
+    "source": "https://lcp.fr/actualites/retraites-pauvres-les-deputes-adoptent-un-texte-pour-favoriser-le-recours-aux-aides"
+   },
+   {
+    "qui": "Serge Muller (RN), en commission",
+    "arg": "Le texte répond à « une injustice silencieuse » envers des retraités modestes dont l'État ponctionne le patrimoine familial.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1478.html"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucun député n'a voté contre (165 pour, 3 abstentions Horizons). Le désaccord a porté sur l'ampleur : le Gouvernement a refusé une suppression totale de la récupération, « notamment pour des raisons financières », selon LCP ; Michel Lauzzana (EPR) proposait de confier la récupération à l'administration fiscale."
+ },
+ "details": [
+  {
+   "titre": "Ce que rapporte la récupération",
+   "texte": "Selon la rapporteure, le remboursement de l'Aspa rapporte environ 100 millions d'euros par an, soit 0,02 % des dépenses de la branche vieillesse."
+  },
+  {
+   "titre": "Les seuils",
+   "texte": "Relevés par la réforme des retraites de 2023 à 100 000 € dans l'Hexagone et 150 000 € outre-mer (contre 39 000 € auparavant dans l'Hexagone), puis indexés sur l'inflation."
+  },
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée : 165 pour, 0 contre, 3 abstentions (11 juin 2026, scrutin n° 7354)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "LCP : retraités pauvres, les députés adoptent un texte, 11 juin 2026",
+   "url": "https://lcp.fr/actualites/retraites-pauvres-les-deputes-adoptent-un-texte-pour-favoriser-le-recours-aux-aides"
+  },
+  {
+   "titre": "Rapport d'Émeline K/Bidi, Assemblée nationale (n° 1478)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1478.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51981"
+  },
+  {
+   "titre": "Scrutin n° 7354 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/7354"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

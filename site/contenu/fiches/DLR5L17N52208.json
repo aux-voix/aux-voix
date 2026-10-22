@@ -1,0 +1,124 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N52208",
+ "titre_officiel": "Proposition de loi visant à accélérer le développement du transport maritime à propulsion vélique",
+ "phrase": "Les navires qui utilisent le vent pour avancer seraient définis par la loi et favorisés, notamment dans les achats publics de transport maritime. Le Sénat doit encore voter.",
+ "note": "Texte adopté à l'unanimité par l'Assemblée en première lecture le 12 mai 2026. Le Sénat doit encore l'examiner.",
+ "essentiel": {
+  "points": [
+   "Le transport maritime émet environ 3 % des gaz à effet de serre mondiaux, autant que l'aviation.",
+   "La propulsion « vélique » utilise directement le vent : voiles, ailes rigides, cerfs-volants…",
+   "Le texte définit ces navires (au moins 5 % de propulsion par le vent pour un usage d'appoint, 50 % pour un usage principal).",
+   "À partir de 2027, les achats publics de transport maritime devraient tenir compte de cette option et de l'impact environnemental des navires."
+  ],
+  "pour": "Tous les groupes : décarboner le transport maritime et soutenir une filière industrielle française.",
+  "contre": "Personne n'a voté contre. Le RN a jugé le sujet secondaire face au prix des carburants, tout en votant le texte."
+ },
+ "court": {
+  "resume": [
+   "Pour atteindre la neutralité carbone du transport maritime en 2050, objectif fixé par l'Organisation maritime internationale, il faut de nouvelles façons de propulser les navires.",
+   "La France a une filière d'entreprises spécialisées dans la propulsion par le vent ; le texte veut la reconnaître et la soutenir.",
+   "Il définit les navires véliques, les avantage dans la commande publique et leur ouvre des aides fiscales et sociales."
+  ],
+  "change": [
+   [
+    "Pas de définition légale.",
+    "Navire à propulsion vélique « auxiliaire » (au moins 5 % par le vent) ou « principale » (au moins 50 %).",
+    "Armateurs, chantiers"
+   ],
+   [
+    "Achats publics de transport maritime sans critère vélique.",
+    "Prise en compte du cycle de vie des navires et de la propulsion par le vent, à partir de 2027.",
+    "Acheteurs publics"
+   ],
+   [
+    "Aides fiscales et sociales réservées à d'autres navires.",
+    "Exonération de cotisations sociales, suramortissement fiscal et fonds de décarbonation ouverts aux navires véliques.",
+    "Armateurs"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Fabrice Roussel (socialiste)",
+    "arg": "Une « avancée importante pour la décarbonation du transport maritime et pour le développement d'une filière française d'excellence ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2615.html"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "Selon le rapport, le transport maritime représente 3 % des émissions mondiales de gaz à effet de serre, et ses émissions pourraient croître de 50 % d'ici 2050 sans mesures fortes.",
+  "Le texte, transpartisan, inscrit dans le code des transports la définition des navires à propulsion vélique, auxiliaire (au moins 5 %) ou principale (au moins 50 %).",
+  "À partir du 1er janvier 2027, les marchés publics d'achat ou d'affrètement de navires et de transport maritime tiendraient compte de leurs incidences environnementales sur tout leur cycle de vie et, quand c'est possible, de la propulsion par le vent.",
+  "Il étend aux navires véliques une exonération de cotisations sociales pour les armateurs, un suramortissement fiscal, une expérimentation de certificats d'économies d'énergie et un fonds pour la décarbonation du transport maritime.",
+  "Porté par Agnès Firmin Le Bodo (Horizons), il a été adopté sans voix contre et transmis au Sénat."
+ ],
+ "pourquoi": [
+  "Selon l'exposé des motifs, la propulsion vélique est « une alternative immédiatement disponible », portée par une filière industrielle française.",
+  "Le rapport y voit un double enjeu : décarboner le transport maritime et renforcer la souveraineté industrielle."
+ ],
+ "change": [
+  [
+   "—",
+   "Définition légale des navires véliques.",
+   "Armateurs",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "—",
+   "Critère environnemental et vélique dans la commande publique de transport maritime.",
+   "Acheteurs publics",
+   "1er janvier 2027"
+  ]
+ ],
+ "pasfait": [
+  "Il n'impose pas la voile aux navires privés ; les avantages prévus au départ pour le rhum transporté à la voile ont été supprimés.",
+  "Il n'est pas en vigueur : le Sénat doit l'examiner."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Agnès Firmin Le Bodo (Horizons), autrice et rapporteure",
+    "arg": "La filière vélique est un enjeu « à la fois de décarbonation du transport maritime et de souveraineté ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2615.html"
+   },
+   {
+    "qui": "Matthias Tavel (La France insoumise)",
+    "arg": "« Décarboner le transport maritime est une exigence scientifique, vitale. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2615.html"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucun député n'a voté contre (175 voix pour). Timothée Houssin (RN) a critiqué l'ordre des priorités, alors que le prix des carburants pèse sur les Français, avant que son groupe vote le texte."
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée : 175 pour, 0 contre (12 mai 2026, scrutin n° 6541)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport d'Agnès Firmin Le Bodo, Assemblée nationale (n° 2615)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2615.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée nationale (n° 283)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0283.raw"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N52208"
+  },
+  {
+   "titre": "Scrutin n° 6541 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/6541"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

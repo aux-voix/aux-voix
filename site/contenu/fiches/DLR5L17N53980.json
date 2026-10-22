@@ -1,0 +1,146 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53980",
+ "titre_officiel": "Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens",
+ "phrase": "La loi « Ripost » punit plus durement les rodéos, l'usage du protoxyde d'azote, les mortiers d'artifice et les rave-parties illégales.",
+ "note": "Loi n° 2026-798 du 18 août 2026, publiée après une censure partielle du Conseil constitutionnel.",
+ "essentiel": {
+  "points": [
+   "Inhaler du protoxyde d'azote (« gaz hilarant ») devient un délit.",
+   "Participer à une rave-party illégale de plus de 250 personnes est puni d'amende, voire de prison.",
+   "Organiser un rodéo motorisé : jusqu'à 3 ans de prison et 75 000 € d'amende.",
+   "Le préfet peut obliger une personne à se défaire de mortiers d'artifice dangereux."
+  ],
+  "pour": "Le Gouvernement : donner des « réponses immédiates » à des troubles du quotidien que les lois précédentes n'ont pas suffi à faire reculer.",
+  "contre": "Les députés de gauche qui ont saisi le Conseil : des délits trop flous, qui pourraient viser de simples actes sans lien avec le trouble."
+ },
+ "court": {
+  "resume": [
+   "Cette loi du Gouvernement vise des formes de délinquance du quotidien : mortiers d'artifice contre les forces de l'ordre, protoxyde d'azote, rave-parties illégales, rodéos motorisés.",
+   "Adoptée définitivement le 21 juillet 2026, elle a été contestée par la gauche devant le Conseil constitutionnel, qui a censuré douze dispositions.",
+   "Les mesures principales sont restées ; la loi a été publiée le 19 août 2026."
+  ],
+  "change": [
+   [
+    "Inhaler du protoxyde d'azote n'est pas un délit.",
+    "Délit puni d'1 an de prison et 3 750 € d'amende (amende forfaitaire de 200 €).",
+    "Les consommateurs"
+   ],
+   [
+    "—",
+    "Participer à une rave illégale de plus de 250 personnes : 6 mois de prison et 7 500 € (ou amende forfaitaire de 500 €).",
+    "Les participants"
+   ],
+   [
+    "—",
+    "Organiser un rodéo : 3 ans de prison et 75 000 € ; y participer : 5 000 € (amende forfaitaire de 300 €).",
+    "Les organisateurs et participants"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Le Gouvernement",
+    "arg": "La loi vise des formes de délinquance « qui se sont répandues ces dernières années ou que de précédentes lois ne sont pas parvenues à endiguer », selon la Banque des territoires.",
+    "source": "https://www.banquedesterritoires.fr/rodeos-mortiers-protoxyde-dazote-rave-parties-la-loi-ripost-entre-en-vigueur"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Les députés socialistes, LFI, écologistes et GDR, auteurs de recours",
+    "arg": "Les nouveaux délits seraient imprécis : réprimer une rave « susceptible de réunir plus de 250 personnes » sans dire comment l'évaluer, ou toute contribution « même indirecte », méconnaîtrait le principe de légalité des peines.",
+    "source": "https://www.conseil-constitutionnel.fr/decision/2026/2026915DC.htm"
+   }
+  ]
+ },
+ "resume": [
+  "La loi dite « Ripost » rassemble de nombreuses mesures contre des troubles à l'ordre public du quotidien.",
+  "Elle crée quatre délits liés au protoxyde d'azote, dont l'inhalation, et permet de fermer les lieux qui en vendent.",
+  "Elle oblige les organisateurs de rave-parties de plus de 250 personnes à les déclarer, et sanctionne les participants aux rassemblements illégaux.",
+  "Elle alourdit les peines pour les rodéos motorisés et permet au préfet d'écarter pendant trois ans des manifestations sportives une personne qui y a commis des violences.",
+  "Le Conseil constitutionnel a censuré douze dispositions, dont cinq sans rapport avec le texte (« cavaliers législatifs »)."
+ ],
+ "pourquoi": [
+  "Selon la présentation de la Banque des territoires, la loi vise des formes de délinquance « qui se sont répandues ces dernières années ou que de précédentes lois ne sont pas parvenues à endiguer »."
+ ],
+ "change": [
+  [
+   "Port de mortiers d'artifice puni moins sévèrement.",
+   "Le préfet peut ordonner à une personne de se défaire d'articles pyrotechniques dangereux ; peines alourdies pour le port sans motif.",
+   "Détenteurs de mortiers",
+   "19 août 2026"
+  ],
+  [
+   "Rave-parties non déclarées.",
+   "Déclaration obligatoire au-delà de 250 personnes ; organisateurs : 2 ans de prison et 30 000 € ; participants : 6 mois et 7 500 € ou amende forfaitaire de 500 €.",
+   "Organisateurs et participants",
+   "19 août 2026"
+  ],
+  [
+   "—",
+   "Quatre délits, dont l'inhalation (1 an, 3 750 €, amende forfaitaire de 200 €) ; fermeture administrative des lieux de vente.",
+   "Consommateurs et vendeurs",
+   "19 août 2026"
+  ],
+  [
+   "Rodéos déjà punis par des lois de 2018 et 2022.",
+   "Organisation : 3 ans et 75 000 € ; participation : 5 000 € ou amende forfaitaire de 300 €.",
+   "Organisateurs et participants",
+   "19 août 2026"
+  ],
+  [
+   "Résiliation du bail social possible pour trafic de stupéfiants.",
+   "Possible pour « troubles graves et répétés à l'ordre public », à la demande du préfet.",
+   "Locataires de logements sociaux",
+   "19 août 2026"
+  ]
+ ],
+ "pasfait": [
+  "Elle ne permet pas au préfet de fermer pour six mois les commerces vendant des mortiers : cette mesure a été censurée."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Le Gouvernement",
+    "arg": "Apporter des réponses rapides à des phénomènes qui troublent la tranquillité des habitants et visent parfois les forces de l'ordre (mortiers, rodéos, protoxyde d'azote, rave-parties).",
+    "source": "https://www.banquedesterritoires.fr/rodeos-mortiers-protoxyde-dazote-rave-parties-la-loi-ripost-entre-en-vigueur"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Les députés socialistes, LFI, écologistes et GDR, auteurs de recours",
+    "arg": "Ils contestaient près de trente articles, notamment des délits jugés trop imprécis. Le Conseil constitutionnel a censuré douze dispositions mais validé l'essentiel de la loi.",
+    "source": "https://www.conseil-constitutionnel.fr/decision/2026/2026915DC.htm"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Les votes à l'Assemblée",
+   "texte": "15 juillet 2026 : 366 pour, 182 contre. Texte de compromis, 21 juillet 2026 : 351 pour, 179 contre, 7 abstentions (scrutin n° 8433). La gauche a voté contre."
+  },
+  {
+   "titre": "Après la censure",
+   "texte": "La loi publiée compte 69 articles (Banque des territoires)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Banque des territoires, « Rodéos, mortiers, protoxyde d'azote, rave parties… la loi Ripost est promulguée »",
+   "url": "https://www.banquedesterritoires.fr/rodeos-mortiers-protoxyde-dazote-rave-parties-la-loi-ripost-entre-en-vigueur"
+  },
+  {
+   "titre": "Conseil constitutionnel, décision n° 2026-915 DC du 14 août 2026",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026915DC.htm"
+  },
+  {
+   "titre": "Scrutin n° 8433 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8433"
+  }
+ ],
+ "auteur": "Rédaction Aux Voix",
+ "verif": "",
+ "version": {
+  "n": 1,
+  "date": "2026-10-20"
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53942",
+ "titre_officiel": "Projet de loi organique relatif au renforcement des juridictions criminelles",
+ "phrase": "Des avocats honoraires pourront durablement siéger comme juges assesseurs dans les cours criminelles départementales, ce qui n'était jusqu'ici qu'une expérimentation.",
+ "note": "Loi organique promulguée en juillet 2026, jugée conforme par le Conseil constitutionnel le 23 juillet.",
+ "essentiel": {
+  "points": [
+   "Les cours criminelles départementales jugent certains crimes sans jury populaire, avec des juges.",
+   "À titre d'essai, des avocats honoraires (retraités) pouvaient y siéger comme assesseurs.",
+   "Cette loi rend ce dispositif permanent, avec des règles d'indépendance et d'impartialité."
+  ],
+  "pour": "Le Gouvernement : renforcer les juridictions criminelles, engorgées par près de 6 000 affaires en attente.",
+  "contre": "La gauche a voté contre, comme pour la loi sur la justice criminelle qu'elle accompagne."
+ },
+ "court": {
+  "resume": [
+   "Une loi organique précise la Constitution sur un point particulier ; celle-ci concerne le statut des magistrats.",
+   "Elle accompagne la loi sur la justice criminelle et pérennise la possibilité, pour des avocats honoraires, de siéger comme assesseurs dans les cours criminelles départementales.",
+   "Le Conseil constitutionnel l'a jugée entièrement conforme."
+  ],
+  "change": [
+   [
+    "Avocats honoraires assesseurs à titre expérimental.",
+    "Statut permanent, avec obligations d'indépendance, d'impartialité et de secret.",
+    "Cours criminelles départementales"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Le Gouvernement et le Sénat",
+    "arg": "Développer le recours à des assesseurs qui ne sont pas magistrats de carrière, pour faire face à la « paralysie » des juridictions criminelles.",
+    "source": "https://www.senat.fr/lessentiel/pjl25-456.pdf"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Les groupes LFI, socialiste, écologiste et GDR",
+    "arg": "Ils ont voté contre, comme sur la loi ordinaire. Leurs raisons propres à ce texte ne figurent pas dans les sources consultées.",
+    "source": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8043"
+   }
+  ]
+ },
+ "resume": [
+  "Les cours criminelles départementales, créées en 2019, jugent sans jury populaire les crimes punis de 15 à 20 ans de prison.",
+  "Une expérimentation permettait à des avocats honoraires d'y siéger comme assesseurs, aux côtés de magistrats.",
+  "Cette loi organique rend ce statut permanent : ces avocats doivent exercer avec indépendance, impartialité et humanité, et respecter le secret des délibérations.",
+  "Leurs fonctions sont incompatibles avec certains mandats électifs."
+ ],
+ "pourquoi": [
+  "Selon le Sénat, développer le recours à des assesseurs non magistrats professionnels doit aider à juger plus vite les affaires criminelles en attente."
+ ],
+ "change": [
+  [
+   "Avocats honoraires assesseurs à titre expérimental.",
+   "Dispositif permanent, inscrit dans le statut de la magistrature.",
+   "Cours criminelles départementales",
+   "Après promulgation"
+  ]
+ ],
+ "pasfait": [
+  "Elle ne change pas la composition des cours d'assises, qui gardent leurs jurés populaires."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Le Gouvernement et le Sénat",
+    "arg": "Répondre à la « paralysie » de la justice criminelle en élargissant le vivier d'assesseurs.",
+    "source": "https://www.senat.fr/lessentiel/pjl25-456.pdf"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Les groupes LFI, socialiste, écologiste et GDR",
+    "arg": "Ils ont voté contre (156 voix contre au vote final). Leurs raisons propres à ce texte ne figurent pas dans les sources consultées.",
+    "source": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8043"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Les votes à l'Assemblée",
+   "texte": "363 pour, 177 contre (7 juillet 2026) ; 283 pour, 156 contre sur le texte de compromis (8 juillet, scrutin n° 8043)."
+  },
+  {
+   "titre": "Le Conseil constitutionnel",
+   "texte": "Décision n° 2026-908 DC du 23 juillet 2026 : loi organique conforme. Le Conseil l'examine obligatoirement, comme toute loi organique."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Conseil constitutionnel, décision n° 2026-908 DC du 23 juillet 2026",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026908DC.htm"
+  },
+  {
+   "titre": "Sénat, « L'essentiel » du rapport de la commission des lois, avril 2026",
+   "url": "https://www.senat.fr/lessentiel/pjl25-456.pdf"
+  },
+  {
+   "titre": "Scrutin n° 8043 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8043"
+  }
+ ],
+ "auteur": "Rédaction Aux Voix",
+ "verif": "",
+ "version": {
+  "n": 1,
+  "date": "2026-10-20"
+ }
+}

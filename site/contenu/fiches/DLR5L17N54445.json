@@ -1,0 +1,161 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N54445",
+ "titre_officiel": "Proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant",
+ "phrase": "Les titres-restaurant deviendraient 100 % dématérialisés en 2028, utilisables pour les courses alimentaires et le dimanche, mais plus sur les applis de livraison.",
+ "note": "Texte adopté par l'Assemblée en première lecture le 12 octobre 2026. Le Sénat doit encore l'examiner : il peut changer.",
+ "essentiel": {
+  "points": [
+   "À partir des titres de 2028 : uniquement sur carte ou application, plus de papier.",
+   "Ils paieraient un repas ou des courses alimentaires, tous les jours, dimanche compris, pendant trois ans.",
+   "Ils ne seraient plus acceptés par les plateformes de livraison comme Uber Eats.",
+   "Un décret pourrait plafonner les commissions prélevées sur les restaurateurs."
+  ],
+  "pour": "Christophe Naegelen (LIOT), auteur : il faut « pérenniser » l'usage pour les courses, vu son « engouement », et mieux protéger les restaurateurs.",
+  "contre": "Aucun député n'a voté contre (87 pour, 15 abstentions, surtout LFI) ; les raisons des abstentions ne figurent pas dans les sources consultées."
+ },
+ "court": {
+  "resume": [
+   "Le titre-restaurant est payé en partie par l'employeur pour le repas des salariés. Depuis 2022, il peut aussi servir à acheter des produits alimentaires, mais cette tolérance devait s'arrêter fin 2026.",
+   "Ce texte la rendrait définitive, ferait passer tous les titres au format numérique en 2028 et encadrerait les frais facturés aux restaurateurs par les sociétés émettrices.",
+   "Il a été adopté le 12 octobre 2026 sans voix contre ; le Sénat doit encore l'examiner."
+  ],
+  "change": [
+   [
+    "Titres papier ou carte.",
+    "Uniquement carte ou application (titres de 2028).",
+    "Les salariés qui en reçoivent"
+   ],
+   [
+    "Courses alimentaires autorisées à titre provisoire, jusqu'à fin 2026.",
+    "Courses autorisées jusqu'à fin 2027, puis de façon permanente pour les titres de 2028.",
+    "Les salariés"
+   ],
+   [
+    "Pas d'usage le dimanche, sauf décision de l'employeur ; valable l'année civile plus 2 mois.",
+    "Tous les jours, dimanches et jours fériés compris ; valable 3 ans.",
+    "Les salariés"
+   ],
+   [
+    "Paiement possible sur certaines applis de livraison.",
+    "Plateformes de livraison exclues ; la commande directe au restaurant reste possible.",
+    "Salariés et plateformes"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Christophe Naegelen (LIOT), auteur du texte",
+    "arg": "Il est « impératif de pérenniser le dispositif » vu son « engouement », tout en défendant les restaurateurs face aux commissions des émetteurs.",
+    "source": "https://lcp.fr/actualites/courses-alimentaires-avec-les-tickets-restaurant-vers-la-perennisation-du-dispositif-et"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "Le titre-restaurant permet aux salariés de payer leur repas avec une somme financée en partie par l'employeur.",
+  "Une loi de 2022 sur le pouvoir d'achat a permis, à titre provisoire, de l'utiliser aussi pour des produits alimentaires (pâtes, riz…).",
+  "Ce texte rendrait cet usage permanent, généraliserait le format numérique et changerait les règles d'utilisation pour les titres émis à partir de 2028.",
+  "Il encadrerait aussi la rémunération des sociétés qui émettent les titres, auprès des employeurs comme des commerçants.",
+  "Adopté par l'Assemblée le 12 octobre 2026, il doit encore passer au Sénat."
+ ],
+ "pourquoi": [
+  "Selon son auteur, le télétravail et l'inflation ont changé la pause déjeuner : beaucoup de salariés préparent leur repas, d'où l'intérêt de pérenniser l'usage pour les courses.",
+  "Il estime aussi que les restaurateurs ont peu de marges de négociation face aux émetteurs, dont les commissions « réduisent les marges des établissements »."
+ ],
+ "change": [
+  [
+   "Titres papier ou carte.",
+   "Titre exclusivement dématérialisé (carte ou application).",
+   "Salariés, employeurs",
+   "Titres émis à partir de 2028"
+  ],
+  [
+   "Courses alimentaires permises à titre provisoire jusqu'au 31 décembre 2026.",
+   "Prolongation jusqu'au 31 décembre 2027, puis usage permanent pour tout produit alimentaire, sauf catégories exclues par décret.",
+   "Salariés",
+   "Dès la publication de la loi, puis 2028"
+  ],
+  [
+   "Pas d'usage le dimanche, sauf décision de l'employeur ; validité : l'année civile plus 2 mois.",
+   "Usage tous les jours ; validité de 3 ans.",
+   "Salariés",
+   "Titres émis à partir de 2028"
+  ],
+  [
+   "Paiement possible via certaines applications de livraison.",
+   "Les « plateformes de mise en relation par voie électronique » sont exclues.",
+   "Salariés, plateformes de livraison",
+   "Titres émis à partir de 2028"
+  ],
+  [
+   "Remises possibles des émetteurs aux employeurs ; commissions libres.",
+   "Remises interdites (amende jusqu'à 1 % du chiffre d'affaires en France) ; relevé annuel des commissions ; plafonnement possible par décret après avis de l'Autorité de la concurrence.",
+   "Émetteurs, employeurs, commerçants",
+   "2028"
+  ],
+  [
+   "Attribution parfois interrompue pendant certains congés.",
+   "Plus d'interruption pendant les congés de maternité, de paternité, d'adoption et de naissance.",
+   "Salariés concernés",
+   "2028"
+  ]
+ ],
+ "pasfait": [
+  "Il ne change pas le plafond de 25 € par jour : celui-ci relève d'un décret.",
+  "Il ne change rien aux titres de 2026 et 2027, qui restent soumis aux règles actuelles."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Christophe Naegelen (LIOT), auteur du texte",
+    "arg": "Il est « impératif de pérenniser le dispositif » au vu de son « engouement » ; il défend aussi l'idée d'un plafond plus élevé pour les restaurateurs.",
+    "source": "https://lcp.fr/actualites/courses-alimentaires-avec-les-tickets-restaurant-vers-la-perennisation-du-dispositif-et"
+   },
+   {
+    "qui": "L'exposé des motifs",
+    "arg": "Les commissions des émetteurs « réduisent les marges des établissements et fragilisent leur participation au dispositif ».",
+    "source": "https://lcp.fr/actualites/courses-alimentaires-avec-les-tickets-restaurant-vers-la-perennisation-du-dispositif-et"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucun député n'a voté contre : 87 voix pour et 15 abstentions (12 LFI, 3 socialistes). Les raisons de ces abstentions ne figurent pas dans les sources consultées. En commission, une partie de la droite et du bloc central voulait baisser le plafond des courses à 10 ou 15 € par jour pour favoriser les restaurants."
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "87 voix pour, 0 contre, 15 abstentions (scrutin n° 8693), en première lecture. Procédure accélérée engagée par le Gouvernement le 28 septembre 2026."
+  },
+  {
+   "titre": "Le rapport",
+   "texte": "Le Gouvernement devrait remettre au Parlement, au plus tard le 1er juillet 2028, un rapport sur l'effet de ces règles sur les commissions payées par les commerçants."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Selectra, « Titres-restaurant : les députés ferment la porte à Uber Eats », 15 octobre 2026",
+   "url": "https://selectra.info/finance/actualites/marche/titres-restaurant-plateformes-loi-12-octobre"
+  },
+  {
+   "titre": "LCP, examen du texte en commission, 7 octobre 2026",
+   "url": "https://lcp.fr/actualites/courses-alimentaires-avec-les-tickets-restaurant-vers-la-perennisation-du-dispositif-et"
+  },
+  {
+   "titre": "TPE Actu, « Titres-restaurant : ce que l'Assemblée nationale vient de voter », 13 octobre 2026",
+   "url": "https://tpeactu.fr/2026/10/13/titres-restaurant-reforme-courses-restaurants-tpe/"
+  },
+  {
+   "titre": "Scrutin n° 8693 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8693"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54445"
+  }
+ ],
+ "auteur": "Rédaction Aux Voix",
+ "verif": "",
+ "version": {
+  "n": 1,
+  "date": "2026-10-20"
+ }
+}

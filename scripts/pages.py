@@ -133,7 +133,7 @@ class Generateur:
         med = lambda L, c: mediane([s[c] for s in L])
         scr = d["scrutins"]
         idx_dep = {x["id"]: i for i, x in enumerate(deps)}
-        retenus = [s for s in scr if s["t"] in ("SPS", "MOC") or re.match(r"l.ensemble", s["ti"], re.I)]
+        retenus = [s for s in scr if s["t"] in ("SPS", "MOC") or re.match(r"l.ensemble|(la|le) (proposition|projet) de loi|l.article unique (du|de la|de l.) (projet|proposition) de loi", s["ti"], re.I)]
         num_retenus = {s["n"] for s in retenus}
         def lien_vote(n):
             return f"/vote/{leg}/{n}/" if n in num_retenus else f"/#/scrutin/{n}"
@@ -241,6 +241,14 @@ class Generateur:
             fiches = {f.get("dossier"): f for f in json.load(open(os.path.join(self.site, "contenu", "lois.json"), encoding="utf-8")) if isinstance(f, dict) and f.get("publie") is True}
         except Exception:
             fiches = {}
+        rep = os.path.join(self.site, "contenu", "fiches")
+        for fn in (sorted(os.listdir(rep)) if os.path.isdir(rep) else []):
+            try:
+                f = json.load(open(os.path.join(rep, fn), encoding="utf-8"))
+            except Exception:
+                continue
+            if isinstance(f, dict) and f.get("publie") is True and f.get("dossier"):
+                fiches[f["dossier"]] = f
         for l in d.get("lois", []):
             E = l.get("etapes") or []
             chemin = f"/loi/{l['id']}/"
@@ -270,12 +278,14 @@ class Generateur:
                 cote = lambda L: "<ul class='l'>" + "".join(f"<li><strong>{ESC(a.get('qui', ''))}</strong> : {ESC(a.get('arg', ''))}</li>" for a in L if isinstance(a, dict)) + "</ul>"
                 lignes = [r for r in (f.get("change") or []) if isinstance(r, list) and len(r) >= 3]
                 fiche = (f"<p class='lede'><strong>{ESC(f.get('phrase', ''))}</strong></p>"
+                         + ("" if f.get("verif") else "<p><em>Fiche pas encore relue par la rédaction.</em></p>")
                          + ("<h2>En bref</h2>" + "".join(f"<p>{ESC(x)}</p>" for x in f.get("resume") or []) if f.get("resume") else "")
                          + ("<h2>Pourquoi ce texte</h2>" + "".join(f"<p>{ESC(x)}</p>" for x in ([f["pourquoi"]] if isinstance(f.get("pourquoi"), str) else f.get("pourquoi") or [])) if f.get("pourquoi") else "")
                          + ("<h2>Ce qui change</h2><table><thead><tr><th>Avant</th><th>Après</th><th>Qui est concerné</th><th>À partir de quand</th></tr></thead><tbody>"
                             + "".join("<tr>" + "".join(f"<td>{ESC((r + ['', ''])[k] or '—')}</td>" for k in range(4)) + "</tr>" for r in lignes) + "</tbody></table>" if lignes else "")
-                         + (f"<h2>Ce qu’en disent les différents camps</h2><h3>Ceux qui le soutiennent</h3>{cote(A.get('pour') or [])}<h3>Ceux qui s’y opposent</h3>{cote(A.get('contre') or [])}"
-                            "<p><em>Chaque argument est rapporté tel que son auteur le présente ; Aux Voix ne tranche pas.</em></p>" if A.get("pour") and A.get("contre") else "")
+                         + (f"<h2>Ce qu’en disent les différents camps</h2><h3>Ceux qui le soutiennent</h3>{cote(A.get('pour') or [])}<h3>Ceux qui s’y opposent ou le critiquent</h3>{cote(A.get('contre') or [])}"
+                            "<p><em>Chaque argument est rapporté tel que son auteur le présente ; Aux Voix ne tranche pas.</em></p>" if A.get("pour") and A.get("contre") else
+                            (f"<h2>Ce qu’en disent les différents camps</h2><h3>Ceux qui le soutiennent</h3>{cote(A.get('pour') or [])}<h3>Pas d’opposition au vote</h3><p>{ESC(A['consensus'])}</p>" if A.get("pour") and A.get("consensus") else ""))
                          + ("<h2>Sources de cette fiche</h2><ul class='l'>" + "".join(f"<li><a href=\"{ESC(x['url'])}\">{ESC(x.get('titre') or x['url'])}</a></li>" for x in f.get("sources") or [] if isinstance(x, dict) and str(x.get("url", "")).startswith("https://")) + "</ul>" if f.get("sources") else ""))
             corps = f"""<p class="fil"><a href="/#/lois">Lois</a>, {ESC(d['label'])}</p><h1>{ESC(titre)}</h1><p class="lede">{ESC(statut)}.</p>{fiche}
 <a class="cta" href="/#/loi/{ESC(l['id'])}">Voir le parcours et les votes</a>{f'<a class="cta s" href="{ESC(prom["url"])}">Texte sur Légifrance</a>' if prom and prom.get("url") else ''}

@@ -1,0 +1,180 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N54085",
+ "titre_officiel": "Projet de loi d'urgence pour la protection et la souveraineté agricoles",
+ "phrase": "Une loi agricole qui facilite le stockage de l'eau, la défense des troupeaux contre le loup et, sous conditions, l'usage de deux pesticides interdits en France.",
+ "note": "Loi promulguée le 18 août 2026, après une censure partielle du Conseil constitutionnel.",
+ "essentiel": {
+  "points": [
+   "L'agence sanitaire (Anses) pourra, à titre exceptionnel, autoriser deux pesticides interdits en France mais permis dans l'UE, pour quelques filières.",
+   "Objectif : doubler d'ici 2035 les volumes d'eau stockés pour l'agriculture.",
+   "Les éleveurs pourront tirer sur le loup lors d'une attaque sans autorisation préalable.",
+   "Les cantines publiques devront se fournir dans l'Union européenne."
+  ],
+  "pour": "La ministre de l'Agriculture, Annie Genevard : des « solutions concrètes, visibles, tangibles » pour les agriculteurs ; la FNSEA salue « un tournant majeur ».",
+  "contre": "La gauche et des ONG : la réintroduction de pesticides « piétine la science, la santé, l'environnement » (Greenpeace) ; LFI parle de « pesticides cancérigènes »."
+ },
+ "court": {
+  "resume": [
+   "Promis par le Premier ministre aux agriculteurs en janvier 2026, ce texte touche à l'eau, aux pesticides, à l'élevage, au loup et à la souveraineté alimentaire.",
+   "Il a été adopté définitivement le 21 juillet 2026 ; la gauche a voté contre.",
+   "Le Conseil constitutionnel a censuré huit dispositions, mais a validé, avec des réserves, la possibilité de dérogation pour certains pesticides."
+  ],
+  "change": [
+   [
+    "L'acétamipride et le flupyradifurone sont interdits en France.",
+    "L'Anses peut accorder une dérogation limitée dans le temps, pour une filière, en l'absence d'alternative.",
+    "Certaines filières (noisettes, cerises, pommes)"
+   ],
+   [
+    "—",
+    "Objectif de doubler les volumes de stockage d'eau agricole d'ici 2035.",
+    "Agriculteurs, gestion de l'eau"
+   ],
+   [
+    "Tir de défense contre le loup soumis à autorisation préalable.",
+    "Tir possible lors d'une attaque sans autorisation préalable ; lunettes de visée nocturne autorisées.",
+    "Éleveurs"
+   ],
+   [
+    "—",
+    "Les cantines publiques doivent se fournir dans l'Union européenne.",
+    "Cantines, producteurs"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Annie Genevard (LR), ministre de l'Agriculture",
+    "arg": "La dérogation ne sera possible que s'il n'y a « pas d'incidence sur la santé humaine, sur l'environnement », en situation d'urgence et sans alternative, « pour un temps limité, pour une seule filière ».",
+    "source": "https://www.terre-net.fr/assemblee-nationale/article/901503/loi-urgence-agricole-adoptee-definitivement"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Greenpeace",
+    "arg": "Avec ce vote, « le gouvernement et ses alliés piétinent la science, la santé, l'environnement et la volonté citoyenne ».",
+    "source": "https://www.terre-net.fr/assemblee-nationale/article/901503/loi-urgence-agricole-adoptee-definitivement"
+   }
+  ]
+ },
+ "resume": [
+  "Ce projet de loi du Gouvernement répond à la mobilisation des agriculteurs de l'hiver 2025-2026.",
+  "Il compte 61 articles sur la souveraineté alimentaire, l'eau, les produits phytosanitaires, l'élevage, le loup et les relations commerciales.",
+  "Sa mesure la plus discutée permet à l'Anses d'autoriser, à titre exceptionnel, l'acétamipride et le flupyradifurone, interdits en France mais autorisés dans l'UE.",
+  "Adopté définitivement le 21 juillet 2026, il a été partiellement censuré par le Conseil constitutionnel le 14 août, puis promulgué le 18 août."
+ ],
+ "pourquoi": [
+  "Selon le Gouvernement, il s'agit d'apporter des solutions sur « plusieurs priorités : eau, prédation, moyens de production ».",
+  "Ses partisans dénoncent l'« hypocrisie de moins produire en France pour importer toujours plus de produits qui ne respectent pas nos normes » (Franck Menonville, sénateur centriste)."
+ ],
+ "change": [
+  [
+   "Deux pesticides néonicotinoïdes interdits en France.",
+   "Dérogation possible de l'Anses « dans un délai de deux mois et à titre exceptionnel », pour une filière et un temps limité.",
+   "Filières sans alternative",
+   "Après promulgation"
+  ],
+  [
+   "—",
+   "Objectif de doubler les volumes de stockage d'eau agricole d'ici 2035.",
+   "Agriculteurs, agences de l'eau",
+   "D'ici 2035"
+  ],
+  [
+   "Protection des captages d'eau potable sur l'ensemble des captages.",
+   "Moyens concentrés sur les captages « prioritaires », les plus pollués.",
+   "Collectivités, usagers",
+   "Après promulgation"
+  ],
+  [
+   "Tirs de défense contre le loup sur autorisation préalable.",
+   "Plus d'autorisation préalable lors d'une attaque ; matériel de visée nocturne ou thermique autorisé.",
+   "Éleveurs",
+   "Après promulgation"
+  ],
+  [
+   "—",
+   "Vols et dégradations sur les exploitations agricoles : jusqu'à 5 ans de prison et 75 000 € d'amende.",
+   "Auteurs d'infractions",
+   "Après promulgation"
+  ]
+ ],
+ "pasfait": [
+  "Elle n'autorise pas directement les pesticides : c'est l'Anses qui peut accorder une dérogation, sous conditions.",
+  "Elle ne garde pas la « servitude de voisinage agricole » : le Conseil constitutionnel l'a censurée."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Annie Genevard (LR), ministre de l'Agriculture",
+    "arg": "Le texte va « apporter des solutions concrètes, visibles, tangibles aux difficultés du quotidien de nos agriculteurs ».",
+    "source": "https://www.terre-net.fr/assemblee-nationale/article/901503/loi-urgence-agricole-adoptee-definitivement"
+   },
+   {
+    "qui": "La FNSEA et les Jeunes agriculteurs",
+    "arg": "La FNSEA salue « un tournant majeur » ; les Jeunes agriculteurs, une victoire « des mobilisations du monde agricole ».",
+    "source": "https://www.terre-net.fr/assemblee-nationale/article/901503/loi-urgence-agricole-adoptee-definitivement"
+   },
+   {
+    "qui": "Les filières noisettes, cerises et pommes",
+    "arg": "L'accès à ces produits « permettra d'attendre sereinement l'arrivée des solutions alternatives ».",
+    "source": "https://www.terre-net.fr/assemblee-nationale/article/901503/loi-urgence-agricole-adoptee-definitivement"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Manuel Bompard, coordinateur de La France insoumise",
+    "arg": "Le Gouvernement impose « la réintroduction de deux pesticides cancérigènes, dénoncés par les sociétés savantes, les médecins et plus de 2 millions de citoyens ».",
+    "source": "https://www.terre-net.fr/assemblee-nationale/article/901503/loi-urgence-agricole-adoptee-definitivement"
+   },
+   {
+    "qui": "Greenpeace et Générations futures",
+    "arg": "Le texte « piétine la science, la santé, l'environnement et la volonté citoyenne » (Greenpeace) ; « le tapis rouge » a été déroulé « à la demande de la FNSEA » (Générations futures).",
+    "source": "https://www.terre-net.fr/assemblee-nationale/article/901503/loi-urgence-agricole-adoptee-definitivement"
+   },
+   {
+    "qui": "Les associations environnementales",
+    "arg": "Elles craignent que la concentration des moyens sur les captages « prioritaires » laisse de côté trop de captages déjà pollués.",
+    "source": "https://www.terre-net.fr/assemblee-nationale/article/901503/loi-urgence-agricole-adoptee-definitivement"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Les votes",
+   "texte": "Assemblée, première lecture (2 juin 2026) : 369 pour, 178 contre. Texte de compromis : Assemblée le 20 juillet 2026, 296 pour, 224 contre, 41 abstentions (scrutin n° 8427) ; Sénat le 21 juillet, 214 pour, 111 contre. LFI, socialistes, écologistes et GDR ont voté contre."
+  },
+  {
+   "titre": "La décision du Conseil constitutionnel",
+   "texte": "Décision n° 2026-914 DC du 14 août 2026. Censurés : la facilitation du curage des plans d'eau, une mesure sur les piscicultures, la suspension possible de la redevance pour pollutions diffuses, l'exclusion des bâtiments agricoles du décompte de l'artificialisation, la servitude de « voisinage agricole », une mesure sur la destruction des haies, la limitation des recours des riverains et une mesure sur les allégations commerciales. Validés, avec des réserves : la dérogation pour certains pesticides. Le Conseil avait été saisi par les députés LFI, écologistes, GDR et socialistes."
+  },
+  {
+   "titre": "Autres mesures",
+   "texte": "Labellisation de « projets d'avenir agricole », habilitation à réformer par ordonnance les règles des bâtiments d'élevage, prolongation et extension des « tunnels de prix » (prix plancher et plafond) testés dans la viande bovine."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Terre-net (AFP), « Le Parlement adopte définitivement la loi d'urgence agricole »",
+   "url": "https://www.terre-net.fr/assemblee-nationale/article/901503/loi-urgence-agricole-adoptee-definitivement"
+  },
+  {
+   "titre": "L'info durable (AFP), « Le Parlement adopte la loi d'urgence agricole et son volet sur les pesticides »",
+   "url": "https://www.linfodurable.fr/environnement/le-parlement-adopte-la-loi-durgence-agricole-et-son-volet-sur-les-pesticides-58194"
+  },
+  {
+   "titre": "Conseil constitutionnel, décision n° 2026-914 DC du 14 août 2026",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026914DC.htm"
+  },
+  {
+   "titre": "Scrutin n° 8427 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8427"
+  }
+ ],
+ "auteur": "Rédaction Aux Voix",
+ "verif": "",
+ "version": {
+  "n": 1,
+  "date": "2026-10-20"
+ }
+}

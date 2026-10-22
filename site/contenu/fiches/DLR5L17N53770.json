@@ -1,0 +1,167 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53770",
+ "titre_officiel": "Proposition de loi visant à simplifier la gestion de la commande publique par les acheteurs publics et les opérateurs économiques",
+ "phrase": "Les petites entreprises qui gagnent un marché public recevraient une avance d'au moins 30 %, et les acheteurs publics auraient plus de souplesse. Le Sénat doit encore voter.",
+ "note": "Texte adopté par l'Assemblée en première lecture le 9 avril 2026 (82 voix pour, aucune contre). Le Sénat doit encore l'examiner.",
+ "essentiel": {
+  "points": [
+   "Les achats publics (travaux, fournitures, services) représentent près de 400 milliards d'euros par an, surtout portés par les collectivités.",
+   "Pour les PME, l'avance minimale versée au début d'un marché passerait de 10 % à 30 % dans les grandes collectivités et établissements publics.",
+   "Un accord-cadre ne lierait plus l'acheteur à ses seuls titulaires, sauf clause contraire ; les centrales d'achat devraient se déclarer."
+  ],
+  "pour": "Tous les groupes sauf LFI l'ont votée : un texte utile pour la trésorerie des PME et la souplesse des acheteurs.",
+  "contre": "Personne n'a voté contre. LFI s'est abstenue ; RN, socialistes et écologistes jugent le texte trop limité."
+ },
+ "court": {
+  "resume": [
+   "La commande publique, ce sont les achats de l'État, des collectivités et des hôpitaux : près de 400 milliards d'euros par an selon le rapport.",
+   "Beaucoup de PME renoncent à y répondre, faute de trésorerie ou face à la complexité des règles.",
+   "Le texte de Thomas Lam (Horizons) vise trois points : les accords-cadres, les avances aux PME et les centrales d'achat."
+  ],
+  "change": [
+   [
+    "Avance minimale de 10 % pour les PME dans les grandes collectivités.",
+    "30 %, sauf hôpitaux publics et petites collectivités.",
+    "PME titulaires de marchés"
+   ],
+   [
+    "Doute sur l'exclusivité des titulaires d'un accord-cadre.",
+    "Pas d'exclusivité sauf clause contraire ; recours à un tiers si le titulaire est défaillant.",
+    "Acheteurs publics"
+   ],
+   [
+    "Pas de liste officielle des centrales d'achat.",
+    "Déclaration au ministre de l'Économie, liste publique, rapport annuel pour les plus grosses.",
+    "Centrales d'achat"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Sylvain Berrios (Horizons)",
+    "arg": "Dans une période de tensions de trésorerie, « le relèvement de l'avance, élément central du texte, constitue un levier particulièrement intéressant ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2605.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Emeric Salmon (RN)",
+    "arg": "Le texte « corrige à la marge un système qui devrait être simplifié en profondeur » ; son groupe le vote malgré tout.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2605.html"
+   }
+  ]
+ },
+ "resume": [
+  "Un accord-cadre (contrat qui fixe les conditions de commandes futures) n'emporte plus, par lui-même, d'exclusivité au profit de ses titulaires, sauf clause contraire.",
+  "En cas de défaillance du titulaire après mise en demeure, l'acheteur peut faire exécuter les prestations par un tiers à ses frais ; si la continuité du service public l'exige, il peut passer un marché sans mise en concurrence sous les seuils européens.",
+  "Pour les PME et leurs sous-traitants payés directement, l'avance minimale est fixée à 30 % au-dessus d'un seuil réglementaire, sauf pour les hôpitaux publics et les établissements et collectivités de moins de 60 millions d'euros de dépenses de fonctionnement.",
+  "L'acheteur ne peut pas exiger de garantie à première demande pour une avance qui ne dépasse pas ce taux.",
+  "Les centrales d'achat déclarent leur activité au ministre de l'Économie, qui publie leur liste ; au-delà d'un seuil, elles publient un rapport annuel."
+ ],
+ "pourquoi": [
+  "Selon le rapporteur, des acheteurs se sentaient liés aux titulaires de leur accord-cadre même quand de meilleures offres existaient, faute de règle claire.",
+  "Le label « achat public local et responsable » prévu au départ a été remplacé en commission par ces obligations de déclaration des centrales d'achat."
+ ],
+ "change": [
+  [
+   "Avance minimale de 10 % dans les grandes collectivités.",
+   "30 % pour les PME.",
+   "PME",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "Exclusivité incertaine des accords-cadres.",
+   "Pas d'exclusivité sauf clause contraire.",
+   "Acheteurs publics",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "—",
+   "Déclaration et rapport annuel des centrales d'achat.",
+   "Centrales d'achat",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "—",
+   "Rapport au Parlement après deux ans sur les effets de la hausse de l'avance.",
+   "Parlement",
+   "Si le texte est adopté définitivement"
+  ]
+ ],
+ "pasfait": [
+  "Il ne crée pas le label prévu au départ pour les centrales d'achat.",
+  "Il n'impose pas l'avance de 30 % aux hôpitaux publics ni aux petites collectivités, pour préserver leur trésorerie.",
+  "Il ne refond pas le droit de la commande publique, largement issu des directives européennes."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Sylvain Berrios (Horizons)",
+    "arg": "70 % de l'investissement public est réalisé par les collectivités, et 30 % de ces investissements bénéficient aux TPE.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2605.html"
+   },
+   {
+    "qui": "Élisabeth de Maistre (Droite républicaine)",
+    "arg": "« Ce texte va dans le bon sens, car il apporte davantage de souplesse et facilite l'accès des PME aux marchés publics. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2605.html"
+   },
+   {
+    "qui": "Paul Molac (LIOT)",
+    "arg": "La question de l'avance « est cruciale » pour les PME ; la clause de non-exclusivité est intéressante, même si elle doit être encadrée.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2605.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Emeric Salmon (RN)",
+    "arg": "« Ce n'est pas la grande réforme annoncée » : les procédures restent trop lourdes et les grands opérateurs gardent leur avance.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2605.html"
+   },
+   {
+    "qui": "Marie-José Allemand (socialiste)",
+    "arg": "Des aménagements « très mesurés » qui auraient pu figurer « dans une circulaire ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2605.html"
+   },
+   {
+    "qui": "Sandra Regol (écologiste)",
+    "arg": "La fin de l'exclusivité risque d'accentuer la concurrence sur les prix au détriment de la qualité et des exigences sociales et environnementales.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2605.html"
+   },
+   {
+    "qui": "Emmanuel Fernandes (La France insoumise)",
+    "arg": "« Une étape utile mais encore insuffisante » : la commande publique devrait servir la relocalisation et la transition écologique.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2605.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée : 82 pour, 0 contre, 11 abstentions (LFI, quelques socialistes et écologistes), 9 avril 2026, scrutin n° 6131."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Thomas Lam, Assemblée nationale (n° 2605)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2605.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée et transmis au Sénat",
+   "url": "https://www.senat.fr/leg/ppl25-538.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53770"
+  },
+  {
+   "titre": "Scrutin n° 6131 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/6131"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}
