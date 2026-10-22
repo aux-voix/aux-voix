@@ -63,6 +63,14 @@ avec un texte différent à chaque niveau, du plus court au plus complet :
   tous les `arguments` (les deux côtés sont obligatoires), `details` (les chiffres), `sources`, et le texte déposé.
 Si `essentiel` ou `court` manque, le niveau Essentiel n'affiche que la phrase et le niveau Comprendre affiche la version complète.
 
+**Où sont les fiches de lois.** Une fiche = un fichier `site/contenu/fiches/<dossier>.json`, nommé d'après
+l'identifiant du dossier (par exemple `DLR5L17N54951.json` pour le budget de la Sécu 2027). Le site ne lit une fiche
+qu'à l'ouverture de la loi : des milliers de fiches ne ralentissent donc pas l'accueil. L'index `contenu/fiches.json`
+est refait automatiquement à chaque mise à jour, il ne faut pas le modifier à la main.
+
+**Relecture.** Une fiche publiée sans `verif` affiche « Fiche pas encore relue par la rédaction ». Après relecture,
+écrire le pseudo du relecteur dans `verif` (différent de `auteur`) : la mention disparaît et la fiche indique « relue par … ».
+
 Pour relire une fiche avant de la publier, ouvrir la fiche loi avec `?brouillons=1` à la fin de l'adresse
 (par exemple `https://auxvoix.fr/#/loi/DLR5L17N54951?brouillons=1`) : elle s'affiche avec la mention « Brouillon à vérifier ».
 Pour publier : indiquer le vérificateur dans `verif` et mettre `"publie": true`. L'auteur et le vérificateur doivent être
