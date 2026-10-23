@@ -1,0 +1,153 @@
+{
+ "publie": true,
+ "dossier": "DLR5L16N49299",
+ "titre_officiel": "Proposition de loi visant à renforcer la sécurité des professionnels de santé",
+ "phrase": "Violences, vols et outrages visant soignants et personnels des lieux de soins sont plus sévèrement punis, et l'employeur peut porter plainte à la place de la victime.",
+ "note": "Loi promulguée le 9 juillet 2025.",
+ "essentiel": {
+  "points": [
+   "Selon la rapporteure Agnès Firmin Le Bodo, les violences contre les soignants augmentent, à l'hôpital comme en cabinet ou en pharmacie.",
+   "La loi alourdit les peines pour les violences et vols visant le personnel des lieux de soins, et étend aux soignants le délit d'outrage.",
+   "Pour contrer la peur des représailles, l'employeur peut porter plainte pour la victime, avec son accord écrit."
+  ],
+  "pour": "Macronistes, RN, droite, MoDem et Horizons : montrer aux soignants que la Nation les soutient et les inciter à porter plainte.",
+  "contre": "LFI a voté contre, socialistes et écologistes se sont abstenus : alourdir les peines ne remplace pas les moyens humains."
+ },
+ "court": {
+  "resume": [
+   "Le texte de Philippe Pradal (Horizons) reprend des mesures d'un plan du gouvernement de septembre 2023 ; l'Assemblée l'avait adopté à l'unanimité en mars 2024.",
+   "Les soignants libéraux peuvent indiquer leur adresse professionnelle, plutôt que leur domicile, quand ils portent plainte.",
+   "Les ordres professionnels peuvent se constituer partie civile en cas d'outrage contre l'un de leurs membres."
+  ],
+  "change": [
+   [
+    "Peines aggravées pour violences contre les professionnels de santé.",
+    "Étendues à tout le personnel des lieux de soins : hôpital, cabinet, pharmacie, médico-social…",
+    "Personnels des lieux de soins"
+   ],
+   [
+    "Outrage réservé aux personnes chargées d'une mission de service public.",
+    "Étendu aux professionnels de santé.",
+    "Soignants"
+   ],
+   [
+    "Plainte déposée par la victime.",
+    "Plainte possible par l'employeur, avec l'accord écrit de la victime.",
+    "Salariés des lieux de soins"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Agnès Firmin Le Bodo (Horizons), rapporteure",
+    "arg": "Le texte vise « surtout » à « montrer aux soignants que la représentation nationale est à leurs côtés ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1441.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Roger Vicot (socialiste)",
+    "arg": "Sauf à imaginer que les auteurs de violences « connaissent le code pénal par cœur », l'aggravation des peines « ne changera strictement rien ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1441.html"
+   }
+  ]
+ },
+ "resume": [
+  "Article 1er : les peines pour violences sont aggravées lorsqu'elles visent un membre du personnel d'un établissement de santé, d'un cabinet libéral, d'une pharmacie, d'un laboratoire ou d'un établissement médico-social ; de même pour les agressions sexuelles contre un soignant.",
+  "Les vols de matériel médical, les vols dans un établissement de santé et ceux qui visent un soignant dans l'exercice de ses fonctions sont plus sévèrement punis.",
+  "Article 2 : le délit d'outrage est étendu aux soignants ; la rapporteure du Sénat, Anne-Sophie Patru, avait émis des réserves sur cette extension.",
+  "Article 3 : l'employeur peut porter plainte pour un salarié victime, avec son accord écrit ; pour les libéraux, les ordres et unions régionales de professionnels de santé le pourront selon un décret.",
+  "Le texte rétablit aussi la protection fonctionnelle des agents publics pour toutes les procédures donnant droit à un avocat, après une décision du Conseil constitutionnel."
+ ],
+ "pourquoi": [
+  "Le plan pour la sécurité des professionnels de santé de septembre 2023 compte 42 mesures, dont 40 ne relèvent pas de la loi, selon la rapporteure.",
+  "Selon elle, de nombreux soignants ne portent pas plainte, par peur des représailles ou parce qu'ils jugent cela inutile."
+ ],
+ "change": [
+  [
+   "Plainte par la victime seule.",
+   "Plainte possible par l'employeur, ou par l'ordre ou l'URPS pour les libéraux.",
+   "Soignants et personnels",
+   "Depuis juillet 2025 (décret pour les libéraux)"
+  ],
+  [
+   "Pas d'outrage pour la plupart des soignants.",
+   "Outrage étendu aux professionnels de santé.",
+   "Soignants",
+   "Depuis juillet 2025"
+  ]
+ ],
+ "pasfait": [
+  "Il ne crée pas de moyens de sécurité supplémentaires (agents, équipements) dans les établissements.",
+  "Il ne prévoit pas de bilan annuel des violences dans chaque établissement : cet article a été supprimé."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Agnès Firmin Le Bodo (Horizons), rapporteure",
+    "arg": "La plainte par l'employeur « vise à mettre fin au phénomène d'autocensure des victimes, qui hésitent à porter plainte par peur des représailles ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1441.html"
+   },
+   {
+    "qui": "Anne-Sophie Patru, rapporteure au Sénat",
+    "arg": "La « banalisation de la violence dans les lieux de soins » doit être « jugulée par tous moyens ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1441.html"
+   },
+   {
+    "qui": "L'Ordre national des pharmaciens",
+    "arg": "Consulté pendant l'examen, il a soutenu plusieurs mesures, comme la possibilité pour l'ordre de se constituer partie civile.",
+    "source": "https://www.ordre.pharmacien.fr/les-communications/focus-sur/les-actualites/securite-des-professionnels-de-sante-la-loi-promulguee"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Andrée Taurinya (La France insoumise)",
+    "arg": "« Ce texte d'annonce traduit une volonté de rouler des mécaniques qui ne résoudra pas le problème » ; il faut « allouer plus de moyens humains ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1441.html"
+   },
+   {
+    "qui": "Roger Vicot (socialiste)",
+    "arg": "« La véritable solution pour protéger les professionnels de santé aurait été d'augmenter les moyens humains en matière de sécurité. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1441.html"
+   },
+   {
+    "qui": "Anne-Sophie Patru, rapporteure au Sénat, qui soutient le texte",
+    "arg": "Sur l'outrage : « l'outrage est lié à l'exercice d'une mission de service public. Or tout n'est pas service public. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1441.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Assemblée : adoptée à l'unanimité le 14 mars 2024. Sénat : adoptée avec modifications le 13 mai 2025. Accord en commission mixte paritaire le 20 mai ; texte adopté par le Sénat le 18 juin et par l'Assemblée le 25 juin 2025 (135 voix contre 27, 23 abstentions)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de la commission mixte paritaire (n° 1441)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1441.html"
+  },
+  {
+   "titre": "« Sécurité des professionnels de santé : la loi promulguée », Ordre national des pharmaciens",
+   "url": "https://www.ordre.pharmacien.fr/les-communications/focus-sur/les-actualites/securite-des-professionnels-de-sante-la-loi-promulguee"
+  },
+  {
+   "titre": "« Violences contre les professionnels de santé : des sanctions renforcées », Le Quotidien du pharmacien",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/violences-contre-les-professionnels-de-sante-des-sanctions-renforcees"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl23-430.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L16N49299"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

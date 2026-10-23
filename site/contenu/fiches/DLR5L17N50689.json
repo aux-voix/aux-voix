@@ -1,0 +1,124 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N50689",
+ "titre_officiel": "Proposition de loi visant à protéger les personnes engagées dans un projet parental des discriminations au travail",
+ "phrase": "Les salariés en parcours de PMA ou d'adoption, hommes comme femmes, sont protégés contre les discriminations au travail et peuvent s'absenter pour leurs rendez-vous.",
+ "note": "Loi promulguée le 30 juin 2025, adoptée sans opposition.",
+ "essentiel": {
+  "points": [
+   "Le code du travail protégeait déjà les femmes enceintes ou en parcours de PMA contre un refus d'embauche ou un licenciement lié à cette situation.",
+   "La loi étend cette protection aux hommes en parcours de PMA et aux personnes qui veulent adopter.",
+   "Elle leur ouvre aussi des autorisations d'absence pour les rendez-vous, y compris dans la fonction publique."
+  ],
+  "pour": "Tous les groupes : un parcours long et éprouvant ne doit pas coûter son emploi ou sa carrière.",
+  "contre": "Personne ne s'y est opposé ; la droite s'interrogeait sur la portée d'un texte en partie déjà couvert par le droit existant."
+ },
+ "court": {
+  "resume": [
+   "Selon la rapporteure Prisca Thevenot (Ensemble pour la République), un couple sur quatre fait face à une infertilité, d'origine masculine dans 30 % des cas.",
+   "En 2022, 158 000 tentatives de PMA ont été réalisées en France ; les candidats à l'adoption n'avaient aucun droit d'absence pour leurs rendez-vous d'agrément.",
+   "Comme pour la grossesse, le salarié n'a pas à informer son employeur, et c'est à l'employeur de justifier sa décision en cas de litige."
+  ],
+  "change": [
+   [
+    "Protection renforcée pour les seules femmes en PMA.",
+    "Étendue aux hommes en PMA et aux candidats à l'adoption.",
+    "Salariés"
+   ],
+   [
+    "Pas de droit d'absence pour les rendez-vous d'adoption.",
+    "Autorisations d'absence pour ces rendez-vous.",
+    "Candidats à l'adoption"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Prisca Thevenot (Ensemble pour la République), rapporteure",
+    "arg": "Le texte reconnaît des parcours vécus par des milliers de personnes : « Il ne crée pas de privilèges. Il ne met pas à mal les entreprises. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1348.html"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "Les règles protégeant la grossesse au travail s'appliquent aux salariés engagés dans une PMA ou une adoption : un employeur ne peut pas refuser de les embaucher ou les licencier pour ce motif.",
+  "Le salarié n'a pas à révéler son parcours ; en cas de litige, la charge de la preuve pèse sur l'employeur.",
+  "Les autorisations d'absence pour les actes médicaux de PMA sont étendues aux hommes, et créées pour les rendez-vous obligatoires de l'agrément d'adoption.",
+  "Ces droits sont étendus aux agents publics, par une modification du code général de la fonction publique.",
+  "Une proposition de la rapporteure pour faire commencer plus tôt le congé d'adoption, pendant la période d'apparentement, a été jugée irrecevable."
+ ],
+ "pourquoi": [
+  "Selon la rapporteure, beaucoup de personnes taisent leur parcours et s'absentent sans oser dire pourquoi, par peur pour leur emploi.",
+  "Le texte s'inscrit dans le plan contre l'infertilité annoncé par Emmanuel Macron en janvier 2024, sur fond de baisse de la natalité."
+ ],
+ "change": [
+  [
+   "Pas de protection spécifique.",
+   "Protection contre le refus d'embauche et le licenciement.",
+   "Hommes en PMA, candidats à l'adoption",
+   "Depuis juillet 2025"
+  ],
+  [
+   "Pas d'absence pour l'agrément d'adoption.",
+   "Autorisations d'absence.",
+   "Salariés et agents publics",
+   "Depuis juillet 2025"
+  ]
+ ],
+ "pasfait": [
+  "Il ne crée pas de nouveau motif de discrimination : il étend des protections existantes.",
+  "Il ne modifie pas la durée du congé d'adoption."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Stéphane Viry (LIOT)",
+    "arg": "Ces parcours peuvent entraîner « des retards ou des refus de promotion, des remarques déplacées ou une stigmatisation de la part de collègues ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1348.html"
+   },
+   {
+    "qui": "Angélique Ranc (RN)",
+    "arg": "La proposition « est juste et nous la soutenons », même si elle doit être « juridiquement solide et opérationnelle ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1348.html"
+   },
+   {
+    "qui": "Ségolène Amiot (La France insoumise)",
+    "arg": "La PMA ou l'adoption exposent aux discriminations, « notamment les femmes et les personnes LGBTI ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1348.html"
+   },
+   {
+    "qui": "Justine Gruet (Droite républicaine)",
+    "arg": "Son groupe soutient la lutte contre les discriminations, mais s'interroge : « Quelles sont les discriminations non déjà couvertes ? »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1348.html"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucune opposition : 127 voix contre 0 à l'Assemblée, puis adoption par le Sénat."
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Assemblée : adoptée le 5 mai 2025 (127 voix contre 0). Sénat : adoptée le 19 juin 2025."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Prisca Thevenot, Assemblée nationale (n° 1348)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1348.html"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl24-568.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N50689"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

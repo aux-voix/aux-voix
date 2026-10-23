@@ -1,0 +1,143 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N50631",
+ "titre_officiel": "Proposition de loi visant à faire exécuter les peines d’emprisonnement ferme",
+ "phrase": "Ce texte veut rétablir les très courtes peines de prison et mettre fin à l'aménagement quasi automatique des peines d'un an ou moins ; il n'est pas encore devenu loi.",
+ "note": "Texte adopté par l'Assemblée en avril 2025 et modifié par le Sénat en juillet 2025 ; en deuxième lecture, la commission des lois l'a rejeté en avril 2026. Il n'est pas devenu loi à ce jour.",
+ "essentiel": {
+  "points": [
+   "Depuis une loi de 2019, un juge ne peut plus prononcer de prison ferme d'un mois ou moins, et les peines d'un an ou moins sont en principe aménagées.",
+   "Le texte de Loïc Kervran (Horizons) rétablit les très courtes peines et laisse le juge libre d'aménager ou non les peines jusqu'à deux ans.",
+   "Ses partisans veulent lutter contre le sentiment d'impunité ; ses opposants craignent d'aggraver la surpopulation des prisons."
+  ],
+  "pour": "En première lecture, Horizons, RN, droite, MoDem, une partie des macronistes, LIOT et UDR ont voté pour.",
+  "contre": "LFI, socialistes, écologistes et communistes : des courtes peines jugées inefficaces, dans des prisons déjà pleines à 140 %."
+ },
+ "court": {
+  "resume": [
+   "Selon le rapporteur, la loi de 2019 a poussé les juges à prononcer des peines plus longues pour échapper à l'aménagement obligatoire, ce qui aggrave la surpopulation.",
+   "Le Sénat a supprimé l'obligation de motiver spécialement un aménagement, et permis de garder le condamné en détention en attendant le juge de l'application des peines, sous cinq jours.",
+   "En avril 2026, la gauche ayant modifié le texte en commission, le rapporteur a lui-même demandé son rejet, pour que la séance reparte du texte du Sénat."
+  ],
+  "change": [
+   [
+    "Pas de prison ferme d'un mois ou moins.",
+    "De nouveau possible (texte non adopté définitivement).",
+    "Personnes condamnées"
+   ],
+   [
+    "Aménagement en principe pour les peines d'un an ou moins.",
+    "Aménagement au choix du juge jusqu'à deux ans (texte non adopté définitivement).",
+    "Personnes condamnées"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Patrick Hetzel (Droite républicaine)",
+    "arg": "Il existe « un fossé croissant entre la décision du juge et l'exécution réelle de la peine ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2614.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Elsa Faucillon (Gauche démocrate et républicaine)",
+    "arg": "Les courtes peines « désorganisent sans réinsérer ; elles fragilisent sans accompagner ; elles excluent sans reconstruire ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2614.html"
+   }
+  ]
+ },
+ "resume": [
+  "Article 1er : le tribunal peut de nouveau prononcer une prison ferme d'un mois ou moins ; jusqu'à deux ans, l'aménagement devient une simple possibilité, au lieu d'un principe pour les peines d'un an ou moins.",
+  "Article 2 : un aménagement de peine suppose des garanties de réinsertion du condamné.",
+  "Le Sénat a supprimé l'exigence de motivation spéciale, rétabli la détention dans l'attente du juge de l'application des peines (convocation sous cinq jours), et supprimé l'article sur le fractionnement des peines et une demande de rapport.",
+  "Selon le rapporteur, cette détention dans l'attente du juge peut être utile, notamment pour que des auteurs de violences conjugales ne revoient pas leur victime.",
+  "En avril 2026, la commission des lois a supprimé l'article 3 contre l'avis du rapporteur, puis rejeté l'ensemble à sa demande."
+ ],
+ "pourquoi": [
+  "Selon le rapporteur, la loi de 2019 n'a réduit ni la surpopulation carcérale ni la récidive, et l'aménagement quasi automatique nourrit l'incompréhension des victimes.",
+  "Selon le député Jean-François Coulomme (LFI), près de 90 000 personnes étaient détenues en février 2026 pour environ 60 000 places."
+ ],
+ "change": [
+  [
+   "Règles de la loi de 2019.",
+   "Inchangées tant que le texte n'est pas adopté définitivement.",
+   "Personnes condamnées",
+   "—"
+  ]
+ ],
+ "pasfait": [
+  "Il ne modifie pas encore le droit : la navette n'est pas terminée.",
+  "Il ne crée pas de places de prison ni de moyens supplémentaires pour les services d'insertion et de probation."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Loïc Kervran (Horizons), rapporteur, dans son rapport",
+    "arg": "« Il est en effet préférable d'incarcérer plus tôt et moins longtemps un délinquant que de laisser celui-ci commettre de multiples infractions. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2614.html"
+   },
+   {
+    "qui": "Sandrine Lalanne (Ensemble pour la République)",
+    "arg": "Quand une peine de moins de six mois, voire d'un an, est prononcée, « le condamné mettra rarement les pieds en prison. Pour les victimes, cette situation est incompréhensible ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2614.html"
+   },
+   {
+    "qui": "Xavier Albertini (Horizons)",
+    "arg": "Le bilan de la politique actuelle, « c'est un taux de récidive très élevé, avoisinant les 60 % ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2614.html"
+   },
+   {
+    "qui": "Hanane Mansouri (UDR)",
+    "arg": "Mettre fin à l'automaticité de l'aménagement est « une très bonne chose », mais elle regrette le relèvement du seuil d'aménagement à deux ans.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2614.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Sacha Houlié (socialiste)",
+    "arg": "« Un tel texte aurait des effets désastreux sur la population carcérale et la prévention de la récidive. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2614.html"
+   },
+   {
+    "qui": "Emmanuel Duplessy (écologiste)",
+    "arg": "« On nous explique qu'il faut incarcérer davantage, plus vite, plus systématiquement, sans jamais nous dire grâce à quel système, à quelle prison, avec quels moyens humains. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2614.html"
+   },
+   {
+    "qui": "Paul Molac (LIOT)",
+    "arg": "« Notre justice pénale ne se résume pas à une équation simple dont la prison serait la seule et unique solution. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2614.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Assemblée : adoptée le 3 avril 2025 (63 voix contre 42). Sénat : modifiée le 1er juillet 2025. Assemblée, deuxième lecture : texte rejeté en commission des lois en avril 2026, à la demande du rapporteur ; il n'a pas été adopté définitivement à ce jour."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Loïc Kervran, première lecture (n° 1187)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1187.html"
+  },
+  {
+   "titre": "Rapport de Loïc Kervran, deuxième lecture (n° 2614)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2614.html"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl24-519.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N50631"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

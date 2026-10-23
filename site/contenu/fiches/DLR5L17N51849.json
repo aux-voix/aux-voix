@@ -1,0 +1,133 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51849",
+ "titre_officiel": "Proposition de loi visant à lutter contre la mortalité infantile",
+ "phrase": "Face à la hausse de la mortalité des bébés, ce texte crée un registre des naissances et gèle trois ans les fermetures de maternités ; il n'est pas encore loi.",
+ "note": "Texte adopté par l'Assemblée le 15 mai 2025 et transmis au Sénat ; il n'est pas devenu loi à ce jour.",
+ "essentiel": {
+  "points": [
+   "En 2024, 2 700 enfants sont morts avant un an en France : 4,1 pour 1 000 naissances, un taux en hausse depuis plus de dix ans.",
+   "Le texte crée un registre national des naissances pour mieux comprendre ces décès, dont les causes restent mal connues.",
+   "Il interdit pendant trois ans de fermer une maternité, sauf danger pour les patientes, et renforce la formation aux urgences obstétricales."
+  ],
+  "pour": "Gauche, RN, droite, LIOT et Horizons : une urgence sanitaire et un enjeu d'égalité entre territoires.",
+  "contre": "Macronistes et MoDem se sont abstenus : une petite maternité peut être moins sûre, faute de pratique régulière."
+ },
+ "court": {
+  "resume": [
+   "Le texte de Paul-André Colombani (LIOT) reprend des recommandations d'une mission de la commission des affaires sociales.",
+   "Selon le rapporteur, la France est passée de la 7e à la 27e place des pays de l'OCDE ; le taux dépasse 5 pour 1 000 en Seine-Saint-Denis, dans le Lot et dans les outre-mer.",
+   "Près de 75 % des décès surviennent au cours du premier mois de vie."
+  ],
+  "change": [
+   [
+    "Pas de registre national des naissances.",
+    "Registre national, à partir de 2026 (texte non adopté définitivement).",
+    "Chercheurs, autorités sanitaires"
+   ],
+   [
+    "Fermetures de maternités décidées par les agences régionales de santé.",
+    "Moratoire de trois ans, sauf danger (texte non adopté définitivement).",
+    "Maternités, futures mères"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Paul-André Colombani (LIOT), auteur et rapporteur",
+    "arg": "La mortalité infantile est « un enjeu de santé publique majeur et une urgence humaine qu'il faut saisir à bras-le-corps ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1373.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Jean-François Rousset (Ensemble pour la République)",
+    "arg": "« Une maternité qui réalise peu d'accouchements peut offrir une moindre sécurité, faute d'une pratique régulière des gestes obstétriques. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1373.html"
+   }
+  ]
+ },
+ "resume": [
+  "Article 1er : le système national des données de santé intègre les certificats de santé de l'enfant et sert à tenir un registre national des naissances, à partir du 1er janvier 2026.",
+  "Article 2 : pendant trois ans, aucune autorisation d'obstétrique ne peut être retirée, sauf danger pour la sécurité des patientes ; les agences régionales de santé évaluent les maternités de moins de 1 000 accouchements par an.",
+  "Un rapport doit chiffrer les moyens pour maintenir les maternités de moins de 300 accouchements jugées nécessaires à l'accès aux soins.",
+  "Article 3 : formation continue obligatoire aux gestes d'urgence obstétrique et aux transferts entre maternités, y compris pour les sages-femmes libérales.",
+  "Article 3 bis : rapport sur la surmortalité infantile dans les outre-mer."
+ ],
+ "pourquoi": [
+  "Selon le rapporteur, les causes sont multiples : santé des mères, précarité, inégalités sociales, organisation des soins.",
+  "Le manque de données centralisées empêche de comprendre précisément cette hausse, selon plusieurs députés."
+ ],
+ "change": [
+  [
+   "Règles actuelles.",
+   "Inchangées tant que le texte n'est pas adopté définitivement.",
+   "Maternités, familles",
+   "—"
+  ]
+ ],
+ "pasfait": [
+  "Il ne modifie pas encore le droit : le Sénat ne l'a pas adopté.",
+  "Il ne crée pas de nouvelles maternités ni de postes de soignants."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Damien Maudet (La France insoumise)",
+    "arg": "La France est passée « de la troisième à la vingt-troisième place en matière de mortalité infantile en Europe » ; il pointe la fermeture des maternités de proximité.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1373.html"
+   },
+   {
+    "qui": "Serge Muller (RN)",
+    "arg": "« C'est grave – très grave. Ce déclassement est profond et durable. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1373.html"
+   },
+   {
+    "qui": "Nathalie Colin-Oesterlé (Horizons)",
+    "arg": "Le texte répond « à une urgence sanitaire majeure ainsi qu'à une exigence de justice territoriale et d'égalité d'accès aux soins ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1373.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Jean-François Rousset (Ensemble pour la République)",
+    "arg": "Son groupe salue le registre, mais préfère que toute fermeture soit subordonnée à une évaluation des solutions de remplacement plutôt qu'à un moratoire.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1373.html"
+   },
+   {
+    "qui": "Cyrille Isaac-Sibille (Les Démocrates)",
+    "arg": "Il soutient l'article 1er mais reste réservé sur l'article 2 ; selon lui, les causes sont « essentiellement socioéconomiques » et liées au manque de prévention.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1373.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Assemblée : adoptée le 15 mai 2025 (97 voix contre 4, 23 abstentions). Transmise au Sénat, qui ne l'a pas examinée à ce jour."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Paul-André Colombani, Assemblée nationale (n° 1373)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1373.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée nationale le 15 mai 2025",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0114.raw"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl24-635.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51849"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-23"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

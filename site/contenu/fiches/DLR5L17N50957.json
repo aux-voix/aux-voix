@@ -1,0 +1,129 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N50957",
+ "titre_officiel": "Projet de loi autorisant l’approbation de l’accord portant création du Centre de développement des capacités cyber dans les Balkans occidentaux (C3BO)",
+ "phrase": "La France, le Monténégro et la Slovénie transforment en organisation internationale un centre qui forme les pays des Balkans à se défendre contre les cyberattaques.",
+ "note": "Loi promulguée le 30 mai 2025, adoptée sans scrutin public.",
+ "essentiel": {
+  "points": [
+   "Créé en 2022 à l'initiative de la France, le centre installé au Monténégro forme des spécialistes de la cybersécurité des Balkans occidentaux.",
+   "L'Albanie et le Monténégro ont subi de grandes cyberattaques en 2022, attribuées selon la rapporteure à l'Iran et à la Russie.",
+   "L'accord fait du centre une organisation internationale, pour attirer d'autres partenaires ; la France y contribue pour près d'un million d'euros en 2025."
+  ],
+  "pour": "Large soutien : renforcer la sécurité numérique d'une région voisine et l'influence française.",
+  "contre": "Pas d'opposition affichée ; la rapporteure RN juge la contribution française trop lourde, LFI se dit « dubitatif » sur l'élargissement de l'UE."
+ },
+ "court": {
+  "resume": [
+   "Selon la rapporteure Marine Hamelet (RN), le centre a déjà formé plus de 400 personnes depuis 2022.",
+   "Les Balkans occidentaux comptent six pays et 17 millions d'habitants ; seul le Monténégro en est membre pour l'instant, ce que regrette la rapporteure.",
+   "L'accord a été signé à Tirana en octobre 2023 ; le Monténégro et la Slovénie l'avaient déjà approuvé."
+  ],
+  "change": [
+   [
+    "Centre créé par une lettre d'intention en 2022.",
+    "Organisation internationale dotée d'un statut juridique propre.",
+    "France, Monténégro, Slovénie"
+   ],
+   [
+    "Trois membres.",
+    "Possibilité d'accueillir de nouveaux partenaires ou membres.",
+    "Pays des Balkans et partenaires européens"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Constance Le Grip (Ensemble pour la République)",
+    "arg": "Elle soutient le texte : « Il ne faut absolument pas sous-estimer les dangers qui sont aux frontières » de l'Europe.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1377.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Michel Guiniot (RN)",
+    "arg": "Les formations et les locaux ont précédé l'accord : « Quel est notre rôle, si ce n'est faire office de chambre d'enregistrement ? »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1377.html"
+   }
+  ]
+ },
+ "resume": [
+  "L'accord du 16 octobre 2023 crée le C3BO comme organisation internationale entre la France, le Monténégro et la Slovénie, avec son siège à Podgorica, capitale du Monténégro.",
+  "Le centre organise des formations à la cybersécurité pour les administrations et services des pays de la région.",
+  "La rapporteure appelle à réduire la contribution française, près d'un million d'euros en 2025, en partageant les coûts avec les pays bénéficiaires et d'autres partenaires.",
+  "Selon elle, le Monténégro avait confié une grande partie de sa cybersécurité à des experts américains, dont les contrats ont été résiliés après l'élection de Donald Trump.",
+  "Le Sénat avait approuvé le texte le 12 février 2025."
+ ],
+ "pourquoi": [
+  "Selon la députée Maud Petit (MoDem), la région est « le maillon faible de la cybersécurité européenne ».",
+  "La France y voit un outil de « cyberdiplomatie » pour renforcer ses relations dans une région stratégique, selon le rapport."
+ ],
+ "change": [
+  [
+   "Centre sans statut international.",
+   "Organisation internationale.",
+   "Partenaires du C3BO",
+   "À l'entrée en vigueur de l'accord"
+  ]
+ ],
+ "pasfait": [
+  "Il ne fixe pas le montant de la contribution française, voté chaque année dans le budget.",
+  "Il ne porte pas sur l'adhésion des pays des Balkans à l'Union européenne."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Arnaud Le Gall (La France insoumise)",
+    "arg": "Il conteste les réserves budgétaires : « Compte tenu de l'effet de levier escompté, 1 million d'euros, ce n'est rien. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1377.html"
+   },
+   {
+    "qui": "Catherine Hervieu (écologiste)",
+    "arg": "Le texte aide à faire face à « la guerre hybride sur notre continent », notamment dans les espaces cyber et informationnel.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1377.html"
+   },
+   {
+    "qui": "Maud Petit (Les Démocrates)",
+    "arg": "L'intitulé est « quelque peu trompeur » : il s'agit de transformer en organisation internationale un centre qui existe déjà.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1377.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Marine Hamelet (RN), rapporteure",
+    "arg": "Elle juge la répartition financière « déséquilibrée » et appelle à réduire l'engagement de la France.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1377.html"
+   },
+   {
+    "qui": "Arnaud Le Gall (La France insoumise)",
+    "arg": "Il se dit « dubitatif » : le projet prépare selon lui une entrée de ces pays dans l'UE, alors qu'il refuse tout « élargissement sans consolidation ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1377.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Sénat : adopté le 12 février 2025. Assemblée : adopté sans modification le 22 mai 2025."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Marine Hamelet, Assemblée nationale (n° 1377)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1377.html"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/pjl24-166.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N50957"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-23"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

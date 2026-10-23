@@ -1,0 +1,162 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N50692",
+ "titre_officiel": "Proposition de loi visant à réformer le mode d’élection des membres du Conseil de Paris et des conseils municipaux de Lyon et Marseille",
+ "phrase": "À Paris, Lyon et Marseille, les électeurs votent désormais deux fois le même jour : une liste pour la ville entière, une autre pour leur arrondissement.",
+ "note": "Loi promulguée en août 2025, appliquée aux municipales de mars 2026, après une décision de conformité du Conseil constitutionnel.",
+ "essentiel": {
+  "points": [
+   "Depuis 1982, on votait à Paris, Lyon et Marseille par arrondissement ou secteur, et le conseil de la ville était composé à partir de ces résultats.",
+   "Désormais, un scrutin élit le conseil de la ville, un autre les conseils d'arrondissement, comme si la ville était une commune ordinaire.",
+   "Le bonus de sièges donné à la liste gagnante passe de 50 % à 25 % dans ces trois villes."
+  ],
+  "pour": "Macronistes, RN, LFI et MoDem : chaque voix compte autant, et la tête de liste élue est clairement identifiée.",
+  "contre": "Socialistes, écologistes, communistes, droite au Sénat et Horizons : réforme précipitée, sans étude d'impact, qui affaiblit les arrondissements."
+ },
+ "court": {
+  "resume": [
+   "Avec l'ancien système, un candidat pouvait devenir maire en gagnant des arrondissements sans avoir la majorité des voix dans la ville, comme à Marseille en 1983, selon le RN.",
+   "À Paris, 163 conseillers de Paris et 503 conseillers d'arrondissement sont élus dans deux scrutins séparés ; Lyon vote en plus pour la métropole.",
+   "Le Sénat s'y est opposé jusqu'au bout ; l'Assemblée a eu le dernier mot."
+  ],
+  "change": [
+   [
+    "Un seul vote par arrondissement ou secteur.",
+    "Deux scrutins : ville et arrondissement.",
+    "3,5 millions d'électeurs"
+   ],
+   [
+    "Prime majoritaire de 50 %.",
+    "Prime majoritaire de 25 %.",
+    "Listes candidates"
+   ],
+   [
+    "101 conseillers municipaux à Marseille.",
+    "111 conseillers.",
+    "Marseillais"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Sylvain Maillard (Ensemble pour la République), auteur",
+    "arg": "Avec l'ancien système, les villes « paraissent coupées en deux », les mairies centrales favorisant les arrondissements qui les ont fait gagner.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1247.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Stéphane Delautrette (socialiste)",
+    "arg": "Le texte repose « sur une fiction » : « nul en France n'élit directement son maire », il est élu par le conseil municipal.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1247.html"
+   }
+  ]
+ },
+ "resume": [
+  "La loi crée deux scrutins distincts le même jour : l'un pour le conseil de Paris ou les conseils municipaux de Lyon et Marseille, l'autre pour les conseils d'arrondissement ou de secteur ; un candidat peut se présenter aux deux.",
+  "La tête de liste du scrutin municipal est appelée à devenir maire si sa liste gagne, mais le maire reste élu par le conseil municipal, comme partout en France.",
+  "La prime majoritaire est réduite à 25 % des sièges dans ces trois villes, contre 50 % dans les autres communes ; le reste est réparti à la proportionnelle.",
+  "Les maires d'arrondissement peuvent assister et être entendus au conseil de la ville ; une « conférence des maires » est créée et un rapport doit étudier un transfert de compétences vers les arrondissements.",
+  "Le Conseil constitutionnel, saisi par des parlementaires opposés, a jugé la loi conforme le 7 août 2025, y compris la prime de 25 %."
+ ],
+ "pourquoi": [
+  "Selon ses partisans, l'ancien système pouvait donner la mairie à une liste minoritaire en nombre de voix dans la ville.",
+  "Selon Maire-info, le nouveau système permet de briguer la mairie sans avoir à présenter des centaines de candidats dans tous les arrondissements."
+ ],
+ "change": [
+  [
+   "Vote par arrondissement uniquement.",
+   "Deux votes le même jour.",
+   "Électeurs de Paris, Lyon, Marseille",
+   "Municipales de mars 2026"
+  ],
+  [
+   "Prime de 50 %.",
+   "Prime de 25 %.",
+   "Composition des conseils",
+   "Municipales de mars 2026"
+  ]
+ ],
+ "pasfait": [
+  "Il ne fait pas élire le maire directement par les habitants : c'est toujours le conseil municipal qui l'élit.",
+  "Il ne transfère pas de compétences aux mairies d'arrondissement : il demande seulement un rapport sur le sujet."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Franck Allisio (RN)",
+    "arg": "Depuis 1982, un mode de scrutin « exorbitant du droit commun » a permis de faire élire à Marseille, en 1983, un maire minoritaire en voix.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1247.html"
+   },
+   {
+    "qui": "Sylvain Maillard (Ensemble pour la République), auteur",
+    "arg": "La réforme doit mettre fin à des villes « coupées en deux » selon les arrondissements gagnants.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1247.html"
+   },
+   {
+    "qui": "Gabriel Amard (La France insoumise)",
+    "arg": "« Un citoyen égal une voix, c'est le fondement même de la démocratie », même s'il critique la méthode.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1247.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Léa Balage El Mariky (écologiste)",
+    "arg": "Un texte marqué par « la précipitation » et un « opportunisme électoral ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1247.html"
+   },
+   {
+    "qui": "Martine Froger (LIOT)",
+    "arg": "Elle regrette l'« absence d'étude d'impact » et de consultation des élus locaux, à quelques mois des municipales.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1247.html"
+   },
+   {
+    "qui": "Muriel Jourda (LR), présidente de la commission des lois du Sénat",
+    "arg": "« Quelle confiance pouvons-nous avoir, quand vous passez outre à notre vote, contrairement à vos engagements ? »",
+    "source": "https://www.maire-info.com/mode-de-scrutin-%C3%A0-paris-lyon-et-marseille-la-reforme-definitivement-adoptee-malgre-un-dernier-rejet-par-le-senat-article2-29884"
+   },
+   {
+    "qui": "L'Association des maires de France, selon Maire-info",
+    "arg": "La prime à 25 % rendra plus difficile la constitution de majorités stables dans ces conseils.",
+    "source": "https://www.maire-info.com/elections-municipales/ce-que-contient-la-loi-reformant-le-scrutin-municipal-%C3%A0-paris-lyon-et-marseille-article-29886"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Assemblée : adopté le 9 avril 2025 (183 voix contre 53). Sénat : rejeté le 3 juin. Échec de la commission mixte paritaire. Assemblée, nouvelle lecture : 7 juillet ; nouveau rejet du Sénat le 9 juillet ; lecture définitive à l'Assemblée le 10 juillet 2025 (112 voix contre 28)."
+  },
+  {
+   "titre": "Le Conseil constitutionnel",
+   "texte": "Saisi par des députés et sénateurs, il a déclaré la loi conforme à la Constitution le 7 août 2025 (décision n° 2025-892 DC)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Jean-Paul Mattei, Assemblée nationale (n° 1247)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1247.html"
+  },
+  {
+   "titre": "« Ce que contient la loi réformant le scrutin municipal à Paris, Lyon et Marseille », Maire-info",
+   "url": "https://www.maire-info.com/elections-municipales/ce-que-contient-la-loi-reformant-le-scrutin-municipal-%C3%A0-paris-lyon-et-marseille-article-29886"
+  },
+  {
+   "titre": "« La réforme définitivement adoptée malgré un dernier rejet par le Sénat », Maire-info",
+   "url": "https://www.maire-info.com/mode-de-scrutin-%C3%A0-paris-lyon-et-marseille-la-reforme-definitivement-adoptee-malgre-un-dernier-rejet-par-le-senat-article2-29884"
+  },
+  {
+   "titre": "Décision n° 2025-892 DC du Conseil constitutionnel",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2025/2025892DC.htm"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N50692"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

@@ -1,0 +1,156 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51052",
+ "titre_officiel": "Proposition de loi relative au droit de vote par correspondance des personnes détenues",
+ "phrase": "Les détenus ne peuvent plus voter par correspondance aux municipales et aux législatives ; ils le peuvent toujours à la présidentielle, aux européennes et aux référendums.",
+ "note": "Loi promulguée le 18 juillet 2025, après une décision de conformité du Conseil constitutionnel, et appliquée dès les municipales de 2026.",
+ "essentiel": {
+  "points": [
+   "Depuis 2019, les détenus pouvaient voter par correspondance, mais leur vote était rattaché au chef-lieu du département de la prison, une ville souvent sans lien avec eux.",
+   "Selon ses partisans, ces votes pouvaient peser sur certains résultats locaux, là où les détenus pèsent plusieurs points du corps électoral.",
+   "La loi supprime ce vote pour les élections locales et législatives ; restent la procuration et, pour certains, la permission de sortir."
+  ],
+  "pour": "Macronistes, RN, droite, MoDem et Horizons : corriger une « anomalie » qui rattachait des détenus à une commune sans lien avec eux.",
+  "contre": "Gauche et LIOT : un « recul » des droits civiques, alors que ce vote avait fait passer la participation des détenus d'environ 2 % à 20 %."
+ },
+ "court": {
+  "resume": [
+   "La sénatrice Laure Darcos proposait d'abord de rattacher les détenus à leur ancienne commune ou à celle d'un proche ; le Sénat a préféré supprimer ce vote pour les scrutins locaux, jugeant l'acheminement des bulletins trop difficile.",
+   "Plus de 90 % des détenus qui votent utilisaient le vote par correspondance, selon la députée socialiste Marie-José Allemand.",
+   "En commission, les députés avaient supprimé le texte ; en séance, ils l'ont adopté sans modification, pour qu'il s'applique aux municipales de 2026."
+  ],
+  "change": [
+   [
+    "Vote par correspondance à toutes les élections.",
+    "Seulement à la présidentielle, aux européennes et aux référendums.",
+    "Détenus électeurs"
+   ],
+   [
+    "Inscription possible dans la commune d'un ascendant, du conjoint ou d'un parent.",
+    "Possible aussi dans la commune d'un descendant.",
+    "Détenus électeurs"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Guillaume Gouffier Valente (Ensemble pour la République)",
+    "arg": "Le texte vise « non pas à supprimer le droit de voter par correspondance, mais à l'exclure pour les élections locales, afin de corriger une erreur commise en 2019 ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1475.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Paul Molac (LIOT)",
+    "arg": "« Il y a deux moyens de revenir sur un droit : soit la loi le supprime, soit on rend son exercice impossible. En l'espèce, c'est la seconde voie qui a été choisie. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1475.html"
+   }
+  ]
+ },
+ "resume": [
+  "Article unique : le vote par correspondance des détenus, créé par la loi du 27 décembre 2019, est limité aux scrutins où la France forme une circonscription unique (présidentielle, européennes) et aux référendums.",
+  "Ce vote passait par un bureau spécial rattaché au chef-lieu du département de la prison : des détenus de Fresnes votaient ainsi aux municipales de Créteil, selon un député.",
+  "Aux municipales et législatives, les détenus peuvent voter par procuration, ou à l'urne s'ils obtiennent une permission de sortir, accordée par un juge à certains condamnés seulement.",
+  "Avant 2019, la participation des détenus dépassait rarement 2 % ; elle a atteint environ 20 % en 2024 grâce au vote par correspondance, selon les orateurs en commission.",
+  "Le Conseil constitutionnel, saisi par des députés LFI, a jugé la loi conforme le 17 juillet 2025 (décision n° 2025-889 DC)."
+ ],
+ "pourquoi": [
+  "Selon ses partisans, rattacher des détenus à une commune avec laquelle ils n'ont aucun lien peut fausser les élections locales là où les prisons sont importantes.",
+  "Selon le rapporteur du Sénat, cité par le Club des juristes, l'administration pénitentiaire ne pouvait pas acheminer propagande et bulletins vers chaque commune d'origine."
+ ],
+ "change": [
+  [
+   "Vote par correspondance aux municipales et législatives.",
+   "Supprimé.",
+   "Près de 57 000 détenus électeurs",
+   "Depuis les municipales de 2026"
+  ]
+ ],
+ "pasfait": [
+  "Il ne retire pas le droit de vote aux détenus : seule une façon de voter disparaît pour certaines élections.",
+  "Il ne crée pas de bureaux de vote dans les prisons, comme l'avaient proposé des députés."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Blandine Brocard (Les Démocrates)",
+    "arg": "« En rattachant mécaniquement les électeurs incarcérés à la commune chef-lieu du département, on rompt le lien entre l'électeur et son territoire d'inscription. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1475.html"
+   },
+   {
+    "qui": "Brigitte Barèges (UDR)",
+    "arg": "Le texte corrige « une anomalie démocratique » : dans plusieurs communes, les voix des détenus peuvent représenter « jusqu'à 5 % du corps électoral ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1475.html"
+   },
+   {
+    "qui": "Jean Moulliere (Horizons), rapporteur",
+    "arg": "La proposition de loi « ne nie en rien l'importance de ce droit et de son exercice ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1475.html"
+   },
+   {
+    "qui": "Philippe Schreck (RN)",
+    "arg": "Depuis 2019, les détenus « ont plus de droits que les autres citoyens », qui ne peuvent pas voter par correspondance.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1475.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Christophe Bex (La France insoumise)",
+    "arg": "Le texte « entérine un recul inquiétant et injustifié des droits civiques des personnes détenues ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1475.html"
+   },
+   {
+    "qui": "Elsa Faucillon (Gauche démocrate et républicaine)",
+    "arg": "Le Sénat « a préféré supprimer un droit plutôt que d'aménager ses modalités d'exercice ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1475.html"
+   },
+   {
+    "qui": "Marie-José Allemand (socialiste)",
+    "arg": "Le droit de vote des détenus « constitue un facteur d'insertion dans le parcours d'exécution de la peine ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1475.html"
+   },
+   {
+    "qui": "Claire Cuvelier, juriste, dans une tribune",
+    "arg": "« N'est-ce pas à l'administration de se conformer aux exigences constitutionnelles, et non l'inverse ? »",
+    "source": "https://www.leclubdesjuristes.com/societe/le-droit-de-vote-des-detenus-un-recul-des-droits-politiques-confirme-par-les-deputes-11155/"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Sénat : adopté le 20 mars 2025. Assemblée : article supprimé en commission le 28 mai, puis texte adopté sans modification en séance le 4 juin 2025 (109 voix contre 60)."
+  },
+  {
+   "titre": "Le Conseil constitutionnel",
+   "texte": "Il a jugé que le législateur poursuivait un objectif d'intérêt général : préserver le lien entre l'électeur et sa commune et éviter qu'une concentration de votes altère des résultats. Selon lui, ces règles « n'ont ni pour objet ni pour effet » de priver les détenus du droit de vote."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Jean Moulliere, Assemblée nationale (n° 1475)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1475.html"
+  },
+  {
+   "titre": "« Le droit de vote des détenus : un recul des droits politiques confirmé par les députés », Le Club des juristes (tribune)",
+   "url": "https://www.leclubdesjuristes.com/societe/le-droit-de-vote-des-detenus-un-recul-des-droits-politiques-confirme-par-les-deputes-11155/"
+  },
+  {
+   "titre": "Décision n° 2025-889 DC du Conseil constitutionnel",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2025/2025889DC.htm"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl24-192.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51052"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

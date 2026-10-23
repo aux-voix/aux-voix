@@ -1,0 +1,148 @@
+{
+ "publie": true,
+ "dossier": "DLR5L16N48758",
+ "titre_officiel": "Proposition de loi visant à améliorer l’accès aux soins par la territorialisation et la formation",
+ "phrase": "Le nombre d'étudiants admis en médecine doit d'abord dépendre des besoins de santé du territoire, et des passerelles s'ouvrent aux paramédicaux et aux étudiants partis à l'étranger.",
+ "note": "Loi promulguée le 27 juin 2025, un an et demi après son adoption par l'Assemblée.",
+ "essentiel": {
+  "points": [
+   "Selon son auteur Yannick Neuder (LR), 6 millions de Français n'ont pas de médecin traitant et 30 % vivent dans un désert médical.",
+   "Le nombre d'étudiants admis en médecine dépend désormais d'abord des besoins de santé du territoire, puis des capacités de formation des universités.",
+   "La loi facilite le retour d'étudiants français partis étudier la médecine en Europe et crée des passerelles pour les paramédicaux."
+  ],
+  "pour": "Large accord : former plus de médecins et mieux les répartir sur le territoire.",
+  "contre": "Pas d'opposition affichée ; la gauche juge le texte insuffisant sans moyens supplémentaires pour les universités."
+ },
+ "court": {
+  "resume": [
+   "Depuis une loi de 2019, le numerus clausus, qui limitait strictement le nombre d'étudiants, a été remplacé par un « numerus apertus » fixé localement.",
+   "Les besoins sont évalués notamment selon les départs en retraite des médecins ; l'agence régionale de santé et les conseils territoriaux de santé peuvent demander à une université d'augmenter ses capacités.",
+   "Selon le rapport, plus de 2 000 étudiants français suivraient des études de médecine en Roumanie, un phénomène mal mesuré."
+  ],
+  "change": [
+   [
+    "Capacités d'accueil fixées selon les capacités de formation et les besoins.",
+    "D'abord selon les besoins de santé du territoire.",
+    "Universités, futurs étudiants"
+   ],
+   [
+    "Pas de voie de retour spécifique.",
+    "Conditions d'accès fixées pour les étudiants français partis en Europe.",
+    "Étudiants en médecine à l'étranger"
+   ],
+   [
+    "—",
+    "Passerelles vers la médecine pour les paramédicaux.",
+    "Infirmiers et autres paramédicaux"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Yannick Neuder (LR), auteur et rapporteur",
+    "arg": "Malgré les mesures déjà prises, « le compte n'y est pas. La situation est trop alarmante ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B1930.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Caroline Fiat (La France insoumise)",
+    "arg": "« Rien en matière de démocratisation des études de santé, rien pour le financement de nouvelles places à l'université. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B1930.html"
+   }
+  ]
+ },
+ "resume": [
+  "Article 1er : les capacités d'accueil en médecine visent une « répartition optimale » des futurs professionnels sur le territoire et tiennent compte d'abord des besoins de santé, puis des capacités de formation.",
+  "Les besoins sont évalués notamment selon les départs en retraite récents et à venir des médecins ; l'avis conforme des conseils territoriaux de santé est requis.",
+  "Si l'ARS et ces conseils jugent les capacités insuffisantes, l'université peut être appelée à les augmenter, selon des modalités fixées par décret, y compris pour les moyens.",
+  "Article 2 : un décret fixe les conditions d'accès à la formation française pour les étudiants français inscrits en médecine dans un autre pays européen ; un rapport doit mieux connaître leur parcours.",
+  "Article 3 : des passerelles permettent à des professionnels paramédicaux de reprendre des études de médecine adaptées et accompagnées."
+ ],
+ "pourquoi": [
+  "Selon le rapport, la suppression du numerus clausus n'a pas suffi à enrayer la pénurie de médecins, surtout de généralistes.",
+  "En 2023, le rapporteur estimait que le nombre de généralistes risquait de passer de 99 500 à 80 000 en 2025 sans nouvelles mesures."
+ ],
+ "change": [
+  [
+   "Numerus apertus fondé d'abord sur les capacités de formation.",
+   "Fondé d'abord sur les besoins de santé.",
+   "Universités",
+   "Selon les décrets d'application"
+  ]
+ ],
+ "pasfait": [
+  "Il ne régule pas l'installation des médecins : il porte sur leur formation.",
+  "Il ne fixe ni nombre minimal d'étudiants ni budget supplémentaire pour les universités."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Nicolas Turquois (Les Démocrates)",
+    "arg": "« 6 millions de personnes sont aujourd'hui sans médecin traitant, dont près de 600 000 souffrent pourtant d'une affection de longue durée. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B1930.html"
+   },
+   {
+    "qui": "Thierry Frappé (RN)",
+    "arg": "Le numerus apertus doit « tenir compte des besoins, plutôt que des capacités ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B1930.html"
+   },
+   {
+    "qui": "Frédéric Valletoux (Horizons)",
+    "arg": "Il partage la volonté de redonner des responsabilités aux acteurs de terrain et d'accueillir plus de jeunes en médecine.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B1930.html"
+   },
+   {
+    "qui": "Paul-André Colombani (LIOT)",
+    "arg": "Il soutient l'article 1er, même s'il ne partage « pas toujours les remèdes proposés » dans les textes sur l'accès aux soins.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B1930.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Caroline Fiat (La France insoumise)",
+    "arg": "La « fausse suppression du numerus clausus » n'aurait permis d'augmenter le nombre d'étudiants « que de 5 % », quand il faudrait « au moins 20 % ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B1930.html"
+   },
+   {
+    "qui": "Sébastien Peytavie (écologiste)",
+    "arg": "La pénurie de médecins généralistes « fut délibérément organisée dès les années 1970 par l'État ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B1930.html"
+   },
+   {
+    "qui": "Pierre Dharréville (communiste)",
+    "arg": "Un vrai plan de formation est nécessaire : « Nous devons former plus et mieux. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B1930.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Assemblée : adoptée le 7 décembre 2023. Sénat : adoptée le 18 juin 2025, alors que l'auteur, Yannick Neuder, était devenu ministre chargé de la Santé."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Yannick Neuder, Assemblée nationale, 16e législature (n° 1930)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B1930.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée nationale le 7 décembre 2023",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L16BTA0211.raw"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl23-189.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L16N48758"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-23"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

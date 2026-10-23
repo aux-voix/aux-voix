@@ -1,0 +1,118 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51973",
+ "titre_officiel": "Proposition de loi visant à garantir un cadre fiscal stable, juste et lisible pour nos micro-entrepreneurs et nos petites entreprises",
+ "phrase": "La loi annule l'abaissement à 25 000 euros du seuil sous lequel les micro-entrepreneurs ne facturent pas la TVA.",
+ "note": "Loi promulguée en novembre 2025, adoptée à l'unanimité à l'Assemblée.",
+ "essentiel": {
+  "points": [
+   "Les petites entreprises qui gagnent peu ne facturent pas la TVA : c'est la « franchise en base ».",
+   "Le budget 2025 prévoyait de baisser ce seuil à 25 000 euros de chiffre d'affaires pour tous, ce qui aurait obligé des milliers d'auto-entrepreneurs à facturer la TVA.",
+   "Face à la colère, la réforme a été suspendue ; cette loi l'annule et maintient les seuils de 37 500 et 85 000 euros."
+  ],
+  "pour": "Tous les groupes : protéger les auto-entrepreneurs d'une hausse brutale de leurs prix et mettre fin à l'incertitude.",
+  "contre": "Personne ne s'y est opposé ; le gouvernement souhaitait une autre réforme, jugeant que le système actuel crée des distorsions de concurrence."
+ },
+ "court": {
+  "resume": [
+   "Selon le Sénat, la franchise en base bénéficie à environ 2,1 millions de petites entreprises.",
+   "Les seuils sont de 85 000 euros pour la vente de biens et de 37 500 euros pour les services ; la réforme visait un seuil unique de 25 000 euros.",
+   "Une pétition sur le site du Sénat contre la réforme a recueilli plus de 100 000 signatures."
+  ],
+  "change": [
+   [
+    "Seuil unique de 25 000 euros prévu, puis suspendu.",
+    "Réforme annulée : seuils de 37 500 et 85 000 euros maintenus.",
+    "Auto-entrepreneurs, très petites entreprises"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Paul Midy (Ensemble pour la République), auteur",
+    "arg": "Un « traquenard fiscal qui toucherait 200 000 auto-entrepreneurs », avec « 4 000 euros de taxes supplémentaires » en année pleine.",
+    "source": "https://lcp.fr/actualites/auto-entrepreneurs-les-deputes-votent-pour-l-abrogation-de-la-reforme-du-seuil-de-tva"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Véronique Louwagie, ministre chargée des PME",
+    "arg": "Elle souhaitait préparer une autre réforme pour 2026, le système actuel créant selon elle des « distorsions de concurrence ».",
+    "source": "https://lcp.fr/actualites/auto-entrepreneurs-les-deputes-votent-pour-l-abrogation-de-la-reforme-du-seuil-de-tva"
+   }
+  ]
+ },
+ "resume": [
+  "La franchise en base de TVA dispense les petites entreprises de facturer la TVA à leurs clients tant que leur chiffre d'affaires reste sous certains seuils.",
+  "La loi de finances pour 2025 avait institué un seuil unique de 25 000 euros, introduit par un amendement du gouvernement Barnier ; l'État en attendait environ 400 millions d'euros.",
+  "Face à la forte opposition, le gouvernement a reporté puis suspendu la réforme pour 2025 ; la loi donne une base légale à cette suspension et annule la réforme.",
+  "Les seuils restent fixés à 85 000 euros pour les ventes de biens et l'hébergement, et à 37 500 euros pour les autres prestations de services.",
+  "Le texte a été proposé par Paul Midy (Ensemble pour la République) ; une commission sénatoriale avait dénoncé « l'improvisation » de la réforme."
+ ],
+ "pourquoi": [
+  "Selon Paul Midy, « l'insécurité juridique actuelle stresse des centaines de milliers d'auto-entrepreneurs ».",
+  "Selon le Sénat, la réforme aurait eu des conséquences « préjudiciables » pour de nombreux secteurs et professions."
+ ],
+ "change": [
+  [
+   "Réforme suspendue, sans base légale claire.",
+   "Réforme annulée.",
+   "Micro-entrepreneurs",
+   "Depuis novembre 2025"
+  ]
+ ],
+ "pasfait": [
+  "Il ne relève pas les seuils : il maintient ceux en vigueur.",
+  "Il n'empêche pas une future réforme de la franchise de TVA dans une loi de finances."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Paul Midy (Ensemble pour la République), auteur",
+    "arg": "« C'est une mauvaise mesure » : il faut garantir son annulation.",
+    "source": "https://lcp.fr/actualites/auto-entrepreneurs-les-deputes-votent-pour-l-abrogation-de-la-reforme-du-seuil-de-tva"
+   },
+   {
+    "qui": "Emmanuel Maurel (Gauche démocrate et républicaine)",
+    "arg": "Il soutient le texte, mais rappelle que la réforme venait d'un amendement « en catimini » du gouvernement.",
+    "source": "https://lcp.fr/actualites/auto-entrepreneurs-les-deputes-votent-pour-l-abrogation-de-la-reforme-du-seuil-de-tva"
+   },
+   {
+    "qui": "La commission des finances du Sénat",
+    "arg": "Elle a relevé « l'improvisation et l'impréparation » de la réforme des seuils.",
+    "source": "https://www.senat.fr/rap/l25-025/l25-025-syn.pdf"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucune opposition : le texte a été adopté à l'unanimité à l'Assemblée. Le gouvernement, par la voix de Véronique Louwagie, souhaitait toutefois rouvrir le sujet dans le budget 2026."
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée : adopté à l'unanimité le 2 juin 2025. Sénat : adopté le 23 octobre 2025. Loi promulguée début novembre 2025."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "« Auto-entrepreneurs : les députés votent pour l'abrogation de la réforme du seuil de TVA », LCP",
+   "url": "https://lcp.fr/actualites/auto-entrepreneurs-les-deputes-votent-pour-l-abrogation-de-la-reforme-du-seuil-de-tva"
+  },
+  {
+   "titre": "L'essentiel du rapport du Sénat",
+   "url": "https://www.senat.fr/rap/l25-025/l25-025-syn.pdf"
+  },
+  {
+   "titre": "« Promulgation de la loi stabilisant les seuils de la franchise en base de la TVA », LégiFiscal",
+   "url": "https://www.legifiscal.fr/actualites-fiscales/4317-promulgation-loi-stabilisant-seuils-franchise-base-tva.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51973"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

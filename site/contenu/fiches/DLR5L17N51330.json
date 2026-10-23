@@ -1,0 +1,143 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51330",
+ "titre_officiel": "Proposition de loi visant à renforcer l’effectivité des droits voisins de la presse",
+ "phrase": "L'Arcom pourrait forcer les plateformes comme Google à informer la presse, et fixer elle-même ce qu'elles doivent payer aux journaux. Le texte n'est pas définitif.",
+ "note": "Adopté à l'unanimité par l'Assemblée le 26 mars 2026, puis modifié par le Sénat le 16 juin 2026 : le texte doit revenir à l'Assemblée.",
+ "essentiel": {
+  "points": [
+   "Depuis 2019, les plateformes qui reprennent des articles de presse doivent payer les journaux : ce sont les « droits voisins ».",
+   "Mais les négociations traînent : certaines plateformes refusent de donner les chiffres nécessaires ou de signer un accord.",
+   "Le texte confie à l'Arcom le pouvoir d'exiger ces informations, de sanctionner et, à défaut d'accord, de fixer le montant."
+  ],
+  "pour": "Tous les groupes l'ont votée : les grandes plateformes captent la publicité et doivent payer l'information qu'elles utilisent.",
+  "contre": "Personne ne s'y est opposé. La gauche juge qu'il faudrait aussi garantir la part versée aux journalistes."
+ },
+ "court": {
+  "resume": [
+   "Les recettes publicitaires de la presse sont passées de 3,1 milliards d'euros en 2012 à 1,6 milliard en 2025, selon le Sénat ; une grande part va aux plateformes.",
+   "La loi de 2019 a créé un droit à rémunération, mais l'Autorité de la concurrence a dû sanctionner Google (500 millions d'euros en 2021, 250 millions en 2024).",
+   "Le texte d'Erwan Balanant (Démocrates) donne à l'Arcom, le régulateur de l'audiovisuel et du numérique, des pouvoirs pour faire respecter ce droit."
+  ],
+  "change": [
+   [
+    "Les plateformes doivent informer la presse, sans contrôle ni sanction.",
+    "Délai de 30 jours ; l'Arcom peut mettre en demeure, puis sanctionner jusqu'à 1 % du chiffre d'affaires mondial.",
+    "Plateformes"
+   ],
+   [
+    "Sans accord, il faut aller en justice ou devant l'Autorité de la concurrence.",
+    "Après 3 mois sans accord, l'Arcom peut fixer la rémunération.",
+    "Éditeurs, plateformes"
+   ],
+   [
+    "—",
+    "Interdiction de réduire la visibilité des articles pendant la négociation.",
+    "Éditeurs de presse"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Arnaud Sanvert (RN)",
+    "arg": "« Google et consorts ont tout fait pour contourner la loi, refusant de négocier, exploitant des failles juridiques. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0991.html"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "Les plateformes doivent fournir aux éditeurs et agences de presse les informations sur l'utilisation de leurs contenus et sur le calcul de la rémunération, mises à jour chaque année.",
+  "Sans réponse sous trente jours, l'éditeur peut saisir l'Arcom, qui peut mettre la plateforme en demeure puis la sanctionner jusqu'à 1 % de son chiffre d'affaires annuel mondial.",
+  "La négociation doit être de bonne foi ; pendant celle-ci, la plateforme ne peut pas réduire la visibilité ou l'affichage des contenus de presse.",
+  "Sans accord après trois mois, l'Arcom peut être saisie : dans les deux mois, elle retient la proposition conforme à la loi ou fixe elle-même le montant, sous le contrôle du juge.",
+  "Les éditeurs doivent communiquer aux représentants des journalistes le montant des droits perçus, pour négocier leur part."
+ ],
+ "pourquoi": [
+  "Selon le rapport du Sénat, Meta aurait réduit ses versements aux éditeurs d'environ 20 à 4 millions d'euros après la fin de Facebook News, et des plateformes n'ont toujours aucun accord.",
+  "La Cour de justice de l'Union européenne a validé en mai 2026 un dispositif italien comparable, confié au régulateur des communications, selon le même rapport."
+ ],
+ "change": [
+  [
+   "—",
+   "Obligation d'information contrôlée par l'Arcom, avec sanctions.",
+   "Plateformes",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "—",
+   "Fixation de la rémunération par l'Arcom en cas d'échec des négociations.",
+   "Éditeurs, agences de presse",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "—",
+   "Transparence des montants envers les représentants des journalistes.",
+   "Journalistes",
+   "Si le texte est adopté définitivement"
+  ]
+ ],
+ "pasfait": [
+  "Il ne fixe pas lui-même de barème de rémunération.",
+  "Il ne garantit pas de montant minimum aux journalistes, mais oblige à les informer.",
+  "Il n'est pas définitif : le Sénat l'a modifié."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Violette Spillebout (Ensemble pour la République)",
+    "arg": "Malgré leur obligation, « certaines plateformes, comme X et LinkedIn, n'ont toujours pas conclu d'accord » avec la presse.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0991.html"
+   },
+   {
+    "qui": "Emmanuel Grégoire (socialiste)",
+    "arg": "Le texte corrige « l'inefficacité de la loi de juillet 2019 » ; si les contenus disparaissent, les plateformes elles-mêmes y perdront.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0991.html"
+   },
+   {
+    "qui": "Soumya Bourouaha (Gauche démocrate et républicaine)",
+    "arg": "« Les Gafam vampirisent les contenus de la presse en ligne » : les grandes plateformes récupèrent 75 % des revenus publicitaires en ligne.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0991.html"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucune opposition : le texte a été adopté à l'unanimité. Sarah Legrain (LFI) a regretté que rien ne garantisse la part revenant aux journalistes ; Sophie Taillé-Polian (écologiste) a jugé qu'il ne règle pas les problèmes plus généraux de la presse ; le rapporteur du Sénat a demandé davantage de moyens pour l'Arcom."
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée : 109 pour, 0 contre (26 mars 2026, scrutin n° 5831). Sénat : adopté avec modifications le 16 juin 2026."
+  },
+  {
+   "titre": "Ce qu'a changé le Sénat en commission",
+   "texte": "Les sénateurs ont formalisé la procédure de sanction, prévu que les recours contre le montant fixé par l'Arcom aillent devant la cour d'appel de Paris sans suspendre la décision, et présumé couvertes les publications reconnues par la commission paritaire des publications et agences de presse."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport d'Erwan Balanant, Assemblée nationale (n° 991)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0991.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 250)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0250.raw"
+  },
+  {
+   "titre": "Rapport du Sénat (n° 720)",
+   "url": "https://www.senat.fr/rap/l25-720/l25-7201.pdf"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51330"
+  },
+  {
+   "titre": "Scrutin n° 5831 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/5831"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

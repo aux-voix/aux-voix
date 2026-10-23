@@ -1,0 +1,125 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51984",
+ "titre_officiel": "Projet de loi organique relatif au Département-Région de Mayotte",
+ "phrase": "Cette loi organique accompagne la refondation de Mayotte : la collectivité devient le « Département-Région de Mayotte », avec une assemblée dont les élus ont le statut d'élus régionaux.",
+ "note": "Loi organique promulguée le 11 août 2025, adoptée sans opposition.",
+ "essentiel": {
+  "points": [
+   "Depuis 2011, Mayotte est un département qui exerce aussi les compétences d'une région.",
+   "La loi le renomme « Département-Région de Mayotte » et donne aux élus de la future assemblée de Mayotte le statut d'élus régionaux.",
+   "Le mode d'élection de cette assemblée figure dans la loi de refondation, votée le même jour."
+  ],
+  "pour": "Tous les groupes l'ont votée : une évolution institutionnelle attendue.",
+  "contre": "Personne ne s'y est opposé ; les débats ont porté sur le mode de scrutin, fixé par l'autre loi."
+ },
+ "court": {
+  "resume": [
+   "Une loi organique est nécessaire pour toucher à certaines règles précisées par la Constitution, comme les incompatibilités des élus ou les parrainages pour l'élection présidentielle.",
+   "Les conseillers à l'assemblée de Mayotte relèvent des mêmes règles que les élus des autres collectivités régionales : inéligibilités, incompatibilités, droit de parrainer un candidat à la présidentielle.",
+   "Le Conseil constitutionnel a jugé ses cinq articles conformes le 7 août 2025."
+  ],
+  "change": [
+   [
+    "Département de Mayotte.",
+    "Département-Région de Mayotte.",
+    "Institutions mahoraises"
+   ],
+   [
+    "Conseillers départementaux.",
+    "Conseillers à l'assemblée de Mayotte, au statut d'élus régionaux.",
+    "Élus mahorais"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Philippe Vigier (Les Démocrates), rapporteur",
+    "arg": "Il salue « une évolution institutionnelle longtemps attendue, avec la transformation du département en région et la création de l'assemblée de Mayotte ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1681.html"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "La loi organique renomme la collectivité « Département-Région de Mayotte » dans le code général des collectivités territoriales et supprime des dispositions propres à l'ancien département.",
+  "Elle aligne le régime des conseillers à l'assemblée de Mayotte sur celui des autres collectivités régionales : inéligibilités, incompatibilités, droit de présentation à l'élection présidentielle.",
+  "La loi ordinaire de refondation, votée le même jour, crée l'assemblée de Mayotte : 52 membres élus pour six ans au scrutin de liste à deux tours, dans une circonscription unique divisée en 13 sections.",
+  "Comme toute loi organique, elle a été examinée d'office par le Conseil constitutionnel, qui l'a déclarée conforme (décision n° 2025-893 DC)."
+ ],
+ "pourquoi": [
+  "Selon le rapporteur Philippe Vigier, la transformation du département en région est « longtemps attendue ».",
+  "Une partie des règles sur les élus et les collectivités d'outre-mer relève de la loi organique, d'où un texte séparé de la loi de refondation."
+ ],
+ "change": [
+  [
+   "Département de Mayotte.",
+   "Département-Région de Mayotte.",
+   "Collectivité",
+   "Depuis août 2025"
+  ],
+  [
+   "Statut de conseiller départemental.",
+   "Statut d'élu régional.",
+   "Conseillers à l'assemblée de Mayotte",
+   "À la création de l'assemblée"
+  ]
+ ],
+ "pasfait": [
+  "Il ne fixe pas le mode d'élection de l'assemblée de Mayotte : c'est la loi de refondation qui le fait.",
+  "Il ne contient pas les mesures sociales ou migratoires, qui figurent dans la loi de refondation."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Philippe Vigier (Les Démocrates), rapporteur",
+    "arg": "La réforme institutionnelle est l'un des « quatre piliers fondamentaux » de la refondation de Mayotte.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1681.html"
+   },
+   {
+    "qui": "Outremers360 (France-Mayotte Matin)",
+    "arg": "La réforme vise « à renforcer l'ancrage institutionnel de Mayotte dans la République tout en clarifiant son organisation politique ».",
+    "source": "https://outremers360.com/bassin-atlantique-appli/la-loi-mayotte-validee-par-le-conseil-constitutionnel-sous-conditions-strictes"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucune opposition : 537 voix pour et 0 contre en première lecture à l'Assemblée, puis 525 voix contre 2 en lecture finale."
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Assemblée : adopté le 1er juillet 2025 (537 voix contre 0). Accord en commission mixte paritaire le 8 juillet ; texte adopté par l'Assemblée le 9 juillet (525 voix contre 2) et par le Sénat le 10 juillet 2025."
+  },
+  {
+   "titre": "Le mode de scrutin",
+   "texte": "Fixé par la loi ordinaire, le découpage en 13 sections, voulu par le Sénat, a été critiqué par la députée Estelle Youssouffa (LIOT), qui préférait cinq sections pour respecter le pluralisme politique."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "« La loi Mayotte validée par le Conseil constitutionnel sous conditions strictes », Outremers360",
+   "url": "https://outremers360.com/bassin-atlantique-appli/la-loi-mayotte-validee-par-le-conseil-constitutionnel-sous-conditions-strictes"
+  },
+  {
+   "titre": "Décision n° 2025-893 DC du Conseil constitutionnel",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2025/2025893DC.htm"
+  },
+  {
+   "titre": "Rapport de la commission mixte paritaire sur la loi de refondation (n° 1681)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1681.html"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/pjl24-545.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51984"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

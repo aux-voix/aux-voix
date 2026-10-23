@@ -1,0 +1,140 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51713",
+ "titre_officiel": "Proposition de loi visant à l’extension et au renforcement du droit de préemption commercial",
+ "phrase": "Une commune pourrait préempter un commerce de proximité même quand il est vendu via les parts de la société qui le détient. Le Sénat doit encore voter.",
+ "note": "Texte adopté par l'Assemblée en première lecture le 16 février 2026 (57 voix contre 15). Le Sénat doit encore l'examiner.",
+ "essentiel": {
+  "points": [
+   "Depuis 2005, une commune peut racheter en priorité un fonds de commerce ou un bail commercial mis en vente, pour garder des commerces variés.",
+   "Ce droit est contourné quand le commerçant vend les parts de sa société au lieu du commerce lui-même.",
+   "Le texte étend la préemption à la vente de la majorité des parts d'une société dont le principal actif est un commerce de proximité."
+  ],
+  "pour": "La majorité, la gauche et la droite républicaine : il faut empêcher ce contournement et préserver les centres-villes.",
+  "contre": "Le RN a voté contre : il juge le texte mal conçu et risqué pour l'argent public, et pointe d'autres causes au déclin des centres-villes."
+ },
+ "court": {
+  "resume": [
+   "62 % des communes n'ont plus de commerce, contre 25 % en 1981, selon les Commerçants de France cités par le rapporteur.",
+   "Le droit de préemption commercial a par exemple permis à Saint-Cloud, en 2017, d'éviter qu'une librairie soit remplacée par des pompes funèbres.",
+   "Le texte de Pierre Cazeneuve (Ensemble pour la République) vise les ventes de parts sociales qui permettent d'y échapper."
+  ],
+  "change": [
+   [
+    "Préemption sur la vente d'un fonds, d'un bail ou d'un terrain commercial.",
+    "Aussi sur la vente de la majorité des parts d'une société dont le principal actif est un commerce de proximité.",
+    "Communes, commerçants"
+   ],
+   [
+    "—",
+    "Exception pour les sociétés familiales (parents jusqu'au 4e degré).",
+    "Commerces familiaux"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Vincent Rolland (Droite républicaine)",
+    "arg": "Le texte « comble une faille juridique qui affaiblissait l'action des communes dans la préservation du commerce de proximité ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2396.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Frédéric-Pierre Vos (RN)",
+    "arg": "Une préemption partielle reviendrait à « brader l'argent du contribuable » et à faire des communes les associées de commerçants.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2396.html"
+   }
+  ]
+ },
+ "resume": [
+  "Le droit de préemption commercial (loi de 2005) permet à une commune d'acquérir en priorité un fonds de commerce, un fonds artisanal, un bail commercial ou certains terrains commerciaux mis en vente, dans un périmètre de sauvegarde.",
+  "Le texte l'étend à la cession de la majorité des titres d'une société dont l'actif principal est un fonds de commerce ou artisanal exploité pour une activité de proximité.",
+  "L'actif est principal lorsque la valeur du fonds dépasse celle de chacun des autres biens de la société.",
+  "Les sociétés constituées exclusivement entre parents et alliés jusqu'au quatrième degré sont exclues.",
+  "La règle s'appliquerait aux cessions intervenant trois mois après la promulgation."
+ ],
+ "pourquoi": [
+  "Selon le rapporteur, des commerçants cèdent les parts de leur société plutôt que le fonds pour échapper à la préemption, alors que le commerce change bien de mains.",
+  "Après une préemption, la commune doit trouver un repreneur dans les deux ans ; l'opération de Saint-Cloud a coûté près de 80 000 euros, selon le rapport."
+ ],
+ "change": [
+  [
+   "—",
+   "Préemption des parts majoritaires d'une société commerciale de proximité.",
+   "Communes",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "—",
+   "Exclusion des sociétés familiales.",
+   "Commerçants",
+   "Si le texte est adopté définitivement"
+  ]
+ ],
+ "pasfait": [
+  "Il n'oblige pas les communes à préempter et ne finance pas ces opérations.",
+  "Il ne s'applique pas aux sociétés familiales.",
+  "Il n'est pas en vigueur : le Sénat doit l'examiner."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Annaïg Le Meur (Ensemble pour la République)",
+    "arg": "« Le commerce de proximité est le cœur battant de nos communes », alors que de plus en plus de communes n'en ont plus.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2396.html"
+   },
+   {
+    "qui": "Vincent Rolland (Droite républicaine)",
+    "arg": "Le critère du contrôle majoritaire de la société empêchera les montages qui contournent la préemption.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2396.html"
+   },
+   {
+    "qui": "Boris Tavernier (écologiste)",
+    "arg": "La proposition de loi donne aux maires « une arme supplémentaire » contre l'uniformisation des commerces ; elle « ne suffira pas », « mais elle est bienvenue ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2396.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Frédéric-Pierre Vos (RN)",
+    "arg": "Le texte confond le local et le fonds de commerce ; si la préemption est permise, elle devrait être totale et non partielle.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2396.html"
+   },
+   {
+    "qui": "Frédéric-Pierre Vos (RN)",
+    "arg": "Le déclin des centres-villes viendrait surtout de choix locaux (stationnement, zones à faibles émissions) et de l'insécurité.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2396.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée : 57 pour, 15 contre (RN et un UDR), 16 février 2026, scrutin n° 5432."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Pierre Cazeneuve, Assemblée nationale (n° 2396)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2396.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 240)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0240.raw"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51713"
+  },
+  {
+   "titre": "Scrutin n° 5432 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/5432"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

@@ -1,0 +1,157 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51429",
+ "titre_officiel": "Proposition de loi visant à faciliter le maintien en rétention des personnes condamnées pour des faits d’une particulière gravité et présentant de forts risques de récidive",
+ "phrase": "Le texte voulait garder jusqu'à 210 jours en rétention des étrangers condamnés pour des faits graves ; le Conseil constitutionnel a censuré cette mesure centrale.",
+ "note": "Loi promulguée en août 2025, après une décision du Conseil constitutionnel qui en a censuré les principaux articles.",
+ "essentiel": {
+  "points": [
+   "Un étranger qui doit quitter la France peut être placé en centre de rétention le temps d'organiser son départ, en principe 90 jours au plus.",
+   "Le texte voulait porter ce maximum à 210 jours pour des étrangers condamnés pour des crimes ou délits graves, comme pour le terrorisme.",
+   "Le Conseil constitutionnel a censuré cet allongement ; il a validé la prise d'empreintes sans consentement, sous conditions."
+  ],
+  "pour": "Droite, RN, macronistes, MoDem, Horizons et LIOT : protéger la population contre des étrangers dangereux qu'on ne parvient pas à expulser à temps.",
+  "contre": "Gauche : un texte « liberticide », écrit sous le coup de l'émotion après un crime, qui porte atteinte aux libertés."
+ },
+ "court": {
+  "resume": [
+   "Le texte, déposé au Sénat par Jacqueline Eustache-Brinio (LR), répondait au meurtre d'une étudiante à Paris en 2024 : le suspect, sous obligation de quitter le territoire, venait de sortir de rétention.",
+   "Selon le ministre de l'Intérieur de l'époque, l'administration a obtenu « à quelques jours près » le document qui aurait permis son expulsion.",
+   "Le Conseil constitutionnel a jugé l'allongement trop large : il visait aussi des personnes condamnées pour des faits peu graves ou sans menace actuelle démontrée."
+  ],
+  "change": [
+   [
+    "Rétention de 90 jours au plus (210 jours pour le terrorisme).",
+    "Allongement censuré : la règle ne change pas.",
+    "Étrangers condamnés"
+   ],
+   [
+    "Empreintes et photo avec l'accord de la personne.",
+    "Possibles sans consentement, avec l'accord du procureur, si c'est le seul moyen de l'identifier.",
+    "Étrangers en rétention"
+   ],
+   [
+    "—",
+    "Rétention de certains demandeurs d'asile s'ils représentent une menace grave et actuelle.",
+    "Demandeurs d'asile"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Olivier Marleix (Droite républicaine), rapporteur",
+    "arg": "« C'est un texte utile à la protection de nos concitoyens. »",
+    "source": "https://lcp.fr/actualites/meurtre-de-philippine-vers-l-allongement-de-la-duree-de-retention-des-etrangers"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Céline Hervieu (socialiste)",
+    "arg": "« C'est un texte attentatoire à nos libertés publiques et individuelles. »",
+    "source": "https://lcp.fr/actualites/meurtre-de-philippine-vers-l-allongement-de-la-duree-de-retention-des-etrangers"
+   }
+  ]
+ },
+ "resume": [
+  "Article 1er (censuré) : rétention jusqu'à 180, voire 210 jours, pour des étrangers condamnés pour certains crimes et délits graves ou visés par une interdiction du territoire.",
+  "Selon le Conseil constitutionnel, cette mesure ne conciliait pas de façon équilibrée l'ordre public et la liberté individuelle : elle pouvait viser des infractions peu graves, ou s'appliquer sans que l'administration démontre une menace actuelle.",
+  "Article 2 (censuré) : l'appel contre une décision libérant un étranger de rétention devenait suspensif, sans qu'un juge puisse se prononcer sur cet effet.",
+  "Validé : la prise d'empreintes et de photos sans consentement, avec l'autorisation du procureur, en présence d'un avocat, si c'est le seul moyen d'identifier la personne, et jamais pour les mineurs.",
+  "Validé sous réserve : la rétention de demandeurs d'asile qui représentent une menace réelle, actuelle et suffisamment grave pour l'ordre public."
+ ],
+ "pourquoi": [
+  "Selon ses défenseurs, des étrangers dangereux sortent de rétention avant que leur pays d'origine ait délivré le document permettant leur expulsion.",
+  "Le texte s'inspirait de la durée déjà prévue pour les personnes condamnées pour terrorisme."
+ ],
+ "change": [
+  [
+   "Empreintes avec consentement.",
+   "Empreintes possibles sans consentement, sous contrôle du procureur.",
+   "Étrangers en rétention",
+   "Depuis août 2025"
+  ],
+  [
+   "Durée maximale de 90 jours.",
+   "Inchangée après la censure.",
+   "Étrangers condamnés",
+   "—"
+  ]
+ ],
+ "pasfait": [
+  "Il n'allonge finalement pas la durée maximale de rétention : la mesure a été censurée.",
+  "Il ne règle pas la difficulté d'obtenir des pays d'origine les documents nécessaires aux expulsions."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Bruno Retailleau, ministre de l'Intérieur",
+    "arg": "« Cette loi n'est pas une loi d'exception » ; elle respecte le droit national et européen.",
+    "source": "https://lcp.fr/actualites/meurtre-de-philippine-vers-l-allongement-de-la-duree-de-retention-des-etrangers"
+   },
+   {
+    "qui": "Olivier Marleix (Droite républicaine), rapporteur",
+    "arg": "« L'émotion ne peut pas être absente » ; on ne peut pas dire à la fois que c'est un texte d'affichage et qu'il est attentatoire aux libertés.",
+    "source": "https://lcp.fr/actualites/meurtre-de-philippine-vers-l-allongement-de-la-duree-de-retention-des-etrangers"
+   },
+   {
+    "qui": "Charles Rodwell (Ensemble pour la République)",
+    "arg": "L'objectif est de « préserver les familles françaises de criminels qui sont en centre de rétention administrative ».",
+    "source": "https://lcp.fr/actualites/meurtre-de-philippine-vers-l-allongement-de-la-duree-de-retention-des-etrangers"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Céline Hervieu (socialiste)",
+    "arg": "Elle dénonce « l'exploitation d'un crime tragique » et une loi « xénophobe et liberticide ».",
+    "source": "https://lcp.fr/actualites/meurtre-de-philippine-vers-l-allongement-de-la-duree-de-retention-des-etrangers"
+   },
+   {
+    "qui": "Antoine Léaument (La France insoumise)",
+    "arg": "Un texte « contradictoire avec nos valeurs fondamentales ».",
+    "source": "https://lcp.fr/actualites/meurtre-de-philippine-vers-l-allongement-de-la-duree-de-retention-des-etrangers"
+   },
+   {
+    "qui": "Andrée Taurinya (La France insoumise)",
+    "arg": "Sur la prise d'empreintes sous contrainte : « C'est un article abject. »",
+    "source": "https://lcp.fr/actualites/meurtre-de-philippine-vers-l-allongement-de-la-duree-de-retention-des-etrangers"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Sénat : adopté le 18 mars 2025. Assemblée : adopté avec modifications le 8 juillet 2025, par 303 voix contre 168. Sénat : adopté sans modification le 9 juillet 2025."
+  },
+  {
+   "titre": "Le Conseil constitutionnel",
+   "texte": "Saisi par des parlementaires de gauche, il a censuré le 7 août 2025 l'allongement de la rétention (article 1er), l'appel suspensif (article 2) et une disposition liée, et validé le reste, avec deux réserves."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "« Vers l'allongement de la durée de rétention des étrangers condamnés jugés dangereux », LCP",
+   "url": "https://lcp.fr/actualites/meurtre-de-philippine-vers-l-allongement-de-la-duree-de-retention-des-etrangers"
+  },
+  {
+   "titre": "Rapport d'Olivier Marleix, Assemblée nationale (n° 1640)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cion_lois/l17b1640_rapport-fond.pdf"
+  },
+  {
+   "titre": "Décision n° 2025-895 DC du Conseil constitutionnel",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2025/2025895DC.htm"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl24-298.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51429"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

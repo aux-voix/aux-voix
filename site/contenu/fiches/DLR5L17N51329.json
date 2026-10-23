@@ -1,0 +1,164 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51329",
+ "titre_officiel": "Proposition de loi visant à simplifier la sortie de l’indivision et la gestion des successions vacantes",
+ "phrase": "La loi facilite la vente des biens bloqués quand des héritiers ne s'entendent pas, ou quand une succession n'a pas d'héritier connu.",
+ "note": "Loi promulguée en avril 2026, adoptée sans voix contre en deuxième lecture à l'Assemblée.",
+ "essentiel": {
+  "points": [
+   "Quand plusieurs héritiers possèdent ensemble un bien (indivision), il faut en principe l'accord de tous pour le vendre.",
+   "Des maisons restent ainsi vides et se dégradent pendant des années, au détriment des familles et des communes.",
+   "La loi simplifie le partage devant le juge, aide l'État à vendre les biens sans héritier et informe mieux les maires."
+  ],
+  "pour": "Tous les groupes : des familles et des communes sont bloquées par des indivisions qui durent parfois des décennies.",
+  "contre": "Personne n'a voté contre la version finale. Les communistes avaient combattu la version initiale, qui facilitait la vente forcée à la majorité."
+ },
+ "court": {
+  "resume": [
+   "Selon le rapport, vendre un bien en indivision exige l'unanimité : un seul héritier absent ou opposé peut tout bloquer, et le partage devant le juge est long et coûteux.",
+   "Le texte de Louise Morel (Démocrates) voulait s'inspirer des règles plus souples de la Corse, de l'outre-mer et de l'Alsace-Moselle.",
+   "Le Sénat a abandonné la baisse de la majorité nécessaire et ajouté une réforme du partage judiciaire ; l'Assemblée a accepté cette version."
+  ],
+  "change": [
+   [
+    "Partage judiciaire en plusieurs étapes, devant plusieurs juges.",
+    "Le juge chargé du partage tranche aussi les contestations et ordonne les ventes aux enchères.",
+    "Héritiers en conflit"
+   ],
+   [
+    "Vente bloquée quand un bien indivis relève d'une succession vacante.",
+    "Le président du tribunal peut autoriser un indivisaire à conclure seul la vente.",
+    "Indivisaires, État curateur"
+   ],
+   [
+    "Les maires manquent d'informations sur les biens sans maître.",
+    "Le fisc leur transmet les informations utiles, à leur demande.",
+    "Communes"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Philippe Latombe (Démocrates)",
+    "arg": "La règle de l'unanimité « offre trop souvent un droit de véto absolu à la rancœur familiale ou, plus simplement, à l'indifférence d'un seul héritier ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2524.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Elsa Faucillon (Gauche démocrate et républicaine)",
+    "arg": "Le texte a été assagi, mais « la crise du logement que traverse notre pays n'est pas d'abord une crise de l'indivision successorale ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2524.html"
+   }
+  ]
+ },
+ "resume": [
+  "Sur demande du maire ou du président d'intercommunalité, le fisc transmet les informations nécessaires pour acquérir un « bien sans maître », quand la commune justifie d'un doute légitime sur l'identité ou la vie du propriétaire.",
+  "L'administration du domaine, curatrice des successions vacantes, peut publier sa désignation en ligne, vendre meubles et immeubles et donner mandat pour signer les ventes.",
+  "Le président du tribunal judiciaire peut autoriser un indivisaire à conclure seul la vente d'un bien indivis.",
+  "En Corse, la vente ou le partage à la majorité des deux tiers devant notaire est précisé : sans opposition dans les trois mois, il s'impose aux autres ; en cas d'opposition, le juge peut l'autoriser.",
+  "Le partage judiciaire est simplifié : le juge commis aux opérations de partage tranche les contestations et ordonne les ventes aux enchères (licitations)."
+ ],
+ "pourquoi": [
+  "Selon l'Insee, cité par Sébastien Huyghe (Ensemble pour la République), la France comptait 3 millions de logements vacants en 2025 ; certaines indivisions durent de dix à quarante ans.",
+  "Un rapport de l'Inspection générale de la justice (2021) classait les partages judiciaires parmi les « dossiers civils lents et complexes »."
+ ],
+ "change": [
+  [
+   "Partage judiciaire morcelé.",
+   "Juge du partage compétent pour les contestations et les licitations.",
+   "Héritiers",
+   "Depuis avril 2026"
+  ],
+  [
+   "—",
+   "Vente seule autorisée par le président du tribunal.",
+   "Indivisaires",
+   "Depuis avril 2026"
+  ],
+  [
+   "Règle corse des deux tiers inutilisée.",
+   "Procédure précisée devant notaire, avec contrôle du juge en cas d'opposition.",
+   "Propriétaires en Corse",
+   "Depuis avril 2026"
+  ]
+ ],
+ "pasfait": [
+  "Il n'abaisse pas, hors de Corse, la majorité nécessaire pour vendre un bien indivis : cette mesure votée par l'Assemblée a été supprimée par le Sénat.",
+  "Il n'étend pas à toute la France la procédure de la loi « Letchimy » applicable en outre-mer.",
+  "Il ne crée pas la base de données des biens abandonnés envisagée au départ."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Sébastien Huyghe (Ensemble pour la République)",
+    "arg": "Une indivision devrait rester temporaire, mais certaines indivisions conflictuelles « se prolongent pendant dix, vingt, trente, voire quarante ans ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2524.html"
+   },
+   {
+    "qui": "Céline Thiébault-Martinez (socialiste)",
+    "arg": "Derrière les articles du code civil, « des maisons fermées qui se dégradent, un voisinage qui se plaint, des fratries divisées ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2524.html"
+   },
+   {
+    "qui": "Léa Balage El Mariky (écologiste)",
+    "arg": "« Près d'un quart des logements vacants sont liés à des situations d'indivision », en pleine crise du logement.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2524.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Elsa Faucillon (Gauche démocrate et républicaine)",
+    "arg": "La version initiale comportait des dispositions « particulièrement contestables », comme l'abaissement des seuils qui permettaient de forcer la vente d'un bien.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2524.html"
+   },
+   {
+    "qui": "Sophie Ricourt Vaginay (UDR)",
+    "arg": "Le texte a perdu en chemin le rôle central confié au notaire et l'expérimentation votée par l'Assemblée.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2524.html"
+   },
+   {
+    "qui": "Michel Guiniot (RN)",
+    "arg": "Son groupe a été « surpris de voir à quel point » le texte a été modifié par les sénateurs et le gouvernement.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2524.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Première lecture : 55 pour, 1 contre (communiste), 6 mars 2025, scrutin n° 921. Deuxième lecture : 65 pour, 0 contre, 26 mars 2026, scrutin n° 5832, sans modification."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Louise Morel et Nicolas Turquois, première lecture (n° 1004)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1004.html"
+  },
+  {
+   "titre": "Rapport de deuxième lecture, Assemblée nationale (n° 2524)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2524.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 251)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0251.raw"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51329"
+  },
+  {
+   "titre": "Scrutin n° 921 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/921"
+  },
+  {
+   "titre": "Scrutin n° 5832 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/5832"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

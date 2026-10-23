@@ -1,0 +1,162 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51349",
+ "titre_officiel": "Proposition de loi visant à modifier la définition pénale du viol et des agressions sexuelles",
+ "phrase": "Le code pénal définit désormais le viol et les agressions sexuelles comme « tout acte sexuel non consenti », et précise ce qu'est un consentement.",
+ "note": "Loi promulguée en novembre 2025.",
+ "essentiel": {
+  "points": [
+   "Avant, le viol était défini par l'usage de violence, contrainte, menace ou surprise, sans parler du consentement.",
+   "Désormais, toute agression sexuelle est « tout acte sexuel non consenti » ; les quatre critères anciens restent des cas où il n'y a pas de consentement.",
+   "Le consentement doit être libre, éclairé, spécifique, préalable et révocable ; le silence ou l'absence de réaction ne vaut pas accord."
+  ],
+  "pour": "Presque tous les groupes : mieux protéger les victimes et cesser de centrer l'enquête sur leur comportement.",
+  "contre": "Le RN et l'UDR ont voté contre : une notion jugée « subjective », qui risquerait de nuire aux femmes."
+ },
+ "court": {
+  "resume": [
+   "Le texte a été porté par les députées Véronique Riotton (Ensemble pour la République) et Marie-Charlotte Garin (écologiste).",
+   "Le Conseil d'État estimait qu'il permettrait de consolider « les avancées de la jurisprudence ».",
+   "Le consentement s'apprécie « au regard des circonstances », un mot choisi en compromis entre l'Assemblée et le Sénat."
+  ],
+  "change": [
+   [
+    "Viol défini par violence, contrainte, menace ou surprise.",
+    "Défini comme tout acte sexuel non consenti.",
+    "Victimes, enquêteurs, juges"
+   ],
+   [
+    "Pas de définition du consentement dans la loi.",
+    "Consentement libre, éclairé, spécifique, préalable et révocable.",
+    "Tout le monde"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Véronique Riotton (Ensemble pour la République), co-autrice",
+    "arg": "« Nous cessons de faire du comportement de la victime le cœur de l'enquête. »",
+    "source": "https://lcp.fr/actualites/non-consentement-dans-la-definition-penale-du-viol-apres-le-vote-de-l-assemblee-le-texte"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Sophie Blanc (RN)",
+    "arg": "« On ne jugera plus les faits, on jugera les intentions supposées et les ressentis. »",
+    "source": "https://lcp.fr/actualites/non-consentement-dans-la-definition-penale-du-viol-apres-le-vote-de-l-assemblee-le-texte"
+   }
+  ]
+ },
+ "resume": [
+  "La loi modifie l'article 222-22 du code pénal : les agressions sexuelles, dont le viol, sont définies comme « tout acte sexuel non consenti ».",
+  "« Le consentement est libre et éclairé, spécifique, préalable et révocable. Il est apprécié au regard des circonstances. Il ne peut être déduit du seul silence ou de la seule absence de réaction de la victime. »",
+  "Il n'y a pas de consentement si l'acte est commis avec violence, contrainte, menace ou surprise, quelle que soit leur nature : les critères de l'ancienne définition sont conservés.",
+  "Selon un magistrat entendu par le Sénat, prouver l'intention de l'auteur était l'obstacle principal aux condamnations ; le texte doit aussi uniformiser les décisions de justice.",
+  "L'Assemblée avait retenu « circonstances environnantes », le Sénat « contexte » ; la commission mixte paritaire a choisi « circonstances »."
+ ],
+ "pourquoi": [
+  "Selon ses autrices, l'ancienne définition conduisait les enquêtes à examiner surtout le comportement de la victime.",
+  "Pour la ministre Aurore Bergé, il s'agit de « passer de la culture du viol à la culture du consentement »."
+ ],
+ "change": [
+  [
+   "Définition fondée sur quatre critères.",
+   "Définition fondée sur l'absence de consentement.",
+   "Victimes, auteurs, juges",
+   "Depuis novembre 2025"
+  ],
+  [
+   "—",
+   "Le silence ne peut pas valoir consentement.",
+   "Victimes",
+   "Depuis novembre 2025"
+  ]
+ ],
+ "pasfait": [
+  "Il ne crée pas de nouvelle infraction : il précise la définition des infractions existantes.",
+  "Il ne modifie pas les peines encourues."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Marie-Charlotte Garin (écologiste), co-autrice",
+    "arg": "« Plus jamais un agresseur ne doit se dire qu'il croyait qu'elle était d'accord. »",
+    "source": "https://lcp.fr/actualites/non-consentement-dans-la-definition-penale-du-viol-apres-le-vote-de-l-assemblee-le-texte"
+   },
+   {
+    "qui": "Aurore Bergé, ministre chargée de l'Égalité entre les femmes et les hommes",
+    "arg": "« Consentir, ce n'est pas ne pas dire \"non\". Consentir, c'est dire \"oui\". »",
+    "source": "https://lcp.fr/actualites/non-consentement-dans-la-definition-penale-du-viol-apres-le-vote-de-l-assemblee-le-texte"
+   },
+   {
+    "qui": "Véronique Riotton (Ensemble pour la République), co-autrice",
+    "arg": "« Cette réforme est avant tout un combat contre une culture du viol, qui banalise, qui minimise. »",
+    "source": "https://lcp.fr/actualites/non-consentement-dans-la-definition-penale-du-viol-apres-le-vote-de-l-assemblee-le-texte"
+   },
+   {
+    "qui": "François Lavallière, magistrat entendu par le Sénat",
+    "arg": "Prouver l'intention de l'auteur « est le plus difficile » : sans cela, « il n'y a pas de condamnation ».",
+    "source": "https://www.publicsenat.fr/actualites/politique/le-parlement-modifie-la-definition-penale-du-viol-pour-y-integrer-labsence-de-consentement"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Sophie Blanc (RN)",
+    "arg": "Le texte « risque de nuire aux femmes » ; le consentement serait une notion « subjective, mouvante ».",
+    "source": "https://lcp.fr/actualites/non-consentement-dans-la-definition-penale-du-viol-apres-le-vote-de-l-assemblee-le-texte"
+   },
+   {
+    "qui": "Sophie Blanc (RN)",
+    "arg": "« Ce texte risque de faire passer notre société à la culture du soupçon. »",
+    "source": "https://lcp.fr/actualites/non-consentement-dans-la-definition-penale-du-viol-apres-le-vote-de-l-assemblee-le-texte"
+   },
+   {
+    "qui": "Erwan Balanant (Les Démocrates), dont le groupe a voté pour",
+    "arg": "La nouvelle définition « ne sera pas un ressort suffisant pour modifier la pratique des juridictions » et crée un « risque d'instabilité jurisprudentielle ».",
+    "source": "https://lcp.fr/actualites/non-consentement-dans-la-definition-penale-du-viol-apres-le-vote-de-l-assemblee-le-texte"
+   },
+   {
+    "qui": "Certaines associations et avocats, selon LCP",
+    "arg": "Ils craignent que la réforme concentre davantage l'attention sur la victime que sur l'auteur des faits.",
+    "source": "https://lcp.fr/actualites/non-consentement-dans-la-definition-penale-du-viol-apres-le-vote-de-l-assemblee-le-texte"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Assemblée, première lecture : 1er avril 2025. Sénat : 18 juin 2025. Accord en commission mixte paritaire le 21 octobre ; texte adopté par l'Assemblée le 23 octobre (155 voix contre 31) et par le Sénat le 29 octobre 2025 (327 voix pour, 15 abstentions)."
+  },
+  {
+   "titre": "Besoin d'aide ?",
+   "texte": "Victime ou témoin de violences sexuelles : 3919 (Violences Femmes Info, gratuit et anonyme) ou 116 006 (aide aux victimes). En cas de danger immédiat : 17 ou 112."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "« Non-consentement dans la définition pénale du viol : après le vote de l'Assemblée… », LCP",
+   "url": "https://lcp.fr/actualites/non-consentement-dans-la-definition-penale-du-viol-apres-le-vote-de-l-assemblee-le-texte"
+  },
+  {
+   "titre": "« Le Parlement adopte la notion de non-consentement dans la définition pénale du viol », Public Sénat",
+   "url": "https://www.publicsenat.fr/actualites/politique/le-parlement-modifie-la-definition-penale-du-viol-pour-y-integrer-labsence-de-consentement"
+  },
+  {
+   "titre": "« Le non-consentement entre dans la définition pénale du viol », info.gouv.fr",
+   "url": "https://www.info.gouv.fr/actualite/le-non-consentement-entre-dans-la-definition-penale-du-viol"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl24-504.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51349"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}
