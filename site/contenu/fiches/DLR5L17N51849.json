@@ -129,5 +129,67 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Mortalité infantile",
+    "def": "Décès d'enfants avant leur premier anniversaire, mesurés en nombre de décès pour 1 000 naissances."
+   },
+   {
+    "terme": "Registre national des naissances",
+    "def": "Base de données qui réunirait les informations sur les naissances pour mieux comprendre les causes des décès."
+   },
+   {
+    "terme": "Moratoire",
+    "def": "Suspension d'une décision pendant une durée fixée. Ici : trois ans sans fermer de maternité, sauf danger."
+   },
+   {
+    "terme": "Agence régionale de santé",
+    "def": "Organisme de l'État qui organise la santé dans une région, notamment les autorisations des maternités."
+   },
+   {
+    "terme": "Navette parlementaire",
+    "def": "Va-et-vient d'un texte entre l'Assemblée et le Sénat. Un texte n'est une loi qu'après un vote conforme des deux assemblées."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Où en est ce texte d'après la fiche ?",
+    "choix": [
+     "C'est une loi promulguée en 2025",
+     "Adopté par l'Assemblée le 15 mai 2025, il n'a pas encore été examiné par le Sénat",
+     "Il a été rejeté par l'Assemblée"
+    ],
+    "bonne": 1,
+    "expl": "Il n'est pas devenu loi à ce jour : le Sénat ne l'a pas examiné."
+   },
+   {
+    "q": "Que prévoit l'article 2 du texte ?",
+    "choix": [
+     "Construire cent nouvelles maternités",
+     "Interdire pendant trois ans de retirer une autorisation d'obstétrique, sauf danger pour les patientes",
+     "Fermer les maternités de moins de 300 accouchements"
+    ],
+    "bonne": 1,
+    "expl": "C'est un moratoire de trois ans ; les agences régionales de santé évaluent les maternités de moins de 1 000 accouchements par an."
+   },
+   {
+    "q": "Que crée l'article 1er ?",
+    "choix": [
+     "Un registre national des naissances",
+     "Un numéro d'urgence national",
+     "Un nouveau diplôme de sage-femme"
+    ],
+    "bonne": 0,
+    "expl": "Le registre doit permettre de mieux comprendre des décès dont les causes restent mal connues."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il interdire temporairement la fermeture des maternités, même petites ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite quelles données manquent pour trancher."
+  }
+ }
 }

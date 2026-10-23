@@ -162,5 +162,67 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Suge et GPSR",
+    "def": "Les services de sécurité internes de la SNCF (Suge) et de la RATP (GPSR)."
+   },
+   {
+    "terme": "Palpation de sécurité",
+    "def": "Contrôle où un agent passe les mains sur les vêtements d'une personne pour vérifier qu'elle ne cache pas d'objet dangereux."
+   },
+   {
+    "terme": "Proposition de loi",
+    "def": "Texte déposé par des parlementaires, et non par le Gouvernement. Celui-ci vient d'un sénateur."
+   },
+   {
+    "terme": "Conseil constitutionnel",
+    "def": "Institution qui vérifie qu'une loi respecte la Constitution ; elle peut censurer certaines dispositions."
+   },
+   {
+    "terme": "Cavalier législatif",
+    "def": "Disposition ajoutée à une loi sans lien suffisant avec son sujet ; le Conseil constitutionnel la censure pour cette raison de procédure."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qui a déposé ce texte au départ ?",
+    "choix": [
+     "Le sénateur Philippe Tabarot",
+     "Le Gouvernement",
+     "Le président de la République"
+    ],
+    "bonne": 0,
+    "expl": "C'est une proposition de loi, déposée en décembre 2023 par le sénateur Philippe Tabarot, devenu ensuite ministre des Transports."
+   },
+   {
+    "q": "Que peuvent faire les agents de la Suge et du GPSR, selon la loi ?",
+    "choix": [
+     "Obliger une personne à quitter les lieux sans appeler la police",
+     "Interdire l'accès aux gares et aux véhicules à une personne qui trouble l'ordre public ou refuse un contrôle",
+     "Placer une personne en garde à vue"
+    ],
+    "bonne": 1,
+    "expl": "Le Conseil constitutionnel a validé l'interdiction d'accès, mais censuré le pouvoir de forcer quelqu'un à partir sans la police, qui relève des autorités de police."
+   },
+   {
+    "q": "Pourquoi la prolongation de la vidéosurveillance algorithmique a-t-elle été censurée ?",
+    "choix": [
+     "Elle coûtait trop cher",
+     "Elle était interdite par le Sénat",
+     "Elle a été jugée sans lien suffisant avec le texte : c'est un « cavalier législatif »"
+    ],
+    "bonne": 2,
+    "expl": "Le Conseil constitutionnel l'a censurée pour une raison de procédure, comme trois autres mesures ajoutées en cours de route."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il donner des pouvoirs d'inspection et de palpation à des agents de sécurité de la SNCF et de la RATP ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

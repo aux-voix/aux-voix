@@ -590,6 +590,7 @@ function pageLoi(id){
       ${am?`<p class="ui" style="margin-top:18px">${n(am.t)} amendements ont été déposés sur ce texte à l'Assemblée ; ${n(am.a)} ont été adoptés.</p>`:""}
     </section>
 
+    ${classeFicheHTML(ed,l)}
     <section class="lv3" style="margin-top:34px"><h2 class="h2">Le dossier complet</h2>
       ${ed&&(ed.details||[]).length?`<h3 class="h3" style="margin-top:18px">Le détail, chiffres compris</h3><dl class="facts">${ed.details.map(x=>`<dt>${esc(x.titre||"")}</dt><dd>${esc(x.texte||"")}</dd>`).join("")}</dl>`:""}
       <dl class="facts"><dt>Titre officiel</dt><dd>${esc(cap(l.titre))}</dd><dt>Procédure</dt><dd>${esc(l.proc||"—")}</dd>
@@ -608,6 +609,23 @@ function pageLoi(id){
     $("#partager").addEventListener("click",()=>fin?partager("Partager et citer ce texte",[["Citer ce texte","Référence prête à coller dans un devoir ou un article.",()=>citerLoi(l)],["Visuel Flash","Image au format des réseaux sociaux, avec la source incrustée.",()=>openFlash("loi:"+l.id)]]):citerLoi(l));}};
 }
 
+/* ============ En classe : bloc propre à chaque fiche (mots à retenir, quiz, question de débat neutre) ============ */
+function classeFicheHTML(ed,l){
+  const c=ed&&ed.classe;if(!c)return "";
+  const mots=(c.mots||[]).filter(m=>m&&m.terme&&m.def),qz=(c.quiz||[]).filter(q=>q&&q.q&&Array.isArray(q.choix)&&q.choix.length>1),d=c.debat||{};
+  if(!mots.length&&!qz.length&&!d.question)return "";
+  const L=i=>String.fromCharCode(65+i);
+  return `<section class="cl-f cl-fiche lv2" id="cl-fiche" aria-labelledby="clf-t" style="margin-top:34px">
+    <p class="cat">Pour l'enseignement moral et civique ou l'histoire-géographie${c.niveau?" · "+esc(c.niveau):""}${c.duree?" · "+esc(c.duree):""}</p>
+    <h2 class="h2" id="clf-t">En classe</h2><p class="cl-ti">${esc(cap(l.titre))}</p>
+    ${mots.length?`<h3 class="h3">Mots à retenir</h3><dl class="facts">${mots.map(m=>`<dt>${esc(m.terme)}</dt><dd>${esc(m.def)}</dd>`).join("")}</dl>`:""}
+    ${qz.length?`<h3 class="h3">Quiz</h3><ol class="cl-qz">${qz.map(q=>`<li><p><b>${esc(q.q)}</b></p><ul class="cl-ch">${q.choix.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
+      <details class="cl-rep"><summary>Voir la réponse</summary><p><b>Réponse : ${L(q.bonne)}.</b> ${esc(q.expl||"")}</p></details></li>`).join("")}</ol>
+      <div class="cl-corr"><h3 class="h3">Corrigé</h3><ol>${qz.map(q=>`<li><b>${L(q.bonne)}.</b> ${esc(q.expl||"")}</li>`).join("")}</ol></div>`:""}
+    ${d.question?`<h3 class="h3">Question de débat</h3><p class="ui"><b>${esc(d.question)}</b></p><p class="ui">${esc(d.consigne||"")}</p>`:""}
+    <p class="meta">Tout est tiré des textes et des sources cités dans cette fiche ; Aux Voix ne prend pas position.</p>
+    <p class="cl-a"><button type="button" class="btn btn-q" data-imprimer="cl-fiche">Imprimer (élèves)</button> <button type="button" class="btn btn-q" data-imprimer="cl-fiche-corr">Imprimer avec le corrigé</button></p></section>`;
+}
 /* ============ Ce que propose un texte, et pourquoi : l'exposé des motifs, cité mot pour mot ============ */
 function texteDepose(l){
   const z=$("#tx-zone");if(!z)return;

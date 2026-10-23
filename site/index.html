@@ -1119,6 +1119,18 @@ main,dialog{overflow-wrap:break-word}
 .tx-d[open] summary{margin-bottom:8px}
 .tx-s{margin-top:10px}
 @media (pointer:coarse){.tx-d summary{padding:12px 0}}
+.cl-fiche .cl-ti{display:none}
+.cl-qz{margin:0;padding-left:1.4em}.cl-qz>li{margin:0 0 18px}
+.cl-ch{list-style:upper-alpha;margin:6px 0 8px;padding-left:1.4em}
+.cl-rep{margin:6px 0 0}.cl-rep summary{cursor:pointer;font-weight:700}
+.cl-corr{display:none}
+@media print{
+  body[data-imprimer="cl-fiche"] #main .wrap>:not(#cl-fiche),body[data-imprimer="cl-fiche-corr"] #main .wrap>:not(#cl-fiche){display:none!important}
+  body[data-imprimer^="cl-fiche"] .cl-fiche{border-top:0;margin-top:0!important}
+  body[data-imprimer^="cl-fiche"] .cl-fiche .cl-ti{display:block;font-weight:700;margin:0 0 10px}
+  body[data-imprimer^="cl-fiche"] .cl-rep{display:none}
+  body[data-imprimer="cl-fiche-corr"] .cl-corr{display:block}
+}
 </style>
 </head>
 <body data-lv="2">

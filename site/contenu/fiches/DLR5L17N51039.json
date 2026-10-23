@@ -141,5 +141,67 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Lycée (collège avec accompagnement)",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Droit du sol",
+    "def": "Règle selon laquelle un enfant né en France de parents étrangers peut devenir français, sous conditions."
+   },
+   {
+    "terme": "Mayotte",
+    "def": "Département français de l'océan Indien, proche des Comores."
+   },
+   {
+    "terme": "Article 73 de la Constitution",
+    "def": "Il permet d'adapter certaines règles aux caractéristiques et contraintes particulières des territoires d'outre-mer."
+   },
+   {
+    "terme": "Commission mixte paritaire",
+    "def": "Réunion de députés et de sénateurs chargés de trouver un texte commun quand les deux assemblées ne sont pas d'accord."
+   },
+   {
+    "terme": "Réserve d'interprétation",
+    "def": "Le Conseil constitutionnel valide la loi à condition qu'elle soit appliquée d'une certaine manière."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Que prévoit la loi pour un enfant né à Mayotte de parents étrangers ?",
+    "choix": [
+     "Un parent doit y résider légalement depuis trois mois",
+     "Les deux parents doivent y résider légalement depuis plus d'un an (un seul si un seul parent est connu)",
+     "Les deux parents doivent y résider depuis cinq ans"
+    ],
+    "bonne": 1,
+    "expl": "La règle de 2018 (un parent, trois mois) est remplacée par deux parents en situation régulière depuis plus d'un an."
+   },
+   {
+    "q": "Quelle a été la décision du Conseil constitutionnel le 7 mai 2025 ?",
+    "choix": [
+     "Il a censuré toute la loi",
+     "Il a refusé de l'examiner",
+     "Il l'a jugée conforme, avec une réserve sur le passeport biométrique"
+    ],
+    "bonne": 2,
+    "expl": "Il a précisé qu'un autre document d'identité suffit si le pays du parent ne délivre pas de passeport biométrique."
+   },
+   {
+    "q": "Quel article de la Constitution permet des règles adaptées à l'outre-mer, selon le Conseil ?",
+    "choix": [
+     "L'article 73",
+     "L'article 49",
+     "L'article 16"
+    ],
+    "bonne": 0,
+    "expl": "Le Conseil a jugé la différence de traitement justifiée par les caractéristiques et contraintes particulières de Mayotte, prévues par l'article 73."
+   }
+  ],
+  "debat": {
+   "question": "Un territoire peut-il avoir des règles de nationalité différentes du reste de la France ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). Les élèves rapportent ce que disent les élus, sans donner leur opinion. La classe repère ensuite les points sur lesquels les deux camps s'appuient sur des chiffres ou sur la Constitution."
+  }
+ }
 }
