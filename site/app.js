@@ -1601,6 +1601,7 @@ function pageComprendreAccueil(){
     <p class="lede intro">Comment se fait une loi, ce que veut dire un vote, les mots du Parlement : l'essentiel, expliqué simplement et sans parti pris.</p>
     <div class="cp-outils">
       <a href="#/lexique"><span class="cat">${n(LEX.length)} mots</span><span class="h3">Le lexique</span><span class="meta">Amendement, navette, 49.3… expliqués en une phrase.</span></a>
+      <a href="/lois-par-theme/"><span class="cat">17 thèmes</span><span class="h3">Les lois par thème</span><span class="meta">Logement, santé, école, travail… les textes classés par sujet.</span></a>
       <a href="#/quiz"><span class="cat">${n(QUIZ.length)} questions</span><span class="h3">Le quiz</span><span class="meta">Testez vos connaissances sur les institutions.</span></a>
       <a href="#/classe"><span class="cat">${n(CLASSE.length)} fiches</span><span class="h3">En classe</span><span class="meta">Des activités prêtes à imprimer pour les enseignants.</span></a>
     </div>
