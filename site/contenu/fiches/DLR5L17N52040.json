@@ -1,0 +1,217 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N52040",
+ "titre_officiel": "Projet de loi portant transposition des accords nationaux interprofessionnels en faveur de l’emploi des salariés expérimentés et relatif à l’évolution du dialogue social",
+ "phrase": "La loi reprend des accords entre syndicats et patronat pour favoriser l'emploi des plus de 55 ans, avec notamment un nouveau CDI pour les chômeurs de 60 ans et plus.",
+ "note": "Loi promulguée le 24 octobre 2025.",
+ "essentiel": {
+  "points": [
+   "Selon la ministre du Travail, seuls 61 % des plus de 55 ans et moins de 40 % des plus de 59 ans ont un emploi.",
+   "À l'essai pendant cinq ans, un nouveau CDI pour les chômeurs de 60 ans et plus peut prendre fin dès la retraite à taux plein.",
+   "Elle oblige les branches et les grandes entreprises à négocier sur l'emploi des seniors et crée un rendez-vous de mi-carrière."
+  ],
+  "pour": "Macronistes, RN, droite, socialistes, MoDem, Horizons et LIOT : traduire des accords entre partenaires sociaux et aider les seniors à retrouver un emploi.",
+  "contre": "LFI a voté contre : un « cadeau au patronat » qui affaiblirait le CDI. Écologistes et communistes se sont abstenus en lecture finale."
+ },
+ "court": {
+  "resume": [
+   "Le texte transpose des accords signés en novembre 2024 par les syndicats et le patronat, après la censure de mesures « seniors » de la réforme des retraites de 2023.",
+   "Dans le nouveau « contrat de valorisation de l'expérience », l'employeur peut mettre le salarié à la retraite dès qu'il a droit au taux plein, avec une exonération de cotisation sur l'indemnité.",
+   "La loi supprime aussi la limite de trois mandats successifs pour les élus du personnel au CSE dans les entreprises."
+  ],
+  "change": [
+   [
+    "Mise à la retraite d'office impossible avant 70 ans sans accord du salarié.",
+    "Possible dès le taux plein pour les salariés embauchés en CVE.",
+    "Chômeurs de 60 ans et plus"
+   ],
+   [
+    "Pas de négociation obligatoire sur les seniors.",
+    "Négociation obligatoire dans les branches et entreprises de plus de 300 salariés.",
+    "Salariés expérimentés"
+   ],
+   [
+    "Entretien professionnel tous les deux ans.",
+    "« Entretien de parcours professionnel » et rendez-vous de mi-carrière vers 45 ans.",
+    "Tous les salariés"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Astrid Panosyan-Bouvet, ministre du Travail",
+    "arg": "Il s'agit de remédier à un « gâchis humain et à un gâchis économique » : l'emploi des seniors est « l'un nos points faibles ».",
+    "source": "https://lcp.fr/actualites/cdi-senior-retraite-progressive-les-deputes-adoptent-un-texte-visant-a-remedier-a-un"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Nicolas Sansu (Gauche démocrate et républicaine)",
+    "arg": "Le nouveau contrat est « une vieille lune du patronat et de la droite, qui affaiblit le CDI ».",
+    "source": "https://lcp.fr/actualites/cdi-senior-retraite-progressive-les-deputes-adoptent-un-texte-visant-a-remedier-a-un"
+   }
+  ]
+ },
+ "resume": [
+  "Contrat de valorisation de l'expérience (CVE) : CDI expérimental pendant cinq ans, ouvert aux demandeurs d'emploi d'au moins 60 ans (57 ans si un accord de branche le prévoit) qui n'ont pas encore droit à une retraite à taux plein.",
+  "L'employeur peut mettre ce salarié à la retraite dès qu'il obtient le taux plein ; l'indemnité de mise à la retraite est exonérée de la cotisation patronale de 30 % jusqu'à fin 2028.",
+  "L'entretien professionnel devient « entretien de parcours professionnel », avec deux rendez-vous spécifiques en milieu et en fin de carrière ; l'emploi des seniors devient un thème de négociation obligatoire.",
+  "Retraite progressive : l'employeur doit mieux justifier un refus de passage à temps partiel ; l'indemnité de départ peut être versée en avance si un accord le prévoit.",
+  "Dialogue social : fin de la limite de trois mandats successifs au CSE ; d'autres accords sur les reconversions professionnelles ont été ajoutés en cours de route."
+ ],
+ "pourquoi": [
+  "Des mesures sur l'emploi des seniors avaient été censurées par le Conseil constitutionnel dans la réforme des retraites de 2023 ; le gouvernement avait renvoyé le sujet aux partenaires sociaux.",
+  "Selon la ministre, l'exonération liée au CVE coûterait environ 60 millions d'euros, un montant « limité »."
+ ],
+ "change": [
+  [
+   "—",
+   "Nouveau CDI pour les 60 ans et plus.",
+   "Chômeurs seniors, employeurs",
+   "Pendant cinq ans, à titre expérimental"
+  ],
+  [
+   "Limite de trois mandats au CSE.",
+   "Limite supprimée.",
+   "Élus du personnel",
+   "Depuis octobre 2025"
+  ],
+  [
+   "—",
+   "Négociation obligatoire sur l'emploi des seniors.",
+   "Branches, entreprises de plus de 300 salariés",
+   "Depuis octobre 2025"
+  ]
+ ],
+ "pasfait": [
+  "Il ne modifie pas l'âge légal de départ à la retraite.",
+  "Il n'oblige pas les entreprises à embaucher des seniors."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Astrid Panosyan-Bouvet, ministre du Travail",
+    "arg": "« L'inquiétude première, c'est de pouvoir être en activité jusqu'au départ à la retraite à taux plein. »",
+    "source": "https://lcp.fr/actualites/cdi-senior-retraite-progressive-les-deputes-adoptent-un-texte-visant-a-remedier-a-un"
+   },
+   {
+    "qui": "Astrid Panosyan-Bouvet, ministre du Travail",
+    "arg": "Le CVE doit « lever les freins à l'embauche » de personnes qui restent souvent plus de 18 mois au chômage.",
+    "source": "https://lcp.fr/actualites/cdi-senior-retraite-progressive-les-deputes-adoptent-un-texte-visant-a-remedier-a-un"
+   },
+   {
+    "qui": "Les rapporteurs de la commission mixte paritaire",
+    "arg": "Ils revendiquent une « transcription fidèle » des accords conclus par les syndicats et le patronat.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1683.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Ségolène Amiot (La France insoumise)",
+    "arg": "« Derrière ce social washing, se cache un nouveau cadeau au patronat avec nouvelle exonération de cotisations. »",
+    "source": "https://lcp.fr/actualites/cdi-senior-retraite-progressive-les-deputes-adoptent-un-texte-visant-a-remedier-a-un"
+   },
+   {
+    "qui": "Louis Boyard (La France insoumise)",
+    "arg": "« Vous allez juste enfermer des seniors dans des contrats précaires. »",
+    "source": "https://lcp.fr/actualites/cdi-senior-retraite-progressive-les-deputes-adoptent-un-texte-visant-a-remedier-a-un"
+   },
+   {
+    "qui": "Sophie Taillé-Polian (écologiste)",
+    "arg": "Devoir partir dès le taux plein peut empêcher d'obtenir une retraite plus élevée (surcote) ; elle craint aussi des « effets d'aubaine ».",
+    "source": "https://lcp.fr/actualites/cdi-senior-retraite-progressive-les-deputes-adoptent-un-texte-visant-a-remedier-a-un"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Sénat : adopté en juin 2025. Assemblée : adopté le 3 juillet 2025 par 57 voix contre 9. Accord en commission mixte paritaire le 8 juillet ; texte adopté par le Sénat le 10 juillet et par l'Assemblée le 15 octobre 2025 (143 voix contre 25)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "« CDI senior, retraite progressive : les députés adoptent un texte… », LCP",
+   "url": "https://lcp.fr/actualites/cdi-senior-retraite-progressive-les-deputes-adoptent-un-texte-visant-a-remedier-a-un"
+  },
+  {
+   "titre": "« Loi du 24 octobre 2025 sur l'emploi des travailleurs expérimentés », KPMG Avocats",
+   "url": "https://kpmg.com/av/fr/avocats/eclairages/2025/11/emploi-des-salaries-seniors-et-evolution-du-dialogue-social.html"
+  },
+  {
+   "titre": "Rapport de la commission mixte paritaire (n° 1683)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1683.html"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/pjl24-600.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N52040"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Partenaires sociaux",
+    "def": "Syndicats de salariés et organisations d'employeurs."
+   },
+   {
+    "terme": "CDI senior (CVE)",
+    "def": "Contrat à l'essai cinq ans pour chômeurs de 60 ans et plus, qui peut finir à la retraite à taux plein."
+   },
+   {
+    "terme": "Taux plein",
+    "def": "Retraite sans réduction."
+   },
+   {
+    "terme": "Mi-carrière",
+    "def": "Rendez-vous professionnel vers 45 ans."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelle part des plus de 55 ans a un emploi, selon la ministre ?",
+    "choix": [
+     "61 %",
+     "16 %",
+     "96 %"
+    ],
+    "bonne": 0,
+    "expl": "Moins de 40 % des plus de 59 ans."
+   },
+   {
+    "q": "Pendant combien de temps le nouveau CDI est-il testé ?",
+    "choix": [
+     "Un an",
+     "Cinq ans",
+     "Vingt ans"
+    ],
+    "bonne": 1,
+    "expl": "Pour les chômeurs de 60 ans et plus."
+   },
+   {
+    "q": "Qui a voté contre ?",
+    "choix": [
+     "Le RN",
+     "Les socialistes",
+     "LFI"
+    ],
+    "bonne": 2,
+    "expl": "Elle critique un « cadeau au patronat »."
+   }
+  ],
+  "debat": {
+   "question": "Comment favoriser l'emploi des seniors sans fragiliser leurs droits ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
+}

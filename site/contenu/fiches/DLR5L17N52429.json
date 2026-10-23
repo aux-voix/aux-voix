@@ -124,5 +124,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Rohingyas",
+    "def": "Minorité musulmane de Birmanie, victime de violences."
+   },
+   {
+    "terme": "Mécanisme d'enquête de l'ONU",
+    "def": "Organe créé en 2018 pour rassembler des preuves en vue de futurs procès."
+   },
+   {
+    "terme": "Impunité",
+    "def": "Fait que les auteurs de crimes ne soient pas punis."
+   },
+   {
+    "terme": "Convention de coopération judiciaire",
+    "def": "Accord pour échanger des preuves et des informations."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "En quelle année l'armée a-t-elle pris le pouvoir en Birmanie ?",
+    "choix": [
+     "1991",
+     "2001",
+     "2021"
+    ],
+    "bonne": 2,
+    "expl": "Elle a ensuite réprimé les civils."
+   },
+   {
+    "q": "Le Mécanisme est-il un tribunal ?",
+    "choix": [
+     "Non",
+     "Oui",
+     "Seulement pour la France"
+    ],
+    "bonne": 0,
+    "expl": "D'où le besoin d'une convention."
+   },
+   {
+    "q": "Qu'est-ce qui est exclu de la convention ?",
+    "choix": [
+     "Les écoutes, le gel d'avoirs, les arrestations et les extraditions",
+     "L'échange de preuves",
+     "Les auditions"
+    ],
+    "bonne": 0,
+    "expl": "Des garanties protègent aussi les données personnelles."
+   }
+  ],
+  "debat": {
+   "question": "Comment la justice internationale peut-elle lutter contre l'impunité des crimes de masse ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

@@ -116,5 +116,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Convention",
+    "def": "Accord entre deux États."
+   },
+   {
+    "terme": "Vallée de la Roya",
+    "def": "Vallée des Alpes-Maritimes traversée par la ligne Coni-Vintimille."
+   },
+   {
+    "terme": "Déficit d'exploitation",
+    "def": "Différence entre les coûts et les recettes d'une ligne."
+   },
+   {
+    "terme": "Procédure simplifiée",
+    "def": "Vote sans débat ni scrutin public."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qui payait tout l'entretien depuis 1970 ?",
+    "choix": [
+     "La France",
+     "L'Italie",
+     "L'Union européenne"
+    ],
+    "bonne": 1,
+    "expl": "Elle a cessé de payer en 2008."
+   },
+   {
+    "q": "Comment partage-t-on désormais ?",
+    "choix": [
+     "À moitié",
+     "Selon le nombre de trains de chaque pays",
+     "Par tirage au sort"
+    ],
+    "bonne": 1,
+    "expl": "Avec au moins 25 % du déficit."
+   },
+   {
+    "q": "Les gros travaux de rénovation sont-ils prévus ?",
+    "choix": [
+     "Non, ils restent hors de l'accord",
+     "Oui",
+     "Seulement pour la gare"
+    ],
+    "bonne": 0,
+    "expl": "Des députés le regrettent."
+   }
+  ],
+  "debat": {
+   "question": "Comment partager l'entretien d'une infrastructure utilisée par deux pays ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

@@ -131,5 +131,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Convention fiscale",
+    "def": "Accord qui dit quel pays peut taxer quel revenu."
+   },
+   {
+    "terme": "Double imposition",
+    "def": "Impôt payé deux fois sur le même revenu."
+   },
+   {
+    "terme": "Dividende",
+    "def": "Part des bénéfices versée aux actionnaires."
+   },
+   {
+    "terme": "Retenue à la source",
+    "def": "Impôt prélevé directement au moment du versement."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelle convention remplace-t-on pour la Finlande ?",
+    "choix": [
+     "Celle de 1970",
+     "Celle de 2020",
+     "Celle de 1870"
+    ],
+    "bonne": 0,
+    "expl": "Elle visait mal les montages « CumEx »."
+   },
+   {
+    "q": "Quel taux de retenue à la source sur les dividendes ?",
+    "choix": [
+     "5 %",
+     "50 %",
+     "15 %"
+    ],
+    "bonne": 2,
+    "expl": "L'imposition est partagée entre les deux pays."
+   },
+   {
+    "q": "Où les salaires sont-ils taxés ?",
+    "choix": [
+     "Dans le pays de naissance",
+     "Dans le pays où le travail est exercé",
+     "Dans le pays de l'employeur"
+    ],
+    "bonne": 1,
+    "expl": "Selon le modèle de l'OCDE."
+   }
+  ],
+  "debat": {
+   "question": "Comment éviter que des revenus soient taxés deux fois, ou pas du tout ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

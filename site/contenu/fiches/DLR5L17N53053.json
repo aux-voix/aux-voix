@@ -134,5 +134,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Sentinelle",
+    "def": "Personne formée pour repérer un mal-être et orienter vers l'aide."
+   },
+   {
+    "terme": "MSA",
+    "def": "Mutualité sociale agricole."
+   },
+   {
+    "terme": "Guichet unique",
+    "def": "Lieu unique où trouver de l'aide."
+   },
+   {
+    "terme": "3114",
+    "def": "Numéro national de prévention du suicide, gratuit, 24 h/24."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qui seraient les sentinelles ?",
+    "choix": [
+     "Seulement des médecins",
+     "Des voisins, vétérinaires, comptables, élus…",
+     "Des policiers"
+    ],
+    "bonne": 1,
+    "expl": "Formées par l'État pour repérer la détresse."
+   },
+   {
+    "q": "Combien de guichets par département ?",
+    "choix": [
+     "Un guichet unique",
+     "Dix",
+     "Aucun"
+    ],
+    "bonne": 0,
+    "expl": "De santé mentale agricole."
+   },
+   {
+    "q": "Comment l'Assemblée a-t-elle voté ?",
+    "choix": [
+     "Rejet",
+     "Adoption serrée",
+     "76 voix pour, 0 contre"
+    ],
+    "bonne": 2,
+    "expl": "Le Sénat doit encore l'examiner."
+   }
+  ],
+  "debat": {
+   "question": "Comment mieux repérer et soutenir les personnes en détresse dans un métier isolé ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

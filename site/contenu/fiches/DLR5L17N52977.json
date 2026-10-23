@@ -154,5 +154,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Nationalisation",
+    "def": "Passage d'une entreprise privée à la propriété de l'État."
+   },
+   {
+    "terme": "Décarbonation",
+    "def": "Réduction des émissions de gaz à effet de serre."
+   },
+   {
+    "terme": "Indemnisation",
+    "def": "Somme versée pour compenser une perte."
+   },
+   {
+    "terme": "Seconde lecture",
+    "def": "Nouvel examen d'un texte par une assemblée."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quels sites ArcelorMittal France possède-t-elle ?",
+    "choix": [
+     "Dunkerque, Fos-sur-Mer et Florange",
+     "Seulement Paris",
+     "Aucun en France"
+    ],
+    "bonne": 0,
+    "expl": "La plupart des sites d'acier français."
+   },
+   {
+    "q": "Que deviendraient les contrats de travail ?",
+    "choix": [
+     "Ils seraient rompus",
+     "Ils seraient maintenus",
+     "Ils seraient renégociés"
+    ],
+    "bonne": 1,
+    "expl": "Les actionnaires seraient indemnisés."
+   },
+   {
+    "q": "Quel est l'état du texte ?",
+    "choix": [
+     "Promulgué",
+     "Rejeté pour toujours",
+     "Pas adopté définitivement : le Sénat l'a rejeté une fois"
+    ],
+    "bonne": 2,
+    "expl": "L'Assemblée l'a voté deux fois."
+   }
+  ],
+  "debat": {
+   "question": "L'État doit-il posséder les grandes entreprises stratégiques comme l'acier ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

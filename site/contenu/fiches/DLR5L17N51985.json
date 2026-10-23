@@ -1,0 +1,250 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51985",
+ "titre_officiel": "Projet de loi de programmation pour la refondation de Mayotte",
+ "phrase": "Après le cyclone Chido, la loi programme près de 4 milliards d'euros pour Mayotte, durcit les règles sur l'immigration et rapproche les droits sociaux du reste du pays.",
+ "note": "Loi promulguée le 11 août 2025, après une décision du Conseil constitutionnel qui l'a validée avec des réserves.",
+ "essentiel": {
+  "points": [
+   "Mayotte, le département le plus pauvre de France, a été dévasté par le cyclone Chido en décembre 2024 ; une loi d'urgence avait déjà été votée en février 2025.",
+   "La loi durcit l'accès à certains titres de séjour, facilite la démolition de l'habitat informel et supprime en 2030 le titre de séjour valable seulement à Mayotte.",
+   "Le Smic mahorais passe à 87,5 % du Smic national en 2026 ; l'alignement complet est promis au plus tard en 2031."
+  ],
+  "pour": "Une large majorité, des macronistes au RN : un effort financier « sans précédent » et des outils contre l'immigration irrégulière.",
+  "contre": "LFI et écologistes ont voté contre, dénonçant une « obsession » de l'immigration ; les socialistes se sont abstenus, doutant des promesses."
+ },
+ "court": {
+  "resume": [
+   "Le ministre des Outre-mer, Manuel Valls, a fixé un objectif de 35 000 « éloignements » par an d'étrangers en situation irrégulière.",
+   "L'article qui permettait de prendre possession plus vite de terrains pour de grands chantiers a été supprimé, à la demande des parlementaires de Mayotte, qui y voyaient une menace pour les propriétaires.",
+   "Le département devient « Département-Région », avec une assemblée de Mayotte de 52 membres élue au scrutin de liste."
+  ],
+  "change": [
+   [
+    "Titre de séjour valable seulement à Mayotte.",
+    "Supprimé à partir du 1er janvier 2030.",
+    "Étrangers en situation régulière"
+   ],
+   [
+    "Smic net plus bas que dans le reste de la France.",
+    "Porté à 87,5 % du Smic national dès janvier 2026.",
+    "Salariés mahorais"
+   ],
+   [
+    "Conseil départemental.",
+    "Assemblée de Mayotte de 52 membres.",
+    "Électeurs mahorais"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Manuel Valls, ministre des Outre-mer",
+    "arg": "« Si nous ne nous attaquons pas avec force à l'immigration illégale, aux bidonvilles et à l'insécurité, nous risquons de reconstruire Mayotte sur du sable. »",
+    "source": "https://lcp.fr/actualites/refondation-de-mayotte-l-assemblee-examine-un-projet-de-loi-juge-historique-par-manuel"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Dominique Voynet (écologiste)",
+    "arg": "Elle met en cause « l'obsession » autour de l'immigration et juge le texte « loin de tenir sa promesse ».",
+    "source": "https://lcp.fr/actualites/refondation-de-mayotte-l-assemblee-examine-un-projet-de-loi-juge-historique-par-manuel"
+   }
+  ]
+ },
+ "resume": [
+  "Immigration : les titres « parent d'enfant français » et « liens personnels et familiaux » exigent une entrée régulière en France ; le regroupement familial exige un logement « normal », ce qui exclut l'habitat informel.",
+  "Les familles avec enfants en attente d'expulsion peuvent être placées 48 heures au plus dans des lieux adaptés, distincts des centres de rétention ; le titre de séjour d'un parent peut être retiré si son enfant menace l'ordre public.",
+  "Habitat informel : les opérations d'évacuation et de démolition sont facilitées, les recours restant suspensifs ; selon le rapporteur Philippe Vigier, 1 650 habitations avaient été détruites, sur des dizaines de milliers.",
+  "Social : Smic à 87,5 % en 2026, exonérations de cotisations dites « Lodeom » pour les entreprises en 2027, ordonnances pour aligner les prestations sociales (hors aide médicale de l'État) ; chaque commune est quartier prioritaire de la ville jusqu'en 2030.",
+  "Un comité de suivi, avec des parlementaires, des élus locaux et la Cour des comptes, doit rendre un rapport d'étape en juillet 2028."
+ ],
+ "pourquoi": [
+  "Le cyclone Chido, en décembre 2024, a frappé un territoire déjà marqué par la pauvreté, les pénuries d'eau et l'habitat informel.",
+  "Selon le gouvernement et une majorité d'élus, l'immigration irrégulière, venue notamment des Comores voisines, aggrave ces difficultés ; la gauche juge que le texte s'y concentre trop."
+ ],
+ "change": [
+  [
+   "Titre de séjour territorialisé.",
+   "Titre valable dans toute la France.",
+   "Étrangers titulaires d'un titre à Mayotte",
+   "1er janvier 2030"
+  ],
+  [
+   "Smic mahorais plus bas.",
+   "87,5 % du Smic national.",
+   "Salariés",
+   "1er janvier 2026"
+  ],
+  [
+   "Pas d'exonérations « Lodeom ».",
+   "Exonérations de cotisations patronales.",
+   "Entreprises mahoraises",
+   "1er janvier 2027"
+  ],
+  [
+   "Conseil départemental.",
+   "Assemblée de Mayotte.",
+   "Collectivité de Mayotte",
+   "Au prochain renouvellement"
+  ]
+ ],
+ "pasfait": [
+  "Il ne permet pas la prise de possession accélérée de terrains pour les grands chantiers : cet article a été supprimé.",
+  "Il n'étend pas l'aide médicale de l'État à Mayotte.",
+  "Les 4 milliards d'euros figurent dans un rapport annexé sans valeur contraignante : ils doivent encore être votés dans les budgets."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Manuel Valls, ministre des Outre-mer",
+    "arg": "Un texte « historique » qui « porte un engagement financier sans précédent à hauteur de près de 4 milliards d'euros sur six ans ».",
+    "source": "https://lcp.fr/actualites/refondation-de-mayotte-l-assemblee-examine-un-projet-de-loi-juge-historique-par-manuel"
+   },
+   {
+    "qui": "Estelle Youssouffa (LIOT), députée de Mayotte et rapporteure",
+    "arg": "« Cette loi Mayotte est imparfaite mais nous en avons besoin. »",
+    "source": "https://lcp.fr/actualites/refondation-de-mayotte-l-assemblee-examine-un-projet-de-loi-juge-historique-par-manuel"
+   },
+   {
+    "qui": "Brigitte Liso (Ensemble pour la République)",
+    "arg": "« Un texte juste, socialement ambitieux, et profondément protecteur à l'égard de nos concitoyens mahorais. »",
+    "source": "https://lcp.fr/actualites/refondation-de-mayotte-l-assemblee-examine-un-projet-de-loi-juge-historique-par-manuel"
+   },
+   {
+    "qui": "Olivier Marleix (Droite républicaine)",
+    "arg": "« Un sujet central conditionne tout le reste, celui de l'immigration hors du contrôle. »",
+    "source": "https://lcp.fr/actualites/refondation-de-mayotte-l-assemblee-examine-un-projet-de-loi-juge-historique-par-manuel"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Jean-Hugues Ratenon (La France insoumise)",
+    "arg": "Il dénonce « l'obsession autour de l'immigration » et regrette un alignement du Smic en 2031 « alors que rien n'empêche son application dès 2026 ».",
+    "source": "https://lcp.fr/actualites/refondation-de-mayotte-l-assemblee-examine-un-projet-de-loi-juge-historique-par-manuel"
+   },
+   {
+    "qui": "Emeline K/Bidi (Gauche démocrate et républicaine)",
+    "arg": "Le texte n'est « pas à la hauteur ni du moment, ni de la situation ».",
+    "source": "https://lcp.fr/actualites/refondation-de-mayotte-l-assemblee-examine-un-projet-de-loi-juge-historique-par-manuel"
+   },
+   {
+    "qui": "Philippe Naillet (socialiste)",
+    "arg": "Le texte ne doit pas s'ajouter « à la longue liste des plans et des promesses sans lendemain ».",
+    "source": "https://lcp.fr/actualites/refondation-de-mayotte-l-assemblee-examine-un-projet-de-loi-juge-historique-par-manuel"
+   },
+   {
+    "qui": "Anchya Bamana (RN), députée de Mayotte, dont le groupe a voté pour",
+    "arg": "« Ce que les Mahorais vivent, c'est une spirale de discours sans résultats » ; elle critique des « promesses budgétaires floues ».",
+    "source": "https://lcp.fr/actualites/refondation-de-mayotte-l-assemblee-examine-un-projet-de-loi-juge-historique-par-manuel"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Sénat : adopté le 27 mai 2025. Assemblée : adopté le 1er juillet 2025 (367 voix contre 109, 64 abstentions). Accord en commission mixte paritaire le 8 juillet ; texte adopté par l'Assemblée le 9 juillet (354 voix contre 111) et par le Sénat le 10 juillet 2025."
+  },
+  {
+   "titre": "L'article sur les terrains",
+   "texte": "Le gouvernement et le Sénat voulaient permettre à l'État de prendre possession plus vite de terrains pour le port, l'aéroport ou un second hôpital. Les élus mahorais y voyaient une « spoliation » dans une île où la propriété est souvent orale et non cadastrée ; l'article a été supprimé. Selon le rapporteur du Sénat Olivier Bitz, on renonce ainsi à « quelques années » de gain."
+  },
+  {
+   "titre": "Le Conseil constitutionnel",
+   "texte": "Saisi par le Premier ministre et des députés, il a jugé la loi conforme le 7 août 2025 (décision n° 2025-894 DC), avec des réserves : l'administration doit garder la possibilité de régulariser un étranger dans des circonstances particulières."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "« \"Refondation\" de Mayotte : l'Assemblée examine un projet de loi jugé \"historique\" », LCP",
+   "url": "https://lcp.fr/actualites/refondation-de-mayotte-l-assemblee-examine-un-projet-de-loi-juge-historique-par-manuel"
+  },
+  {
+   "titre": "« \"Refondation\" de Mayotte : les députés ont achevé l'examen du projet de loi », LCP",
+   "url": "https://lcp.fr/actualites/refondation-de-mayotte-les-deputes-ont-acheve-l-examen-du-projet-de-loi-385646"
+  },
+  {
+   "titre": "« La loi Mayotte validée par le Conseil constitutionnel sous conditions strictes », Outremers360",
+   "url": "https://outremers360.com/bassin-atlantique-appli/la-loi-mayotte-validee-par-le-conseil-constitutionnel-sous-conditions-strictes"
+  },
+  {
+   "titre": "« La loi de refondation de Mayotte entre en vigueur », Mayotte Hebdo",
+   "url": "https://www.mayottehebdo.com/actualite/breves/la-loi-de-refondation-de-mayotte-entre-en-vigueur-apres-sa-publication-au-journal-officiel/"
+  },
+  {
+   "titre": "Rapport de la commission mixte paritaire (n° 1681)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1681.html"
+  },
+  {
+   "titre": "Décision n° 2025-894 DC du Conseil constitutionnel",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2025/2025894DC.htm"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51985"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Cyclone Chido",
+    "def": "Cyclone qui a dévasté Mayotte en décembre 2024."
+   },
+   {
+    "terme": "Titre de séjour",
+    "def": "Document qui autorise un étranger à vivre en France."
+   },
+   {
+    "terme": "Loi de programmation",
+    "def": "Loi qui planifie des dépenses sur plusieurs années."
+   },
+   {
+    "terme": "Habitat informel",
+    "def": "Logements construits sans autorisation."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quel montant la loi programme-t-elle ?",
+    "choix": [
+     "Près de 4 milliards d'euros",
+     "40 millions d'euros",
+     "400 milliards d'euros"
+    ],
+    "bonne": 0,
+    "expl": "Après le cyclone Chido."
+   },
+   {
+    "q": "À quel pourcentage du Smic national le Smic mahorais passe-t-il en 2026 ?",
+    "choix": [
+     "50 %",
+     "100 %",
+     "87,5 %"
+    ],
+    "bonne": 2,
+    "expl": "L'alignement complet est promis au plus tard en 2031."
+   },
+   {
+    "q": "Quelle est la position des socialistes ?",
+    "choix": [
+     "Pour",
+     "Abstention",
+     "Contre"
+    ],
+    "bonne": 1,
+    "expl": "LFI et les écologistes ont voté contre."
+   }
+  ],
+  "debat": {
+   "question": "Comment répondre à une catastrophe et à des difficultés sociales dans un territoire, sans opposer les sujets entre eux ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
+}

@@ -1,0 +1,197 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N52787",
+ "titre_officiel": "Proposition de loi visant à rendre systématique l’information du consommateur sur l’origine des denrées alimentaires par le moyen de l’étiquetage",
+ "phrase": "Le texte du RN voulait rendre obligatoire l'indication du pays d'origine sur tous les aliments, bruts ou transformés ; l'Assemblée l'a rejeté.",
+ "note": "Texte rejeté par l'Assemblée le 30 octobre 2025 : il n'est pas devenu loi.",
+ "essentiel": {
+  "points": [
+   "Aujourd'hui, l'origine n'est obligatoire que pour certains produits bruts ; pour les produits transformés, seule celle de l'ingrédient principal est parfois imposée.",
+   "Le texte voulait l'imposer pour tous les aliments et produits de la mer, et sanctionner l'usage trompeur du drapeau français.",
+   "Il a été rejeté par 174 voix contre 149."
+  ],
+  "pour": "RN, droite et UDR : mieux informer les consommateurs et défendre les agriculteurs face aux importations.",
+  "contre": "Macronistes, gauche et MoDem : texte contraire au droit européen, qui fixe ces règles, et reprise d'idées déjà portées par d'autres."
+ },
+ "court": {
+  "resume": [
+   "Selon le rapport, l'origine est le premier critère d'achat pour beaucoup de Français, avant même le prix.",
+   "L'étiquetage de l'origine des aliments est encadré par un règlement européen, dit « INCO » ; plusieurs groupes jugeaient le texte incompatible avec lui.",
+   "Une démarche volontaire, Origin'Info, lancée par le gouvernement, est déjà utilisée par plus de 120 marques, selon Olivia Grégoire."
+  ],
+  "change": [
+   [
+    "Origine obligatoire pour certains produits seulement.",
+    "Origine obligatoire pour tous les aliments (texte rejeté).",
+    "Consommateurs, industriels"
+   ],
+   [
+    "—",
+    "Sanction de l'usage abusif du drapeau français sur les emballages (texte rejeté).",
+    "Marques alimentaires"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Patrice Martin (RN)",
+    "arg": "La France est passée en vingt ans « de la deuxième à la sixième puissance exportatrice agricole mondiale » ; il faut défendre la souveraineté alimentaire.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1985.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Olivia Grégoire (Ensemble pour la République)",
+    "arg": "L'intention est « louable », mais le texte « n'est pas applicable en droit » : l'étiquetage relève du droit européen.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1985.html"
+   }
+  ]
+ },
+ "resume": [
+  "Article 1er : obligation d'indiquer le pays d'origine de tout produit agricole, alimentaire ou de la mer, brut ou transformé.",
+  "Article 1er bis, ajouté en commission : informer le consommateur lorsqu'un aliment importé a été produit avec des pesticides, des médicaments vétérinaires ou des aliments pour animaux interdits en Europe.",
+  "Article 2 : sanctions en cas de non-respect ; article 3 : interdire l'usage abusif du drapeau, d'une carte de France ou d'un symbole français sur les emballages.",
+  "Selon la rapporteure Hélène Laporte (RN), les avancées de la loi Égalim 2 de 2021 sur l'origine ne sont pas entrées en application, faute de textes d'application.",
+  "Le texte a été rejeté en séance ; il ne poursuit donc pas son parcours."
+ ],
+ "pourquoi": [
+  "Selon le rapport, les importations de poulet ont augmenté de 37 % entre 2020 et 2023.",
+  "Les auteurs estiment que l'opacité sur l'origine aggrave la concurrence déloyale subie par les agriculteurs français."
+ ],
+ "change": [
+  [
+   "Règles actuelles d'étiquetage.",
+   "Inchangées : le texte a été rejeté.",
+   "Consommateurs",
+   "—"
+  ]
+ ],
+ "pasfait": [
+  "Il ne modifie pas le droit : le texte a été rejeté.",
+  "Il ne portait que sur l'étiquetage : selon le rapport, cela ne saurait « à lui seul » enrayer le déclin de la production agricole."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Hélène Laporte (RN), rapporteure",
+    "arg": "Le texte « répond à une attente profonde de la population française » et des agriculteurs.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1985.html"
+   },
+   {
+    "qui": "Hervé de Lépinau (RN)",
+    "arg": "Il reproche aux opposants de considérer que « la souveraineté des parlements n'a plus d'importance » face au droit européen.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1985.html"
+   },
+   {
+    "qui": "Romain Daubié (Les Démocrates), dont le groupe a voté contre",
+    "arg": "La mention « fabriqué en France » avec un drapeau « peut induire en erreur » si seul le produit est transformé en France.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1985.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Olivia Grégoire (Ensemble pour la République)",
+    "arg": "« Une bonne intention ne suffit pas toujours à faire une bonne loi. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1985.html"
+   },
+   {
+    "qui": "Mélanie Thomin (socialiste)",
+    "arg": "Elle accuse le RN de reprendre des idées d'autres groupes « pour en faire un coup politique sans lendemain ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1985.html"
+   },
+   {
+    "qui": "Thierry Benoit (Horizons)",
+    "arg": "Son groupe ne vote pas l'article 1er, « en raison de son incompatibilité avec le règlement INCO ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1985.html"
+   },
+   {
+    "qui": "Julien Brugerolles (Gauche démocrate et républicaine)",
+    "arg": "Les communistes avaient déposé un texte analogue dès 2013 ; il faut agir au niveau européen.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1985.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée : rejeté le 30 octobre 2025 par 174 voix contre 149. RN, Droite républicaine et UDR ont voté pour ; macronistes, LFI, socialistes, écologistes, MoDem et communistes contre."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport d'Hélène Laporte, Assemblée nationale (n° 1985)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1985.html"
+  },
+  {
+   "titre": "Texte non adopté (n° 178)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0178.raw"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N52787"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Étiquetage",
+    "def": "Informations inscrites sur l'emballage d'un produit."
+   },
+   {
+    "terme": "Produit transformé",
+    "def": "Aliment qui a subi une préparation industrielle."
+   },
+   {
+    "terme": "Origine",
+    "def": "Pays où un produit est cultivé ou fabriqué."
+   },
+   {
+    "terme": "Droit européen",
+    "def": "Règles communes à l'Union européenne."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qu'est-ce que le texte voulait imposer ?",
+    "choix": [
+     "L'origine sur tous les aliments",
+     "Un prix unique",
+     "La fin des emballages"
+    ],
+    "bonne": 0,
+    "expl": "Et sanctionner l'usage trompeur du drapeau français."
+   },
+   {
+    "q": "Quel a été le résultat du vote ?",
+    "choix": [
+     "Adopté à l'unanimité",
+     "Rejeté par 174 voix contre 149",
+     "Adopté par 149 voix contre 174"
+    ],
+    "bonne": 1,
+    "expl": "Le texte n'est pas devenu loi."
+   },
+   {
+    "q": "Quel argument opposent ses adversaires ?",
+    "choix": [
+     "Le droit européen fixe ces règles",
+     "Le texte est trop court",
+     "Il est trop ancien"
+    ],
+    "bonne": 0,
+    "expl": "Les partisans veulent mieux informer les consommateurs."
+   }
+  ],
+  "debat": {
+   "question": "Qui doit décider des règles d'étiquetage : la France seule ou l'Union européenne ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
+}

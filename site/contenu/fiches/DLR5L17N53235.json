@@ -126,5 +126,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "CARICOM",
+    "def": "Communauté des Caraïbes, qui réunit des pays de la région."
+   },
+   {
+    "terme": "Membre associé",
+    "def": "Membre sans droit de vote ni rôle en politique étrangère."
+   },
+   {
+    "terme": "Privilèges et immunités",
+    "def": "Protections accordées à une organisation internationale et à ses agents."
+   },
+   {
+    "terme": "Collectivité d'outre-mer",
+    "def": "Territoire français hors d'Europe."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelle collectivité française entre dans la CARICOM ?",
+    "choix": [
+     "La Martinique",
+     "La Corse",
+     "La Bretagne"
+    ],
+    "bonne": 0,
+    "expl": "Comme membre associé, en 2025."
+   },
+   {
+    "q": "A-t-elle un droit de vote ?",
+    "choix": [
+     "Oui",
+     "Non",
+     "Seulement en santé"
+    ],
+    "bonne": 1,
+    "expl": "Ni rôle en politique étrangère."
+   },
+   {
+    "q": "Comment l'Assemblée a-t-elle voté ?",
+    "choix": [
+     "Rejet",
+     "Adoption serrée",
+     "31 voix pour, 0 contre"
+    ],
+    "bonne": 2,
+    "expl": "Le Sénat l'avait adopté le 28 janvier 2026."
+   }
+  ],
+  "debat": {
+   "question": "Pourquoi un territoire s'associe-t-il à une organisation régionale voisine ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

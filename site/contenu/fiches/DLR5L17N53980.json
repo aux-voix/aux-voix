@@ -138,9 +138,67 @@
   }
  ],
  "auteur": "Rédaction Aux Voix",
- "verif": "",
+ "verif": "l'éditeur du site",
  "version": {
   "n": 1,
   "date": "2026-10-20"
+ },
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Protoxyde d'azote",
+    "def": "Gaz hilarant, dont l'inhalation est dangereuse pour la santé."
+   },
+   {
+    "terme": "Rodéo motorisé",
+    "def": "Course dangereuse et illégale de véhicules."
+   },
+   {
+    "terme": "Amende forfaitaire",
+    "def": "Amende fixe, payée sans passer devant un juge."
+   },
+   {
+    "terme": "Délit",
+    "def": "Infraction grave pouvant être punie de prison."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Que devient l'inhalation de protoxyde d'azote ?",
+    "choix": [
+     "Un délit",
+     "Une obligation",
+     "Une pratique autorisée"
+    ],
+    "bonne": 0,
+    "expl": "Puni d'un an de prison et 3 750 €."
+   },
+   {
+    "q": "Quelle peine pour organiser un rodéo ?",
+    "choix": [
+     "Jusqu'à 3 ans de prison et 75 000 €",
+     "Un avertissement",
+     "Une amende de 5 €"
+    ],
+    "bonne": 0,
+    "expl": "Y participer : 5 000 €."
+   },
+   {
+    "q": "Qu'a fait le Conseil constitutionnel ?",
+    "choix": [
+     "Il a validé toute la loi",
+     "Il a rejeté la saisine",
+     "Il a censuré une partie de la loi"
+    ],
+    "bonne": 2,
+    "expl": "Les recours contestaient près de trente articles."
+   }
+  ],
+  "debat": {
+   "question": "Des peines plus lourdes suffisent-elles à faire reculer les troubles du quotidien ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
  }
 }

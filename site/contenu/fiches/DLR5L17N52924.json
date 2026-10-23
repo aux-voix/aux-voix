@@ -130,5 +130,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Innovation thérapeutique",
+    "def": "Nouveaux traitements médicaux."
+   },
+   {
+    "terme": "Médicament orphelin",
+    "def": "Médicament contre une maladie rare."
+   },
+   {
+    "terme": "Contribution",
+    "def": "Somme versée pour financer une action."
+   },
+   {
+    "terme": "Pédiatrie",
+    "def": "Médecine des enfants."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien d'enfants meurent d'un cancer chaque année en France ?",
+    "choix": [
+     "Environ 450 à 500",
+     "Environ 5",
+     "Environ 45 000"
+    ],
+    "bonne": 0,
+    "expl": "Selon les députés."
+   },
+   {
+    "q": "Quel est le taux de la contribution ?",
+    "choix": [
+     "10 %",
+     "1 %",
+     "0,10 %"
+    ],
+    "bonne": 2,
+    "expl": "Sur le chiffre d'affaires des médicaments remboursés."
+   },
+   {
+    "q": "Quel groupe a voté contre ?",
+    "choix": [
+     "Le RN",
+     "LFI",
+     "Les socialistes"
+    ],
+    "bonne": 0,
+    "expl": "98 pour, 22 contre."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il financer la recherche pédiatrique par une contribution sur les médicaments ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

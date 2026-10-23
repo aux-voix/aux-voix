@@ -129,5 +129,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Accord de partenariat",
+    "def": "Accord qui renforce les liens politiques et économiques entre deux ensembles de pays."
+   },
+   {
+    "terme": "Kirghizstan",
+    "def": "Pays d'Asie centrale."
+   },
+   {
+    "terme": "Biens à double usage",
+    "def": "Biens civils pouvant servir à des fins militaires."
+   },
+   {
+    "terme": "Ratification",
+    "def": "Approbation officielle d'un accord."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quel accord remplace-t-on ?",
+    "choix": [
+     "Celui de 1995",
+     "Celui de 2015",
+     "Celui de 1895"
+    ],
+    "bonne": 0,
+    "expl": "Il était obsolète."
+   },
+   {
+    "q": "Que contient l'accord sur les droits de l'homme ?",
+    "choix": [
+     "Rien",
+     "Des clauses de respect des droits",
+     "Une interdiction"
+    ],
+    "bonne": 1,
+    "expl": "Le rapport note un recul démocratique."
+   },
+   {
+    "q": "Quand l'accord s'applique-t-il entièrement ?",
+    "choix": [
+     "Aussitôt",
+     "Quand tous les pays de l'Union l'ont approuvé",
+     "Jamais"
+    ],
+    "bonne": 1,
+    "expl": "Selon la fiche."
+   }
+  ],
+  "debat": {
+   "question": "Comment coopérer avec un pays dont le régime est discuté, sans naïveté ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

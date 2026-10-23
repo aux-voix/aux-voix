@@ -165,5 +165,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Adaptation au changement climatique",
+    "def": "Préparer le pays aux effets du réchauffement."
+   },
+   {
+    "terme": "CatNat",
+    "def": "Régime d'assurance des catastrophes naturelles."
+   },
+   {
+    "terme": "Franchise",
+    "def": "Part restant à la charge de l'assuré."
+   },
+   {
+    "terme": "Réparation résiliente",
+    "def": "Reconstruction qui rend le bien plus résistant."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quel réchauffement la France retient-elle d'ici 2100 ?",
+    "choix": [
+     "1 °C",
+     "4 °C",
+     "14 °C"
+    ],
+    "bonne": 1,
+    "expl": "C'est l'hypothèse de référence."
+   },
+   {
+    "q": "Que pourrait payer l'assureur après une catastrophe ?",
+    "choix": [
+     "Moins qu'avant",
+     "Rien",
+     "Plus, pour rendre le bâtiment plus résistant"
+    ],
+    "bonne": 2,
+    "expl": "Plutôt que de reconstruire à l'identique."
+   },
+   {
+    "q": "Qui s'est abstenu à l'Assemblée ?",
+    "choix": [
+     "Le RN et la droite",
+     "Les socialistes",
+     "Les écologistes"
+    ],
+    "bonne": 0,
+    "expl": "70 pour, 0 contre, 27 abstentions."
+   }
+  ],
+  "debat": {
+   "question": "Après une catastrophe, faut-il reconstruire à l'identique ou plus solide ? Et qui paie ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

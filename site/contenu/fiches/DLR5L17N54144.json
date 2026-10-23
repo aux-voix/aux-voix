@@ -150,5 +150,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Statut du bailleur privé",
+    "def": "Avantage fiscal pour ceux qui louent un logement rénové."
+   },
+   {
+    "terme": "DPE",
+    "def": "Diagnostic de performance énergétique, noté de A à G."
+   },
+   {
+    "terme": "Copropriété dégradée",
+    "def": "Immeuble en mauvais état, géré par plusieurs propriétaires."
+   },
+   {
+    "terme": "Gage",
+    "def": "Recette qui compense la perte d'une mesure ; ici, une taxe sur le tabac."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelle condition le texte supprime-t-il ?",
+    "choix": [
+     "Un montant minimum de travaux",
+     "La location",
+     "Le DPE"
+    ],
+    "bonne": 0,
+    "expl": "Il suffit d'améliorer assez la performance énergétique."
+   },
+   {
+    "q": "Combien de classes de DPE faut-il gagner pour un logement classé F ou G ?",
+    "choix": [
+     "Aucune",
+     "Au moins deux",
+     "Dix"
+    ],
+    "bonne": 1,
+    "expl": "Une classe sinon."
+   },
+   {
+    "q": "Qui a voté contre ?",
+    "choix": [
+     "LFI",
+     "Le RN",
+     "Les Démocrates"
+    ],
+    "bonne": 0,
+    "expl": "85 pour, 29 contre, 20 abstentions."
+   }
+  ],
+  "debat": {
+   "question": "Pour loger plus de monde : faut-il aider la rénovation de l'existant ou construire du neuf ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

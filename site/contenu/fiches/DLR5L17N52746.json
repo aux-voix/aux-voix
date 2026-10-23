@@ -136,9 +136,67 @@
   }
  ],
  "auteur": "Rédaction Aux Voix",
- "verif": "",
+ "verif": "l'éditeur du site",
  "version": {
   "n": 1,
   "date": "2026-10-20"
+ },
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Foncière",
+    "def": "Société ou établissement qui possède des immeubles et les loue."
+   },
+   {
+    "terme": "Loyer",
+    "def": "Somme versée pour occuper un bâtiment."
+   },
+   {
+    "terme": "Rénovation énergétique",
+    "def": "Travaux qui réduisent la consommation d'énergie d'un bâtiment."
+   },
+   {
+    "terme": "Taxe foncière",
+    "def": "Impôt payé par les propriétaires d'immeubles."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qui paiera un loyer à la foncière ?",
+    "choix": [
+     "Les habitants",
+     "Les ministères",
+     "Les communes"
+    ],
+    "bonne": 1,
+    "expl": "Avant, ils occupaient les bâtiments gratuitement."
+   },
+   {
+    "q": "À quoi serviront les loyers ?",
+    "choix": [
+     "À acheter, entretenir et rénover",
+     "À rembourser la dette",
+     "À payer les salaires"
+    ],
+    "bonne": 0,
+    "expl": "Selon le texte."
+   },
+   {
+    "q": "Quel a été le vote final à l'Assemblée ?",
+    "choix": [
+     "77 pour, 22 contre",
+     "276 pour, 86 contre",
+     "Unanimité"
+    ],
+    "bonne": 1,
+    "expl": "Le 21 juillet 2026."
+   }
+  ],
+  "debat": {
+   "question": "Faire payer un loyer aux ministères : une incitation à mieux entretenir les bâtiments publics ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
  }
 }

@@ -129,5 +129,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Entraide judiciaire",
+    "def": "Coopération entre les justices de deux pays dans les enquêtes pénales."
+   },
+   {
+    "terme": "Narcotrafic",
+    "def": "Trafic de drogue à grande échelle."
+   },
+   {
+    "terme": "Orpaillage illégal",
+    "def": "Recherche d'or sans autorisation."
+   },
+   {
+    "terme": "Procédure simplifiée",
+    "def": "Vote du Parlement sans débat ni scrutin public."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quel pays voisin de la Guyane signe ce traité ?",
+    "choix": [
+     "Le Brésil",
+     "Le Suriname",
+     "Le Venezuela"
+    ],
+    "bonne": 1,
+    "expl": "Il est le plus petit pays d'Amérique du Sud."
+   },
+   {
+    "q": "Comment coopérait-on jusqu'ici ?",
+    "choix": [
+     "Au cas par cas, sans traité",
+     "Par un traité de 1950",
+     "On ne coopérait pas"
+    ],
+    "bonne": 0,
+    "expl": "Selon la « courtoisie internationale »."
+   },
+   {
+    "q": "Quand le traité s'appliquera-t-il ?",
+    "choix": [
+     "Aussitôt",
+     "Quand le Suriname l'aura aussi approuvé",
+     "En 2050"
+    ],
+    "bonne": 1,
+    "expl": "La loi a été promulguée le 1er juillet 2026."
+   }
+  ],
+  "debat": {
+   "question": "Pourquoi les justices de pays voisins ont-elles besoin de coopérer ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

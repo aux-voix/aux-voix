@@ -120,5 +120,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Propulsion vélique",
+    "def": "Propulsion d'un navire par le vent : voiles, ailes, cerfs-volants."
+   },
+   {
+    "terme": "Décarboner",
+    "def": "Réduire les émissions de gaz à effet de serre."
+   },
+   {
+    "terme": "Achat public",
+    "def": "Achat réalisé par une administration."
+   },
+   {
+    "terme": "Suramortissement",
+    "def": "Avantage fiscal sur l'achat de matériel."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelle part des gaz à effet de serre mondiaux le transport maritime émet-il ?",
+    "choix": [
+     "Environ 3 %",
+     "30 %",
+     "0,3 %"
+    ],
+    "bonne": 0,
+    "expl": "Autant que l'aviation."
+   },
+   {
+    "q": "Quelle part de propulsion par le vent pour un usage principal ?",
+    "choix": [
+     "5 %",
+     "50 %",
+     "100 %"
+    ],
+    "bonne": 1,
+    "expl": "5 % pour un usage d'appoint."
+   },
+   {
+    "q": "Comment l'Assemblée a-t-elle voté ?",
+    "choix": [
+     "Rejet",
+     "Large rejet",
+     "175 voix pour, 0 contre"
+    ],
+    "bonne": 2,
+    "expl": "Le Sénat doit examiner le texte."
+   }
+  ],
+  "debat": {
+   "question": "Le vent peut-il devenir un carburant du transport maritime, et que faut-il pour y arriver ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

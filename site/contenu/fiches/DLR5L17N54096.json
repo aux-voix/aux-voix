@@ -114,9 +114,67 @@
   }
  ],
  "auteur": "Rédaction Aux Voix",
- "verif": "",
+ "verif": "l'éditeur du site",
  "version": {
   "n": 1,
   "date": "2026-10-20"
+ },
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Creps",
+    "def": "Centre de ressources, d'expertise et de performance sportive."
+   },
+   {
+    "terme": "Agglomération",
+    "def": "Groupement de communes autour d'une ville."
+   },
+   {
+    "terme": "Conseil d'administration",
+    "def": "Instance qui dirige un établissement."
+   },
+   {
+    "terme": "Expérimentation",
+    "def": "Essai limité dans le temps."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Jusqu'à quand dure l'expérience ?",
+    "choix": [
+     "Jusqu'en 2033",
+     "Jusqu'en 2026",
+     "Pour toujours"
+    ],
+    "bonne": 0,
+    "expl": "Jusqu'au 30 juin 2033."
+   },
+   {
+    "q": "Qui entre au conseil d'administration ?",
+    "choix": [
+     "Des représentants de l'agglomération de Vichy",
+     "Des touristes",
+     "Des banquiers"
+    ],
+    "bonne": 0,
+    "expl": "Quatre représentants."
+   },
+   {
+    "q": "Comment l'Assemblée a-t-elle voté ?",
+    "choix": [
+     "Rejet",
+     "44 pour, 0 contre, 6 abstentions",
+     "Unanimité sans abstention"
+    ],
+    "bonne": 1,
+    "expl": "Adoptée définitivement le 12 octobre 2026."
+   }
+  ],
+  "debat": {
+   "question": "Comment mieux coordonner un établissement d'État et une agglomération autour du sport ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
  }
 }

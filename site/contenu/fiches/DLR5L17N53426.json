@@ -119,9 +119,67 @@
   }
  ],
  "auteur": "Rédaction Aux Voix",
- "verif": "",
+ "verif": "l'éditeur du site",
  "version": {
   "n": 1,
   "date": "2026-10-20"
+ },
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Maladies cardio-neuro-vasculaires",
+    "def": "Maladies du cœur et des vaisseaux, comme l'infarctus et l'AVC."
+   },
+   {
+    "terme": "Dépistage",
+    "def": "Examen qui détecte une maladie avant les symptômes."
+   },
+   {
+    "terme": "Haute Autorité de santé",
+    "def": "Organisme qui évalue les soins et les recommandations médicales."
+   },
+   {
+    "terme": "Prévention",
+    "def": "Actions pour éviter la maladie."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelle place ces maladies occupent-elles parmi les causes de mortalité ?",
+    "choix": [
+     "Première",
+     "Deuxième",
+     "Dixième"
+    ],
+    "bonne": 1,
+    "expl": "Selon la loi."
+   },
+   {
+    "q": "Qui pourra mesurer la tension ?",
+    "choix": [
+     "Seulement les médecins",
+     "Les pharmaciens et les kinés",
+     "Personne"
+    ],
+    "bonne": 1,
+    "expl": "En plus des médecins."
+   },
+   {
+    "q": "Quel a été le vote final ?",
+    "choix": [
+     "462 voix pour, 0 contre",
+     "Adoption serrée",
+     "Rejet"
+    ],
+    "bonne": 0,
+    "expl": "Le 20 juillet 2026."
+   }
+  ],
+  "debat": {
+   "question": "Une stratégie nationale peut-elle améliorer la prévention d'une maladie ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
  }
 }

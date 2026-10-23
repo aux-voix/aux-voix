@@ -164,5 +164,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Restitution",
+    "def": "Fait de rendre un bien à son pays d'origine."
+   },
+   {
+    "terme": "Bien culturel",
+    "def": "Objet d'art ou d'histoire conservé dans un musée."
+   },
+   {
+    "terme": "Décret en Conseil d'État",
+    "def": "Texte du Gouvernement pris après avis du Conseil d'État."
+   },
+   {
+    "terme": "Inaliénabilité",
+    "def": "Impossibilité de donner ou vendre les collections des musées publics."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelle période est concernée par la loi ?",
+    "choix": [
+     "De 1815 à 1972",
+     "De 1000 à 1500",
+     "De 1990 à 2020"
+    ],
+    "bonne": 0,
+    "expl": "Pour des biens volés, pillés ou cédés sous la contrainte."
+   },
+   {
+    "q": "Comment décide-t-on désormais d'une restitution ?",
+    "choix": [
+     "Par une loi chaque fois",
+     "Par un décret après un comité d'experts",
+     "Par un vote des citoyens"
+    ],
+    "bonne": 1,
+    "expl": "Les deux États siègent au comité."
+   },
+   {
+    "q": "Que critique la gauche ?",
+    "choix": [
+     "Le texte rend trop",
+     "Le texte est inutile",
+     "Le texte est trop limité"
+    ],
+    "bonne": 2,
+    "expl": "Le RN craint que des collections soient « vidées »."
+   }
+  ],
+  "debat": {
+   "question": "Comment équilibrer conservation des collections et réparation d'une appropriation passée ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

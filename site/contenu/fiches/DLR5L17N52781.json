@@ -148,5 +148,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Assistance éducative",
+    "def": "Protection d'un enfant en danger par le juge des enfants."
+   },
+   {
+    "terme": "Juge des enfants",
+    "def": "Magistrat qui protège les mineurs en danger."
+   },
+   {
+    "terme": "Discernement",
+    "def": "Capacité à comprendre sa situation."
+   },
+   {
+    "terme": "Aide juridictionnelle",
+    "def": "Aide de l'État pour payer un avocat."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "À partir de quand la règle s'applique-t-elle ?",
+    "choix": [
+     "6 janvier 2027",
+     "1er mai 2026",
+     "2 mai 2030"
+    ],
+    "bonne": 0,
+    "expl": "Le Gouvernement proposait le 2 mai 2027."
+   },
+   {
+    "q": "Qui paie l'avocat ?",
+    "choix": [
+     "La famille",
+     "L'enfant",
+     "L'État"
+    ],
+    "bonne": 2,
+    "expl": "Au titre de l'aide juridictionnelle."
+   },
+   {
+    "q": "Quel coût annuel le Gouvernement estime-t-il ?",
+    "choix": [
+     "Environ 3 millions d'euros",
+     "Près de 300 millions d'euros",
+     "Environ 30 milliards d'euros"
+    ],
+    "bonne": 1,
+    "expl": "Il alerte aussi sur le manque d'avocats formés."
+   }
+  ],
+  "debat": {
+   "question": "Un enfant concerné par une décision de justice doit-il toujours avoir un avocat ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

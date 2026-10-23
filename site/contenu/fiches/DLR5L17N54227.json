@@ -141,5 +141,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Bétharram",
+    "def": "Établissement scolaire au cœur d'une affaire de violences."
+   },
+   {
+    "terme": "Châtiment corporel",
+    "def": "Punition physique."
+   },
+   {
+    "terme": "Reconnaissance par la Nation",
+    "def": "Déclaration officielle qui reconnaît des violences subies."
+   },
+   {
+    "terme": "119",
+    "def": "Numéro gratuit de l'enfance en danger."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelle journée d'hommage serait créée ?",
+    "choix": [
+     "Le 19 novembre",
+     "Le 14 juillet",
+     "Le 1er mai"
+    ],
+    "bonne": 0,
+    "expl": "En l'honneur des enfants victimes."
+   },
+   {
+    "q": "Que seraient interdits dans le code de l'éducation ?",
+    "choix": [
+     "Les devoirs",
+     "Les châtiments corporels et traitements humiliants",
+     "Les classes"
+    ],
+    "bonne": 1,
+    "expl": "Explicitement."
+   },
+   {
+    "q": "Comment l'Assemblée a-t-elle voté ?",
+    "choix": [
+     "Rejet",
+     "Adoption serrée",
+     "187 voix pour, 0 contre"
+    ],
+    "bonne": 2,
+    "expl": "Le Sénat doit encore examiner le texte."
+   }
+  ],
+  "debat": {
+   "question": "Comment protéger les enfants de toute violence dans les établissements scolaires ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

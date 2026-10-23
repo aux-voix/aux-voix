@@ -163,5 +163,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Commande publique",
+    "def": "Achats de travaux, fournitures et services par les administrations."
+   },
+   {
+    "terme": "PME",
+    "def": "Petite ou moyenne entreprise."
+   },
+   {
+    "terme": "Avance",
+    "def": "Somme versée au début d'un marché."
+   },
+   {
+    "terme": "Centrale d'achat",
+    "def": "Organisme qui achète pour le compte d'autres acheteurs publics."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "De combien passerait l'avance minimale pour les PME ?",
+    "choix": [
+     "De 10 % à 30 %",
+     "De 30 % à 10 %",
+     "De 0 % à 3 %"
+    ],
+    "bonne": 0,
+    "expl": "Dans les grandes collectivités."
+   },
+   {
+    "q": "Que doivent faire les centrales d'achat ?",
+    "choix": [
+     "Se déclarer au ministre de l'Économie",
+     "Fermer",
+     "Fusionner"
+    ],
+    "bonne": 0,
+    "expl": "Avec une liste publique."
+   },
+   {
+    "q": "Qui s'est abstenu à l'Assemblée ?",
+    "choix": [
+     "Le RN",
+     "Les Démocrates",
+     "LFI"
+    ],
+    "bonne": 2,
+    "expl": "82 pour, 0 contre, 11 abstentions."
+   }
+  ],
+  "debat": {
+   "question": "Comment faciliter l'accès des petites entreprises aux marchés publics ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

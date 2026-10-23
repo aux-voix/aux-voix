@@ -1,0 +1,203 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53717",
+ "titre_officiel": "Proposition de loi visant à interdire les sucres ajoutés dans les aliments destinés aux nourrissons et aux enfants en bas âge",
+ "phrase": "Les aliments vendus pour les bébés et enfants de moins de 3 ans ne pourraient plus contenir de sucres ajoutés, à partir de 2028. Le Sénat doit encore voter.",
+ "note": "Texte adopté à l'unanimité par l'Assemblée en première lecture le 26 mars 2026. Le Sénat doit encore l'examiner.",
+ "essentiel": {
+  "points": [
+   "Certains biscuits pour enfants dès 10 mois contiennent plus de 30 grammes de sucre pour 100 grammes, selon une députée.",
+   "Le texte interdit les sucres ajoutés (sucre, miel, sirops, jus concentrés) dans les aliments destinés aux moins de 3 ans.",
+   "Des exceptions seraient fixées par le ministre de la Santé, après avis de l'Anses ; l'amende irait jusqu'à 30 000 euros."
+  ],
+  "pour": "Tous les groupes : l'habitude du sucre se prend très tôt, et 17 % des enfants sont déjà en surpoids.",
+  "contre": "Personne n'a voté contre, mais des députés doutent que la France puisse interdire seule ces produits, encadrés par le droit européen."
+ },
+ "court": {
+  "resume": [
+   "L'Organisation mondiale de la santé recommande de ne pas ajouter de sucre dans l'alimentation des tout-petits ; le goût du sucré s'acquiert tôt.",
+   "En France, 17 % des enfants sont en surpoids et 6 % obèses, selon les chiffres cités en commission.",
+   "Le texte de Cyrille Isaac-Sibille (Démocrates) interdit les sucres ajoutés dans les produits pour bébés à partir de 2028."
+  ],
+  "change": [
+   [
+    "Sucres ajoutés autorisés dans les aliments pour bébés.",
+    "Interdits dans les produits destinés aux moins de 3 ans, sauf exceptions fixées par arrêté.",
+    "Fabricants, familles"
+   ],
+   [
+    "—",
+    "Amende jusqu'à 30 000 euros, ou 5 % du chiffre d'affaires du produit en cause.",
+    "Fabricants, distributeurs"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Delphine Lingemann (Démocrates)",
+    "arg": "Des biscuits destinés aux enfants dès dix mois peuvent contenir plus de 30 grammes de sucre pour 100 grammes : « Ce n'est pas anodin. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2527.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Nathalie Colin-Oesterlé (Horizons)",
+    "arg": "Un règlement européen de 2013 harmonise ces produits : une interdiction unilatérale « exposerait la France à une procédure en manquement ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2527.html"
+   }
+  ]
+ },
+ "resume": [
+  "Il serait interdit de fabriquer, importer, exporter, vendre ou distribuer des préparations présentées comme destinées aux nourrissons (moins d'un an) et aux enfants en bas âge (1 à 3 ans) si elles contiennent des sucres ajoutés.",
+  "Sont visés le sucre et tous les ingrédients utilisés pour leur pouvoir sucrant, comme le miel, les sirops et les jus de fruits concentrés ; les sucres naturellement présents ne sont pas concernés.",
+  "Un arrêté du ministre de la Santé, pris après avis de l'Anses, peut exempter certains produits et fixer le type et le taux maximal de sucres autorisés.",
+  "Un manquement serait puni de 30 000 euros d'amende, montant pouvant atteindre 5 % du chiffre d'affaires réalisé sur le produit.",
+  "L'interdiction entrerait en vigueur le 1er janvier 2028 ; le texte devrait être notifié à la Commission européenne."
+ ],
+ "pourquoi": [
+  "Selon le rapporteur, aucun bénéfice nutritionnel ne justifie l'ajout de sucre à cet âge : il relève d'une « logique gustative et essentiellement commerciale ».",
+  "Le rapporteur reconnaît que le droit européen harmonise ces produits : le texte est aussi « un signal » adressé aux industriels, au gouvernement et aux autorités européennes."
+ ],
+ "change": [
+  [
+   "Sucres ajoutés autorisés.",
+   "Interdits dans les aliments pour moins de 3 ans.",
+   "Fabricants, familles",
+   "1er janvier 2028, si le texte est adopté définitivement"
+  ],
+  [
+   "—",
+   "Exceptions et taux maximal fixés par arrêté après avis de l'Anses.",
+   "Fabricants",
+   "Si le texte est adopté définitivement"
+  ]
+ ],
+ "pasfait": [
+  "Il ne vise pas les aliments courants, seulement ceux présentés comme destinés aux tout-petits.",
+  "Il ne crée pas de taxe sur le sucre.",
+  "Il n'est pas en vigueur : le Sénat doit l'examiner, et la Commission européenne pourrait s'y opposer."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Yannick Neuder (Droite républicaine)",
+    "arg": "« Il est temps que nous nous attaquions à la malbouffe sur tous les fronts et à tous les âges. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2527.html"
+   },
+   {
+    "qui": "Sabrina Sebaihi (écologiste)",
+    "arg": "Les trois quarts des enfants dépassent les apports en sucre recommandés : interdire les sucres ajoutés est « une première mesure ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2527.html"
+   },
+   {
+    "qui": "Christophe Mongardien (Ensemble pour la République)",
+    "arg": "Le texte suit l'OMS, qui recommande de ne pas ajouter de sucres ni d'agents sucrants dans l'alimentation infantile.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2527.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Nathalie Colin-Oesterlé (Horizons)",
+    "arg": "La bonne voie serait de réviser le règlement européen ; la définition des sucres ajoutés (lactose, jus de fruits) reste ambiguë. Son groupe ne s'oppose pas au texte.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2527.html"
+   },
+   {
+    "qui": "Thierry Frappé (RN)",
+    "arg": "Il partage l'objectif, mais « l'efficacité d'une politique de santé publique ne repose pas uniquement sur l'interdiction ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2527.html"
+   },
+   {
+    "qui": "Ségolène Amiot (La France insoumise)",
+    "arg": "La proposition de loi est « beaucoup moins ambitieuse » que celle des écologistes ; les responsables sont l'agro-industrie et ses lobbys.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2527.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée : 49 pour, 0 contre (26 mars 2026, scrutin n° 5847)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Cyrille Isaac-Sibille, Assemblée nationale (n° 2527)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2527.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 256)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0256.raw"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53717"
+  },
+  {
+   "titre": "Scrutin n° 5847 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/5847"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Sucres ajoutés",
+    "def": "Sucres ajoutés par le fabricant : sucre, miel, sirops, jus concentrés."
+   },
+   {
+    "terme": "Anses",
+    "def": "Agence nationale de sécurité sanitaire."
+   },
+   {
+    "terme": "Nourrisson",
+    "def": "Bébé de moins d'un an."
+   },
+   {
+    "terme": "Surpoids",
+    "def": "Poids supérieur à la normale pour l'âge."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Pour quels enfants les sucres ajoutés seraient-ils interdits ?",
+    "choix": [
+     "Les moins de 3 ans",
+     "Les moins de 13 ans",
+     "Les adultes"
+    ],
+    "bonne": 0,
+    "expl": "À partir de 2028."
+   },
+   {
+    "q": "Quelle est l'amende maximale ?",
+    "choix": [
+     "30 euros",
+     "30 000 euros",
+     "30 millions d'euros"
+    ],
+    "bonne": 1,
+    "expl": "Ou 5 % du chiffre d'affaires du produit."
+   },
+   {
+    "q": "Quelle difficulté soulèvent certains députés ?",
+    "choix": [
+     "Le droit européen encadre ces produits",
+     "Le prix du sucre",
+     "Le nombre de bébés"
+    ],
+    "bonne": 0,
+    "expl": "La France ne pourrait pas interdire seule."
+   }
+  ],
+  "debat": {
+   "question": "Comment protéger la santé des plus jeunes tout en respectant les règles européennes ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
+}

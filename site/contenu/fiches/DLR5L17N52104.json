@@ -157,5 +157,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Corps électoral",
+    "def": "Ensemble des personnes autorisées à voter à une élection."
+   },
+   {
+    "terme": "Loi organique",
+    "def": "Loi qui précise l'organisation des pouvoirs publics."
+   },
+   {
+    "terme": "Accord de Nouméa",
+    "def": "Accord de 1998 sur l'avenir de la Nouvelle-Calédonie."
+   },
+   {
+    "terme": "Natif",
+    "def": "Personne née dans le territoire."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de personnes seraient ajoutées au corps électoral ?",
+    "choix": [
+     "Environ 105",
+     "Environ 1 050",
+     "Environ 10 500"
+    ],
+    "bonne": 2,
+    "expl": "Les natifs inscrits sur la liste générale."
+   },
+   {
+    "q": "Les conjoints sont-ils ajoutés ?",
+    "choix": [
+     "Non, l'amendement a été rejeté",
+     "Oui",
+     "Seulement les conjoints de fonctionnaires"
+    ],
+    "bonne": 0,
+    "expl": "À une voix près."
+   },
+   {
+    "q": "Quelle décision le Conseil constitutionnel a-t-il rendue ?",
+    "choix": [
+     "Non conforme",
+     "Conforme",
+     "Il n'a pas été saisi"
+    ],
+    "bonne": 1,
+    "expl": "Décision du 28 mai 2026."
+   }
+  ],
+  "debat": {
+   "question": "Qui doit pouvoir voter pour décider de l'avenir d'un territoire ? Chaque camp défend un équilibre différent.",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

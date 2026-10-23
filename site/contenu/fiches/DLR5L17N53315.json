@@ -148,5 +148,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Créance",
+    "def": "Somme qu'une personne doit payer à une autre."
+   },
+   {
+    "terme": "Commissaire de justice",
+    "def": "Professionnel qui remplace l'ancien huissier."
+   },
+   {
+    "terme": "Créance incontestée",
+    "def": "Dette que le débiteur ne conteste pas."
+   },
+   {
+    "terme": "Greffe",
+    "def": "Service du tribunal qui enregistre les décisions."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qui somme le client de payer ?",
+    "choix": [
+     "Un commissaire de justice",
+     "Le maire",
+     "Un avocat seulement"
+    ],
+    "bonne": 0,
+    "expl": "Sous un mois."
+   },
+   {
+    "q": "Qui supporte les frais ?",
+    "choix": [
+     "Le créancier",
+     "Le débiteur",
+     "L'État"
+    ],
+    "bonne": 1,
+    "expl": "Selon la loi."
+   },
+   {
+    "q": "Combien d'entreprises ont fait faillite en 2025 ?",
+    "choix": [
+     "6",
+     "682",
+     "68 296"
+    ],
+    "bonne": 2,
+    "expl": "Un record, selon le texte."
+   }
+  ],
+  "debat": {
+   "question": "Peut-on recouvrer une facture sans passer par un juge, sans fragiliser les petites entreprises ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

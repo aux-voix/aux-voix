@@ -138,5 +138,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Habilitation",
+    "def": "Autorisation donnée par le Parlement à une collectivité de fixer elle-même certaines règles."
+   },
+   {
+    "terme": "Article 73 de la Constitution",
+    "def": "Article qui permet cette adaptation outre-mer."
+   },
+   {
+    "terme": "Assainissement",
+    "def": "Collecte et traitement des eaux usées."
+   },
+   {
+    "terme": "Mobilité durable",
+    "def": "Transports moins polluants."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Sur quoi la Martinique pourra-t-elle adapter les règles ?",
+    "choix": [
+     "Énergie et mobilité durable",
+     "Défense et justice",
+     "Monnaie"
+    ],
+    "bonne": 0,
+    "expl": "Et créer une autorité unique de l'eau."
+   },
+   {
+    "q": "Qui s'est abstenu à l'Assemblée ?",
+    "choix": [
+     "Les socialistes",
+     "Le RN",
+     "LFI"
+    ],
+    "bonne": 1,
+    "expl": "35 pour, 0 contre, 5 abstentions."
+   },
+   {
+    "q": "Pourquoi une autorité unique de l'eau ?",
+    "choix": [
+     "Le réseau connaît fuites et coupures",
+     "Pour réduire les écoles",
+     "Pour supprimer des communes"
+    ],
+    "bonne": 0,
+    "expl": "La gestion est jugée défaillante."
+   }
+  ],
+  "debat": {
+   "question": "Un territoire peut-il mieux décider seul de certaines règles locales ? À quelles conditions ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

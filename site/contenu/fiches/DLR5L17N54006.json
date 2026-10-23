@@ -113,9 +113,67 @@
   }
  ],
  "auteur": "Rédaction Aux Voix",
- "verif": "",
+ "verif": "l'éditeur du site",
  "version": {
   "n": 1,
   "date": "2026-10-20"
+ },
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Loi Montagne",
+    "def": "Loi qui adapte les règles aux territoires de montagne."
+   },
+   {
+    "terme": "Continuité de l'urbanisation",
+    "def": "Règle: on ne construit qu'à côté des constructions existantes."
+   },
+   {
+    "terme": "Retenue d'eau",
+    "def": "Réserve qui stocke de l'eau."
+   },
+   {
+    "terme": "Neige de culture",
+    "def": "Neige fabriquée pour les stations de ski."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de communes sont classées en zone de montagne ?",
+    "choix": [
+     "60",
+     "609",
+     "6 097"
+    ],
+    "bonne": 2,
+    "expl": "Près de 30 % du territoire métropolitain."
+   },
+   {
+    "q": "Que facilitent les retenues d'eau ?",
+    "choix": [
+     "Plusieurs usages dont l'eau potable, l'agriculture et la neige de culture",
+     "Seulement la neige de culture",
+     "Seulement l'eau potable"
+    ],
+    "bonne": 0,
+    "expl": "Selon la loi."
+   },
+   {
+    "q": "Qui a voté contre ?",
+    "choix": [
+     "LFI et les écologistes",
+     "Le RN",
+     "Les socialistes"
+    ],
+    "bonne": 0,
+    "expl": "376 pour, 92 contre, 4 abstentions."
+   }
+  ],
+  "debat": {
+   "question": "Comment concilier développement de la montagne et protection de ses espaces naturels ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
  }
 }

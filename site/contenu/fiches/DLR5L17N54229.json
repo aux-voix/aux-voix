@@ -145,5 +145,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Bourse sur critères sociaux",
+    "def": "Aide versée aux étudiants selon les revenus de leur famille."
+   },
+   {
+    "terme": "Indexation",
+    "def": "Augmentation automatique selon les prix."
+   },
+   {
+    "terme": "Inflation",
+    "def": "Hausse générale des prix."
+   },
+   {
+    "terme": "Précarité étudiante",
+    "def": "Difficulté des étudiants à couvrir leurs besoins de base."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Sur combien de mois les bourses seraient-elles versées ?",
+    "choix": [
+     "Dix",
+     "Douze",
+     "Six"
+    ],
+    "bonne": 1,
+    "expl": "Au lieu de dix."
+   },
+   {
+    "q": "Quel coût estimé par le Gouvernement ?",
+    "choix": [
+     "54 millions d'euros",
+     "Un peu plus de 540 millions d'euros",
+     "540 milliards d'euros"
+    ],
+    "bonne": 1,
+    "expl": "Par an."
+   },
+   {
+    "q": "Qui s'est abstenu à l'Assemblée ?",
+    "choix": [
+     "Le centre et la droite",
+     "LFI",
+     "Le RN"
+    ],
+    "bonne": 0,
+    "expl": "Le RN et la gauche ont voté pour."
+   }
+  ],
+  "debat": {
+   "question": "Comment aider les étudiants en difficulté, et à quel coût pour les finances publiques ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

@@ -149,9 +149,67 @@
   }
  ],
  "auteur": "Rédaction Aux Voix",
- "verif": "",
+ "verif": "l'éditeur du site",
  "version": {
   "n": 1,
   "date": "2026-10-20"
+ },
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Aide sociale à l'enfance (ASE)",
+    "def": "Service du département qui protège les enfants en danger."
+   },
+   {
+    "terme": "Ordonnance de sûreté de l'enfant",
+    "def": "Décision du juge qui protège un enfant en urgence."
+   },
+   {
+    "terme": "Tiers digne de confiance",
+    "def": "Proche à qui un enfant peut être confié."
+   },
+   {
+    "terme": "119",
+    "def": "Numéro gratuit de l'enfance en danger."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien d'enfants et de jeunes majeurs l'ASE prend-elle en charge ?",
+    "choix": [
+     "Plus de 380 000",
+     "Environ 38",
+     "Plus de 38 millions"
+    ],
+    "bonne": 0,
+    "expl": "Selon la fiche."
+   },
+   {
+    "q": "Que pourra faire un juge ?",
+    "choix": [
+     "Protéger en urgence un enfant qui dénonce des violences d'un parent",
+     "Supprimer l'école",
+     "Fermer l'ASE"
+    ],
+    "bonne": 0,
+    "expl": "En suspendant des droits de visite."
+   },
+   {
+    "q": "Que fait la gauche au vote ?",
+    "choix": [
+     "Elle vote pour",
+     "Elle vote contre",
+     "Elle s'abstient"
+    ],
+    "bonne": 2,
+    "expl": "378 pour, 7 contre, 173 abstentions."
+   }
+  ],
+  "debat": {
+   "question": "Comment protéger les enfants placés et garantir la stabilité de leur parcours ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
  }
 }

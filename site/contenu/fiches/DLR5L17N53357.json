@@ -118,5 +118,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Intercommunalité",
+    "def": "Groupement de communes."
+   },
+   {
+    "terme": "Compensation financière",
+    "def": "Aide de l'État pour couvrir une dépense."
+   },
+   {
+    "terme": "Service public de la petite enfance",
+    "def": "Crèches, assistantes maternelles, information des familles."
+   },
+   {
+    "terme": "Commune",
+    "def": "Plus petite division administrative."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelles communes recevaient la compensation ?",
+    "choix": [
+     "Toutes",
+     "Celles de plus de 3 500 habitants",
+     "Aucune"
+    ],
+    "bonne": 1,
+    "expl": "La loi l'étend à toutes."
+   },
+   {
+    "q": "Qui est aussi inclus par la loi ?",
+    "choix": [
+     "Les régions",
+     "Les départements",
+     "Les intercommunalités"
+    ],
+    "bonne": 2,
+    "expl": "Qui exercent ces missions."
+   },
+   {
+    "q": "Comment l'Assemblée a-t-elle voté ?",
+    "choix": [
+     "121 pour, 0 contre sur l'ensemble",
+     "Rejet",
+     "Adoption serrée"
+    ],
+    "bonne": 0,
+    "expl": "Le Sénat avait voté à l'unanimité."
+   }
+  ],
+  "debat": {
+   "question": "Comment mieux aider les petites communes qui organisent l'accueil des jeunes enfants ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

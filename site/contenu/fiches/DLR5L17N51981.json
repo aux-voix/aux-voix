@@ -139,5 +139,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Aspa",
+    "def": "Allocation de solidarité aux personnes âgées, ou minimum vieillesse."
+   },
+   {
+    "terme": "Succession",
+    "def": "Transmission du patrimoine d'une personne décédée à ses héritiers."
+   },
+   {
+    "terme": "Récupération",
+    "def": "Reprise de sommes versées sur l'héritage."
+   },
+   {
+    "terme": "Forfait logement",
+    "def": "Réduction appliquée à l'aide quand on est logé gratuitement ou propriétaire."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelle part des personnes éligibles ne demande pas l'Aspa ?",
+    "choix": [
+     "Un dixième",
+     "La moitié",
+     "Presque aucune"
+    ],
+    "bonne": 1,
+    "expl": "Par peur de la reprise sur l'héritage."
+   },
+   {
+    "q": "De combien l'aide baisserait-elle environ ?",
+    "choix": [
+     "40 € par mois",
+     "4 € par mois",
+     "400 € par mois"
+    ],
+    "bonne": 0,
+    "expl": "Pour une personne seule propriétaire."
+   },
+   {
+    "q": "Que peuvent faire les bénéficiaires actuels ?",
+    "choix": [
+     "Rien",
+     "Perdre leur aide",
+     "Choisir l'ancien ou le nouveau système"
+    ],
+    "bonne": 2,
+    "expl": "Le vote était 165 pour, 0 contre."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il supprimer la reprise sur l'héritage du minimum vieillesse, quitte à baisser l'aide ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

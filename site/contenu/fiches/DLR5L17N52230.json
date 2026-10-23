@@ -174,5 +174,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Lieu de privation de liberté",
+    "def": "Lieu où une personne est enfermée : prison, garde à vue, centre de rétention."
+   },
+   {
+    "terme": "Bâtonnier",
+    "def": "Représentant élu des avocats d'un barreau."
+   },
+   {
+    "terme": "Garde à vue",
+    "def": "Mesure de police qui retient une personne pour une enquête."
+   },
+   {
+    "terme": "Conseil constitutionnel",
+    "def": "Juge la conformité des lois à la Constitution."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qui peut visiter ces lieux à tout moment ?",
+    "choix": [
+     "Les journalistes",
+     "Les députés, sénateurs et bâtonniers",
+     "N'importe quel citoyen"
+    ],
+    "bonne": 1,
+    "expl": "Les journalistes restent exclus des cellules de garde à vue."
+   },
+   {
+    "q": "Pourquoi fallait-il voter avant le 30 avril 2026 ?",
+    "choix": [
+     "Le Conseil constitutionnel avait jugé la liste des lieux incomplète",
+     "Une élection approchait",
+     "Un budget devait être voté"
+    ],
+    "bonne": 0,
+    "expl": "Sinon le droit de visite tombait."
+   },
+   {
+    "q": "Quel groupe a voté contre la version finale ?",
+    "choix": [
+     "Le RN",
+     "LFI",
+     "Les socialistes"
+    ],
+    "bonne": 1,
+    "expl": "204 pour, 31 contre."
+   }
+  ],
+  "debat": {
+   "question": "Le contrôle des lieux d'enfermement par des élus : quelles limites et quelles garanties ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

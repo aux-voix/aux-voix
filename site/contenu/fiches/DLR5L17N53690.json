@@ -118,5 +118,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Compte de campagne",
+    "def": "Document qui retrace les dépenses et recettes d'un candidat."
+   },
+   {
+    "terme": "Expert-comptable",
+    "def": "Professionnel qui présente et certifie les comptes."
+   },
+   {
+    "terme": "Remboursement",
+    "def": "Somme rendue au candidat par l'État."
+   },
+   {
+    "terme": "Tolérance",
+    "def": "Pratique admise sans texte de loi."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien coûtent ces frais environ ?",
+    "choix": [
+     "10 euros",
+     "Environ 1 000 euros",
+     "10 000 euros"
+    ],
+    "bonne": 1,
+    "expl": "Par compte."
+   },
+   {
+    "q": "Qu'avait remis en cause une décision de justice de décembre 2025 ?",
+    "choix": [
+     "Le remboursement admis par tolérance",
+     "Les élections",
+     "Les comptes de campagne"
+    ],
+    "bonne": 0,
+    "expl": "La loi sécurise ce point."
+   },
+   {
+    "q": "Comment l'Assemblée a-t-elle voté ?",
+    "choix": [
+     "Rejet",
+     "Adoption serrée",
+     "42 pour, 0 contre"
+    ],
+    "bonne": 2,
+    "expl": "Le Sénat avait adopté le texte le 19 février 2026."
+   }
+  ],
+  "debat": {
+   "question": "Un candidat doit-il payer de sa poche une dépense que la loi lui impose ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

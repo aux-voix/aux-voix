@@ -121,5 +121,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Loi organique",
+    "def": "Loi qui précise l'organisation des pouvoirs publics, votée selon des règles particulières."
+   },
+   {
+    "terme": "Département-Région",
+    "def": "Collectivité qui exerce à la fois les compétences d'un département et d'une région."
+   },
+   {
+    "terme": "Mode de scrutin",
+    "def": "Règles d'élection d'une assemblée."
+   },
+   {
+    "terme": "Commission mixte paritaire",
+    "def": "Réunion de députés et de sénateurs pour trouver un texte commun."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Depuis quand Mayotte est-elle un département ?",
+    "choix": [
+     "1946",
+     "2011",
+     "2025"
+    ],
+    "bonne": 1,
+    "expl": "Elle exerce aussi les compétences d'une région."
+   },
+   {
+    "q": "Comment la collectivité est-elle renommée ?",
+    "choix": [
+     "Région de Mayotte",
+     "Territoire de Mayotte",
+     "Département-Région de Mayotte"
+    ],
+    "bonne": 2,
+    "expl": "Les élus auront le statut d'élus régionaux."
+   },
+   {
+    "q": "Où figure le mode d'élection de l'assemblée ?",
+    "choix": [
+     "Dans la loi de refondation",
+     "Dans cette loi organique",
+     "Dans la Constitution"
+    ],
+    "bonne": 0,
+    "expl": "Votée le même jour."
+   }
+  ],
+  "debat": {
+   "question": "Pourquoi le statut d'une collectivité d'outre-mer fait-il l'objet d'une loi particulière ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

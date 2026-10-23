@@ -1,0 +1,236 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N52100",
+ "titre_officiel": "Projet de loi relatif à l’organisation des jeux Olympiques et Paralympiques de 2030",
+ "phrase": "La loi adapte le droit pour organiser les Jeux d'hiver 2030 dans les Alpes : chantiers accélérés, travail le dimanche, nouvelles mesures de sécurité.",
+ "note": "Loi promulguée en mars 2026, validée par le Conseil constitutionnel avec deux réserves.",
+ "essentiel": {
+  "points": [
+   "Les Jeux d'hiver auront lieu dans les Alpes françaises en février 2030 ; le comité d'organisation a un budget d'environ 2,1 milliards d'euros, aux trois quarts privé.",
+   "La loi accélère les chantiers et permet l'ouverture des commerces le dimanche près des sites, de janvier à mars 2030.",
+   "Elle prolonge jusqu'à fin 2027 l'essai des caméras « intelligentes » et crée une interdiction de paraître lors des grands événements."
+  ],
+  "pour": "Majorité, droite, RN et socialistes : il faut tenir les engagements pris auprès du CIO et sécuriser l'événement.",
+  "contre": "LFI et écologistes : atteintes aux libertés, coût public et bétonnage de la montagne. Les communistes se sont abstenus."
+ },
+ "court": {
+  "resume": [
+   "Comme pour Paris 2024, accueillir les Jeux oblige à adapter le droit : contrat avec le Comité international olympique (CIO), chantiers, sécurité.",
+   "Les Jeux se tiendront dans les régions Auvergne-Rhône-Alpes et Provence-Alpes-Côte d'Azur.",
+   "Ce projet de loi du gouvernement a été voté largement ; LFI et les écologistes ont saisi le Conseil constitutionnel, qui l'a validé avec des réserves."
+  ],
+  "change": [
+   [
+    "Règles d'urbanisme et d'expropriation classiques.",
+    "Procédures accélérées et dérogations pour les aménagements liés aux Jeux.",
+    "Communes hôtes, propriétaires"
+   ],
+   [
+    "Expérimentation des caméras algorithmiques terminée.",
+    "Reconduite jusqu'au 31 décembre 2027.",
+    "Public des grands événements"
+   ],
+   [
+    "—",
+    "Interdiction de paraître dans les lieux d'un grand événement pour une personne jugée très dangereuse.",
+    "Personnes visées"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Stéphane Mazars (Ensemble pour la République)",
+    "arg": "Le texte « constitue une étape essentielle pour garantir la tenue des Jeux olympiques et paralympiques d'hiver de 2030 ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2233.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Élisa Martin (La France insoumise)",
+    "arg": "Ces mesures de surveillance sont « en contradiction avec la liberté d'aller et venir, la liberté d'expression » et le droit à la vie privée.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2233.html"
+   }
+  ]
+ },
+ "resume": [
+  "La loi confie au comité d'organisation les droits sur les « propriétés olympiques » (emblèmes, mascotte, termes protégés) jusqu'à fin 2030 et autorise le recours à l'arbitrage pour le contrat hôte.",
+  "La Cour des comptes contrôlera les organismes publics et privés financés par l'argent public qui concourent aux Jeux ; elle rendra un rapport en 2028 et un bilan du coût et de l'héritage avant décembre 2031.",
+  "Les aménagements liés aux Jeux bénéficient de procédures accélérées (urbanisme, prise de possession anticipée en cas d'expropriation) et peuvent être comptés comme projets d'envergure nationale pour les objectifs de lutte contre l'artificialisation.",
+  "Le préfet peut autoriser les commerces des communes des sites, et des communes proches, à ouvrir le dimanche entre le 1er janvier et le 31 mars 2030, après avis des élus et des chambres consulaires.",
+  "Côté sécurité : caméras algorithmiques autorisées jusqu'au 31 décembre 2027 ; interdiction de décoller pour un pilote soupçonné de vouloir violer une interdiction de survol ; interdiction de paraître limitée à la durée de l'événement, et deux mois au plus, punie de trois ans de prison si elle n'est pas respectée."
+ ],
+ "pourquoi": [
+  "Selon la ministre des Sports, Marina Ferrari, le budget du comité d'organisation, 2,132 milliards d'euros, provient aux trois quarts de fonds privés.",
+  "La loi pérennise aussi certains dispositifs testés pendant les Jeux de Paris 2024."
+ ],
+ "change": [
+  [
+   "—",
+   "Dérogations d'urbanisme et procédures accélérées.",
+   "Territoires hôtes",
+   "Depuis mars 2026"
+  ],
+  [
+   "Repos dominical.",
+   "Ouverture possible le dimanche dans les commerces autorisés.",
+   "Salariés du commerce",
+   "Du 1er janvier au 31 mars 2030"
+  ],
+  [
+   "Expérimentation terminée.",
+   "Caméras algorithmiques à nouveau autorisées.",
+   "Public des grands événements",
+   "Jusqu'au 31 décembre 2027"
+  ],
+  [
+   "—",
+   "Interdiction de paraître lors des grands événements.",
+   "Personnes jugées dangereuses",
+   "Depuis mars 2026"
+  ]
+ ],
+ "pasfait": [
+  "Il ne fixe pas le budget des Jeux, voté par le comité d'organisation.",
+  "Il ne rend pas permanente la vidéoprotection algorithmique : l'expérimentation reste limitée dans le temps.",
+  "L'interdiction de paraître ne peut pas dépasser, avec certaines autres mesures antiterroristes, douze mois cumulés, selon le Conseil constitutionnel."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Agnès Firmin Le Bodo (Horizons)",
+    "arg": "Le texte est « indispensable pour honorer les engagements pris par la France auprès du Comité international olympique ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2233.html"
+   },
+   {
+    "qui": "Sylvie Bonnet (Droite républicaine)",
+    "arg": "Un choix clair : « ne pas refermer la parenthèse sécuritaire de Paris 2024, mais d'en faire un héritage durable ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2233.html"
+   },
+   {
+    "qui": "Jordan Guitton (RN)",
+    "arg": "Le RN veut améliorer la sécurité de l'événement, mais ne soutient que les mesures de sécurité qui concernent les Jeux.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2233.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Pouria Amirshahi (écologiste)",
+    "arg": "Il dénonce « une forme de banalisation des mesures administratives antiterroristes », appliquées à de grands événements sportifs.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2233.html"
+   },
+   {
+    "qui": "Jean-François Coulomme (La France insoumise)",
+    "arg": "Le budget du comité est financé à plus de 26 % par de l'argent public, une part qui risque de dépasser 33 %, soit près d'un milliard d'euros.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2233.html"
+   },
+   {
+    "qui": "Marie-José Allemand (socialiste)",
+    "arg": "Son groupe a voté le texte, mais refuse que les Jeux servent de « prétexte » à étendre des mesures dérogatoires, comme l'interdiction de paraître.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2233.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée, première lecture : 403 pour, 99 contre (LFI, écologistes), 18 abstentions, 13 janvier 2026, scrutin n° 4963. Texte de compromis : 390 pour, 99 contre, 19 abstentions, 3 février 2026, scrutin n° 5296."
+  },
+  {
+   "titre": "Le Conseil constitutionnel",
+   "texte": "Saisi par des députés LFI et écologistes, il a validé la loi le 19 mars 2026, avec deux réserves sur l'interdiction de paraître : elle doit rester proportionnée à la situation de la personne et ne pas dépasser douze mois cumulés avec certaines autres mesures antiterroristes."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport des commissions de l'Assemblée nationale (n° 2233)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2233.html"
+  },
+  {
+   "titre": "Rapport de la commission mixte paritaire (n° 2395)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2395.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 228)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PRJLANR5L17BTA0228.raw"
+  },
+  {
+   "titre": "Décision n° 2026-902 DC du Conseil constitutionnel",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026902DC.htm"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N52100"
+  },
+  {
+   "titre": "Scrutin n° 4963 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/4963"
+  },
+  {
+   "titre": "Scrutin n° 5296 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/5296"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Jeux d'hiver 2030",
+    "def": "Jeux olympiques et paralympiques organisés dans les Alpes françaises."
+   },
+   {
+    "terme": "Caméras algorithmiques",
+    "def": "Caméras dont un logiciel repère des situations à risque."
+   },
+   {
+    "terme": "Interdiction de paraître",
+    "def": "Interdiction d'entrer dans certains lieux."
+   },
+   {
+    "terme": "Conseil constitutionnel",
+    "def": "Juge la conformité des lois à la Constitution."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quand auront lieu les Jeux ?",
+    "choix": [
+     "Février 2030",
+     "Été 2028",
+     "Décembre 2035"
+    ],
+    "bonne": 0,
+    "expl": "Dans les Alpes françaises."
+   },
+   {
+    "q": "Jusqu'à quand l'essai des caméras est-il prolongé ?",
+    "choix": [
+     "2026",
+     "Fin 2027",
+     "2040"
+    ],
+    "bonne": 1,
+    "expl": "L'expérimentation était terminée."
+   },
+   {
+    "q": "Qu'a décidé le Conseil constitutionnel ?",
+    "choix": [
+     "Il a rejeté la loi",
+     "Il n'a pas été saisi",
+     "Il l'a validée avec deux réserves"
+    ],
+    "bonne": 2,
+    "expl": "Sur l'interdiction de paraître."
+   }
+  ],
+  "debat": {
+   "question": "Organiser les Jeux : comment concilier sécurité, libertés et coût public ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
+}

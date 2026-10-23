@@ -164,5 +164,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Fraude sociale",
+    "def": "Obtenir des aides sans y avoir droit."
+   },
+   {
+    "terme": "Fraude fiscale",
+    "def": "Éviter de payer des impôts dus."
+   },
+   {
+    "terme": "Flagrance sociale",
+    "def": "Procédure de saisie des biens d'une entreprise soupçonnée de travail dissimulé."
+   },
+   {
+    "terme": "RSA",
+    "def": "Revenu de solidarité active, versé par les départements."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de temps France Travail peut-il suspendre les allocations chômage ?",
+    "choix": [
+     "Jusqu'à 3 mois",
+     "Un jour",
+     "Un an"
+    ],
+    "bonne": 0,
+    "expl": "En cas d'indices sérieux de fraude."
+   },
+   {
+    "q": "Qui pourra consulter des relevés bancaires, de façon encadrée ?",
+    "choix": [
+     "Les voisins",
+     "Les agents des départements",
+     "Les banques seules"
+    ],
+    "bonne": 1,
+    "expl": "Contre la fraude au RSA."
+   },
+   {
+    "q": "Combien le Gouvernement en attend-il ?",
+    "choix": [
+     "15 000 euros",
+     "1,5 à 2 milliards d'euros",
+     "150 milliards d'euros"
+    ],
+    "bonne": 1,
+    "expl": "La loi a été promulguée le 25 juin 2026."
+   }
+  ],
+  "debat": {
+   "question": "Comment lutter contre toutes les fraudes sans pénaliser ceux qui ont droit à leurs aides ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

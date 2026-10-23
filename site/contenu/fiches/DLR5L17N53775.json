@@ -156,5 +156,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "RPI",
+    "def": "Regroupement pédagogique intercommunal : plusieurs communes partagent leurs écoles."
+   },
+   {
+    "terme": "Intercommunalité",
+    "def": "Groupement de communes."
+   },
+   {
+    "terme": "Préavis",
+    "def": "Délai à respecter avant un retrait."
+   },
+   {
+    "terme": "Fermeture de classe",
+    "def": "Suppression d'une classe faute d'élèves."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de communes n'ont pas d'école ?",
+    "choix": [
+     "Plus de 13 000",
+     "130",
+     "13"
+    ],
+    "bonne": 0,
+    "expl": "Beaucoup de RPI les aident à en garder une."
+   },
+   {
+    "q": "Quel préavis pour se retirer d'un RPI ?",
+    "choix": [
+     "Aucun",
+     "Deux ans",
+     "Dix ans"
+    ],
+    "bonne": 1,
+    "expl": "Selon le texte."
+   },
+   {
+    "q": "Pourquoi LFI s'est-elle abstenue ?",
+    "choix": [
+     "Elle trouve le texte trop long",
+     "Elle estime que les RPI accompagnent les fermetures de classes",
+     "Elle veut supprimer l'école"
+    ],
+    "bonne": 1,
+    "expl": "132 pour, 0 contre, 25 abstentions."
+   }
+  ],
+  "debat": {
+   "question": "Comment garder une école près des habitants dans les villages ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

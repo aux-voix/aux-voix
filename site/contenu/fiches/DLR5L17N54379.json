@@ -100,9 +100,67 @@
   }
  ],
  "auteur": "Rédaction Aux Voix",
- "verif": "",
+ "verif": "l'éditeur du site",
  "version": {
   "n": 1,
   "date": "2026-10-20"
+ },
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Impôt minimum mondial",
+    "def": "Impôt d'au moins 15 % sur les bénéfices des grands groupes dans chaque pays."
+   },
+   {
+    "terme": "GloBE",
+    "def": "Règles de l'impôt minimum mondial de l'OCDE."
+   },
+   {
+    "terme": "Chiffre d'affaires consolidé",
+    "def": "Total des ventes d'un groupe."
+   },
+   {
+    "terme": "Déclaration unique",
+    "def": "Une seule déclaration au lieu d'une par pays."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "À partir de quel chiffre d'affaires un groupe est-il concerné ?",
+    "choix": [
+     "750 euros",
+     "750 000 euros",
+     "750 millions d'euros"
+    ],
+    "bonne": 2,
+    "expl": "Depuis 2024."
+   },
+   {
+    "q": "Quel est le taux minimum ?",
+    "choix": [
+     "15 %",
+     "1,5 %",
+     "50 %"
+    ],
+    "bonne": 0,
+    "expl": "Dans chaque pays."
+   },
+   {
+    "q": "Que simplifie l'accord ?",
+    "choix": [
+     "Une déclaration pour chaque pays",
+     "Une seule déclaration transmise aux pays signataires",
+     "La suppression de l'impôt"
+    ],
+    "bonne": 1,
+    "expl": "Selon la fiche."
+   }
+  ],
+  "debat": {
+   "question": "Comment imposer équitablement les grands groupes qui travaillent dans plusieurs pays ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
  }
 }

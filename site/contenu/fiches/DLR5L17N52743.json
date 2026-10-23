@@ -130,5 +130,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Victime",
+    "def": "Personne qui a subi une infraction."
+   },
+   {
+    "terme": "Sortie temporaire",
+    "def": "Permission de sortir accordée à un détenu pour une durée limitée."
+   },
+   {
+    "terme": "Guichet de suivi",
+    "def": "Service qui accompagne les victimes dans la procédure."
+   },
+   {
+    "terme": "116 006",
+    "def": "Numéro national d'aide aux victimes, gratuit."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de temps avant la sortie la victime serait-elle informée ?",
+    "choix": [
+     "Au plus tard un mois avant",
+     "Un jour après",
+     "Un an avant"
+    ],
+    "bonne": 0,
+    "expl": "Y compris pour une sortie temporaire."
+   },
+   {
+    "q": "La victime peut-elle refuser d'être informée ?",
+    "choix": [
+     "Non",
+     "Seulement si elle déménage",
+     "Oui"
+    ],
+    "bonne": 2,
+    "expl": "Le texte respecte son choix."
+   },
+   {
+    "q": "Comment l'Assemblée a-t-elle voté ?",
+    "choix": [
+     "Rejet",
+     "146 voix pour, 0 contre",
+     "Adoption à une voix"
+    ],
+    "bonne": 1,
+    "expl": "Le Sénat doit encore l'examiner."
+   }
+  ],
+  "debat": {
+   "question": "Comment mieux informer les victimes tout au long d'une procédure judiciaire ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

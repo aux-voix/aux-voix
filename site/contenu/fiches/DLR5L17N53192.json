@@ -117,5 +117,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Brexit",
+    "def": "Sortie du Royaume-Uni de l'Union européenne."
+   },
+   {
+    "terme": "Reconnaissance de diplôme",
+    "def": "Validation d'un diplôme obtenu à l'étranger."
+   },
+   {
+    "terme": "Unanimité",
+    "def": "Accord de tous les votants."
+   },
+   {
+    "terme": "Exercer",
+    "def": "Pratiquer un métier."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelle date limite pour le début des études ?",
+    "choix": [
+     "31 décembre 2020",
+     "1er janvier 2000",
+     "31 décembre 2030"
+    ],
+    "bonne": 0,
+    "expl": "Avant la fin de 2020."
+   },
+   {
+    "q": "Quel est le problème que la loi résout ?",
+    "choix": [
+     "Le salaire des médecins",
+     "Des diplômes non reconnus depuis le Brexit",
+     "Le nombre de facultés"
+    ],
+    "bonne": 1,
+    "expl": "Des étudiants souvent français."
+   },
+   {
+    "q": "Comment l'Assemblée a-t-elle voté ?",
+    "choix": [
+     "De justesse",
+     "Elle a rejeté",
+     "À l'unanimité"
+    ],
+    "bonne": 2,
+    "expl": "La loi a été promulguée le 15 mai 2026."
+   }
+  ],
+  "debat": {
+   "question": "Comment traiter les situations créées par un changement de règles après le début d'études ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

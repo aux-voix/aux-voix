@@ -141,5 +141,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Agence spatiale européenne (ESA)",
+    "def": "Organisation européenne chargée des programmes spatiaux."
+   },
+   {
+    "terme": "Kourou",
+    "def": "Centre spatial en Guyane."
+   },
+   {
+    "terme": "Exonération",
+    "def": "Dispense de payer un impôt."
+   },
+   {
+    "terme": "Immunité diplomatique",
+    "def": "Protection accordée à certains représentants."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Où est le siège de l'ESA ?",
+    "choix": [
+     "À Paris",
+     "À Kourou",
+     "À Bruxelles"
+    ],
+    "bonne": 0,
+    "expl": "Et des installations à Kourou."
+   },
+   {
+    "q": "Quand ses privilèges avaient-ils été fixés ?",
+    "choix": [
+     "1975",
+     "2015",
+     "1875"
+    ],
+    "bonne": 0,
+    "expl": "L'accord les actualise."
+   },
+   {
+    "q": "Quelle critique un député RN a-t-il formulée ?",
+    "choix": [
+     "Le siège serait trop petit",
+     "Les exonérations seraient un cadeau fait par la France",
+     "L'Agence serait inutile"
+    ],
+    "bonne": 1,
+    "expl": "Moins de recettes fiscales."
+   }
+  ],
+  "debat": {
+   "question": "Accueillir une organisation internationale : quels avantages, quel coût ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

@@ -1,0 +1,170 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N52354",
+ "titre_officiel": "Projet de loi autorisant l’approbation de l’accord sous forme d’échange de notes verbales entre le Gouvernement de la République française et le Gouvernement de la République de Moldavie relatif à l’échange de permis de conduire",
+ "phrase": "Les Moldaves installés en France pourront échanger leur permis de conduire contre un permis français sans repasser l'examen, et inversement.",
+ "note": "Loi promulguée en janvier 2026, adoptée sans vote public.",
+ "essentiel": {
+  "points": [
+   "Entre 100 000 et 150 000 Moldaves vivent en France, souvent dans le bâtiment ou le travail saisonnier.",
+   "Leur permis n'était reconnu qu'un an : ensuite, ils devaient repasser l'examen en France.",
+   "L'accord permet l'échange direct des permis, aussi pour la centaine de Français vivant en Moldavie."
+  ],
+  "pour": "Tous les groupes : une mesure concrète pour l'emploi et l'intégration, et un geste envers un pays candidat à l'Union européenne.",
+  "contre": "Personne ne s'y est opposé. LFI vote le texte mais reste opposée à l'entrée de la Moldavie dans l'Union européenne."
+ },
+ "court": {
+  "resume": [
+   "La Moldavie, voisine de l'Ukraine, a ouvert des négociations d'adhésion à l'Union européenne et subit des ingérences russes, selon le rapport.",
+   "Elle demandait cet accord depuis 2013 ; il a été annoncé par le président de la République en mars 2024.",
+   "Il sécurise aussi juridiquement les échanges, dans le cadre d'une révision du système français engagée en 2018."
+  ],
+  "change": [
+   [
+    "Permis moldave reconnu un an, puis examen à repasser.",
+    "Échange direct contre un permis français.",
+    "Moldaves vivant en France"
+   ],
+   [
+    "—",
+    "Même règle pour les Français installés en Moldavie.",
+    "Français en Moldavie"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Brigitte Klinkert (Ensemble pour la République)",
+    "arg": "Repasser le permis après un an « constitue un frein réel » à l'emploi et à l'intégration de la diaspora moldave.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2315.html"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "L'accord, conclu par échange de notes verbales le 12 juillet 2024, permet d'échanger un permis de conduire moldave contre un permis français sans repasser l'examen, et réciproquement.",
+  "Jusqu'ici, un permis moldave n'était reconnu en France que pendant un an après l'installation de son titulaire.",
+  "Selon le rapporteur, environ 100 000 Moldaves sont concernés, contre une centaine de Français en Moldavie.",
+  "L'accord s'inscrit dans la révision du dispositif français d'échange des permis, engagée en 2018 pour remplacer de simples pratiques réciproques et lutter contre la fraude documentaire.",
+  "La Moldavie avait achevé ses procédures dès septembre 2024 ; l'accord devait entrer en vigueur début 2026."
+ ],
+ "pourquoi": [
+  "Selon le rapport, l'accord doit illustrer les bénéfices concrets du rapprochement de la Moldavie avec l'Union européenne pour sa diaspora.",
+  "La diaspora moldave travaille souvent dans des secteurs où la voiture est un outil de travail."
+ ],
+ "change": [
+  [
+   "Reconnaissance limitée à un an.",
+   "Échange direct des permis.",
+   "Moldaves en France, Français en Moldavie",
+   "Depuis l'entrée en vigueur de l'accord"
+  ]
+ ],
+ "pasfait": [
+  "Il ne concerne que les permis moldaves et français ; les autres permis étrangers restent soumis aux règles habituelles."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Julien Gokel (socialiste)",
+    "arg": "Un texte « qui peut paraître technique » mais qui « porte en réalité une forte charge symbolique », dans le soutien de la France au choix européen de la Moldavie.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2315.html"
+   },
+   {
+    "qui": "Jean-Louis Roumégas (écologiste)",
+    "arg": "L'élan de la Moldavie vers l'Europe « vient du peuple lui-même » : il faut l'accompagner.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2315.html"
+   },
+   {
+    "qui": "Aurélien Taché (La France insoumise)",
+    "arg": "Son groupe vote un texte qui « va faciliter la vie de nombreux Moldaves ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2315.html"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucune opposition : tous les groupes ont soutenu le texte. Aurélien Taché (LFI) a précisé que son groupe reste « défavorable à l'adhésion de la Moldavie à l'Union européenne »."
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Sénat : adopté le 29 octobre 2025. Assemblée : adopté le 20 janvier 2026 sans modification, sans vote public."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Pierre Pribetich, Assemblée nationale (n° 2315)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2315.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 213)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PRJLANR5L17BTA0213.raw"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N52354"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Permis de conduire",
+    "def": "Document qui autorise à conduire."
+   },
+   {
+    "terme": "Échange de notes verbales",
+    "def": "Forme d'accord entre deux États par courriers diplomatiques."
+   },
+   {
+    "terme": "Moldavie",
+    "def": "Pays d'Europe de l'Est, candidat à l'Union européenne."
+   },
+   {
+    "terme": "Procédure simplifiée",
+    "def": "Vote sans débat ni scrutin public."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Pendant combien de temps le permis moldave était-il reconnu en France ?",
+    "choix": [
+     "Un an",
+     "Dix ans",
+     "Toute la vie"
+    ],
+    "bonne": 0,
+    "expl": "Ensuite, il fallait repasser l'examen."
+   },
+   {
+    "q": "Combien de Moldaves vivent en France ?",
+    "choix": [
+     "500",
+     "Entre 100 000 et 150 000",
+     "Plus de 10 millions"
+    ],
+    "bonne": 1,
+    "expl": "Souvent dans le bâtiment ou le travail saisonnier."
+   },
+   {
+    "q": "L'accord vaut-il pour les Français en Moldavie ?",
+    "choix": [
+     "Non",
+     "Seulement les fonctionnaires",
+     "Oui, même règle"
+    ],
+    "bonne": 2,
+    "expl": "Une centaine de Français y vivent."
+   }
+  ],
+  "debat": {
+   "question": "Pourquoi la reconnaissance des permis facilite-t-elle l'emploi et l'intégration ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
+}

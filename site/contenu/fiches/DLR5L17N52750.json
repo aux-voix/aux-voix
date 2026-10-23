@@ -166,5 +166,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Collectivité unique",
+    "def": "Collectivité qui réunit les compétences d'un département et d'une région."
+   },
+   {
+    "terme": "Grand Est",
+    "def": "Région créée en 2015 par fusion de l'Alsace, de la Lorraine et de la Champagne-Ardenne."
+   },
+   {
+    "terme": "Référendum local",
+    "def": "Vote des habitants d'un territoire sur un projet qui les concerne."
+   },
+   {
+    "terme": "Millefeuille territorial",
+    "def": "Superposition de communes, départements et régions."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "En quelle année l'Alsace a-t-elle rejoint le Grand Est ?",
+    "choix": [
+     "2015",
+     "1815",
+     "2025"
+    ],
+    "bonne": 0,
+    "expl": "Avec la Lorraine et la Champagne-Ardenne."
+   },
+   {
+    "q": "Que faudrait-il avant la création de « l'Alsace » ?",
+    "choix": [
+     "Rien",
+     "Un référendum local",
+     "Un vote des régions voisines"
+    ],
+    "bonne": 1,
+    "expl": "Elle serait effective aux élections régionales suivantes."
+   },
+   {
+    "q": "Quel a été le vote de l'Assemblée ?",
+    "choix": [
+     "Unanimité",
+     "Rejet",
+     "131 pour, 100 contre"
+    ],
+    "bonne": 2,
+    "expl": "Le Sénat doit encore examiner le texte."
+   }
+  ],
+  "debat": {
+   "question": "Un territoire peut-il quitter une région pour former une collectivité unique ? Chaque camp défend un équilibre différent.",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

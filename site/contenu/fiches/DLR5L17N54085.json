@@ -172,9 +172,67 @@
   }
  ],
  "auteur": "Rédaction Aux Voix",
- "verif": "",
+ "verif": "l'éditeur du site",
  "version": {
   "n": 1,
   "date": "2026-10-20"
+ },
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Pesticide",
+    "def": "Produit qui détruit des organismes nuisibles aux cultures."
+   },
+   {
+    "terme": "Dérogation",
+    "def": "Autorisation exceptionnelle de s'écarter d'une règle."
+   },
+   {
+    "terme": "Anses",
+    "def": "Agence nationale de sécurité sanitaire."
+   },
+   {
+    "terme": "Souveraineté agricole",
+    "def": "Capacité du pays à produire son alimentation."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de pesticides interdits en France pourraient être autorisés sous conditions ?",
+    "choix": [
+     "Deux",
+     "Vingt",
+     "Aucun"
+    ],
+    "bonne": 0,
+    "expl": "À titre exceptionnel, pour quelques filières."
+   },
+   {
+    "q": "Quel objectif pour le stockage d'eau agricole d'ici 2035 ?",
+    "choix": [
+     "Le réduire",
+     "Le doubler",
+     "Le maintenir"
+    ],
+    "bonne": 1,
+    "expl": "Selon la loi."
+   },
+   {
+    "q": "Qui a voté contre au vote final ?",
+    "choix": [
+     "Le RN",
+     "Les Démocrates",
+     "LFI, socialistes, écologistes et GDR"
+    ],
+    "bonne": 2,
+    "expl": "296 pour, 224 contre."
+   }
+  ],
+  "debat": {
+   "question": "Comment concilier protection de l'environnement et soutien aux agriculteurs ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
  }
 }

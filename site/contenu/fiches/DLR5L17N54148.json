@@ -139,5 +139,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Cadmium",
+    "def": "Métal toxique présent dans certains engrais phosphatés."
+   },
+   {
+    "terme": "Engrais phosphaté",
+    "def": "Engrais qui apporte du phosphore aux cultures."
+   },
+   {
+    "terme": "Anses",
+    "def": "Agence nationale de sécurité sanitaire."
+   },
+   {
+    "terme": "Plafond",
+    "def": "Limite maximale autorisée."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelle part des Français dépasse la dose jugée sans risque ?",
+    "choix": [
+     "4,7 %",
+     "47 %",
+     "97 %"
+    ],
+    "bonne": 1,
+    "expl": "Selon l'Anses citée en commission."
+   },
+   {
+    "q": "Quel plafond à partir de 2027 ?",
+    "choix": [
+     "40 mg par kilo",
+     "90 mg par kilo",
+     "0 mg"
+    ],
+    "bonne": 0,
+    "expl": "Puis 20 mg en 2030."
+   },
+   {
+    "q": "Qui a voté contre ?",
+    "choix": [
+     "Les écologistes",
+     "Les socialistes",
+     "Le RN et l'UDR"
+    ],
+    "bonne": 2,
+    "expl": "144 pour, 22 contre, 4 abstentions."
+   }
+  ],
+  "debat": {
+   "question": "Comment protéger la santé sans fragiliser les agriculteurs ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

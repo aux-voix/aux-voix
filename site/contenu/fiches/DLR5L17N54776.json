@@ -158,9 +158,67 @@
   }
  ],
  "auteur": "Rédaction Aux Voix",
- "verif": "",
+ "verif": "l'éditeur du site",
  "version": {
   "n": 1,
   "date": "2026-10-20"
+ },
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Violences sexuelles et sexistes",
+    "def": "Violences dirigées contre des personnes à cause de leur sexe ou de leur genre."
+   },
+   {
+    "terme": "Classement sans suite",
+    "def": "Décision du procureur de ne pas poursuivre."
+   },
+   {
+    "terme": "3919",
+    "def": "Numéro national gratuit d'écoute pour les femmes victimes de violences."
+   },
+   {
+    "terme": "119",
+    "def": "Numéro gratuit de l'enfance en danger."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelle part des plaintes ont été classées sans suite en 2021, selon les auteurs ?",
+    "choix": [
+     "7,3 %",
+     "73 %",
+     "Aucune"
+    ],
+    "bonne": 1,
+    "expl": "Ils jugent la réponse de la justice défaillante."
+   },
+   {
+    "q": "Que deviennent obligatoires ?",
+    "choix": [
+     "Un socle d'actes d'enquête",
+     "Les procès",
+     "Les amendes"
+    ],
+    "bonne": 0,
+    "expl": "Pour éviter qu'une plainte soit écartée trop vite."
+   },
+   {
+    "q": "Quel groupe s'est abstenu ?",
+    "choix": [
+     "LFI",
+     "Le RN",
+     "Les socialistes"
+    ],
+    "bonne": 0,
+    "expl": "503 pour, 0 contre, 67 abstentions."
+   }
+  ],
+  "debat": {
+   "question": "Comment mieux répondre aux violences sexistes et sexuelles : justice, prévention, moyens ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
  }
 }

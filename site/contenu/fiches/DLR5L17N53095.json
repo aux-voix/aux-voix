@@ -146,9 +146,67 @@
   }
  ],
  "auteur": "Rédaction Aux Voix",
- "verif": "",
+ "verif": "l'éditeur du site",
  "version": {
   "n": 1,
   "date": "2026-10-20"
+ },
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Extradition",
+    "def": "Remise d'une personne poursuivie ou condamnée à un autre pays."
+   },
+   {
+    "terme": "Narcotrafic",
+    "def": "Trafic de drogue à grande échelle."
+   },
+   {
+    "terme": "Traité de 1850",
+    "def": "Ancien traité remplacé par la nouvelle convention."
+   },
+   {
+    "terme": "Infraction politique",
+    "def": "Infraction à caractère politique, qui ne donne pas lieu à extradition."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Depuis quand datait l'ancien traité ?",
+    "choix": [
+     "1850",
+     "1950",
+     "2010"
+    ],
+    "bonne": 0,
+    "expl": "Il ne permettait pas d'extrader pour trafic de drogue."
+   },
+   {
+    "q": "À partir de quelle peine l'extradition devient-elle possible ?",
+    "choix": [
+     "Un jour de prison",
+     "Au moins deux ans de prison",
+     "Seulement la perpétuité"
+    ],
+    "bonne": 1,
+    "expl": "Pour tout fait puni d'au moins deux ans."
+   },
+   {
+    "q": "Que ne peut-on pas appliquer à la personne extradée ?",
+    "choix": [
+     "La prison",
+     "Une amende",
+     "La peine de mort"
+    ],
+    "bonne": 2,
+    "expl": "Et l'extradition reste refusée pour les infractions politiques."
+   }
+  ],
+  "debat": {
+   "question": "Comment lutter contre un trafic international tout en garantissant les droits des personnes extradées ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
  }
 }

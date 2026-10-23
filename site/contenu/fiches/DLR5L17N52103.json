@@ -1,0 +1,182 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N52103",
+ "titre_officiel": "Projet de loi autorisant l’approbation de l’avenant à la convention d’entraide judiciaire en matière pénale du 28 mai 1996 entre le Gouvernement de la République française et le Gouvernement de la République fédérative du Brésil",
+ "phrase": "La France et le Brésil modernisent leur coopération judiciaire pénale, notamment contre le narcotrafic : fin du secret bancaire entre les deux justices, auditions par vidéo.",
+ "note": "Loi promulguée en mars 2026, adoptée sans vote public.",
+ "essentiel": {
+  "points": [
+   "La France et le Brésil partagent 730 km de frontière, en Guyane ; les trafics de drogue et l'orpaillage illégal y prospèrent.",
+   "Selon le rapport, 80 % des « mules » arrêtées dans les aéroports parisiens en 2024 arrivaient du Brésil.",
+   "L'avenant à leur convention de 1996 facilite les échanges : informations bancaires, demandes électroniques, auditions par vidéoconférence."
+  ],
+  "pour": "Tous les groupes : il faut des outils concrets contre le narcotrafic et la criminalité organisée transfrontalière.",
+  "contre": "Personne ne s'y est opposé. Des députés regrettent que l'orpaillage illégal ne soit pas mieux traité."
+ },
+ "court": {
+  "resume": [
+   "Depuis 1996, une convention permet aux juges des deux pays de se demander des actes d'enquête ; elle était jugée lourde.",
+   "L'avenant, signé à Brasilia en 2024, élargit et simplifie cette entraide.",
+   "Il s'inscrit dans le rapprochement entre les deux pays depuis 2023."
+  ],
+  "change": [
+   [
+    "Le secret bancaire peut justifier un refus.",
+    "Il ne le peut plus ; un article encadre l'échange d'informations bancaires.",
+    "Enquêtes sur le narcotrafic"
+   ],
+   [
+    "Demandes signées, scellées, traduites par un traducteur assermenté.",
+    "Demandes possibles par voie électronique, sans sceau ni traducteur assermenté.",
+    "Magistrats"
+   ],
+   [
+    "Pas de vidéoconférence prévue.",
+    "Auditions de témoins et d'experts par vidéoconférence, avec interprète.",
+    "Témoins, experts"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Vincent Ledoux (Ensemble pour la République)",
+    "arg": "Le texte est important pour la relation avec le Brésil et pour « l'efficacité concrète de notre action pénale » face à la criminalité organisée.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2470.html"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "L'avenant interdit d'opposer le caractère fiscal d'une infraction pour refuser l'entraide, même si les deux pays n'ont pas les mêmes impôts.",
+  "Il supprime l'exigence d'une infraction permettant la perquisition ou la saisie dans le pays sollicité pour exécuter une demande de perquisition ou de saisie.",
+  "Le secret bancaire ne peut plus justifier un refus, et un nouvel article encadre l'échange d'informations bancaires, utile pour suivre l'argent du narcotrafic.",
+  "Les demandes peuvent être transmises par tout moyen laissant une trace écrite ; la signature, le sceau et la traduction assermentée ne sont plus exigés.",
+  "Un nouvel article encadre les auditions par vidéoconférence ; l'avenant modernise aussi les perquisitions, saisies, confiscations et livraisons surveillées."
+ ],
+ "pourquoi": [
+  "Selon le rapport, la France est devenue « la porte d'entrée européenne des narcotrafiquants brésiliens ».",
+  "Les deux pays fêtaient en 2025 deux cents ans de relations diplomatiques ; les présidents se sont rendu visite cinq fois depuis 2023."
+ ],
+ "change": [
+  [
+   "—",
+   "Fin du secret bancaire et des refus pour motif fiscal entre les deux justices.",
+   "Enquêteurs",
+   "Depuis l'entrée en vigueur de l'accord"
+  ],
+  [
+   "—",
+   "Procédures dématérialisées et vidéoconférence.",
+   "Magistrats, témoins",
+   "Depuis l'entrée en vigueur de l'accord"
+  ]
+ ],
+ "pasfait": [
+  "Il ne traite ni de l'extradition ni du transfèrement des détenus, régis par d'autres conventions.",
+  "Il ne vise pas spécifiquement l'orpaillage illégal, ce que les Horizons ont regretté."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Pierre-Yves Cadalen (La France insoumise)",
+    "arg": "Dans le cadre de relations bilatérales « à entretenir et à défendre », son groupe se prononce favorablement.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2470.html"
+   },
+   {
+    "qui": "Pascale Got (socialiste)",
+    "arg": "Le partenariat stratégique avec le Brésil est important pour lutter contre la criminalité transnationale.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2470.html"
+   },
+   {
+    "qui": "Michel Guiniot (RN)",
+    "arg": "L'avenant est « bienvenu » pour actualiser la coopération ; 17 % des détenus de Guyane sont de nationalité brésilienne.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2470.html"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucune opposition : tous les groupes ont soutenu le texte. Laetitia Saint-Paul (Horizons) s'est inquiétée de l'absence de l'orpaillage illégal ; Christine Engrand (non inscrite) a demandé comment garantir la réciprocité dans l'accès aux informations bancaires."
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Sénat : adopté le 23 juin 2025. Assemblée : adopté le 25 février 2026 sans modification, sans vote public."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Davy Rimane, Assemblée nationale (n° 2470)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2470.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 244)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PRJLANR5L17BTA0244.raw"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N52103"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Avenant",
+    "def": "Texte qui modifie un accord existant."
+   },
+   {
+    "terme": "Secret bancaire",
+    "def": "Règle qui interdit de révéler des informations sur les clients d'une banque."
+   },
+   {
+    "terme": "Mule",
+    "def": "Personne qui transporte de la drogue pour un trafiquant."
+   },
+   {
+    "terme": "Vidéoconférence",
+    "def": "Audition à distance par écran."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelle frontière commune la France et le Brésil partagent-elles ?",
+    "choix": [
+     "730 km en Guyane",
+     "7 km",
+     "7 300 km"
+    ],
+    "bonne": 0,
+    "expl": "Les trafics y prospèrent."
+   },
+   {
+    "q": "Le secret bancaire peut-il encore justifier un refus ?",
+    "choix": [
+     "Oui",
+     "Non",
+     "Seulement en Guyane"
+    ],
+    "bonne": 1,
+    "expl": "Un article encadre l'échange d'informations."
+   },
+   {
+    "q": "Quelle part des mules arrêtées en 2024 venait du Brésil ?",
+    "choix": [
+     "8 %",
+     "18 %",
+     "80 %"
+    ],
+    "bonne": 2,
+    "expl": "Dans les aéroports parisiens."
+   }
+  ],
+  "debat": {
+   "question": "Comment lutter efficacement contre un trafic qui traverse les frontières ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
+}

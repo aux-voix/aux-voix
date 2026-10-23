@@ -135,9 +135,67 @@
   }
  ],
  "auteur": "Rédaction Aux Voix",
- "verif": "",
+ "verif": "l'éditeur du site",
  "version": {
   "n": 1,
   "date": "2026-10-20"
+ },
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Réseaux sociaux",
+    "def": "Plateformes où l'on publie et échange du contenu."
+   },
+   {
+    "terme": "Vérification de l'âge",
+    "def": "Contrôle de l'âge lors de l'inscription."
+   },
+   {
+    "terme": "Conseil constitutionnel",
+    "def": "Juge la conformité des lois à la Constitution."
+   },
+   {
+    "terme": "Liberté d'expression",
+    "def": "Droit de s'exprimer librement."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelle mesure a été censurée ?",
+    "choix": [
+     "L'interdiction du portable au lycée",
+     "L'interdiction des réseaux sociaux aux moins de 15 ans",
+     "Toute la loi"
+    ],
+    "bonne": 1,
+    "expl": "Le 14 août 2026."
+   },
+   {
+    "q": "Pourquoi a-t-elle été censurée ?",
+    "choix": [
+     "Atteinte disproportionnée à la liberté d'expression et à la vie privée",
+     "Le texte était trop long",
+     "Elle coûtait trop cher"
+    ],
+    "bonne": 0,
+    "expl": "Selon le Conseil."
+   },
+   {
+    "q": "Qu'est-ce qui reste applicable ?",
+    "choix": [
+     "Rien",
+     "Une taxe",
+     "L'interdiction du portable au lycée"
+    ],
+    "bonne": 2,
+    "expl": "À partir du 1er septembre."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il interdire les réseaux sociaux aux plus jeunes, et par quels moyens ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
  }
 }

@@ -134,9 +134,67 @@
   }
  ],
  "auteur": "Rédaction Aux Voix",
- "verif": "",
+ "verif": "l'éditeur du site",
  "version": {
   "n": 1,
   "date": "2026-10-20"
+ },
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "OQTF",
+    "def": "Obligation de quitter le territoire français."
+   },
+   {
+    "terme": "Rétention administrative",
+    "def": "Enfermement d'un étranger dans l'attente de son expulsion."
+   },
+   {
+    "terme": "Réserve d'interprétation",
+    "def": "Précision du Conseil constitutionnel sur la façon d'appliquer un texte."
+   },
+   {
+    "terme": "Rétention de sûreté",
+    "def": "Placement en centre de soins de certaines personnes jugées dangereuses après leur peine."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Jusqu'à combien de jours la rétention peut-elle aller ?",
+    "choix": [
+     "30",
+     "210",
+     "21"
+    ],
+    "bonne": 1,
+    "expl": "Elle était de 90 jours."
+   },
+   {
+    "q": "Qui peut imposer un examen psychiatrique ?",
+    "choix": [
+     "Le préfet",
+     "Le maire",
+     "Le voisin"
+    ],
+    "bonne": 0,
+    "expl": "Pour prévenir un acte terroriste."
+   },
+   {
+    "q": "Qu'a décidé le Conseil constitutionnel ?",
+    "choix": [
+     "Non conforme",
+     "Conforme avec une réserve",
+     "Il ne s'est pas prononcé"
+    ],
+    "bonne": 1,
+    "expl": "Décision du 23 juillet 2026."
+   }
+  ],
+  "debat": {
+   "question": "Allonger la rétention : sécurité ou efficacité contestée ? Chaque camp avance ses arguments.",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
  }
 }

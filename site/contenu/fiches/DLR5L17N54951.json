@@ -190,7 +190,7 @@
   }
  ],
  "auteur": "Rédaction Aux Voix",
- "verif": "",
+ "verif": "l'éditeur du site",
  "version": {
   "n": 1,
   "date": "2026-10-20"
@@ -257,5 +257,63 @@
     "source": "https://www.vivamagazine.fr/plfss-2027-la-mutualite-francaise-denonce-un-budget-de-sanctions-taxes-et-deremboursements/"
    }
   ]
+ },
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Loi de financement de la Sécurité sociale",
+    "def": "Loi annuelle qui fixe les recettes et dépenses de la Sécurité sociale."
+   },
+   {
+    "terme": "Déficit",
+    "def": "Écart entre les dépenses et les recettes."
+   },
+   {
+    "terme": "Ondam",
+    "def": "Objectif de dépenses d'assurance maladie."
+   },
+   {
+    "terme": "Gel",
+    "def": "Absence d'augmentation."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quel déficit vise-t-on en 2027 ?",
+    "choix": [
+     "12,7 milliards d'euros",
+     "127 millions d'euros",
+     "21,8 milliards d'euros"
+    ],
+    "bonne": 0,
+    "expl": "Contre 21,8 milliards en 2026."
+   },
+   {
+    "q": "À partir de quel montant de pension le gel est-il prévu ?",
+    "choix": [
+     "12 600 € par mois",
+     "126 € par mois",
+     "1 260 € par mois"
+    ],
+    "bonne": 2,
+    "expl": "Sauf décision contraire du gouvernement."
+   },
+   {
+    "q": "À quel moment ce texte est-il à l'étude ?",
+    "choix": [
+     "Déjà promulgué",
+     "Vote des députés le 27 octobre, puis Sénat en novembre",
+     "Abandonné"
+    ],
+    "bonne": 1,
+    "expl": "Version déposée le 1er octobre 2026."
+   }
+  ],
+  "debat": {
+   "question": "Pour réduire le déficit de la Sécurité sociale, où faut-il agir ? Chaque camp répond autrement.",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
  }
 }

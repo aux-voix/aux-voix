@@ -151,5 +151,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "AGRASC",
+    "def": "Agence qui gère les biens saisis et confisqués aux délinquants."
+   },
+   {
+    "terme": "Saisie",
+    "def": "Mise sous main de justice d'un bien."
+   },
+   {
+    "terme": "Confiscation",
+    "def": "Prise définitive d'un bien par l'État après condamnation."
+   },
+   {
+    "terme": "Cryptomonnaie",
+    "def": "Monnaie numérique."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qui gère les biens saisis ?",
+    "choix": [
+     "Les mairies",
+     "L'AGRASC",
+     "Les banques"
+    ],
+    "bonne": 1,
+    "expl": "Voitures, argent, immeubles, cryptomonnaies…"
+   },
+   {
+    "q": "Que deviendraient les cryptomonnaies saisies ?",
+    "choix": [
+     "Vendues avant le jugement",
+     "Détruites",
+     "Rendues aux délinquants"
+    ],
+    "bonne": 0,
+    "expl": "Au lieu d'être conservées jusqu'au jugement."
+   },
+   {
+    "q": "Quel groupe a voté contre ?",
+    "choix": [
+     "Le RN",
+     "LFI",
+     "Les écologistes"
+    ],
+    "bonne": 1,
+    "expl": "93 pour, 20 contre."
+   }
+  ],
+  "debat": {
+   "question": "Comment faire payer les délinquants et mieux indemniser les victimes ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

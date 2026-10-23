@@ -157,5 +157,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Rupture conventionnelle",
+    "def": "Séparation d'un salarié et d'un employeur d'un commun accord."
+   },
+   {
+    "terme": "Assurance chômage",
+    "def": "Système qui indemnise les personnes privées d'emploi."
+   },
+   {
+    "terme": "Partenaires sociaux",
+    "def": "Syndicats de salariés et organisations d'employeurs."
+   },
+   {
+    "terme": "Transposition",
+    "def": "Passage d'un accord dans la loi."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de ruptures conventionnelles ont été signées en 2024 ?",
+    "choix": [
+     "5 150",
+     "515 000",
+     "51 500 000"
+    ],
+    "bonne": 1,
+    "expl": "Selon la fiche."
+   },
+   {
+    "q": "Quelle durée maximale après une rupture conventionnelle avant 55 ans ?",
+    "choix": [
+     "15 mois",
+     "18 mois",
+     "24 mois"
+    ],
+    "bonne": 0,
+    "expl": "Elle était de 18 mois."
+   },
+   {
+    "q": "Quelle économie est visée ?",
+    "choix": [
+     "Au moins 400 millions d'euros",
+     "4 euros",
+     "40 milliards d'euros"
+    ],
+    "bonne": 0,
+    "expl": "Pour l'assurance chômage."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il limiter l'indemnisation après une rupture conventionnelle ? Chaque camp défend un équilibre.",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

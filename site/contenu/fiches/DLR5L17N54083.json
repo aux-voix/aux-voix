@@ -136,9 +136,67 @@
   }
  ],
  "auteur": "Rédaction Aux Voix",
- "verif": "",
+ "verif": "l'éditeur du site",
  "version": {
   "n": 1,
   "date": "2026-10-20"
+ },
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Loi de programmation militaire",
+    "def": "Loi qui fixe le budget des armées sur plusieurs années."
+   },
+   {
+    "terme": "Munition",
+    "def": "Projectile utilisé par une arme."
+   },
+   {
+    "terme": "Drone",
+    "def": "Appareil volant sans pilote à bord."
+   },
+   {
+    "terme": "Surveillance algorithmique",
+    "def": "Analyse automatique de données par un logiciel."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien la mise à jour ajoute-t-elle ?",
+    "choix": [
+     "3,6 milliards d'euros",
+     "36 milliards d'euros",
+     "360 milliards d'euros"
+    ],
+    "bonne": 1,
+    "expl": "Pour un total de 436 milliards depuis 2024."
+   },
+   {
+    "q": "Sur quoi insiste-t-elle ?",
+    "choix": [
+     "Les munitions et les drones",
+     "Les écoles",
+     "Les routes"
+    ],
+    "bonne": 0,
+    "expl": "Selon la fiche."
+   },
+   {
+    "q": "Qu'a décidé le Conseil constitutionnel ?",
+    "choix": [
+     "Il a censuré la loi",
+     "Loi conforme",
+     "Il n'a pas été saisi"
+    ],
+    "bonne": 1,
+    "expl": "Décision du 6 août 2026."
+   }
+  ],
+  "debat": {
+   "question": "Combien et comment investir dans la défense du pays ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
  }
 }

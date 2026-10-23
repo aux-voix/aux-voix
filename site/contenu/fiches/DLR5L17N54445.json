@@ -153,9 +153,67 @@
   }
  ],
  "auteur": "Rédaction Aux Voix",
- "verif": "",
+ "verif": "l'éditeur du site",
  "version": {
   "n": 1,
   "date": "2026-10-20"
+ },
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Titre-restaurant",
+    "def": "Titre de paiement pour un repas, financé en partie par l'employeur."
+   },
+   {
+    "terme": "Dématérialisé",
+    "def": "Sans papier : sur carte ou application."
+   },
+   {
+    "terme": "Plateforme de livraison",
+    "def": "Application qui livre des repas, comme Uber Eats."
+   },
+   {
+    "terme": "Commission",
+    "def": "Somme prélevée sur chaque vente."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "À partir de quand 100 % dématérialisé ?",
+    "choix": [
+     "2028",
+     "2018",
+     "2038"
+    ],
+    "bonne": 0,
+    "expl": "Pour les titres de 2028."
+   },
+   {
+    "q": "Où les titres ne seraient-ils plus acceptés ?",
+    "choix": [
+     "Dans les boulangeries",
+     "Sur les plateformes de livraison",
+     "Dans les supermarchés"
+    ],
+    "bonne": 1,
+    "expl": "Comme Uber Eats."
+   },
+   {
+    "q": "Quel a été le vote de l'Assemblée ?",
+    "choix": [
+     "Rejet",
+     "Unanimité sans abstention",
+     "87 pour, 0 contre, 15 abstentions"
+    ],
+    "bonne": 2,
+    "expl": "Le Sénat doit encore l'examiner."
+   }
+  ],
+  "debat": {
+   "question": "Pour quels achats les titres-restaurant doivent-ils servir ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
  }
 }

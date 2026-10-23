@@ -151,9 +151,67 @@
   }
  ],
  "auteur": "Rédaction Aux Voix",
- "verif": "",
+ "verif": "l'éditeur du site",
  "version": {
   "n": 1,
   "date": "2026-10-20"
+ },
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Cour criminelle départementale",
+    "def": "Juridiction qui juge certains crimes sans jury populaire."
+   },
+   {
+    "terme": "Détention provisoire",
+    "def": "Emprisonnement avant le jugement."
+   },
+   {
+    "terme": "Plaider-coupable",
+    "def": "Procédure où la personne reconnaît les faits pour une peine négociée."
+   },
+   {
+    "terme": "Conseil constitutionnel",
+    "def": "Juge la conformité des lois à la Constitution."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien d'affaires criminelles attendent d'être jugées ?",
+    "choix": [
+     "Près de 6 000",
+     "60",
+     "600 000"
+    ],
+    "bonne": 0,
+    "expl": "Deux fois plus qu'en 2019."
+   },
+   {
+    "q": "Qu'est-ce qui a été retiré du texte ?",
+    "choix": [
+     "Les cours criminelles",
+     "Le plaider-coupable criminel",
+     "La détention provisoire"
+    ],
+    "bonne": 1,
+    "expl": "La gauche et les avocats s'y opposaient."
+   },
+   {
+    "q": "Qu'a censuré le Conseil constitutionnel ?",
+    "choix": [
+     "L'usage de bases génétiques de sociétés privées",
+     "Les cours criminelles",
+     "Rien"
+    ],
+    "bonne": 0,
+    "expl": "Faute de garanties pour la vie privée."
+   }
+  ],
+  "debat": {
+   "question": "Comment juger plus vite les crimes sans affaiblir les droits de la défense ni ceux des victimes ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
  }
 }

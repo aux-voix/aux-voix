@@ -134,5 +134,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Code noir",
+    "def": "Édit royal de 1685 qui organisait l'esclavage dans les colonies."
+   },
+   {
+    "terme": "Abrogation",
+    "def": "Suppression officielle d'un texte de loi."
+   },
+   {
+    "terme": "Crime contre l'humanité",
+    "def": "Crime très grave contre un groupe de personnes, ici la traite et l'esclavage."
+   },
+   {
+    "terme": "Droit colonial",
+    "def": "Règles spéciales appliquées dans les colonies."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "En quelle année l'esclavage a-t-il été aboli en France ?",
+    "choix": [
+     "1648",
+     "1848",
+     "1948"
+    ],
+    "bonne": 1,
+    "expl": "Mais le Code noir n'avait jamais été abrogé."
+   },
+   {
+    "q": "Qu'est-ce que le Gouvernement doit remettre sous un an ?",
+    "choix": [
+     "Un rapport sur le droit colonial encore en vigueur outre-mer",
+     "Un budget",
+     "Une liste de noms"
+    ],
+    "bonne": 0,
+    "expl": "Selon le texte."
+   },
+   {
+    "q": "Comment l'Assemblée a-t-elle voté ?",
+    "choix": [
+     "De justesse",
+     "Elle a rejeté",
+     "À l'unanimité"
+    ],
+    "bonne": 2,
+    "expl": "Le Sénat l'a modifié, il doit revenir à l'Assemblée."
+   }
+  ],
+  "debat": {
+   "question": "Pourquoi abroger officiellement un texte du passé ? Qu'est-ce que cela change ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

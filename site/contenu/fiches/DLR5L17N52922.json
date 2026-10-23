@@ -1,0 +1,254 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N52922",
+ "titre_officiel": "Projet de loi de financement de la sécurité sociale pour 2026",
+ "phrase": "Le budget de la Sécurité sociale pour 2026 suspend la réforme des retraites de 2023 et prévoit un déficit d'environ 19,4 milliards d'euros.",
+ "note": "Loi promulguée le 30 décembre 2025, après une décision du Conseil constitutionnel qui en a censuré plusieurs articles.",
+ "essentiel": {
+  "points": [
+   "Chaque année, cette loi fixe les recettes et les dépenses de la Sécurité sociale : santé, retraites, famille.",
+   "Mesure phare : la hausse progressive de l'âge de départ vers 64 ans est suspendue jusqu'en janvier 2028, une demande des socialistes.",
+   "Le gel des pensions est abandonné, mais la durée des arrêts maladie est désormais plafonnée."
+  ],
+  "pour": "Macronistes, MoDem, socialistes et LIOT : un compromis qui évite une année sans budget et suspend la réforme des retraites.",
+  "contre": "RN, UDR et LFI ont voté contre : refus des hausses d'impôts pour les uns, critique du « changement d'alliance » des socialistes pour les autres."
+ },
+ "court": {
+  "resume": [
+   "Sans majorité, le Premier ministre Sébastien Lecornu a renoncé au 49.3 et négocié avec les groupes ; il avait concédé la suspension de la réforme des retraites aux socialistes dès octobre 2025.",
+   "Le texte a été adopté à 13 voix près, grâce aussi à l'abstention de la plupart des écologistes, d'Horizons et de la Droite républicaine.",
+   "Selon l'AFP, le déficit attendu est de 19,4 milliards d'euros en 2026, contre 23 milliards en 2025, grâce à 4,5 milliards transférés depuis le budget de l'État."
+  ],
+  "change": [
+   [
+    "Âge de départ relevé progressivement vers 64 ans.",
+    "Hausse suspendue jusqu'en janvier 2028.",
+    "Futurs retraités"
+   ],
+   [
+    "Gel des pensions prévu au départ.",
+    "Pensions de base revalorisées de 0,9 % au 1er janvier 2026, comme l'inflation.",
+    "Retraités, bénéficiaires de minima sociaux"
+   ],
+   [
+    "Pas de durée maximale fixée par la loi.",
+    "Arrêt maladie limité à un mois pour une première prescription, deux mois par renouvellement.",
+    "Salariés malades"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Boris Vallaud, président du groupe socialiste",
+    "arg": "« Ce n'est pas notre budget, mais ce n'est pas celui que le gouvernement a déposé » : selon lui, son groupe a « fait œuvre utile ».",
+    "source": "https://lcp.fr/actualites/nous-avons-fait-oeuvre-utile-les-deputes-ont-adopte-le-budget-de-la-securite-sociale"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Jean-Philippe Tanguy (RN)",
+    "arg": "« À partir du moment où on est contre les hausses d'impôts, on ne peut pas après dire qu'on est pour » le budget.",
+    "source": "https://www.brut.media/fr/articles/budget-de-la-secu-le-rassemblement-national-votera-forcement-contre-a-la-fin-previent-jean-philippe-tanguy"
+   }
+  ]
+ },
+ "resume": [
+  "La mesure centrale suspend jusqu'en janvier 2028 la hausse progressive de l'âge légal de départ prévue par la réforme de 2023 ; d'autres mesures valorisent, à la retraite, les carrières des femmes ayant eu des enfants.",
+  "Recettes : CSG relevée de 9,2 % à 10,6 % sur une partie des revenus du capital (hors plans d'épargne logement, assurance vie et revenus locatifs, selon Europe 1), contribution exceptionnelle d'un milliard d'euros sur les complémentaires santé, allègement de cotisations sur les heures supplémentaires étendu aux entreprises de plus de 250 salariés.",
+  "Dépenses : objectif de dépenses de l'Assurance maladie (Ondam) relevé à +3 %, gel des pensions et des minima sociaux supprimé, doublement des franchises médicales abandonné.",
+  "Nouveautés : un congé de naissance d'un ou deux mois s'ajoute aux congés maternité et paternité ; un « réseau France santé » doit améliorer l'accès aux soins.",
+  "Selon l'AFP, le déficit de la Sécurité sociale est estimé à 19,4 milliards d'euros en 2026, contre 23 milliards en 2025, au prix de 4,5 milliards d'euros transférés depuis les caisses de l'État."
+ ],
+ "pourquoi": [
+  "Le gouvernement de Michel Barnier était tombé fin 2024 sur le budget de la Sécurité sociale ; sans texte voté, le déficit aurait atteint environ 30 milliards d'euros, selon Sébastien Lecornu.",
+  "La suspension de la réforme des retraites était la condition posée par les socialistes pour voter le texte et ne pas censurer le gouvernement."
+ ],
+ "change": [
+  [
+   "Âge légal en hausse vers 64 ans.",
+   "Hausse suspendue.",
+   "Futurs retraités",
+   "Jusqu'en janvier 2028"
+  ],
+  [
+   "Pas de durée maximale fixée par la loi.",
+   "Durée des arrêts de travail plafonnée.",
+   "Salariés malades, médecins",
+   "2026"
+  ],
+  [
+   "CSG sur le capital à 9,2 %.",
+   "10,6 % sur une partie des revenus du capital.",
+   "Épargnants, investisseurs",
+   "2026"
+  ],
+  [
+   "—",
+   "Contribution exceptionnelle d'un milliard d'euros.",
+   "Complémentaires santé et leurs adhérents",
+   "2026"
+  ]
+ ],
+ "pasfait": [
+  "Il n'abroge pas la réforme des retraites de 2023 : il en suspend le calendrier.",
+  "Il ne gèle pas les pensions de retraite ni les minima sociaux, contrairement au projet initial.",
+  "Il ne ramène pas les comptes de la Sécurité sociale à l'équilibre."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Sébastien Lecornu, Premier ministre",
+    "arg": "« Cette majorité de responsabilité montre que le compromis n'est pas un slogan : il permet d'avancer dans le sens de l'intérêt général. »",
+    "source": "https://lcp.fr/actualites/nous-avons-fait-oeuvre-utile-les-deputes-ont-adopte-le-budget-de-la-securite-sociale"
+   },
+   {
+    "qui": "Boris Vallaud, président du groupe socialiste",
+    "arg": "Les socialistes ont travaillé « dans le seul intérêt des Français » et obtenu un texte différent de celui du gouvernement.",
+    "source": "https://lcp.fr/actualites/nous-avons-fait-oeuvre-utile-les-deputes-ont-adopte-le-budget-de-la-securite-sociale"
+   },
+   {
+    "qui": "Stéphanie Rist, ministre de la Santé",
+    "arg": "« Depuis trois ans, jamais un budget de la Sécurité sociale n'avait autant été débattu. »",
+    "source": "https://lepetitjournal.com/fil-afp/lassemblee-adopte-definitivement-le-budget-de-la-securite-sociale-pour-2026-430072"
+   },
+   {
+    "qui": "Justine Gruet (Droite républicaine)",
+    "arg": "Une partie de son groupe a voté pour afin que le texte soit adopté : « l'objectif était d'être responsable et raisonnable ».",
+    "source": "https://lcp.fr/actualites/nous-avons-fait-oeuvre-utile-les-deputes-ont-adopte-le-budget-de-la-securite-sociale"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Mathilde Panot, présidente du groupe La France insoumise",
+    "arg": "Le vote confirme « le changement d'alliance du PS » : « en démocratie, quand on vote un budget, on est dans la majorité ».",
+    "source": "https://lcp.fr/actualites/nous-avons-fait-oeuvre-utile-les-deputes-ont-adopte-le-budget-de-la-securite-sociale"
+   },
+   {
+    "qui": "Jean-Philippe Tanguy (RN)",
+    "arg": "Son groupe s'oppose aux hausses d'impôts du texte : « il faut être cohérent ».",
+    "source": "https://www.brut.media/fr/articles/budget-de-la-secu-le-rassemblement-national-votera-forcement-contre-a-la-fin-previent-jean-philippe-tanguy"
+   },
+   {
+    "qui": "Sandrine Rousseau (écologiste), qui a voté contre",
+    "arg": "« Le gouvernement a fait tapis. Il a présenté des milliards dans les dernières heures. On ne sait pas d'où ils viennent ! »",
+    "source": "https://lcp.fr/actualites/nous-avons-fait-oeuvre-utile-les-deputes-ont-adopte-le-budget-de-la-securite-sociale"
+   },
+   {
+    "qui": "Éric Chenut, président de la Mutualité française",
+    "arg": "« Cette taxe d'un milliard pèsera à terme sur nos concitoyens » ; FO et la CGT ont aussi critiqué la limitation des arrêts maladie.",
+    "source": "https://lepetitjournal.com/fil-afp/lassemblee-adopte-definitivement-le-budget-de-la-securite-sociale-pour-2026-430072"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Après une première lecture dans chaque chambre, députés et sénateurs ne se sont pas mis d'accord en commission mixte paritaire. Assemblée, nouvelle lecture : adopté le 9 décembre 2025 par 247 voix contre 234 (93 abstentions). Après un rejet par le Sénat, l'Assemblée l'a adopté définitivement le 16 décembre par 247 voix contre 232, sans recours au 49.3."
+  },
+  {
+   "titre": "Le Conseil constitutionnel",
+   "texte": "Saisi par des députés LFI, il a validé le 30 décembre 2025 le plafonnement de la durée des arrêts de travail, mais censuré la nouvelle définition de l'incapacité de travail, jugée imprécise : elle pouvait priver d'indemnités un assuré capable d'exercer une autre activité. Il a aussi écarté plusieurs articles sans lien suffisant avec les finances de la Sécurité sociale, comme les pénalités liées au dossier médical partagé."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "« Avant le vote crucial de ce mardi, que contient le budget de la Sécurité sociale ? », LCP",
+   "url": "https://lcp.fr/actualites/avant-le-vote-crucial-de-ce-mardi-que-contient-le-budget-de-la-securite-sociale-422399"
+  },
+  {
+   "titre": "« \"Nous avons fait œuvre utile\" : les députés ont adopté le budget de la Sécurité sociale », LCP",
+   "url": "https://lcp.fr/actualites/nous-avons-fait-oeuvre-utile-les-deputes-ont-adopte-le-budget-de-la-securite-sociale"
+  },
+  {
+   "titre": "« Adoption du projet de budget de la Sécurité sociale : qui a voté quoi ? », LCP",
+   "url": "https://lcp.fr/actualites/adoption-du-projet-de-budget-de-la-securite-sociale-a-l-assemblee-qui-a-vote-quoi-422655"
+  },
+  {
+   "titre": "« Budget de la Sécu : retraites, congé de naissance… Ce que contient le texte adopté à l'Assemblée », Europe 1",
+   "url": "https://www.europe1.fr/economie/budget-de-la-secu-retraites-conge-de-naissance-ce-que-contient-le-texte-adopte-a-lassemblee-874592"
+  },
+  {
+   "titre": "« L'Assemblée adopte définitivement le budget de la Sécurité sociale pour 2026 », AFP (Le Petit Journal)",
+   "url": "https://lepetitjournal.com/fil-afp/lassemblee-adopte-definitivement-le-budget-de-la-securite-sociale-pour-2026-430072"
+  },
+  {
+   "titre": "« Budget de la Sécurité sociale : le Parlement adopte définitivement le texte pour 2026 », Euronews",
+   "url": "https://fr.euronews.com/2025/12/16/budget-de-la-securite-sociale-le-parlement-adopte-definitivement-le-texte-pour-2026"
+  },
+  {
+   "titre": "« Le RN \"votera forcément contre à la fin\" », Brut (AFP)",
+   "url": "https://www.brut.media/fr/articles/budget-de-la-secu-le-rassemblement-national-votera-forcement-contre-a-la-fin-previent-jean-philippe-tanguy"
+  },
+  {
+   "titre": "Décision n° 2025-899 DC du Conseil constitutionnel",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2025/2025899DC.htm"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N52922"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Sécurité sociale",
+    "def": "Ensemble des systèmes de santé, retraites et famille."
+   },
+   {
+    "terme": "Loi de financement de la Sécurité sociale",
+    "def": "Loi annuelle qui fixe ses recettes et ses dépenses."
+   },
+   {
+    "terme": "Commission mixte paritaire",
+    "def": "Réunion de députés et de sénateurs pour trouver un texte commun."
+   },
+   {
+    "terme": "Suspension",
+    "def": "Arrêt temporaire d'une règle."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Que suspend la loi jusqu'en janvier 2028 ?",
+    "choix": [
+     "La hausse progressive de l'âge de départ vers 64 ans",
+     "Les allocations familiales",
+     "Le remboursement des soins"
+    ],
+    "bonne": 0,
+    "expl": "Une demande des socialistes."
+   },
+   {
+    "q": "De combien les pensions de base sont-elles revalorisées ?",
+    "choix": [
+     "9 %",
+     "0,9 %",
+     "90 %"
+    ],
+    "bonne": 1,
+    "expl": "Comme l'inflation."
+   },
+   {
+    "q": "Qu'a fait l'Assemblée pour l'adopter définitivement ?",
+    "choix": [
+     "Elle a utilisé le 49.3",
+     "Elle a voté le texte par 247 voix contre 232",
+     "Elle a voté à l'unanimité"
+    ],
+    "bonne": 1,
+    "expl": "Sans recours au 49.3."
+   }
+  ],
+  "debat": {
+   "question": "Un budget de compromis : à quelles conditions les partis acceptent-ils de le voter ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
+}

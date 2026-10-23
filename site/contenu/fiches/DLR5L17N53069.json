@@ -1,0 +1,222 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53069",
+ "titre_officiel": "Proposition de loi pour retrouver la confiance et l’équilibre dans les rapports locatifs",
+ "phrase": "Le texte veut rendre définitif l'encadrement des loyers, testé dans plusieurs villes depuis 2018, et l'étendre ; le Sénat préfère le prolonger seulement deux ans.",
+ "note": "Adopté par l'Assemblée en décembre 2025 et modifié par le Sénat le 21 octobre 2026 ; l'expérimentation actuelle se termine le 23 novembre 2026.",
+ "essentiel": {
+  "points": [
+   "Dans certaines villes, comme Paris, un loyer ne peut pas dépasser un plafond fixé selon le quartier et le type de logement.",
+   "Ce dispositif est une expérimentation qui doit s'arrêter fin novembre 2026.",
+   "L'Assemblée veut le rendre définitif et l'étendre ; le Sénat veut seulement le prolonger de deux ans, le temps de mieux l'évaluer."
+  ],
+  "pour": "La gauche : les loyers sont trop chers et l'encadrement les modère ; 87 % des Français y seraient favorables, selon un sondage.",
+  "contre": "Le RN, la droite et les macronistes : décision prématurée sans évaluation complète, avec un risque de réduire le nombre de logements à louer."
+ },
+ "court": {
+  "resume": [
+   "L'encadrement des loyers a été lancé par la loi Élan de 2018 ; il s'applique en octobre 2026 dans 70 communes de neuf collectivités, selon le Sénat.",
+   "La version de l'Assemblée plafonne aussi le « complément de loyer », un supplément demandé pour un logement exceptionnel, à 20 % du loyer de référence.",
+   "Selon le rapport d'évaluation de mai 2026, cité par le Sénat, l'encadrement réduit les loyers de 2 à 4 % après deux ans, mais son effet sur l'offre de logements n'a pas pu être mesuré."
+  ],
+  "change": [
+   [
+    "Expérimentation jusqu'au 23 novembre 2026.",
+    "Pérennisation (Assemblée) ou prolongation de deux ans (Sénat).",
+    "Locataires et propriétaires des villes concernées"
+   ],
+   [
+    "Seules les collectivités candidates peuvent l'appliquer.",
+    "Ouverture aux communes en zone tendue et à leurs voisines (version de l'Assemblée).",
+    "Communes où les loyers sont élevés"
+   ],
+   [
+    "Complément de loyer sans plafond.",
+    "Plafonné à 20 % (version de l'Assemblée).",
+    "Locataires"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Iñaki Echaniz (socialiste), auteur",
+    "arg": "« Garantir un loyer abordable renforce la possibilité pour chacun de s'émanciper. »",
+    "source": "https://lcp.fr/actualites/encadrement-des-loyers-l-assemblee-vote-en-faveur-d-une-perennisation-du-dispositif"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Philippe Gosselin (Droite républicaine)",
+    "arg": "« Cette pérennisation nous semble prématurée, car en effet aucune évaluation complète n'a été remise. »",
+    "source": "https://lcp.fr/actualites/encadrement-des-loyers-l-assemblee-vote-en-faveur-d-une-perennisation-du-dispositif"
+   }
+  ]
+ },
+ "resume": [
+  "Version de l'Assemblée : l'encadrement des loyers devient permanent, et toute commune en zone tendue, ainsi que ses voisines de la même intercommunalité, peut le mettre en place.",
+  "Le complément de loyer est plafonné à 20 % du loyer de référence majoré et doit apparaître dans les annonces ; le montant maximal des amendes est doublé.",
+  "Un propriétaire ne peut plus donner congé à un locataire qui a engagé une action pour faire baisser son loyer dans les mois précédant la fin du bail.",
+  "Le Sénat a remplacé la pérennisation par une prolongation de deux ans, sans nouvelles candidatures, avec une meilleure collecte des données sur les loyers ; il a supprimé les autres articles, jugés défavorables aux propriétaires.",
+  "Selon le Sénat, l'encadrement coûte 181 millions d'euros par an de recettes fiscales en moins et ne cible pas les ménages les plus modestes."
+ ],
+ "pourquoi": [
+  "Selon l'auteur, il fallait voter avant la fin de l'expérimentation pour éviter un vide juridique fin 2026.",
+  "Le texte s'appuie sur une mission parlementaire menée en 2025 par Iñaki Echaniz et Annaïg Le Meur (Ensemble pour la République), qui concluait que le dispositif fonctionne."
+ ],
+ "change": [
+  [
+   "Expérimentation jusqu'au 23 novembre 2026.",
+   "Dispositif permanent (Assemblée) ou prolongé jusqu'en 2028 (Sénat).",
+   "Locataires et propriétaires",
+   "À l'adoption définitive"
+  ],
+  [
+   "Complément de loyer libre.",
+   "Plafonné à 20 %, version de l'Assemblée.",
+   "Locataires",
+   "À l'adoption définitive"
+  ],
+  [
+   "—",
+   "Protection contre un congé après une contestation du loyer, version de l'Assemblée.",
+   "Locataires",
+   "À l'adoption définitive"
+  ]
+ ],
+ "pasfait": [
+  "Il n'impose pas l'encadrement : ce sont les collectivités qui choisissent de l'appliquer.",
+  "Il n'est pas encore définitif : Assemblée et Sénat ont voté des versions très différentes."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Iñaki Echaniz (socialiste), auteur",
+    "arg": "87 % des Français et 85 % des propriétaires interrogés seraient favorables à l'encadrement, selon un sondage Ipsos qu'il cite.",
+    "source": "https://lcp.fr/actualites/encadrement-des-loyers-l-assemblee-vote-en-faveur-d-une-perennisation-du-dispositif"
+   },
+   {
+    "qui": "Boris Tavernier (écologiste)",
+    "arg": "La baisse de l'offre locative est générale, y compris dans les communes sans encadrement : elle ne vient donc pas du dispositif.",
+    "source": "https://www.banquedesterritoires.fr/encadrement-des-loyers-premiere-etape-franchie-en-vue-de-sa-perennisation"
+   },
+   {
+    "qui": "Les socialistes",
+    "arg": "Ils disent défendre un texte d'équilibre, car « un texte maximaliste n'aurait aucune chance d'être voté ».",
+    "source": "https://www.banquedesterritoires.fr/encadrement-des-loyers-premiere-etape-franchie-en-vue-de-sa-perennisation"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Vincent Jeanbrun, ministre du Logement",
+    "arg": "Un « calendrier quelque peu prématuré » : on ne peut pas encore mesurer l'effet de l'encadrement sur l'offre de logements.",
+    "source": "https://lcp.fr/actualites/encadrement-des-loyers-l-assemblee-vote-en-faveur-d-une-perennisation-du-dispositif"
+   },
+   {
+    "qui": "Philippe Lottiaux (RN)",
+    "arg": "Une mesure « contreproductive » qui risque d'ajouter « un clou au cercueil » du logement.",
+    "source": "https://www.banquedesterritoires.fr/encadrement-des-loyers-premiere-etape-franchie-en-vue-de-sa-perennisation"
+   },
+   {
+    "qui": "Annaïg Le Meur (Ensemble pour la République)",
+    "arg": "L'évaluation est « une étape indispensable avant de prendre une décision définitive sur le devenir du dispositif ».",
+    "source": "https://lcp.fr/actualites/encadrement-des-loyers-l-assemblee-vote-en-faveur-d-une-perennisation-du-dispositif"
+   },
+   {
+    "qui": "La commission des affaires économiques du Sénat",
+    "arg": "Aucune étude n'a écarté un effet négatif sur l'offre de logements à louer ; les autres articles « déséquilibrent les rapports locatifs au détriment des propriétaires ».",
+    "source": "https://www.senat.fr/lessentiel/ppl25-217.pdf"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Assemblée : adopté le 11 décembre 2025 par 105 voix contre 56. Sénat : adopté avec modifications le 21 octobre 2026, par 325 voix contre 17. Le texte doit revenir à l'Assemblée."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "« Encadrement des loyers : l'Assemblée vote en faveur d'une pérennisation du dispositif », LCP",
+   "url": "https://lcp.fr/actualites/encadrement-des-loyers-l-assemblee-vote-en-faveur-d-une-perennisation-du-dispositif"
+  },
+  {
+   "titre": "« Encadrement des loyers : première étape franchie en vue de sa pérennisation », Banque des Territoires (Localtis)",
+   "url": "https://www.banquedesterritoires.fr/encadrement-des-loyers-premiere-etape-franchie-en-vue-de-sa-perennisation"
+  },
+  {
+   "titre": "L'essentiel du rapport du Sénat (octobre 2026)",
+   "url": "https://www.senat.fr/lessentiel/ppl25-217.pdf"
+  },
+  {
+   "titre": "« Confiance et équilibre dans les rapports locatifs », Le Monde du droit",
+   "url": "https://www.lemondedudroit.fr/droit-civil/280-immobilier-construction/102115-confiance-et-equilibre-dans-les-rapports-locatifs-adoption-a-l-an.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53069"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Encadrement des loyers",
+    "def": "Plafond fixé par la loi pour les loyers dans certaines villes."
+   },
+   {
+    "terme": "Expérimentation",
+    "def": "Essai limité dans le temps."
+   },
+   {
+    "terme": "Zone tendue",
+    "def": "Zone où la demande de logements dépasse l'offre."
+   },
+   {
+    "terme": "Complément de loyer",
+    "def": "Supplément appliqué à un logement aux caractéristiques particulières."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quand l'expérimentation actuelle se termine-t-elle ?",
+    "choix": [
+     "23 novembre 2026",
+     "2 janvier 2030",
+     "Elle est déjà finie"
+    ],
+    "bonne": 0,
+    "expl": "Selon la fiche."
+   },
+   {
+    "q": "Que veut le Sénat ?",
+    "choix": [
+     "La rendre définitive",
+     "Prolonger de deux ans",
+     "La supprimer"
+    ],
+    "bonne": 1,
+    "expl": "Le temps de mieux l'évaluer."
+   },
+   {
+    "q": "Que veut l'Assemblée ?",
+    "choix": [
+     "Supprimer le dispositif",
+     "Prolonger d'un mois",
+     "Le rendre définitif et l'étendre"
+    ],
+    "bonne": 2,
+    "expl": "Vote de décembre 2025 : 105 contre 56."
+   }
+  ],
+  "debat": {
+   "question": "Plafonner les loyers : soulager les locataires ou réduire le nombre de logements à louer ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
+}

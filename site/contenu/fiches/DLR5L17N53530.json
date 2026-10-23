@@ -170,5 +170,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Concession",
+    "def": "Contrat par lequel l'État confie un équipement à un exploitant pour un temps."
+   },
+   {
+    "terme": "Mise en concurrence",
+    "def": "Appel d'offres ouvert à plusieurs candidats."
+   },
+   {
+    "terme": "Hydroélectricité",
+    "def": "Électricité produite par la force de l'eau."
+   },
+   {
+    "terme": "Droit réel",
+    "def": "Droit d'utiliser un bien pendant longtemps contre paiement."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Depuis quand les grands barrages sont-ils confiés par concessions ?",
+    "choix": [
+     "1919",
+     "1999",
+     "1819"
+    ],
+    "bonne": 0,
+    "expl": "Notamment à EDF."
+   },
+   {
+    "q": "Qui reste propriétaire des barrages ?",
+    "choix": [
+     "EDF",
+     "L'Union européenne",
+     "L'État"
+    ],
+    "bonne": 2,
+    "expl": "Les exploitants actuels restent."
+   },
+   {
+    "q": "Quelle part de la production doit être proposée à d'autres entreprises ?",
+    "choix": [
+     "Au moins 4 %",
+     "Au moins 40 %",
+     "100 %"
+    ],
+    "bonne": 1,
+    "expl": "En échange de l'absence de remise en concurrence."
+   }
+  ],
+  "debat": {
+   "question": "Comment concilier règles européennes, propriété publique et investissements dans l'énergie ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

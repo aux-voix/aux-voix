@@ -102,9 +102,67 @@
   }
  ],
  "auteur": "Rédaction Aux Voix",
- "verif": "",
+ "verif": "l'éditeur du site",
  "version": {
   "n": 1,
   "date": "2026-10-20"
+ },
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Loi organique",
+    "def": "Loi qui précise l'organisation des pouvoirs publics."
+   },
+   {
+    "terme": "Assesseur",
+    "def": "Juge qui siège aux côtés du président d'une juridiction."
+   },
+   {
+    "terme": "Avocat honoraire",
+    "def": "Avocat retraité."
+   },
+   {
+    "terme": "Impartialité",
+    "def": "Obligation de juger sans parti pris."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Que devient le dispositif des avocats honoraires ?",
+    "choix": [
+     "Il est supprimé",
+     "Il devient permanent",
+     "Il reste un essai"
+    ],
+    "bonne": 1,
+    "expl": "Avec des règles d'indépendance."
+   },
+   {
+    "q": "Qui peut y siéger ?",
+    "choix": [
+     "Des avocats honoraires retraités",
+     "Des élèves",
+     "Des policiers"
+    ],
+    "bonne": 0,
+    "expl": "Comme assesseurs."
+   },
+   {
+    "q": "Qu'a décidé le Conseil constitutionnel ?",
+    "choix": [
+     "Loi organique non conforme",
+     "Loi organique conforme",
+     "Il ne l'a pas examinée"
+    ],
+    "bonne": 1,
+    "expl": "Il l'examine obligatoirement."
+   }
+  ],
+  "debat": {
+   "question": "Élargir le vivier de juges est-il un bon moyen de juger plus vite les crimes ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
  }
 }

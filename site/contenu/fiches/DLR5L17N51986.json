@@ -1,0 +1,180 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51986",
+ "titre_officiel": "Projet de loi relatif au transfert à l’État des personnels enseignants de l’enseignement du premier degré dans les îles Wallis et Futuna",
+ "phrase": "À Wallis-et-Futuna, les instituteurs, jusqu'ici employés par l'enseignement catholique, deviennent fonctionnaires de l'État, comme partout ailleurs en France.",
+ "note": "Loi promulguée le 2 juin 2025, adoptée à l'unanimité ; l'ordonnance prévue a été publiée le 13 juin 2025.",
+ "essentiel": {
+  "points": [
+   "Depuis 1969, l'État confiait l'école primaire de Wallis-et-Futuna à la mission catholique : c'était le seul territoire français sans école primaire publique.",
+   "Les enseignants, payés par l'État mais salariés de droit privé, réclamaient la fin de ce système, notamment lors d'une longue grève en 2023.",
+   "La loi autorise le gouvernement à les intégrer par ordonnance dans le corps national des professeurs des écoles."
+  ],
+  "pour": "Tous les groupes : égalité de statut pour les enseignants et fin d'un régime jugé dépassé.",
+  "contre": "Personne ne s'y est opposé ; les écologistes regrettent le recours à une ordonnance, qui prive le Parlement du débat."
+ },
+ "court": {
+  "resume": [
+   "Le primaire était géré par la direction de l'enseignement catholique, dans le cadre d'une convention de concession renouvelée tous les cinq ans.",
+   "Selon le Sénat, il existe un consensus de tous les acteurs locaux pour mettre fin à ce système.",
+   "Les enseignants peuvent choisir, pendant six mois, de garder leur régime de retraite local ou de rejoindre celui de la fonction publique, selon le projet d'ordonnance."
+  ],
+  "change": [
+   [
+    "Enseignants salariés de droit privé de la mission catholique.",
+    "Fonctionnaires de l'État, professeurs des écoles.",
+    "Environ 125 enseignants du primaire"
+   ],
+   [
+    "École primaire concédée à l'Église catholique.",
+    "Personnels transférés à l'État.",
+    "Élèves et familles de l'archipel"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Bertrand Sorre (Ensemble pour la République)",
+    "arg": "« Nous vivons un moment que l'on peut qualifier d'historique pour l'enseignement primaire à Wallis-et-Futuna. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1445.html"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "Article 1er : le gouvernement est habilité à prendre par ordonnance les mesures pour intégrer dans la fonction publique les enseignants du premier degré de Wallis-et-Futuna.",
+  "Le Sénat a précisé que tous les enseignants en poste devaient être intégrés.",
+  "L'ordonnance doit leur permettre de choisir entre le régime de retraite de la fonction publique et celui de la caisse locale de prestations sociales.",
+  "Article 2 : un projet de loi de ratification de l'ordonnance doit être déposé dans un délai fixé.",
+  "L'ordonnance a été publiée le 12 juin 2025 et le décret d'intégration le 13 juin, selon l'AFP."
+ ],
+ "pourquoi": [
+  "Selon le Sénat, des grèves secouent régulièrement l'enseignement primaire depuis les années 1990 ; celle de 2023 a fortement dégradé les relations avec la direction de l'enseignement catholique.",
+  "Selon l'AFP, les grévistes de 2023 dénonçaient des écarts de rémunération avec les fonctionnaires d'État."
+ ],
+ "change": [
+  [
+   "Statut privé local.",
+   "Corps des professeurs des écoles.",
+   "Enseignants du primaire",
+   "Juin 2025"
+  ]
+ ],
+ "pasfait": [
+  "Il ne règle pas la situation des personnels non enseignants, ce que le Sénat demande de faire rapidement.",
+  "Il ne fixe pas lui-même les règles d'intégration : elles relèvent de l'ordonnance."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Alexandre Portier (Droite républicaine)",
+    "arg": "« Le système de concession de l'enseignement primaire ne se justifie plus » ; aligner le statut des enseignants répond à des impératifs « d'égalité républicaine ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1445.html"
+   },
+   {
+    "qui": "Roger Chudeau (RN)",
+    "arg": "Le texte « sanctionne un accord partenarial, un consensus obtenu sur place après de longues négociations et de nombreux conflits ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1445.html"
+   },
+   {
+    "qui": "Rodrigo Arenas (La France insoumise)",
+    "arg": "« Nous parlons à longueur de temps de laïcité, mais il existe au sein de la République des territoires comme Wallis-et-Futuna où il n'y a pas une seule école publique. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1445.html"
+   },
+   {
+    "qui": "Steevy Gustave (écologiste)",
+    "arg": "Son groupe soutient le texte, mais regrette le choix d'une ordonnance : le débat sur l'enseignement « devrait précisément avoir lieu dans l'hémicycle ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1445.html"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucune opposition : 184 voix contre 0 à l'Assemblée."
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Sénat : adopté le 19 mai 2025. Assemblée : adopté sans modification le 26 mai 2025 (184 voix contre 0)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Mikaele Seo, Assemblée nationale (n° 1445)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1445.html"
+  },
+  {
+   "titre": "« L'essentiel sur le projet de loi », Sénat",
+   "url": "https://www.senat.fr/lessentiel/pjl24-546.pdf"
+  },
+  {
+   "titre": "« Wallis-et-Futuna : les enseignants du primaire désormais intégrés à la fonction publique d'État », Weka (AFP)",
+   "url": "https://www.weka.fr/actualite/?p=200700"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51986"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-23"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Fonctionnaire",
+    "def": "Agent public recruté par concours, employé par l'État."
+   },
+   {
+    "terme": "Droit privé",
+    "def": "Régime d'un salarié d'entreprise ou d'association."
+   },
+   {
+    "terme": "Ordonnance",
+    "def": "Texte pris par le Gouvernement avec l'autorisation du Parlement."
+   },
+   {
+    "terme": "Mission catholique",
+    "def": "Organisation qui gérait l'école primaire à Wallis-et-Futuna."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Depuis quand l'école primaire était-elle confiée à la mission catholique ?",
+    "choix": [
+     "1969",
+     "1869",
+     "1999"
+    ],
+    "bonne": 0,
+    "expl": "C'était le seul territoire sans école primaire publique."
+   },
+   {
+    "q": "Que deviennent les enseignants ?",
+    "choix": [
+     "Salariés d'une association",
+     "Contractuels",
+     "Professeurs des écoles fonctionnaires de l'État"
+    ],
+    "bonne": 2,
+    "expl": "Par ordonnance, publiée le 13 juin 2025."
+   },
+   {
+    "q": "Qu'ont regretté les écologistes ?",
+    "choix": [
+     "Le recours à une ordonnance",
+     "Le coût",
+     "La date"
+    ],
+    "bonne": 0,
+    "expl": "Le Parlement n'a pas débattu du détail."
+   }
+  ],
+  "debat": {
+   "question": "Pourquoi l'égalité de statut entre enseignants est-elle importante, et comment la réaliser ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
+}

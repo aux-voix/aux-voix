@@ -1,0 +1,210 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53135",
+ "titre_officiel": "Projet de loi de finances de fin de gestion pour 2025",
+ "phrase": "Ce texte de fin d'année ajuste les dépenses de l'État pour 2025 et confirme un déficit public de 5,4 % du PIB.",
+ "note": "Loi promulguée en décembre 2025.",
+ "essentiel": {
+  "points": [
+   "En fin d'année, le gouvernement ajuste le budget voté : il ajoute de l'argent à certaines dépenses et en retire à d'autres.",
+   "Le texte confirme un déficit public de 5,4 % du PIB en 2025, conforme à l'objectif, malgré environ 5 milliards d'euros de TVA en moins que prévu pour l'État.",
+   "Il retire notamment 1,6 milliard d'euros au plan d'investissement France 2030."
+  ],
+  "pour": "Macronistes, droite, MoDem, Horizons et LIOT : un texte « technique » qui montre que la dépense de l'État est tenue.",
+  "contre": "RN, LFI, communistes et UDR ont voté contre : recettes surestimées et politique d'économies jugée néfaste. Socialistes et écologistes se sont abstenus."
+ },
+ "court": {
+  "resume": [
+   "Rejeté par l'Assemblée en première lecture, le texte a été adopté par le Sénat, puis par les deux chambres après un accord en commission mixte paritaire.",
+   "Il ouvre environ 190 millions d'euros pour la sécurité outre-mer et la lutte contre les incendies, et profite d'une charge de la dette plus faible de 2,9 milliards d'euros.",
+   "Les députés ont obtenu des crédits en plus pour l'hébergement d'urgence, les viticulteurs, l'aide humanitaire ou la présence de La Poste."
+  ],
+  "change": [
+   [
+    "Crédits votés dans le budget 2025.",
+    "Ouvertures et annulations de fin d'année.",
+    "Ministères"
+   ],
+   [
+    "—",
+    "1,6 milliard d'euros retirés au plan France 2030.",
+    "Programme d'investissement de l'État"
+   ],
+   [
+    "—",
+    "Quelques millions d'euros ajoutés pour l'hébergement d'urgence, les viticulteurs, le service civique.",
+    "Associations, agriculteurs, jeunes"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Amélie de Montchalin, ministre des Comptes publics",
+    "arg": "« Nous sommes capables de tenir la dépense » ; l'accord prouve « qu'il y a un chemin ».",
+    "source": "https://www.publicsenat.fr/actualites/parlementaire/le-parlement-adopte-le-projet-de-loi-de-finances-de-fin-de-gestion-vous-avez-su-vous-mettre-daccord-sur-lessentiel-salue-la-ministre-amelie-de-montcha"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Aurélien Le Coq (La France insoumise)",
+    "arg": "Les coupes successives ont, selon lui, provoqué « l'effondrement de la consommation » et la baisse des recettes de TVA.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2078.html"
+   }
+  ]
+ },
+ "resume": [
+  "Le projet de loi de finances de fin de gestion ajuste en fin d'année les crédits du budget de l'État, sans réouvrir le débat sur les impôts.",
+  "Il confirme une croissance de 0,7 % en 2025 et un déficit public de 5,4 % du PIB, l'objectif fixé par la loi de finances de 2025.",
+  "Les recettes de TVA de l'État sont inférieures d'environ 5 milliards d'euros aux prévisions ; l'impôt sur les sociétés rapporte en revanche 5,2 milliards de plus.",
+  "Il annule notamment 1,6 milliard d'euros sur France 2030 et ouvre 190 millions d'euros pour la sécurité outre-mer et contre les incendies ; les ouvertures sont financées par des annulations sur d'autres ministères.",
+  "En commission mixte paritaire, les parlementaires ont ajouté de petites enveloppes : 10 millions d'euros pour les viticulteurs, 5 millions pour l'hébergement d'urgence, 15 millions pour le service civique, des crédits pour l'aide au développement."
+ ],
+ "pourquoi": [
+  "Selon la ministre, ces ajustements doivent passer par la loi, car ils mobilisent la réserve de crédits mise de côté en début d'année.",
+  "Selon le rapporteur général, le texte « confirme la tenue, à ce stade, de l'objectif fixé d'un déficit à 5,4 % du PIB »."
+ ],
+ "change": [
+  [
+   "Budget 2025 voté en février.",
+   "Crédits ajustés en fin d'année.",
+   "Administrations de l'État",
+   "Décembre 2025"
+  ]
+ ],
+ "pasfait": [
+  "Il ne modifie pas les impôts : ce type de texte ne porte que sur les dépenses et les prévisions.",
+  "Il ne réduit pas la dette, qui continue d'augmenter avec un déficit de 5,4 % du PIB."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Amélie de Montchalin, ministre des Comptes publics",
+    "arg": "Les députés et sénateurs « ont su se mettre d'accord sur l'essentiel » ; un « encouragement » pour la suite du budget.",
+    "source": "https://www.publicsenat.fr/actualites/parlementaire/le-parlement-adopte-le-projet-de-loi-de-finances-de-fin-de-gestion-vous-avez-su-vous-mettre-daccord-sur-lessentiel-salue-la-ministre-amelie-de-montcha"
+   },
+   {
+    "qui": "Charles Sitzenstuhl (Ensemble pour la République)",
+    "arg": "Le texte confirme une réduction du déficit « tenu » à 5,4 % du PIB, même si la dette continue d'augmenter.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2078.html"
+   },
+   {
+    "qui": "Jean-Didier Berger (Droite républicaine)",
+    "arg": "« Le déficit est globalement à la cible » ; mais il regrette que cela passe par la hausse des prélèvements et non la baisse des dépenses.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2078.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Jean-Philippe Tanguy (RN)",
+    "arg": "Sans une charge de la dette plus faible de 2,9 milliards d'euros, le gouvernement « n'aurait pas réussi à atteindre » ses objectifs.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2078.html"
+   },
+   {
+    "qui": "Claire Lejeune (La France insoumise)",
+    "arg": "Un texte présenté comme « technique » mais « emblématique » de choix qui font reposer le budget sur les classes populaires et moyennes.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2078.html"
+   },
+   {
+    "qui": "Eva Sas (écologiste)",
+    "arg": "Le redressement passe surtout par la baisse des dépenses plutôt que par de nouvelles recettes sur les hauts patrimoines.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2078.html"
+   },
+   {
+    "qui": "Charles de Courson (LIOT)",
+    "arg": "Le respect du déficit « repose partiellement sur des facteurs conjoncturels, des recettes fragiles et des économies aléatoires ».",
+    "source": "https://www.economiematin.fr/projet-loi-fin-gestion-budget-rejet-assemblee"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Assemblée, première lecture : rejeté le 18 novembre 2025 par 145 voix contre 107. Sénat : adopté le 25 novembre. Accord en commission mixte paritaire le 27 novembre. Texte de la commission adopté par l'Assemblée le 2 décembre (217 voix contre 213) et par le Sénat le 3 décembre (239 contre 39)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Philippe Juvin, Assemblée nationale (n° 2078)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2078.html"
+  },
+  {
+   "titre": "Rapport de la commission mixte paritaire (n° 2146)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2146.html"
+  },
+  {
+   "titre": "« Le Parlement adopte le projet de loi de finances de fin de gestion », Public Sénat",
+   "url": "https://www.publicsenat.fr/actualites/parlementaire/le-parlement-adopte-le-projet-de-loi-de-finances-de-fin-de-gestion-vous-avez-su-vous-mettre-daccord-sur-lessentiel-salue-la-ministre-amelie-de-montcha"
+  },
+  {
+   "titre": "« Projet de loi de fin de gestion : pourquoi l'Assemblée nationale a dit non », Économie Matin",
+   "url": "https://www.economiematin.fr/projet-loi-fin-gestion-budget-rejet-assemblee"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53135"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Loi de finances de fin de gestion",
+    "def": "Loi de fin d'année qui ajuste le budget déjà voté."
+   },
+   {
+    "terme": "Déficit public",
+    "def": "Écart entre les dépenses et les recettes publiques."
+   },
+   {
+    "terme": "PIB",
+    "def": "Valeur de tout ce que le pays produit en un an."
+   },
+   {
+    "terme": "France 2030",
+    "def": "Plan d'investissement de l'État."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quel déficit le texte confirme-t-il pour 2025 ?",
+    "choix": [
+     "0,54 % du PIB",
+     "5,4 % du PIB",
+     "54 % du PIB"
+    ],
+    "bonne": 1,
+    "expl": "Conforme à l'objectif."
+   },
+   {
+    "q": "Combien retire-t-il au plan France 2030 ?",
+    "choix": [
+     "1,6 milliard d'euros",
+     "16 euros",
+     "160 milliards d'euros"
+    ],
+    "bonne": 0,
+    "expl": "Parmi d'autres ajustements."
+   },
+   {
+    "q": "Que s'est-il passé à l'Assemblée en première lecture ?",
+    "choix": [
+     "Il a été adopté",
+     "Il a été rejeté",
+     "Il n'a pas été examiné"
+    ],
+    "bonne": 1,
+    "expl": "145 voix contre 107."
+   }
+  ],
+  "debat": {
+   "question": "À quoi sert un budget de fin d'année, et que montre-t-il de la dépense publique ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
+}
