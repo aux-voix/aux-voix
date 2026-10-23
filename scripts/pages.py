@@ -88,13 +88,14 @@ class Generateur:
         self.deputes_faits = set()   # un député élu sous plusieurs législatures garde la page de la plus récente
         self.aujourdhui = datetime.date.today().isoformat()
 
-    def page(self, chemin, titre, description, corps, canonique=True, rss=None):
+    def page(self, chemin, titre, description, corps, canonique=True, rss=None, jsonld=None, og_type="website"):
         robots = "" if self.public else '<meta name="robots" content="noindex, nofollow">\n'
+        ld = "".join('<script type="application/ld+json">' + json.dumps(x, ensure_ascii=False).replace("</", "<\\/") + "</script>\n" for x in (jsonld or []))
         alt = f'<link rel="alternate" type="application/rss+xml" title="{ESC(rss[1])}" href="{ESC(rss[0])}">\n' if rss else ""
         doc = f"""<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{ESC(titre)} | Aux Voix</title><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" href="/favicon.ico" sizes="48x48">{self.audience}<meta name="description" content="{ESC(description[:300])}">
-<meta property="og:type" content="website"><meta property="og:site_name" content="Aux Voix"><meta property="og:locale" content="fr_FR"><meta property="og:title" content="{ESC(titre)}"><meta property="og:description" content="{ESC(description[:200])}"><meta property="og:url" content="{ESC(self.url + chemin)}"><meta property="og:image" content="{ESC(self.url)}/icones/partage.png"><meta name="twitter:card" content="summary_large_image">
-{robots}<link rel="canonical" href="{ESC(self.url + chemin)}">{alt}<link rel="stylesheet" href="/statique.css"></head><body>
+<meta property="og:type" content="{og_type}"><meta property="og:site_name" content="Aux Voix"><meta property="og:locale" content="fr_FR"><meta property="og:title" content="{ESC(titre)}"><meta property="og:description" content="{ESC(description[:200])}"><meta property="og:url" content="{ESC(self.url + chemin)}"><meta property="og:image" content="{ESC(self.url)}/icones/partage.png"><meta name="twitter:card" content="summary_large_image">
+{robots}<link rel="canonical" href="{ESC(self.url + chemin)}">{alt}{ld}<link rel="stylesheet" href="/statique.css"></head><body>
 {'' if self.public else '<aside class="beta" aria-label="État du site"><div class="w">Version bêta du site.</div></aside>'}
 <header><div class="w"><a class="logo" href="/" aria-label="Aux Voix, accueil"><svg class="emb" viewBox="0 2 120 64" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"><path d="M43.0 60.0 A17 17 0 0 1 50.0 46.2"/><path d="M53.1 44.5 A17 17 0 0 1 66.9 44.5"/><path d="M70.0 46.2 A17 17 0 0 1 77.0 60.0"/><path d="M32.0 60.0 A28 28 0 0 1 43.5 37.3"/><path d="M48.6 34.4 A28 28 0 0 1 71.4 34.4"/><path d="M76.5 37.3 A28 28 0 0 1 88.0 60.0"/><path d="M21.0 60.0 A39 39 0 0 1 37.1 28.4"/><path d="M44.1 24.4 A39 39 0 0 1 75.9 24.4"/><path d="M82.9 28.4 A39 39 0 0 1 99.0 60.0"/><path d="M10.0 60.0 A50 50 0 0 1 30.6 19.5"/><path d="M39.7 14.3 A50 50 0 0 1 80.3 14.3"/><path d="M89.4 19.5 A50 50 0 0 1 110.0 60.0"/></g></svg><span><span class="wm1">Aux </span><span class="wm2">Voix</span></span></a><nav aria-label="Rubriques"><a href="/#/presidentielle">Présidentielle 2027</a><a href="/#/actualites">Actualités</a><a href="/#/lois">Lois</a><a href="/#/votes">Votes</a><a href="/#/elus">Députés</a><a href="/#/codes">Codes</a></nav></div></header>
 <main id="main"><div class="w">{corps}</div></main>
@@ -293,7 +294,23 @@ class Generateur:
 {f'<h2>Son parcours</h2><table><thead><tr><th>Date</th><th>Étape</th><th>Résultat</th></tr></thead><tbody>{etapes}</tbody></table>' if etapes else ''}
 {f'<h2>Votes à l’Assemblée</h2><ul class="l">' + ''.join(f'<li><a href="/vote/{leg}/{k}/">Scrutin n° {k}</a></li>' for k in fin) + '</ul>' if fin else ''}
 {self.bloc_citer("c", cit)}"""
-            self.page(chemin, titre[:110], f"{titre[:200]} : parcours au Parlement, votes et statut. {statut}.", corps)
+            if f:
+                t_seo = f"{titre[:90]} : ce qui change, qui a voté"
+                d_seo = f"{f.get('phrase', '').strip()} Explication simple, arguments de chaque camp, parcours et votes ; sources officielles. {statut}."
+                dv = (f.get("version") or {}).get("date")
+                ld = [{"@context": "https://schema.org", "@type": "Article", "headline": titre[:110], "description": f.get("phrase", ""),
+                       "inLanguage": "fr", "mainEntityOfPage": self.url + chemin, "image": self.url + "/icones/partage.png",
+                       "author": {"@type": "Organization", "name": "Aux Voix", "url": self.url},
+                       "publisher": {"@type": "Organization", "name": "Aux Voix", "url": self.url, "logo": {"@type": "ImageObject", "url": self.url + "/icones/partage.png"}},
+                       "about": {"@type": "Legislation", "name": titre, "legislationType": l.get("proc") or "Texte de loi"},
+                       **({"datePublished": dv, "dateModified": dv} if dv else {})},
+                      {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+                          {"@type": "ListItem", "position": 1, "name": "Aux Voix", "item": self.url + "/"},
+                          {"@type": "ListItem", "position": 2, "name": "Lois", "item": self.url + "/#/lois"},
+                          {"@type": "ListItem", "position": 3, "name": titre[:110], "item": self.url + chemin}]}]
+                self.page(chemin, t_seo, d_seo, corps, jsonld=ld, og_type="article")
+            else:
+                self.page(chemin, titre[:110], f"{titre[:200]} : parcours au Parlement, votes et statut. {statut}.", corps)
             self.urls["lois"].append((chemin, (prom or {}).get("date") or (E[-1][2] if E else d["maj"][:10])))
             if E:
                 evenements.append((E[-1][2], titre, chemin, statut))
