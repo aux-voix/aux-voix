@@ -1,0 +1,1240 @@
+#!/usr/bin/env python3
+"""Aux Voix : construit les données du site à partir des données ouvertes officielles
+de l'Assemblée nationale (Licence Ouverte). Python 3.9 ou plus, aucune dépendance."""
+import datetime, gzip, html, io, json, os, re, statistics, sys, time, urllib.error, urllib.parse, urllib.request, zipfile
+
+R = "https://data.assemblee-nationale.fr/static/openData/repository/"
+LEGISLATURES = [
+    {"leg": "17", "label": "17e législature", "du": "2024-07-18", "au": None, "requis": True,
+     "scrutins": R + "17/loi/scrutins/Scrutins.json.zip",
+     "dossiers": R + "17/loi/dossiers_legislatifs/Dossiers_Legislatifs.json.zip",
+     "amendements": R + "17/loi/amendements_div_legis/Amendements.json.zip"},
+    {"leg": "16", "label": "16e législature", "du": "2022-06-28", "au": "2024-06-09",
+     "scrutins": R + "16/loi/scrutins/Scrutins.json.zip",
+     "dossiers": R + "16/loi/dossiers_legislatifs/Dossiers_Legislatifs.json.zip"},
+    {"leg": "15", "label": "15e législature", "du": "2017-06-27", "au": "2022-06-21",
+     "scrutins": R + "15/loi/scrutins/Scrutins_XV.json.zip"},
+    {"leg": "14", "label": "14e législature", "du": "2012-06-26", "au": "2017-06-20",
+     "scrutins": R + "14/loi/scrutins/Scrutins_XIV.json.zip"},
+]
+ACTEURS = [
+    (R + "17/amo/tous_acteurs_mandats_organes_xi_legislature/AMO30_tous_acteurs_tous_mandats_tous_organes_historique.json.zip", True),
+    (R + "14/amo/deputes_senateurs_ministres_legislatures_XIV/AMO20_dep_sen_min_tous_mandats_et_organes_XIV.json.zip", False),
+    (R + "17/amo/deputes_senateurs_ministres_legislature/AMO20_dep_sen_min_tous_mandats_et_organes.json.zip", False),
+    (R + "16/amo/deputes_senateurs_ministres_legislature/AMO20_dep_sen_min_tous_mandats_et_organes.json.zip", False),
+]
+POLICES = {
+    "Lexend.ttf": "https://raw.githubusercontent.com/google/fonts/main/ofl/lexend/Lexend%5Bwght%5D.ttf",
+    "SourceSans3.ttf": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourcesans3/SourceSans3%5Bwght%5D.ttf",
+    "SourceSans3-Italic.ttf": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourcesans3/SourceSans3-Italic%5Bwght%5D.ttf",
+}
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import bilan as bilan_maj  # noqa: E402  bilan affiché en haut de la page du passage, onglet Actions
+RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SITE = os.path.join(RACINE, "site")
+SEUIL = 20
+
+# ---------- outils ----------
+def telecharger(url, requis=True):
+    local = os.environ.get("RELEVE_LOCAL")  # dossier de fichiers d'essai, pour tester hors ligne
+    if local:
+        chemin = os.path.join(local, url.split("/repository/")[-1].replace("/", "_"))
+        if os.path.exists(chemin):
+            return open(chemin, "rb").read()
+        if requis:
+            sys.exit(f"ERREUR : fichier d'essai manquant {chemin}")
+        print(f"  (essai) absent, ignoré : {chemin}")
+        return None
+    for essai in range(1, 4):
+        try:
+            print(f"Téléchargement : {url}")
+            req = urllib.request.Request(url, headers={"User-Agent": "AuxVoix/2.0 (reutilisation donnees ouvertes)"})
+            with urllib.request.urlopen(req, timeout=300) as r:
+                data = r.read()
+            print(f"  {len(data) / 1e6:.1f} Mo")
+            return data
+        except Exception as e:
+            print(f"  échec {essai}/3 : {e}")
+            time.sleep(10)
+    if requis:
+        sys.exit(f"ERREUR : impossible de télécharger {url}. Le site en ligne n'est pas modifié.")
+    print("  source facultative ignorée")
+    return None
+
+def jsons(data):
+    z = zipfile.ZipFile(io.BytesIO(data))
+    for nom in z.namelist():
+        if nom.endswith(".json"):
+            try:
+                yield json.loads(z.read(nom).decode("utf-8"))
+            except Exception as e:
+                print(f"  fichier ignoré {nom} : {e}")
+
+def liste(x):
+    if x is None:
+        return []
+    return x if isinstance(x, list) else [x]
+
+def txt(x):
+    if isinstance(x, dict):
+        return x.get("#text") or ""
+    return "" if x is None else str(x)
+
+def premier(d, *cles):
+    if not isinstance(d, dict):
+        return None
+    for c in cles:
+        if d.get(c) is not None:
+            return d[c]
+    return None
+
+def entier(x):
+    try:
+        return int(txt(x))
+    except ValueError:
+        return 0
+
+def trouver(obj, cle, prof=0):
+    """Trouve les objets rangés sous `cle`, que le fichier contienne un objet par fichier ou un export groupé."""
+    if prof > 6:
+        return
+    if isinstance(obj, dict):
+        if cle in obj:
+            for x in liste(obj[cle]):
+                if isinstance(x, dict):
+                    yield x
+            return
+        for v in obj.values():
+            if isinstance(v, (dict, list)):
+                yield from trouver(v, cle, prof + 1)
+    elif isinstance(obj, list):
+        for v in obj:
+            yield from trouver(v, cle, prof + 1)
+
+def dans(date, debut, fin):
+    return (not debut or date >= debut) and (not fin or date <= fin)
+
+def refs(m):
+    return [txt(x) for x in liste(premier(m.get("organes") or {}, "organeRef"))]
+
+def mediane(v):
+    v = [x for x in v if x is not None]
+    return statistics.median(v) if v else None
+
+# ---------- ordre habituel des groupes dans l'hémicycle (gauche -> droite du président) ----------
+ORDRE = [
+    (r"non.inscrit|^ni\b", 99),
+    (r"gauche d[ée]mocrate|\bgdr\b", 2),
+    (r"insoumis|\blfi\b|^fi\b", 1),
+    (r"socialis|\bsrc\b|\bser\b|nouvelle gauche|^ng\b|^soc\b", 4),
+    (r"[ée]colog|\becos\b|\becolo\b", 3),
+    (r"radical|\brrdp\b", 5),
+    (r"libert[ée]s,? ind[ée]pendants|\bliot\b|libert[ée]s et territoires|^lt\b", 6),
+    (r"\budi\b|union des d[ée]mocrates et ind[ée]pendants|\buai\b|centriste", 11),
+    (r"\bagir\b", 10),
+    (r"d[ée]mocrate|modem|^dem\b", 7),
+    (r"renaissance|en marche|\blrem\b|\blarem\b|^re\b|^epr\b|ensemble pour la r[ée]publique", 8),
+    (r"horizons|^hor\b", 9),
+    (r"union des droites|^udr\b|uddplr", 13),
+    (r"rassemblement national|^rn\b", 14),
+    (r"r[ée]publicains|^lr\b|^dr\b|\bump\b|droite r[ée]publicaine|union pour un mouvement", 12),
+]
+def rang(sigle, nom):
+    t = (sigle + " | " + nom).lower()
+    for motif, r in ORDRE:
+        if re.search(motif, t) or re.search(motif, sigle.lower()):
+            return r
+    return 50
+
+# ---------- annuaire ----------
+def charger_annuaire():
+    acteurs, organes = {}, {}
+    for url, requis in ACTEURS:
+        data = telecharger(url, requis)
+        if not data:
+            continue
+        for obj in jsons(data):
+            for o in trouver(obj, "organe"):
+                vm = o.get("viMoDe") or {}
+                organes.setdefault(txt(o.get("uid")), {
+                    "type": txt(o.get("codeType")), "libelle": txt(o.get("libelle")),
+                    "abrev": txt(o.get("libelleAbrev")) or txt(o.get("libelleAbrege")),
+                    "debut": txt(vm.get("dateDebut")), "fin": txt(vm.get("dateFin"))})
+            for a in trouver(obj, "acteur"):
+                uid = txt(a.get("uid"))
+                ident = (a.get("etatCivil") or {}).get("ident") or {}
+                mandats = liste((a.get("mandats") or {}).get("mandat"))
+                if uid in acteurs:
+                    acteurs[uid]["mandats"] += mandats
+                else:
+                    acteurs[uid] = {"civ": txt(ident.get("civ")), "prenom": txt(ident.get("prenom")), "nom": txt(ident.get("nom")),
+                                    "hatvp": txt(a.get("uri_hatvp")) or None, "mandats": mandats}
+    print(f"Annuaire : {len(acteurs)} personnes, {len(organes)} organes")
+    if len(acteurs) < 1000:
+        sys.exit("ERREUR : annuaire incomplet. Le site en ligne n'est pas modifié.")
+    return acteurs, organes
+
+def profil(uid, a, organes, L):
+    leg = L["leg"]
+    p = {"id": uid, "civ": a["civ"], "prenom": a["prenom"], "nom": a["nom"], "hatvp": a["hatvp"],
+         "periodes": [], "gp": [], "parti": None, "commission": None, "dept": "", "numDept": "", "circ": 0}
+    vus = set()
+    for m in a["mandats"]:
+        t, lg = txt(m.get("typeOrgane")), txt(m.get("legislature"))
+        deb = txt(premier(m.get("mandature") or {}, "datePriseFonction")) or txt(m.get("dateDebut"))
+        fin = txt(m.get("dateFin")) or None
+        cle = (t, deb, fin, tuple(refs(m)))
+        if cle in vus:
+            continue
+        vus.add(cle)
+        if t == "ASSEMBLEE" and lg == leg:
+            p["periodes"].append([deb, fin])
+            lieu = (m.get("election") or {}).get("lieu") or {}
+            if lieu:
+                p["dept"], p["numDept"], p["circ"] = txt(lieu.get("departement")), txt(lieu.get("numDepartement")), entier(lieu.get("numCirco"))
+        elif t == "GP" and lg == leg:
+            for o in refs(m):
+                p["gp"].append([o, txt(m.get("dateDebut")), fin])
+        elif t == "PARPOL" and (not fin or (L["au"] and dans(L["au"], txt(m.get("dateDebut")), fin))):
+            for o in refs(m):
+                if o in organes:
+                    p["parti"] = organes[o]["libelle"]
+        elif t == "COMPER" and lg == leg and (not fin or (L["au"] and fin >= L["au"])):
+            for o in refs(m):
+                if o in organes:
+                    p["commission"] = organes[o]["libelle"]
+    p["periodes"].sort()
+    p["gp"].sort(key=lambda g: g[1] or "")
+    fin_leg = L["au"]
+    p["actif"] = any(f is None or (fin_leg and f >= fin_leg) for _, f in p["periodes"])
+    p["debut"] = p["periodes"][0][0] if p["periodes"] else ""
+    return p
+
+# ---------- scrutins ----------
+CATS = [(1, ("pours", "pour")), (2, ("contres", "contre")), (3, ("abstentions", "abstention")), (4, ("nonVotants", "nonVotant"))]
+POS = {"pour": 1, "contre": 2, "abstention": 3, "abstentions": 3, "nonvotant": 4, "nonvotants": 4}
+
+def votants(bloc):
+    if not isinstance(bloc, dict):
+        return []
+    return [txt(v.get("acteurRef")) for v in liste(bloc.get("votant")) if isinstance(v, dict)]
+
+def charger_scrutins(data, organes=None):
+    organes = organes or {}
+    out, ecarts, congres = [], 0, 0
+    for obj in jsons(data):
+        for s in trouver(obj, "scrutin"):
+            org = organes.get(txt(s.get("organeRef")), {})
+            if org.get("type") == "CONGRES" or "congrès" in org.get("libelle", "").lower():
+                congres += 1
+                continue
+            synth = s.get("syntheseVote") or {}
+            dec = synth.get("decompte") or {}
+            tv = s.get("typeVote") or {}
+            titre = (txt(s.get("titre")) or txt((s.get("objet") or {}).get("libelle"))).strip()
+            titre = re.sub(r"\s*\.\s*$", "", titre)
+            sc = {"n": entier(s.get("numero")), "d": txt(s.get("dateScrutin"))[:10], "t": txt(tv.get("codeTypeVote")),
+                  "tl": txt(tv.get("libelleTypeVote")), "ti": titre,
+                  "so": txt((s.get("sort") or {}).get("code")), "dm": txt((s.get("demandeur") or {}).get("texte")),
+                  "vo": entier(synth.get("nombreVotants")), "ex": entier(synth.get("suffragesExprimes")), "rq": entier(synth.get("nbrSuffragesRequis")),
+                  "po": entier(premier(dec, "pour", "pours")), "co": entier(premier(dec, "contre", "contres")),
+                  "ab": entier(premier(dec, "abstentions", "abstention")),
+                  "nv": entier(premier(dec, "nonVotants", "nonVotant")) + entier(dec.get("nonVotantsVolontaires")),
+                  "groupes": [], "votes": {}, "mises": [], "org": txt(s.get("organeRef"))}
+            organe = (s.get("ventilationVotes") or {}).get("organe") or {}
+            somme = 0
+            for g in liste((organe.get("groupes") or {}).get("groupe")):
+                gid = txt(g.get("organeRef"))
+                vote = g.get("vote") or {}
+                dn, dv = vote.get("decompteNominatif") or {}, vote.get("decompteVoix") or {}
+                compte = {1: 0, 2: 0, 3: 0, 4: 0}
+                for code, cles in CATS:
+                    for ref in votants(premier(dn, *cles)):
+                        if ref:
+                            sc["votes"][ref] = (code, gid)
+                            compte[code] += 1
+                # Les listes nominatives font foi. Le décompte chiffré du groupe ne sert que si elles sont vides :
+                # dans les données de l'Assemblée, son champ « nonVotantsVolontaires » recopie souvent les abstentions
+                # (d'où plus de votants que de sièges), on ne l'ajoute donc que s'il diffère des abstentions.
+                if dv and not any(compte.values()):
+                    ab_v, nvv = entier(premier(dv, "abstentions", "abstention")), entier(dv.get("nonVotantsVolontaires"))
+                    compte = {1: entier(premier(dv, "pour", "pours")), 2: entier(premier(dv, "contre", "contres")), 3: ab_v,
+                              4: entier(premier(dv, "nonVotants", "nonVotant")) + (nvv if nvv != ab_v else 0)}
+                somme += compte[1]
+                # Position majoritaire : celle de la majorité des membres du groupe qui ont voté (pour, contre ou abstention).
+                # Le champ « positionMajoritaire » de l'Assemblée est parfois contraire aux votes eux-mêmes
+                # (ex. : groupe classé « pour » avec 12 pour et 106 contre) ; il ne sert qu'à départager une égalité.
+                pos_an = POS.get(txt(vote.get("positionMajoritaire")).lower(), 0)
+                m = max(compte[1], compte[2], compte[3])
+                gagnants = [k for k in (1, 2, 3) if compte[k] == m] if m else []
+                if not m:  # aucun membre du groupe n'a voté : pas de position (sauf si l'Assemblée ne publie aucun décompte)
+                    pos = 0 if (dn or dv) else pos_an
+                else:
+                    pos = pos_an if pos_an in gagnants else (gagnants[0] if len(gagnants) == 1 else 0)
+                sc["groupes"].append([gid, entier(g.get("nombreMembresGroupe")), pos,
+                                      compte[1], compte[2], compte[3], compte[4]])
+            if somme != sc["po"]:
+                ecarts += 1
+            mp = s.get("miseAuPoint") or {}
+            for code, cles in CATS:
+                for ref in votants(premier(mp, *cles)):
+                    if ref:
+                        sc["mises"].append([ref, code])
+            if sc["n"] and sc["d"]:
+                out.append(sc)
+    # Les numéros officiels de scrutin croissent avec le temps. Tout scrutin qui rompt cette
+    # progression vient d'une autre assemblée (Congrès du Parlement) : on le retire.
+    out.sort(key=lambda x: (x["n"], x["d"]))
+    dates = [sc["d"] for sc in out]
+    fins, pred, idx = [], [-1] * len(out), []
+    import bisect
+    for i, d in enumerate(dates):
+        j = bisect.bisect_right(fins, d)
+        if j == len(fins):
+            fins.append(d)
+            idx.append(i)
+        else:
+            fins[j] = d
+            idx[j] = i
+        pred[i] = idx[j - 1] if j else -1
+    garder = set()
+    k = idx[-1] if idx else -1
+    while k >= 0:
+        garder.add(k)
+        k = pred[k]
+    ecartes = [sc for i, sc in enumerate(out) if i not in garder]
+    if ecartes:
+        congres += len(ecartes)
+        apercu = ", ".join(f"n° {sc['n']} du {sc['d']}" for sc in ecartes[:3])
+        print(f"  {len(ecartes)} scrutin(s) hors de cette assemblée écarté(s) : {apercu}")
+        out = [sc for i, sc in enumerate(out) if i in garder]
+    uniques = {}
+    for sc in out:
+        uniques.setdefault(sc["n"], sc)
+    out = sorted(uniques.values(), key=lambda x: x["n"])
+    print(f"  scrutins : {len(out)} ; votes nominatifs : {sum(len(s['votes']) for s in out)}" + (f" ; {ecarts} totaux de groupe différents du total officiel" if ecarts else ""))
+    return out
+
+# ---------- dossiers législatifs (lois) ----------
+def actes(noeud, prof=0):
+    if prof > 12:
+        return
+    for a in liste((noeud.get("actesLegislatifs") or {}).get("acteLegislatif")):
+        if isinstance(a, dict):
+            yield a
+            yield from actes(a, prof + 1)
+
+def refs_documents(doc, prof=0):
+    """Identifiants des subdivisions d'un document (textes rattachés)."""
+    out = []
+    if prof > 4 or not isinstance(doc, dict):
+        return out
+    for d in liste((doc.get("divisions") or {}).get("division")):
+        if isinstance(d, dict):
+            out.append(txt(d.get("uid")))
+            out += refs_documents(d, prof + 1)
+    return out
+
+def refs_acteurs(noeud, prof=0):
+    """Tous les identifiants acteurRef présents sous un nœud, quelle que soit sa forme."""
+    out = []
+    if prof > 8 or noeud is None:
+        return out
+    if isinstance(noeud, dict):
+        for k, v in noeud.items():
+            if k == "acteurRef":
+                out += [txt(x) for x in liste(v)]
+            elif isinstance(v, (dict, list)):
+                out += refs_acteurs(v, prof + 1)
+    elif isinstance(noeud, list):
+        for v in noeud:
+            out += refs_acteurs(v, prof + 1)
+    return out
+
+CODES_UTILES = re.compile(r"(DEPOT|DEC|PROM|PUB|CONCLUSION|SAISIE-CC)$")
+def charger_lois(data, numeros, leg, am_textes=None, gi=None):
+    am_textes, gi = am_textes or {}, gi or {}
+    lois, docs = [], {}
+    objets = list(jsons(data))
+    for obj in objets:
+        for doc in trouver(obj, "document"):
+            dos = txt(doc.get("dossierRef"))
+            if dos:
+                docs.setdefault(dos, set()).add(txt(doc.get("uid")))
+                for div in refs_documents(doc):
+                    docs[dos].add(div)
+    for obj in objets:
+        for d in trouver(obj, "dossierParlementaire"):
+            titre_d = d.get("titreDossier") or {}
+            proc = txt((d.get("procedureParlementaire") or {}).get("libelle"))
+            if "résolution" in proc.lower():
+                continue
+            etapes, scr, prom, cc = [], set(), None, None
+            for a in actes(d):
+                code = txt(a.get("codeActe"))
+                lib = txt(premier(a.get("libelleActe") or {}, "nomCanonique", "libelleCourt"))
+                date = txt(a.get("dateActe"))[:10]
+                for v in liste(premier(a.get("voteRefs") or {}, "voteRef")):
+                    # référence du type VTANR5L17V1234 : la législature doit être celle traitée, sinon un
+                    # dossier de la 16e législature serait relié au scrutin de même numéro de la 17e
+                    m = re.search(r"(?:L(\d+))?V(\d+)$", txt(v))
+                    if m and (not m.group(1) or m.group(1) == str(leg)) and int(m.group(2)) in numeros:
+                        scr.add(int(m.group(2)))
+                jo = a.get("infoJO") or {}
+                if code.startswith("PROM") and (jo or a.get("titreLoi")):
+                    prom = {"date": txt(jo.get("dateJO"))[:10] or date, "url": txt(jo.get("urlLegifrance")) or None,
+                            "titre": txt(a.get("titreLoi")) or None}
+                if "CONCLUSION" in code and code.startswith("CC"):
+                    cc = {"date": date, "lib": txt((a.get("statutConclusion") or {}).get("libelle")) or lib, "url": txt(a.get("urlConclusion")) or None}
+                if date and CODES_UTILES.search(code):
+                    statut = txt((a.get("statutConclusion") or {}).get("libelle"))
+                    etapes.append([code, lib, date, statut] if statut else [code, lib, date])
+            if not prom and not scr and not refs_acteurs(d.get("initiateur")):
+                continue
+            vu, et = set(), []
+            for e in sorted(etapes, key=lambda x: x[2]):
+                k = (e[0], e[2])
+                if k not in vu:
+                    vu.add(k)
+                    et.append(e)
+            auteurs = sorted({x for x in refs_acteurs(d.get("initiateur")) if x.startswith("PA")})
+            rapporteurs = set()
+            for a in actes(d):
+                for x in refs_acteurs(a.get("rapporteurs")):
+                    if x.startswith("PA"):
+                        rapporteurs.add(x)
+            uid = txt(d.get("uid"))
+            for a in actes(d):
+                for tref in liste(a.get("texteAssocie")) + liste(a.get("texteAdopte")):
+                    if txt(tref):
+                        docs.setdefault(uid, set()).add(txt(tref))
+            # texte déposé (pour l'exposé des motifs) : le premier dépôt à l'Assemblée, à défaut le premier dépôt tout court
+            depots = sorted([(txt(a.get("dateActe"))[:10], txt(a.get("texteAssocie"))) for a in actes(d)
+                             if txt(a.get("codeActe")).endswith("DEPOT") and txt(a.get("texteAssocie"))])
+            tx = next((u for _, u in depots if "ANR5" in u), None) or (depots[0][1] if depots else None)
+            am = {"t": 0, "a": 0, "g": {}}
+            for doc in docs.get(uid, ()):
+                x = am_textes.get(doc)
+                if not x:
+                    continue
+                am["t"] += x["t"]
+                am["a"] += x["a"]
+                for g, (dep, adop) in x["g"].items():
+                    y = am["g"].setdefault(g, [0, 0])
+                    y[0] += dep
+                    y[1] += adop
+            am_out = {"t": am["t"], "a": am["a"], "g": sorted([[gi.get(g, -1) if g != "Gouvernement" else -2, v[0], v[1]] for g, v in am["g"].items()], key=lambda r: -r[1])} if am["t"] else None
+            lois.append({"id": uid, "titre": txt(titre_d.get("titre")), "chemin": txt(titre_d.get("titreChemin")) or None, "senat": txt(titre_d.get("senatChemin")) or None,
+                         "proc": proc, "etapes": et[:24], "prom": prom, "cc": cc, "scrutins": sorted(scr),
+                         "auteurs": auteurs[:40], "rapporteurs": sorted(rapporteurs)[:20], "am": am_out, "tx": tx})
+    lois.sort(key=lambda l: (l["prom"] or {}).get("date") or (l["etapes"][-1][2] if l["etapes"] else ""), reverse=True)
+    print(f"  lois et textes suivis : {len(lois)} (dont {sum(1 for l in lois if l['prom'])} promulguées)")
+    return lois
+
+
+# ---------- photos libres (Wikidata + Wikimedia Commons) ----------
+UA = "AuxVoix/2.0 (https://auxvoix.fr ; reutilisation de donnees ouvertes)"
+LICENCES_LIBRES = re.compile(r"^(cc0|public domain|pd|domaine public|cc[ -]by(-sa)?([ -][\d.]+)?)", re.I)
+def obtenir(url, accept=None, timeout=120):
+    h = {"User-Agent": UA}
+    if accept:
+        h["Accept"] = accept
+    with urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=timeout) as r:
+        return r.read()
+
+def lire_sparql(donnees, ids):
+    fichiers = {}
+    for b in donnees.get("results", {}).get("bindings", []):
+        an = "PA" + re.sub(r"\D", "", b.get("an", {}).get("value", ""))
+        img = b.get("img", {}).get("value", "")
+        if an in ids and img and an not in fichiers:
+            fichiers[an] = urllib.parse.unquote(img.rsplit("/", 1)[-1]).replace("_", " ")
+    return fichiers
+
+def lire_commons(donnees):
+    q = donnees.get("query", {})
+    renomme = {n["to"]: n["from"] for n in q.get("normalized", [])}
+    infos = {}
+    for p in q.get("pages", []):
+        ii = (p.get("imageinfo") or [{}])[0]
+        meta = ii.get("extmetadata") or {}
+        lic = (meta.get("LicenseShortName") or {}).get("value", "")
+        auteur = html.unescape(re.sub(r"<[^>]+>", "", (meta.get("Artist") or {}).get("value", ""))).strip()
+        auteur = re.sub(r"\s+", " ", auteur)[:120] or "Auteur non précisé"
+        libre = bool(LICENCES_LIBRES.search(lic.strip())) and not re.search(r"\b(nc|nd)\b", lic.lower())
+        titre = p.get("title", "")
+        infos[renomme.get(titre, titre)] = {"libre": libre, "licence": lic, "auteur": auteur,
+                                            "vignette": ii.get("thumburl"), "page": ii.get("descriptionurl")}
+    return infos
+
+def image_valide(chemin):
+    try:
+        if os.path.getsize(chemin) < 1500:
+            return False
+        with open(chemin, "rb") as fh:
+            tete = fh.read(12)
+        return tete[:3] == b"\xff\xd8\xff" or tete[:8] == b"\x89PNG\r\n\x1a\n" or tete[:4] == b"GIF8" or (tete[:4] == b"RIFF" and tete[8:12] == b"WEBP")
+    except OSError:
+        return False
+
+def telecharger_image(url):
+    for essai in range(4):
+        try:
+            data = obtenir(url, timeout=60)
+            if len(data) >= 1500:
+                return data
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 503):
+                attente = int(e.headers.get("Retry-After") or 0) or 5 * (essai + 1)
+                time.sleep(min(attente, 60))
+                continue
+            return None
+        except Exception:
+            time.sleep(2)
+    return None
+
+def photos_libres(ids):
+    """Retourne {PA…: {f, a, l, u}} ; conserve les vignettes déjà téléchargées (cache)."""
+    dossier = os.path.join(SITE, "photos")
+    os.makedirs(dossier, exist_ok=True)
+    chemin_credits = os.path.join(dossier, "credits.json")
+    try:
+        credits = json.load(open(chemin_credits, encoding="utf-8"))
+    except Exception:
+        credits = {}
+    if os.environ.get("RELEVE_LOCAL"):
+        return credits
+    try:
+        requete = "SELECT ?an ?img WHERE { ?p wdt:P4123 ?an ; wdt:P18 ?img . }"
+        brut = obtenir("https://query.wikidata.org/sparql?format=json&query=" + urllib.parse.quote(requete), "application/sparql-results+json")
+        fichiers = lire_sparql(json.loads(brut), ids)
+        print(f"Photos : {len(fichiers)} députés ont une image sur Wikidata")
+        noms = sorted(set(fichiers.values()))
+        infos = {}
+        for i in range(0, len(noms), 40):
+            titres = "|".join("File:" + n for n in noms[i:i + 40])
+            url = ("https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo"
+                   "&iiprop=url|extmetadata&iiurlwidth=250&titles=" + urllib.parse.quote(titres))
+            infos.update(lire_commons(json.loads(obtenir(url))))
+            time.sleep(0.2)
+        nouveaux = refus = echecs = 0
+        for an, nom in fichiers.items():
+            info = infos.get("File:" + nom) or infos.get("Fichier:" + nom)
+            if not info or not info["libre"] or not info["vignette"]:
+                refus += 1
+                credits.pop(an, None)
+                continue
+            ext = os.path.splitext(info["vignette"].split("?")[0])[1].lower() or ".jpg"
+            f = f"photos/{an}{ext}"
+            chemin = os.path.join(SITE, f)
+            if not image_valide(chemin):
+                contenu = telecharger_image(info["vignette"])
+                if not contenu:
+                    echecs += 1
+                    credits.pop(an, None)
+                    continue
+                with open(chemin + ".tmp", "wb") as fh:
+                    fh.write(contenu)
+                os.replace(chemin + ".tmp", chemin)
+                nouveaux += 1
+                time.sleep(0.25)
+            credits[an] = {"f": f, "a": info["auteur"], "l": info["licence"], "u": info["page"]}
+        json.dump(credits, open(chemin_credits, "w", encoding="utf-8"), ensure_ascii=False)
+        credits = {k: v for k, v in credits.items() if image_valide(os.path.join(SITE, v["f"]))}
+        json.dump(credits, open(chemin_credits, "w", encoding="utf-8"), ensure_ascii=False)
+        print(f"  {len(credits)} photos sous licence libre ({nouveaux} nouvelles) ; {refus} écartées (licence non libre ou introuvable) ; {echecs} téléchargements à reprendre au prochain passage")
+    except Exception as e:
+        print(f"Photos : collecte interrompue ({e}), le site est construit sans nouvelles photos")
+    return credits
+
+
+# ---------- amendements (législature en cours) ----------
+def compter_amendements(url, cache_dir):
+    """Télécharge le fichier des amendements (volumineux) au plus une fois par semaine ; sinon réutilise le cache."""
+    os.makedirs(cache_dir, exist_ok=True)
+    cache = os.path.join(cache_dir, "amendements.json")
+    try:
+        prec = json.load(open(cache, encoding="utf-8"))
+        age = (datetime.datetime.now(datetime.timezone.utc) - datetime.datetime.fromisoformat(prec["date"])).days
+        if age < 7 and "textes" in prec and os.environ.get("RELEVE_FORCER_AMENDEMENTS") != "1":
+            print(f"Amendements : cache de {age} jour(s) réutilisé ({len(prec['deputes'])} députés)")
+            return prec
+    except Exception:
+        prec = None
+    if os.environ.get("RELEVE_LOCAL"):
+        return prec or {"date": "", "deputes": {}, "total": 0}
+    chemin = os.path.join(cache_dir, "amendements.zip")
+    try:
+        print(f"Téléchargement : {url}")
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=900) as r, open(chemin, "wb") as f:
+            while True:
+                bloc = r.read(1 << 20)
+                if not bloc:
+                    break
+                f.write(bloc)
+        print(f"  {os.path.getsize(chemin) / 1e6:.0f} Mo")
+        compte, total, debut, par_texte = {}, 0, time.time(), {}
+        with zipfile.ZipFile(chemin) as z:
+            for nom in z.namelist():
+                if not nom.endswith(".json"):
+                    continue
+                try:
+                    obj = json.loads(z.read(nom).decode("utf-8"))
+                except Exception:
+                    continue
+                for a in trouver(obj, "amendement"):
+                    total += 1
+                    sig = a.get("signataires") or {}
+                    aut = sig.get("auteur") or {}
+                    auteur = txt(aut.get("acteurRef"))
+                    texte = txt(a.get("texteLegislatifRef"))
+                    grp_ref = txt(aut.get("groupePolitiqueRef"))
+                    cyc = a.get("cycleDeVie") or {}
+                    sort_ = cyc.get("sort")
+                    sort_ = txt(sort_.get("libelle") if isinstance(sort_, dict) else sort_).lower()
+                    adopte = sort_.startswith("adopt")
+                    if auteur.startswith("PA"):
+                        c = compte.setdefault(auteur, [0, 0, 0])
+                        c[0] += 1
+                        if adopte:
+                            c[1] += 1
+                    if texte:
+                        t = par_texte.setdefault(texte, {"t": 0, "a": 0, "g": {}})
+                        t["t"] += 1
+                        t["a"] += adopte
+                        cle = grp_ref or ("Gouvernement" if not auteur.startswith("PA") else "")
+                        if cle:
+                            gg = t["g"].setdefault(cle, [0, 0])
+                            gg[0] += 1
+                            gg[1] += adopte
+                    for co in refs_acteurs(sig.get("cosignataires")):
+                        if co.startswith("PA") and co != auteur:
+                            compte.setdefault(co, [0, 0, 0])[2] += 1
+                if time.time() - debut > 1200:
+                    print("  lecture interrompue au bout de 20 minutes : comptes partiels")
+                    break
+        res = {"date": datetime.datetime.now(datetime.timezone.utc).isoformat(), "deputes": compte, "total": total, "textes": par_texte}
+        json.dump(res, open(cache, "w", encoding="utf-8"))
+        print(f"  {total} amendements lus, {len(compte)} députés concernés")
+        return res
+    except Exception as e:
+        print(f"Amendements : lecture impossible ({e}) ; le site est construit sans")
+        return prec or {"date": "", "deputes": {}, "total": 0}
+    finally:
+        try:
+            os.remove(chemin)
+        except OSError:
+            pass
+
+def qualite(a):
+    """Dernière fonction connue : sénateur, membre du Gouvernement ou député."""
+    types = {"SENAT": "sen", "GOUVERNEMENT": "gouv", "MINISTERE": "gouv", "ASSEMBLEE": "dep"}
+    meilleur, date_max = None, ""
+    for m in a.get("mandats", []):
+        t = types.get(txt(m.get("typeOrgane")))
+        d = txt(m.get("dateDebut"))
+        if t and d >= date_max:
+            meilleur, date_max = t, d
+    fem = a.get("civ") == "Mme"
+    return {"sen": "sénatrice" if fem else "sénateur", "gouv": "membre du Gouvernement",
+            "dep": "députée" if fem else "député"}.get(meilleur, "")
+
+def personnes_citees(lois, index, acteurs):
+    refs = set()
+    for l in lois:
+        refs.update(l.get("auteurs") or [])
+        refs.update(l.get("rapporteurs") or [])
+    out = {}
+    for r in refs:
+        if r in index or r not in acteurs:
+            continue
+        a = acteurs[r]
+        out[r] = {"p": a["prenom"], "n": a["nom"], "c": a["civ"], "q": qualite(a)}
+    print(f"  noms retrouvés pour {len(out)} auteurs ou rapporteurs non députés de la législature")
+    return out
+
+# ---------- actualités : sources publiques (titres et liens seulement, sans publicité ni commentaire) ----------
+# (adresse du flux, nom affiché, rubrique, segment d'adresse exigé pour ne garder que les articles d'actualité)
+FLUX_OFFICIELS = [
+    ("https://lcp.fr/rss.xml", "LCP", "Politique", "/actualites/"),
+    ("https://www.publicsenat.fr/feed", "Public Sénat", "Politique", "/actualites/"),
+    ("https://www.vie-publique.fr/actualites-feeds.xml", "vie-publique.fr", "Politiques publiques", ""),
+]
+# (le flux « lois » de vie-publique.fr n'est plus repris : les lois ont déjà leur rubrique, tirée des données de l'Assemblée)
+
+def lien_propre(lien):
+    """Retire les paramètres de suivi (egn-…, utm_…, xtor…) ajoutés aux liens des flux."""
+    p = urllib.parse.urlsplit(lien)
+    q = [(k, v) for k, v in urllib.parse.parse_qsl(p.query, keep_blank_values=True) if not re.match(r"(egn-|utm_|xtor|at_)", k, re.I)]
+    return urllib.parse.urlunsplit((p.scheme, p.netloc, p.path, urllib.parse.urlencode(q), ""))
+
+def lire_flux(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; AuxVoix/1.0; +https://auxvoix.fr)",
+                                               "Accept": "application/rss+xml, application/xml;q=0.9, */*;q=0.8", "Accept-Language": "fr-FR,fr;q=0.9"})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        brut = r.read()
+        # vie-publique.fr envoie ses flux compressés même sans le demander : sans cette étape, le flux est illisible
+        if (r.headers.get("Content-Encoding") or "").lower() == "gzip" or brut[:2] == b"\x1f\x8b":
+            brut = gzip.decompress(brut)
+    return brut
+
+PRESI_RE = re.compile(r"pr[ée]sidentiel|primaire (?:socialiste|ps|de la gauche|de la droite|des [ée]cologistes|des r[ée]publicains)|parrainages?\b|"
+                      r"candidat(?:e|s|es)? (?:[àa] l['’][ée]lection|[àa] la pr[ée]sidence)|candidature (?:[àa] l['’][ée]lection|pour 2027)|campagne pr[ée]sidentielle|[ée]lys[ée]e 2027", re.I)
+
+def date_flux(texte):
+    import email.utils
+    texte = (texte or "").strip()
+    try:
+        return email.utils.parsedate_to_datetime(texte).date().isoformat()
+    except Exception:
+        pass
+    try:
+        return datetime.datetime.fromisoformat(texte.replace("Z", "+00:00")).date().isoformat()
+    except Exception:
+        return ""
+
+def actualites_officielles():
+    import xml.etree.ElementTree as ET
+    sortie = os.path.join(SITE, "actualites-officielles.json")
+    if os.environ.get("RELEVE_LOCAL") and not os.environ.get("RELEVE_FLUX_TEST"):
+        if not os.path.exists(sortie):
+            json.dump([], open(sortie, "w", encoding="utf-8"))
+        return
+    items, vus, bilan = [], set(), []
+    for url, source, rubrique, chemin in FLUX_OFFICIELS:
+        n = 0
+        try:
+            racine = ET.fromstring(lire_flux(url))
+            for it in racine.iter("item"):
+                titre = html.unescape(re.sub(r"\s+", " ", it.findtext("title") or "")).strip()
+                lien = lien_propre((it.findtext("link") or "").strip())
+                date = date_flux(it.findtext("pubDate") or it.findtext("{http://purl.org/dc/elements/1.1/}date"))
+                if not (titre and lien.startswith("https://") and date) or lien in vus or (chemin and chemin not in lien):
+                    continue
+                cats = " ".join((c.text or "") for c in it.findall("category"))
+                vus.add(lien)
+                items.append({"date": date, "titre": titre, "lien": lien, "source": source, "rubrique": rubrique,
+                              "presi": bool(PRESI_RE.search(titre + " " + cats))})
+                n += 1
+            bilan.append(f"{source} : {n}")
+        except Exception as e:
+            bilan.append(f"{source} : indisponible ({e})")
+            print(f"Actualités : {url} indisponible ({e})")
+            bilan_maj.noter("warning", "Actualités", f"{url} indisponible : {e}")
+    items.sort(key=lambda x: x["date"], reverse=True)
+    if items or not os.path.exists(sortie):
+        json.dump(items[:160], open(sortie, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    print("Actualités : " + " ; ".join(bilan))
+    bilan_maj.noter("notice", "Actualités", " ; ".join(bilan))
+
+# ---------- calcul d'une législature ----------
+def periodes(L, aujourd_hui):
+    fin_leg = L["au"] or aujourd_hui
+    res, debut, annee = [], L["du"], int(L["du"][:4])
+    while debut <= fin_leg:
+        fin = min(f"{annee + 1}-09-30", fin_leg)
+        res.append({"id": len(res), "label": f"{annee}-{annee + 1}", "du": debut, "au": fin})
+        annee += 1
+        debut = f"{annee}-10-01"
+    return res
+
+def construire_legislature(L, acteurs, organes, aujourd_hui, credits=None):
+    credits = credits or {}
+    print(f"\n== {L['label']} ==")
+    data = telecharger(L["scrutins"], L.get("requis", False))
+    if not data:
+        return None
+    scrutins = charger_scrutins(data, organes)
+    del data
+    if len(scrutins) < 100:
+        if L.get("requis"):
+            sys.exit("ERREUR : trop peu de scrutins lus. Le site en ligne n'est pas modifié.")
+        print("  législature ignorée (trop peu de scrutins lus)")
+        return None
+    per = periodes(L, aujourd_hui)
+    leg = L["leg"]
+    ids = {uid for uid, a in acteurs.items() if any(txt(m.get("typeOrgane")) == "ASSEMBLEE" and txt(m.get("legislature")) == leg for m in a["mandats"])}
+    for s in scrutins:
+        ids.update(s["votes"].keys())
+    deputes = []
+    for uid in ids:
+        a = acteurs.get(uid) or {"civ": "", "prenom": "", "nom": uid, "hatvp": None, "mandats": []}
+        deputes.append(profil(uid, a, organes, L))
+    deputes.sort(key=lambda d: (d["nom"], d["prenom"]))
+    index = {d["id"]: i for i, d in enumerate(deputes)}
+    # groupe réellement enregistré dans chaque scrutin : segments [premier n°, dernier n°, organe]
+    for d in deputes:
+        d["seg"] = []
+    for s in scrutins:
+        for ref, (code, gid) in s["votes"].items():
+            d = deputes[index[ref]]
+            if d["seg"] and d["seg"][-1][2] == gid:
+                d["seg"][-1][1] = s["n"]
+            else:
+                d["seg"].append([s["n"], s["n"], gid])
+    def groupe_final(d):
+        cur = [g for g, deb, fin in d["gp"] if not fin or (L["au"] and fin >= L["au"])]
+        if cur:
+            return cur[-1]
+        if d["seg"]:
+            return d["seg"][-1][2]
+        return d["gp"][-1][0] if d["gp"] else None
+    actifs = [d for d in deputes if d["actif"]]
+    gids = []
+    for d in actifs:
+        g = groupe_final(d)
+        if g and g not in gids:
+            gids.append(g)
+    for s in scrutins:
+        for b in s["groupes"]:
+            if b[0] not in gids:
+                gids.append(b[0])
+    groupes = []
+    for gid in gids:
+        o = organes.get(gid, {})
+        sigle = o.get("abrev") or o.get("libelle") or gid
+        nom = o.get("libelle") or gid
+        g = {"id": gid, "sigle": sigle, "nom": nom, "debut": o.get("debut") or None, "fin": o.get("fin") or None,
+             "rang": rang(sigle, nom)}
+        g["ni"] = g["rang"] == 99
+        g["actif"] = not g["fin"] or (L["au"] is not None and g["fin"] >= L["au"])
+        g["effectif"] = sum(1 for d in actifs if groupe_final(d) == gid)
+        groupes.append(g)
+    groupes.sort(key=lambda g: (not g["actif"], g["rang"], -g["effectif"]))
+    gi = {g["id"]: i for i, g in enumerate(groupes)}
+    ni = {g["id"] for g in groupes if g["ni"]}
+    # indicateurs individuels
+    K = len(per)
+    for d in deputes:
+        d["st"] = [{"el": 0, "vo": 0, "elS": 0, "voS": 0, "alN": 0, "al": 0} for _ in range(K + 1)]
+    for s in scrutins:
+        k = next((p["id"] for p in per if p["du"] <= s["d"] <= p["au"]), K - 1)
+        pos = {b[0]: b[2] for b in s["groupes"]}
+        sol = s["t"] == "SPS"
+        for d in deputes:
+            if not any(dans(s["d"], deb, fin) for deb, fin in d["periodes"]):
+                continue
+            code, g = s["votes"].get(d["id"], (0, None))
+            if code == 4:
+                continue
+            for st in (d["st"][k], d["st"][K]):
+                st["el"] += 1
+                if sol:
+                    st["elS"] += 1
+                if code in (1, 2, 3):
+                    st["vo"] += 1
+                    if sol:
+                        st["voS"] += 1
+                    if g and g not in ni and pos.get(g) in (1, 2, 3):
+                        st["alN"] += 1
+                        st["al"] += code == pos.get(g)
+    for d in deputes:
+        for st in d["st"]:
+            st["part"] = round(st["vo"] / st["el"], 4) if st["el"] else None
+            st["partS"] = round(st["voS"] / st["elS"], 4) if st["elS"] else None
+            st["align"] = round(st["al"] / st["alN"], 4) if st["alN"] else None
+    medianes = []
+    for k in range(K + 1):
+        ok = [d for d in actifs if d["st"][k]["el"] >= SEUIL]
+        medianes.append({c: mediane([d["st"][k][c] for d in ok]) for c in ("part", "partS", "align")})
+    # indicateurs de groupe
+    positions = [{b[0]: b[2] for b in s["groupes"]} for s in scrutins]
+    for g in groupes:
+        rice = [abs(b[3] - b[4]) / (b[3] + b[4]) for s in scrutins for b in s["groupes"] if b[0] == g["id"] and b[3] + b[4] > 0]
+        g["rice"] = None if g["ni"] or not rice else round(sum(rice) / len(rice), 4)
+        membres = [d for d in actifs if groupe_final(d) == g["id"]]
+        g["partMed"] = mediane([d["st"][K]["part"] for d in membres if d["st"][K]["el"] >= SEUIL])
+        g["partSMed"] = mediane([d["st"][K]["partS"] for d in membres if d["st"][K]["elS"] >= 5])
+        partis = {}
+        for d in membres:
+            k2 = d["parti"] or "Aucun parti déclaré"
+            partis[k2] = partis.get(k2, 0) + 1
+        g["partis"] = sorted(partis.items(), key=lambda x: -x[1])
+        g["accord"] = {}
+        for h in groupes:
+            if g["ni"] or h["ni"] or g is h:
+                continue
+            n = a2 = 0
+            for p in positions:
+                x, y = p.get(g["id"]), p.get(h["id"])
+                if x in (1, 2, 3) and y in (1, 2, 3):
+                    n += 1
+                    a2 += x == y
+            g["accord"][h["id"]] = round(a2 / n, 4) if n >= 30 else None
+    amdt = {"deputes": {}, "total": 0, "date": "", "textes": {}}
+    if L.get("amendements"):
+        amdt = compter_amendements(L["amendements"], os.path.join(RACINE, "cache"))
+    # lois
+    lois = []
+    if L.get("dossiers"):
+        dd = telecharger(L["dossiers"], False)
+        if dd:
+            try:
+                lois = charger_lois(dd, {s["n"] for s in scrutins}, leg, amdt.get("textes"), gi)
+            except Exception as e:
+                print(f"  dossiers législatifs ignorés : {e}")
+    # sortie compacte
+    sortie = []
+    for s in scrutins:
+        v = []
+        for d in deputes:
+            code = s["votes"].get(d["id"], (None, None))[0]
+            v.append(str(code) if code else ("0" if any(dans(s["d"], deb, fin) for deb, fin in d["periodes"]) else "-"))
+        sortie.append({"n": s["n"], "d": s["d"], "t": s["t"], "tl": s["tl"], "ti": s["ti"], "so": s["so"], "dm": s["dm"],
+                       "vo": s["vo"], "ex": s["ex"], "rq": s["rq"], "po": s["po"], "co": s["co"], "ab": s["ab"], "nv": s["nv"],
+                       "g": [[gi.get(b[0], -1)] + b[1:] for b in s["groupes"]],
+                       "m": [[index[r], c] for r, c in s["mises"] if r in index], "v": "".join(v)})
+    donnees = {
+        "legislature": leg, "label": L["label"], "du": L["du"], "au": L["au"], "courante": L["au"] is None,
+        "maj": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ"),
+        "sources": {"scrutins": L["scrutins"], "acteurs": ACTEURS[0][0], "dossiers": L.get("dossiers"), "licence": "Licence Ouverte / Open Licence (Etalab)"},
+        "periodes": per, "medianes": medianes, "groupes": groupes, "lois": lois,
+        "personnes": personnes_citees(lois, index, acteurs),
+        "deputes": [{"id": d["id"], "civ": d["civ"], "prenom": d["prenom"], "nom": d["nom"], "dept": d["dept"], "numDept": d["numDept"],
+                     "circ": d["circ"], "actif": d["actif"], "debut": d["debut"], "periodes": d["periodes"],
+                     "groupe": gi.get(groupe_final(d) or "", -1), "seg": [[a, b, gi.get(c, -1)] for a, b, c in d["seg"]],
+                     "parti": d["parti"], "commission": d["commission"], "hatvp": d["hatvp"], "photo": credits.get(d["id"]), "am": amdt["deputes"].get(d["id"]), "st": d["st"]} for d in deputes],
+        "amendements": {"total": amdt.get("total", 0), "date": amdt.get("date", "")[:10]},
+        "scrutins": sortie,
+    }
+    # Le vote de chaque député (la moitié du poids) part dans un fichier à part, chargé seulement par les pages qui
+    # en ont besoin (fiche d'un député, détail d'un scrutin, comparateur, suivis) : l'accueil s'affiche deux fois plus vite.
+    nom, nom_v = f"data-{leg}.json", f"votes-{leg}.json"
+    votes = {"leg": leg, "n": [x["n"] for x in sortie], "v": [x.pop("v", "") for x in sortie]}
+    with open(os.path.join(SITE, nom_v), "w", encoding="utf-8") as f:
+        json.dump(votes, f, ensure_ascii=False, separators=(",", ":"))
+    with open(os.path.join(SITE, nom), "w", encoding="utf-8") as f:
+        json.dump(donnees, f, ensure_ascii=False, separators=(",", ":"))
+    for x, v in zip(sortie, votes["v"]):   # la suite du script (pages publiques) garde l'accès aux votes
+        x["v"] = v
+    print(f"  écrit : {nom} ({os.path.getsize(os.path.join(SITE, nom)) / 1e6:.1f} Mo) et {nom_v} ({os.path.getsize(os.path.join(SITE, nom_v)) / 1e6:.1f} Mo) ; groupes : " + ", ".join(f"{g['sigle']} {g['effectif']}" for g in groupes if g["actif"]))
+    return {"leg": leg, "label": L["label"], "du": L["du"], "au": L["au"], "fichier": nom, "votes": nom_v, "nb": len(scrutins),
+            "premier": min(s["d"] for s in scrutins), "dernier": max(s["d"] for s in scrutins), "deputes": len(actifs), "lois": len(lois)}
+
+# ---------- contenus éditoriaux ----------
+FICHES_INDEX = {"publies": [], "brouillons": []}
+
+def verifier_contenus():
+    dossier = os.path.join(SITE, "contenu")
+    erreurs = []
+    for nom in ("lois.json", "corrections.json", "site.json", "articles.json", "candidats.json", "actualites.json", "programmes.json"):
+        chemin = os.path.join(dossier, nom)
+        if not os.path.exists(chemin):
+            erreurs.append(f"{nom} : fichier manquant")
+            continue
+        try:
+            contenu = json.load(open(chemin, encoding="utf-8"))
+        except json.JSONDecodeError as e:
+            erreurs.append(f"{nom}, ligne {e.lineno}, colonne {e.colno} : {e.msg} (virgule, guillemet ou crochet manquant ?)")
+            continue
+        if nom == "site.json" and isinstance(contenu, dict) and contenu.get("public"):
+            # Ouverture au public : les mentions légales doivent être complètes (loi du 21 juin 2004, art. 1-1 ; délit puni par l'art. 1-2)
+            ment = contenu.get("mentions") or {}
+            if not ment.get("hebergeur"):
+                erreurs.append("site.json : « public » est activé mais les coordonnées de l'hébergeur sont vides")
+            if ment.get("anonyme") is not True:
+                for champ in ("editeur", "directeur_publication"):
+                    if not ment.get(champ):
+                        erreurs.append(f"site.json : « public » est activé mais « {champ} » est vide (ou passez « anonyme » à true pour un éditeur non professionnel)")
+            if not ment.get("contact"):
+                erreurs.append("site.json : « public » est activé mais l'adresse de contact est vide")
+        if nom == "programmes.json":
+            for i, t in enumerate(contenu or []):
+                if not (isinstance(t, dict) and t.get("publie")):
+                    continue
+                for champ in ("parti", "auteur", "verif"):
+                    if not t.get(champ):
+                        erreurs.append(f"programmes.json, fiche {i + 1} : le champ « {champ} » est vide")
+                if t.get("auteur") and t.get("auteur") == t.get("verif"):
+                    erreurs.append(f"programmes.json, fiche {i + 1} : l'auteur et le vérificateur doivent être deux personnes différentes")
+                urls = [(t.get("document") or {}).get("url")] + [x.get("source") for x in t.get("extraits") or []]
+                if any(not str(u or "").startswith("https://") for u in urls):
+                    erreurs.append(f"programmes.json, fiche {i + 1} : le document et chaque extrait doivent avoir une source en https")
+        if nom in ("candidats.json", "actualites.json"):
+            for i, t in enumerate(contenu or []):
+                if not (isinstance(t, dict) and t.get("publie")):
+                    continue
+                if nom == "candidats.json" and t.get("programme") and not str((t.get("programme") or {}).get("url") or "").startswith("https://"):
+                    erreurs.append(f"candidats.json, fiche {i + 1} : le lien du programme doit être une adresse https")
+                if nom == "candidats.json" and t.get("statut") == "annonce":
+                    sources = [s for s in t.get("sources") or [] if isinstance(s, dict) and s.get("nom") and str(s.get("url") or "").startswith("https://")]
+                    if not sources or not t.get("nom"):
+                        erreurs.append(f"candidats.json, fiche {i + 1} : une annonce de candidature doit citer au moins une source nommée, en https")
+                    if t.get("propositions"):
+                        erreurs.append(f"candidats.json, fiche {i + 1} : des propositions ne peuvent être publiées qu'après relecture (statut « declare » ou « officiel »)")
+                    continue
+                champs = ("prenom", "nom", "statut", "auteur", "verif") if nom == "candidats.json" else ("date", "titre", "source", "auteur", "verif")
+                for champ in champs:
+                    if not t.get(champ):
+                        erreurs.append(f"{nom}, fiche {i + 1} : le champ « {champ} » est vide")
+                if t.get("auteur") and t.get("auteur") == t.get("verif"):
+                    erreurs.append(f"{nom}, fiche {i + 1} : l'auteur et le vérificateur doivent être deux personnes différentes")
+                sources = [t.get("source")] if nom == "actualites.json" else [(t.get("declaration") or {}).get("source")] + [p.get("source") for p in t.get("propositions") or []]
+                if any(not str(u or "").startswith("https://") for u in sources):
+                    erreurs.append(f"{nom}, fiche {i + 1} : chaque information doit avoir une source en https")
+        if nom == "articles.json":
+            for i, t in enumerate(contenu or []):
+                if isinstance(t, dict) and t.get("publie"):
+                    for champ in ("code", "article", "explication", "auteur", "verif"):
+                        if not t.get(champ):
+                            erreurs.append(f"articles.json, fiche {i + 1} : le champ « {champ} » est vide")
+                    if t.get("auteur") and t.get("auteur") == t.get("verif"):
+                        erreurs.append(f"articles.json, fiche {i + 1} : l'auteur et le vérificateur doivent être deux personnes différentes")
+        if nom == "lois.json":
+            # Une fiche de loi = un fichier site/contenu/fiches/<dossier>.json (lu par le site seulement quand on ouvre la loi).
+            # lois.json peut encore contenir des fiches complètes : les deux sont vérifiées avec les mêmes règles.
+            entrees = [(f"lois.json, fiche {i + 1}", t) for i, t in enumerate(contenu or [])]
+            rep = os.path.join(dossier, "fiches")
+            for fn in sorted(os.listdir(rep)) if os.path.isdir(rep) else []:
+                if not fn.endswith(".json"):
+                    continue
+                try:
+                    t = json.load(open(os.path.join(rep, fn), encoding="utf-8"))
+                except json.JSONDecodeError as e:
+                    erreurs.append(f"fiches/{fn}, ligne {e.lineno}, colonne {e.colno} : {e.msg} (virgule, guillemet ou crochet manquant ?)")
+                    continue
+                if not isinstance(t, dict) or t.get("dossier") != fn[:-5]:
+                    erreurs.append(f"fiches/{fn} : le champ « dossier » doit être identique au nom du fichier ({fn[:-5]})")
+                    continue
+                entrees.append((f"fiches/{fn}", t))
+            FICHES_INDEX["publies"] = sorted({t["dossier"] for _, t in entrees if isinstance(t, dict) and t.get("publie") and t.get("dossier")})
+            FICHES_INDEX["brouillons"] = sorted({t["dossier"] for _, t in entrees if isinstance(t, dict) and not t.get("publie") and t.get("dossier")} - set(FICHES_INDEX["publies"]))
+            for lieu, t in entrees:
+                if isinstance(t, dict) and t.get("publie"):
+                    for champ in ("titre_officiel", "phrase", "auteur"):
+                        if not t.get(champ):
+                            erreurs.append(f"{lieu} : le champ « {champ} » est vide")
+                    if t.get("auteur") and t.get("auteur") == t.get("verif"):
+                        erreurs.append(f"{lieu} : l'auteur et le vérificateur doivent être deux personnes différentes")
+                    A = t.get("arguments") or {}
+                    if not t.get("sources"):
+                        erreurs.append(f"{lieu} : une fiche publiée cite au moins une source")
+                    if A and (not A.get("pour") or not A.get("contre")) and not A.get("consensus"):
+                        erreurs.append(f"{lieu} : les arguments doivent présenter les deux côtés (« pour » et « contre »)")
+                    for cote in ("pour", "contre"):
+                        for a in A.get(cote) or []:
+                            if not isinstance(a, dict) or not a.get("qui") or not a.get("arg"):
+                                erreurs.append(f"{lieu} : chaque argument « {cote} » doit dire qui le défend (qui) et ce qu'il dit (arg)")
+                            elif a.get("source") and not str(a["source"]).startswith("https://"):
+                                erreurs.append(f"{lieu} : la source d'un argument doit commencer par https://")
+                    for x in t.get("sources") or []:
+                        if not isinstance(x, dict) or not str(x.get("url", "")).startswith("https://"):
+                            erreurs.append(f"{lieu} : chaque source doit avoir une adresse en https")
+                    for r in t.get("change") or []:
+                        if not isinstance(r, list) or len(r) not in (3, 4):
+                            erreurs.append(f"{lieu} : chaque ligne de « change » a 3 cases (avant, après, qui) ou 4 (plus : à partir de quand)")
+                    if len(t.get("resume") or []) > 5:
+                        erreurs.append(f"{lieu} : le résumé tient en 5 phrases au plus")
+                    E = t.get("essentiel") or {}
+                    if E:
+                        if not (2 <= len(E.get("points") or []) <= 4):
+                            erreurs.append(f"{lieu} : « essentiel » a de 2 à 4 points")
+                        if not E.get("pour") or not E.get("contre"):
+                            erreurs.append(f"{lieu} : « essentiel » doit donner une ligne « pour » et une ligne « contre »")
+                        for x in list(E.get("points") or []) + [E.get("pour", ""), E.get("contre", "")]:
+                            if len(str(x).split()) > 30:
+                                erreurs.append(f"{lieu} : une ligne de « essentiel » dépasse 30 mots : {str(x)[:40]}…")
+                    C = t.get("court") or {}
+                    if C:
+                        if len(C.get("resume") or []) > 3:
+                            erreurs.append(f"{lieu} : le résumé « court » tient en 3 phrases au plus")
+                        if len(C.get("change") or []) > 5 or any(not isinstance(r, list) or len(r) != 3 for r in C.get("change") or []):
+                            erreurs.append(f"{lieu} : « court.change » a 5 lignes au plus, de 3 cases")
+                        if (not C.get("pour") or not C.get("contre") or len(C["pour"]) != len(C["contre"])) and not A.get("consensus"):
+                            erreurs.append(f"{lieu} : « court » doit présenter autant d'arguments « pour » que « contre »")
+                        for cote in ("pour", "contre"):
+                            for a in C.get(cote) or []:
+                                if not isinstance(a, dict) or not a.get("qui") or not a.get("arg"):
+                                    erreurs.append(f"{lieu} : chaque argument « court.{cote} » a un « qui » et un « arg »")
+                                elif a.get("source") and not str(a["source"]).startswith("https://"):
+                                    erreurs.append(f"{lieu} : la source d'un argument court doit commencer par https://")
+    if erreurs:
+        print("\nERREURS DANS LES CONTENUS (le site en ligne n'est pas modifié) :")
+        for x in erreurs:
+            print("  - " + x)
+        sys.exit(1)
+    # index des fiches de loi (quelques Ko) : le site sait quelles lois ont une fiche sans les télécharger toutes
+    with open(os.path.join(dossier, "fiches.json"), "w", encoding="utf-8") as f:
+        json.dump(FICHES_INDEX, f, ensure_ascii=False, separators=(",", ":"))
+    print("Contenus éditoriaux vérifiés.")
+
+# Caractères gardés dans les polices allégées : latin, accents, œ, ponctuation française (’ « » … espaces fines), €, flèches
+UNICODES_POLICES = "U+0000-017F,U+0192,U+02C6-02DC,U+0300-0328,U+2000-206F,U+20AC,U+2122,U+2190-2193,U+2212,U+2713,U+2715,U+25B2-25BC"
+
+def polices():
+    dossier = os.path.join(SITE, "fonts")
+    os.makedirs(dossier, exist_ok=True)
+    for nom, url in POLICES.items():
+        chemin = os.path.join(dossier, nom)
+        if not os.path.exists(chemin) and not os.environ.get("RELEVE_LOCAL"):
+            data = telecharger(url, False)
+            if data:
+                open(chemin, "wb").write(data)
+        # version WOFF2 allégée (5 à 10 fois plus légère) ; le site retombe sur le TTF si elle manque
+        leger = chemin[:-4] + ".woff2"
+        if os.path.exists(chemin) and not os.path.exists(leger):
+            try:
+                try:
+                    from fontTools import subset
+                    import brotli  # noqa: F401
+                except ImportError:
+                    import subprocess
+                    subprocess.run([sys.executable, "-m", "pip", "install", "--quiet", "fonttools", "brotli"], check=True)
+                    from fontTools import subset
+                opts = subset.Options()
+                opts.flavor, opts.layout_features = "woff2", ["*"]
+                f = subset.load_font(chemin, opts)
+                sub = subset.Subsetter(opts)
+                sub.populate(unicodes=subset.parse_unicodes(UNICODES_POLICES))
+                sub.subset(f)
+                subset.save_font(f, leger, opts)
+                print(f"Police allégée : {os.path.basename(leger)} ({os.path.getsize(leger) // 1024} Ko)")
+            except Exception as e:
+                print(f"Police {nom} : version allégée impossible ({e}), le TTF reste utilisé")
+
+def demarrage(graines_info=None):
+    """demarrage.json : l'index et tous les contenus en un seul fichier, que la page demande dès son ouverture
+    (un seul aller-retour au lieu de neuf). Les fichiers séparés restent publiés et servent de secours.
+    Il porte aussi le tronc commun des graines (groupes, périodes, médianes), partagé par toutes les pages rapides."""
+    try:
+        d = {"index": json.load(open(os.path.join(SITE, "index.json"), encoding="utf-8")), "contenu": {}}
+        if graines_info:
+            d["graines"] = graines_info
+        for nom in ("lois", "corrections", "site", "articles", "candidats", "actualites", "programmes", "fiches"):
+            d["contenu"][nom] = json.load(open(os.path.join(SITE, "contenu", nom + ".json"), encoding="utf-8"))
+        try:
+            d["actualites"] = json.load(open(os.path.join(SITE, "actualites-officielles.json"), encoding="utf-8"))
+        except Exception:
+            d["actualites"] = []
+        with open(os.path.join(SITE, "demarrage.json"), "w", encoding="utf-8") as f:
+            json.dump(d, f, ensure_ascii=False, separators=(",", ":"))
+    except Exception as e:
+        bilan_maj.noter("warning", "Démarrage", f"demarrage.json non écrit ({e}) : la page lit les fichiers un par un")
+
+def estampiller():
+    """index.html charge app.js?v=<empreinte> : après chaque modification, les navigateurs prennent la nouvelle version."""
+    import hashlib
+    app, idx = os.path.join(SITE, "app.js"), os.path.join(SITE, "index.html")
+    if os.path.exists(app) and os.path.exists(idx):
+        v = hashlib.sha256(open(app, "rb").read()).hexdigest()[:10]
+        s = open(idx, encoding="utf-8").read()
+        s = re.sub(r'app\.js\?v=[^"]*"', f'app.js?v={v}"', s)
+        s = re.sub(r'href="accueil-\d+\.json"', f'href="accueil-{LEGISLATURES[0]["leg"]}.json"', s)   # fichier léger préchargé
+        open(idx, "w", encoding="utf-8").write(s)
+
+def main():
+    verifier_contenus()
+    estampiller()
+    polices()
+    acteurs, organes = charger_annuaire()
+    aujourd_hui = datetime.date.today().isoformat()
+    legs = {L["leg"] for L in LEGISLATURES}
+    ids = {uid for uid, a in acteurs.items() if any(txt(m.get("typeOrgane")) == "ASSEMBLEE" and txt(m.get("legislature")) in legs for m in a["mandats"])}
+    credits = photos_libres(ids)
+    index = []
+    for L in LEGISLATURES:
+        r = construire_legislature(L, acteurs, organes, aujourd_hui, credits)
+        if r:
+            index.append(r)
+    with open(os.path.join(SITE, "index.json"), "w", encoding="utf-8") as f:
+        json.dump({"maj": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ"), "legislatures": index}, f, ensure_ascii=False)
+    try:
+        actualites_officielles()
+    except Exception as e:
+        print(f"Actualités officielles : collecte interrompue ({e})")
+    # Ordre du jour à venir de l'Assemblée (prochaines séances, votes solennels annoncés) : facultatif
+    if not os.environ.get("RELEVE_LOCAL") or os.environ.get("RELEVE_AGENDA_LOCAL"):
+        try:
+            sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+            import agenda
+            tel = (lambda url, requis=True: open(os.environ["RELEVE_AGENDA_LOCAL"], "rb").read()) if os.environ.get("RELEVE_AGENDA_LOCAL") else telecharger
+            nb, votes = agenda.construire_agenda(SITE, tel, LEGISLATURES[0]["leg"])
+            os.makedirs(os.path.join(RACINE, "cache"), exist_ok=True)
+            open(os.path.join(RACINE, "cache", "agenda.json"), "wb").write(open(os.path.join(SITE, "agenda.json"), "rb").read())
+            bilan = f"{nb} séances à venir, dont {votes} votes solennels annoncés"
+            print("Agenda : " + bilan)
+            bilan_maj.noter("notice", "Agenda", bilan)
+        except Exception as e:
+            copie = os.path.join(RACINE, "cache", "agenda.json")
+            if os.path.exists(copie):
+                open(os.path.join(SITE, "agenda.json"), "wb").write(open(copie, "rb").read())   # les séances déjà passées sont masquées par le site
+            print(f"Agenda : lecture interrompue ({e}) ; {'dernière version connue republiée' if os.path.exists(copie) else 'rubrique vide jusqu’au prochain passage'}")
+            bilan_maj.noter("warning", "Agenda", str(e))
+    # Fichier léger de l'accueil (derniers votes, groupes, quelques textes) : facultatif, le site sait s'en passer
+    try:
+        import accueil
+        courante = next((x for x in index if x["leg"] == LEGISLATURES[0]["leg"]), None)
+        if courante:
+            nom_a, nb_s, nb_l, poids = accueil.ecrire_accueil(SITE, courante)
+            ix = json.load(open(os.path.join(SITE, "index.json"), encoding="utf-8"))
+            for x in ix["legislatures"]:
+                if x["leg"] == courante["leg"]:
+                    x["accueil"] = nom_a
+            with open(os.path.join(SITE, "index.json"), "w", encoding="utf-8") as f:
+                json.dump(ix, f, ensure_ascii=False)
+            bilan_maj.noter("notice", "Accueil", f"fichier léger écrit ({nb_s} votes récents, {nb_l} textes, {poids // 1024} Ko)")
+    except Exception as e:
+        bilan_maj.noter("warning", "Accueil", f"fichier léger non écrit ({e}) : l'accueil charge les données complètes")
+    # Graines : un petit fichier par page (fiche d'un député, vote, loi, listes) pour les liens ouverts directement
+    graines_info = None
+    try:
+        import graines
+        courante = next((x for x in index if x["leg"] == LEGISLATURES[0]["leg"]), None)
+        if courante:
+            graines_info, gb = graines.ecrire_graines(SITE, courante)
+            bilan_maj.noter("notice", "Pages rapides", f"{gb['fichiers']} petits fichiers écrits ({gb['octets'] // 1048576} Mo)")
+    except Exception as e:
+        graines_info = None
+        bilan_maj.noter("warning", "Pages rapides", f"non écrites ({e}) : les pages ouvertes directement chargent les données complètes")
+    demarrage(graines_info)
+    # Communes et circonscriptions (trouver son député avec son code postal) : facultatif, ne bloque jamais le site
+    if not os.environ.get("RELEVE_LOCAL") or os.environ.get("RELEVE_COMMUNES_LOCAL"):
+        try:
+            sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+            import communes
+            communes.construire_communes(SITE, os.environ.get("RELEVE_COMMUNES_LOCAL") or os.path.join(RACINE, "cache", "communes"))
+            bilan_maj.noter("notice", "Communes", "table des communes et circonscriptions à jour")
+        except Exception as e:
+            print(f"Communes : construction interrompue ({e}) ; la recherche par département reste disponible")
+            bilan_maj.noter("warning", "Communes", str(e))
+    # Codes consolidés (Constitution, Code civil…) : facultatif, ne bloque jamais le reste du site
+    if not os.environ.get("RELEVE_LOCAL") or os.environ.get("RELEVE_LEGI_LOCAL"):
+        try:
+            sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+            import codes
+            codes.construire_codes(SITE, os.path.join(RACINE, "cache"))
+        except Exception as e:
+            print(f"Codes : collecte interrompue ({e}) ; le reste du site est publié normalement")
+    # Exposé des motifs des textes déposés (ce que propose un texte et pourquoi) : facultatif, ne bloque jamais le site
+    if not os.environ.get("RELEVE_LOCAL") or os.environ.get("RELEVE_TEXTES_LOCAL"):
+        try:
+            sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+            import textes
+            par_leg = {}
+            for x in index:
+                try:
+                    dl = json.load(open(os.path.join(SITE, x["fichier"]), encoding="utf-8"))
+                except Exception:
+                    continue
+                par_leg[x["leg"]] = [(l["id"], l.get("tx"), (l.get("prom") or {}).get("date") or (l["etapes"][-1][2] if l.get("etapes") else ""))
+                                     for l in dl.get("lois", [])]   # toutes : un fichier par loi, même sans texte
+            ecrits, nouveaux, echecs, absents = textes.construire_textes(SITE, os.path.join(RACINE, "cache", "textes"), par_leg)
+            bilan = f"{ecrits} textes expliqués ({nouveaux} nouveaux lus sur le site de l'Assemblée, {absents} pas encore en ligne, {echecs} échecs)"
+            print("Textes : " + bilan)
+            bilan_maj.noter("warning" if echecs and not nouveaux else "notice", "Textes", bilan)
+        except Exception as e:
+            print(f"Textes : lecture interrompue ({e}) ; le reste du site est publié normalement")
+    # Pages publiques (moteurs de recherche), plan du site, flux RSS : facultatif, ne bloque jamais le site
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import pages
+        pages.generer(SITE)
+    except Exception as e:
+        print(f"Pages publiques : génération interrompue ({e}) ; le site est publié normalement")
+    bilan_maj.noter("notice", "Votes", ", ".join(f"{x['label']} : {x['nb']} scrutins" for x in index[:1]) + f" ; données au {datetime.date.today().strftime('%d/%m/%Y')}")
+    bilan_maj.ecrire()
+    print("\nTerminé : " + ", ".join(f"{x['label']} ({x['nb']} scrutins)" for x in index))
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,91 @@
+{
+  "publie": false,
+  "dossier": "Identifiant du dossier officiel (DLR5L17N…), visible dans l'adresse de la fiche loi sur le site",
+  "titre_officiel": "Titre du dossier, tel qu'affiché sur la fiche loi",
+  "phrase": "Affichée à tous les niveaux : ce que le texte change, pour qui, en 25 mots maximum.",
+  "note": "Facultatif : de quelle version du texte parle la fiche (déposée, adoptée…).",
+  "essentiel": {
+    "points": [
+      "Niveau Essentiel : 2 à 4 lignes, 30 mots au plus chacune. Le but du texte, puis ce qui change concrètement."
+    ],
+    "pour": "Qui soutient le texte : son argument principal, en une phrase.",
+    "contre": "Qui s'y oppose : son argument principal, en une phrase."
+  },
+  "court": {
+    "resume": [
+      "Niveau Comprendre : 3 phrases au plus, sans jargon. Un terme technique est expliqué entre parenthèses."
+    ],
+    "change": [
+      [
+        "Avant",
+        "Après",
+        "Qui est concerné"
+      ]
+    ],
+    "pour": [
+      {
+        "qui": "Qui défend cet argument",
+        "arg": "L'argument, en version courte",
+        "source": "https://…"
+      }
+    ],
+    "contre": [
+      {
+        "qui": "Qui défend cet argument",
+        "arg": "L'argument, en version courte",
+        "source": "https://…"
+      }
+    ]
+  },
+  "resume": [
+    "Niveau Expert : 3 à 5 phrases, le résumé complet."
+  ],
+  "pourquoi": [
+    "Niveau Expert : le problème ou le contexte qui a motivé le dépôt du texte."
+  ],
+  "change": [
+    [
+      "Avant",
+      "Après",
+      "Qui est concerné",
+      "À partir de quand (facultatif)"
+    ]
+  ],
+  "pasfait": [
+    "Une idée reçue que le texte ne réalise pas."
+  ],
+  "arguments": {
+    "pour": [
+      {
+        "qui": "Qui défend cet argument",
+        "arg": "L'argument, tel que son auteur le présente",
+        "source": "https://…"
+      }
+    ],
+    "contre": [
+      {
+        "qui": "Qui défend cet argument",
+        "arg": "L'argument, tel que son auteur le présente",
+        "source": "https://…"
+      }
+    ]
+  },
+  "details": [
+    {
+      "titre": "Niveau Expert : un thème",
+      "texte": "Les chiffres et le détail des mesures"
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Nom de la source (Légifrance, Assemblée nationale, Sénat, LCP, Public Sénat…)",
+      "url": "https://…"
+    }
+  ],
+  "auteur": "Prénom Nom",
+  "verif": "Prénom Nom (une autre personne)",
+  "version": {
+    "n": 1,
+    "date": "AAAA-MM-JJ"
+  }
+}
