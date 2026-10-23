@@ -4,6 +4,9 @@ plan du site, robots.txt et flux RSS. Un seul interrupteur, "public" dans conten
 l'indexation ; tant qu'il vaut false, chaque page porte noindex et robots.txt interdit l'exploration."""
 import datetime, html, json, os, re, statistics, unicodedata
 from email.utils import format_datetime
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from fonds import theme_fiche, generer_fonds, images_fiches, charger_fiches, charger_themes
 
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"]
 ESC = lambda s: html.escape(str(s if s is not None else ""), quote=True)
@@ -84,22 +87,25 @@ class Generateur:
         # compteur de visites (GoatCounter) : rien n'est chargé depuis un autre site, statique.js envoie un seul appel
         self.audience = (f'<meta name="av-mesure" content="https://{gc}.goatcounter.com/count">'
                          if re.fullmatch(r"[a-z0-9][a-z0-9-]{1,40}", gc) else "")
-        self.urls = {"deputes": [], "votes": [], "lois": [], "codes": []}
+        self.urls = {"deputes": [], "votes": [], "lois": [], "codes": [], "fonds": []}
         self.deputes_faits = set()   # un député élu sous plusieurs législatures garde la page de la plus récente
         self.aujourdhui = datetime.date.today().isoformat()
+        self.images = {}      # image de partage propre à chaque fiche (dossier -> chemin), si Pillow est disponible
+        self.themes = None    # thèmes (voir fonds.py)
 
-    def page(self, chemin, titre, description, corps, canonique=True, rss=None, jsonld=None, og_type="website"):
+    def page(self, chemin, titre, description, corps, canonique=True, rss=None, jsonld=None, og_type="website", image=None):
         robots = "" if self.public else '<meta name="robots" content="noindex, nofollow">\n'
         ld = "".join('<script type="application/ld+json">' + json.dumps(x, ensure_ascii=False).replace("</", "<\\/") + "</script>\n" for x in (jsonld or []))
         alt = f'<link rel="alternate" type="application/rss+xml" title="{ESC(rss[1])}" href="{ESC(rss[0])}">\n' if rss else ""
         doc = f"""<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{ESC(titre)} | Aux Voix</title><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" href="/favicon.ico" sizes="48x48">{self.audience}<meta name="description" content="{ESC(description[:300])}">
-<meta property="og:type" content="{og_type}"><meta property="og:site_name" content="Aux Voix"><meta property="og:locale" content="fr_FR"><meta property="og:title" content="{ESC(titre)}"><meta property="og:description" content="{ESC(description[:200])}"><meta property="og:url" content="{ESC(self.url + chemin)}"><meta property="og:image" content="{ESC(self.url)}/icones/partage.png"><meta name="twitter:card" content="summary_large_image">
+<meta property="og:type" content="{og_type}"><meta property="og:site_name" content="Aux Voix"><meta property="og:locale" content="fr_FR"><meta property="og:title" content="{ESC(titre)}"><meta property="og:description" content="{ESC(description[:200])}"><meta property="og:url" content="{ESC(self.url + chemin)}"><meta property="og:image" content="{ESC(self.url)}{ESC(image or "/icones/partage.png")}"><meta name="twitter:card" content="summary_large_image">
 {robots}<link rel="canonical" href="{ESC(self.url + chemin)}">{alt}{ld}<link rel="stylesheet" href="/statique.css"></head><body>
 {'' if self.public else '<aside class="beta" aria-label="État du site"><div class="w">Version bêta du site.</div></aside>'}
 <header><div class="w"><a class="logo" href="/" aria-label="Aux Voix, accueil"><svg class="emb" viewBox="0 2 120 64" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"><path d="M43.0 60.0 A17 17 0 0 1 50.0 46.2"/><path d="M53.1 44.5 A17 17 0 0 1 66.9 44.5"/><path d="M70.0 46.2 A17 17 0 0 1 77.0 60.0"/><path d="M32.0 60.0 A28 28 0 0 1 43.5 37.3"/><path d="M48.6 34.4 A28 28 0 0 1 71.4 34.4"/><path d="M76.5 37.3 A28 28 0 0 1 88.0 60.0"/><path d="M21.0 60.0 A39 39 0 0 1 37.1 28.4"/><path d="M44.1 24.4 A39 39 0 0 1 75.9 24.4"/><path d="M82.9 28.4 A39 39 0 0 1 99.0 60.0"/><path d="M10.0 60.0 A50 50 0 0 1 30.6 19.5"/><path d="M39.7 14.3 A50 50 0 0 1 80.3 14.3"/><path d="M89.4 19.5 A50 50 0 0 1 110.0 60.0"/></g></svg><span><span class="wm1">Aux </span><span class="wm2">Voix</span></span></a><nav aria-label="Rubriques"><a href="/#/presidentielle">Présidentielle 2027</a><a href="/#/actualites">Actualités</a><a href="/#/lois">Lois</a><a href="/#/votes">Votes</a><a href="/#/elus">Députés</a><a href="/#/codes">Codes</a></nav></div></header>
 <main id="main"><div class="w">{corps}</div></main>
 <footer><div class="w"><p>Données officielles de l'Assemblée nationale et de la DILA (Légifrance), sous Licence Ouverte, mises à jour le {fd(self.aujourdhui)}.</p>
+<p><a href="/comprendre/comment-une-loi-est-votee/">Comment une loi est votée</a><a href="/lois-par-theme/">Lois par thème</a><a href="/lexique/">Lexique</a><a href="/comprendre/article-49-3/">Le 49.3</a></p>
 <p><a href="/#/methode/sources">Sources</a><a href="/#/methode/mentions">Mentions légales</a><a href="/#/methode/accessibilite">Accessibilité</a><a href="/flux/">Flux de suivi</a></p></div></footer>
 <script src="/statique.js" defer></script></body></html>"""
         doc = doc.replace("<table>", '<div class="tw"><table>').replace("</table>", "</table></div>")
@@ -293,7 +299,9 @@ class Generateur:
                              + "<h3>Quiz</h3><ol>" + "".join(f"<li><p><strong>{ESC(q['q'])}</strong></p><ul class='l'>" + "".join(f"<li>{ESC(c)}</li>" for c in q.get("choix") or []) + f"</ul><details><summary>Voir la réponse</summary><p><strong>Réponse : {'ABC'[q['bonne']]}.</strong> {ESC(q.get('expl', ''))}</p></details></li>" for q in K.get("quiz") or [] if isinstance(q, dict) and q.get("bonne") in (0, 1, 2)) + "</ol>"
                              + (f"<h3>Question de débat</h3><p><strong>{ESC(K['debat']['question'])}</strong></p><p>{ESC(K['debat'].get('consigne', ''))}</p>" if (K.get("debat") or {}).get("question") else "")) if isinstance(K, dict) else "")(f.get("classe"))
                          + ("<h2>Sources de cette fiche</h2><ul class='l'>" + "".join(f"<li><a href=\"{ESC(x['url'])}\">{ESC(x.get('titre') or x['url'])}</a></li>" for x in f.get("sources") or [] if isinstance(x, dict) and str(x.get("url", "")).startswith("https://")) + "</ul>" if f.get("sources") else ""))
-            corps = f"""<p class="fil"><a href="/#/lois">Lois</a>, {ESC(d['label'])}</p><h1>{ESC(titre)}</h1><p class="lede">{ESC(statut)}.</p>{fiche}
+            th_slug, th_lib = (theme_fiche(l["id"], l["titre"], self.themes) if f and self.themes else (None, None))
+            lien_th = f', <a href="/theme/{th_slug}/">{ESC(th_lib)}</a>' if th_slug else ""
+            corps = f"""<p class="fil"><a href="/#/lois">Lois</a>, {ESC(d['label'])}{lien_th}</p><h1>{ESC(titre)}</h1><p class="lede">{ESC(statut)}.</p>{fiche}
 <a class="cta" href="/#/loi/{ESC(l['id'])}">Voir le parcours et les votes</a>{f'<a class="cta s" href="{ESC(prom["url"])}">Texte sur Légifrance</a>' if prom and prom.get("url") else ''}
 {expo}
 {f'<h2>Son parcours</h2><table><thead><tr><th>Date</th><th>Étape</th><th>Résultat</th></tr></thead><tbody>{etapes}</tbody></table>' if etapes else ''}
@@ -304,7 +312,7 @@ class Generateur:
                 d_seo = f"{f.get('phrase', '').strip()} Explication simple, arguments de chaque camp, parcours et votes ; sources officielles. {statut}."
                 dv = (f.get("version") or {}).get("date")
                 ld = [{"@context": "https://schema.org", "@type": "Article", "headline": titre[:110], "description": f.get("phrase", ""),
-                       "inLanguage": "fr", "mainEntityOfPage": self.url + chemin, "image": self.url + "/icones/partage.png",
+                       "inLanguage": "fr", "mainEntityOfPage": self.url + chemin, "image": self.url + self.images.get(l["id"], "/icones/partage.png"),
                        "author": {"@type": "Organization", "name": "Aux Voix", "url": self.url},
                        "publisher": {"@type": "Organization", "name": "Aux Voix", "url": self.url, "logo": {"@type": "ImageObject", "url": self.url + "/icones/partage.png"}},
                        "about": {"@type": "Legislation", "name": titre, "legislationType": l.get("proc") or "Texte de loi"},
@@ -313,7 +321,7 @@ class Generateur:
                           {"@type": "ListItem", "position": 1, "name": "Aux Voix", "item": self.url + "/"},
                           {"@type": "ListItem", "position": 2, "name": "Lois", "item": self.url + "/#/lois"},
                           {"@type": "ListItem", "position": 3, "name": titre[:110], "item": self.url + chemin}]}]
-                self.page(chemin, t_seo, d_seo, corps, jsonld=ld, og_type="article")
+                self.page(chemin, t_seo, d_seo, corps, jsonld=ld, og_type="article", image=self.images.get(l["id"]))
             else:
                 self.page(chemin, titre[:110], f"{titre[:200]} : parcours au Parlement, votes et statut. {statut}.", corps)
             self.urls["lois"].append((chemin, (prom or {}).get("date") or (E[-1][2] if E else d["maj"][:10])))
@@ -508,6 +516,11 @@ def libelle_etape(e, E):
 def generer(site_dir):
     g = Generateur(site_dir)
     try:
+        g.themes = charger_themes(site_dir)
+        g.images = images_fiches(g, charger_fiches(site_dir))
+    except Exception as e:
+        print(f"Images de partage ignorées ({e})")
+    try:
         ix = json.load(open(os.path.join(site_dir, "index.json"), encoding="utf-8"))
     except Exception:
         ix = {"legislatures": []}
@@ -524,6 +537,10 @@ def generer(site_dir):
         except Exception as e:
             print(f"Pages : {L.get('label')} ignorée ({e})")
     g.codes()
+    try:
+        generer_fonds(g)
+    except Exception as e:
+        print(f"Pages de fond ignorées ({e})")
     g.finaliser()
 
 
