@@ -1,0 +1,212 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51175",
+ "titre_officiel": "Proposition de loi visant à soutenir les collectivités territoriales dans la prévention et la gestion des inondations",
+ "phrase": "Les collectivités pourront réaliser plus vite leurs travaux contre les inondations et seront mieux aidées après une crue, grâce à des procédures simplifiées.",
+ "note": "Loi promulguée le 19 mai 2026. Le texte venait du Sénat.",
+ "essentiel": {
+  "points": [
+   "Les inondations sont le premier risque naturel en France : plus de 18 millions de personnes vivent en zone exposée.",
+   "La loi simplifie les procédures pour entretenir les cours d'eau et construire des ouvrages de protection.",
+   "Les programmes locaux de prévention des inondations (Papi) sont inscrits dans la loi et accélérés.",
+   "Les communes touchées recevront un soutien technique et administratif après la crise."
+  ],
+  "pour": "Le centre, la droite et le RN : les collectivités doivent pouvoir agir vite face à des crues de plus en plus fréquentes.",
+  "contre": "LFI a voté contre, la gauche s'est surtout abstenue : on réduit les études et consultations sans financer davantage la prévention."
+ },
+ "court": {
+  "resume": [
+   "Les collectivités sont chargées de la prévention des inondations, mais leurs travaux passent par des procédures longues : études, enquêtes publiques, autorisations.",
+   "La loi simplifie ces procédures, consacre les programmes d'actions de prévention des inondations (Papi) dans le code de l'environnement et renforce l'aide aux communes après une catastrophe.",
+   "Elle a été votée par 56 voix contre 22 à l'Assemblée en deuxième lecture ; LFI s'y est opposée."
+  ],
+  "change": [
+   [
+    "Enquête publique souvent obligatoire pour les travaux sur les cours d'eau.",
+    "Nouveaux cas de dispense et dossiers allégés.",
+    "Collectivités, syndicats de rivière"
+   ],
+   [
+    "Papi sans base législative propre, longs à élaborer.",
+    "Papi inscrits dans la loi ; le préfet peut reconnaître à leurs projets un « intérêt public majeur ».",
+    "Territoires exposés"
+   ],
+   [
+    "—",
+    "Soutien technique et administratif renforcé aux communes après une inondation.",
+    "Communes sinistrées"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Jean-Pierre Taite (Droite républicaine)",
+    "arg": "Entre novembre 2023 et juin 2024, plus de la moitié des départements ont été touchés et treize personnes ont perdu la vie : il faut accélérer la prévention.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2526.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Mathilde Hignet (La France insoumise)",
+    "arg": "Limiter les études d'impact et les enquêtes publiques ne peut pas être « l'unique manière » d'accélérer, sans financement supplémentaire de la prévention.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2526.html"
+   }
+  ]
+ },
+ "resume": [
+  "Selon les débats, plus de 18 millions de personnes vivent ou travaillent en zone inondable, soit plus d'un quart de la population.",
+  "La loi simplifie le cadre juridique de l'entretien des cours d'eau et la « déclaration d'intérêt général » qui permet aux collectivités d'intervenir sur des terrains privés sans les exproprier.",
+  "Elle réduit la durée de consultation du public en situation d'urgence et crée de nouvelles dispenses d'enquête publique.",
+  "Elle inscrit les programmes d'actions de prévention des inondations (Papi) dans le code de l'environnement, allège leurs dossiers et facilite la prise de possession des terrains nécessaires aux ouvrages.",
+  "Elle renforce le soutien technique et administratif aux collectivités après une inondation et simplifie la révision des plans de prévention des risques."
+ ],
+ "pourquoi": [
+  "Selon le rapport, les procédures actuelles retardent des travaux pourtant urgents, alors que les crues se multiplient.",
+  "Les débats ont eu lieu juste après de nouvelles inondations dans l'Ouest de la France, en 2026."
+ ],
+ "change": [
+  [
+   "Procédures longues.",
+   "Dispenses d'enquête publique et consultation raccourcie en cas d'urgence.",
+   "Collectivités",
+   "Depuis la promulgation"
+  ],
+  [
+   "Papi définis par des circulaires.",
+   "Papi inscrits dans la loi, élaboration accélérée.",
+   "Collectivités, État",
+   "Depuis la promulgation"
+  ],
+  [
+   "—",
+   "Raison impérative d'intérêt public majeur reconnaissable par le préfet coordonnateur de bassin.",
+   "Projets de protection",
+   "Depuis la promulgation"
+  ]
+ ],
+ "pasfait": [
+  "Elle n'ajoute pas de financement national pour la prévention des inondations.",
+  "Elle ne traite pas l'indemnisation des sinistrés par les assurances."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Xavier Roseren (Horizons)",
+    "arg": "Le risque d'inondation est devenu le premier risque naturel, touchant plus d'un quart de la population.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2526.html"
+   },
+   {
+    "qui": "Constance de Pélichy (LIOT)",
+    "arg": "Un texte « majeur attendu par les collectivités territoriales ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2526.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Mathilde Hignet (La France insoumise)",
+    "arg": "Il faudrait d'abord traiter les causes : préserver les espaces naturels, renaturer, désimperméabiliser les sols, restaurer les berges.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2526.html"
+   },
+   {
+    "qui": "Mathilde Hignet (La France insoumise)",
+    "arg": "Le texte ne dit pas comment payer les heures supplémentaires des agents mobilisés ni soutenir les sinistrés : sa portée sera « limitée ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2526.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée, deuxième lecture : 56 pour, 22 contre (LFI), 11 abstentions (26 mars 2026, scrutin n° 5844). Sénat : adoption avec modifications le 6 mai 2026, puis promulgation le 19 mai."
+  },
+  {
+   "titre": "La déclaration d'intérêt général",
+   "texte": "Elle permet à une collectivité de réaliser des travaux d'intérêt général sur des cours d'eau non domaniaux sans transfert de propriété, contrairement à la déclaration d'utilité publique."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport d'Anne Bergantz, Assemblée nationale (n° 2526)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2526.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée nationale (n° 253)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0253.raw"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51175"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl24-226.html"
+  },
+  {
+   "titre": "Scrutin n° 5844 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/5844"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Papi",
+    "def": "Programme d'actions de prévention des inondations, mené localement."
+   },
+   {
+    "terme": "Crue",
+    "def": "Montée du niveau d'un cours d'eau, qui peut provoquer une inondation."
+   },
+   {
+    "terme": "Enquête publique",
+    "def": "Procédure où les habitants peuvent donner leur avis sur un projet."
+   },
+   {
+    "terme": "Collectivité territoriale",
+    "def": "Commune, département ou région."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de personnes vivent en zone exposée aux inondations, selon la fiche ?",
+    "choix": [
+     "Environ 180 000",
+     "Moins d'un million",
+     "Plus de 18 millions"
+    ],
+    "bonne": 2,
+    "expl": "Les inondations sont le premier risque naturel en France."
+   },
+   {
+    "q": "Que deviennent les Papi avec la loi ?",
+    "choix": [
+     "Ils sont inscrits dans la loi et accélérés",
+     "Ils sont supprimés",
+     "Ils sont réservés à Paris"
+    ],
+    "bonne": 0,
+    "expl": "Le préfet peut reconnaître à leurs projets un « intérêt public majeur »."
+   },
+   {
+    "q": "Comment LFI a-t-elle voté en deuxième lecture à l'Assemblée ?",
+    "choix": [
+     "Pour",
+     "Contre",
+     "Elle s'est abstenue"
+    ],
+    "bonne": 1,
+    "expl": "56 pour, 22 contre, 11 abstentions (26 mars 2026)."
+   }
+  ],
+  "debat": {
+   "question": "Pour mieux se protéger des inondations, faut-il surtout accélérer les travaux, ou d'abord traiter les causes (sols, espaces naturels) ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
+}

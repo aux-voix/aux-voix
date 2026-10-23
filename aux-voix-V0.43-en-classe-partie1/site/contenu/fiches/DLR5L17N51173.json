@@ -1,0 +1,215 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51173",
+ "titre_officiel": "Proposition de loi organique tendant à modifier le II de l’article 43 de la loi organique n° 2004-192 du 27 février 2004 portant statut d’autonomie de la Polynésie française",
+ "phrase": "Les communes de Polynésie française peuvent agir dans huit domaines, comme l'aide sociale ou l'urbanisme, sans attendre qu'une « loi du pays » les y autorise.",
+ "note": "Loi organique promulguée en janvier 2026, après une décision de conformité du Conseil constitutionnel.",
+ "essentiel": {
+  "points": [
+   "En Polynésie française, la plupart des compétences appartiennent au « Pays », la collectivité qui a son propre gouvernement et sa propre assemblée.",
+   "Pour agir dans huit domaines (aide sociale, urbanisme, culture, environnement…), les communes devaient attendre une « loi du pays » : seules quatre ont été adoptées en vingt ans.",
+   "Désormais, une commune peut agir par sa propre décision, après un délai d'au moins six mois, en respectant les règles du Pays."
+  ],
+  "pour": "RN, macronistes, droite, centristes et LIOT : les maires, souvent seule autorité publique dans les îles éloignées, doivent pouvoir agir.",
+  "contre": "LFI, socialistes, écologistes et communistes : le texte passe outre l'avis défavorable de l'Assemblée de la Polynésie française."
+ },
+ "court": {
+  "resume": [
+   "La Polynésie compte 48 communes sur un espace grand comme l'Europe ; le texte, déposé par deux sénateurs polynésiens, était soutenu par la quasi-totalité des maires, selon le rapport.",
+   "Il ne transfère pas de compétences : il permet aux communes de prendre des initiatives, que le Pays peut encadrer par une convention.",
+   "L'Assemblée de la Polynésie française avait rendu un avis défavorable ; la gauche y voit une atteinte à l'autonomie du territoire."
+  ],
+  "change": [
+   [
+    "Commune autorisée seulement après une loi du pays.",
+    "Commune qui décide elle-même, après au moins six mois.",
+    "48 communes polynésiennes"
+   ],
+   [
+    "—",
+    "Décision transmise au président du Pays, à son assemblée et au haut-commissaire.",
+    "Pays, État"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Moerani Frébault (Ensemble pour la République)",
+    "arg": "« Dans de nombreuses îles, la mairie est la seule autorité publique disponible. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2119.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Pouria Amirshahi (écologiste)",
+    "arg": "« Il faut avant tout prendre en considération la parole des premiers concernés » ; or l'Assemblée de la Polynésie n'a pas validé le texte.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2119.html"
+   }
+  ]
+ },
+ "resume": [
+  "Le statut de 2004 donne au Pays la compétence de droit commun ; les communes, souvent récentes, n'ont que des compétences précises (police municipale, écoles, eau, déchets…).",
+  "Dans huit matières (développement économique, aide sociale, urbanisme, culture, jeunesse et sport, environnement, logement, politique de la ville), elles ne pouvaient intervenir qu'après une loi du pays ; selon le rapport, seules quatre ont été adoptées en vingt ans.",
+  "Le texte supprime ce préalable : la commune ou l'intercommunalité délibère sur les actions qu'elle veut mener, dans le respect de la réglementation du Pays, et ne peut agir qu'après un délai d'au moins six mois.",
+  "Une convention peut préciser le rôle de chacun et les moyens mis à disposition ; le Sénat l'a rendue facultative.",
+  "Le texte a été déposé au Sénat par Lana Tetuanui et Teva Rohfritsch, sénateurs de la Polynésie française, et rapporté à l'Assemblée par Nicole Sanquer (LIOT)."
+ ],
+ "pourquoi": [
+  "Selon le rapport, les maires agissent déjà souvent sans base juridique claire, au risque d'engager leur responsabilité ; pendant l'épidémie de Covid-19, l'État et le Pays se sont appuyés sur eux pour l'aide alimentaire.",
+  "Avec environ 283 000 habitants dispersés sur près de 5 millions de km², l'État et le Pays ne peuvent pas être présents partout."
+ ],
+ "change": [
+  [
+   "Loi du pays préalable obligatoire.",
+   "Délibération de la commune et délai d'au moins six mois.",
+   "Communes et intercommunalités",
+   "Depuis janvier 2026"
+  ],
+  [
+   "—",
+   "Convention facultative entre le Pays et la commune.",
+   "Pays, communes",
+   "Depuis janvier 2026"
+  ]
+ ],
+ "pasfait": [
+  "Il ne transfère ni compétences ni moyens de façon automatique : les moyens éventuels sont fixés par convention.",
+  "Il ne change pas l'organisation générale des institutions de la Polynésie française."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Nicole Sanquer (LIOT), rapporteure",
+    "arg": "Depuis vingt-deux ans, cet article du statut « n'a jamais trouvé sa juste application ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2119.html"
+   },
+   {
+    "qui": "Yoann Gillet (RN)",
+    "arg": "Il faut lever un « verrou administratif devenu, avec le temps, un frein majeur à l'action publique ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2119.html"
+   },
+   {
+    "qui": "Éric Martineau (Les Démocrates)",
+    "arg": "Le texte « n'est pas une fiction parisienne » : il vient de Polynésie « et il est défendu par des élus polynésiens ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2119.html"
+   },
+   {
+    "qui": "Philippe Gosselin (Droite républicaine)",
+    "arg": "Une réforme « assez modeste en vérité », approuvée par 47 des 48 maires selon lui.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2119.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Bastien Lachaud (La France insoumise)",
+    "arg": "La Polynésie est inscrite par l'ONU sur la liste des territoires à décoloniser : « la décision appartient au pays et non pas à Paris ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2119.html"
+   },
+   {
+    "qui": "Marc Pena (socialiste)",
+    "arg": "L'Assemblée de la Polynésie prépare elle-même une loi du pays sur le sujet ; intervenir depuis Paris « revient donc à court-circuiter un processus démocratique local en cours ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2119.html"
+   },
+   {
+    "qui": "Pouria Amirshahi (écologiste)",
+    "arg": "La vraie question est : « qui décide » pour la Polynésie ? Les évolutions doivent respecter la volonté exprimée par les Polynésiens.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2119.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Sénat : adopté le 14 mai 2025. Assemblée : adopté sans modification le 10 décembre 2025, par 76 voix contre 32 (LFI, socialistes, écologistes et communistes contre)."
+  },
+  {
+   "titre": "Le Conseil constitutionnel",
+   "texte": "Saisi automatiquement, comme pour toute loi organique, il a déclaré le texte conforme à la Constitution le 30 décembre 2025 (décision n° 2025-898 DC)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Nicole Sanquer, Assemblée nationale (n° 2119)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2119.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 192)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0192.raw"
+  },
+  {
+   "titre": "Décision n° 2025-898 DC du Conseil constitutionnel",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2025/2025898DC.htm"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl24-223.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51173"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Polynésie française",
+    "def": "Collectivité française du Pacifique, avec son propre gouvernement et sa propre assemblée."
+   },
+   {
+    "terme": "Loi du pays",
+    "def": "Texte voté par l'assemblée de la Polynésie française."
+   },
+   {
+    "terme": "Commune",
+    "def": "Collectivité locale dirigée par un maire et un conseil municipal."
+   },
+   {
+    "terme": "Loi organique",
+    "def": "Loi qui précise l'organisation des pouvoirs publics ; le Conseil constitutionnel la contrôle toujours."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Que devaient attendre les communes de Polynésie pour agir dans huit domaines ?",
+    "choix": [
+     "Une loi du pays",
+     "Un référendum",
+     "Un décret du maire de Paris"
+    ],
+    "bonne": 0,
+    "expl": "Seules quatre lois du pays ont été adoptées en vingt ans."
+   },
+   {
+    "q": "Que peut désormais faire une commune ?",
+    "choix": [
+     "Agir par sa propre décision, après un délai d'au moins six mois",
+     "Voter ses propres lois sans limite",
+     "Fermer son conseil"
+    ],
+    "bonne": 0,
+    "expl": "En respectant les règles du Pays."
+   },
+   {
+    "q": "Pourquoi le Conseil constitutionnel a-t-il examiné ce texte ?",
+    "choix": [
+     "Il y avait un recours d'un maire",
+     "Parce qu'une loi organique est contrôlée automatiquement",
+     "Parce qu'il y avait une pétition"
+    ],
+    "bonne": 1,
+    "expl": "Décision du 30 décembre 2025 : conforme."
+   }
+  ],
+  "debat": {
+   "question": "Un maire d'une île éloignée doit-il pouvoir agir sans attendre une autorisation du Pays ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
+}

@@ -1,0 +1,239 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N50819",
+ "titre_officiel": "Proposition de loi visant à lever les contraintes à l’exercice du métier d’agriculteur",
+ "phrase": "La loi Duplomb assouplit des règles pour les agriculteurs (élevage, réserves d'eau, contrôles) ; la réautorisation d'un pesticide, l'acétamipride, a été censurée par le Conseil constitutionnel.",
+ "note": "Loi promulguée en août 2025, après une décision du Conseil constitutionnel qui en a censuré la mesure la plus contestée.",
+ "essentiel": {
+  "points": [
+   "Après la colère des agriculteurs de l'hiver 2024, deux sénateurs ont proposé d'alléger des contraintes pesant sur leur métier.",
+   "La mesure la plus débattue voulait réautoriser l'acétamipride, un insecticide interdit en France ; le Conseil constitutionnel l'a censurée.",
+   "Restent notamment des règles facilitant l'agrandissement des élevages et la création de réserves d'eau ; une pétition contre la loi a dépassé deux millions de signatures."
+  ],
+  "pour": "Droite, RN, la plupart des macronistes : rendre de la compétitivité aux agriculteurs face à une concurrence qui utilise ces produits.",
+  "contre": "Gauche et écologistes, une partie du centre : recul pour la santé, les abeilles et la gestion de l'eau."
+ },
+ "court": {
+  "resume": [
+   "Le texte a été proposé par les sénateurs Laurent Duplomb (Les Républicains) et Franck Menonville (centriste), et soutenu par la FNSEA et les Jeunes agriculteurs.",
+   "À l'Assemblée, face à plus de 3 400 amendements de la gauche, ses partisans ont voté une motion de rejet pour l'envoyer directement en commission mixte paritaire.",
+   "Une pétition « Non à la loi Duplomb » a réuni plus de deux millions de signatures et obtenu, une première, un débat dans l'hémicycle en février 2026."
+  ],
+  "change": [
+   [
+    "Acétamipride interdit.",
+    "Réautorisation prévue, mais censurée : l'interdiction reste en vigueur.",
+    "Agriculteurs, apiculteurs"
+   ],
+   [
+    "Réunions publiques pour certains projets d'élevage.",
+    "Remplacées par des permanences en mairie.",
+    "Éleveurs, riverains"
+   ],
+   [
+    "—",
+    "Réserves d'eau présumées d'intérêt général majeur, avec des réserves du Conseil constitutionnel.",
+    "Agriculteurs, défenseurs de l'environnement"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Annie Genevard, ministre de l'Agriculture",
+    "arg": "« Un grand pas pour la reconquête de notre souveraineté alimentaire. »",
+    "source": "https://www.terre-net.fr/assemblee-nationale/article/885105/le-parlement-adopte-la-loi-duplomb"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Delphine Batho (écologiste)",
+    "arg": "« Le gouvernement a perdu la bataille de l'opinion. Vous avez perdu les scientifiques, les malades des pesticides, les apiculteurs. »",
+    "source": "https://www.terre-net.fr/assemblee-nationale/article/885105/le-parlement-adopte-la-loi-duplomb"
+   }
+  ]
+ },
+ "resume": [
+  "Article 2 : réautorisation par décret, à titre dérogatoire, de néonicotinoïdes comme l'acétamipride ; le Conseil constitutionnel l'a censurée faute d'encadrement suffisant (toutes filières, sans limite de durée, y compris par pulvérisation).",
+  "Article 3 : des projets d'élevage soumis à autorisation remplacent les réunions publiques par deux permanences en mairie.",
+  "Article 5 : certains ouvrages de stockage d'eau sont présumés d'« intérêt général majeur » ; le Conseil constitutionnel a émis deux réserves, notamment pour les prélèvements dans certaines nappes, et la présomption peut être contestée au cas par cas.",
+  "Article 6 : les agents de l'Office français de la biodiversité peuvent porter des caméras individuelles ; leurs contrôles sont placés sous l'autorité du préfet et du procureur.",
+  "Le texte assouplit aussi les règles sur le conseil aux agriculteurs pour l'usage des pesticides ; l'article sur les vignes non cultivées a été censuré comme « cavalier législatif »."
+ ],
+ "pourquoi": [
+  "Selon ses partisans, les producteurs de betteraves ou de noisettes n'ont pas d'alternative contre certains ravageurs et subissent une concurrence déloyale : l'acétamipride est autorisé ailleurs en Europe jusqu'en 2033.",
+  "Selon le rapporteur Julien Dive (LR), la mesure sur l'acétamipride concernerait au maximum 1,7 % des surfaces agricoles."
+ ],
+ "change": [
+  [
+   "Réunions publiques d'ouverture et de clôture.",
+   "Permanences en mairie.",
+   "Projets d'élevage",
+   "Depuis août 2025"
+  ],
+  [
+   "—",
+   "Présomption d'intérêt général majeur pour certaines réserves d'eau.",
+   "Projets de stockage d'eau",
+   "Depuis août 2025"
+  ],
+  [
+   "—",
+   "Caméras individuelles pour les agents de l'OFB.",
+   "Agents de contrôle environnemental",
+   "Depuis août 2025"
+  ]
+ ],
+ "pasfait": [
+  "Il ne réautorise pas l'acétamipride : cette mesure a été censurée.",
+  "Il ne traite pas du revenu des agriculteurs, ce que lui reproche la Confédération paysanne."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "La FNSEA et les Jeunes agriculteurs",
+    "arg": "« Un premier pas pour relancer notre appareil de production agricole. »",
+    "source": "https://www.terre-net.fr/assemblee-nationale/article/885105/le-parlement-adopte-la-loi-duplomb"
+   },
+   {
+    "qui": "Pierre Cuypers (LR), rapporteur au Sénat",
+    "arg": "Pour les réserves d'eau, « il ne s'agit donc pas de privatiser l'eau, mais d'en sécuriser l'accès, sous certaines conditions ».",
+    "source": "https://www.maire-info.com/agriculture/le-parlement-adopte-definitivement-la-loi-duplomb-art26-29875"
+   },
+   {
+    "qui": "Hervé de Lépinau (RN)",
+    "arg": "« Une victoire, mais une victoire partielle » ; il faudra revoir plus largement les conditions d'exercice des agriculteurs.",
+    "source": "https://www.terre-net.fr/assemblee-nationale/article/885105/le-parlement-adopte-la-loi-duplomb"
+   },
+   {
+    "qui": "Éric Martineau (Les Démocrates)",
+    "arg": "La loi « n'est au final ni une caricature qu'on voudrait en faire d'un côté, ni une réponse miracle ».",
+    "source": "https://www.terre-net.fr/assemblee-nationale/article/885105/le-parlement-adopte-la-loi-duplomb"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Aurélie Trouvé (La France insoumise)",
+    "arg": "Le texte « légalise des pesticides mortifères, organise la privatisation des ressources en eau » : « un traité de soumission à l'agrochimie ».",
+    "source": "https://www.terre-net.fr/assemblee-nationale/article/885105/le-parlement-adopte-la-loi-duplomb"
+   },
+   {
+    "qui": "Mélanie Thomin (socialiste)",
+    "arg": "Un « recul majeur ».",
+    "source": "https://www.terre-net.fr/assemblee-nationale/article/885105/le-parlement-adopte-la-loi-duplomb"
+   },
+   {
+    "qui": "Les apiculteurs",
+    "arg": "Ils mettent en garde contre « un tueur d'abeilles ».",
+    "source": "https://www.terre-net.fr/assemblee-nationale/article/885105/le-parlement-adopte-la-loi-duplomb"
+   },
+   {
+    "qui": "Fanny Métrat, porte-parole de la Confédération paysanne",
+    "arg": "Le texte promeut « un modèle agro-industriel » alors que les agriculteurs demandaient « un revenu digne ».",
+    "source": "https://www.terre-net.fr/assemblee-nationale/article/885105/le-parlement-adopte-la-loi-duplomb"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Sénat : adopté le 27 janvier 2025. Assemblée : motion de rejet votée le 26 mai 2025 (274 voix contre 121). Accord en commission mixte paritaire ; texte adopté par le Sénat le 2 juillet et par l'Assemblée le 8 juillet 2025 (316 voix contre 223, 25 abstentions)."
+  },
+  {
+   "titre": "Le Conseil constitutionnel",
+   "texte": "Saisi par des députés et sénateurs de gauche, il a censuré le 7 août 2025 la réautorisation des néonicotinoïdes, au nom de la Charte de l'environnement, et l'article sur les vignes non cultivées ; il a validé le reste, avec des réserves sur les réserves d'eau."
+  },
+  {
+   "titre": "La pétition",
+   "texte": "La pétition « Non à la loi Duplomb », déposée sur le site de l'Assemblée, a recueilli plus de deux millions de signatures ; elle a donné lieu à un débat sans vote le 11 février 2026."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "« Le Parlement adopte la loi Duplomb », Terre-net (AFP)",
+   "url": "https://www.terre-net.fr/assemblee-nationale/article/885105/le-parlement-adopte-la-loi-duplomb"
+  },
+  {
+   "titre": "« Le Parlement adopte définitivement la loi Duplomb », Maire-info",
+   "url": "https://www.maire-info.com/agriculture/le-parlement-adopte-definitivement-la-loi-duplomb-art26-29875"
+  },
+  {
+   "titre": "« PPL Duplomb : le Conseil constitutionnel valide l'essentiel du texte, sauf la réintroduction de l'acétamipride », Réussir",
+   "url": "https://www.reussir.fr/ppl-duplomb-le-conseil-constitutionnel-valide-lessentiel-du-texte-sauf-la-reintroduction-de"
+  },
+  {
+   "titre": "« Loi Duplomb : ce qu'il faut savoir avant le débat provoqué par la pétition », LCP",
+   "url": "https://lcp.fr/actualites/loi-duplomb-ce-qu-il-faut-savoir-avant-le-debat-provoque-par-la-petition-contre-le-texte"
+  },
+  {
+   "titre": "Décision n° 2025-891 DC du Conseil constitutionnel",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2025/2025891DC.htm"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N50819"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Acétamipride",
+    "def": "Insecticide de la famille des néonicotinoïdes, interdit en France."
+   },
+   {
+    "terme": "Motion de rejet",
+    "def": "Vote qui permet à une assemblée d'écarter un texte sans en débattre en détail."
+   },
+   {
+    "terme": "Conseil constitutionnel",
+    "def": "Institution qui vérifie qu'une loi respecte la Constitution, dont la Charte de l'environnement."
+   },
+   {
+    "terme": "Pétition",
+    "def": "Texte signé par des citoyens pour demander quelque chose aux pouvoirs publics."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qu'a censuré le Conseil constitutionnel le 7 août 2025 ?",
+    "choix": [
+     "La réautorisation de l'acétamipride",
+     "La totalité de la loi",
+     "Les réserves d'eau"
+    ],
+    "bonne": 0,
+    "expl": "Il s'est appuyé sur la Charte de l'environnement."
+   },
+   {
+    "q": "Que sont devenues les réunions publiques pour certains projets d'élevage ?",
+    "choix": [
+     "Elles sont multipliées",
+     "Elles sont remplacées par des permanences en mairie",
+     "Elles sont supprimées sans remplacement"
+    ],
+    "bonne": 1,
+    "expl": "La loi facilite aussi l'agrandissement des élevages."
+   },
+   {
+    "q": "Combien de signatures a dépassé la pétition contre la loi ?",
+    "choix": [
+     "Cent mille",
+     "Un million",
+     "Plus de deux millions"
+    ],
+    "bonne": 2,
+    "expl": "Les partisans y voyaient « un premier pas » pour la production agricole."
+   }
+  ],
+  "debat": {
+   "question": "Comment concilier la compétitivité des agriculteurs et la protection de la santé et de l'environnement ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
+}

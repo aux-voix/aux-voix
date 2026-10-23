@@ -1,0 +1,232 @@
+{
+ "publie": true,
+ "dossier": "DLR5L16N49868",
+ "titre_officiel": "Projet de loi de simplification de la vie économique",
+ "phrase": "Une loi pour alléger des démarches d'entreprises et supprimer des instances ; la suppression des ZFE, votée par les députés, a été annulée par le Conseil constitutionnel.",
+ "note": "Loi promulguée le 26 mai 2026, après une décision du Conseil constitutionnel qui en a censuré plusieurs articles.",
+ "essentiel": {
+  "points": [
+   "La loi supprime une vingtaine d'instances consultatives et allège des formalités pour les entreprises.",
+   "Elle facilite les centres de données (datacenters) et l'accès des entreprises à la commande publique.",
+   "Les députés y avaient ajouté la suppression des zones à faibles émissions (ZFE) ; le Conseil constitutionnel l'a annulée, car sans lien avec le texte.",
+   "L'assouplissement de l'objectif de « zéro artificialisation nette » a aussi été censuré."
+  ],
+  "pour": "RN, droite et centre : moins de bureaucratie pour les entreprises ; la droite et le RN saluaient aussi la fin des ZFE.",
+  "contre": "La gauche et une partie des macronistes : des « régressions » pour l'environnement, et une suppression des ZFE contraire à la santé publique."
+ },
+ "court": {
+  "resume": [
+   "Lancé en 2024 par Bruno Le Maire, ce projet de loi voulait alléger des règles pesant sur les entreprises ; il a grossi au fil des débats jusqu'à dépasser cent articles.",
+   "Les députés y ont ajouté, contre l'avis du Gouvernement, la suppression des ZFE, qui interdisent les véhicules les plus polluants dans certaines villes, ainsi qu'un assouplissement de l'objectif de « zéro artificialisation nette ».",
+   "Saisi par la gauche et par 70 députés surtout macronistes, le Conseil constitutionnel a censuré ces deux mesures comme « cavaliers législatifs »."
+  ],
+  "change": [
+   [
+    "Nombreuses instances consultatives.",
+    "Une vingtaine supprimées ; selon l'accord entre députés et sénateurs, créer un conseil économique régional (Ceser) devient un choix de chaque région.",
+    "Administrations, régions"
+   ],
+   [
+    "Procédures longues pour certains grands projets.",
+    "Démarches facilitées pour les datacenters et certains projets d'envergure nationale.",
+    "Entreprises, territoires"
+   ],
+   [
+    "ZFE obligatoires dans certaines agglomérations.",
+    "Inchangé : leur suppression a été censurée.",
+    "Automobilistes des grandes villes"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Le groupe Droite républicaine",
+    "arg": "« Une grande victoire contre les ZFE, la bureaucratie administrative et l'écologie punitive », avant la censure de cette mesure.",
+    "source": "https://www.banquedesterritoires.fr/projet-de-loi-de-simplification-de-la-vie-economique-lassemblee-adopte-le-texte-avec-la-suppression"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Lisa Belluco (écologiste)",
+    "arg": "« Les sols, l'eau, l'air et l'ensemble de la biodiversité qui seront dégradés suite à l'adoption de ce texte le seront de manière irréversible. »",
+    "source": "https://www.banquedesterritoires.fr/projet-de-loi-de-simplification-de-la-vie-economique-lassemblee-adopte-le-texte-avec-la-suppression"
+   }
+  ]
+ },
+ "resume": [
+  "Déposé en 2024, interrompu par la dissolution et trois changements de Premier ministre, le projet de loi visait à « simplifier » la vie des entreprises et à supprimer des instances consultatives.",
+  "Il facilite notamment l'implantation de centres de données, l'accès des entreprises à la commande publique et le parcours juridique de certaines infrastructures, comme l'autoroute A69.",
+  "Les députés y ont ajouté en juin 2025, par des amendements RN et LR soutenus par LFI, la suppression des zones à faibles émissions (ZFE) ; le Gouvernement a tenté en vain un compromis laissant le choix aux collectivités.",
+  "Le texte a été adopté définitivement en avril 2026 : 275 voix contre 225 à l'Assemblée, 224 contre 100 au Sénat.",
+  "Le Conseil constitutionnel a censuré le 21 mai 2026 plusieurs « cavaliers législatifs », dont la suppression des ZFE et l'assouplissement du « zéro artificialisation nette »."
+ ],
+ "pourquoi": [
+  "Le Gouvernement présentait le texte comme une réponse aux normes et formalités jugées excessives par les entreprises, sans en faire « le grand soir » de la simplification.",
+  "La suppression des ZFE a été défendue par ceux qui jugent ces zones injustes pour les ménages modestes, qui ne peuvent pas changer de voiture."
+ ],
+ "change": [
+  [
+   "Instances consultatives nombreuses.",
+   "Suppression d'une vingtaine d'instances ; l'Afitf et le Hcéres sont conservés.",
+   "État",
+   "Depuis la promulgation"
+  ],
+  [
+   "—",
+   "Mesures facilitant les datacenters et l'accès des entreprises à la commande publique.",
+   "Entreprises",
+   "Depuis la promulgation"
+  ],
+  [
+   "ZFE prévues par la loi.",
+   "Maintenues : la suppression votée a été annulée par le Conseil constitutionnel.",
+   "Agglomérations concernées",
+   "—"
+  ],
+  [
+   "Objectif de « zéro artificialisation nette » en 2050.",
+   "Inchangé : l'assouplissement voté a été censuré.",
+   "Collectivités",
+   "—"
+  ]
+ ],
+ "pasfait": [
+  "Elle ne supprime pas les ZFE : cette mesure a été censurée, faute de lien avec le texte initial.",
+  "Elle ne modifie pas l'objectif « zéro artificialisation nette » : l'assouplissement a aussi été censuré."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Ian Boucard (Droite républicaine)",
+    "arg": "Il s'est félicité de la suppression d'« une vingtaine » d'instances consultatives.",
+    "source": "https://www.banquedesterritoires.fr/projet-de-loi-de-simplification-de-la-vie-economique-lassemblee-adopte-le-texte-avec-la-suppression"
+   },
+   {
+    "qui": "Marine Le Pen (RN)",
+    "arg": "« Quelle belle victoire pour les Français et la liberté », après le vote maintenant la suppression des ZFE.",
+    "source": "https://www.banquedesterritoires.fr/projet-de-loi-de-simplification-de-la-vie-economique-lassemblee-adopte-le-texte-avec-la-suppression"
+   },
+   {
+    "qui": "Pierre Meurin (RN)",
+    "arg": "Les ZFE sont un « dispositif séparatiste » qui prive les plus modestes d'accès aux grandes villes.",
+    "source": "https://www.banquedesterritoires.fr/projet-de-loi-de-simplification-de-la-vie-economique-lassemblee-adopte-le-texte-avec-la-suppression"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Emmanuel Maurel (GDR)",
+    "arg": "« Il y a des régressions qui sont alarmantes, sur l'artificialisation des sols, sur la biodiversité. »",
+    "source": "https://www.banquedesterritoires.fr/projet-de-loi-de-simplification-de-la-vie-economique-lassemblee-adopte-le-texte-avec-la-suppression"
+   },
+   {
+    "qui": "Mathieu Lefèvre, ministre délégué à la Transition écologique",
+    "arg": "Opposé à la suppression des ZFE : « Elles évitent des milliers de décès prématurés » et « ont prouvé leurs effets ».",
+    "source": "https://www.banquedesterritoires.fr/projet-de-loi-de-simplification-de-la-vie-economique-lassemblee-adopte-le-texte-avec-la-suppression"
+   },
+   {
+    "qui": "70 députés, surtout du camp gouvernemental, et la gauche",
+    "arg": "Ils ont saisi le Conseil constitutionnel, notamment contre la suppression des ZFE.",
+    "source": "https://lcp.fr/actualites/zfe-le-conseil-constitutionnel-censure-la-suppression-des-zones-a-faibles-emissions"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote par groupe (texte final, Assemblée)",
+   "texte": "Pour : RN, Droite républicaine, Démocrates, Horizons, UDR et une partie de LIOT. Contre : LFI, socialistes, écologistes, GDR. EPR divisé (25 pour, 30 contre, 19 abstentions). Scrutin n° 6184 du 14 avril 2026."
+  },
+  {
+   "titre": "La décision du Conseil constitutionnel",
+   "texte": "Décision n° 2026-903 DC du 21 mai 2026 : censure de plusieurs articles sans lien avec le texte initial (article 45 de la Constitution), dont la suppression des ZFE et l'assouplissement du ZAN."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Banque des territoires : le Parlement adopte le texte avec la suppression des ZFE, 15 avril 2026",
+   "url": "https://www.banquedesterritoires.fr/projet-de-loi-de-simplification-de-la-vie-economique-lassemblee-adopte-le-texte-avec-la-suppression"
+  },
+  {
+   "titre": "LCP : le Conseil constitutionnel censure la suppression des ZFE, 21 mai 2026",
+   "url": "https://lcp.fr/actualites/zfe-le-conseil-constitutionnel-censure-la-suppression-des-zones-a-faibles-emissions"
+  },
+  {
+   "titre": "Décision n° 2026-903 DC du Conseil constitutionnel",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026903DC.htm"
+  },
+  {
+   "titre": "Rapport de la commission mixte paritaire (n° 2357)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2357.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L16N49868"
+  },
+  {
+   "titre": "Scrutin n° 6184 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/6184"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Instance consultative",
+    "def": "Organisme chargé de donner des avis, sans pouvoir de décision."
+   },
+   {
+    "terme": "ZFE",
+    "def": "Zone à faibles émissions : zone où l'accès des véhicules les plus polluants est restreint."
+   },
+   {
+    "terme": "Zéro artificialisation nette",
+    "def": "Objectif de limiter la transformation de terres naturelles ou agricoles en terrains construits."
+   },
+   {
+    "terme": "Cavalier législatif",
+    "def": "Disposition ajoutée à une loi sans lien suffisant avec son sujet (article 45 de la Constitution) ; le Conseil constitutionnel la censure."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien d'instances consultatives la loi supprime-t-elle ?",
+    "choix": [
+     "Une vingtaine",
+     "Plus de mille",
+     "Aucune"
+    ],
+    "bonne": 0,
+    "expl": "Elle allège aussi des formalités pour les entreprises."
+   },
+   {
+    "q": "Pourquoi le Conseil constitutionnel a-t-il annulé la suppression des ZFE ?",
+    "choix": [
+     "Elle coûtait trop cher",
+     "Elle était contraire au droit européen",
+     "Elle n'avait pas de lien avec le texte initial"
+    ],
+    "bonne": 2,
+    "expl": "L'assouplissement du « zéro artificialisation nette » a été censuré pour la même raison."
+   },
+   {
+    "q": "Quel article de la Constitution le Conseil invoque-t-il pour censurer ces articles ?",
+    "choix": [
+     "L'article 45",
+     "L'article 49",
+     "L'article 16"
+    ],
+    "bonne": 0,
+    "expl": "Décision n° 2026-903 DC du 21 mai 2026."
+   }
+  ],
+  "debat": {
+   "question": "Une loi de simplification pour les entreprises doit-elle aussi modifier des règles environnementales ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
+}

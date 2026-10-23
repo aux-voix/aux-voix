@@ -1,0 +1,208 @@
+{
+ "publie": true,
+ "dossier": "DLR5L16N49849",
+ "titre_officiel": "Proposition de loi portant programmation nationale et simplification normative dans le secteur économique de l’énergie",
+ "phrase": "Ce texte du Sénat voulait fixer dans la loi les objectifs énergétiques de la France jusqu'en 2035 ; rejeté par les députés, il n'est pas devenu loi.",
+ "note": "Texte rejeté par l'Assemblée en première lecture le 24 juin 2025, puis de nouveau adopté par le Sénat ; il attend une deuxième lecture à l'Assemblée. Le gouvernement a adopté la programmation de l'énergie par décret le 13 février 2026.",
+ "essentiel": {
+  "points": [
+   "Le texte du sénateur Daniel Gremillet (LR) fixait des objectifs pour 2030-2035 : relance du nucléaire et développement des énergies renouvelables.",
+   "Les députés de droite et du RN y ont ajouté un moratoire sur l'éolien et le solaire ; le centre et la gauche ont alors rejeté le texte.",
+   "La programmation de l'énergie a finalement été adoptée par décret, en février 2026, sans vote du Parlement."
+  ],
+  "pour": "RN et UDR ont voté le texte modifié, avec le moratoire et la réouverture de la centrale de Fessenheim.",
+  "contre": "Gauche, macronistes, MoDem, Horizons et LIOT ont voté contre ; la Droite républicaine s'est surtout abstenue."
+ },
+ "court": {
+  "resume": [
+   "Faute de projet du gouvernement, les sénateurs LR avaient présenté leur propre programmation de l'énergie, d'abord soutenue par le gouvernement.",
+   "En séance, les députés ont aussi voté la réouverture de la centrale nucléaire de Fessenheim et la sortie des règles européennes de fixation du prix de l'électricité.",
+   "Le Sénat a adopté le 8 juillet 2025 une version « recentrée » sur les objectifs ; le texte attend depuis une deuxième lecture à l'Assemblée."
+  ],
+  "change": [
+   [
+    "Objectifs énergétiques fixés par décret (PPE).",
+    "Objectifs inscrits dans la loi (texte rejeté).",
+    "Filières de l'énergie"
+   ],
+   [
+    "Développement de l'éolien et du solaire.",
+    "Moratoire voté par les députés, puis rejet de l'ensemble.",
+    "Porteurs de projets"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Jérôme Nury (Droite républicaine), auteur de l'amendement sur le moratoire",
+    "arg": "« Le bon sens, c'est (...) se préoccuper de la souveraineté de notre électricité et de sa robustesse, tout en veillant au montant de la facture d'électricité. »",
+    "source": "https://www.banquedesterritoires.fr/programmation-energetique-la-proposition-de-loi-gremillet-largement-rejetee-par-les-deputes"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Marc Ferracci, ministre de l'Industrie et de l'Énergie",
+    "arg": "Le rejet était « nécessaire » après l'adoption de mesures « industriellement absurdes » et d'autres « dévastatrices pour nos territoires ».",
+    "source": "https://www.banquedesterritoires.fr/programmation-energetique-la-proposition-de-loi-gremillet-largement-rejetee-par-les-deputes"
+   }
+  ]
+ },
+ "resume": [
+  "La version du Sénat (octobre 2024) prévoyait une relance ambitieuse du nucléaire et des objectifs pour les énergies renouvelables à l'horizon 2035.",
+  "À l'Assemblée, les députés ont voté la sortie des règles européennes de fixation du prix de l'énergie, la réouverture de Fessenheim et un moratoire sur les nouvelles installations éoliennes et solaires.",
+  "Le 24 juin 2025, le texte ainsi modifié a été rejeté par 377 voix contre 142 ; ce rejet a fait tomber toutes les modifications des députés.",
+  "En deuxième lecture, le Sénat a recentré le texte sur la programmation et revu à la baisse l'objectif pour l'hydrogène (au moins 4,5 gigawatts en 2030).",
+  "Le décret du 13 février 2026 fixe la programmation sans passer par la loi : relance du nucléaire avec six réacteurs EPR2, priorité au renouvellement des éoliennes terrestres existantes."
+ ],
+ "pourquoi": [
+  "Depuis 2019, le code de l'énergie prévoit une loi de programmation tous les cinq ans ; faute de projet du gouvernement, les sénateurs LR ont proposé la leur.",
+  "Le désaccord porte sur la place du nucléaire et des renouvelables ; selon Maire-info, l'acceptabilité de l'éolien terrestre est « de plus en plus problématique »."
+ ],
+ "change": [
+  [
+   "Objectifs fixés par décret.",
+   "Inchangé : le texte a été rejeté, la programmation adoptée par décret.",
+   "Filières de l'énergie",
+   "—"
+  ]
+ ],
+ "pasfait": [
+  "Il ne modifie pas le droit : le texte a été rejeté par l'Assemblée et sa navette n'a pas abouti.",
+  "Le moratoire sur l'éolien et le solaire, voté par les députés, n'est jamais entré en vigueur."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Jean-Philippe Tanguy (RN)",
+    "arg": "« La victoire idéologique de Marine Le Pen est à la hauteur des aveux de tous nos adversaires défaits, ici réunis. »",
+    "source": "https://www.banquedesterritoires.fr/programmation-energetique-la-proposition-de-loi-gremillet-largement-rejetee-par-les-deputes"
+   },
+   {
+    "qui": "Daniel Gremillet (LR), sénateur, auteur",
+    "arg": "Publier la programmation sans vote de la loi « donnerait une grande fragilité dans les choix » qu'elle contient.",
+    "source": "https://www.banquedesterritoires.fr/energie-le-senat-adopte-en-deuxieme-lecture-une-proposition-de-loi-gremillet-delestee"
+   },
+   {
+    "qui": "Gérard Larcher (LR), président du Sénat",
+    "arg": "Le décret serait « fragile » sans la loi ; il juge que la version du Sénat était « équilibrée, entre nucléaire et énergies renouvelables » et le moratoire une « erreur ».",
+    "source": "https://www.banquedesterritoires.fr/programmation-energetique-la-proposition-de-loi-gremillet-largement-rejetee-par-les-deputes"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Marc Ferracci, ministre de l'Industrie et de l'Énergie",
+    "arg": "Publier la programmation sans délai est « indispensable pour donner de la visibilité aux porteurs de projets ».",
+    "source": "https://www.banquedesterritoires.fr/energie-le-senat-adopte-en-deuxieme-lecture-une-proposition-de-loi-gremillet-delestee"
+   },
+   {
+    "qui": "Julie Laernoes (écologiste)",
+    "arg": "Aux macronistes qui votent contre : « ce vote ne vous absoudra pas. Depuis trois ans, vous avez gommé tout ce qui s'apparente de près ou de loin au climat et à l'écologie. »",
+    "source": "https://www.banquedesterritoires.fr/programmation-energetique-la-proposition-de-loi-gremillet-largement-rejetee-par-les-deputes"
+   },
+   {
+    "qui": "Julien Brugerolles (communiste)",
+    "arg": "Il dénonce les « conditions » du débat : un texte inscrit tardivement, sans « étude d'impact ».",
+    "source": "https://www.banquedesterritoires.fr/programmation-energetique-la-proposition-de-loi-gremillet-largement-rejetee-par-les-deputes"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Sénat : adopté le 16 octobre 2024. Assemblée : rejeté le 24 juin 2025 (377 voix contre 142, 47 abstentions). Sénat, deuxième lecture : adopté le 8 juillet 2025 (221 voix contre 24). Le texte n'a pas été réexaminé par l'Assemblée."
+  },
+  {
+   "titre": "La programmation par décret",
+   "texte": "Le code de l'énergie permet d'adopter la programmation pluriannuelle de l'énergie par décret. Après la chute du gouvernement Bayrou, le décret a été publié le 13 février 2026, ce que des parlementaires reprochent au gouvernement."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "« Programmation énergétique : la proposition de loi Gremillet largement rejetée par les députés », Localtis (AFP)",
+   "url": "https://www.banquedesterritoires.fr/programmation-energetique-la-proposition-de-loi-gremillet-largement-rejetee-par-les-deputes"
+  },
+  {
+   "titre": "« Énergie : le Sénat adopte en deuxième lecture une proposition de loi Gremillet \"délestée\" », Localtis",
+   "url": "https://www.banquedesterritoires.fr/energie-le-senat-adopte-en-deuxieme-lecture-une-proposition-de-loi-gremillet-delestee"
+  },
+  {
+   "titre": "« La programmation pluriannuelle de l'énergie enfin publiée », Maire-info",
+   "url": "https://maire-info.com/la-programmation-pluriannuelle-de-lenergie-enfin-publiee-le-soutien-aux-energies-renouvelables-maintenu-article2-30480"
+  },
+  {
+   "titre": "« Programmation pluriannuelle de l'énergie : toujours pas d'accord sur un texte », Seban avocats",
+   "url": "https://www.seban-associes.avocat.fr/?p=125386"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl23-555.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L16N49849"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Programmation de l'énergie",
+    "def": "Document qui fixe les objectifs énergétiques de la France pour les années à venir ; il est adopté par décret."
+   },
+   {
+    "terme": "Moratoire",
+    "def": "Suspension temporaire. Ici, un arrêt de nouveaux projets d'éolien et de solaire."
+   },
+   {
+    "terme": "Décret",
+    "def": "Texte du Gouvernement qui s'applique sans vote du Parlement."
+   },
+   {
+    "terme": "Rejet",
+    "def": "Une assemblée vote contre l'ensemble d'un texte : il n'est pas adopté."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Comment la programmation de l'énergie a-t-elle finalement été adoptée, en février 2026 ?",
+    "choix": [
+     "Par une loi votée par le Parlement",
+     "Par décret, sans vote du Parlement",
+     "Par référendum"
+    ],
+    "bonne": 1,
+    "expl": "Le code de l'énergie permet cette procédure ; des parlementaires l'ont reprochée au gouvernement."
+   },
+   {
+    "q": "Que s'est-il passé à l'Assemblée le 24 juin 2025 ?",
+    "choix": [
+     "Elle a rejeté le texte (377 voix contre 142)",
+     "Elle l'a adopté à l'unanimité",
+     "Elle ne l'a pas examiné"
+    ],
+    "bonne": 0,
+    "expl": "Le texte n'est pas devenu loi."
+   },
+   {
+    "q": "Qu'ont ajouté au texte les députés de droite et du RN ?",
+    "choix": [
+     "Un moratoire sur l'éolien et le solaire",
+     "Une taxe sur le nucléaire",
+     "Un référendum"
+    ],
+    "bonne": 0,
+    "expl": "Le centre et la gauche ont alors rejeté le texte."
+   }
+  ],
+  "debat": {
+   "question": "Les grands objectifs énergétiques doivent-ils être fixés par une loi, votée par le Parlement, ou par décret ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
+}

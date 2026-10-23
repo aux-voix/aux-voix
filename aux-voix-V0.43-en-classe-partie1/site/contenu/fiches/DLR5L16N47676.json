@@ -1,0 +1,180 @@
+{
+ "publie": true,
+ "dossier": "DLR5L16N47676",
+ "titre_officiel": "Proposition de loi visant à mettre en place un registre national des cancers",
+ "phrase": "La France crée un registre national des cancers, confié à l'Institut national du cancer, pour connaître le nombre de cas et leur répartition sur tout le territoire.",
+ "note": "Loi promulguée le 30 juin 2025, adoptée sans opposition.",
+ "essentiel": {
+  "points": [
+   "Plus de 430 000 nouveaux cas de cancer sont recensés chaque année en France ; c'est la première cause de décès chez les hommes.",
+   "Les registres existants couvrent moins d'un quart de la population : les chiffres nationaux sont des estimations.",
+   "La loi confie à l'Institut national du cancer un registre national, dont l'organisation sera fixée par décret."
+  ],
+  "pour": "Tous les groupes : mieux connaître les cancers pour mieux les prévenir, les dépister et les soigner.",
+  "contre": "Personne ne s'y est opposé ; plusieurs députés insistent sur les moyens nécessaires et sur l'étude des causes environnementales."
+ },
+ "court": {
+  "resume": [
+   "Le texte de la sénatrice Sonia de La Provôté, adopté à l'unanimité par le Sénat en juin 2023, a attendu deux ans avant d'être examiné par l'Assemblée.",
+   "Selon le député Hadrien Clouet (LFI), la France et l'Espagne sont les seuls pays d'Europe sans registre national des cancers pour adultes, et aucune grande métropole n'est couverte.",
+   "Les données pourront être mises à la disposition d'organismes publics ou privés pour la recherche, et de Santé publique France."
+  ],
+  "change": [
+   [
+    "33 registres locaux ou spécialisés, couvrant moins d'un quart de la population.",
+    "Registre national centralisé par l'Institut national du cancer.",
+    "Patients, chercheurs"
+   ],
+   [
+    "Chiffres nationaux extrapolés.",
+    "Données sur l'ensemble du territoire.",
+    "Pouvoirs publics, chercheurs"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Michel Lauzzana (Ensemble pour la République), rapporteur",
+    "arg": "« Nous avons déjà pris deux ans de retard, il est temps d'agir. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1590.html"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "Article unique : le registre national des cancers, dont l'Institut national du cancer (Inca) est responsable, centralise les données sur l'épidémiologie et les soins en cancérologie.",
+  "Objectif : améliorer la prévention, le dépistage, le diagnostic et la prise en charge des patients, et constituer une base de données pour la recherche.",
+  "L'Inca collecte les données personnelles « strictement nécessaires » et peut les mettre à la disposition d'organismes publics ou privés et de Santé publique France.",
+  "Un décret en Conseil d'État, pris après un avis motivé et publié de la CNIL, fixe l'organisation du registre.",
+  "Selon le rapporteur, les registres actuels suivent une population plus rurale que la moyenne, moins exposée aux pollutions, ce qui fausse le panorama des cancers."
+ ],
+ "pourquoi": [
+  "Les 33 registres existants (19 généraux, 12 spécialisés, 2 nationaux pour les cancers de l'enfant) ne couvrent qu'une partie du pays.",
+  "Selon le rapporteur, l'Académie nationale de médecine et l'Inspection générale des affaires sociales avaient aussi fait ce constat."
+ ],
+ "change": [
+  [
+   "Registres locaux ou spécialisés.",
+   "Registre national.",
+   "Inca, chercheurs, patients",
+   "Selon le décret d'application"
+  ]
+ ],
+ "pasfait": [
+  "Il ne fixe pas le budget du registre : le rapporteur demande des moyens « adaptés aux besoins et pérennes ».",
+  "Il ne traite pas directement des causes des cancers, comme les pollutions."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Hadrien Clouet (La France insoumise)",
+    "arg": "Sans registre couvrant tout le pays, « il est par conséquent impossible de mesurer les effets environnementaux des cancers ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1590.html"
+   },
+   {
+    "qui": "Thibault Bazin (Droite républicaine)",
+    "arg": "La dispersion des registres « empêche les pouvoirs publics de disposer d'une base de données interopérable pour l'ensemble du territoire ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1590.html"
+   },
+   {
+    "qui": "Sandrine Josso (Les Démocrates)",
+    "arg": "« Nous ne débattons pas ce matin d'une simple proposition de loi (...), nous rattrapons un retard. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1590.html"
+   },
+   {
+    "qui": "Thierry Frappé (RN)",
+    "arg": "« Nous souhaitons faciliter son adoption rapide, tant l'enjeu est majeur et urgent. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1590.html"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucune opposition : texte adopté à l'unanimité au Sénat, puis sans modification à l'Assemblée, tous les amendements ayant été retirés en commission."
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Sénat : adopté à l'unanimité le 15 juin 2023. Assemblée : adopté sans modification le 23 juin 2025."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Michel Lauzzana, Assemblée nationale (n° 1590)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1590.html"
+  },
+  {
+   "titre": "« Le registre national des cancers : un nouvel outil pour la surveillance épidémiologique en France », Vidal",
+   "url": "https://www.vidal.fr/actualites/37481-le-registre-national-des-cancers-un-nouvel-outil-pour-la-surveillance-epidemiologique-en-france.html"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl22-546.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L16N47676"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-23"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Registre des cancers",
+    "def": "Base de données qui recense les cas de cancer pour les compter et suivre leur répartition."
+   },
+   {
+    "terme": "Institut national du cancer",
+    "def": "Organisme public chargé de la politique de lutte contre le cancer ; il gérera le registre national."
+   },
+   {
+    "terme": "Décret",
+    "def": "Texte du Gouvernement qui précise comment une loi s'applique."
+   },
+   {
+    "terme": "Adoption sans modification",
+    "def": "Une assemblée adopte le texte tel que l'autre l'a voté : la navette s'arrête et la loi peut être promulguée."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qui gérera le registre national des cancers ?",
+    "choix": [
+     "Le ministère de l'Économie",
+     "L'Institut national du cancer",
+     "Les hôpitaux privés"
+    ],
+    "bonne": 1,
+    "expl": "Son organisation sera fixée par décret."
+   },
+   {
+    "q": "Combien de nouveaux cas de cancer sont recensés chaque année en France, selon la fiche ?",
+    "choix": [
+     "Plus de 430 000",
+     "Environ 43 000",
+     "Plus de 4 millions"
+    ],
+    "bonne": 0,
+    "expl": "C'est la première cause de décès chez les hommes."
+   },
+   {
+    "q": "Quelle part de la population couvrent les registres existants ?",
+    "choix": [
+     "Plus de la moitié",
+     "Moins d'un quart",
+     "Toute la population"
+    ],
+    "bonne": 1,
+    "expl": "Les chiffres nationaux sont donc des estimations."
+   }
+  ],
+  "debat": {
+   "question": "Un registre national suffit-il pour mieux prévenir et soigner les cancers ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
+}

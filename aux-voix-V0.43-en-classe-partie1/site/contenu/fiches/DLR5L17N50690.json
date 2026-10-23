@@ -1,0 +1,229 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N50690",
+ "titre_officiel": "Proposition de loi visant à renforcer l’autorité de la justice à l’égard des mineurs délinquants et de leurs parents",
+ "phrase": "La loi Attal voulait durcir la justice des mineurs ; le Conseil constitutionnel a censuré ses mesures phares, mais validé des sanctions plus lourdes pour certains parents.",
+ "note": "Loi promulguée le 23 juin 2025, après une décision du Conseil constitutionnel qui en a censuré six articles.",
+ "essentiel": {
+  "points": [
+   "Après les émeutes de 2023, Gabriel Attal (Ensemble pour la République) voulait juger plus vite et plus sévèrement certains mineurs récidivistes, et responsabiliser leurs parents.",
+   "Le Conseil constitutionnel a censuré la comparution immédiate dès 16 ans et la remise en cause de l'« excuse de minorité », qui réduit les peines des mineurs.",
+   "Restent notamment des peines plus lourdes pour un parent dont les manquements ont directement conduit son enfant à commettre des infractions."
+  ],
+  "pour": "Macronistes, RN, droite, MoDem, Horizons et UDR : répondre à un « sentiment d'impunité » chez des mineurs plus violents.",
+  "contre": "Toute la gauche : un texte répressif contraire aux principes de la justice des mineurs, qui doit d'abord éduquer."
+ },
+ "court": {
+  "resume": [
+   "Le texte traduisait la formule de Gabriel Attal à Matignon : « Tu casses, tu répares, tu salis, tu nettoies, tu défies l'autorité, on t'apprend à la respecter. »",
+   "Saisi par les groupes de gauche, le Conseil constitutionnel a censuré six articles au nom d'un « principe fondamental » : rechercher le relèvement éducatif et moral des mineurs.",
+   "Il a aussi rappelé que ce principe n'impose pas d'éviter « toujours » les sanctions au profit de mesures purement éducatives, ce qui laisse une marge au législateur."
+  ],
+  "change": [
+   [
+    "Soustraction d'un parent à ses obligations : 2 ans de prison.",
+    "3 ans et 45 000 € si elle a directement conduit l'enfant à commettre un crime ou plusieurs délits.",
+    "Parents"
+   ],
+   [
+    "Excuse de minorité de droit.",
+    "Inchangée : la dérogation a été censurée.",
+    "Mineurs de 16 à 18 ans"
+   ],
+   [
+    "Pas de comparution immédiate pour les mineurs.",
+    "Inchangé : la mesure a été censurée.",
+    "Mineurs récidivistes"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Bruno Retailleau, ministre de l'Intérieur",
+    "arg": "Il faut « tourner le dos à une culture de l'excuse qui a plongé une partie de notre jeunesse dans un profond sentiment d'impunité ».",
+    "source": "https://maire-info.com/le-conseil-constitutionnel-censure-les-mesures-les-plus-controversees-de-la-loi-attal-sur-les-mineurs-delinquants-article2-29818"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Jean-François Coulomme (La France insoumise)",
+    "arg": "« Nous examinons un énième texte répressif, en direction cette fois des enfants », sans bilan de la réforme précédente.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0628.html"
+   }
+  ]
+ },
+ "resume": [
+  "Article 1er (validé) : le délit de soustraction d'un parent à ses obligations est puni de 3 ans de prison et 45 000 € d'amende lorsqu'il a directement conduit l'enfant à commettre un crime ou plusieurs délits.",
+  "Validé : un procureur peut interdire à un mineur d'aller et venir sur la voie publique sans son représentant légal, pendant six mois au plus.",
+  "Censurés : la comparution immédiate pour les mineurs d'au moins 16 ans, l'extension de l'audience unique, l'allongement de la détention provisoire à un an et l'inversion de l'excuse de minorité pour les récidivistes de 16 à 18 ans.",
+  "Censurée aussi : la rétention de 12 heures au plus, décidée par un officier de police judiciaire, d'un mineur qui ne respecte pas sa mesure éducative ; selon le Conseil, c'est à un juge d'en décider.",
+  "Article 2 (en vigueur) : les parents qui ne se rendent pas aux convocations du juge des enfants s'exposent à une amende civile ; l'amende pénale pour les mêmes faits peut atteindre 7 500 €."
+ ],
+ "pourquoi": [
+  "Selon ses partisans, la délinquance des mineurs a changé : plus violente, plus précoce, avec des mineurs utilisés par les trafiquants de drogue.",
+  "Selon la députée Martine Froger (LIOT), en 2022, 168 000 mineurs ont été mis en cause, soit 2,5 % des 10-17 ans, et un peu plus de 30 000 condamnés."
+ ],
+ "change": [
+  [
+   "Soustraction parentale : 2 ans.",
+   "Jusqu'à 3 ans si elle a conduit à des infractions de l'enfant.",
+   "Parents",
+   "Depuis juin 2025"
+  ],
+  [
+   "—",
+   "Interdiction d'aller et venir sans représentant légal, sur décision du procureur.",
+   "Mineurs",
+   "Depuis juin 2025"
+  ]
+ ],
+ "pasfait": [
+  "Il ne permet pas de juger un mineur en comparution immédiate : la mesure a été censurée.",
+  "Il ne supprime pas l'excuse de minorité, qui reste la règle."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Laure Miller (Ensemble pour la République)",
+    "arg": "« Il ne s'agit pas de mettre les mineurs en prison. Il s'agit de remettre dans le droit chemin ceux qui s'en écartent. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0628.html"
+   },
+   {
+    "qui": "Olivier Marleix (Droite républicaine)",
+    "arg": "« Nous ne sommes plus en 1945. La délinquance des mineurs a changé de nature et d'ampleur. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0628.html"
+   },
+   {
+    "qui": "Naïma Moutchou (Horizons)",
+    "arg": "« La violence des mineurs explose et surgit de plus en plus précocement. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0628.html"
+   },
+   {
+    "qui": "Sylvie Josserand (RN), qui a voté pour",
+    "arg": "Elle jugeait le texte insuffisant : il « se limite à son titre aguicheur » et serait « dépourvu de portée pratique ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0628.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Marc Pena (socialiste)",
+    "arg": "Le texte « confond fermeté et brutalité, autorité et autoritarisme ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0628.html"
+   },
+   {
+    "qui": "Pouria Amirshahi (écologiste)",
+    "arg": "Il refuse une réponse « à coups de communication viriliste et encore moins à coups de menton ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0628.html"
+   },
+   {
+    "qui": "Elsa Faucillon (Gauche démocrate et républicaine)",
+    "arg": "« La façon dont une société traite sa jeunesse est un excellent indicateur de la capacité de l'État à protéger ses citoyens. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0628.html"
+   },
+   {
+    "qui": "La Défenseure des droits et les syndicats de la protection judiciaire de la jeunesse",
+    "arg": "Ils ont vivement critiqué les principales mesures du texte, selon Maire-info.",
+    "source": "https://maire-info.com/le-conseil-constitutionnel-censure-les-mesures-les-plus-controversees-de-la-loi-attal-sur-les-mineurs-delinquants-article2-29818"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Assemblée : adoptée le 13 février 2025 (125 voix contre 58). Sénat : modifiée le 26 mars 2025. Accord en commission mixte paritaire le 6 mai ; texte adopté par l'Assemblée le 13 mai (341 voix contre 187) et par le Sénat le 19 mai 2025."
+  },
+  {
+   "titre": "Le Conseil constitutionnel",
+   "texte": "Saisi par LFI, par les socialistes et écologistes, et par les groupes de gauche du Sénat, il a censuré le 19 juin 2025 les articles 4, 5, 7, 12 et 15 et une partie de l'article 6 (décision n° 2025-886 DC). Il a validé l'article 1er : punir plus sévèrement un parent « n'a pas pour effet de le rendre personnellement responsable des infractions commises » par son enfant."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "« Le Conseil constitutionnel censure les mesures les plus controversées de la loi Attal », Maire-info",
+   "url": "https://maire-info.com/le-conseil-constitutionnel-censure-les-mesures-les-plus-controversees-de-la-loi-attal-sur-les-mineurs-delinquants-article2-29818"
+  },
+  {
+   "titre": "« Justice des mineurs : le Conseil constitutionnel censure largement le texte Attal », Public Sénat",
+   "url": "https://www.publicsenat.fr/actualites/politique/justice-des-mineurs-le-conseil-constitutionnel-censure-largement-le-texte-attal-notamment-la-derogation-de-lexcuse-de-minorite"
+  },
+  {
+   "titre": "Rapport de Jean Terlier, Assemblée nationale (n° 628)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0628.html"
+  },
+  {
+   "titre": "Rapport de la commission mixte paritaire (n° 1367)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1367.html"
+  },
+  {
+   "titre": "Décision n° 2025-886 DC du Conseil constitutionnel",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2025/2025886DC.htm"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N50690"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-23"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Excuse de minorité",
+    "def": "Principe qui réduit les peines d'un mineur par rapport à celles d'un adulte."
+   },
+   {
+    "terme": "Comparution immédiate",
+    "def": "Procédure qui juge rapidement une personne, peu après les faits."
+   },
+   {
+    "terme": "Conseil constitutionnel",
+    "def": "Institution qui vérifie qu'une loi respecte la Constitution."
+   },
+   {
+    "terme": "Commission mixte paritaire",
+    "def": "Réunion de députés et de sénateurs chargés de trouver un texte commun."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qu'a censuré le Conseil constitutionnel ?",
+    "choix": [
+     "La totalité de la loi",
+     "La comparution immédiate dès 16 ans et la remise en cause de l'excuse de minorité",
+     "Aucune mesure"
+    ],
+    "bonne": 1,
+    "expl": "Il a censuré les articles 4, 5, 7, 12 et 15 et une partie du 6."
+   },
+   {
+    "q": "Qu'a-t-il validé ?",
+    "choix": [
+     "Des peines plus lourdes pour certains parents",
+     "La prison pour tous les mineurs",
+     "La suppression de la justice des mineurs"
+    ],
+    "bonne": 0,
+    "expl": "Pour un parent dont les manquements ont directement conduit son enfant à commettre des infractions."
+   },
+   {
+    "q": "Combien d'articles ont été censurés, en tout ou partie ?",
+    "choix": [
+     "Deux",
+     "Six",
+     "Quinze"
+    ],
+    "bonne": 1,
+    "expl": "Décision n° 2025-886 DC du 19 juin 2025."
+   }
+  ],
+  "debat": {
+   "question": "Comment concilier sanction et éducation dans la justice des mineurs ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
+}

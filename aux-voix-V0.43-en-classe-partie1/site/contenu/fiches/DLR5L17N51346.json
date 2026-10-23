@@ -1,0 +1,200 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51346",
+ "titre_officiel": "Proposition de loi relative aux missions des professionnels de santé, vétérinaires, psychothérapeutes et psychologues des services d’incendie et de secours",
+ "phrase": "La loi définit les missions des médecins, infirmiers, pharmaciens, psychologues et vétérinaires qui travaillent avec les sapeurs-pompiers.",
+ "note": "Loi promulguée en avril 2026, adoptée sans aucune voix contre à l'Assemblée.",
+ "essentiel": {
+  "points": [
+   "Près de 13 000 soignants travaillent dans les services d'incendie et de secours, à 96 % comme volontaires.",
+   "Leurs missions étaient surtout fixées par des textes réglementaires, ce qui créait des incertitudes, notamment pour les médecins.",
+   "La loi précise ce que fait chaque profession, du secours d'urgence au suivi de la santé des pompiers."
+  ],
+  "pour": "Tous les groupes : ces soignants jouent un rôle clé dans les secours, en particulier là où les médecins manquent.",
+  "contre": "Personne n'a voté contre. LFI juge le texte trop limité face aux vrais problèmes des pompiers, comme les cancers liés au métier."
+ },
+ "court": {
+  "resume": [
+   "Les services d'incendie et de secours (SDIS) comptent des médecins, infirmiers, pharmaciens, psychologues et vétérinaires, qui sont eux-mêmes sapeurs-pompiers.",
+   "En 2022, 86 % des près de 5 millions d'interventions concernaient le secours et les soins d'urgence aux personnes, selon Delphine Lingemann (Démocrates).",
+   "Le texte de Jean-Carles Grelier (Démocrates) inscrit leurs missions dans la loi."
+  ],
+  "change": [
+   [
+    "Les médecins de pompiers cumulent soins, aptitude et prévention sans base légale claire.",
+    "Ce cumul est prévu par la loi ; certaines tâches peuvent être déléguées aux infirmiers.",
+    "Médecins et infirmiers de pompiers"
+   ],
+   [
+    "Missions des autres soignants fixées surtout par décret.",
+    "Missions des pharmaciens, infirmiers, psychologues et vétérinaires définies dans la loi.",
+    "Soignants des SDIS"
+   ],
+   [
+    "—",
+    "S'applique aussi aux soignants civils des pompiers de Paris et des marins-pompiers de Marseille.",
+    "Paris, Marseille"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Yannick Chenevard (Ensemble pour la République)",
+    "arg": "Le texte sécurise juridiquement « un exercice médical hybride, adapté aux contraintes opérationnelles des sapeurs-pompiers ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2525.html"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "Un nouveau chapitre du code de la sécurité intérieure définit les missions des médecins de sapeurs-pompiers : secours et soins d'urgence, soins aux pompiers, médecine d'aptitude et de prévention, enseignement et recherche, encadrement.",
+  "Ils échappent à la règle d'exercice exclusif de leur qualification, ce qui leur permet de cumuler ces missions ; certaines tâches peuvent être déléguées aux infirmiers, par décret.",
+  "Les pharmaciens gèrent les pharmacies des SDIS et peuvent intervenir sur les risques nucléaires, radiologiques, biologiques et chimiques ; les vétérinaires suivent notamment les équipes cynotechniques.",
+  "Les psychologues et psychothérapeutes assurent le soutien psychologique des pompiers ; d'autres professionnels de santé peuvent intervenir comme experts.",
+  "La sous-direction santé de chaque SDIS réunit ces professionnels en équipes pluridisciplinaires."
+ ],
+ "pourquoi": [
+  "Selon le rapporteur, ces missions n'étaient définies qu'au niveau réglementaire, ce qui fragilisait notamment le cumul des missions des médecins.",
+  "Les SDIS comptent 3 724 médecins, 7 843 infirmiers, 564 pharmaciens, 306 vétérinaires, 347 psychologues et 86 cadres de santé, selon Sylvie Bonnet (Droite républicaine)."
+ ],
+ "change": [
+  [
+   "Missions fixées par décret.",
+   "Missions de chaque profession inscrites dans la loi.",
+   "Soignants des SDIS",
+   "Depuis avril 2026"
+  ],
+  [
+   "—",
+   "Délégation possible de tâches médicales aux infirmiers.",
+   "Infirmiers de sapeurs-pompiers",
+   "Après décret"
+  ],
+  [
+   "—",
+   "Composition de la sous-direction santé fixée par la loi.",
+   "SDIS",
+   "Depuis avril 2026"
+  ]
+ ],
+ "pasfait": [
+  "Il ne crée pas de cadre d'emplois unique pour ces soignants : la mesure prévue au départ a été retirée à la demande du gouvernement et du RN.",
+  "Il ne traite pas de la reconnaissance des cancers des pompiers comme maladies professionnelles, soulevée par LFI."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Océane Godard (socialiste)",
+    "arg": "Les SDIS sont devenus des acteurs majeurs du secours à personne « sans que leur cadre d'exercice soit pleinement clarifié ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2525.html"
+   },
+   {
+    "qui": "Julien Rancoule (RN)",
+    "arg": "Le texte apporte « une clarification salutaire » à des professionnels qui jouent un rôle clé dans le secours à personne.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2525.html"
+   },
+   {
+    "qui": "Paul-André Colombani (LIOT)",
+    "arg": "Les missions des pompiers augmentent avec le changement climatique, le vieillissement de la population et la désertification médicale.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2525.html"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucun groupe ne s'y est opposé. LFI s'est abstenue en première lecture puis a voté pour ; Karen Erodi (LFI) a qualifié le texte d'« écran de fumée » qui évite les vrais problèmes des casernes, comme la reconnaissance des cancers professionnels (quatre types en France, contre dix-neuf au Canada selon elle)."
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Première lecture : 155 pour, 0 contre, 17 abstentions (LFI), 6 mars 2025, scrutin n° 912. Deuxième lecture : 92 pour, 0 contre, 2 abstentions, 26 mars 2026, scrutin n° 5829, sans modification."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Jean-Carles Grelier, première lecture (n° 994)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0994.html"
+  },
+  {
+   "titre": "Rapport de Jean-Carles Grelier, deuxième lecture (n° 2525)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2525.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 249)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0249.raw"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51346"
+  },
+  {
+   "titre": "Scrutin n° 912 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/912"
+  },
+  {
+   "titre": "Scrutin n° 5829 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/5829"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Service d'incendie et de secours",
+    "def": "Service qui regroupe les sapeurs-pompiers d'un département."
+   },
+   {
+    "terme": "Sapeur-pompier volontaire",
+    "def": "Pompier qui exerce en plus d'une autre activité."
+   },
+   {
+    "terme": "Décret",
+    "def": "Texte du Gouvernement qui précise l'application d'une loi."
+   },
+   {
+    "terme": "Marins-pompiers de Marseille",
+    "def": "Militaires qui assurent les secours à Marseille."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de soignants travaillent avec les pompiers, selon la fiche ?",
+    "choix": [
+     "Près de 130",
+     "Près de 13 000",
+     "Plus d'un million"
+    ],
+    "bonne": 1,
+    "expl": "Médecins, infirmiers, pharmaciens, psychologues, vétérinaires."
+   },
+   {
+    "q": "Quelle part sont volontaires ?",
+    "choix": [
+     "6 %",
+     "50 %",
+     "96 %"
+    ],
+    "bonne": 2,
+    "expl": "Leurs missions étaient surtout fixées par des textes réglementaires."
+   },
+   {
+    "q": "Que précise la loi ?",
+    "choix": [
+     "Les missions de chaque profession, du secours d'urgence au suivi de la santé des pompiers",
+     "Le salaire des pompiers",
+     "L'interdiction du volontariat"
+    ],
+    "bonne": 0,
+    "expl": "Certaines tâches peuvent être déléguées aux infirmiers."
+   }
+  ],
+  "debat": {
+   "question": "Que doit faire la loi pour mieux protéger les sapeurs-pompiers et les soignants qui travaillent avec eux ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
+}

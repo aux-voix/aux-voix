@@ -1,0 +1,212 @@
+{
+ "publie": true,
+ "dossier": "DLR5L16N49138",
+ "titre_officiel": "Proposition de loi relative à la confidentialité des consultations des juristes d’entreprise",
+ "phrase": "Les avis juridiques écrits par les juristes salariés d'une entreprise pour sa direction deviennent confidentiels, sauf en matière pénale et fiscale.",
+ "note": "Loi promulguée en février 2026, validée par le Conseil constitutionnel avec trois réserves.",
+ "essentiel": {
+  "points": [
+   "Les juristes d'entreprise (environ 20 000) conseillent leur employeur, mais leurs avis pouvaient être saisis, contrairement à ceux des avocats.",
+   "La loi rend ces avis confidentiels dans les litiges civils, commerciaux et administratifs, sous conditions : diplôme, formation, mention « confidentiel ».",
+   "La confidentialité ne joue pas en matière pénale ou fiscale, et un juge peut la lever en cas de fraude."
+  ],
+  "pour": "Majorité, droite et centre : les entreprises françaises étaient désavantagées face à leurs concurrentes étrangères, qui ont cette protection.",
+  "contre": "La gauche et le RN : un privilège pour les grandes entreprises, qui affaiblirait les contrôles des autorités et le rôle des avocats."
+ },
+ "court": {
+  "resume": [
+   "En France, les avis d'un avocat sont protégés par le secret professionnel, mais pas ceux d'un juriste salarié de l'entreprise.",
+   "Selon les défenseurs du texte, la plupart des pays de l'OCDE protègent ces avis, ce qui inciterait des groupes à installer leurs services juridiques à l'étranger.",
+   "Après plus de trente ans de débats, le texte de Jean Terlier (Renaissance), adopté par l'Assemblée en 2024, a été voté définitivement par le Sénat en janvier 2026."
+  ],
+  "change": [
+   [
+    "Les avis des juristes d'entreprise peuvent être saisis ou réclamés.",
+    "Ils sont confidentiels dans les procédures civiles, commerciales et administratives.",
+    "Entreprises"
+   ],
+   [
+    "—",
+    "Exceptions : procédures pénales et fiscales, contrôles des autorités européennes.",
+    "Enquêteurs, fisc"
+   ],
+   [
+    "—",
+    "Fausse mention « confidentiel » punie ; levée possible par un juge en cas de fraude.",
+    "Entreprises"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Mathilde Desjonquères (Démocrates)",
+    "arg": "Par l'absence de toute confidentialité de ces avis, la France « se distingue des autres pays de l'OCDE et de l'Union européenne ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B2469.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Élisa Martin (La France insoumise)",
+    "arg": "Les grandes entreprises, qui seules peuvent embaucher des juristes, « pourront couvrir leurs pratiques illicites sous le sceau de la confidentialité ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B2469.html"
+   }
+  ]
+ },
+ "resume": [
+  "Sont confidentielles les consultations juridiques (avis ou conseils fondés sur une règle de droit) rédigées par un juriste d'entreprise titulaire d'un master en droit et formé aux règles éthiques, ou par un membre de son équipe sous son contrôle.",
+  "Elles doivent être destinées à la direction ou aux organes dirigeants de l'entreprise ou de son groupe, porter la mention de leur confidentialité et identifier leur rédacteur.",
+  "Elles ne peuvent être saisies ni exigées dans une procédure civile, commerciale ou administrative ; la confidentialité ne vaut pas en matière pénale ou fiscale, ni face aux autorités de l'Union européenne.",
+  "Lors d'un contrôle, un commissaire de justice peut appréhender le document sous scellé ; le juge des libertés et de la détention, ou le président de la juridiction, décide de lever ou non la confidentialité.",
+  "Apposer frauduleusement la mention « confidentiel » est un délit ; l'entreprise peut elle-même renoncer à la confidentialité."
+ ],
+ "pourquoi": [
+  "Un rapport du député Raphaël Gauvain (2019) liait la confidentialité de ces avis à la souveraineté économique des entreprises françaises.",
+  "Selon ses partisans, la réforme vise aussi à inciter les entreprises à respecter la loi, en permettant à leurs juristes d'analyser franchement les risques."
+ ],
+ "change": [
+  [
+   "Avis saisissables.",
+   "Avis confidentiels sous conditions.",
+   "Entreprises, juristes",
+   "Depuis février 2026"
+  ],
+  [
+   "—",
+   "Procédure de contestation devant un juge.",
+   "Autorités administratives, parties à un litige",
+   "Depuis février 2026"
+  ]
+ ],
+ "pasfait": [
+  "Il ne crée pas de nouvelle profession réglementée ni d'ordre des juristes d'entreprise.",
+  "Il ne protège pas ces avis contre la justice pénale ni contre le fisc.",
+  "Il n'empêche pas les autorités d'accéder aux autres documents de l'entreprise, comme les décisions de ses dirigeants ou ses contrats, selon le Conseil constitutionnel."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Philippe Pradal (Horizons)",
+    "arg": "Un dispositif de « legal privilege » est « indispensable pour protéger les entreprises françaises », sans affaiblir le secret de l'avocat.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B2469.html"
+   },
+   {
+    "qui": "Philippe Gosselin (Les Républicains)",
+    "arg": "Le texte ne crée pas une nouvelle profession réglementée : la profession de juriste d'entreprise est reconnue depuis 1971.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B2469.html"
+   },
+   {
+    "qui": "Caroline Yadan (Renaissance)",
+    "arg": "Les entreprises doivent répondre à des exigences de conformité croissantes ; parmi les pays de l'OCDE, la France faisait exception.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B2469.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Nicolas Sansu (communiste)",
+    "arg": "Les juristes d'entreprise « ne jouissent pas, à l'égard de l'employeur, de la même indépendance que les avocats ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B2469.html"
+   },
+   {
+    "qui": "Catherine Jaouen (RN)",
+    "arg": "Le texte « ne vise qu'à libéraliser l'économie » ; l'Autorité de la concurrence, l'AMF et la Cour des comptes craignaient de voir leurs contrôles amoindris.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B2469.html"
+   },
+   {
+    "qui": "Cécile Untermaier (socialiste)",
+    "arg": "Elle dénonce « l'obstination du lobby des juristes d'entreprise » et un texte examiné sans étude d'impact ni avis du Conseil d'État.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B2469.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Assemblée : adoptée en première lecture le 30 avril 2024. Sénat : adoption définitive le 14 janvier 2026."
+  },
+  {
+   "titre": "Le Conseil constitutionnel",
+   "texte": "Saisi par les députés LFI, il a validé la loi le 18 février 2026, avec trois réserves : les autorités administratives doivent pouvoir contester la confidentialité devant un juge, leurs pouvoirs prévus par une loi organique sont préservés, et le juge peut lever la confidentialité d'un avis destiné à faciliter une fraude."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Jean Terlier, Assemblée nationale (n° 2469, XVIe législature)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B2469.html"
+  },
+  {
+   "titre": "Décision n° 2026-900 DC du Conseil constitutionnel",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026900DC.htm"
+  },
+  {
+   "titre": "« La confidentialité des avis des juristes d'entreprise est adoptée », Actu-Juridique",
+   "url": "https://www.actu-juridique.fr/professions/flash-la-confidentialite-des-avis-des-juristes-dentreprise-est-adoptee/"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L16N49138"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Juriste d'entreprise",
+    "def": "Juriste salarié d'une entreprise, qui conseille sa direction."
+   },
+   {
+    "terme": "Confidentialité des avis",
+    "def": "Les avis ne peuvent pas être saisis ni exigés dans une procédure, comme ceux d'un avocat (« legal privilege »)."
+   },
+   {
+    "terme": "Réserve d'interprétation",
+    "def": "Le Conseil constitutionnel valide la loi à condition qu'elle soit appliquée d'une certaine manière."
+   },
+   {
+    "terme": "Matière pénale et fiscale",
+    "def": "Procédures contre des infractions et contrôles des impôts ; la confidentialité n'y joue pas."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Environ combien de juristes d'entreprise y a-t-il en France ?",
+    "choix": [
+     "2 000",
+     "20 000",
+     "200 000"
+    ],
+    "bonne": 1,
+    "expl": "Leurs avis pouvaient être saisis, contrairement à ceux des avocats."
+   },
+   {
+    "q": "Dans quelles procédures la confidentialité ne joue-t-elle pas ?",
+    "choix": [
+     "Pénales et fiscales",
+     "Civiles et commerciales",
+     "Administratives"
+    ],
+    "bonne": 0,
+    "expl": "Un juge peut aussi la lever en cas de fraude."
+   },
+   {
+    "q": "Combien de réserves le Conseil constitutionnel a-t-il formulées ?",
+    "choix": [
+     "Aucune",
+     "Trois",
+     "Dix"
+    ],
+    "bonne": 1,
+    "expl": "Décision du 18 février 2026, saisi par les députés LFI."
+   }
+  ],
+  "debat": {
+   "question": "Les avis des juristes salariés d'une entreprise doivent-ils être aussi confidentiels que ceux d'un avocat ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
+}

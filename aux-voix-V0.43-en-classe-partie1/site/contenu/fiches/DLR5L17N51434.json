@@ -1,0 +1,202 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51434",
+ "titre_officiel": "Proposition de loi contre les fraudes aux moyens de paiement scripturaux",
+ "phrase": "Les banques partagent désormais, via la Banque de France, les numéros de comptes (IBAN) qu'elles soupçonnent d'être utilisés pour des fraudes.",
+ "note": "Loi promulguée en novembre 2025 ; le fichier des comptes suspects fonctionne depuis mai 2026.",
+ "essentiel": {
+  "points": [
+   "Les fraudes aux cartes, chèques et virements coûtent environ 1,2 milliard d'euros par an aux particuliers et aux entreprises.",
+   "Quand une banque repérait un compte frauduleux, les autres banques ne le savaient pas.",
+   "La loi crée un fichier national des comptes suspects, géré par la Banque de France, et renforce la lutte contre les faux chèques."
+  ],
+  "pour": "Tous les groupes : mieux protéger les victimes face à des escrocs qui s'adaptent vite.",
+  "contre": "Personne ne s'y est opposé ; certains s'interrogent sur les pouvoirs donnés aux banques et sur le respect des droits des titulaires de comptes."
+ },
+ "court": {
+  "resume": [
+   "Selon un député, sur 1,2 milliard d'euros de fraude, 500 millions concernent les cartes, 360 millions les chèques et 310 millions les virements.",
+   "Le fichier ne contient pas de noms, seulement des IBAN, conservés pour une durée limitée, selon la direction du Trésor.",
+   "Être inscrit dans le fichier n'interdit pas d'utiliser son compte, et ne suffit pas à justifier sa fermeture."
+  ],
+  "change": [
+   [
+    "Chaque banque garde ses soupçons pour elle.",
+    "Fichier commun des comptes suspects, tenu par la Banque de France.",
+    "Clients, banques"
+   ],
+   [
+    "—",
+    "Meilleure détection des chèques falsifiés ou contrefaits.",
+    "Commerçants, banques"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Sophie-Laurence Roy (RN)",
+    "arg": "Face aux escrocs qui « s'adaptent toujours plus vite », toutes les mesures pour détecter et bloquer les fraudes « sont donc bonnes à prendre ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1153.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Jean-Didier Berger (Droite républicaine), dont le groupe a voté pour",
+    "arg": "« N'est-on pas en train de confier aux banquiers un pouvoir supplémentaire », celui de suspendre un versement ?",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1153.html"
+   }
+  ]
+ },
+ "resume": [
+  "Article 1er : un fichier national recense les comptes que les banques et autres prestataires de paiement estiment susceptibles d'être frauduleux ; il est géré par la Banque de France.",
+  "Les banques doivent corriger sans délai leurs signalements lorsque le soupçon disparaît ; ces déclarations ne peuvent pas être facturées aux clients.",
+  "L'inscription d'un compte n'interdit pas de l'utiliser et ne justifie pas à elle seule sa fermeture ; la banque qui tient le compte doit vérifier rapidement s'il est frauduleux.",
+  "Articles 2 et 3 : le fichier national des chèques irréguliers vise expressément les chèques falsifiés ou contrefaits, et les banques peuvent le consulter lors de la remise d'un chèque.",
+  "Le texte a été proposé par Daniel Labaronne (Ensemble pour la République) ; le fichier des IBAN suspects est opérationnel depuis le 7 mai 2026."
+ ],
+ "pourquoi": [
+  "Selon la direction du Trésor, une information sur un compte frauduleux restait « cloisonnée » dans la banque qui l'avait repérée, laissant les fraudeurs passer par d'autres établissements.",
+  "Les arnaques au faux IBAN ou au faux conseiller bancaire se multiplient, selon les députés."
+ ],
+ "change": [
+  [
+   "Signalements non partagés.",
+   "Fichier national des comptes suspects.",
+   "Banques, clients",
+   "Depuis mai 2026"
+  ],
+  [
+   "—",
+   "Contrôle renforcé des faux chèques.",
+   "Banques, commerçants",
+   "Depuis novembre 2025"
+  ]
+ ],
+ "pasfait": [
+  "Il ne rembourse pas automatiquement les victimes de fraude.",
+  "Il ne bloque pas automatiquement les comptes inscrits dans le fichier."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "David Amiel (Ensemble pour la République)",
+    "arg": "Une proposition « extrêmement légitime », dans la continuité de la lutte contre toutes les fraudes.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1153.html"
+   },
+   {
+    "qui": "Carlos Martens Bilongo (La France insoumise)",
+    "arg": "« Dans nos circonscriptions, on ne compte plus les victimes de fraudes aux moyens de paiement. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1153.html"
+   },
+   {
+    "qui": "Laurent Baumel (socialiste)",
+    "arg": "La monnaie scripturale « repose sur la confiance » ; ceux qui ont subi une fraude « ont été traumatisés ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1153.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Christine Arrighi (écologiste), dont le groupe a voté pour",
+    "arg": "Un texte « parcellaire » : il faudrait une loi « d'ampleur » face à « une asymétrie criante » entre les banques et leurs clients.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1153.html"
+   },
+   {
+    "qui": "Jean-Paul Mattei (Les Démocrates), dont le groupe a voté pour",
+    "arg": "Il demandait des précisions sur l'accès au fichier et son fonctionnement concret pour les banques.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1153.html"
+   }
+  ],
+  "consensus": "Aucune opposition : le texte a été adopté à l'unanimité à l'Assemblée (108 voix) et au Sénat. Les réserves portaient sur la portée du texte et le rôle donné aux banques."
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée : adopté le 31 mars 2025 par 108 voix contre 0. Sénat : adopté le 29 octobre 2025. Loi du 6 novembre 2025 visant à renforcer la lutte contre la fraude bancaire."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Daniel Labaronne, Assemblée nationale (n° 1153)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1153.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 82)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0082.raw"
+  },
+  {
+   "titre": "« Renforcer la lutte contre la fraude bancaire : publication de la loi », Le Monde du droit",
+   "url": "https://www.lemondedudroit.fr/banque-finance/303-banque/97552-renforcer-la-lutte-contre-la-fraude-bancaire-publication-de-la-loi.html"
+  },
+  {
+   "titre": "« Lancement du fichier national des comptes signalés pour risque de fraude », direction générale du Trésor",
+   "url": "https://www.tresor.economie.gouv.fr/Articles/2026/05/11/lancement-du-fichier-national-des-comptes-signales-pour-risque-de-fraude-un-nouveau-rempart-contre-la-fraude-aux-virements"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51434"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "IBAN",
+    "def": "Numéro international d'un compte bancaire."
+   },
+   {
+    "terme": "Banque de France",
+    "def": "Institution publique qui gère notamment des fichiers bancaires ; elle tiendra le fichier des comptes suspects."
+   },
+   {
+    "terme": "Fraude",
+    "def": "Tromperie destinée à obtenir de l'argent de façon illégale."
+   },
+   {
+    "terme": "Fichier national des comptes suspects",
+    "def": "Liste commune aux banques des comptes soupçonnés d'être utilisés pour des fraudes."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien coûtent ces fraudes chaque année, selon la fiche ?",
+    "choix": [
+     "12 000 euros",
+     "12 millions d'euros",
+     "Environ 1,2 milliard d'euros"
+    ],
+    "bonne": 2,
+    "expl": "Aux particuliers et aux entreprises."
+   },
+   {
+    "q": "Qui gère le fichier national des comptes suspects ?",
+    "choix": [
+     "La Banque de France",
+     "Chaque banque, séparément",
+     "La police municipale"
+    ],
+    "bonne": 0,
+    "expl": "Auparavant, une banque qui repérait un compte frauduleux ne prévenait pas les autres."
+   },
+   {
+    "q": "Depuis quand le fichier fonctionne-t-il ?",
+    "choix": [
+     "1990",
+     "Mai 2026",
+     "Il n'existe pas encore"
+    ],
+    "bonne": 1,
+    "expl": "La loi a été promulguée en novembre 2025."
+   }
+  ],
+  "debat": {
+   "question": "Les banques doivent-elles partager des informations sur des comptes suspects ? Avec quelles garanties pour les titulaires ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
+}

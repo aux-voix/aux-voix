@@ -1,0 +1,170 @@
+{
+ "publie": true,
+ "dossier": "DLR5L16N48747",
+ "titre_officiel": "Proposition de loi visant à ouvrir le dispositif de réduction d’activité aux moniteurs de ski stagiaires",
+ "phrase": "Le système qui réduit l'activité des moniteurs de ski âgés pour laisser des heures de cours aux jeunes s'ouvre aussi aux moniteurs encore en formation.",
+ "note": "Loi promulguée le 24 juin 2026, adoptée à l'unanimité en commission au Sénat.",
+ "essentiel": {
+  "points": [
+   "Depuis 1963, les écoles du ski français réduisent l'activité des moniteurs âgés au profit des jeunes diplômés.",
+   "La loi de 2014 a encadré ce « pacte entre générations » pour qu'il ne soit pas jugé discriminatoire.",
+   "Les moniteurs stagiaires, qui doivent donner des cours pendant leur formation, en profiteront aussi."
+  ],
+  "pour": "Marie-Noëlle Battistel (socialiste), autrice, et les sénateurs : les stagiaires doivent pouvoir faire leurs heures de cours pratiques.",
+  "contre": "Personne ne s'y est opposé : la commission des affaires sociales du Sénat l'a adoptée à l'unanimité."
+ },
+ "court": {
+  "resume": [
+   "Dans les écoles du ski français, un « pacte intergénérationnel » réduit l'activité des moniteurs ayant atteint l'âge de la retraite pour donner plus d'heures de cours aux jeunes.",
+   "Ce pacte était fermé aux moniteurs stagiaires, qui doivent pourtant donner un certain nombre d'heures de cours pour obtenir leur diplôme.",
+   "La loi leur ouvre ce dispositif."
+  ],
+  "change": [
+   [
+    "Le pacte profite aux moniteurs récemment diplômés.",
+    "Il profite aussi aux moniteurs stagiaires en formation.",
+    "Les moniteurs de ski stagiaires"
+   ],
+   [
+    "—",
+    "Moins d'heures pour les moniteurs âgés au profit des stagiaires.",
+    "Moniteurs ayant atteint l'âge de la retraite"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "La commission des affaires sociales du Sénat",
+    "arg": "Le texte corrige un « défaut » du pacte, fermé aux stagiaires « qui sont pourtant amenés à réaliser un certain nombre d'heures de cours ».",
+    "source": "https://www.senat.fr/lessentiel/ppl23-483.pdf"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "En 1963, le Syndicat national des moniteurs de ski français, qui fédère environ 200 écoles et 16 500 moniteurs, a créé un système réduisant l'activité des moniteurs âgés au profit des jeunes.",
+  "Contesté en justice pour discrimination liée à l'âge, ce système a été revu puis inscrit dans la loi en 2014 sous le nom de « pacte intergénérationnel ».",
+  "Il permet aux écoles de réduire l'activité des moniteurs ayant atteint l'âge légal de la retraite pour favoriser l'insertion des moniteurs récemment diplômés.",
+  "La loi l'ouvre aux moniteurs stagiaires, qui doivent effectuer des heures de cours pendant leur formation pratique.",
+  "Adoptée par l'Assemblée en mars 2024, elle a été votée par le Sénat en juin 2026."
+ ],
+ "pourquoi": [
+  "Selon la synthèse du Sénat, les représentants des moniteurs sont « globalement satisfaits » du pacte, mais il « demeure fermé aux moniteurs de ski stagiaires ».",
+  "Les stagiaires ont besoin d'heures de cours pour valider leur formation."
+ ],
+ "change": [
+  [
+   "Pacte réservé aux moniteurs diplômés.",
+   "Pacte ouvert aux moniteurs stagiaires.",
+   "Moniteurs stagiaires, écoles de ski",
+   "Depuis la promulgation"
+  ]
+ ],
+ "pasfait": [
+  "Elle ne crée pas de nouvelles heures de cours : elle répartit autrement celles des écoles.",
+  "Elle ne change pas l'âge à partir duquel l'activité des moniteurs âgés peut être réduite."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Marie-Noëlle Battistel (socialiste), autrice",
+    "arg": "Ouvrir le pacte aux stagiaires facilite leur formation pratique et leur insertion dans le métier.",
+    "source": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L16N48747"
+   },
+   {
+    "qui": "La commission des affaires sociales du Sénat",
+    "arg": "Le texte corrige un défaut du dispositif de solidarité entre générations.",
+    "source": "https://www.senat.fr/lessentiel/ppl23-483.pdf"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucune opposition n'a été exprimée : la commission des affaires sociales du Sénat a adopté le texte à l'unanimité, en procédure de législation en commission."
+ },
+ "details": [
+  {
+   "titre": "Les écoles du ski français",
+   "texte": "Environ 200 écoles, près de 16 500 moniteurs et 4,6 millions d'heures de cours par an, selon la synthèse du Sénat."
+  },
+  {
+   "titre": "L'historique",
+   "texte": "La Halde (2010) puis le tribunal d'Albertville (2012) avaient jugé l'ancien système discriminatoire ; un nouveau pacte, applicable à partir de 62 ans, a été stabilisé par la loi en 2014."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Sénat, « L'essentiel » sur la proposition de loi (juin 2026)",
+   "url": "https://www.senat.fr/lessentiel/ppl23-483.pdf"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L16N48747"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl23-483.html"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Pacte entre générations",
+    "def": "Dans les écoles du ski, système où les moniteurs âgés réduisent leur activité pour laisser des heures de cours aux jeunes."
+   },
+   {
+    "terme": "Moniteur stagiaire",
+    "def": "Moniteur de ski encore en formation, qui doit donner des cours pratiques."
+   },
+   {
+    "terme": "Discrimination",
+    "def": "Traitement défavorable fondé sur un critère comme l'âge. L'ancien système avait été jugé discriminatoire en 2010 et 2012."
+   },
+   {
+    "terme": "Commission des affaires sociales",
+    "def": "Groupe de sénateurs qui examine d'abord les textes sur le travail et la santé."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Depuis quand les écoles du ski français réduisent-elles l'activité des moniteurs âgés ?",
+    "choix": [
+     "1963",
+     "1990",
+     "2014"
+    ],
+    "bonne": 0,
+    "expl": "La loi de 2014 a encadré ce pacte pour qu'il ne soit pas jugé discriminatoire."
+   },
+   {
+    "q": "Qui profite désormais du pacte, en plus des jeunes diplômés ?",
+    "choix": [
+     "Les skieurs débutants",
+     "Les moniteurs stagiaires en formation",
+     "Les stations de ski"
+    ],
+    "bonne": 1,
+    "expl": "Ils doivent donner des cours pendant leur formation."
+   },
+   {
+    "q": "Comment la commission des affaires sociales du Sénat a-t-elle adopté ce texte ?",
+    "choix": [
+     "Elle l'a rejeté",
+     "À une voix près",
+     "À l'unanimité"
+    ],
+    "bonne": 2,
+    "expl": "Personne ne s'y est opposé."
+   }
+  ],
+  "debat": {
+   "question": "Peut-on réduire l'activité de certains professionnels, selon leur âge, pour laisser de la place à d'autres ?",
+   "consigne": "Personne ne s'est opposé au texte. La classe présente l'objectif des auteurs rapporté dans la fiche, puis relève pourquoi l'ancien système avait été jugé discriminatoire (Halde en 2010, tribunal d'Albertville en 2012). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
+}

@@ -1,0 +1,224 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51670",
+ "titre_officiel": "Proposition de loi relative au droit à l'aide à mourir",
+ "phrase": "Un malade majeur, atteint d'une maladie grave et incurable en phase avancée ou terminale, peut demander une aide à mourir, sous cinq conditions strictes.",
+ "note": "Loi promulguée le 18 août 2026. Elle s'appliquera après la publication des décrets d'application.",
+ "essentiel": {
+  "points": [
+   "Il faut être majeur, français ou résider en France de façon stable et régulière.",
+   "Il faut une maladie grave et incurable en phase avancée ou terminale, et une souffrance que les traitements ne soulagent pas.",
+   "La personne doit pouvoir exprimer une volonté libre et éclairée ; un médecin vérifie les conditions.",
+   "Le malade prend lui-même le produit ; un soignant ne l'aide que s'il en est physiquement incapable."
+  ],
+  "pour": "Olivier Falorni, à l'origine du texte : « une très grande avancée ». Le président de la République salue « un débat démocratique exemplaire ».",
+  "contre": "Des sénateurs LR et des députés de droite : un droit insuffisamment encadré, contraire à la dignité ; des soignants des soins palliatifs regrettent l'absence d'accès préalable garanti."
+ },
+ "court": {
+  "resume": [
+   "Cette loi crée un « droit à l'aide à mourir » : un malade qui remplit cinq conditions peut demander à recevoir un produit mortel, qu'il s'administre lui-même.",
+   "Elle a été adoptée après plus d'un an de navette, l'Assemblée ayant eu le dernier mot le 15 juillet 2026 face au Sénat.",
+   "Le Conseil constitutionnel l'a validée le 14 août 2026, avec trois réserves ; elle a été promulguée le 18 août."
+  ],
+  "change": [
+   [
+    "L'aide à mourir est interdite en France.",
+    "Elle devient possible pour un malade majeur qui remplit cinq conditions, après vérification par un médecin.",
+    "Les malades en fin de vie"
+   ],
+   [
+    "—",
+    "Clause de conscience : un médecin, un infirmier ou un pharmacien peut refuser, mais doit orienter vers un confrère.",
+    "Les soignants"
+   ],
+   [
+    "Un contrat d'assurance décès peut exclure certains décès.",
+    "Les décès liés à l'aide à mourir doivent être couverts, y compris par les contrats en cours.",
+    "Les familles et les assurés"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Olivier Falorni, ancien député MoDem, à l'origine du texte",
+    "arg": "Il parle d'« une très grande avancée ».",
+    "source": "https://fr.euronews.com/2026/08/19/emmanuel-macron-promulgue-la-loi-sur-laide-a-mourir"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "La Société française d'accompagnement et de soins palliatifs",
+    "arg": "Elle regrette qu'aucun accès préalable aux soins palliatifs ne soit exigé, alors qu'une personne sur deux qui en aurait besoin meurt sans y avoir eu accès.",
+    "source": "https://www.24matins.fr/aide-a-mourir-ce-que-change-la-loi-promulguee-le-18-aout-2026-1419406"
+   }
+  ]
+ },
+ "resume": [
+  "Cette loi, issue d'une proposition d'Olivier Falorni, crée un droit à l'aide à mourir : un malade peut, à sa demande et sous conditions, recevoir une substance mortelle.",
+  "Le malade doit en principe se l'administrer lui-même ; un médecin ou un infirmier ne peut le faire que si son état physique l'en empêche.",
+  "Cinq conditions sont exigées : être majeur ; être français ou résider en France de façon stable et régulière ; avoir une maladie grave et incurable en phase avancée ou terminale ; avoir une souffrance liée à la maladie que les traitements ne soulagent pas, ou jugée insupportable par le malade lorsqu'il refuse ou arrête un traitement ; pouvoir exprimer une volonté libre et éclairée.",
+  "Une souffrance uniquement psychologique ne suffit pas.",
+  "Le Conseil constitutionnel a validé la loi avec trois réserves, et des décrets doivent encore être publiés avant son application."
+ ],
+ "pourquoi": [
+  "Ses partisans veulent permettre aux malades en fin de vie dont les souffrances ne peuvent être soulagées de choisir le moment de leur mort, dans un cadre légal.",
+  "Le débat a duré plus de quatre ans ; le Sénat et l'Assemblée ne s'étant pas accordés, l'Assemblée a eu le dernier mot."
+ ],
+ "change": [
+  [
+   "Aide à mourir interdite.",
+   "Possible sous cinq conditions cumulatives, après vérification par un médecin entouré d'autres professionnels.",
+   "Malades majeurs en fin de vie",
+   "Après les décrets d'application"
+  ],
+  [
+   "—",
+   "Clause de conscience pour les médecins, infirmiers et pharmaciens, avec obligation d'orienter vers un confrère.",
+   "Soignants",
+   "Après les décrets d'application"
+  ],
+  [
+   "—",
+   "Le responsable d'un établissement privé peut, dans certaines limites, refuser que la procédure ait lieu dans ses locaux (réserve du Conseil constitutionnel).",
+   "Établissements privés",
+   "Dès la promulgation"
+  ],
+  [
+   "Certains contrats d'assurance décès pouvaient exclure ce type de décès.",
+   "Couverture obligatoire, y compris pour les contrats en cours.",
+   "Assurés et familles",
+   "À l'entrée en application"
+  ]
+ ],
+ "pasfait": [
+  "Elle n'ouvre pas l'aide à mourir aux mineurs, ni pour une souffrance uniquement psychologique.",
+  "Elle n'oblige pas un soignant à y participer.",
+  "Elle ne s'applique pas encore : il faut d'abord les décrets d'application."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Olivier Falorni, à l'origine du texte",
+    "arg": "« Une très grande avancée. »",
+    "source": "https://fr.euronews.com/2026/08/19/emmanuel-macron-promulgue-la-loi-sur-laide-a-mourir"
+   },
+   {
+    "qui": "Emmanuel Macron, président de la République",
+    "arg": "Un droit qui « parachève un débat démocratique exemplaire ».",
+    "source": "https://fr.euronews.com/2026/08/19/emmanuel-macron-promulgue-la-loi-sur-laide-a-mourir"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Des sénateurs Les Républicains et des députés de droite, auteurs de recours",
+    "arg": "Devant le Conseil constitutionnel, ils soutenaient que ce droit serait contraire à la dignité de la personne humaine, faute d'être exceptionnel et assez encadré, et critiquaient l'imprécision de la « phase avancée » et de la souffrance, jugée subjective.",
+    "source": "https://www.conseil-constitutionnel.fr/decision/2026/2026910DC.htm"
+   },
+   {
+    "qui": "La Société française d'accompagnement et de soins palliatifs",
+    "arg": "Aucun accès préalable effectif aux soins palliatifs n'est exigé, alors qu'une personne sur deux qui devrait en bénéficier meurt sans y avoir eu accès.",
+    "source": "https://www.24matins.fr/aide-a-mourir-ce-que-change-la-loi-promulguee-le-18-aout-2026-1419406"
+   },
+   {
+    "qui": "L'association Les Éligibles et leurs aidants (collectif de malades)",
+    "arg": "Elle dénonce « le danger total de cette loi pour les plus vulnérables ».",
+    "source": "https://fr.euronews.com/2026/08/19/emmanuel-macron-promulgue-la-loi-sur-laide-a-mourir"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Les votes à l'Assemblée",
+   "texte": "Première lecture (27 mai 2025) : 305 pour, 199 contre. Deuxième lecture (25 février 2026) : 299 pour, 226 contre. Lecture définitive (15 juillet 2026) : 291 pour, 241 contre, 29 abstentions (scrutin n° 8280). Les votes ont été partagés dans la plupart des groupes : la majorité des députés RN, Droite républicaine, Horizons et UDR ont voté contre, la majorité des autres groupes pour."
+  },
+  {
+   "titre": "Les réserves du Conseil constitutionnel",
+   "texte": "Pour les majeurs protégés, le médecin doit tenir compte des observations de la personne chargée de leur protection ; les pharmaciens disposent d'une clause de conscience individuelle ; le responsable d'un établissement privé peut, dans certaines limites, refuser la procédure dans ses locaux."
+  },
+  {
+   "titre": "À l'étranger",
+   "texte": "Les Pays-Bas (2002), la Belgique, le Luxembourg (2009) et l'Espagne (2021) autorisent l'euthanasie ; la Suisse autorise le suicide assisté."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Conseil constitutionnel, décision n° 2026-910 DC du 14 août 2026",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026910DC.htm"
+  },
+  {
+   "titre": "24matins, « Aide à mourir : ce que change la loi promulguée le 18 août 2026 »",
+   "url": "https://www.24matins.fr/aide-a-mourir-ce-que-change-la-loi-promulguee-le-18-aout-2026-1419406"
+  },
+  {
+   "titre": "Euronews, « Emmanuel Macron promulgue la loi sur l'aide à mourir », 19 août 2026",
+   "url": "https://fr.euronews.com/2026/08/19/emmanuel-macron-promulgue-la-loi-sur-laide-a-mourir"
+  },
+  {
+   "titre": "Scrutin n° 8280 de l'Assemblée nationale (lecture définitive)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8280"
+  }
+ ],
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "version": {
+  "n": 1,
+  "date": "2026-10-20"
+ },
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Aide à mourir",
+    "def": "Possibilité, pour un malade qui remplit des conditions strictes, de demander à mettre fin à ses jours avec un cadre médical."
+   },
+   {
+    "terme": "Soins palliatifs",
+    "def": "Soins qui soulagent la douleur et accompagnent les personnes gravement malades et leurs proches."
+   },
+   {
+    "terme": "Clause de conscience",
+    "def": "Droit pour un soignant de refuser un acte qui heurte ses convictions, en orientant vers un confrère."
+   },
+   {
+    "terme": "Décret d'application",
+    "def": "Texte du Gouvernement qui précise comment la loi s'applique ; la loi s'appliquera après sa publication."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de conditions strictes la loi pose-t-elle ?",
+    "choix": [
+     "Deux",
+     "Cinq",
+     "Douze"
+    ],
+    "bonne": 1,
+    "expl": "Dont une maladie grave et incurable en phase avancée ou terminale."
+   },
+   {
+    "q": "Qui prend le produit ?",
+    "choix": [
+     "Le malade lui-même ; un soignant n'aide que s'il en est physiquement incapable",
+     "Toujours un médecin",
+     "Toujours un proche"
+    ],
+    "bonne": 0,
+    "expl": "Un médecin vérifie les conditions."
+   },
+   {
+    "q": "Que prévoit la clause de conscience ?",
+    "choix": [
+     "Aucun soignant ne peut refuser",
+     "Un médecin, un infirmier ou un pharmacien peut refuser, mais doit orienter vers un confrère",
+     "Seuls les médecins peuvent refuser"
+    ],
+    "bonne": 1,
+    "expl": "Les votes ont été partagés dans la plupart des groupes."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il reconnaître un droit à l'aide à mourir et à quelles conditions ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
+}

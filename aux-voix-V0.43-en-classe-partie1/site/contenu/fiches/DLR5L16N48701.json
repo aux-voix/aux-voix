@@ -1,0 +1,190 @@
+{
+ "publie": true,
+ "dossier": "DLR5L16N48701",
+ "titre_officiel": "Proposition de loi créant une dérogation à la participation minimale pour la maîtrise d’ouvrage pour les communes rurales",
+ "phrase": "Les petites communes rurales pourraient ne payer que 5 % de certains travaux (eau, voirie, rénovation…) au lieu de 20 %, le reste étant subventionné.",
+ "note": "Adopté par l'Assemblée en mars 2025 puis modifié par le Sénat en octobre 2026 : le texte doit revenir à l'Assemblée.",
+ "essentiel": {
+  "points": [
+   "Quand une commune lance des travaux, elle doit en payer au moins 20 % elle-même, même si d'autres collectivités ou l'État la subventionnent.",
+   "Pour les petites communes rurales, ce reste à charge pousse parfois à renoncer à des projets.",
+   "Le texte l'abaisse à 5 % pour certains travaux : eau, assainissement, voirie, ponts, rénovation du patrimoine et des bâtiments."
+  ],
+  "pour": "Tous les groupes ont voté pour : une mesure d'aménagement du territoire pour des communes qui ont peu de moyens.",
+  "contre": "Personne ne s'y est opposé. Le désaccord porte sur les communes concernées : le Sénat cible les plus pauvres, l'Assemblée avait élargi."
+ },
+ "court": {
+  "resume": [
+   "La règle des 20 % date de la réforme des collectivités de 2010 : elle vise à limiter les projets financés presque entièrement par d'autres.",
+   "Des dérogations existent, mais sont rarement accordées : seules quelques dizaines de projets en ont bénéficié en 2022, selon l'administration.",
+   "Selon le rapport, environ 28 500 communes seraient concernées dans la version du Sénat."
+  ],
+  "change": [
+   [
+    "Participation minimale de 20 %.",
+    "5 % pour certains travaux.",
+    "Petites communes rurales"
+   ],
+   [
+    "Dérogation au cas par cas, accordée par le préfet.",
+    "Taux réduit automatique pour les projets visés.",
+    "Maires, préfectures"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Émilie Bonnivard (Droite républicaine)",
+    "arg": "Dans sa circonscription, une commune a dû renoncer à la rénovation énergétique de sa mairie « faute de pouvoir en financer 20 % ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1018.html"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "Le code général des collectivités territoriales impose à la collectivité qui porte un projet d'investissement d'en financer au moins 20 % ; ce taux est déjà plus bas en Corse ou pour certains fonds européens.",
+  "Déposé au Sénat par Dany Wattebled et Marie-Claude Lermytte, le texte voulait d'abord supprimer cette obligation pour toutes les communes rurales ; le Sénat l'a remplacée par un taux de 5 %, pour ne pas « déresponsabiliser » les communes, selon le rapport.",
+  "Les projets visés : rénovation du patrimoine, rénovation énergétique des bâtiments, eau potable et assainissement, voirie communale, ponts et ouvrages d'art, ainsi que la protection contre les incendies ou la prévention des risques naturels selon les versions.",
+  "Le Sénat réserve ce taux aux communes de moins de 2 000 habitants dont le potentiel financier par habitant (une mesure de leur richesse) est inférieur à deux fois la moyenne de ces communes ; l'Assemblée avait retenu la définition réglementaire des communes rurales.",
+  "En deuxième lecture, le 14 octobre 2026, le Sénat est revenu à ses critères : le texte doit repasser devant l'Assemblée."
+ ],
+ "pourquoi": [
+  "Selon le rapport, reporter l'entretien des routes ou des ponts crée une « dette grise » : réparer coûte ensuite bien plus cher qu'entretenir.",
+  "Toujours selon le rapport, les dérogations existantes sont mal connues, complexes à demander et appliquées de façon inégale."
+ ],
+ "change": [
+  [
+   "20 % minimum.",
+   "5 % minimum pour les travaux visés.",
+   "Petites communes rurales",
+   "À l'adoption définitive"
+  ],
+  [
+   "Dérogation au cas par cas.",
+   "Taux réduit inscrit dans la loi.",
+   "Communes, préfectures",
+   "À l'adoption définitive"
+  ]
+ ],
+ "pasfait": [
+  "Il ne crée pas de nouvelles subventions : la commune doit toujours trouver des financeurs pour le reste.",
+  "Il ne concerne ni les grandes communes ni tous les types de travaux."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Christophe Bex (La France insoumise)",
+    "arg": "Pour ces communes, « le taux minimal de 20 % constitue une barrière insurmontable ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1018.html"
+   },
+   {
+    "qui": "Frédéric-Pierre Vos (RN)",
+    "arg": "« Le seuil n'est toutefois pas adapté aux petites communes rurales », dont les ressources ont diminué.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1018.html"
+   },
+   {
+    "qui": "Paul Molac (LIOT)",
+    "arg": "« C'est en quelque sorte une mesure d'aménagement du territoire et de rééquilibrage. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1018.html"
+   },
+   {
+    "qui": "Emmanuel Duplessy (écologiste)",
+    "arg": "Le texte rend automatique une dérogation que les préfets « n'attribuaient qu'au cas par cas ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1018.html"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucune opposition : le texte a été voté à l'unanimité à l'Assemblée. Jean-Michel Brard (Horizons) rappelle toutefois que la règle des 20 % a limité les financements croisés, une pratique qui « présente plusieurs inconvénients »."
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Sénat : adopté en février 2024. Assemblée : adopté avec modifications le 11 mars 2025, par 205 voix contre 0. Sénat, deuxième lecture : adopté avec modifications le 14 octobre 2026."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de la commission des lois, Assemblée nationale (n° 1018)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1018.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 66)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0066.raw"
+  },
+  {
+   "titre": "Texte adopté par le Sénat en deuxième lecture",
+   "url": "https://www.senat.fr/leg/tas26-004.pdf"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl23-004.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L16N48701"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Maîtrise d'ouvrage",
+    "def": "Fait, pour une commune, de commander et de financer des travaux."
+   },
+   {
+    "terme": "Participation minimale",
+    "def": "Part du coût d'un projet qu'une commune doit financer elle-même : 20 % aujourd'hui."
+   },
+   {
+    "terme": "Préfet",
+    "def": "Représentant de l'État dans un département."
+   },
+   {
+    "terme": "Commune rurale",
+    "def": "Commune de campagne, souvent petite et avec peu de moyens financiers."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelle part du coût des travaux une commune doit-elle payer elle-même, selon la règle actuelle ?",
+    "choix": [
+     "5 %",
+     "20 %",
+     "50 %"
+    ],
+    "bonne": 1,
+    "expl": "Même si d'autres collectivités ou l'État subventionnent le projet."
+   },
+   {
+    "q": "À quel taux le texte l'abaisse-t-il pour certains travaux ?",
+    "choix": [
+     "5 %",
+     "10 %",
+     "15 %"
+    ],
+    "bonne": 0,
+    "expl": "Il s'agit de l'eau, de l'assainissement, de la voirie, des ponts et de la rénovation de bâtiments."
+   },
+   {
+    "q": "Où en est le texte d'après la fiche ?",
+    "choix": [
+     "Il est promulgué",
+     "Le Sénat l'a modifié en octobre 2026 : il doit revenir à l'Assemblée",
+     "L'Assemblée l'a rejeté"
+    ],
+    "bonne": 1,
+    "expl": "Le désaccord porte sur les communes concernées : le Sénat cible les plus pauvres, l'Assemblée avait élargi."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il alléger la part que paient les petites communes pour leurs travaux, et pour lesquelles ?",
+   "consigne": "Aucun groupe n'a voté contre : le désaccord porte sur les communes concernées. La classe présente la position du Sénat et celle de l'Assemblée rapportées dans la fiche, puis cherche selon quels critères on pourrait choisir les communes aidées. On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
+}

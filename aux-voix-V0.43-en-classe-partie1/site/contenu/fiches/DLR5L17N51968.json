@@ -1,0 +1,227 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51968",
+ "titre_officiel": "Proposition de loi visant à améliorer l’accès au logement des travailleurs des services publics",
+ "phrase": "Les employeurs publics (hôpitaux, État, mairies) disposent de nouveaux outils pour loger leurs agents, notamment des logements sociaux attribués en raison de leur fonction.",
+ "note": "Loi promulguée le 29 juin 2026, après un accord entre députés et sénateurs.",
+ "essentiel": {
+  "points": [
+   "Beaucoup d'hôpitaux et de services publics peinent à recruter faute de logements abordables.",
+   "Un logement social pourra être attribué à un agent en raison de sa fonction, plus facilement qu'avant.",
+   "L'État obtient plus de logements réservés quand il cède un terrain pour construire du logement social.",
+   "Les maires pourront loger certains agents publics en puisant dans le quota de logements du préfet."
+  ],
+  "pour": "La droite, le centre et le RN : sans logement, les services publics ne peuvent ni recruter ni garder leurs agents.",
+  "contre": "La gauche a voté contre : lier le logement à l'emploi fragilise les agents, qui peuvent perdre les deux à la fois."
+ },
+ "court": {
+  "resume": [
+   "Selon le rapporteur, des employeurs publics de toute la France n'arrivent pas à recruter faute de logements, en Île-de-France mais aussi dans des villes moyennes, sur le littoral ou près des frontières.",
+   "Le texte facilite l'attribution de logements sociaux « liés à une fonction », augmente les logements réservés aux employeurs publics et simplifie la construction ou la gestion de logements sur leurs terrains.",
+   "Il a été adopté définitivement le 17 juin 2026 par 292 voix contre 160 ; la gauche a voté contre."
+  ],
+  "change": [
+   [
+    "Clause de fonction dans le parc social peu utilisée.",
+    "Logement social attribué en raison de la fonction ; un décret fixe les cas où l'agent peut le garder s'il change d'emploi.",
+    "Agents publics, bailleurs sociaux"
+   ],
+   [
+    "Droits de réservation limités en cas de cession d'un terrain avec décote.",
+    "Plafond relevé : plus de logements réservés pour les agents de l'État.",
+    "État employeur"
+   ],
+   [
+    "Terrains réservés aux équipements publics dans les plans d'urbanisme.",
+    "Possibilité d'y construire des logements, par dérogation.",
+    "Employeurs publics, communes"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "David Amiel (Ensemble pour la République), auteur et premier rapporteur",
+    "arg": "Des employeurs publics « alertent sur les difficultés à proposer à leurs agents un logement » ou à recruter, faute de logement disponible dans le parc privé.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1449.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Inaki Echaniz (socialiste)",
+    "arg": "Subordonner un logement à un emploi est « dangereux » : un agent pourrait « perdre dans le même temps leur emploi et leur logement ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1449.html"
+   }
+  ]
+ },
+ "resume": [
+  "Les agents publics représentent 20 % de l'emploi en France ; contrairement aux salariés du privé, ils ne bénéficient pas d'Action logement, rappelle la présidente de la commission mixte paritaire.",
+  "Le texte encadre et élargit la « clause de fonction » : un logement social peut être attribué à un agent en raison de son emploi, un décret précisant quand il peut le conserver après avoir quitté ses fonctions.",
+  "Il relève le nombre de logements que l'État peut réserver quand il cède un terrain avec une décote, et permet aux maires d'attribuer à certains agents des logements du contingent du préfet.",
+  "Il autorise la construction de logements sur des terrains réservés aux équipements publics et facilite la gestion des logements détenus par les employeurs publics, dont les hôpitaux.",
+  "Il demande au Gouvernement un rapport sur la création d'un « Action logement du secteur public »."
+ ],
+ "pourquoi": [
+  "Selon le rapporteur, les tensions touchent aussi des villes moyennes, le littoral, les zones frontalières et des bassins hospitaliers ; elles ont été décrites dans un rapport qu'il a remis au Premier ministre.",
+  "Le texte veut lever des obstacles juridiques : droits de réservation insuffisants, gestion « en flux » inadaptée, règles d'urbanisme rigides."
+ ],
+ "change": [
+  [
+   "Clause de fonction prévue par le code de la construction, peu appliquée.",
+   "Clause encadrée et élargie ; un décret définit les situations où l'agent garde son logement en cas de fin de fonctions.",
+   "Agents publics, bailleurs sociaux",
+   "Selon le décret"
+  ],
+  [
+   "Gestion « en flux » des logements sociaux réservés.",
+   "Gestion « en stock » possible pour certains logements attribués à des fonctions sensibles (sécurité).",
+   "Policiers, gendarmes, agents concernés",
+   "Depuis la promulgation"
+  ],
+  [
+   "—",
+   "Les maires peuvent attribuer à certains agents publics des logements du contingent préfectoral.",
+   "Agents publics, communes",
+   "Depuis la promulgation"
+  ],
+  [
+   "—",
+   "Rapport du Gouvernement sur un « Action logement du secteur public », en concertation avec les syndicats et employeurs publics.",
+   "Fonction publique",
+   "Dans un délai fixé par la loi"
+  ]
+ ],
+ "pasfait": [
+  "Elle ne crée pas d'« Action logement » pour le secteur public : elle demande seulement un rapport.",
+  "Elle ne construit pas directement de logements : elle donne des outils juridiques aux employeurs publics."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "David Amiel (Ensemble pour la République), auteur",
+    "arg": "Le logement des agents publics est devenu « essentiel pour garantir le bon fonctionnement des services publics ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1449.html"
+   },
+   {
+    "qui": "Dominique Estrosi Sassone (Les Républicains), présidente de la commission mixte paritaire",
+    "arg": "Un « compromis équilibré » qui donne de nouveaux outils aux employeurs publics pour recruter, fidéliser et rendre leurs emplois attractifs.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2700.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Inaki Echaniz (socialiste)",
+    "arg": "Le lien entre logement et emploi est risqué, notamment pour des agents communaux, « compte tenu des enjeux électoraux » ; il vaudrait mieux le limiter aux métiers essentiels.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1449.html"
+   },
+   {
+    "qui": "François Piquemal (La France insoumise)",
+    "arg": "Le texte ne répond pas à la crise du logement, alors que le nombre de sans-abri morts dans la rue et les expulsions augmentent.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1449.html"
+   },
+   {
+    "qui": "Stéphane Peu (GDR)",
+    "arg": "La construction est revenue au niveau de 1991, conséquence de choix politiques ; ce texte ne s'attaque pas à ces causes.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1449.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Les rapporteurs successifs",
+   "texte": "David Amiel, devenu ministre, puis Antoine Armand et Annaïg Le Meur (Ensemble pour la République) à l'Assemblée ; Amel Gacquerre au Sénat."
+  },
+  {
+   "titre": "Une critique venue aussi du RN en commission",
+   "texte": "Frédéric Falcon (RN) a jugé la réforme « superficielle » face à 2,4 millions de ménages demandeurs d'un logement social, avant que son groupe vote pour le texte final."
+  },
+  {
+   "titre": "Les votes",
+   "texte": "Assemblée, première lecture : 46 pour, 7 contre, 11 abstentions (12 janvier 2026, scrutin n° 4962). Texte de la commission mixte paritaire : 292 pour, 160 contre (17 juin 2026, scrutin n° 7408)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de David Amiel, Assemblée nationale (n° 1449)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1449.html"
+  },
+  {
+   "titre": "Rapport de la commission mixte paritaire (n° 2700)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2700.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51968"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl25-273.html"
+  },
+  {
+   "titre": "Scrutin n° 7408 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/7408"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Logement social",
+    "def": "Logement à loyer modéré attribué sous conditions."
+   },
+   {
+    "terme": "Clause de fonction",
+    "def": "Règle qui permet d'attribuer un logement en raison du poste occupé."
+   },
+   {
+    "terme": "Commission mixte paritaire",
+    "def": "Réunion de députés et de sénateurs pour trouver un texte commun."
+   },
+   {
+    "terme": "Décret",
+    "def": "Texte du Gouvernement qui précise l'application d'une loi."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Pour quels agents le texte crée-t-il de nouveaux outils ?",
+    "choix": [
+     "Seulement les policiers",
+     "Les agents des services publics, hôpitaux, État, mairies",
+     "Les salariés du privé"
+    ],
+    "bonne": 1,
+    "expl": "Pour recruter et garder des agents."
+   },
+   {
+    "q": "Quel vote final à l'Assemblée sur le texte de la CMP ?",
+    "choix": [
+     "292 pour, 160 contre",
+     "46 pour, 7 contre",
+     "Unanimité"
+    ],
+    "bonne": 0,
+    "expl": "Le 17 juin 2026."
+   },
+   {
+    "q": "Quelle critique la gauche formule-t-elle ?",
+    "choix": [
+     "Le texte coûte trop cher",
+     "Lier logement et emploi fragilise les agents",
+     "Le texte est trop long"
+    ],
+    "bonne": 1,
+    "expl": "Un agent peut perdre emploi et logement à la fois."
+   }
+  ],
+  "debat": {
+   "question": "Un employeur public doit-il pouvoir loger ses agents, et avec quelles protections pour eux ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
+}

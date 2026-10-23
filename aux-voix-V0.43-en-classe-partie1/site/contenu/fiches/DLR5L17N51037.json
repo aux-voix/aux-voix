@@ -1,0 +1,236 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51037",
+ "titre_officiel": "Proposition de loi visant à reconnaître une présomption de légitime défense pour les forces de l'ordre, dans l'exercice de leurs fonctions",
+ "phrase": "Un policier ou un gendarme qui tire serait présumé l'avoir fait légalement ; ce serait à l'enquête de prouver le contraire. Le Sénat doit encore se prononcer.",
+ "note": "Texte adopté par l'Assemblée en première lecture le 7 juillet 2026. Le Sénat doit encore l'examiner : il peut changer.",
+ "essentiel": {
+  "points": [
+   "Aujourd'hui, un policier qui tire doit montrer que son geste était absolument nécessaire et proportionné.",
+   "Le texte prévoit qu'il serait présumé avoir respecté ces conditions, sauf preuve contraire.",
+   "Il concerne la police et la gendarmerie nationales, pas les polices municipales.",
+   "Adopté par 313 voix contre 199, il doit encore passer au Sénat."
+  ],
+  "pour": "Ses partisans (droite, centre, RN) : les forces de l'ordre ne doivent pas être « automatiquement » suspectées après avoir utilisé leur arme.",
+  "contre": "La gauche, des associations et le Défenseur des droits : un « permis de tuer » qui affaiblirait les enquêtes sur les tirs policiers."
+ },
+ "court": {
+  "resume": [
+   "Depuis 2017, policiers et gendarmes peuvent utiliser leur arme dans cinq situations, à condition que ce soit « absolument nécessaire » et « strictement proportionné ».",
+   "Le texte prévoit qu'ils soient présumés avoir respecté ces conditions ; cette présomption peut être renversée par « tout élément de preuve contraire ».",
+   "Adopté en première lecture le 7 juillet 2026 par 313 voix contre 199, après un débat très tendu, il doit encore être examiné par le Sénat."
+  ],
+  "change": [
+   [
+    "En cas de tir, l'enquête vérifie si les conditions de la loi étaient remplies.",
+    "Le policier ou le gendarme est présumé avoir respecté ces conditions, sauf preuve contraire.",
+    "Policiers et gendarmes nationaux"
+   ],
+   [
+    "La présomption de légitime défense n'existe que dans deux cas (intrusion de nuit, vol avec violence).",
+    "Un nouveau cas de présomption, propre aux forces de l'ordre.",
+    "Les personnes visées par un tir"
+   ],
+   [
+    "—",
+    "Les policiers municipaux ne sont pas concernés, contrairement au texte de départ.",
+    "Polices municipales"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Laurent Nuñez, ministre de l'Intérieur",
+    "arg": "« Ce texte n'organise aucune irresponsabilité pénale » : dès que les conditions ne sont pas réunies, « n'importe quel procureur pourra renverser cette présomption ».",
+    "source": "https://lcp.fr/actualites/l-assemblee-approuve-la-presomption-d-usage-legitime-de-l-arme-pour-les-forces-de-l"
+   },
+   {
+    "qui": "Éric Pauget (Droite républicaine), auteur",
+    "arg": "Face à des violences croissantes, les agents doivent être protégés d'une judiciarisation vécue comme une remise en cause de leur engagement.",
+    "source": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51037"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Manuel Bompard (La France insoumise)",
+    "arg": "Avec la présomption, « il sera trop tard pour récolter les éléments nécessaires à la manifestation de la vérité » dans l'enquête.",
+    "source": "https://lcp.fr/actualites/l-assemblee-approuve-la-presomption-d-usage-legitime-de-l-arme-pour-les-forces-de-l"
+   },
+   {
+    "qui": "Pouria Amirshahi (écologiste)",
+    "arg": "« Ce texte ne protège pas les bons policiers, il abrite les autres. »",
+    "source": "https://lcp.fr/actualites/l-assemblee-approuve-la-presomption-d-usage-legitime-de-l-arme-pour-les-forces-de-l"
+   }
+  ]
+ },
+ "resume": [
+  "La légitime défense permet de se défendre ou de défendre autrui si le geste est nécessaire et proportionné ; depuis 2017, un article du code de la sécurité intérieure fixe cinq situations où policiers et gendarmes peuvent faire usage de leur arme.",
+  "Le texte de départ d'Éric Pauget (Droite républicaine) créait une « présomption de légitime défense » ; le Gouvernement l'a remplacée par une « présomption d'usage légitime de l'arme ».",
+  "Selon la version adoptée, policiers et gendarmes nationaux qui font usage de leur arme sont présumés avoir agi dans les cas autorisés, de façon absolument nécessaire et strictement proportionnée ; la présomption peut être renversée par toute preuve contraire.",
+  "Le texte a été adopté le 7 juillet 2026 par 313 voix contre 199 : le socle gouvernemental et le RN pour, la gauche contre.",
+  "Il a été transmis au Sénat."
+ ],
+ "pourquoi": [
+  "Selon son auteur, les forces de l'ordre font face à des agressions plus fréquentes et plus graves, parfois avec des armes de guerre, et à une « judiciarisation » de leurs actions vécue comme une remise en question de leur engagement.",
+  "Le texte, présenté dans la « niche » du groupe Droite républicaine en janvier 2026, n'avait pas pu être voté en raison de l'obstruction de la gauche ; le Gouvernement l'a inscrit en session extraordinaire."
+ ],
+ "change": [
+  [
+   "Usage de l'arme autorisé dans cinq situations, si absolument nécessaire et strictement proportionné ; ces conditions sont vérifiées par l'enquête.",
+   "Les agents sont présumés avoir respecté ces conditions ; la présomption peut être renversée « à tout moment » par une preuve contraire.",
+   "Policiers nationaux et gendarmes",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "Présomption de légitime défense seulement dans deux cas prévus par le code pénal.",
+   "Une présomption propre aux forces de l'ordre, inscrite dans le code de la sécurité intérieure.",
+   "Toute personne visée par un tir",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "Le texte initial visait aussi les policiers municipaux.",
+   "Ils ne sont plus concernés dans la version adoptée.",
+   "Polices municipales",
+   "—"
+  ]
+ ],
+ "pasfait": [
+  "Il ne supprime pas l'enquête ni les poursuites : la présomption est « simple » et peut être renversée.",
+  "Il n'est pas encore en vigueur : le Sénat doit l'examiner."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Laurent Nuñez, ministre de l'Intérieur",
+    "arg": "« Arrêtons les fantasmes. Ce texte n'organise aucune irresponsabilité pénale des policiers et des gendarmes. »",
+    "source": "https://lcp.fr/actualites/l-assemblee-approuve-la-presomption-d-usage-legitime-de-l-arme-pour-les-forces-de-l"
+   },
+   {
+    "qui": "Les partisans du texte (Droite républicaine, socle gouvernemental, RN)",
+    "arg": "Les forces de l'ordre ne doivent pas être « automatiquement » suspectées après une intervention où elles ont utilisé leur arme.",
+    "source": "https://lcp.fr/actualites/l-assemblee-approuve-la-presomption-d-usage-legitime-de-l-arme-pour-les-forces-de-l"
+   },
+   {
+    "qui": "Éric Pauget (Droite républicaine), auteur",
+    "arg": "La présomption protège les agents face à des menaces croissantes, sans les soustraire au contrôle de la justice.",
+    "source": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51037"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Manuel Bompard (La France insoumise)",
+    "arg": "La présomption ferait perdre du temps à l'enquête : « il sera trop tard pour récolter les éléments nécessaires à la manifestation de la vérité ».",
+    "source": "https://lcp.fr/actualites/l-assemblee-approuve-la-presomption-d-usage-legitime-de-l-arme-pour-les-forces-de-l"
+   },
+   {
+    "qui": "Elsa Faucillon (Gauche démocrate et républicaine)",
+    "arg": "« Demain il y aura plus de morts et vous en serez comptables. »",
+    "source": "https://lcp.fr/actualites/l-assemblee-approuve-la-presomption-d-usage-legitime-de-l-arme-pour-les-forces-de-l"
+   },
+   {
+    "qui": "Le Défenseur des droits, la CNCDH, Amnesty International, la Ligue des droits de l'Homme, le Syndicat de la magistrature",
+    "arg": "Ils se sont opposés au texte ou ont alerté sur ses risques ; une pétition contre lui a dépassé 300 000 signatures sur le site de l'Assemblée le jour du vote.",
+    "source": "https://lcp.fr/actualites/l-assemblee-approuve-la-presomption-d-usage-legitime-de-l-arme-pour-les-forces-de-l"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote par groupe",
+   "texte": "Pour : RN (122), EPR (55, et 12 contre), Droite républicaine (48), Démocrates (28, 1 contre, 5 abstentions), Horizons (31), UDR (14), LIOT partagé (9 pour, 8 contre). Contre : LFI (69), socialistes (62), écologistes (29), GDR (17). Scrutin n° 7987."
+  },
+  {
+   "titre": "Le droit actuel",
+   "texte": "Article 122-5 du code pénal (légitime défense), article 122-6 (deux présomptions : intrusion de nuit dans un lieu habité, vols ou pillages avec violence) et article L. 435-1 du code de la sécurité intérieure (usage des armes par les forces de l'ordre, depuis 2017)."
+  },
+  {
+   "titre": "Une analyse juridique",
+   "texte": "Pour Benjamin Fiorini, maître de conférences à Paris 8, ce serait « une évolution radicale du droit français », la présomption n'existant aujourd'hui que dans deux cas (Club des juristes, 10 juillet 2026)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "LCP : l'Assemblée approuve la présomption d'usage légitime de l'arme, 7 juillet 2026",
+   "url": "https://lcp.fr/actualites/l-assemblee-approuve-la-presomption-d-usage-legitime-de-l-arme-pour-les-forces-de-l"
+  },
+  {
+   "titre": "Le Club des juristes : ce que changerait la présomption, 10 juillet 2026",
+   "url": "https://www.leclubdesjuristes.com/societe/ce-que-changerait-la-presomption-de-legitime-defense-pour-les-forces-de-lordre-16913/"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51037"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl25-866.html"
+  },
+  {
+   "titre": "Scrutin n° 7987 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/7987"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Légitime défense",
+    "def": "Droit de se défendre, en respectant des conditions de nécessité et de proportion."
+   },
+   {
+    "terme": "Présomption",
+    "def": "Fait de considérer quelque chose comme vrai tant que le contraire n'est pas prouvé."
+   },
+   {
+    "terme": "Défenseur des droits",
+    "def": "Autorité indépendante chargée de veiller au respect des droits des citoyens."
+   },
+   {
+    "terme": "Première lecture",
+    "def": "Premier examen d'un texte par une assemblée ; le Sénat doit encore l'examiner."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Que prévoit le texte pour un policier ou un gendarme qui tire ?",
+    "choix": [
+     "Il serait présumé avoir respecté les conditions de la légitime défense, sauf preuve contraire",
+     "Il ne serait jamais enquêté",
+     "Il devrait toujours prouver sa bonne foi"
+    ],
+    "bonne": 0,
+    "expl": "Aujourd'hui, il doit montrer que son geste était absolument nécessaire et proportionné."
+   },
+   {
+    "q": "Qui est concerné par le texte ?",
+    "choix": [
+     "Les polices municipales",
+     "La police et la gendarmerie nationales",
+     "Tous les citoyens"
+    ],
+    "bonne": 1,
+    "expl": "Les policiers municipaux ne sont pas concernés."
+   },
+   {
+    "q": "Combien de députés ont voté pour, d'après la fiche ?",
+    "choix": [
+     "50",
+     "313",
+     "Aucun"
+    ],
+    "bonne": 1,
+    "expl": "Contre : 199. Le texte doit encore passer au Sénat."
+   }
+  ],
+  "debat": {
+   "question": "Un policier qui tire doit-il être présumé avoir agi légalement, ou l'enquête doit-elle tout vérifier ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
+}

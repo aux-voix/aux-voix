@@ -1,0 +1,187 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51599",
+ "titre_officiel": "Projet de loi autorisant l’approbation de la convention d’entraide judiciaire en matière pénale et de la convention d’extradition entre la France et le Panama",
+ "phrase": "La France et le Panama se dotent de règles communes pour s'entraider dans les enquêtes pénales et se remettre les personnes poursuivies ou condamnées.",
+ "note": "Loi promulguée le 21 juillet 2025, adoptée sans scrutin public.",
+ "essentiel": {
+  "points": [
+   "Jusqu'ici, la France et le Panama n'avaient aucun accord bilatéral : les demandes d'entraide judiciaire étaient traitées au cas par cas.",
+   "Les deux conventions, signées en 2023, encadrent l'entraide dans les enquêtes pénales et l'extradition ; le secret bancaire ne peut pas justifier un refus.",
+   "Depuis 2014, la France a adressé 49 demandes d'entraide au Panama ; trois demandes d'extradition ont été échangées."
+  ],
+  "pour": "La plupart des groupes : mieux lutter contre le blanchiment, la fraude fiscale et le trafic de drogue.",
+  "contre": "LFI s'est abstenue en commission, inquiète du sort des opposants au Panama ; des socialistes jugent ses progrès fiscaux insuffisants."
+ },
+ "court": {
+  "resume": [
+   "Le Panama, au cœur du scandale des « Panama Papers » en 2016, figure encore sur la liste noire des paradis fiscaux de l'Union européenne, selon le député socialiste Julien Gokel.",
+   "Une extradition peut être refusée pour une infraction politique, en cas de risque de peine de mort ou de poursuites discriminatoires.",
+   "Le Panama a ratifié les deux conventions en octobre 2024."
+  ],
+  "change": [
+   [
+    "Entraide au cas par cas, selon la réciprocité.",
+    "Cadre commun : autorités, formats et délais des demandes fixés.",
+    "Magistrats, enquêteurs"
+   ],
+   [
+    "Pas de convention d'extradition.",
+    "Règles communes d'extradition.",
+    "Personnes poursuivies ou condamnées"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Eléonore Caroit (Ensemble pour la République), rapporteure",
+    "arg": "« Le Panama a énormément progressé. Il faut l'aider à se doter des instruments qui lui permettront de ne pas être à la merci des réseaux et des actions criminels. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1426.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Nadège Abomangoli (La France insoumise)",
+    "arg": "Le système judiciaire du Panama « pose encore des problèmes sérieux que l'approbation des conventions pourrait occulter ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1426.html"
+   }
+  ]
+ },
+ "resume": [
+  "Convention d'entraide (36 articles) : les deux pays s'engagent à l'entraide « la plus large possible » dans les enquêtes pénales, y compris pour les infractions fiscales ; le secret bancaire ne peut être opposé.",
+  "Elle prévoit la localisation de personnes et d'objets, la notification d'actes judiciaires et la confidentialité des demandes, pour éviter la fuite de suspects ou la perte de preuves.",
+  "Convention d'extradition (27 articles) : chaque pays peut remettre à l'autre une personne poursuivie ou condamnée, sauf infraction politique, risque de peine de mort ou de traitement discriminatoire.",
+  "Le Panama a aboli la peine de mort dès 1903 ; la clause vise des garanties de principe.",
+  "Depuis 2014, 49 demandes d'entraide françaises et 10 panaméennes ont été formulées, et trois demandes d'extradition, toutes françaises."
+ ],
+ "pourquoi": [
+  "Selon la rapporteure, ces accords, négociés pendant une dizaine d'années, doivent renforcer la lutte contre la délinquance financière et la criminalité organisée.",
+  "Le Panama, carrefour logistique entre deux océans, est exposé au trafic de drogue et au blanchiment."
+ ],
+ "change": [
+  [
+   "Coopération au cas par cas.",
+   "Coopération judiciaire encadrée par traité.",
+   "Justice française et panaméenne",
+   "À l'entrée en vigueur des conventions"
+  ]
+ ],
+ "pasfait": [
+  "Il ne retire pas le Panama des listes de paradis fiscaux et ne règle pas la question fiscale en tant que telle.",
+  "Il ne crée aucune nouvelle infraction : il organise seulement la coopération entre les justices des deux pays."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Bruno Fuchs (Les Démocrates), président de la commission des affaires étrangères",
+    "arg": "Les conventions visent à lutter contre la criminalité transnationale, « notamment en matière de trafic de stupéfiants », et contre les infractions économiques et financières.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1426.html"
+   },
+   {
+    "qui": "Laurent Mazaury (LIOT)",
+    "arg": "Jusqu'ici, l'absence de cadre bilatéral contraignant « rendait notre coopération fragile, incertaine, voire inefficace ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1426.html"
+   },
+   {
+    "qui": "Julien Gokel (socialiste)",
+    "arg": "L'absence d'accord limitait l'entraide à des échanges au cas par cas ; il espère que le texte permettra de « recouvrer les sommes ayant fait l'objet de fraude ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1426.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Nadège Abomangoli (La France insoumise)",
+    "arg": "Son groupe s'abstient : en février, 450 manifestants contre une réforme des retraites ont été arrêtés au Panama, et le président les a qualifiés de « terroristes ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1426.html"
+   },
+   {
+    "qui": "Julien Gokel (socialiste)",
+    "arg": "Il dénonce « les insuffisants progrès du Panama en matière fiscale » et des propos de son président qualifiant les Panama Papers de « manipulation médiatique ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1426.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Assemblée : adopté le 22 mai 2025. Sénat : adopté le 10 juillet 2025. Les conventions avaient été signées à Panama le 11 juillet 2023."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport d'Eléonore Caroit, Assemblée nationale (n° 1426)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1426.html"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/pjl24-651.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51599"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Entraide judiciaire",
+    "def": "Coopération entre deux pays pour mener des enquêtes pénales."
+   },
+   {
+    "terme": "Extradition",
+    "def": "Remise par un pays à un autre d'une personne poursuivie ou condamnée."
+   },
+   {
+    "terme": "Convention bilatérale",
+    "def": "Accord signé entre deux pays."
+   },
+   {
+    "terme": "Secret bancaire",
+    "def": "Règle qui interdit aux banques de révéler les informations sur leurs clients."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qu'est-ce que l'extradition ?",
+    "choix": [
+     "Remise d'une personne poursuivie ou condamnée à un autre pays",
+     "Vente d'une entreprise",
+     "Visite officielle"
+    ],
+    "bonne": 0,
+    "expl": "Les deux conventions encadrent l'entraide et l'extradition."
+   },
+   {
+    "q": "Le secret bancaire peut-il justifier un refus d'entraide ?",
+    "choix": [
+     "Oui, toujours",
+     "Non, selon les conventions",
+     "Seulement pour les petits montants"
+    ],
+    "bonne": 1,
+    "expl": "Ces conventions visent à lutter contre le blanchiment et la fraude fiscale."
+   },
+   {
+    "q": "Combien de demandes d'entraide la France a-t-elle adressées au Panama depuis 2014 ?",
+    "choix": [
+     "4",
+     "490",
+     "49"
+    ],
+    "bonne": 2,
+    "expl": "Trois demandes d'extradition ont été échangées."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il coopérer judiciairement avec un pays même si certaines de ses pratiques sont critiquées ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
+}

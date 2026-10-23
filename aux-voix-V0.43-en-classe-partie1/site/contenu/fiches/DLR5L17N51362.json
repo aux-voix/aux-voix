@@ -1,0 +1,196 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N51362",
+ "titre_officiel": "Projet de loi autorisant la ratification de la résolution LP.3(4) portant amendement de l’article 6 du Protocole de Londres de 1996",
+ "phrase": "La France autorise l'export de CO2 capté dans ses usines vers des sites de stockage sous la mer, en mer du Nord surtout ; l'Assemblée l'avait d'abord rejeté.",
+ "note": "Loi promulguée le 23 juin 2025, après un premier rejet par l'Assemblée.",
+ "essentiel": {
+  "points": [
+   "Le protocole de Londres interdit en principe d'immerger des déchets en mer ; un amendement de 2009 permet d'exporter du CO2 pour le stocker sous les fonds marins.",
+   "La France n'a pas de site de stockage prêt : ses industriels comptent envoyer leur CO2 capté vers la Norvège, les Pays-Bas ou le Royaume-Uni.",
+   "L'Assemblée a rejeté le texte en avril 2025, puis l'a adopté en juin après une commission mixte paritaire."
+  ],
+  "pour": "Macronistes, droite, MoDem, Horizons, puis RN : un outil pour décarboner ciment, acier et chimie d'ici 2050.",
+  "contre": "LFI, écologistes, communistes et une partie de LIOT : un « leurre » qui permet aux industriels de continuer à polluer ; socialistes abstenus."
+ },
+ "court": {
+  "resume": [
+   "Selon le rapporteur du Sénat, sans cette ratification, la France ne pourrait pas tenir sa trajectoire de neutralité carbone pour les industries qui utiliseront encore des énergies fossiles.",
+   "À Dunkerque, le projet D'Artagnan doit acheminer 1,5 million de tonnes de CO2 par an vers un terminal d'export, avec 161 millions d'euros d'aide européenne.",
+   "Le 10 avril 2025, le texte a été rejeté par 55 voix contre 49, le RN s'abstenant ; en juin, le RN a voté pour."
+  ],
+  "change": [
+   [
+    "Export de CO2 pour stockage sous la mer non ratifié par la France.",
+    "Export autorisé vers des pays partenaires.",
+    "Industriels, ports"
+   ],
+   [
+    "Stockage du CO2 uniquement envisagé en France.",
+    "Accès aux sites de la mer du Nord.",
+    "Cimenteries, aciéries, chimie"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Philippe Folliot (centriste), rapporteur au Sénat",
+    "arg": "Cette possibilité « conditionne le respect, par la France, de sa trajectoire de neutralité carbone à l'horizon 2050 ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1428.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Sabrina Sebaihi (écologiste)",
+    "arg": "« Le stockage du CO2 sous les mers n'est pas une panacée mais un leurre, car ainsi on ne se confronte pas aux problèmes sous-jacents. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1186.html"
+   }
+  ]
+ },
+ "resume": [
+  "Le protocole de 1996 inverse la logique de la convention de 1972 : toute immersion de déchets est interdite, sauf exceptions ; le stockage de CO2 sous les fonds marins en est une depuis 2006.",
+  "La résolution LP.3(4) de 2009 modifie l'article 6 du protocole, qui interdisait d'exporter des déchets pour les immerger, afin d'autoriser l'export de CO2 à des fins de stockage géologique.",
+  "Les sites envisagés sont surtout d'anciens gisements de gaz en mer du Nord, au large de la Norvège, des Pays-Bas et du Royaume-Uni, et dans une moindre mesure en Grèce et en Italie.",
+  "Projets français cités : D'Artagnan et EU2NSEA à Dunkerque, d'autres en Normandie et autour de Fos ; selon le rapporteur Xavier Lacombe (Horizons), les industriels paieront, au nom du principe pollueur-payeur.",
+  "Le captage ne concerne que de grandes installations industrielles, car il exige de lourds investissements."
+ ],
+ "pourquoi": [
+  "Selon le rapport, le captage et le stockage du carbone figurent dans la plupart des scénarios français de neutralité carbone en 2050.",
+  "Le député Pierre Pribetich (socialiste) relève une « aberration démocratique » : un amendement de 2009, appliqué provisoirement depuis 2019, ratifié seulement en 2025."
+ ],
+ "change": [
+  [
+   "Pas de ratification française.",
+   "Ratification autorisée.",
+   "Industriels émetteurs de CO2",
+   "Depuis juin 2025"
+  ]
+ ],
+ "pasfait": [
+  "Il ne crée pas de site de stockage de CO2 en France.",
+  "Il ne fixe pas d'objectif de réduction des émissions à la source."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Hervé Berville (Ensemble pour la République), rapporteur",
+    "arg": "Le stockage géologique est « non pas une alternative mais une option complémentaire » pour la neutralité carbone, dont le coût devra être assumé « exclusivement par les industriels ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1186.html"
+   },
+   {
+    "qui": "Xavier Lacombe (Horizons), rapporteur",
+    "arg": "Le texte doit permettre à l'industrie, « sans laquelle nous ne pourrions pas vivre », de réduire ses émissions.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1186.html"
+   },
+   {
+    "qui": "Cédric Perrin (LR), sénateur",
+    "arg": "Le Sénat l'avait adopté « à l'unanimité et quasiment sans débat » ; son groupe le vote à nouveau.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1428.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Davy Rimane (Gauche démocrate et républicaine)",
+    "arg": "« Le CSC est un mirage technologique qui permet surtout aux industriels les plus polluants de continuer à émettre. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1186.html"
+   },
+   {
+    "qui": "Pierre-Yves Cadalen (La France insoumise)",
+    "arg": "Les amendements au protocole de Londres « racontent à eux seuls l'histoire d'une illusion ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1186.html"
+   },
+   {
+    "qui": "Alexandra Masson (RN), en commission",
+    "arg": "Elle dénonçait « la banalisation de l'immersion des déchets dans les fonds marins » et l'absence de stratégie nationale ; son groupe a voté pour en juin.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1186.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Sénat : adopté le 12 février 2025. Assemblée : rejeté le 10 avril 2025 (55 voix contre 49). Accord en commission mixte paritaire le 14 mai sur le texte du Sénat ; adopté par le Sénat le 2 juin et par l'Assemblée le 17 juin 2025 (261 voix contre 107, 40 abstentions)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Xavier Lacombe, Assemblée nationale (n° 1186)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1186.html"
+  },
+  {
+   "titre": "Rapport de la commission mixte paritaire (n° 1428)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1428.html"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/pjl23-715.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51362"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-23"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Captage et stockage du CO2",
+    "def": "Techniques qui récupèrent le CO2 des usines pour l'enfouir."
+   },
+   {
+    "terme": "Protocole de Londres",
+    "def": "Accord international qui interdit en principe d'immerger des déchets en mer."
+   },
+   {
+    "terme": "Décarboner",
+    "def": "Réduire les émissions de CO2."
+   },
+   {
+    "terme": "Commission mixte paritaire",
+    "def": "Réunion de députés et de sénateurs chargés de trouver un texte commun."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qu'autorise la loi ?",
+    "choix": [
+     "L'immersion de déchets nucléaires",
+     "L'export de CO2 capté vers des sites de stockage sous la mer",
+     "La fermeture des usines"
+    ],
+    "bonne": 1,
+    "expl": "En vertu d'un amendement de 2009 au protocole de Londres."
+   },
+   {
+    "q": "Qu'a fait l'Assemblée le 10 avril 2025 ?",
+    "choix": [
+     "Elle a rejeté le texte, par 55 voix contre 49",
+     "Elle l'a adopté à l'unanimité",
+     "Elle ne l'a pas examiné"
+    ],
+    "bonne": 0,
+    "expl": "Elle l'a adopté en juin après une commission mixte paritaire."
+   },
+   {
+    "q": "Vers quels pays les industriels comptent-ils envoyer le CO2 ?",
+    "choix": [
+     "L'Australie",
+     "Le Brésil",
+     "La Norvège, les Pays-Bas ou le Royaume-Uni"
+    ],
+    "bonne": 2,
+    "expl": "La France n'a pas de site de stockage prêt."
+   }
+  ],
+  "debat": {
+   "question": "Le stockage du CO2 est-il une option complémentaire pour réduire les émissions, ou une solution qui retarde les vrais changements ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
+}

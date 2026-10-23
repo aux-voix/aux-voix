@@ -1,0 +1,228 @@
+{
+ "publie": true,
+ "dossier": "DLR5L16N49176",
+ "titre_officiel": "Proposition de loi relative au renforcement de la sûreté dans les transports",
+ "phrase": "Les agents de sécurité de la SNCF et de la RATP obtiennent plus de pouvoirs, les caméras-piétons deviennent permanentes et une interdiction de paraître dans les transports est créée.",
+ "note": "Loi promulguée le 28 avril 2025, après une censure partielle du Conseil constitutionnel.",
+ "essentiel": {
+  "points": [
+   "La SNCF et la RATP ont leurs propres services de sécurité : la Suge et le GPSR (ou GSPR).",
+   "Leurs agents peuvent désormais inspecter les bagages, les fouiller avec l'accord du propriétaire, garder des objets dangereux et refuser l'accès aux gares et aux véhicules.",
+   "Un juge peut interdire à une personne condamnée de paraître dans un réseau de transport ; abandonner ses bagages est plus sévèrement puni."
+  ],
+  "pour": "RN, macronistes, droite, MoDem, Horizons, LIOT et UDR : mieux protéger les voyageurs face aux violences et aux menaces.",
+  "contre": "LFI, socialistes, écologistes et communistes : des pouvoirs de police confiés à des agents privés, avec trop de surveillance."
+ },
+ "court": {
+  "resume": [
+   "Le texte a été déposé en décembre 2023 par le sénateur Philippe Tabarot (LR), devenu ministre des Transports ; la dissolution a retardé son examen d'un an.",
+   "Selon le rapporteur, la RATP a recensé 4 146 introductions d'objets dangereux sur son réseau en 2023, contre 1 447 en 2018.",
+   "Le délit d'« incivilité d'habitude », mesure phare du Sénat, a été abandonné pendant les débats."
+  ],
+  "change": [
+   [
+    "Fouilles et palpations encadrées, surtout sur autorisation du préfet.",
+    "Inspection des bagages, fouille avec consentement, palpations dans des circonstances particulières, conservation d'objets dangereux.",
+    "Voyageurs, agents Suge et GPSR"
+   ],
+   [
+    "Caméras-piétons des contrôleurs en expérimentation.",
+    "Caméras-piétons permanentes ; expérimentation pour les conducteurs de bus et de car.",
+    "Agents, voyageurs"
+   ],
+   [
+    "Pas de peine spécifique aux transports.",
+    "Peine d'interdiction de paraître dans un ou plusieurs réseaux.",
+    "Personnes condamnées"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Guillaume Gouffier Valente (Ensemble pour la République), rapporteur",
+    "arg": "Le texte renvoie à « un devoir fondamental de l'État : assurer la sécurité de nos concitoyens et le bon fonctionnement des services publics de transport ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0636.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Roger Vicot (socialiste)",
+    "arg": "Les agents de la Suge, « formés en quatre mois », recevraient des pouvoirs proches de ceux des policiers, formés un an : « Le risque d'un usage arbitraire de ces dispositions est trop grand. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0636.html"
+   }
+  ]
+ },
+ "resume": [
+  "Agents de la Suge (SNCF) et du GPSR (RATP) : inspection visuelle des bagages, fouille avec le consentement du propriétaire, palpations de sécurité dans des circonstances particulières, conservation d'objets dangereux.",
+  "Ils peuvent interdire l'accès aux gares, stations et véhicules à une personne qui trouble l'ordre public ou refuse ces contrôles, mais pas la forcer à partir sans la police, selon le Conseil constitutionnel.",
+  "Des conventions permettent aux policiers municipaux et gardes champêtres d'accéder librement aux gares et trains de leur territoire.",
+  "Les caméras-piétons des agents deviennent permanentes ; expérimentations de caméras pour les conducteurs de bus et de captation du son dans les véhicules.",
+  "Nouvelle peine d'interdiction de paraître dans les transports ; abandon de bagages, même par négligence, plus sévèrement puni ; interdiction de conduire un bus scolaire après certaines condamnations."
+ ],
+ "pourquoi": [
+  "Selon le rapporteur, les violences dans les transports diminuent depuis plusieurs années mais deviennent plus graves, avec davantage de couteaux et de rixes.",
+  "Le texte fait suite à des attaques au couteau dans des gares parisiennes, notamment gare du Nord en janvier 2023 et gare de Lyon en février 2024."
+ ],
+ "change": [
+  [
+   "Pouvoirs limités des agents Suge et GPSR.",
+   "Fouilles, palpations et refus d'accès élargis.",
+   "Voyageurs, agents",
+   "Depuis avril 2025"
+  ],
+  [
+   "Caméras-piétons expérimentales.",
+   "Caméras-piétons permanentes.",
+   "Agents de contrôle",
+   "Depuis avril 2025"
+  ]
+ ],
+ "pasfait": [
+  "Il ne prolonge pas la vidéosurveillance algorithmique des Jeux olympiques : cette mesure a été censurée.",
+  "Il ne donne pas de pistolet à impulsion électrique aux agents de la Suge, également censuré.",
+  "Il ne crée pas de délit d'« incivilité d'habitude »."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Ian Boucard (Droite républicaine)",
+    "arg": "En 2023, plus de 111 000 victimes de vols et de violences dans les transports : le texte apportera « une réponse pragmatique et nécessaire à la demande croissante de protection des usagers ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0636.html"
+   },
+   {
+    "qui": "Pascal Jenft (RN)",
+    "arg": "Il accueille favorablement « un début de réponse à l'escalade de la violence dans les transports en commun », tout en jugeant certaines mesures inutiles.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0636.html"
+   },
+   {
+    "qui": "Philippe Latombe (Les Démocrates)",
+    "arg": "« Le sentiment d'insécurité ne peut plus être un frein à l'usage des transports en commun par nos concitoyens. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0636.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Élisa Martin (La France insoumise)",
+    "arg": "Elle dénonce « le monde de surveillance généralisée que vous construisez brique après brique » et préfère plus d'agents de conciliation et des tarifs revus.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0636.html"
+   },
+   {
+    "qui": "Sandra Regol (écologiste)",
+    "arg": "« L'obsession sécuritaire n'a rien à voir avec l'amélioration de la sécurité » ; une partie du texte serait inapplicable, l'autre déjà appliquée.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0636.html"
+   },
+   {
+    "qui": "Elsa Faucillon (communiste)",
+    "arg": "Le texte poursuit « le désengagement progressif de l'État en matière de sécurité publique » au profit d'agents privés.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0636.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Sénat : adoptée le 13 février 2024. Assemblée : modifiée le 11 février 2025. Accord en commission mixte paritaire le 6 mars ; texte adopté par le Sénat le 17 mars et par l'Assemblée le 18 mars 2025 (303 voix contre 135)."
+  },
+  {
+   "titre": "Le Conseil constitutionnel",
+   "texte": "Saisi par des députés, il a rendu le 24 avril 2025 une décision de conformité partielle (n° 2025-878 DC). Censurés sur le fond : le pouvoir de contraindre une personne à quitter les lieux sans la police et les caméras dans les transports scolaires à Mayotte. Censurés comme « cavaliers » : la prolongation de la vidéosurveillance algorithmique, les pistolets à impulsion électrique pour la Suge, un numéro national de signalement et la plainte déposée par l'employeur au nom de la victime."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "« La loi renforçant la sûreté dans les transports bien arrivée en gare », Localtis",
+   "url": "https://www.banquedesterritoires.fr/la-loi-renforcant-la-surete-dans-les-transports-bien-arrivee-en-gare"
+  },
+  {
+   "titre": "« Loi Sûreté dans les transports : le Conseil constitutionnel joue du sécateur », Localtis",
+   "url": "https://www.banquedesterritoires.fr/loi-surete-dans-les-transports-le-conseil-constitutionnel-joue-du-secateur"
+  },
+  {
+   "titre": "Rapport de Guillaume Gouffier Valente, Assemblée nationale (n° 636)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B0636.html"
+  },
+  {
+   "titre": "Rapport de la commission mixte paritaire (n° 1035)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1035.html"
+  },
+  {
+   "titre": "Décision n° 2025-878 DC du Conseil constitutionnel",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2025/2025878DC.htm"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl23-235.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L16N49176"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-23"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Suge et GPSR",
+    "def": "Les services de sécurité internes de la SNCF (Suge) et de la RATP (GPSR)."
+   },
+   {
+    "terme": "Palpation de sécurité",
+    "def": "Contrôle où un agent passe les mains sur les vêtements d'une personne pour vérifier qu'elle ne cache pas d'objet dangereux."
+   },
+   {
+    "terme": "Proposition de loi",
+    "def": "Texte déposé par des parlementaires, et non par le Gouvernement. Celui-ci vient d'un sénateur."
+   },
+   {
+    "terme": "Conseil constitutionnel",
+    "def": "Institution qui vérifie qu'une loi respecte la Constitution ; elle peut censurer certaines dispositions."
+   },
+   {
+    "terme": "Cavalier législatif",
+    "def": "Disposition ajoutée à une loi sans lien suffisant avec son sujet ; le Conseil constitutionnel la censure pour cette raison de procédure."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qui a déposé ce texte au départ ?",
+    "choix": [
+     "Le sénateur Philippe Tabarot",
+     "Le Gouvernement",
+     "Le président de la République"
+    ],
+    "bonne": 0,
+    "expl": "C'est une proposition de loi, déposée en décembre 2023 par le sénateur Philippe Tabarot, devenu ensuite ministre des Transports."
+   },
+   {
+    "q": "Que peuvent faire les agents de la Suge et du GPSR, selon la loi ?",
+    "choix": [
+     "Obliger une personne à quitter les lieux sans appeler la police",
+     "Interdire l'accès aux gares et aux véhicules à une personne qui trouble l'ordre public ou refuse un contrôle",
+     "Placer une personne en garde à vue"
+    ],
+    "bonne": 1,
+    "expl": "Le Conseil constitutionnel a validé l'interdiction d'accès, mais censuré le pouvoir de forcer quelqu'un à partir sans la police, qui relève des autorités de police."
+   },
+   {
+    "q": "Pourquoi la prolongation de la vidéosurveillance algorithmique a-t-elle été censurée ?",
+    "choix": [
+     "Elle coûtait trop cher",
+     "Elle était interdite par le Sénat",
+     "Elle a été jugée sans lien suffisant avec le texte : c'est un « cavalier législatif »"
+    ],
+    "bonne": 2,
+    "expl": "Le Conseil constitutionnel l'a censurée pour une raison de procédure, comme trois autres mesures ajoutées en cours de route."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il donner des pouvoirs d'inspection et de palpation à des agents de sécurité de la SNCF et de la RATP ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
+}
