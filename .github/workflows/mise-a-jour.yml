@@ -37,6 +37,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Installer Pillow
+        run: python -m pip install pillow
       - name: Télécharger les données officielles et calculer les indicateurs
         run: python scripts/construire_donnees.py
       - uses: actions/upload-pages-artifact@v3
