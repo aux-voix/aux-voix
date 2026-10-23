@@ -1,0 +1,149 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N54229",
+ "titre_officiel": "Proposition de loi visant à réformer les bourses sur critères sociaux et lutter contre la précarité étudiante",
+ "phrase": "Les bourses étudiantes augmenteraient chaque année avec les prix et seraient versées douze mois sur douze, au lieu de dix. Le Sénat doit encore se prononcer.",
+ "note": "Texte adopté par l'Assemblée en première lecture le 11 juin 2026. Le Sénat doit encore l'examiner : il peut changer.",
+ "essentiel": {
+  "points": [
+   "Les bourses sur critères sociaux sont la seule grande aide sociale qui n'augmente pas automatiquement avec les prix.",
+   "Le texte prévoit de les indexer chaque année, au moins sur l'inflation.",
+   "Elles seraient versées 12 mois sur 12, y compris l'été, au lieu de 10.",
+   "Coût estimé par le Gouvernement : un peu plus de 540 millions d'euros par an."
+  ],
+  "pour": "La gauche et le RN : un étudiant sur quatre est en situation de précarité, et les bourses ont perdu de leur valeur.",
+  "contre": "Le centre et la droite se sont abstenus : le coût, surtout du versement sur 12 mois, pèserait trop sur les finances publiques."
+ },
+ "court": {
+  "resume": [
+   "Les bourses sur critères sociaux aident les étudiants selon les revenus de leurs parents ; elles sont versées sur dix mois et leurs montants ne suivent pas automatiquement les prix.",
+   "Le texte, porté par le groupe communiste et ultramarin GDR, prévoit une indexation annuelle sur l'inflation et un versement sur douze mois.",
+   "Il a été adopté le 11 juin 2026 par 75 voix contre 1 ; le centre et la droite se sont abstenus en raison du coût."
+  ],
+  "change": [
+   [
+    "Montants et barèmes revalorisés au cas par cas (dernière hausse en 2023).",
+    "Indexation automatique chaque année, au moins sur l'inflation.",
+    "Étudiants boursiers"
+   ],
+   [
+    "Versement sur 10 mois.",
+    "Versement sur 12 mois.",
+    "Étudiants boursiers"
+   ],
+   [
+    "Plafonds de ressources figés : des étudiants perdent la bourse sans que leur situation change.",
+    "Plafonds indexés : moins de sorties « mécaniques » du système.",
+    "Familles modestes et moyennes"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Soumya Bourouaha (GDR), autrice et rapporteure",
+    "arg": "Le système « ne remplit plus son rôle historique » de démocratisation ; la précarité étudiante « résulte de choix politiques ».",
+    "source": "https://lcp.fr/actualites/bourses-etudiantes-l-assemblee-vote-pour-leur-revalorisation-et-leur-annualisation"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Philippe Baptiste, ministre de l'Enseignement supérieur",
+    "arg": "« Je n'ai pas besoin de vous rappeler quel est l'état de nos finances publiques » : une réforme doit « respecter les marges de manœuvre budgétaires ».",
+    "source": "https://lcp.fr/actualites/bourses-etudiantes-l-assemblee-vote-pour-leur-revalorisation-et-leur-annualisation"
+   }
+  ]
+ },
+ "resume": [
+  "Selon le rapport de l'Assemblée, un étudiant sur quatre est en situation de précarité ; en 2023, 20 % des étudiants interrogés ne pouvaient pas faire face à leurs besoins de base.",
+  "Les bourses sur critères sociaux ne sont pas indexées sur les prix : sans revalorisation, des étudiants perdent leur bourse ou descendent d'échelon sans que leur niveau de vie change.",
+  "Depuis 2020, le nombre de boursiers a baissé de près de 90 000, alors que le nombre d'étudiants augmente, selon la rapporteure.",
+  "Le texte prévoit une indexation annuelle automatique des montants et des barèmes, au moins sur l'inflation, et un versement sur douze mois.",
+  "Adopté par l'Assemblée le 11 juin 2026, il a été transmis au Sénat."
+ ],
+ "pourquoi": [
+  "Selon la rapporteure, la réforme de 2023 (barèmes relevés de 6 %, bourses augmentées de 37 € par mois) a vu ses effets « complètement estompés » par l'inflation.",
+  "Perdre la bourse fait aussi perdre des avantages liés : exonération des frais d'inscription, accès prioritaire aux logements du Crous."
+ ],
+ "change": [
+  [
+   "Pas d'indexation automatique.",
+   "Indexation annuelle des montants et des barèmes, au moins sur l'inflation.",
+   "Boursiers",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "10 mensualités.",
+   "12 mensualités.",
+   "Boursiers",
+   "Si le texte est adopté définitivement"
+  ]
+ ],
+ "pasfait": [
+  "Il ne crée pas de nouvel échelon ni d'allocation universelle d'autonomie pour tous les étudiants.",
+  "Il n'est pas en vigueur : le Sénat doit encore l'examiner."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Soumya Bourouaha (GDR), autrice",
+    "arg": "Deux mesures « simples, concrètes et immédiatement applicables » contre une précarité qui « n'est pas une fatalité ».",
+    "source": "https://lcp.fr/actualites/bourses-etudiantes-l-assemblee-vote-pour-leur-revalorisation-et-leur-annualisation"
+   },
+   {
+    "qui": "Emeline Rey-Rinchet (Droite républicaine), en commission",
+    "arg": "L'indexation est une « mesure de bon sens » que son groupe soutenait déjà lors du budget 2025.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2862.html"
+   },
+   {
+    "qui": "Béatrice Piron (Horizons), en commission",
+    "arg": "Le principe d'une indexation est « parfaitement légitime » : les bourses sont la seule prestation importante non indexée.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2862.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Philippe Baptiste, ministre de l'Enseignement supérieur",
+    "arg": "Un coût d'un peu plus de 540 millions d'euros (112 millions pour l'indexation, 430 millions pour les 12 mois) incompatible avec l'état des finances publiques ; il dit soutenir un « acte 2 » de la réforme.",
+    "source": "https://lcp.fr/actualites/bourses-etudiantes-l-assemblee-vote-pour-leur-revalorisation-et-leur-annualisation"
+   },
+   {
+    "qui": "Béatrice Piron (Horizons), en commission",
+    "arg": "Le versement sur 12 mois au lieu de 10 représente une dépense nouvelle et récurrente d'environ 500 millions d'euros.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2862.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote par groupe",
+   "texte": "Pour : RN, LFI, socialistes, écologistes, GDR, une voix Démocrates et une LIOT. Abstention : EPR, Droite républicaine, Horizons, UDR. Contre : 1 voix (EPR). Scrutin n° 7397 du 11 juin 2026."
+  },
+  {
+   "titre": "La précarité étudiante",
+   "texte": "Observatoire national de la vie étudiante, 2023 : 20 % des étudiants dans l'impossibilité de faire face à leurs besoins primaires, 26 % avec des fins de mois difficiles ou très difficiles."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "LCP : l'Assemblée vote la revalorisation et l'annualisation des bourses, 12 juin 2026",
+   "url": "https://lcp.fr/actualites/bourses-etudiantes-l-assemblee-vote-pour-leur-revalorisation-et-leur-annualisation"
+  },
+  {
+   "titre": "Rapport de Soumya Bourouaha, Assemblée nationale (n° 2862)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2862.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54229"
+  },
+  {
+   "titre": "Scrutin n° 7397 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/7397"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

@@ -1,0 +1,159 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53940",
+ "titre_officiel": "Projet de loi sur la justice criminelle et le respect des victimes",
+ "phrase": "Pour juger plus vite les crimes, la loi réforme les cours criminelles et la détention provisoire ; le « plaider-coupable » criminel a été retiré.",
+ "note": "Loi promulguée en juillet 2026, après une censure partielle du Conseil constitutionnel le 23 juillet.",
+ "essentiel": {
+  "points": [
+   "Près de 6 000 affaires criminelles attendent d'être jugées, deux fois plus qu'en 2019.",
+   "Les cours criminelles départementales voient leur composition et leurs compétences réformées : elles pourront juger les récidivistes.",
+   "Le Conseil constitutionnel a censuré l'usage de bases génétiques de sociétés privées, faute de garanties pour la vie privée.",
+   "Le « plaider-coupable » pour les crimes, mesure phare, a été retiré faute de majorité."
+  ],
+  "pour": "Le ministre de la Justice, Gérald Darmanin : un texte « essentiel » pour une justice « plus rapide, plus sûre et davantage à l'écoute des victimes ».",
+  "contre": "La gauche, qui a voté contre, et les avocats se sont opposés au « plaider-coupable » criminel, finalement retiré."
+ },
+ "court": {
+  "resume": [
+   "Les crimes (meurtres, viols…) sont jugés très lentement : près de 6 000 affaires attendent leur procès.",
+   "Ce projet du garde des Sceaux voulait créer un « plaider-coupable » pour les crimes. Face à la gauche et aux avocats, cette mesure a été retirée.",
+   "La loi adoptée le 9 juillet 2026 garde surtout des mesures sur les cours criminelles et la détention provisoire ; le Conseil constitutionnel a censuré son volet de génétique."
+  ],
+  "change": [
+   [
+    "Les cours criminelles départementales jugent les crimes punis de 15 à 20 ans, hors récidive.",
+    "Composition et compétences réformées ; elles pourront juger les récidivistes.",
+    "Accusés et victimes"
+   ],
+   [
+    "—",
+    "Consultation de bases génétiques privées prévue, puis censurée par le Conseil constitutionnel.",
+    "Enquêteurs"
+   ],
+   [
+    "—",
+    "Dispositif d'urgence pour prolonger certaines détentions provisoires.",
+    "Personnes en détention provisoire"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Gérald Darmanin, ministre de la Justice",
+    "arg": "Un texte « essentiel pour continuer à construire une justice plus rapide, plus sûre et davantage à l'écoute des victimes ».",
+    "source": "https://www.lagazettefrance.fr/article/justice-criminelle-la-loi-darmanin-definitivement-adoptee-sans-sa-mesure-phare-de-plaider-coupable"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "La gauche et les avocats",
+    "arg": "Ils se sont opposés au « plaider-coupable » criminel, qui réduisait la peine en échange d'aveux. Le Gouvernement a dû le retirer.",
+    "source": "https://www.lagazettefrance.fr/article/justice-criminelle-la-loi-darmanin-definitivement-adoptee-sans-sa-mesure-phare-de-plaider-coupable"
+   }
+  ]
+ },
+ "resume": [
+  "Près de 6 000 affaires criminelles sont en attente de jugement, contre 2 189 fin 2019, selon le Sénat.",
+  "Le projet de loi prévoyait un « plaider-coupable » criminel : une audience plus courte et une peine réduite en échange des aveux. Cette mesure a été retirée faute de majorité.",
+  "La loi réforme les cours criminelles départementales, créées en 2019 pour juger les crimes punis de 15 à 20 ans de prison, et leur permet de juger les récidivistes.",
+  "Elle prévoyait de recourir à la généalogie génétique, y compris via des bases de sociétés privées souvent américaines : le Conseil constitutionnel a censuré ce volet, faute de garanties suffisantes pour la vie privée.",
+  "Elle prévoit un dispositif d'urgence pour prolonger certaines détentions provisoires, et comble un vide juridique pour les mineurs d'au moins 16 ans accusés de crimes."
+ ],
+ "pourquoi": [
+  "Selon le Gouvernement et le Sénat, il s'agit de répondre à la « paralysie » des juridictions criminelles, dénoncée par les justiciables et les professionnels."
+ ],
+ "change": [
+  [
+   "Cours criminelles départementales sans compétence pour les récidivistes.",
+   "Compétences et composition réformées ; jugement des récidivistes possible.",
+   "Accusés, victimes",
+   "Après promulgation"
+  ],
+  [
+   "Tests génétiques récréatifs interdits en France.",
+   "Consultation de bases génétiques privées : prévue par le Parlement, censurée par le Conseil constitutionnel.",
+   "Enquêteurs",
+   "Censurée le 23 juillet 2026"
+  ],
+  [
+   "—",
+   "Prolongation d'urgence de certaines détentions provisoires.",
+   "Personnes détenues",
+   "Après promulgation"
+  ],
+  [
+   "Vide juridique sur la détention provisoire des mineurs de 16 ans et plus accusés de crimes.",
+   "Règles de maintien en détention provisoire précisées.",
+   "Mineurs de 16 ans et plus",
+   "Après promulgation"
+  ]
+ ],
+ "pasfait": [
+  "Elle ne crée pas de « plaider-coupable » pour les crimes : la mesure a été retirée.",
+  "Elle ne supprime pas les cours d'assises avec jurés populaires."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Gérald Darmanin, ministre de la Justice",
+    "arg": "Un texte « essentiel pour continuer à construire une justice plus rapide, plus sûre et davantage à l'écoute des victimes ».",
+    "source": "https://www.lagazettefrance.fr/article/justice-criminelle-la-loi-darmanin-definitivement-adoptee-sans-sa-mesure-phare-de-plaider-coupable"
+   },
+   {
+    "qui": "David Margueritte, sénateur LR",
+    "arg": "Il a soutenu le texte en regrettant « un certain nombre de reculs » : « Nous avons eu parfois le sentiment de défendre le texte plus que le gouvernement lui-même. »",
+    "source": "https://www.lagazettefrance.fr/article/justice-criminelle-la-loi-darmanin-definitivement-adoptee-sans-sa-mesure-phare-de-plaider-coupable"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "La gauche et les avocats",
+    "arg": "Ils se sont opposés au « plaider-coupable » criminel ; le Gouvernement a renoncé à cette mesure et à plusieurs autres.",
+    "source": "https://www.lagazettefrance.fr/article/justice-criminelle-la-loi-darmanin-definitivement-adoptee-sans-sa-mesure-phare-de-plaider-coupable"
+   },
+   {
+    "qui": "Des parlementaires",
+    "arg": "La constitutionnalité de la prolongation d'urgence de certaines détentions provisoires était contestée ; une saisine du Conseil constitutionnel a été annoncée.",
+    "source": "https://www.lagazettefrance.fr/article/justice-criminelle-la-loi-darmanin-definitivement-adoptee-sans-sa-mesure-phare-de-plaider-coupable"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Les votes",
+   "texte": "Assemblée : 357 pour, 177 contre (7 juillet 2026), puis 283 pour, 156 contre sur le texte de compromis (8 juillet, scrutin n° 8042). Sénat : 232 pour, 99 contre (9 juillet). LFI, socialistes, écologistes et GDR ont voté contre."
+  },
+  {
+   "titre": "Le Conseil constitutionnel",
+   "texte": "Décision n° 2026-909 DC du 23 juillet 2026. Censurés : l'analyse génétique d'une trace d'un inconnu pour révéler ses traits physiques, la recherche généalogique dans des bases génétiques privées (garanties insuffisantes pour la vie privée), et la création d'un statut de psychologue de police judiciaire. D'autres dispositions sont validées avec des réserves."
+  },
+  {
+   "titre": "La loi organique associée",
+   "texte": "Une loi organique votée en même temps pérennise le rôle d'avocats honoraires comme assesseurs dans les cours criminelles départementales."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "La Gazette France (AFP), « Justice criminelle : la loi Darmanin définitivement adoptée, sans sa mesure phare de \"plaider-coupable\" », 9 juillet 2026",
+   "url": "https://www.lagazettefrance.fr/article/justice-criminelle-la-loi-darmanin-definitivement-adoptee-sans-sa-mesure-phare-de-plaider-coupable"
+  },
+  {
+   "titre": "Sénat, « L'essentiel » du rapport de la commission des lois, avril 2026",
+   "url": "https://www.senat.fr/lessentiel/pjl25-456.pdf"
+  },
+  {
+   "titre": "Conseil constitutionnel, décision n° 2026-909 DC du 23 juillet 2026",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026909DC.htm"
+  },
+  {
+   "titre": "Scrutin n° 8042 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8042"
+  }
+ ],
+ "auteur": "Rédaction Aux Voix",
+ "verif": "",
+ "version": {
+  "n": 1,
+  "date": "2026-10-20"
+ }
+}

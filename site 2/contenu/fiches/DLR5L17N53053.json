@@ -1,0 +1,138 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53053",
+ "titre_officiel": "Proposition de loi visant à protéger la santé mentale des agricultrices et des agriculteurs",
+ "phrase": "Prévention du mal-être des agriculteurs : un réseau de « sentinelles » formées, un guichet unique par département et une mission nationale. Le Sénat doit encore voter.",
+ "note": "Texte adopté par l'Assemblée en première lecture le 4 juin 2026, sans voix contre. Le Sénat doit encore l'examiner.",
+ "essentiel": {
+  "points": [
+   "En 2022, le risque de suicide des assurés agricoles de 15 à 64 ans était supérieur de 46 % à celui de l'ensemble des assurés, selon la MSA.",
+   "Des « sentinelles » (voisins, vétérinaires, comptables, élus…) seraient formées par l'État pour repérer la détresse et orienter.",
+   "Chaque département aurait un guichet unique de santé mentale agricole, et une mission nationale piloterait la prévention."
+  ],
+  "pour": "Tous les groupes : face à une crise « silencieuse », il faut une politique de prévention organisée et durable.",
+  "contre": "Personne n'a voté contre : le texte a été adopté par 76 voix contre 0."
+ },
+ "court": {
+  "resume": [
+   "Le monde agricole connaît un taux de suicide nettement plus élevé que le reste de la population, lié selon le rapport à la précarité économique, à l'isolement et à la charge de travail.",
+   "Une feuille de route nationale existe depuis 2021, mais le texte veut donner une base légale et une organisation stable à la prévention.",
+   "Il crée un réseau national de « sentinelles agricoles » formées, un guichet unique dans chaque département et une mission nationale de santé mentale agricole."
+  ],
+  "change": [
+   [
+    "Sentinelles bénévoles, selon les initiatives locales.",
+    "Réseau national de sentinelles, avec une formation certifiée payée par l'État et un label.",
+    "Agriculteurs, entourage professionnel"
+   ],
+   [
+    "Interlocuteurs multiples en cas de difficulté.",
+    "Un guichet unique de santé mentale agricole par département.",
+    "Agricultrices et agriculteurs en difficulté"
+   ],
+   [
+    "Feuille de route de 2021, sans base légale.",
+    "Mission nationale qui fixe la stratégie de prévention, avec un volet outre-mer.",
+    "État, MSA, chambres d'agriculture"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Arnaud Simion (socialiste), auteur et rapporteur",
+    "arg": "Le suicide paysan est une crise « profonde, mortelle mais silencieuse » : les dispositifs existent, mais aucune politique publique structurée ne les relie.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2200.html"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "Selon la MSA, en 2022, les assurés agricoles de 15 à 64 ans avaient un risque de suicide supérieur de 46 % à celui des assurés de tous les régimes.",
+  "Plusieurs rapports (Olivier Damaisin, Henri Cabanel et Françoise Férat, Daniel Lenoir) ont conduit en 2021 à une feuille de route nationale de prévention du mal-être agricole.",
+  "Le texte crée dans le code de la santé publique un dispositif national de « sentinelles agricoles » : agriculteurs, conseillers, comptables, vétérinaires, élus, associations, formés par l'État et animés par la MSA et les chambres d'agriculture.",
+  "Il confie au préfet la mise en œuvre de la prévention dans chaque département, avec un guichet unique, et crée une mission nationale chargée de la stratégie.",
+  "Les dépenses seraient compensées par une hausse des taxes sur le tabac (gage financier)."
+ ],
+ "pourquoi": [
+  "Selon le rapporteur, le mal-être agricole s'enracine dans les transformations du travail, la précarité économique et l'isolement social.",
+  "Malgré la feuille de route de 2021, la situation reste préoccupante et les aides restent dispersées."
+ ],
+ "change": [
+  [
+   "Pas de statut légal pour les sentinelles.",
+   "Dispositif national, formation certifiée payée par l'État, label « sentinelle agricole ».",
+   "Entourage des agriculteurs",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "—",
+   "Guichet départemental unique de santé mentale agricole, piloté par le préfet.",
+   "Agriculteurs en difficulté",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "—",
+   "Mission nationale sous la tutelle des ministères de la santé, de l'agriculture, du travail et de l'environnement.",
+   "État",
+   "Si le texte est adopté définitivement"
+  ]
+ ],
+ "pasfait": [
+  "Il ne traite pas directement des revenus agricoles, que plusieurs députés désignent comme une cause majeure du mal-être.",
+  "Il n'est pas en vigueur : le Sénat doit l'examiner."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Sylvie Bonnet (Droite républicaine)",
+    "arg": "Plus de 300 suicides sont recensés chaque année chez les agriculteurs : « nous ne pouvons rester inactifs ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2200.html"
+   },
+   {
+    "qui": "Serge Muller (RN)",
+    "arg": "Les agriculteurs « n'en peuvent plus » : ils travaillent souvent sept jours sur sept, sous le poids des difficultés.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2200.html"
+   },
+   {
+    "qui": "Nicole Dubré-Chirat (Ensemble pour la République)",
+    "arg": "Elle remercie l'auteur d'avoir mis l'accent sur ce sujet « particulièrement grave ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2200.html"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucun député n'a voté contre (76 voix pour). Plusieurs orateurs, notamment à gauche, ont souligné que la prévention ne suffira pas sans action sur les revenus et les conditions de travail agricoles."
+ },
+ "details": [
+  {
+   "titre": "Besoin d'aide ?",
+   "texte": "Numéro national de prévention du suicide : 3114 (gratuit, 24 h/24). Agri'écoute, service de la MSA pour le monde agricole : 09 69 39 29 19."
+  },
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée : 76 pour, 0 contre (4 juin 2026, scrutin n° 7348) ; texte transmis au Sénat."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport d'Arnaud Simion, Assemblée nationale (n° 2200)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2200.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée nationale (n° 303)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0303.raw"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53053"
+  },
+  {
+   "titre": "Scrutin n° 7348 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/7348"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

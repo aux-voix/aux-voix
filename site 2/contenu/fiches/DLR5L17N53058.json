@@ -1,0 +1,155 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53058",
+ "titre_officiel": "Proposition de loi visant à prendre des mesures d’urgence contre la vie chère en outre-mer dans le secteur des services",
+ "phrase": "Pour lutter contre la vie chère outre-mer, le texte aligne les tarifs postaux sur l'Hexagone, plafonne certains billets d'avion et les frais bancaires de base.",
+ "note": "Adopté par l'Assemblée en décembre 2025 ; le texte attend son examen au Sénat.",
+ "essentiel": {
+  "points": [
+   "Outre-mer, les prix sont plus élevés que dans l'Hexagone, et la pauvreté y est bien plus fréquente.",
+   "Le texte vise trois services : l'envoi de colis, les billets d'avion vers l'Hexagone et les frais bancaires.",
+   "Les banques ne pourraient pas facturer les services de base plus cher que la moyenne de l'Hexagone."
+  ],
+  "pour": "La gauche, les macronistes et LIOT : des mesures concrètes pour le pouvoir d'achat des ultramarins.",
+  "contre": "Personne n'a voté contre. RN, MoDem et UDR se sont abstenus : texte jugé mal écrit ou mal financé."
+ },
+ "court": {
+  "resume": [
+   "En 2022, les prix étaient plus élevés d'environ 16 % en Guadeloupe, 14 % en Martinique et en Guyane, 9 % à La Réunion et 10 % à Mayotte, selon l'Insee.",
+   "Les tarifs postaux de l'Hexagone s'appliqueraient à tous les envois vers et depuis l'outre-mer, et plus seulement aux lettres légères.",
+   "Pour l'avion, un tarif plafond « résident » serait appliqué automatiquement ; l'État paierait la différence."
+  ],
+  "change": [
+   [
+    "Tarif national seulement pour les lettres de moins de 100 grammes.",
+    "Tarif national pour tous les envois postaux.",
+    "Habitants des outre-mer"
+   ],
+   [
+    "—",
+    "Tarifs plafonds « résident » sur les vols vers l'Hexagone.",
+    "Résidents ultramarins, sous conditions de ressources"
+   ],
+   [
+    "Frais bancaires souvent plus élevés.",
+    "Plafonnés à la moyenne de l'Hexagone pour les services de base.",
+    "Clients des banques ultramarines"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Perceval Gaillard (La France insoumise)",
+    "arg": "La plupart des services bancaires coûtent plus cher outre-mer, « sans aucune justification » : environ 10 % de plus en moyenne.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2196.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Maud Petit (Les Démocrates)",
+    "arg": "Les mesures « nécessitent des clarifications, sur leur financement notamment », d'où une « abstention attentive, mais constructive ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2196.html"
+   }
+  ]
+ },
+ "resume": [
+  "Article 1er : les envois postaux du service universel vers, depuis et entre les outre-mer suivent les tarifs nationaux, quel que soit leur poids.",
+  "Article 2 : deux tarifs plafonds « résident » sur les vols réguliers vers l'Hexagone, l'un sous conditions de ressources, l'autre pour les bénéficiaires de l'aide à la continuité territoriale ; l'Agence de l'outre-mer pour la mobilité paie la différence.",
+  "Article 3 : dans les départements et régions d'outre-mer, à Saint-Barthélemy, Saint-Martin et Saint-Pierre-et-Miquelon, les banques ne peuvent pas facturer leurs services de base plus cher que la moyenne de l'Hexagone.",
+  "Une réunion annuelle, présidée par le préfet, réunit banques, élus et associations de consommateurs pour suivre ces tarifs.",
+  "Le texte, défendu par Philippe Naillet (socialiste), s'appuie sur plusieurs rapports parlementaires sur la vie chère et la continuité territoriale."
+ ],
+ "pourquoi": [
+  "Selon le rapport, le taux de pauvreté était de 36,1 % à La Réunion en 2021, contre 14,5 % dans l'Hexagone ; le chômage dépasse 14 % dans les départements d'outre-mer.",
+  "Le rapport cite l'éloignement, la petite taille des marchés et l'insularité parmi les causes durables de la vie chère."
+ ],
+ "change": [
+  [
+   "Tarif postal national limité aux lettres légères.",
+   "Étendu à tous les envois.",
+   "Habitants des outre-mer",
+   "À l'adoption définitive"
+  ],
+  [
+   "—",
+   "Billets plafonnés, différence payée par l'État.",
+   "Résidents ultramarins",
+   "À l'adoption définitive"
+  ],
+  [
+   "—",
+   "Frais bancaires de base plafonnés.",
+   "Clients des banques",
+   "À l'adoption définitive"
+  ]
+ ],
+ "pasfait": [
+  "Il ne traite pas des prix de l'alimentation, sujet d'autres textes.",
+  "Il ne fixe pas lui-même le montant des tarifs plafonds pour l'avion : un décret doit le faire."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Béatrice Bellay (socialiste)",
+    "arg": "Le texte réclame « ce qui doit être considéré comme un principe constitutionnel et républicain : l'égalité ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2196.html"
+   },
+   {
+    "qui": "Steevy Gustave (écologiste)",
+    "arg": "« La vie chère fissure la promesse d'égalité républicaine » ; un paquet de riz y coûte deux fois plus cher.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2196.html"
+   },
+   {
+    "qui": "David Taupiac (LIOT)",
+    "arg": "Dans ces trois secteurs, les ultramarins subissent « des tarifs prohibitifs, absolument injustifiés ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2196.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Lionel Tivoli (RN)",
+    "arg": "Un texte « mal encadré, mal écrit », qui ne pense la mobilité qu'en un sens et oublie les ultramarins vivant dans l'Hexagone.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2196.html"
+   },
+   {
+    "qui": "Guillaume Lepers (Droite républicaine)",
+    "arg": "Sans financement des surcoûts d'acheminement, l'alignement postal « compromettra la viabilité » du service postal outre-mer.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2196.html"
+   },
+   {
+    "qui": "Marie Lebec (Ensemble pour la République), dont le groupe a voté pour",
+    "arg": "Elle s'étonne de la multiplication de textes socialistes concurrents sur le même sujet, qui risquent de rester « lettre morte ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2196.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée : adopté le 11 décembre 2025 par 85 voix contre 0, avec 13 abstentions (RN, Les Démocrates, UDR). Le texte a été transmis au Sénat."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Philippe Naillet, Assemblée nationale (n° 2196)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2196.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 198)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0198.raw"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl25-219.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53058"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

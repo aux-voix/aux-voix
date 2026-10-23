@@ -1,0 +1,170 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N52428",
+ "titre_officiel": "Projet de loi de finances pour 2026",
+ "phrase": "Le budget de l'État pour 2026 vise un déficit public de 5 % du PIB ; il a été adopté avec l'article 49.3, sans vote final, en février 2026.",
+ "note": "Loi promulguée en février 2026, après une décision du Conseil constitutionnel qui en a censuré plusieurs dispositions.",
+ "essentiel": {
+  "points": [
+   "Sans majorité à l'Assemblée, le gouvernement a fait adopter le budget avec l'article 49.3, qui permet de passer sans vote si aucune censure n'aboutit.",
+   "Objectif : un déficit public de 5 % du PIB en 2026, contre 5,4 % en 2025, avec environ 12 milliards d'euros d'économies.",
+   "La surtaxe sur les bénéfices des grandes entreprises est reconduite ; le budget des Armées augmente de 6,5 milliards d'euros."
+  ],
+  "pour": "Le gouvernement et ses soutiens : un budget de « compromis », nécessaire au pays. Les socialistes ont obtenu des concessions et n'ont pas censuré.",
+  "contre": "LFI, écologistes, communistes et RN ont tenté de renverser le gouvernement : injustice fiscale pour les uns, refus de nouvelles élections pour les autres."
+ },
+ "court": {
+  "resume": [
+   "Chaque année, la loi de finances fixe les recettes et les dépenses de l'État.",
+   "L'Assemblée a rejeté le texte en première lecture, le Sénat l'a modifié, puis députés et sénateurs ne se sont pas mis d'accord ; une « loi spéciale » a assuré la continuité au 1er janvier.",
+   "Le Premier ministre, Sébastien Lecornu, a ensuite utilisé trois fois l'article 49.3 ; toutes les motions de censure ont échoué."
+  ],
+  "change": [
+   [
+    "Déficit public de 5,4 % du PIB en 2025.",
+    "Objectif de 5 % en 2026, et moins de 3 % en 2029.",
+    "Finances publiques"
+   ],
+   [
+    "—",
+    "Surtaxe sur les bénéfices des grandes entreprises reconduite ; contribution minimale de 20 % sur les très hauts revenus prolongée.",
+    "Grandes entreprises, ménages très aisés"
+   ],
+   [
+    "—",
+    "Barème de l'impôt sur le revenu indexé sur l'inflation ; prime d'activité augmentée d'environ 50 euros par mois pour 3 millions de foyers.",
+    "Contribuables, ménages modestes"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Sébastien Lecornu, Premier ministre",
+    "arg": "Ce budget « n'est le texte de personne ou plutôt un peu le texte de tout le monde ».",
+    "source": "https://lcp.fr/actualites/budget-2026-ce-que-contient-le-texte-sur-le-point-d-etre-definitivement-adopte-430558"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Stéphane Peu (Gauche démocrate et républicaine)",
+    "arg": "« Nous censurons la continuité d'un système fiscal qui protège le capital plutôt que le travail. »",
+    "source": "https://lcp.fr/actualites/budget-adopte-sebastien-lecornu-fustige-la-deconnexion-des-oppositions-qui-ont-voulu"
+   }
+  ]
+ },
+ "resume": [
+  "Selon LCP, le déficit public prévu est de 131,9 milliards d'euros en 2026, soit 5 % du PIB, au lieu des 4,7 % visés au départ : environ 9 milliards de mesures nouvelles ou de coupes abandonnées ont permis l'adoption.",
+  "Recettes : surtaxe sur les bénéfices des grandes entreprises reconduite (7,3 milliards d'euros), taxe sur les holdings patrimoniales réduite (100 millions au lieu d'un milliard), contribution minimale sur les plus hauts revenus prolongée jusqu'au retour sous 3 % de déficit.",
+  "Le barème de l'impôt sur le revenu est indexé sur l'inflation pour toutes les tranches, et l'abattement de 10 % des retraités est maintenu.",
+  "Dépenses : 6,5 milliards d'euros de plus pour les Armées, 3 256 postes d'enseignants en moins, Fonds vert ramené à 850 millions d'euros ; le président de la commission des finances dénonce des coupes dans le logement, l'écologie ou le sport.",
+  "Mesures sociales : prime d'activité augmentée (700 millions d'euros), APL revalorisées sur l'inflation, repas à 1 euro pour tous les étudiants ; les étudiants non européens non boursiers perdent l'accès aux APL."
+ ],
+ "pourquoi": [
+  "Le Premier ministre a justifié le dernier recours au 49.3 notamment par l'urgence des crédits militaires, dans une « situation internationale » tendue.",
+  "Faute de majorité, les débats ont duré quatre mois ; la présidente de l'Assemblée a regretté que les députés n'aient pas pu examiner en séance la partie « dépenses »."
+ ],
+ "change": [
+  [
+   "Loi spéciale depuis le 1er janvier.",
+   "Budget complet de l'État.",
+   "Administrations",
+   "Depuis février 2026"
+  ],
+  [
+   "—",
+   "Surtaxe des grandes entreprises reconduite.",
+   "Grandes entreprises",
+   "2026"
+  ],
+  [
+   "—",
+   "Prime d'activité augmentée.",
+   "3 millions de foyers",
+   "2026"
+  ],
+  [
+   "APL ouvertes aux étudiants étrangers.",
+   "Fermées aux étudiants non européens non boursiers.",
+   "Étudiants étrangers",
+   "2026"
+  ]
+ ],
+ "pasfait": [
+  "Il ne ramène pas le déficit sous 3 % du PIB : cet objectif est fixé pour 2029.",
+  "Il ne baisse pas la CVAE, un impôt sur la production des entreprises.",
+  "Plusieurs mesures ont été censurées par le Conseil constitutionnel, surtout parce qu'elles n'avaient pas leur place dans une loi de finances."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Sébastien Lecornu, Premier ministre",
+    "arg": "Le RN et LFI auraient « méthodiquement tout bloqué, tout saboté pendant quatre mois » ; il était temps d'adopter un budget.",
+    "source": "https://lcp.fr/actualites/budget-adopte-sebastien-lecornu-fustige-la-deconnexion-des-oppositions-qui-ont-voulu"
+   },
+   {
+    "qui": "Yaël Braun-Pivet, présidente de l'Assemblée",
+    "arg": "Elle a salué l'adoption d'un budget de « compromis ».",
+    "source": "https://lcp.fr/actualites/budget-adopte-sebastien-lecornu-fustige-la-deconnexion-des-oppositions-qui-ont-voulu"
+   },
+   {
+    "qui": "Le groupe socialiste",
+    "arg": "Il revendique des concessions (APL revalorisées, repas à 1 euro pour les étudiants, moindre ponction sur les bailleurs sociaux) qui justifient, selon lui, de ne pas censurer.",
+    "source": "https://lcp.fr/actualites/budget-2026-ce-que-contient-le-texte-sur-le-point-d-etre-definitivement-adopte-430558"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Stéphane Peu (Gauche démocrate et républicaine)",
+    "arg": "La gauche hors PS censure un système fiscal qui protégerait le capital, « contre l'avis d'une majorité de Français ».",
+    "source": "https://lcp.fr/actualites/budget-adopte-sebastien-lecornu-fustige-la-deconnexion-des-oppositions-qui-ont-voulu"
+   },
+   {
+    "qui": "Gaëtan Dussausaye (RN)",
+    "arg": "« Le seul objectif que vous avez poursuivi mordicus, c'est d'empêcher le retour aux urnes. »",
+    "source": "https://lcp.fr/actualites/budget-adopte-sebastien-lecornu-fustige-la-deconnexion-des-oppositions-qui-ont-voulu"
+   },
+   {
+    "qui": "Éric Coquerel (La France insoumise), président de la commission des finances",
+    "arg": "Il dénonce des « coupes très importantes » dans la cohésion des territoires, le logement, l'écologie, le sport ou l'aide au développement.",
+    "source": "https://lcp.fr/actualites/budget-2026-ce-que-contient-le-texte-sur-le-point-d-etre-definitivement-adopte-430558"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Assemblée : texte rejeté en première lecture le 21 novembre 2025. Sénat : adopté avec modifications le 15 décembre 2025. Pas d'accord en commission mixte paritaire. Nouvelle lecture et lecture définitive à l'Assemblée avec l'article 49.3 (27 janvier et 2 février 2026) ; la dernière motion de censure de la gauche a obtenu 260 voix sur les 289 nécessaires, celle du RN et de l'UDR 135."
+  },
+  {
+   "titre": "Le Conseil constitutionnel",
+   "texte": "Saisi par le Premier ministre et par des députés RN-UDR, de gauche et socialistes, il a censuré le 19 février 2026 plusieurs dispositions, pour la plupart parce qu'elles n'avaient pas leur place dans une loi de finances, dont la limitation de la réduction de loyer de solidarité aux seuls locataires touchant l'APL."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "« Budget 2026 : ce que contient le texte sur le point d'être définitivement adopté », LCP",
+   "url": "https://lcp.fr/actualites/budget-2026-ce-que-contient-le-texte-sur-le-point-d-etre-definitivement-adopte-430558"
+  },
+  {
+   "titre": "« Budget adopté : Sébastien Lecornu fustige la \"déconnexion\" des oppositions », LCP",
+   "url": "https://lcp.fr/actualites/budget-adopte-sebastien-lecornu-fustige-la-deconnexion-des-oppositions-qui-ont-voulu"
+  },
+  {
+   "titre": "« Le budget 2026 définitivement adopté après le rejet des deux dernières motions de censure », LCP",
+   "url": "https://lcp.fr/actualites/le-budget-2026-definitivement-adopte-apres-le-rejet-des-deux-dernieres-motions-de"
+  },
+  {
+   "titre": "Décision n° 2026-901 DC du Conseil constitutionnel",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026901DC.htm"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N52428"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

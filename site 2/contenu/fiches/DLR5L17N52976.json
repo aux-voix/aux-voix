@@ -1,0 +1,142 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N52976",
+ "titre_officiel": "Proposition de loi relative à l’établissement de l’égalité d’accès au service public postal en outre-mer",
+ "phrase": "Envoyer une lettre ou un colis vers ou depuis l'outre-mer coûterait le même prix qu'à l'intérieur de l'Hexagone, quel que soit son poids.",
+ "note": "Adopté par l'Assemblée en novembre 2025 ; le texte attend son examen au Sénat.",
+ "essentiel": {
+  "points": [
+   "Le tarif postal de l'Hexagone ne s'applique outre-mer qu'aux lettres de moins de 100 grammes.",
+   "Au-delà, envoyer un colis coûte souvent deux à trois fois plus cher, selon plusieurs députés.",
+   "Le texte impose le tarif national pour tous les envois à l'unité, quel que soit leur poids."
+  ],
+  "pour": "RN et gauche ont voté pour : mettre fin à une inégalité qui pèse sur des familles souvent plus pauvres.",
+  "contre": "Personne n'a voté contre. Macronistes, droite, MoDem, Horizons et UDR se sont abstenus : coût pour La Poste et réforme prévue plus tard."
+ },
+ "court": {
+  "resume": [
+   "Selon Joseph Rivière (RN), un colis de 1 à 2 kilos coûte 10,70 euros dans l'Hexagone, 22,70 euros de l'outre-mer vers l'Hexagone et 27,50 euros dans l'autre sens.",
+   "Le texte est porté par Jean-Hugues Ratenon (LFI), député de La Réunion, lors de la journée réservée à son groupe.",
+   "Il inscrit dans la loi que le tarif unique contribue à la cohésion sociale, par une répartition des coûts sur l'ensemble des usagers."
+  ],
+  "change": [
+   [
+    "Tarif national seulement pour les lettres de moins de 100 grammes.",
+    "Tarif national pour tous les envois à l'unité.",
+    "Particuliers et petites entreprises d'outre-mer"
+   ],
+   [
+    "—",
+    "Même règle pour la Nouvelle-Calédonie, la Polynésie, Wallis-et-Futuna.",
+    "Collectivités du Pacifique"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Jean-Hugues Ratenon (La France insoumise), auteur",
+    "arg": "Pour un colis de 10 à 15 kilos, un ultramarin paie jusqu'à 137 euros contre 30,55 euros dans l'Hexagone : une différence « inadmissible ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2118.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Jean-Luc Bourgeaux (Droite républicaine)",
+    "arg": "Sans « financement pérenne ou de compensations », la réforme « compromettrait la viabilité » du service postal outre-mer.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2118.html"
+   }
+  ]
+ },
+ "resume": [
+  "Le service universel postal impose à La Poste des tarifs identiques sur tout le territoire métropolitain ; pour l'outre-mer, cet alignement ne vaut aujourd'hui que pour les lettres légères.",
+  "Le texte remplace « métropolitain » par « national » et applique le tarif national aux envois postaux à l'unité vers et depuis les départements d'outre-mer et les collectivités du Pacifique, pour toutes les tranches de poids.",
+  "En commission, le rapporteur Perceval Gaillard (LFI) a étendu la mesure aux colis à l'unité, et pas seulement au courrier.",
+  "Le texte s'inspire d'une « mission flash » de la délégation aux outre-mer de l'Assemblée sur la hausse des prix des colis.",
+  "Il s'appuie sur une logique de péréquation, comme pour l'électricité : le coût serait réparti sur l'ensemble des usagers."
+ ],
+ "pourquoi": [
+  "Selon les auteurs, l'envoi de colis est souvent le seul moyen de garder le lien avec la famille, quand un billet d'avion dépasse 1 000 euros.",
+  "Selon Philippe Naillet (socialiste), à La Réunion, 36 % de la population vit sous le seuil de pauvreté."
+ ],
+ "change": [
+  [
+   "Tarifs différents au-delà de 100 grammes.",
+   "Tarif national pour tous les envois à l'unité.",
+   "Habitants des outre-mer",
+   "À l'adoption définitive"
+  ]
+ ],
+ "pasfait": [
+  "Il ne concerne pas les envois des entreprises en grand nombre, seulement les envois à l'unité.",
+  "Il ne prévoit pas de financement précis pour La Poste, ce que regrettent ses opposants."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Joseph Rivière (RN)",
+    "arg": "L'inégalité d'accès au service public postal inflige aux ultramarins « une double peine ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2118.html"
+   },
+   {
+    "qui": "Karine Lebon (Gauche démocrate et républicaine)",
+    "arg": "Les familles réunionnaises paient « un impôt invisible pour maintenir un lien vital avec leurs proches ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2118.html"
+   },
+   {
+    "qui": "Philippe Naillet (socialiste)",
+    "arg": "Le texte vise à « faire cesser une inégalité réelle et ancienne » ; le surcoût touche aussi les artisans.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2118.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Jean-Luc Fugit (Ensemble pour la République)",
+    "arg": "Il serait « prématuré » de modifier les obligations de La Poste avant la refonte du service universel postal attendue après 2027.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2118.html"
+   },
+   {
+    "qui": "Jean-Luc Bourgeaux (Droite républicaine)",
+    "arg": "Un tarif uniforme ne tient pas compte des surcoûts d'acheminement sur de longues distances.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2118.html"
+   },
+   {
+    "qui": "Marie-Agnès Poussier-Winsback (Horizons)",
+    "arg": "Elle partage le constat de la vie chère « sans ambiguïté », mais son groupe s'est abstenu sur la solution proposée.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2118.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée : adopté le 27 novembre 2025 par 195 voix contre 0, avec 51 abstentions. Le texte a été transmis au Sénat."
+  },
+  {
+   "titre": "Un texte voisin",
+   "texte": "La proposition de loi socialiste contre la vie chère dans les services outre-mer, adoptée en décembre 2025, contient une mesure semblable sur les tarifs postaux."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Perceval Gaillard, Assemblée nationale (n° 2118)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2118.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 183)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0183.raw"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl25-167.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N52976"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

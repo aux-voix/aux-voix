@@ -1,0 +1,122 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53690",
+ "titre_officiel": "Proposition de loi visant à permettre le remboursement des frais d’expertise comptable aux candidats",
+ "phrase": "Les candidats aux élections peuvent se faire rembourser par l'État les frais de l'expert-comptable qui doit présenter leurs comptes de campagne.",
+ "note": "Loi promulguée en avril 2026, adoptée à l'unanimité à l'Assemblée (42 voix pour).",
+ "essentiel": {
+  "points": [
+   "Dans la plupart des élections, un candidat doit faire présenter ses comptes de campagne par un expert-comptable.",
+   "Ces frais, environ 1 000 euros par compte, étaient remboursés par tolérance ; une décision de justice de décembre 2025 l'a remis en cause.",
+   "La loi les inscrit dans le compte de campagne et permet leur remboursement par l'État, sauf montants excessifs."
+  ],
+  "pour": "Tous les groupes : un candidat ne doit pas payer de sa poche une dépense que la loi lui impose.",
+  "contre": "Personne ne s'y est opposé. LFI regrette que d'autres sujets électoraux n'aient pas été traités en priorité."
+ },
+ "court": {
+  "resume": [
+   "Depuis 1990, les candidats qui doivent déposer un compte de campagne le font présenter par un expert-comptable ; les communes de moins de 9 000 habitants en sont dispensées.",
+   "La Commission nationale des comptes de campagne remboursait ces frais sans texte ; en décembre 2025, la cour administrative d'appel de Paris a jugé qu'elle ne pouvait pas le faire.",
+   "Ce texte transpartisan venu du Sénat a été adopté rapidement pour couvrir les élections municipales de 2026."
+  ],
+  "change": [
+   [
+    "Remboursement admis par tolérance, contesté en justice.",
+    "Frais inscrits dans le compte de campagne et remboursables par l'État.",
+    "Candidats"
+   ],
+   [
+    "—",
+    "La commission peut ne retenir qu'une partie des frais s'ils sont manifestement excessifs.",
+    "Candidats, experts-comptables"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Daniel Labaronne (Ensemble pour la République)",
+    "arg": "Un candidat qui respecte la loi se retrouvait « exposé à un reste à charge imprévisible. Ce n'est pas acceptable ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2576.html"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "Les frais d'expertise comptable sont désormais inscrits dans le compte de campagne et éligibles au remboursement forfaitaire de l'État, comme c'était déjà le cas pour l'élection présidentielle depuis 2001.",
+  "La Commission nationale des comptes de campagne et des financements politiques peut n'en retenir qu'une partie s'ils sont manifestement excessifs au regard du travail fourni ou des difficultés du compte.",
+  "Selon cette commission, ces frais s'élèvent en moyenne à 800 à 1 000 euros par compte de campagne, selon le type d'élection.",
+  "Deux arrêts de la cour administrative d'appel de Paris du 22 décembre 2025 avaient jugé que la commission ne pouvait pas les rembourser sans base légale."
+ ],
+ "pourquoi": [
+  "Pour le Conseil d'État et le Conseil constitutionnel, ces frais ne sont pas des « dépenses engagées en vue de l'élection » : sans texte, leur remboursement n'était pas assuré.",
+  "Selon le rapporteur Sébastien Huyghe (Ensemble pour la République), une adoption sans modification était nécessaire pour couvrir les municipales en cours."
+ ],
+ "change": [
+  [
+   "Remboursement fragile, sans base légale.",
+   "Remboursement prévu par le code électoral.",
+   "Candidats",
+   "Depuis avril 2026"
+  ],
+  [
+   "—",
+   "Possibilité de réduire des frais manifestement excessifs.",
+   "Experts-comptables",
+   "Depuis avril 2026"
+  ]
+ ],
+ "pasfait": [
+  "Il ne change ni le plafond des dépenses de campagne ni les conditions du remboursement forfaitaire.",
+  "Il ne règle pas la difficulté d'ouvrir un compte bancaire de campagne, soulevée par les communistes."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Kévin Pfeffer (RN)",
+    "arg": "L'incertitude juridique « est à l'origine de procédures qui engorgent inutilement les tribunaux ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2576.html"
+   },
+   {
+    "qui": "Gabrielle Cathala (La France insoumise)",
+    "arg": "Le texte aidera des candidats « pour qui se présenter à une élection est un sacrifice financier ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2576.html"
+   },
+   {
+    "qui": "Marietta Karamanli (socialiste)",
+    "arg": "Il s'agit de « garantir l'équité entre les candidats et la sécurité juridique » des comptes de campagne.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2576.html"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucune opposition : le texte a été adopté à l'unanimité. Elsa Faucillon (communiste) a insisté sur la nécessité d'éviter « que ces dépenses explosent », ce que permet le pouvoir de réduction donné à la commission."
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Sénat : adopté le 19 février 2026. Assemblée : 42 pour, 0 contre (30 mars 2026, scrutin n° 5849), sans modification."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Sébastien Huyghe, Assemblée nationale (n° 2576)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2576.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 258)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0258.raw"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53690"
+  },
+  {
+   "titre": "Scrutin n° 5849 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/5849"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

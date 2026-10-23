@@ -1,0 +1,143 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N54148",
+ "titre_officiel": "Proposition de loi visant à réduire les risques sanitaires liés aux contaminations au cadmium dans l’alimentation",
+ "phrase": "Les engrais trop chargés en cadmium, un métal toxique qui passe dans le pain ou les céréales, seraient interdits : plafond abaissé en 2027, puis en 2030.",
+ "note": "Texte adopté par l'Assemblée en première lecture le 3 juin 2026. Le Sénat doit encore l'examiner.",
+ "essentiel": {
+  "points": [
+   "Le cadmium est un métal toxique présent dans certains engrais phosphatés ; il passe du sol au pain, aux pâtes ou aux pommes de terre.",
+   "Selon l'Anses citée en commission, 47 % des Français dépassent la dose jugée sans risque.",
+   "Le plafond français dans les engrais passerait de 90 à 40 mg par kilo en 2027, puis à 20 mg en 2030."
+  ],
+  "pour": "Gauche et centre : les autorités sanitaires alertent ; il faut réduire la contamination à la source, dans les engrais.",
+  "contre": "Le RN a voté contre : une interdiction « sans solution » qui pénaliserait les agriculteurs et les rendrait dépendants de quelques pays fournisseurs."
+ },
+ "court": {
+  "resume": [
+   "En 2025, des médecins libéraux ont qualifié de « bombe sanitaire » la contamination de l'alimentation par le cadmium ; la France est l'un des pays européens où la population est la plus exposée.",
+   "Le cadmium vient en grande partie des engrais phosphatés : il s'accumule dans les sols puis dans les céréales et les légumes.",
+   "Le texte fixe dans la loi un plafond de cadmium dans ces engrais, abaissé en deux étapes ; il a été adopté par 144 voix contre 22."
+  ],
+  "change": [
+   [
+    "Plafond français de 90 mg de cadmium par kg d'anhydride phosphorique dans les engrais.",
+    "Engrais au-delà de 40 mg interdits à la vente et à l'usage à partir du 1er janvier 2027.",
+    "Agriculteurs, fabricants et importateurs d'engrais"
+   ],
+   [
+    "—",
+    "Plafond abaissé à 20 mg à partir du 1er janvier 2030.",
+    "Idem"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Jean-Luc Fugit (Ensemble pour la République)",
+    "arg": "Les autorités sanitaires françaises et européennes « sont unanimes : le cadmium s'accumule » dans l'organisme.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2839.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Eddy Casterman (RN)",
+    "arg": "Une « trajectoire irréaliste » qui pénalisera la production agricole française, sans étude d'impact, alors que les engrais coûtent déjà cher.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2839.html"
+   }
+  ]
+ },
+ "resume": [
+  "Le cadmium est un métal lourd dont la toxicité est documentée depuis plus de trente ans ; selon les autorités sanitaires, il s'accumule dans l'organisme.",
+  "Une grande partie de l'exposition vient de l'alimentation de base (pain, céréales, pommes de terre), contaminée par les engrais phosphatés.",
+  "Une première proposition interdisant ces engrais n'avait pas été examinée en séance ; ce texte retient un plafond progressif.",
+  "Il interdit l'importation, la vente et l'usage d'engrais phosphatés de plus de 40 mg de cadmium par kg d'anhydride phosphorique dès 2027, puis de plus de 20 mg dès 2030.",
+  "Adopté le 3 juin 2026, il a été transmis au Sénat."
+ ],
+ "pourquoi": [
+  "Selon le rapporteur, l'Anses recommande de limiter fortement le cadmium dans les engrais pour réduire l'exposition de la population.",
+  "Selon Chantal Jourdan (socialiste), 47 % des Français sont considérés comme surexposés, d'après l'Anses."
+ ],
+ "change": [
+  [
+   "Plafond de 90 mg/kg d'anhydride phosphorique.",
+   "Plafond de 40 mg/kg.",
+   "Engrais phosphatés",
+   "1er janvier 2027, si le texte est adopté définitivement"
+  ],
+  [
+   "—",
+   "Plafond de 20 mg/kg.",
+   "Engrais phosphatés",
+   "1er janvier 2030"
+  ]
+ ],
+ "pasfait": [
+  "Il n'interdit pas tous les engrais phosphatés, seulement ceux qui dépassent le plafond.",
+  "Il ne fixe pas de seuil dans les aliments eux-mêmes ; il agit sur les engrais."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Benoît Biteau (écologiste), auteur et rapporteur",
+    "arg": "La France est l'un des pays européens les plus imprégnés par ce métal, dont la toxicité est documentée depuis plus de trente ans.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2839.html"
+   },
+   {
+    "qui": "Chantal Jourdan (socialiste)",
+    "arg": "Chocolat, pain, fruits, céréales : le cadmium est « omniprésent dans notre alimentation quotidienne ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2839.html"
+   },
+   {
+    "qui": "Thierry Benoit (Horizons)",
+    "arg": "Il faut faire le lien entre l'agriculture, l'alimentation et la santé.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2839.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Eddy Casterman (RN)",
+    "arg": "Les phosphates faiblement chargés en cadmium viennent de peu de pays : le texte exposerait l'agriculture à des ruptures d'approvisionnement.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2839.html"
+   },
+   {
+    "qui": "Louise Morel (Démocrates), dont le groupe a voté pour en séance",
+    "arg": "En commission, elle jugeait la méthode inadaptée : un plafond français place le pays « hors du cadre européen » et sera lourd à modifier par la loi.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2839.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée : 144 pour, 22 contre (RN, UDR), 4 abstentions (3 juin 2026, scrutin n° 7303)."
+  },
+  {
+   "titre": "Le texte adopté",
+   "texte": "Nouvel article L. 255-2-1 du code rural (texte adopté n° 300)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Benoît Biteau, Assemblée nationale (n° 2839)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2839.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée nationale (n° 300)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0300.raw"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54148"
+  },
+  {
+   "titre": "Scrutin n° 7303 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/7303"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

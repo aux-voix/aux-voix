@@ -1,0 +1,158 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N52977",
+ "titre_officiel": "Proposition de loi visant à nationaliser ArcelorMittal France",
+ "phrase": "Le texte propose que l'État rachète ArcelorMittal France, principal producteur d'acier du pays. Voté deux fois par l'Assemblée, il a été rejeté une fois par le Sénat.",
+ "note": "Texte adopté par l'Assemblée en deuxième lecture le 11 juin 2026, après un rejet du Sénat. Il n'est pas adopté définitivement.",
+ "essentiel": {
+  "points": [
+   "ArcelorMittal France possède la plupart des sites d'acier français, dont Dunkerque, Fos-sur-Mer et Florange.",
+   "Selon les auteurs, le groupe se désengage et ne fait pas les investissements nécessaires, notamment pour réduire ses émissions.",
+   "Le texte prévoit que l'État en devienne propriétaire, en gardant les contrats de travail des salariés.",
+   "La gauche a voté pour, le centre et la droite contre, le RN s'est abstenu."
+  ],
+  "pour": "La gauche : l'acier est stratégique, et seul l'État pourrait garantir l'avenir des sites et leur décarbonation.",
+  "contre": "Le centre et la droite : nationaliser ne règle ni la concurrence mondiale ni le coût de l'énergie ; le RN préfère une autre solution."
+ },
+ "court": {
+  "resume": [
+   "L'acier sert à construire des logements, des voitures, des trains, des éoliennes et des armes : sa production est considérée comme stratégique.",
+   "La France dépend surtout d'ArcelorMittal France, filiale du deuxième groupe sidérurgique mondial ; selon la rapporteure, le groupe réduit ses effectifs et repousse ses investissements.",
+   "Le texte de La France insoumise propose de nationaliser la filiale ; adopté deux fois par l'Assemblée, il a été rejeté par le Sénat en février 2026."
+  ],
+  "change": [
+   [
+    "ArcelorMittal France appartient au groupe privé ArcelorMittal.",
+    "L'État en deviendrait propriétaire, contre indemnisation des actionnaires.",
+    "Le groupe, l'État"
+   ],
+   [
+    "—",
+    "Les contrats de travail des salariés seraient maintenus.",
+    "Environ 15 400 salariés en France"
+   ],
+   [
+    "—",
+    "L'entreprise resterait soumise au droit commercial, avec une gouvernance fixée par la loi.",
+    "L'entreprise"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Aurélie Trouvé (La France insoumise), autrice et rapporteure",
+    "arg": "ArcelorMittal se désengage du territoire et renonce aux investissements de maintenance et de décarbonation : l'État doit reprendre la main sur une production stratégique.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2123.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Marc Ferracci (Ensemble pour la République)",
+    "arg": "Un enjeu de souveraineté « ne suffit pas pour engager une nationalisation ; il faut aussi qu'il n'y ait pas de solution industrielle ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2123.html"
+   }
+  ]
+ },
+ "resume": [
+  "ArcelorMittal France détient la plupart des sites français du deuxième groupe sidérurgique mondial, notamment Dunkerque, Fos-sur-Mer et Florange, et emploie environ 15 400 personnes.",
+  "Selon l'exposé des motifs, le groupe se désengage de la France : effectifs en baisse, investissements de maintenance et de décarbonation repoussés.",
+  "La proposition de loi prévoit la nationalisation d'ArcelorMittal France, le maintien des contrats de travail et une gouvernance publique de l'entreprise.",
+  "Adoptée par l'Assemblée le 27 novembre 2025, rejetée par le Sénat le 25 février 2026, elle a de nouveau été adoptée par l'Assemblée le 11 juin 2026.",
+  "Faute d'accord entre les deux assemblées, elle n'est pas adoptée définitivement."
+ ],
+ "pourquoi": [
+  "Selon la rapporteure, la décarbonation de l'industrie de l'acier demande des investissements estimés par l'Ademe entre 2,6 et 13 milliards d'euros, que l'entreprise refuserait de réaliser.",
+  "Elle relève que la capitalisation boursière du groupe est passée de 15 à 27 milliards d'euros entre 2015 et 2025 malgré les restructurations en France."
+ ],
+ "change": [
+  [
+   "Filiale d'un groupe privé.",
+   "Entreprise nationalisée, contre indemnisation.",
+   "ArcelorMittal, État",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "—",
+   "Maintien des contrats de travail.",
+   "Salariés",
+   "Si le texte est adopté définitivement"
+  ]
+ ],
+ "pasfait": [
+  "Il ne nationalise pas le groupe ArcelorMittal mondial, seulement sa filiale française.",
+  "Il n'est pas en vigueur : le Sénat l'a rejeté et les deux assemblées ne sont pas d'accord."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Aurélien Le Coq (La France insoumise)",
+    "arg": "« C'est toute l'industrie française qui est en danger de mort » si les sites d'ArcelorMittal ferment.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2123.html"
+   },
+   {
+    "qui": "Julien Gokel (socialiste)",
+    "arg": "Le groupe a une situation financière solide, verse des dividendes et touche des aides publiques, mais prend trop peu d'engagements sur la décarbonation.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2123.html"
+   },
+   {
+    "qui": "François Ruffin (écologiste)",
+    "arg": "Il a d'abord partagé les réticences, mais juge qu'un État stratège doit parfois intervenir directement.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2123.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Marie Lebec (Ensemble pour la République)",
+    "arg": "Elle cite le Royaume-Uni, qui a nationalisé British Steel au nom de la souveraineté sans sauver la filière.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2123.html"
+   },
+   {
+    "qui": "Nicolas Ray (Droite républicaine)",
+    "arg": "« Une mauvaise solution à un vrai problème » : il faudrait alors nationaliser toutes les entreprises qui font des plans sociaux.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2123.html"
+   },
+   {
+    "qui": "Frédéric Weber (RN), dont le groupe s'est abstenu",
+    "arg": "Le diagnostic est juste, mais une nationalisation « immédiate et sans cap » n'est pas la bonne solution ; il propose une « action spécifique » (golden share) de l'État.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2123.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Les votes",
+   "texte": "Assemblée, première lecture : 127 pour, 41 contre, 42 abstentions (27 novembre 2025, scrutin n° 4438). Sénat : rejet (25 février 2026). Assemblée, deuxième lecture : 106 pour, 49 contre, 47 abstentions (11 juin 2026, scrutin n° 7380)."
+  },
+  {
+   "titre": "Le groupe ArcelorMittal",
+   "texte": "Deuxième producteur d'acier brut au monde et premier en Europe, selon le rapport de l'Assemblée."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport d'Aurélie Trouvé, Assemblée nationale (n° 2123)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2123.html"
+  },
+  {
+   "titre": "Rapport de deuxième lecture (n° 2872)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2872.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N52977"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl25-170.html"
+  },
+  {
+   "titre": "Scrutin n° 7380 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/7380"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

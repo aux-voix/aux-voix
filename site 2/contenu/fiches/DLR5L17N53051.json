@@ -1,0 +1,154 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53051",
+ "titre_officiel": "Proposition de loi visant à protéger les mineurs isolés et à lutter contre le sans-abrisme",
+ "phrase": "Un jeune étranger qui conteste devant le juge le refus de le reconnaître mineur resterait hébergé jusqu'à la décision définitive.",
+ "note": "Adopté par l'Assemblée en décembre 2025 ; le texte attend son examen au Sénat.",
+ "essentiel": {
+  "points": [
+   "Un jeune étranger seul qui se dit mineur est hébergé le temps que le département évalue son âge et son isolement.",
+   "S'il n'est pas reconnu mineur, il perd cet hébergement, même s'il conteste la décision devant le juge des enfants.",
+   "Le texte maintient l'hébergement jusqu'à la décision du juge et interdit certains examens médicaux pour estimer l'âge."
+  ],
+  "pour": "La gauche : des jeunes ensuite reconnus mineurs par la justice passent des mois à la rue, exposés à tous les dangers.",
+  "contre": "RN, macronistes, droite, MoDem et Horizons : risque de détournement, la plupart des jeunes évalués n'étant pas reconnus mineurs, et départements saturés."
+ },
+ "court": {
+  "resume": [
+   "Selon l'Unicef et la Fédération des acteurs de la solidarité, 2 159 enfants n'ont pas trouvé d'hébergement après un appel au 115 le 18 août 2025, un chiffre en hausse d'environ 30 % depuis 2022.",
+   "En juin 2025, plus de 3 200 recours contre des refus de minorité étaient en cours, selon un député ; les délais de jugement peuvent dépasser un an.",
+   "Les chiffres divergent : selon Départements de France, 23 % des jeunes évalués sont reconnus mineurs ; selon d'autres députés, près de 60 % des recours aboutissent à une reconnaissance."
+  ],
+  "change": [
+   [
+    "Hébergement arrêté après un refus de minorité, même en cas de recours.",
+    "Hébergement maintenu jusqu'à la décision définitive du juge.",
+    "Jeunes se déclarant mineurs isolés"
+   ],
+   [
+    "Examen radiologique des os possible pour estimer l'âge.",
+    "Interdiction des examens osseux, dentaires et physiques pour estimer l'âge.",
+    "Jeunes évalués, départements"
+   ],
+   [
+    "—",
+    "Scolarisation pendant l'accueil provisoire.",
+    "Jeunes hébergés"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Karine Lebon (Gauche démocrate et républicaine)",
+    "arg": "« Un enfant reste un enfant. Quelle que soit son origine, il doit être protégé avec la même exigence. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2194.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "François Gernigon (Horizons)",
+    "arg": "Si l'on allonge l'hébergement « pour tous sans distinction », on met sous tension des dispositifs déjà saturés.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2194.html"
+   }
+  ]
+ },
+ "resume": [
+  "Article 1er : quand un jeune non reconnu mineur ou isolé saisit le juge des enfants, la décision de refus est suspendue et son accueil provisoire d'urgence maintenu jusqu'à une décision définitive.",
+  "Article 1er bis : le département doit scolariser le jeune pendant cet accueil provisoire.",
+  "Article 1er ter : en cas de doute sur l'âge, il est interdit de l'évaluer par un examen radiologique des os, un examen dentaire ou un examen du développement physique.",
+  "L'observatoire national du sans-abrisme prévu au départ a été supprimé ; les dépenses nouvelles des départements seraient compensées par l'État.",
+  "Le texte est porté par Emmanuel Grégoire (socialiste) ; la commission avait rejeté l'article 1er, rétabli ensuite en séance."
+ ],
+ "pourquoi": [
+  "Selon le rapporteur, beaucoup de ces jeunes se retrouvent à la rue pendant leur recours, exposés à des réseaux qui les exploitent.",
+  "Selon Départements de France, cité par le rapporteur, le maintien de l'hébergement serait « vertueux », à condition d'une compensation financière."
+ ],
+ "change": [
+  [
+   "Fin de l'hébergement après un refus de minorité.",
+   "Hébergement jusqu'au jugement définitif.",
+   "Jeunes se déclarant mineurs",
+   "À l'adoption définitive"
+  ],
+  [
+   "Tests osseux autorisés.",
+   "Tests osseux, dentaires et physiques interdits.",
+   "Jeunes évalués",
+   "À l'adoption définitive"
+  ]
+ ],
+ "pasfait": [
+  "Il ne reconnaît pas automatiquement la minorité : c'est toujours le juge qui tranche.",
+  "Il ne crée finalement pas d'observatoire national du sans-abrisme."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Karine Lebon (Gauche démocrate et républicaine)",
+    "arg": "Le recours n'est pas suspensif : « dans cet entre-deux indigne, la rue devient leur seul refuge » ; près de 60 % des recours aboutiraient selon elle à une reconnaissance de minorité.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2194.html"
+   },
+   {
+    "qui": "Sandrine Runel (socialiste)",
+    "arg": "L'évaluation « manque cruellement d'objectivité et d'humanité » ; elle juge les tests osseux « dégradants, peu fiables ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2194.html"
+   },
+   {
+    "qui": "Christophe Mongardien (Ensemble pour la République), dont le groupe a voté contre",
+    "arg": "Il reconnaît « une situation inacceptable » : ces dernières années, le nombre d'enfants dormant dans la rue a augmenté de 30 %.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2194.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Théo Bernhardt (RN)",
+    "arg": "Un effet suspensif pendant des délais judiciaires longs ouvrirait « une voie royale au détournement » du système de protection de l'enfance.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2194.html"
+   },
+   {
+    "qui": "Fabien Di Filippo (Droite républicaine)",
+    "arg": "En 2018, les trois quarts des 7 367 jeunes mis à l'abri n'ont pas été reconnus mineurs ; le texte saturerait l'aide sociale à l'enfance.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2194.html"
+   },
+   {
+    "qui": "Anne Bergantz (Les Démocrates)",
+    "arg": "La minorité est difficile à évaluer pour des jeunes qui disent avoir 16 ou 17 ans ; les tests osseux ne sont qu'un indice parmi d'autres.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2194.html"
+   },
+   {
+    "qui": "François Gernigon (Horizons)",
+    "arg": "Selon Départements de France, seuls 23 % des jeunes évalués sont reconnus mineurs ; les départements y consacrent environ 2 milliards d'euros par an.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2194.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée : adopté le 11 décembre 2025 par 144 voix contre 100 ; la gauche a voté pour, les autres groupes contre. Le texte a été transmis au Sénat."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport d'Emmanuel Grégoire, Assemblée nationale (n° 2194)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2194.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 195)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0195.raw"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl25-216.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53051"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

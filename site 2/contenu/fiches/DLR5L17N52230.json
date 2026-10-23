@@ -1,0 +1,178 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N52230",
+ "titre_officiel": "Proposition de loi visant à garantir le droit de visite des parlementaires et des bâtonniers dans les lieux de privation de liberté",
+ "phrase": "Députés, sénateurs et bâtonniers peuvent visiter à tout moment tout lieu où une personne est enfermée par décision de justice ou de l'administration.",
+ "note": "Loi promulguée en mai 2026, adoptée juste avant la date limite fixée par le Conseil constitutionnel (30 avril 2026).",
+ "essentiel": {
+  "points": [
+   "Les parlementaires peuvent visiter sans prévenir prisons, cellules de garde à vue ou centres de rétention pour contrôler les conditions d'enfermement.",
+   "Le Conseil constitutionnel avait jugé la liste des lieux incomplète : sans nouvelle loi, ce droit tombait le 30 avril 2026.",
+   "La loi ouvre tous les lieux de privation de liberté ; les journalistes restent exclus des cellules de garde à vue."
+  ],
+  "pour": "Presque tous les groupes : ce contrôle protège la dignité des personnes enfermées et révèle aussi les conditions de travail des surveillants.",
+  "contre": "LFI a voté contre la version finale ; elle voulait aussi des entretiens confidentiels avec les détenus et le droit d'apporter du matériel de mesure."
+ },
+ "court": {
+  "resume": [
+   "Depuis 2000, les parlementaires peuvent visiter à tout moment des lieux d'enfermement ; les bâtonniers (élus à la tête des avocats d'un barreau) aussi, depuis 2021.",
+   "En 2025, le Conseil constitutionnel a jugé injustifié que certains lieux, comme les cellules des tribunaux, échappent à ce droit, et a fixé une date limite.",
+   "La loi, venue de sénateurs socialistes, remplace la liste des lieux par un droit général de visite."
+  ],
+  "change": [
+   [
+    "Visite d'une liste de lieux (prisons, garde à vue, rétention…).",
+    "Visite de tout lieu de privation de liberté, pénal ou administratif.",
+    "Parlementaires, bâtonniers"
+   ],
+   [
+    "Les bâtonniers ne pouvaient pas visiter les hôpitaux psychiatriques sans consentement.",
+    "Ils le peuvent désormais.",
+    "Bâtonniers, patients"
+   ],
+   [
+    "Accompagnement par un collaborateur prévu par de simples circulaires.",
+    "Un collaborateur peut accompagner les parlementaires ; un avocat, le bâtonnier.",
+    "Parlementaires, bâtonniers"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Guillaume Gouffier Valente (Ensemble pour la République)",
+    "arg": "« Nous le faisons pour les détenus, les retenus, parce qu'être enfermé ne signifie pas être privé de dignité. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2577.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Jean-François Coulomme (La France insoumise)",
+    "arg": "Des députés insoumis se sont vu refuser certains lieux ou appareils de prise d'images : « La loi est préférable à l'arbitraire de l'administration. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2577.html"
+   }
+  ]
+ },
+ "resume": [
+  "Le nouvel article 719 du code de procédure pénale autorise députés, sénateurs, eurodéputés élus en France et bâtonniers (ou leur délégué) à visiter à tout moment tout lieu où une personne est privée de liberté dans une procédure pénale ou administrative.",
+  "Les parlementaires peuvent venir avec des journalistes, sauf dans les locaux de garde à vue, les cellules des tribunaux et les hôpitaux psychiatriques ; un décret en Conseil d'État fixe les conditions.",
+  "Ils peuvent aussi venir avec un collaborateur parlementaire ou un agent des assemblées ; le bâtonnier, avec un avocat désigné par le conseil de l'ordre.",
+  "Les bâtonniers obtiennent le droit, ouvert aux parlementaires depuis 2013, de visiter les établissements de soins psychiatriques sans consentement.",
+  "En 2025, les parlementaires ont fait 267 visites de prisons, dont 108 avec des journalistes, selon l'administration pénitentiaire."
+ ],
+ "pourquoi": [
+  "Le 29 avril 2025, le Conseil constitutionnel a jugé que la liste des lieux créait une différence de traitement injustifiée entre personnes privées de liberté ; il a laissé au Parlement jusqu'au 30 avril 2026.",
+  "Une nouvelle liste risquait d'« oublier un lieu », selon la rapporteure du Sénat : le Parlement a donc choisi un droit général."
+ ],
+ "change": [
+  [
+   "Liste fermée de lieux.",
+   "Tout lieu de privation de liberté.",
+   "Parlementaires, bâtonniers",
+   "Depuis mai 2026"
+  ],
+  [
+   "—",
+   "Journalistes exclus de la garde à vue, des cellules des tribunaux et de la psychiatrie.",
+   "Journalistes",
+   "Depuis mai 2026"
+  ],
+  [
+   "—",
+   "Règles applicables aussi en Nouvelle-Calédonie.",
+   "Outre-mer",
+   "Depuis mai 2026"
+  ]
+ ],
+ "pasfait": [
+  "Le droit à un entretien confidentiel avec un détenu, voté par l'Assemblée, a été retiré dans le compromis avec le Sénat.",
+  "Les journalistes n'entrent toujours pas en garde à vue, contrairement à ce que voulaient les députés.",
+  "La loi ne dit pas quels appareils (thermomètre, caméra) les parlementaires peuvent apporter."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Guillaume Gouffier Valente (Ensemble pour la République)",
+    "arg": "Ce droit sert les personnes enfermées : « être enfermé ne signifie pas être privé de dignité ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2577.html"
+   },
+   {
+    "qui": "Jonathan Gery (RN)",
+    "arg": "Ce droit « n'est ni un privilège, ni une commodité » mais une traduction des principes du système représentatif.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2577.html"
+   },
+   {
+    "qui": "Elsa Faucillon (Gauche démocrate et républicaine)",
+    "arg": "Derrière la correction technique se pose la question de « la transparence des lieux où la République prive des personnes de leur liberté ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2577.html"
+   },
+   {
+    "qui": "Gérald Darmanin, ministre de la Justice",
+    "arg": "« C'est un droit de regard essentiel dans une démocratie. »",
+    "source": "https://lcp.fr/actualites/prisons-le-parlement-securise-le-droit-de-visite-des-deputes-et-senateurs-435753"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Jean-François Coulomme (La France insoumise)",
+    "arg": "La loi devrait encadrer l'usage d'appareils de mesure ou d'images, refusé à certains députés : « La loi est préférable à l'arbitraire de l'administration. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2577.html"
+   },
+   {
+    "qui": "Andrée Taurinya (La France insoumise)",
+    "arg": "Il faut des entretiens confidentiels avec les détenus : « la parole n'est pas la même » sous l'œil d'un surveillant.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2577.html"
+   },
+   {
+    "qui": "Dominique Voynet (écologiste)",
+    "arg": "Un journaliste devrait pouvoir être présent en garde à vue, dans un cadre sérieusement encadré.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2577.html"
+   },
+   {
+    "qui": "Laurence Harribey (socialiste), rapporteure pour le Sénat",
+    "arg": "À l'inverse, les journalistes ne doivent pas entrer en garde à vue, pour protéger « le secret de l'enquête et de l'instruction » et le secret médical.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2643.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée, première lecture : 55 pour, 4 contre (Droite républicaine), 25 abstentions (RN et Horizons), 30 mars 2026, scrutin n° 5856. Texte de compromis : 204 pour, 31 contre (LFI), 28 avril 2026, scrutin n° 6285. Le Sénat l'a adopté à main levée le 29 avril."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Pouria Amirshahi et Vincent Caure (n° 2577)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2577.html"
+  },
+  {
+   "titre": "Rapport de la commission mixte paritaire (n° 2643)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2643.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 276)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0276.raw"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N52230"
+  },
+  {
+   "titre": "Scrutin n° 5856 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/5856"
+  },
+  {
+   "titre": "Scrutin n° 6285 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/6285"
+  },
+  {
+   "titre": "« Prisons : le Parlement sécurise le droit de visite des députés et sénateurs », LCP",
+   "url": "https://lcp.fr/actualites/prisons-le-parlement-securise-le-droit-de-visite-des-deputes-et-senateurs-435753"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

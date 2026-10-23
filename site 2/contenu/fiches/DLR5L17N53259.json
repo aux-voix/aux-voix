@@ -1,0 +1,145 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53259",
+ "titre_officiel": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et l’Agence spatiale européenne concernant les installations de l’Agence spatiale européenne en France",
+ "phrase": "La France met à jour les règles qui encadrent le siège de l'Agence spatiale européenne à Paris et ses installations à Kourou, notamment ses exonérations fiscales.",
+ "note": "Loi promulguée en avril 2026, adoptée sans vote public.",
+ "essentiel": {
+  "points": [
+   "L'Agence spatiale européenne (ESA), créée en 1975, a son siège à Paris et des installations au centre spatial de Kourou, en Guyane.",
+   "Ses privilèges dataient de 1975 : l'accord les actualise, comme l'ont fait d'autres pays qui accueillent l'Agence.",
+   "Il élargit ses exonérations d'impôts et de taxes, dont la TVA, pour ses activités officielles."
+  ],
+  "pour": "Tous les groupes : accueillir le siège de l'ESA renforce l'influence de la France, puissance spatiale de premier plan.",
+  "contre": "Personne ne s'y est opposé, mais un député RN a jugé les nouvelles exonérations « un beau cadeau » fait par la France."
+ },
+ "court": {
+  "resume": [
+   "L'ESA rassemble 23 États, environ 2 500 agents et un budget de 7,68 milliards d'euros en 2023 ; la France en finance environ un cinquième.",
+   "Ses privilèges et immunités, fixés par une annexe de 1975, étaient jugés datés ; l'Agence demandait depuis longtemps un « accord de siège ».",
+   "Signé en 2023, cet accord complète ces règles : immunités des dirigeants, exonérations fiscales, travail des conjoints."
+  ],
+  "change": [
+   [
+    "Pas d'exonération des impôts directs pour l'Agence.",
+    "Exonération des impôts et taxes, dont la TVA, pour ses activités officielles.",
+    "ESA"
+   ],
+   [
+    "—",
+    "Le directeur général a le statut d'un chef de mission diplomatique.",
+    "Dirigeants de l'ESA"
+   ],
+   [
+    "—",
+    "Droit d'utiliser ses sites de façon exclusive ; la France en assure la protection.",
+    "Sites de Paris et de Kourou"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Laetitia Saint-Paul (Horizons)",
+    "arg": "L'autonomie stratégique « vers, dans et depuis l'espace est cruciale » ; son groupe est « fier de la place de la France au sein de l'ESA ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2343.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Michel Guiniot (RN)",
+    "arg": "L'accord prévoit « une longue litanie d'exonérations » qui réduiront les recettes fiscales : « La France fait un beau cadeau. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2343.html"
+   }
+  ]
+ },
+ "resume": [
+  "L'accord, signé à Paris le 22 mars 2023, fixe les règles d'installation et de fonctionnement des sites de l'Agence en France : siège parisien et moyens au centre spatial guyanais.",
+  "Il exonère l'Agence d'impôts et taxes pour ses activités officielles, y compris la TVA, les accises et la taxe sur les assurances, alors que l'annexe de 1975 n'exonérait pas des impôts directs.",
+  "Le directeur général bénéficie des privilèges d'un chef de mission diplomatique ; les cadres de haut rang, de ceux des diplomates, sauf pour les accidents de la route.",
+  "La France renonce au « taux effectif » : les salaires de l'Agence, non imposés en France, ne servent plus à calculer le taux d'impôt sur les autres revenus des agents.",
+  "Selon le rapport, environ 375 agents pourraient bénéficier de ces privilèges ; la perte de recettes fiscales devrait rester « très réduite »."
+ ],
+ "pourquoi": [
+  "La France estimait longtemps qu'un accord de siège « n'apporterait rien de plus » ; elle a fini par l'accepter dans le cadre de sa politique d'accueil des organisations internationales.",
+  "Les négociations, ouvertes en 2017, ont longtemps bloqué sur le taux effectif, selon le rapporteur Alexis Jolly (RN)."
+ ],
+ "change": [
+  [
+   "Annexe de 1975 jugée datée.",
+   "Accord de siège complet, comparable à ceux signés par d'autres États membres.",
+   "ESA",
+   "Depuis l'entrée en vigueur de l'accord"
+  ],
+  [
+   "—",
+   "Exonérations fiscales et douanières élargies pour les activités officielles.",
+   "ESA, budget de l'État",
+   "Depuis l'entrée en vigueur de l'accord"
+  ],
+  [
+   "—",
+   "Renonciation au taux effectif sur les salaires versés par l'Agence.",
+   "Agents de l'ESA",
+   "Depuis l'entrée en vigueur de l'accord"
+  ]
+ ],
+ "pasfait": [
+  "Il ne modifie pas la sécurité sociale des agents, régie par un accord de 1979.",
+  "Il ne change rien au financement des programmes spatiaux ni à la politique spatiale française."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Stéphane Hablot (socialiste)",
+    "arg": "Un texte technique qui aligne le statut de l'ESA sur celui des autres organisations internationales accueillies en France.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2343.html"
+   },
+   {
+    "qui": "Jean-Paul Lecoq (Gauche démocrate et républicaine)",
+    "arg": "L'accord est « éminemment politique même s'il est technique » : la France accueille trop peu de sièges d'organisations internationales.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2343.html"
+   },
+   {
+    "qui": "Arnaud Saint-Martin (La France insoumise)",
+    "arg": "Le siège à Paris est « un atout considérable » ; son groupe vote pour, « tout en étant vigilants ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2343.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Michel Guiniot (RN)",
+    "arg": "Les exonérations entraîneront de moindres recettes fiscales, alors que la France finance déjà 20,4 % du budget de l'ESA.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2343.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée : adopté le 20 janvier 2026, sans vote public. Sénat : avril 2026."
+  },
+  {
+   "titre": "Le contexte spatial",
+   "texte": "Plusieurs groupes ont rappelé que l'Europe a perdu un temps son accès autonome à l'espace entre l'arrêt d'Ariane 5 et l'arrivée d'Ariane 6, et que la concurrence entre États européens s'accroît."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport d'Alexis Jolly, Assemblée nationale (n° 2343)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2343.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 214)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PRJLANR5L17BTA0214.raw"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53259"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

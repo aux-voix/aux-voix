@@ -1,0 +1,173 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53386",
+ "titre_officiel": "Projet de loi spéciale prévue par l’article 45 de la loi organique n° 2001-692 du 1er août 2001 relative aux lois de finances",
+ "phrase": "Faute de budget voté avant le 1er janvier 2026, cette loi d'urgence a permis à l'État de continuer à lever les impôts et à emprunter.",
+ "note": "Loi promulguée le 26 décembre 2025 ; elle a cessé de s'appliquer avec l'entrée en vigueur du budget 2026, en février.",
+ "essentiel": {
+  "points": [
+   "Députés et sénateurs ne s'étant pas mis d'accord sur le budget 2026, l'État risquait de ne plus pouvoir percevoir l'impôt au 1er janvier.",
+   "La loi spéciale autorise à continuer de lever les impôts existants, à verser leurs dotations aux collectivités et à emprunter.",
+   "Ce n'est pas un budget : elle ne contient aucune mesure nouvelle et s'applique seulement jusqu'à l'adoption de la loi de finances."
+  ],
+  "pour": "Presque tous les groupes : un texte d'urgence indispensable pour que l'État et les services publics continuent de fonctionner.",
+  "contre": "Personne n'a voté contre ; LFI s'est abstenue. Plusieurs groupes voulaient y ajouter l'indexation de l'impôt sur le revenu sur l'inflation."
+ },
+ "court": {
+  "resume": [
+   "C'est la deuxième loi spéciale depuis la loi organique de 2001 sur les lois de finances ; la première avait été votée en décembre 2024, après la censure du gouvernement de Michel Barnier.",
+   "Elle ne traite que des recettes : les dépenses indispensables sont ensuite ouvertes par décret du gouvernement.",
+   "Les collectivités continuent de recevoir leurs dotations de l'État, évaluées à environ 45,2 milliards d'euros."
+  ],
+  "change": [
+   [
+    "Pas de budget voté au 1er janvier 2026.",
+    "Impôts existants perçus selon les règles en vigueur.",
+    "Contribuables, État"
+   ],
+   [
+    "—",
+    "Dotations aux collectivités maintenues.",
+    "Communes, départements, régions"
+   ],
+   [
+    "—",
+    "L'État peut emprunter pour couvrir ses besoins de trésorerie.",
+    "Finances publiques"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Philippe Juvin (Droite républicaine), rapporteur général",
+    "arg": "Indexer le barème de l'impôt dans la loi spéciale ou dans le budget voté début 2026 ne fait « aucune différence, pour le contribuable » tant que le budget passe avant avril.",
+    "source": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/cion_fin/l17cion_fin2526054_compte-rendu.pdf"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Charles de Courson (LIOT)",
+    "arg": "Sans indexation de la première tranche, « 200 000 à 300 000 personnes deviendraient redevables de l'impôt sur le revenu ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/cion_fin/l17cion_fin2526054_compte-rendu.pdf"
+   }
+  ]
+ },
+ "resume": [
+  "L'article 45 de la loi organique relative aux lois de finances prévoit ce texte d'urgence quand le budget n'a pas pu être adopté à temps ; le gouvernement l'a déposé le 22 décembre 2025, après l'échec de la commission mixte paritaire sur le budget 2026.",
+  "Article 1er : jusqu'à l'entrée en vigueur de la loi de finances pour 2026, l'État et les autres organismes concernés peuvent continuer à percevoir les impôts selon les règles existantes.",
+  "Article 2 : les sommes versées par l'État aux collectivités (dotation globale de fonctionnement, remboursement de TVA sur leurs investissements…) sont évaluées à environ 45,2 milliards d'euros.",
+  "Article 3 : le ministre des Finances peut emprunter pour couvrir les besoins de trésorerie de l'État.",
+  "En commission, l'indexation du barème de l'impôt sur le revenu sur l'inflation a été votée, mais elle ne figure pas dans le texte adopté ; selon le rapporteur général, le Conseil d'État exclut toute mesure fiscale nouvelle d'une loi spéciale."
+ ],
+ "pourquoi": [
+  "Le Parlement doit autoriser chaque année la perception des impôts ; sans budget voté avant le 31 décembre, cette autorisation manquait.",
+  "La majorité visait une adoption identique dans les deux chambres, pour éviter une nouvelle navette avant le 1er janvier."
+ ],
+ "change": [
+  [
+   "Autorisation de lever l'impôt valable pour 2025.",
+   "Prolongée jusqu'au budget 2026.",
+   "Contribuables, État",
+   "De janvier à février 2026"
+  ],
+  [
+   "—",
+   "Dotations aux collectivités reconduites.",
+   "Collectivités territoriales",
+   "De janvier à février 2026"
+  ],
+  [
+   "—",
+   "Autorisation d'emprunter.",
+   "État",
+   "De janvier à février 2026"
+  ]
+ ],
+ "pasfait": [
+  "Il n'indexe pas le barème de l'impôt sur le revenu sur l'inflation : la loi de finances de février 2026 l'a fait ensuite.",
+  "Il ne fixe ni les dépenses de l'État ni de nouvelles mesures fiscales."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Roland Lescure et Amélie de Montchalin, ministres",
+    "arg": "Ils ont répété que la loi spéciale n'est pas un budget, seulement un texte d'urgence pour assurer la continuité de l'État.",
+    "source": "https://lcp.fr/actualites/l-assemblee-a-adopte-la-loi-speciale-visant-a-permettre-le-fonctionnement-de-la-france"
+   },
+   {
+    "qui": "Philippe Juvin (Droite républicaine), rapporteur général",
+    "arg": "Le Conseil d'État a rappelé que les lois spéciales « ne peuvent comporter de mesures fiscales nouvelles ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/cion_fin/l17cion_fin2526054_compte-rendu.pdf"
+   },
+   {
+    "qui": "Jean-Paul Mattei (Les Démocrates)",
+    "arg": "Les amendements fiscaux « n'ont rien à faire dans une loi spéciale, qui vise, en urgence, à éviter un blocage des finances de l'État ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/cion_fin/l17cion_fin2526054_compte-rendu.pdf"
+   },
+   {
+    "qui": "Paul Midy (Ensemble pour la République)",
+    "arg": "« Nous visons une adoption conforme » : modifier le texte aurait imposé de prolonger son examen.",
+    "source": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/cion_fin/l17cion_fin2526054_compte-rendu.pdf"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Charles de Courson (LIOT)",
+    "arg": "Une simple lettre de la ministre ne suffit pas : « c'est la loi qui fixe l'assiette, le taux et les modalités de recouvrement de l'impôt ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/cion_fin/l17cion_fin2526054_compte-rendu.pdf"
+   },
+   {
+    "qui": "Éric Coquerel (La France insoumise), président de la commission des finances",
+    "arg": "Refuser d'y prolonger les contributions votées en 2025 est « une manière d'affaiblir ce texte par rapport à sa mission théorique ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/cion_fin/l17cion_fin2526054_compte-rendu.pdf"
+   },
+   {
+    "qui": "Jean-Didier Berger (Droite républicaine)",
+    "arg": "« Nous ne pouvons pas nous dessaisir de notre pouvoir d'amendement dans le seul but de viser la conformité avec le Sénat. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/cion_fin/l17cion_fin2526054_compte-rendu.pdf"
+   },
+   {
+    "qui": "Philippe Brun (socialiste)",
+    "arg": "« Il est sans doute excessif de trop vouloir restreindre le droit d'amendement » sur ce texte.",
+    "source": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/cion_fin/l17cion_fin2526054_compte-rendu.pdf"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée, 23 décembre 2025 : adopté par 496 voix contre 0, avec 62 abstentions (LFI). Sénat : adopté définitivement le même jour."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "« L'Assemblée a adopté la loi spéciale », LCP",
+   "url": "https://lcp.fr/actualites/l-assemblee-a-adopte-la-loi-speciale-visant-a-permettre-le-fonctionnement-de-la-france"
+  },
+  {
+   "titre": "« Budget 2026 : les députés approuvent la loi spéciale à l'unanimité », Brut (AFP)",
+   "url": "https://www.brut.media/fr/articles/budget-2026-les-deputes-approuvent-la-loi-speciale-a-lunanimite"
+  },
+  {
+   "titre": "Compte rendu de la commission des finances, 23 décembre 2025",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/cion_fin/l17cion_fin2526054_compte-rendu.pdf"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 207)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PRJLANR5L17BTA0207.raw"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/pjl25-248.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53386"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

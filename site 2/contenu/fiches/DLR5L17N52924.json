@@ -1,0 +1,134 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N52924",
+ "titre_officiel": "Proposition de loi visant à mettre en place un programme de soutien à l’innovation thérapeutique contre les cancers, les maladies rares et les maladies orphelines de l’enfant",
+ "phrase": "Une taxe de 0,10 % sur le chiffre d'affaires des médicaments remboursés financerait la recherche sur les cancers et maladies rares des enfants. Le Sénat doit encore voter.",
+ "note": "Texte adopté par l'Assemblée en première lecture le 13 mai 2026. Le Sénat doit encore l'examiner.",
+ "essentiel": {
+  "points": [
+   "Chaque année, environ 450 à 500 enfants meurent d'un cancer en France, selon les députés.",
+   "Peu de traitements sont développés spécialement pour les enfants, et la recherche pédiatrique reçoit une petite part des financements.",
+   "Le texte crée une contribution de 0,10 % sur le chiffre d'affaires des médicaments remboursés, hors médicaments orphelins, pour financer un programme dédié."
+  ],
+  "pour": "La gauche, le centre et la droite : il faut un financement stable pour la recherche contre les cancers et maladies rares de l'enfant.",
+  "contre": "Le RN a voté contre : une nouvelle taxe sur les médicaments fragiliserait des traitements peu rentables, essentiels en pédiatrie."
+ },
+ "court": {
+  "resume": [
+   "Les cancers et les maladies rares de l'enfant touchent peu de patients : les laboratoires y investissent peu, et les traitements adaptés aux enfants manquent.",
+   "Selon la rapporteure, la part des financements publics consacrée aux cancers pédiatriques reste « minime ».",
+   "Le texte de Marie Récalde (socialiste) crée une contribution des laboratoires pour financer un programme de soutien à l'innovation thérapeutique pédiatrique."
+  ],
+  "change": [
+   [
+    "Pas de financement dédié à l'innovation thérapeutique pour les enfants.",
+    "Programme financé par une contribution des laboratoires.",
+    "Enfants malades, chercheurs"
+   ],
+   [
+    "—",
+    "Contribution de 0,10 % du chiffre d'affaires des médicaments remboursés en France, médicaments orphelins exclus.",
+    "Entreprises pharmaceutiques"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Thibault Bazin (Droite républicaine)",
+    "arg": "« Comment peut-on y rester insensible, quand 450 enfants décèdent » chaque année d'un cancer ?",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2190.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Sandrine Dogor-Such (RN)",
+    "arg": "« Ajouter une taxe à un système déjà saturé revient à fragiliser davantage un écosystème indispensable à notre souveraineté sanitaire. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2190.html"
+   }
+  ]
+ },
+ "resume": [
+  "Selon le rapport, l'essentiel de la recherche clinique est financé par la Sécurité sociale et l'Institut national du cancer, mais la part consacrée aux cancers pédiatriques y reste faible.",
+  "Les maladies rares sont responsables de 10 % des décès des enfants de 1 à 5 ans, selon Anaïs Belouassa-Cherifi (LFI).",
+  "Le texte institue une contribution versée par les entreprises qui exploitent en France des médicaments remboursés.",
+  "Son taux est de 0,10 % du chiffre d'affaires hors taxes de ces médicaments ; les médicaments orphelins en sont exclus.",
+  "Le produit finance un programme de soutien à l'innovation thérapeutique contre les cancers et maladies rares de l'enfant."
+ ],
+ "pourquoi": [
+  "Selon l'exposé des motifs, des enfants atteints de certaines maladies rares ou graves ont des chances de guérison faibles « par manque de développement de traitement spécifique ».",
+  "Le texte prolonge la création récente d'un registre national des cancers, rappelée par Sacha Houlié (socialiste)."
+ ],
+ "change": [
+  [
+   "—",
+   "Contribution de 0,10 % sur le chiffre d'affaires des médicaments remboursés.",
+   "Laboratoires",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "—",
+   "Programme dédié à l'innovation thérapeutique pédiatrique.",
+   "Recherche",
+   "Si le texte est adopté définitivement"
+  ]
+ ],
+ "pasfait": [
+  "Il ne fixe pas lui-même la liste des projets financés.",
+  "Il n'est pas en vigueur : le Sénat doit l'examiner."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Marie Récalde (socialiste), autrice et rapporteure",
+    "arg": "Le financement public dédié aux cancers pédiatriques ne représente qu'une part minime des enveloppes de recherche.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2190.html"
+   },
+   {
+    "qui": "Anaïs Belouassa-Cherifi (La France insoumise)",
+    "arg": "Près de 500 enfants meurent d'un cancer chaque année : « il est temps » d'agir.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2190.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Sandrine Dogor-Such (RN)",
+    "arg": "La taxe frapperait « indistinctement tous les médicaments remboursés, y compris ceux à très faible marge », au risque de menacer des traitements indispensables.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2190.html"
+   },
+   {
+    "qui": "Sandrine Dogor-Such (RN)",
+    "arg": "Le problème serait surtout un « millefeuille institutionnel » sans stratégie coordonnée pour les maladies pédiatriques.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2190.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée : 98 pour, 22 contre (RN), 3 abstentions (13 mai 2026, scrutin n° 6572)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Marie Récalde, Assemblée nationale (n° 2190)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2190.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée nationale (n° 285)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0285.raw"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N52924"
+  },
+  {
+   "titre": "Scrutin n° 6572 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/6572"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

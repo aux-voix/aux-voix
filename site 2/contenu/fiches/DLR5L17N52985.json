@@ -1,0 +1,168 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N52985",
+ "titre_officiel": "Projet de loi relatif à la lutte contre les fraudes sociales et fiscales",
+ "phrase": "Plus de contrôles et de sanctions contre la fraude aux aides sociales, aux cotisations et aux impôts, dont la suspension possible des allocations chômage en cas de soupçon sérieux.",
+ "note": "Loi promulguée le 25 juin 2026, après une décision du Conseil constitutionnel qui en a validé l'essentiel.",
+ "essentiel": {
+  "points": [
+   "France Travail pourra suspendre jusqu'à 3 mois les allocations chômage en cas d'« indices sérieux » de fraude ; l'Assurance maladie, ses prestations jusqu'à 2 mois.",
+   "Les départements pourront consulter, de façon encadrée, des relevés bancaires pour lutter contre la fraude au RSA.",
+   "Une procédure de « flagrance sociale » permet de saisir les biens d'une entreprise soupçonnée de travail au noir.",
+   "Le Gouvernement en attend 1,5 à 2 milliards d'euros."
+  ],
+  "pour": "Le Gouvernement, le centre, la droite et le RN : la fraude coûte cher et doit être mieux détectée et sanctionnée.",
+  "contre": "La gauche a voté contre : le texte viserait surtout les plus précaires et pas assez la fraude fiscale."
+ },
+ "court": {
+  "resume": [
+   "La fraude sociale consiste à toucher une aide sans y avoir droit ou à ne pas payer ses cotisations ; la fraude fiscale, à échapper à l'impôt.",
+   "La loi, très large (115 articles), donne plus de moyens de détection et de recouvrement aux administrations et durcit les sanctions, pour les particuliers comme pour les entreprises.",
+   "Saisi par la gauche, le Conseil constitutionnel a validé l'essentiel du texte, avec des « réserves » pour protéger les moyens de vivre des personnes concernées."
+  ],
+  "change": [
+   [
+    "Allocations chômage versées tant que la fraude n'est pas établie.",
+    "Suspension possible jusqu'à 3 mois en cas d'indices sérieux, avec possibilité de recours.",
+    "Demandeurs d'emploi"
+   ],
+   [
+    "Accès limité aux informations bancaires.",
+    "Agents départementaux autorisés à consulter des relevés bancaires, de façon encadrée, contre la fraude au RSA.",
+    "Allocataires du RSA"
+   ],
+   [
+    "—",
+    "« Flagrance sociale » : saisie conservatoire des biens d'une entreprise soupçonnée de travail dissimulé.",
+    "Entreprises"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Le Gouvernement",
+    "arg": "Le texte doit rapporter rapidement 1,5 à 2 milliards d'euros aux finances publiques en détectant mieux les fraudes et en améliorant le recouvrement.",
+    "source": "https://lcp.fr/actualites/loi-contre-les-fraudes-le-conseil-constitutionnel-valide-l-essentiel-du-texte-dont-la"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Les groupes de gauche (LFI, socialistes, écologistes, GDR)",
+    "arg": "Le texte ne s'attaque pas suffisamment à la fraude fiscale et organise un « flicage » des plus précaires.",
+    "source": "https://www.banquedesterritoires.fr/lutte-contre-les-fraudes-sociales-et-fiscales-lassemblee-adopte-le-texte"
+   }
+  ]
+ },
+ "resume": [
+  "Ce projet de loi du Gouvernement rassemble des mesures contre les fraudes aux prestations sociales, aux cotisations et aux impôts ; il compte 115 articles dans sa version finale.",
+  "Il permet notamment de suspendre « à titre conservatoire » les allocations chômage (3 mois au plus) ou les prestations de sécurité sociale (2 mois au plus) en cas d'indices sérieux de fraude.",
+  "Il élargit l'accès des administrations aux informations fiscales et bancaires, renforce les sanctions et crée une procédure de « flagrance sociale » contre le travail dissimulé.",
+  "Il touche aussi des secteurs variés : voitures de transport avec chauffeur (VTC), formation professionnelle, transport de patients (géolocalisation obligatoire des véhicules).",
+  "Le Conseil constitutionnel a validé l'essentiel le 18 juin 2026, avec des réserves, et censuré quelques dispositions mineures."
+ ],
+ "pourquoi": [
+  "Le Gouvernement présente la lutte contre la fraude comme une source de recettes rapides : 1,5 à 2 milliards d'euros attendus, selon LCP.",
+  "Le texte s'inscrit dans la recherche d'économies pour réduire le déficit public."
+ ],
+ "change": [
+  [
+   "Pas de suspension avant que la fraude soit établie.",
+   "Suspension conservatoire des allocations chômage (3 mois maximum) et des prestations sociales (2 mois maximum), avec recours possible.",
+   "Allocataires",
+   "Depuis la promulgation"
+  ],
+  [
+   "Accès restreint aux données bancaires et patrimoniales.",
+   "Accès élargi pour plusieurs services, dont les départements pour le RSA.",
+   "Allocataires, administrations",
+   "Depuis la promulgation"
+  ],
+  [
+   "—",
+   "« Flagrance sociale » : saisie conservatoire des actifs d'une entreprise soupçonnée de travail au noir.",
+   "Entreprises",
+   "Depuis la promulgation"
+  ],
+  [
+   "Dettes issues de fraudes envers les collectivités effaçables en surendettement.",
+   "Exclues des remises et effacements en cas de surendettement.",
+   "Personnes surendettées",
+   "Depuis la promulgation"
+  ]
+ ],
+ "pasfait": [
+  "Elle ne supprime pas le droit de contester : une voie de recours est prévue contre les suspensions.",
+  "Selon les réserves du Conseil constitutionnel, elle ne peut pas priver une personne de « moyens convenables d'existence » ni de l'accès aux « soins essentiels », et France Travail ne peut pas géolocaliser les allocataires en temps réel."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Le Gouvernement",
+    "arg": "Un « arsenal » pour mieux prévenir les fraudes et favoriser le recouvrement, avec 1,5 à 2 milliards d'euros attendus.",
+    "source": "https://lcp.fr/actualites/loi-contre-les-fraudes-le-conseil-constitutionnel-valide-l-essentiel-du-texte-dont-la"
+   },
+   {
+    "qui": "Jean-Pierre Farandou, ministre du Travail",
+    "arg": "Il a soutenu des amendements de l'opposition maintenant un montant minimal d'allocation en cas de suspension.",
+    "source": "https://www.banquedesterritoires.fr/lutte-contre-les-fraudes-sociales-et-fiscales-lassemblee-adopte-le-texte"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Les groupes de gauche",
+    "arg": "Un texte qui s'en prend aux « plus précaires » sans s'attaquer suffisamment à la fraude fiscale ; ils ont saisi le Conseil constitutionnel à trois reprises.",
+    "source": "https://www.banquedesterritoires.fr/lutte-contre-les-fraudes-sociales-et-fiscales-lassemblee-adopte-le-texte"
+   },
+   {
+    "qui": "Les parlementaires de gauche auteurs des saisines",
+    "arg": "Ils contestaient notamment la suspension des allocations chômage ; le Conseil l'a validée, sous réserve de garantir des « moyens convenables d'existence ».",
+    "source": "https://www.banquedesterritoires.fr/lutte-contre-les-fraudes-sociales-et-fiscales-le-conseil-constitutionnel-valide-lessentiel-de-la"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "La décision du Conseil constitutionnel",
+   "texte": "Décision n° 2026-904 DC du 18 juin 2026 : 11 articles contestés sur 115 ; réserves sur les articles 107 (surendettement), 110 (allocations chômage), 112 (données traitées par France Travail, sans géolocalisation en temps réel) et 114 (prestations de sécurité sociale)."
+  },
+  {
+   "titre": "Mesures sur les arrêts maladie",
+   "texte": "L'Assemblée a voté l'interdiction de prescrire des arrêts de travail par télémédecine ; le Gouvernement a supprimé le caractère obligatoire de la « mise sous objectifs » des médecins qui en prescrivent beaucoup (AFP)."
+  },
+  {
+   "titre": "Les votes",
+   "texte": "Assemblée, première lecture : 363 pour, 194 contre (7 avril 2026, scrutin n° 6023). Texte de la commission mixte paritaire : 335 pour, 182 contre (5 mai 2026, scrutin n° 6319)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "LCP : le Conseil constitutionnel valide l'essentiel du texte, 18 juin 2026",
+   "url": "https://lcp.fr/actualites/loi-contre-les-fraudes-le-conseil-constitutionnel-valide-l-essentiel-du-texte-dont-la"
+  },
+  {
+   "titre": "Banque des territoires (AFP) : l'Assemblée adopte le texte, 8 avril 2026",
+   "url": "https://www.banquedesterritoires.fr/lutte-contre-les-fraudes-sociales-et-fiscales-lassemblee-adopte-le-texte"
+  },
+  {
+   "titre": "Banque des territoires : le Conseil constitutionnel valide l'essentiel de la loi, 19 juin 2026",
+   "url": "https://www.banquedesterritoires.fr/lutte-contre-les-fraudes-sociales-et-fiscales-le-conseil-constitutionnel-valide-lessentiel-de-la"
+  },
+  {
+   "titre": "Décision n° 2026-904 DC du Conseil constitutionnel",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026904DC.htm"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N52985"
+  },
+  {
+   "titre": "Scrutin n° 6319 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/6319"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

@@ -1,0 +1,122 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N52002",
+ "titre_officiel": "Projet de loi portant création de l’établissement public du commerce et de l’industrie de la collectivité de Corse",
+ "phrase": "La chambre de commerce de Corse est remplacée par un établissement public contrôlé par la collectivité de Corse, pour garder publique la gestion des ports et aéroports de l'île.",
+ "note": "Loi promulguée le 15 juillet 2025 ; le nouvel établissement a été créé au 1er janvier 2026.",
+ "essentiel": {
+  "points": [
+   "La chambre de commerce et d'industrie (CCI) de Corse gérait les quatre aéroports et le port de commerce de Bastia grâce à des concessions qui expiraient fin 2025.",
+   "Sans loi, le droit européen imposait de remettre ces concessions en concurrence, ce qui pouvait les confier à d'autres gestionnaires, y compris privés.",
+   "Un établissement public dirigé par des élus de la collectivité de Corse remplace la CCI et peut gérer ces équipements sans mise en concurrence."
+  ],
+  "pour": "Tous les groupes : garder sous contrôle public des équipements vitaux pour une île.",
+  "contre": "Personne ne s'y est opposé ; des députés de gauche ont demandé davantage de contrôles sur les marchés passés."
+ },
+ "court": {
+  "resume": [
+   "Le texte concrétise une promesse de la loi Pacte de 2019 ; selon le député Michel Castellani (LIOT), il a été voté à l'unanimité par l'Assemblée de Corse.",
+   "Les élus sont majoritaires au conseil d'administration, présidé par le président du conseil exécutif de Corse ou son représentant ; les salariés y siègent avec voix consultative.",
+   "Les biens et les salariés de la CCI sont transférés au nouvel établissement, financé comme les CCI par ses recettes et une taxe payée par les entreprises."
+  ],
+  "change": [
+   [
+    "CCI de Corse, dirigée par des représentants des entreprises.",
+    "Établissement public dirigé par des élus de la collectivité.",
+    "Entreprises, collectivité de Corse"
+   ],
+   [
+    "Concessions arrivant à échéance fin 2025.",
+    "Gestion confiée sans mise en concurrence (« quasi-régie »).",
+    "Ports et aéroports"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Stéphane Rambaud (RN)",
+    "arg": "Le texte crée « une quasi-régie qui permettra d'éviter une mise en concurrence qui aurait fragilisé l'avenir de ces équipements stratégiques ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1650.html"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "Article 1er : l'« établissement public du commerce et de l'industrie de Corse » reprend les missions d'une CCI et gère les équipements portuaires et aéroportuaires que lui confie la collectivité, y compris leur sécurité.",
+  "Les élus de l'Assemblée de Corse et du conseil exécutif sont majoritaires au conseil d'administration : c'est la condition pour lui confier ces équipements sans appel d'offres.",
+  "Le financement reste celui des CCI : recettes d'activité et taxe pour frais de chambre, répartie par CCI France.",
+  "Article 4 : création au 1er janvier 2026, transfert gratuit des biens de la CCI, reprise du personnel avec maintien des éléments essentiels des contrats, et quatre ans pour adapter le dialogue social.",
+  "Selon le rapporteur Jean Moulliere (Horizons), le tourisme représente près de 39 % du PIB de l'île, d'où le poids de ces équipements."
+ ],
+ "pourquoi": [
+  "Les concessions accordées en 2005 à la CCI, prolongées en 2020 puis en 2024, expiraient fin 2025 ; le droit européen de la commande publique imposait une remise en concurrence.",
+  "Selon le rapporteur, un simple transfert de tutelle de la CCI à la collectivité n'aurait pas suffi pour échapper à cette mise en concurrence."
+ ],
+ "change": [
+  [
+   "CCI de Corse.",
+   "Établissement public du commerce et de l'industrie de Corse.",
+   "Entreprises, salariés de la CCI",
+   "1er janvier 2026"
+  ]
+ ],
+ "pasfait": [
+  "Il ne modifie pas le statut constitutionnel de la Corse, discuté par ailleurs.",
+  "Il n'instaure pas de contrôle permanent de la chambre régionale des comptes sur les marchés, proposé par un député écologiste puis retiré."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Jean Moulliere (Horizons), rapporteur",
+    "arg": "Le texte doit « maintenir la gestion et l'exploitation de ces infrastructures, stratégiques pour l'île de Beauté, dans le giron public ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1650.html"
+   },
+   {
+    "qui": "Michel Castellani (LIOT), député de Corse",
+    "arg": "Ports et aéroports sont « des portes ouvertes sur le reste du monde, car nous n'avons pas d'autre solution que de prendre l'avion ou le bateau ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1650.html"
+   },
+   {
+    "qui": "Gabrielle Cathala (La France insoumise)",
+    "arg": "« Il est vital de soustraire les infrastructures stratégiques aux griffes du marché et de la mise en concurrence. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1650.html"
+   },
+   {
+    "qui": "Philippe Latombe (Les Démocrates)",
+    "arg": "Une réponse « pragmatique, juridiquement solide et politiquement mûre ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1650.html"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucune opposition : texte adopté sans modification en commission puis en séance, après un avis favorable de l'Assemblée de Corse."
+ },
+ "details": [
+  {
+   "titre": "Le parcours",
+   "texte": "Sénat : adopté le 2 juin 2025. Assemblée : adopté sans modification le 2 juillet 2025."
+  },
+  {
+   "titre": "Les débats",
+   "texte": "Rappelant des affaires judiciaires passées à la CCI, Hendrik Davi (écologiste) a proposé un contrôle permanent de la chambre régionale des comptes, puis retiré son amendement ; Michel Castellani (LIOT) a défendu « le sérieux » de la CCI. LFI a proposé un établissement public administratif plutôt qu'industriel et commercial, en citant un avis du Conseil d'État."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Jean Moulliere, Assemblée nationale (n° 1650)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1650.html"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/pjl24-552.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N52002"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

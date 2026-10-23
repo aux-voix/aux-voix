@@ -1,0 +1,122 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N54096",
+ "titre_officiel": "Proposition de loi relative à l’expérimentation d’une gouvernance territoriale unifiée pour le centre de ressources, d’expertise et de performance sportive (CREPS) de Vichy",
+ "phrase": "Jusqu'en 2033, le centre public de sport de haut niveau de Vichy (Creps) pourra gérer aussi des équipements de l'agglomération, qui entre à sa direction.",
+ "note": "Adoptée définitivement par le Parlement le 12 octobre 2026.",
+ "essentiel": {
+  "points": [
+   "Le Creps de Vichy, établissement public du sport, dépend aujourd'hui de l'État et de la région.",
+   "À titre d'essai, il pourra exploiter des équipements sportifs de l'agglomération Vichy Communauté, avec son personnel.",
+   "L'agglomération entre à son conseil d'administration ; l'expérience dure jusqu'au 30 juin 2033."
+  ],
+  "pour": "Le Sénat : le texte donne une base juridique stable à une coopération locale ancienne et peut permettre des économies.",
+  "contre": "Personne n'a voté contre : 44 voix pour et 6 abstentions à l'Assemblée."
+ },
+ "court": {
+  "resume": [
+   "Les Creps sont des établissements publics qui accueillent et forment des sportifs, sous la double tutelle de l'État et des régions.",
+   "Celui de Vichy est installé au cœur d'un grand parc sportif appartenant à l'agglomération. Les deux coopèrent déjà, mais par de simples conventions.",
+   "Le texte organise, à titre expérimental jusqu'en 2033, une gestion commune entre l'État, la région Auvergne-Rhône-Alpes et Vichy Communauté."
+  ],
+  "change": [
+   [
+    "Le Creps ne peut exercer que les missions prévues par la loi.",
+    "Il peut aussi exploiter des équipements sportifs de l'agglomération et promouvoir le sport sur le territoire.",
+    "Le Creps et l'agglomération"
+   ],
+   [
+    "Pas de place pour l'agglomération à la direction.",
+    "4 représentants de Vichy Communauté au conseil d'administration, porté à 25 membres.",
+    "La gouvernance du Creps"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Commission de la culture du Sénat",
+    "arg": "Le texte donne « un fondement juridique stable à une coopération locale déjà mature » et permet d'envisager des économies d'échelle.",
+    "source": "https://www.senat.fr/lessentiel/ppl25-533.pdf"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "Les centres de ressources, d'expertise et de performance sportive (Creps) sont des établissements publics de formation dans les domaines du sport, de la jeunesse et de l'éducation populaire.",
+  "Depuis la loi NOTRe de 2015, ils dépendent à la fois de l'État et des régions.",
+  "Le Creps de Vichy partage un vaste parc sportif avec l'agglomération Vichy Communauté, qui a servi de base de préparation aux Jeux de Paris 2024.",
+  "Le texte permet, à titre expérimental jusqu'au 30 juin 2033, de réunir leur gestion : le Creps peut exercer des missions pour l'agglomération, avec ses équipements et son personnel, et l'agglomération entre dans sa gouvernance.",
+  "Un comité d'évaluation remettra un rapport au Parlement au plus tard le 31 décembre 2032."
+ ],
+ "pourquoi": [
+  "Selon le Sénat, la coopération actuelle repose sur des conventions qui peuvent être dénoncées, et la loi interdit au Creps d'exercer d'autres missions que les siennes. Le texte veut sécuriser cette coopération et optimiser les coûts de fonctionnement."
+ ],
+ "change": [
+  [
+   "Missions du Creps limitées à celles prévues par le code du sport.",
+   "Missions supplémentaires au nom de l'État (offre universitaire, recherche, médecine du sport) et de l'agglomération (exploitation d'équipements, promotion du sport).",
+   "Creps de Vichy",
+   "Jusqu'au 30 juin 2033"
+  ],
+  [
+   "L'agglomération ne siège pas au conseil d'administration.",
+   "Conseil de 25 membres, dont 4 représentants de Vichy Communauté.",
+   "Gouvernance du Creps",
+   "Jusqu'au 30 juin 2033"
+  ],
+  [
+   "—",
+   "L'agglomération compense un éventuel déficit lié à l'exploitation de ses équipements.",
+   "Vichy Communauté",
+   "Jusqu'au 30 juin 2033"
+  ]
+ ],
+ "pasfait": [
+  "Il ne concerne que le Creps de Vichy, pas les autres Creps.",
+  "L'expérience n'est pas définitive : une généralisation éventuelle supposerait une nouvelle loi après l'évaluation."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Commission de la culture du Sénat",
+    "arg": "La coopération actuelle est « particulièrement fragile » ; le texte la sécurise et limite l'expérience à Vichy, ce que la commission juge « cohérent » vu la configuration du territoire.",
+    "source": "https://www.senat.fr/lessentiel/ppl25-533.pdf"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucun député n'a voté contre : 44 voix pour et 6 abstentions (4 LFI, 2 écologistes). Les raisons de ces abstentions ne figurent pas dans les sources consultées."
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Sénat : adopté le 15 juin 2026. Assemblée : adopté sans modification le 12 octobre 2026, par 44 voix pour, aucune contre et 6 abstentions (scrutin n° 8695)."
+  },
+  {
+   "titre": "Le conseil d'administration",
+   "texte": "4 représentants de la région, 4 de Vichy Communauté, 4 du mouvement sportif et des partenaires, 2 personnalités qualifiées, 6 représentants élus des personnels et des sportifs, 5 représentants de l'État."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Sénat, « L'essentiel » du rapport de la commission de la culture, juin 2026",
+   "url": "https://www.senat.fr/lessentiel/ppl25-533.pdf"
+  },
+  {
+   "titre": "Texte adopté par le Sénat",
+   "url": "https://www.senat.fr/leg/tas25-137.pdf"
+  },
+  {
+   "titre": "Scrutin n° 8695 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8695"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl25-533.html"
+  }
+ ],
+ "auteur": "Rédaction Aux Voix",
+ "verif": "",
+ "version": {
+  "n": 1,
+  "date": "2026-10-20"
+ }
+}

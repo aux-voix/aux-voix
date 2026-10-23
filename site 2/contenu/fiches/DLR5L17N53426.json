@@ -1,0 +1,127 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53426",
+ "titre_officiel": "Proposition de loi visant à doter la France d'une stratégie nationale de lutte contre les maladies cardio-neuro-vasculaires",
+ "phrase": "La France se dote d'une stratégie nationale contre les maladies du cœur et des vaisseaux, deuxième cause de mortalité, avec plus de prévention et de dépistage.",
+ "note": "Loi promulguée en juillet 2026, adoptée à l'unanimité.",
+ "essentiel": {
+  "points": [
+   "Les maladies cardio-neuro-vasculaires (infarctus, AVC…) sont la deuxième cause de mortalité en France.",
+   "La loi crée une stratégie nationale de prévention, de dépistage et de soins, comme pour le cancer.",
+   "Les pharmaciens et les kinés pourront mesurer la tension ; un dépistage du cholestérol pourra être proposé aux enfants de 6 ans."
+  ],
+  "pour": "Le Sénat : ces maladies n'avaient « aucune stratégie nationale de santé dédiée », malgré leur poids sanitaire.",
+  "contre": "Personne ne s'y est opposé : 462 voix pour et aucune contre au vote final."
+ },
+ "court": {
+  "resume": [
+   "Les maladies cardio-neuro-vasculaires regroupent notamment les infarctus et les accidents vasculaires cérébraux (AVC). Elles sont la deuxième cause de mortalité en France.",
+   "Cette loi crée une stratégie nationale pour les combattre, sur le modèle de la stratégie contre le cancer.",
+   "Elle multiplie les occasions de prévention : rendez-vous de prévention, pharmacies, kinés, entreprises et écoles."
+  ],
+  "change": [
+   [
+    "Pas de stratégie nationale dédiée.",
+    "Une stratégie nationale de prévention, de dépistage et d'organisation des soins.",
+    "Toute la population"
+   ],
+   [
+    "—",
+    "Les pharmaciens et les kinésithérapeutes peuvent mesurer la pression artérielle.",
+    "Patients"
+   ],
+   [
+    "—",
+    "Dépistage de l'excès de cholestérol chez les enfants de 6 ans, si la Haute Autorité de santé le recommande.",
+    "Enfants"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "La commission des affaires sociales du Sénat (rapporteur : Khalifé Khalifé)",
+    "arg": "Elle a voulu inscrire un véritable « plan Cœur » dans la loi, au même rang que la stratégie décennale contre le cancer.",
+    "source": "https://www.senat.fr/lessentiel/ppl25-529.pdf"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "Les maladies cardio-neuro-vasculaires sont la deuxième cause de mortalité en France, après les cancers, et la première dans l'Union européenne.",
+  "Elles ne faisaient l'objet d'aucune stratégie nationale de santé dédiée.",
+  "La loi crée une stratégie nationale qui fixe les orientations en matière de prévention, de dépistage et d'organisation des parcours de soins.",
+  "Elle ajoute la maladie rénale chronique à la liste des facteurs de risque et développe la prévention à l'école et au travail."
+ ],
+ "pourquoi": [
+  "Selon le Sénat, leur fréquence augmente et elles « témoignent d'inégalités de santé lourdes et persistantes ». La Commission européenne a présenté en décembre 2025 un « plan pour un cœur en bonne santé »."
+ ],
+ "change": [
+  [
+   "Pas de stratégie nationale dédiée.",
+   "Stratégie nationale de lutte contre ces maladies, comme pour le cancer.",
+   "Toute la population",
+   "Après promulgation"
+  ],
+  [
+   "—",
+   "Les rendez-vous de prévention servent aussi à sensibiliser aux principaux facteurs de risque.",
+   "Assurés",
+   "Après promulgation"
+  ],
+  [
+   "—",
+   "Mesure de la pression artérielle par les pharmaciens et les kinésithérapeutes.",
+   "Patients",
+   "Après promulgation"
+  ],
+  [
+   "—",
+   "Consultation de dépistage de l'hypercholestérolémie à 6 ans, selon les recommandations de la HAS.",
+   "Enfants",
+   "Après recommandation de la HAS"
+  ]
+ ],
+ "pasfait": [
+  "Elle ne rend pas les dépistages obligatoires : ils sont proposés."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "La commission des affaires sociales du Sénat",
+    "arg": "Elle partage « la nécessité d'une impulsion politique plus forte » et a renforcé l'ambition du texte en créant une stratégie nationale.",
+    "source": "https://www.senat.fr/lessentiel/ppl25-529.pdf"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucune opposition : l'Assemblée l'a adoptée à l'unanimité en première lecture, puis par 462 voix pour et aucune contre au vote final du 20 juillet 2026."
+ },
+ "details": [
+  {
+   "titre": "Le vote final",
+   "texte": "20 juillet 2026 : 462 pour, 0 contre, 0 abstention (scrutin n° 8419)."
+  },
+  {
+   "titre": "Le titre",
+   "texte": "Déposée sous le titre « accélérer la prévention cardio-neuro-vasculaire et anticiper un risque sanitaire et social majeur », la loi a été renommée par le Sénat."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Sénat, « L'essentiel » du rapport de la commission des affaires sociales, juin 2026",
+   "url": "https://www.senat.fr/lessentiel/ppl25-529.pdf"
+  },
+  {
+   "titre": "Scrutin n° 8419 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8419"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53426"
+  }
+ ],
+ "auteur": "Rédaction Aux Voix",
+ "verif": "",
+ "version": {
+  "n": 1,
+  "date": "2026-10-20"
+ }
+}

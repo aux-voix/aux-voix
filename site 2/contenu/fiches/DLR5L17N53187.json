@@ -1,0 +1,143 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53187",
+ "titre_officiel": "Proposition de loi visant à protéger les mineurs des risques auxquels les expose l'utilisation des réseaux sociaux",
+ "phrase": "L'interdiction des réseaux sociaux aux moins de 15 ans, votée par le Parlement, a été censurée ; la loi garde l'interdiction du portable au lycée.",
+ "note": "Loi promulguée en août 2026, sans son article 1er, censuré par le Conseil constitutionnel le 14 août 2026.",
+ "essentiel": {
+  "points": [
+   "Le Parlement avait voté l'interdiction des réseaux sociaux aux moins de 15 ans, avec une vérification de l'âge à l'inscription.",
+   "Le Conseil constitutionnel l'a censurée : elle portait une atteinte « disproportionnée » à la liberté d'expression et à la vie privée.",
+   "Le reste de la loi s'applique, dont l'interdiction du téléphone portable au lycée.",
+   "Le président de la République a demandé au Gouvernement une nouvelle rédaction de l'interdiction."
+  ],
+  "pour": "Le Gouvernement : protéger les plus jeunes de l'anxiété, de la dépression, des troubles du sommeil et du harcèlement liés à ces plateformes.",
+  "contre": "Les députés LFI et socialistes qui ont saisi le Conseil : une interdiction générale, sans distinguer les services, alors que des mesures moins restrictives existaient."
+ },
+ "court": {
+  "resume": [
+   "Ce texte, déposé par la députée Laure Miller, voulait interdire aux moins de 15 ans l'accès aux réseaux sociaux et interdire le portable au lycée.",
+   "Adopté définitivement le 21 juillet 2026, il a été contesté par des députés de gauche devant le Conseil constitutionnel, qui a annulé l'interdiction des réseaux sociaux.",
+   "La loi a été promulguée sans cette mesure ; le Gouvernement prépare une nouvelle version."
+  ],
+  "change": [
+   [
+    "Pas d'âge minimum fixé par la loi pour s'inscrire sur un réseau social.",
+    "Toujours pas : l'interdiction aux moins de 15 ans a été censurée.",
+    "Les moins de 15 ans"
+   ],
+   [
+    "Au lycée, le règlement intérieur pouvait interdire le portable.",
+    "L'interdiction du portable au lycée est inscrite dans la loi, à partir du 1er septembre.",
+    "Les lycéens"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Servane Mouton, neurologue, ancienne coprésidente de la commission Enfants et écrans",
+    "arg": "Elle regrette la censure : « une mesure d'urgence de protection des mineurs […] vis-à-vis de plateformes de conception toxique vient d'être enterrée ».",
+    "source": "https://lcp.fr/actualites/reseaux-sociaux-pourquoi-le-conseil-constitutionnel-a-censure-l-interdiction-pour-les"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Les députés LFI et socialistes qui ont saisi le Conseil constitutionnel",
+    "arg": "L'interdiction visait tous les réseaux « sans distinction » de leurs risques, privait les parents de leur choix et n'était pas nécessaire, des mesures moins restrictives étant possibles.",
+    "source": "https://www.conseil-constitutionnel.fr/decision/2026/2026911DC.htm"
+   }
+  ]
+ },
+ "resume": [
+  "Ce texte voulait interdire aux moins de 15 ans l'accès aux réseaux sociaux (TikTok, Snapchat, X, Instagram…) et aux fonctions sociales de certains sites, messageries et jeux en ligne.",
+  "Les plateformes auraient dû vérifier l'âge de chaque utilisateur à l'inscription. Il prévoyait aussi d'interdire le téléphone portable au lycée.",
+  "Le Parlement l'a adopté définitivement le 21 juillet 2026, après de nombreux allers-retours entre l'Assemblée et le Sénat.",
+  "Le 14 août 2026, le Conseil constitutionnel a censuré l'interdiction des réseaux sociaux, jugée disproportionnée. Il n'a pas examiné l'interdiction du portable au lycée, qui reste dans la loi.",
+  "Le président de la République a demandé au Premier ministre une « rédaction juridiquement robuste » de l'interdiction."
+ ],
+ "pourquoi": [
+  "Selon le Sénat, les effets nocifs de certains réseaux sociaux sur la santé physique et psychologique des enfants et des adolescents sont « désormais étayés par de nombreuses recherches scientifiques ».",
+  "Le Gouvernement voulait mieux protéger les plus jeunes de l'anxiété, de la dépression, des troubles du sommeil et du harcèlement en ligne."
+ ],
+ "change": [
+  [
+   "Pas d'âge minimum fixé par la loi.",
+   "Interdiction aux moins de 15 ans prévue au 1er septembre 2026, puis censurée : rien ne change.",
+   "Les moins de 15 ans",
+   "Censurée le 14 août 2026"
+  ],
+  [
+   "Au lycée, le règlement intérieur pouvait interdire le portable.",
+   "Interdiction du portable au lycée inscrite dans la loi.",
+   "Les lycéens",
+   "À partir du 1er septembre"
+  ]
+ ],
+ "pasfait": [
+  "Elle n'interdit pas les réseaux sociaux aux moins de 15 ans : cette mesure a été annulée.",
+  "Elle ne change pas les règles déjà en vigueur pour les sites pornographiques, qui doivent vérifier l'âge depuis une loi de 2024."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Le Gouvernement et le président de la République",
+    "arg": "Mesure présentée comme emblématique, pour protéger les jeunes des effets néfastes des plateformes ; après la censure, le président a demandé une nouvelle rédaction « dans les meilleurs délais ».",
+    "source": "https://lcp.fr/actualites/reseaux-sociaux-pourquoi-le-conseil-constitutionnel-a-censure-l-interdiction-pour-les"
+   },
+   {
+    "qui": "Servane Mouton, neurologue",
+    "arg": "« Une mesure d'urgence de protection des mineurs en France vis-à-vis de plateformes de conception toxique vient d'être enterrée. »",
+    "source": "https://lcp.fr/actualites/reseaux-sociaux-pourquoi-le-conseil-constitutionnel-a-censure-l-interdiction-pour-les"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Les députés LFI et socialistes qui ont saisi le Conseil constitutionnel",
+    "arg": "Une interdiction générale, sans distinguer les services selon leurs risques, n'était ni nécessaire ni proportionnée ; elle privait les parents de la possibilité de décider pour leur enfant ; la vérification de l'âge n'était pas encadrée.",
+    "source": "https://www.conseil-constitutionnel.fr/decision/2026/2026911DC.htm"
+   },
+   {
+    "qui": "Le Conseil constitutionnel (décision du 14 août 2026)",
+    "arg": "L'interdiction porte à la liberté d'expression des mineurs une atteinte « qui n'est pas adaptée, nécessaire et proportionnée », et la loi ne fixe pas les garanties nécessaires pour la vie privée lors de la vérification de l'âge.",
+    "source": "https://www.conseil-constitutionnel.fr/decision/2026/2026911DC.htm"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote final à l'Assemblée",
+   "texte": "21 juillet 2026 : 279 voix pour, 81 contre, 66 abstentions (scrutin n° 8431). LFI a voté contre ; le RN s'est majoritairement abstenu ; une partie des socialistes s'est abstenue."
+  },
+  {
+   "titre": "À l'étranger",
+   "texte": "L'Australie a interdit les réseaux sociaux aux moins de 16 ans fin 2025. Une étude citée par LCP y observe peu de changements chez les 12-13 ans et une légère baisse chez les 14-15 ans."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Conseil constitutionnel, décision n° 2026-911 DC du 14 août 2026",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026911DC.htm"
+  },
+  {
+   "titre": "LCP, « Réseaux sociaux : pourquoi le Conseil constitutionnel a censuré l'interdiction pour les moins de 15 ans », 14 août 2026",
+   "url": "https://lcp.fr/actualites/reseaux-sociaux-pourquoi-le-conseil-constitutionnel-a-censure-l-interdiction-pour-les"
+  },
+  {
+   "titre": "JustGeek, « L'interdiction des réseaux sociaux aux moins de 15 ans censurée par le Conseil constitutionnel »",
+   "url": "https://www.justgeek.fr/?p=156934"
+  },
+  {
+   "titre": "Sénat, « L'essentiel » du rapport de la commission de la culture, mars 2026",
+   "url": "https://www.senat.fr/lessentiel/ppl25-304.pdf"
+  },
+  {
+   "titre": "Scrutin n° 8431 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8431"
+  }
+ ],
+ "auteur": "Rédaction Aux Voix",
+ "verif": "",
+ "version": {
+  "n": 1,
+  "date": "2026-10-20"
+ }
+}

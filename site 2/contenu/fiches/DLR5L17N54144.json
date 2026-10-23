@@ -1,0 +1,154 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N54144",
+ "titre_officiel": "Proposition de loi pour la mobilisation de l’habitat existant en réponse à la crise du logement",
+ "phrase": "Le texte veut remettre plus de logements anciens sur le marché : avantage fiscal assoupli pour les bailleurs qui rénovent, artisans regroupés plus facilement, prêts aux copropriétés facilités.",
+ "note": "Texte adopté par l'Assemblée en première lecture le 28 mai 2026. Le Sénat doit encore l'examiner.",
+ "essentiel": {
+  "points": [
+   "Le « statut du bailleur privé », créé en 2026, donne un avantage fiscal à ceux qui louent un logement rénové.",
+   "Le texte supprime la condition d'un montant minimum de travaux : il suffit d'améliorer assez la performance énergétique du logement.",
+   "Il facilite le regroupement des petites entreprises du bâtiment et les prêts collectifs des copropriétés dégradées."
+  ],
+  "pour": "Le centre, la droite et le RN : agir sur les logements déjà construits, plus vite que par la construction neuve.",
+  "contre": "LFI a voté contre, la gauche s'est surtout abstenue : une niche fiscale de plus, loin de répondre à la crise du logement."
+ },
+ "court": {
+  "resume": [
+   "Le logement représente près de 30 % de la consommation des ménages, et 2,8 millions de demandes de logement social sont en attente, selon le rapport.",
+   "Portée par l'ancienne ministre du Logement Valérie Létard, la proposition s'attaque à trois freins : l'avantage fiscal des bailleurs, le regroupement des artisans et le financement des travaux en copropriété.",
+   "Elle a été adoptée par 85 voix contre 29, avec l'abstention des socialistes et des écologistes."
+  ],
+  "change": [
+   [
+    "Avantage fiscal du bailleur privé lié à un montant minimum de travaux.",
+    "Condition de montant supprimée ; il faut gagner au moins deux classes de DPE si le logement était F ou G, une classe sinon (une classe outre-mer).",
+    "Propriétaires bailleurs"
+   ],
+   [
+    "Règles floues sur la responsabilité dans les groupements d'artisans.",
+    "Le contrat précise l'absence de solidarité entre cotraitants et les responsabilités de chacun.",
+    "Artisans, clients"
+   ],
+   [
+    "Prêts collectifs aux copropriétés jamais proposés par les banques.",
+    "Garanties élargies pour rendre ces prêts possibles.",
+    "Copropriétés dégradées"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Valérie Létard (LIOT), autrice et rapporteure",
+    "arg": "Mobiliser le parc déjà bâti : agir sur la vacance et la dégradation du parc ancien, sans bouleverser les équilibres du secteur.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2816.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Ersilia Soudais (La France insoumise)",
+    "arg": "Le texte est « superficiel » et sert surtout le statut du bailleur privé : « une niche fiscale sans réelle contrepartie ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2816.html"
+   }
+  ]
+ },
+ "resume": [
+  "La loi de finances pour 2026 a créé un « statut du bailleur privé » : un amortissement fiscal pour les particuliers qui louent un logement en résidence principale.",
+  "Pour les logements anciens rénovés, le texte remplace la condition de montant minimum de travaux par une condition de gain énergétique : deux classes de DPE si le logement était classé F ou G, une classe sinon.",
+  "Outre-mer, une seule classe suffit ; l'avantage s'étend aux locaux transformés en logements.",
+  "Il clarifie les responsabilités dans les groupements momentanés d'entreprises du bâtiment, qui sont à 97 % des petites et moyennes entreprises.",
+  "Il élargit les garanties possibles pour les prêts collectifs aux copropriétés, créés en 2024 mais qu'aucune banque n'a encore proposés."
+ ],
+ "pourquoi": [
+  "Selon la rapporteure, la contraction du parc locatif, la vacance et la dégradation du parc ancien aggravent la crise ; agir sur l'existant est complémentaire de la construction neuve.",
+  "Elle s'appuie sur les freins qu'elle a identifiés lorsqu'elle était ministre du Logement."
+ ],
+ "change": [
+  [
+   "Montant minimum de travaux exigé.",
+   "Plus de condition de montant ; gain de performance énergétique exigé.",
+   "Bailleurs privés",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "—",
+   "Locaux transformés en logements éligibles à l'avantage.",
+   "Investisseurs",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "—",
+   "Rapport sous cinq ans sur l'effet des règles sur les groupements d'entreprises.",
+   "Artisans",
+   "Si le texte est adopté définitivement"
+  ]
+ ],
+ "pasfait": [
+  "Il ne crée pas de logements sociaux supplémentaires.",
+  "Il ne modifie pas le calendrier des interdictions de louer les « passoires thermiques », réclamé par le RN."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Valérie Létard (LIOT), autrice",
+    "arg": "Le texte s'attaque à « trois freins identifiés » et vise à relancer l'offre locative de qualité dans l'ancien.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2816.html"
+   },
+   {
+    "qui": "Cyrielle Chatelain (écologiste), en commission",
+    "arg": "Le texte se saisit d'une question importante, la création d'une offre locative de qualité, notamment énergétique ; son groupe s'est abstenu en séance.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2816.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Ersilia Soudais (La France insoumise)",
+    "arg": "Abaisser l'effort de travaux exigé va « à l'encontre » de l'objectif de réhabilitation.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2816.html"
+   },
+   {
+    "qui": "Inaki Echaniz (socialiste)",
+    "arg": "Face à 4 millions de mal-logés et plus d'une résidence principale sur dix en « passoire thermique », la réponse reste insuffisante.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2816.html"
+   },
+   {
+    "qui": "Frédéric Falcon (RN), dont le groupe a voté pour",
+    "arg": "Il critique la condition de performance énergétique (DPE), jugée « punitive » et impossible à anticiper.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2816.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée : 85 pour, 29 contre (LFI), 20 abstentions (socialistes, écologistes, GDR) (28 mai 2026, scrutin n° 7027)."
+  },
+  {
+   "titre": "Le financement",
+   "texte": "La perte de recettes est compensée, comme souvent pour une proposition de loi, par une taxe additionnelle sur le tabac (« gage »)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Valérie Létard, commission des affaires économiques (n° 2816)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2816.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée nationale (n° 292)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0292.raw"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54144"
+  },
+  {
+   "titre": "Scrutin n° 7027 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/7027"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

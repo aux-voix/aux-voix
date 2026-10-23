@@ -1,0 +1,161 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53981",
+ "titre_officiel": "Projet de loi portant transposition de l’avenant n° 3 du 25 février 2026 au protocole d’accord du 10 novembre 2023 relatif à l’assurance chômage",
+ "phrase": "Après une rupture conventionnelle, la durée maximale d'indemnisation chômage baisse, par exemple de 18 à 15 mois avant 55 ans.",
+ "note": "Loi promulguée le 11 juin 2026. Elle transpose un accord signé par les syndicats et le patronat, sauf la CGT et la CFE-CGC.",
+ "essentiel": {
+  "points": [
+   "La rupture conventionnelle permet à un salarié et à son employeur de se séparer d'un commun accord : 515 000 ont été signées en 2024.",
+   "Après une telle rupture, le chômage sera versé au plus 15 mois avant 55 ans (au lieu de 18) et 20,5 mois après.",
+   "Les 55 ans et plus pourront demander une prolongation, accordée au cas par cas.",
+   "Objectif : au moins 400 millions d'euros d'économies pour l'assurance chômage."
+  ],
+  "pour": "Le Gouvernement, le centre, la droite et le RN : respecter un accord entre syndicats et patronat et maîtriser le coût des ruptures conventionnelles.",
+  "contre": "LFI, écologistes et GDR contre, socialistes surtout abstenus : une baisse de droits pour des salariés qui ont cotisé."
+ },
+ "court": {
+  "resume": [
+   "Le ministre du Travail a demandé aux syndicats et au patronat de négocier pour économiser au moins 400 millions d'euros sur l'indemnisation après une rupture conventionnelle.",
+   "Leur accord du 25 février 2026 réduit la durée maximale d'indemnisation dans ce cas ; la loi était nécessaire, car le mode de rupture du contrat ne pouvait pas, jusqu'ici, faire varier cette durée.",
+   "Rejeté une première fois par l'Assemblée, le texte a été adopté définitivement le 2 juin 2026 par 353 voix contre 114."
+  ],
+  "change": [
+   [
+    "Moins de 55 ans : 18 mois maximum, quel que soit le mode de rupture.",
+    "15 mois maximum après une rupture conventionnelle.",
+    "Salariés qui signent une rupture conventionnelle"
+   ],
+   [
+    "55 ans et plus : 22,5 à 27 mois maximum.",
+    "20,5 mois maximum, avec une prolongation possible au cas par cas.",
+    "Seniors"
+   ],
+   [
+    "Outre-mer : 24 mois avant 55 ans.",
+    "20 mois après une rupture conventionnelle.",
+    "Salariés d'outre-mer (hors Mayotte)"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Christophe Mongardien (Ensemble pour la République)",
+    "arg": "Le texte permet de moduler la durée des droits selon le type de rupture, comme le prévoit l'accord des partenaires sociaux.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2633.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Ségolène Amiot (La France insoumise)",
+    "arg": "Le texte « s'en prend aux salariés qui ont préféré partir plutôt que subir » et leur fait perdre trois mois d'allocations ou plus.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2633.html"
+   }
+  ]
+ },
+ "resume": [
+  "En novembre 2025, le ministre du Travail a invité les partenaires sociaux à négocier pour économiser au moins 400 millions d'euros sur l'indemnisation des ruptures conventionnelles.",
+  "L'accord du 25 février 2026 (« avenant n° 3 ») a été signé par toutes les organisations patronales et par les syndicats, sauf la CGT et la CFE-CGC.",
+  "Il fixe, après une rupture conventionnelle, une durée maximale de 15 mois avant 55 ans et de 20,5 mois à partir de 55 ans ; outre-mer, 20 et 30 mois.",
+  "Les allocataires de 55 ans et plus peuvent demander une prolongation, appréciée par France Travail selon leurs démarches.",
+  "La loi ajoute le mode de rupture du contrat aux critères qui peuvent faire varier la durée d'indemnisation, ce qui permet au ministre d'agréer l'accord."
+ ],
+ "pourquoi": [
+  "Selon le rapport de l'Assemblée, les ruptures conventionnelles progressent depuis leur création en 2008 : 515 000 en 2024, soit 8 à 21 % des fins de CDI selon les secteurs.",
+  "Le Gouvernement cherche à réduire le coût de ces ruptures pour l'assurance chômage."
+ ],
+ "change": [
+  [
+   "Durée maximale identique quel que soit le mode de rupture : 18 mois avant 55 ans.",
+   "15 mois après une rupture conventionnelle.",
+   "Moins de 55 ans",
+   "Selon l'agrément de l'accord"
+  ],
+  [
+   "22,5 mois (55-56 ans), 27 mois (57 ans et plus).",
+   "20,5 mois, avec prolongation possible au cas par cas.",
+   "55 ans et plus",
+   "Selon l'agrément de l'accord"
+  ],
+  [
+   "Outre-mer : 24, 30 ou 36 mois selon l'âge.",
+   "20 mois avant 55 ans, 30 mois après.",
+   "Outre-mer hors Mayotte",
+   "Selon l'agrément de l'accord"
+  ],
+  [
+   "Le mode de rupture ne pouvait pas moduler la durée d'indemnisation.",
+   "Il devient un critère prévu par le code du travail.",
+   "Partenaires sociaux",
+   "Depuis la promulgation"
+  ]
+ ],
+ "pasfait": [
+  "Elle ne supprime pas la rupture conventionnelle ni le droit au chômage après une telle rupture.",
+  "Elle ne change pas la durée d'indemnisation après un licenciement ou une fin de CDD."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Christophe Mongardien (Ensemble pour la République)",
+    "arg": "Le texte donne une base légale à un accord négocié entre partenaires sociaux sur un mode de rupture en forte hausse.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2633.html"
+   },
+   {
+    "qui": "Gaëtan Dussausaye (RN)",
+    "arg": "Son groupe se dit attaché à la « démocratie sociale » et au dialogue social ; il a voté pour le texte.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2633.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Ségolène Amiot (La France insoumise)",
+    "arg": "Le Gouvernement « s'attaque au droit à l'assurance chômage » de 515 000 salariés par an et supprime des droits « acquis par le travail et la cotisation ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2633.html"
+   },
+   {
+    "qui": "Sandrine Runel (socialiste)",
+    "arg": "Des économies, s'il en faut, devraient être « progressives et supportées notamment par les plus hauts revenus ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2633.html"
+   },
+   {
+    "qui": "Danielle Simonnet (écologiste)",
+    "arg": "La rupture « amiable » se négocie souvent dans un rapport de force favorable à l'employeur.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2633.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le calcul des durées",
+   "texte": "Les durées légales (24, 30 et 36 mois selon l'âge) sont réduites de 25 % par le coefficient de « contracyclicité », d'où les durées réellement appliquées de 18, 22,5 et 27 mois."
+  },
+  {
+   "titre": "Le parcours",
+   "texte": "Assemblée : texte rejeté le 16 avril 2026. Sénat : adopté avec modifications le 18 mai 2026. Assemblée : adopté sans modification le 2 juin 2026 par 353 voix contre 114 et 37 abstentions (scrutin n° 7260)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Thibault Bazin, commission des affaires sociales (n° 2633)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2633.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53981"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/pjl25-470.html"
+  },
+  {
+   "titre": "Scrutin n° 7260 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/7260"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

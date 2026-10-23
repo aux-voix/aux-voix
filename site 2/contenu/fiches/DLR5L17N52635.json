@@ -1,0 +1,168 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N52635",
+ "titre_officiel": "Projet de loi relatif à la restitution de biens culturels provenant d’États qui, du fait d’une appropriation illicite, en ont été privés",
+ "phrase": "La France pourra rendre par décret des objets de ses musées pris illégalement entre 1815 et 1972, sans voter une loi à chaque fois.",
+ "note": "Loi promulguée en mai 2026, votée sans aucune voix contre à l'Assemblée (170 pour).",
+ "essentiel": {
+  "points": [
+   "Les objets des musées publics ne peuvent être ni donnés ni vendus : jusqu'ici, chaque restitution demandait une loi.",
+   "Désormais, un État peut demander un objet volé, pillé ou cédé sous la contrainte entre 1815 et 1972.",
+   "Un comité d'experts des deux pays étudie la demande, puis le gouvernement décide par décret."
+  ],
+  "pour": "Tous les groupes l'ont votée : mieux vaut une règle claire que des lois au cas par cas, comme pour le Bénin ou la Côte d'Ivoire.",
+  "contre": "Personne n'a voté contre. La gauche juge le texte trop limité ; le RN craint que des collections publiques soient « vidées »."
+ },
+ "court": {
+  "resume": [
+   "Les biens des musées publics sont « inaliénables » : ils ne peuvent pas quitter les collections, sauf par une loi spéciale.",
+   "Depuis le discours d'Emmanuel Macron à Ouagadougou en 2017, plusieurs restitutions à des pays africains ont exigé chacune une loi.",
+   "Ce projet du gouvernement crée une procédure générale, après celles de 2023 pour les biens spoliés par les nazis et pour les restes humains."
+  ],
+  "change": [
+   [
+    "Une loi pour chaque restitution.",
+    "Un décret en Conseil d'État, après un comité scientifique et l'avis d'une commission nationale.",
+    "États demandeurs, musées"
+   ],
+   [
+    "—",
+    "Seuls les biens pris entre 1815 et 1972 par vol, pillage ou contrainte sont concernés.",
+    "Collections publiques"
+   ],
+   [
+    "—",
+    "Exclus : objets issus de partages de fouilles et biens ayant servi à des activités militaires.",
+    "Collections publiques"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Frédérique Meunier (Droite républicaine)",
+    "arg": "Face à la hausse des demandes, « des lois d'espèce ne peuvent plus constituer une réponse adaptée ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2628.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Jean-Victor Castor (Gauche démocrate et républicaine)",
+    "arg": "Le texte reste incomplet : « Pourquoi ces bornes temporelles ? » Elles excluent les débuts de la colonisation dans les Amériques et la Caraïbe.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2628.html"
+   }
+  ]
+ },
+ "resume": [
+  "La loi crée une exception au principe d'inaliénabilité des collections publiques, pour restituer un bien culturel à l'État qui le demande, le cas échéant au nom d'un groupe humain présent sur son territoire.",
+  "Le bien doit venir du territoire actuel de cet État et avoir été pris entre le 20 novembre 1815 et le 23 avril 1972, par vol, pillage, ou cession obtenue par contrainte ou violence.",
+  "Sont exclus les biens déjà couverts par un accord international, les objets archéologiques issus d'un partage de fouilles et les biens saisis par l'armée qui ont servi à des activités militaires.",
+  "Un comité scientifique représentant les deux États de manière équilibrée examine la demande ; la commission nationale de restitution rend ensuite un avis public et motivé.",
+  "La sortie des collections est décidée par décret en Conseil d'État ; le rapport du comité est publié si l'État demandeur l'accepte."
+ ],
+ "pourquoi": [
+  "En 2017 à Ouagadougou, Emmanuel Macron voulait réunir les conditions de restitutions « temporaires ou définitives du patrimoine africain en Afrique », rappelle le rapporteur Frantz Gumbs.",
+  "Le rapport de Jean-Luc Martinez (2023) recommandait trois lois-cadres : biens spoliés par les nazis, restes humains, puis biens issus d'appropriations illicites. Celle-ci est la dernière."
+ ],
+ "change": [
+  [
+   "Une loi par restitution (Bénin, Sénégal, Côte d'Ivoire…).",
+   "Procédure générale par décret en Conseil d'État.",
+   "États demandeurs",
+   "Depuis mai 2026"
+  ],
+  [
+   "—",
+   "Comité scientifique bilatéral et avis public de la commission nationale de restitution.",
+   "Musées, chercheurs",
+   "Depuis mai 2026"
+  ],
+  [
+   "—",
+   "Les commissions de la culture et des affaires étrangères du Parlement sont informées et reçoivent le rapport du comité.",
+   "Parlement",
+   "Depuis mai 2026"
+  ]
+ ],
+ "pasfait": [
+  "Il ne couvre pas les biens pris avant 1815 : le Codex Borbonicus réclamé par le Mexique en est exclu, selon le RN.",
+  "Il n'oblige pas la France à accepter une demande : chaque restitution reste une décision du gouvernement.",
+  "Il ne prévoit pas de moyens supplémentaires pour la recherche de provenance, regrettent les écologistes."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Frédérique Meunier (Droite républicaine)",
+    "arg": "Le texte complète les lois-cadres de 2023 ; face aux demandes, il faut une procédure claire plutôt que des lois de circonstance.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2628.html"
+   },
+   {
+    "qui": "Christophe Marion (Ensemble pour la République)",
+    "arg": "Le texte concrétise l'engagement d'Ouagadougou et montre le respect de la France pour les cultures de ses partenaires.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2628.html"
+   },
+   {
+    "qui": "Béatrice Bellamy (Horizons)",
+    "arg": "On sort des lois d'espèce pour « une procédure transparente fondée sur la science et le droit ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2628.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Jean-Victor Castor (Gauche démocrate et républicaine)",
+    "arg": "Les bornes de dates excluent les XVIIe et XVIIIe siècles, et les restes humains réclamés par des peuples autochtones de Guyane restent bloqués.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2628.html"
+   },
+   {
+    "qui": "Sophie Taillé-Polian (écologiste)",
+    "arg": "Le mot « colonisation » est absent du texte, « et cette absence n'est pas neutre » ; sans moyens, la loi risque de rester « une loi d'intention ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2628.html"
+   },
+   {
+    "qui": "Florence Joubert (RN)",
+    "arg": "Favorable au principe, elle craint « un appauvrissement significatif de certaines collections publiques » et des demandes fondées sur un discours de « repentance ».",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2628.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée, première lecture : 170 pour, 0 contre, 1 abstention (13 avril 2026, scrutin n° 6180). Le texte de compromis de la commission mixte paritaire (30 avril) a été adopté début mai 2026."
+  },
+  {
+   "titre": "Ce qu'a ajouté le Sénat",
+   "texte": "Les sénateurs ont rendu obligatoires l'examen par un comité scientifique réunissant les deux États et l'avis de la commission nationale de restitution, pour que les décisions reposent sur une expertise."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Frantz Gumbs, Assemblée nationale (n° 2628)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2628.html"
+  },
+  {
+   "titre": "Rapport de la commission mixte paritaire (n° 2745)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2745.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 280)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PRJLANR5L17BTA0280.raw"
+  },
+  {
+   "titre": "L'essentiel du Sénat sur le projet de loi",
+   "url": "https://www.senat.fr/lessentiel/pjl24-871.pdf"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N52635"
+  },
+  {
+   "titre": "Scrutin n° 6180 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/6180"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

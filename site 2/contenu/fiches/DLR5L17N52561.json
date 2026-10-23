@@ -1,0 +1,120 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N52561",
+ "titre_officiel": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement du Monténégro relatif à la coopération dans le domaine de la défense",
+ "phrase": "La France et le Monténégro, petit pays des Balkans membre de l'OTAN, se dotent d'un accord complet de coopération militaire.",
+ "note": "Loi promulguée en mars 2026, adoptée sans vote public.",
+ "essentiel": {
+  "points": [
+   "Le Monténégro (623 000 habitants) est membre de l'OTAN et candidat à l'Union européenne.",
+   "Un simple arrangement technique de 2014 encadrait jusqu'ici la coopération militaire entre les deux pays.",
+   "L'accord ouvre une coopération large (formation, armement, entraînement) et fixe les règles pour les militaires envoyés chez l'autre."
+  ],
+  "pour": "Tous les groupes : les Balkans occidentaux restent fragiles et exposés à des influences extérieures, notamment russes.",
+  "contre": "Personne ne s'y est opposé. Le RN s'interroge sur la capacité financière du Monténégro à faire vivre l'accord."
+ },
+ "court": {
+  "resume": [
+   "Selon le rapport, la Russie garde des relais au Monténégro, même si le pays applique les sanctions européennes depuis 2014.",
+   "Signé le 3 avril 2024, l'accord remplace l'arrangement technique de 2014 par un cadre entre gouvernements.",
+   "C'est un accord classique, comparable à ceux signés avec d'autres pays des Balkans."
+  ],
+  "change": [
+   [
+    "Arrangement technique limité (2014).",
+    "Accord de coopération complet et réciproque, à durée indéterminée.",
+    "Armées des deux pays"
+   ],
+   [
+    "—",
+    "Domaines : politique de défense, armement, formation, entraînement, opérations de paix, cartographie militaire…",
+    "Ministères de la défense"
+   ],
+   [
+    "Règles de l'OTAN sur les dommages, jugées anciennes et complexes.",
+    "Chaque pays renonce à demander réparation à l'autre, sauf faute lourde ou intentionnelle.",
+    "Militaires détachés"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Valérie Bazin-Malgras (Droite républicaine)",
+    "arg": "Les Balkans occidentaux « demeurent une région fragile, exposée à des influences extérieures » : l'accord s'inscrit dans ce contexte.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2469.html"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "L'accord, réciproque et à durée indéterminée, remplace l'arrangement technique du 9 mai 2014 ; il renvoie au statut des forces de l'OTAN et à un accord de sécurité de 2017 sur les informations classifiées.",
+  "Il confie la coopération aux ministères de la défense et liste des domaines possibles : politique de défense, organisation des armées, armement, opérations de maintien de la paix, formation, cartographie militaire.",
+  "Il prévoit la protection des informations et des matériels classifiés échangés entre les deux pays.",
+  "Il règle la prise en charge médicale, les frais et la conduite à tenir en cas de décès d'un militaire sur le territoire de l'autre pays.",
+  "Pour les dommages, chaque pays renonce à demander réparation à l'autre, sauf faute lourde ou intentionnelle ; le pays d'accueil gère les demandes des tiers."
+ ],
+ "pourquoi": [
+  "Indépendant depuis 2006 et membre de l'OTAN, le Monténégro est situé au cœur des Balkans et sur l'Adriatique, selon le rapport.",
+  "Selon le gouvernement, l'accord permet à la France d'avoir un accord de défense avec tous les États des Balkans occidentaux, à l'exception du Kosovo."
+ ],
+ "change": [
+  [
+   "Arrangement technique de 2014.",
+   "Accord intergouvernemental de défense.",
+   "France, Monténégro",
+   "Depuis l'entrée en vigueur de l'accord"
+  ],
+  [
+   "—",
+   "Régime simplifié des dommages causés par les militaires.",
+   "Militaires, tiers",
+   "Depuis l'entrée en vigueur de l'accord"
+  ]
+ ],
+ "pasfait": [
+  "Il exclut, par principe, la participation des militaires d'un pays à des opérations de guerre ou de maintien de l'ordre menées par l'autre.",
+  "Il ne remplace pas les règles de l'OTAN sur le statut des militaires, auxquelles il renvoie, sauf pour les dommages."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Romain Tonussi (RN)",
+    "arg": "L'accord « remplace utilement l'arrangement technique de 2014, trop limité » par un cadre juridique solide.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2469.html"
+   },
+   {
+    "qui": "Marie Récalde (socialiste)",
+    "arg": "« Il serait difficile de s'opposer » à un accord avec un pays européen membre de l'OTAN et engagé vers l'Union européenne.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2469.html"
+   },
+   {
+    "qui": "Bernard Chaix (UDR)",
+    "arg": "L'accord a une importance stratégique, alors que 64 % des armes achetées par les pays européens de l'OTAN viennent des États-Unis.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2469.html"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucune opposition : tous les groupes ont soutenu le texte. Catherine Rimbert (RN) a demandé comment garantir que l'accord reste « crédible et durable » malgré l'endettement et la dépendance extérieure du Monténégro."
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Sénat : adopté le 10 décembre 2025. Assemblée : adopté le 25 février 2026 sans modification, sans vote public."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Jean-Louis Thiériot, Assemblée nationale (n° 2469)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2469.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N52561"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

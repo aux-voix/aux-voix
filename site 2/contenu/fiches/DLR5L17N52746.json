@@ -1,0 +1,144 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N52746",
+ "titre_officiel": "Proposition de loi visant à moderniser la gestion du patrimoine immobilier de l'État",
+ "phrase": "Les bâtiments de l'État passent à une « foncière » publique ; les ministères lui paieront un loyer, qui financera l'entretien et la rénovation.",
+ "note": "Loi promulguée le 18 août 2026.",
+ "essentiel": {
+  "points": [
+   "Une foncière de l'État, établissement public, devient propriétaire de bâtiments de l'État.",
+   "Les ministères deviennent ses locataires et lui versent des loyers.",
+   "Ces loyers doivent servir à acheter, entretenir et rénover ces bâtiments."
+  ],
+  "pour": "Ses promoteurs : les ministères n'étaient pas incités à entretenir leurs locaux, alors que leur rénovation énergétique pourrait coûter près de 150 milliards d'euros d'ici 2050.",
+  "contre": "LFI, écologistes et GDR ont voté contre ; LFI contestait devant le Conseil constitutionnel une exonération d'impôt jugée injuste pour la foncière."
+ },
+ "court": {
+  "resume": [
+   "L'État possède un immense patrimoine immobilier : près de 97 millions de mètres carrés de bâtiments. Il peine à l'entretenir et à le rénover.",
+   "Cette loi crée une « foncière de l'État » à qui sont transférés des bâtiments ; les ministères qui les occupent lui paient un loyer.",
+   "Adoptée définitivement le 21 juillet 2026, elle a été validée par le Conseil constitutionnel."
+  ],
+  "change": [
+   [
+    "Les ministères occupent gratuitement les bâtiments de l'État.",
+    "Ils paient un loyer à la foncière de l'État.",
+    "Les ministères"
+   ],
+   [
+    "L'entretien dépend des crédits de chaque ministère.",
+    "Les loyers financent l'achat, l'entretien et la rénovation.",
+    "Le patrimoine de l'État"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Les promoteurs de la réforme, dont Thomas Cazenave (EPR), auteur",
+    "arg": "Les ministères n'ont jamais vraiment été incités à entretenir leur parc ; la foncière doit y remédier.",
+    "source": "https://acteurspublics.fr/articles/le-parlement-adopte-definitivement-la-fonciere-de-letat-qui-sattaquera-en-priorite-aux-espaces-ou-les-gains-sont-les-plus-rapides"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Les députés LFI, auteurs d'un recours",
+    "arg": "L'exonération de taxe foncière accordée à la foncière et à ses filiales créerait une différence de traitement injustifiée avec les opérateurs immobiliers privés. Le Conseil constitutionnel a rejeté ce grief.",
+    "source": "https://www.conseil-constitutionnel.fr/decision/2026/2026913DC.htm"
+   }
+  ]
+ },
+ "resume": [
+  "Au 31 décembre 2024, l'État et ses établissements publics occupaient 96,7 millions de mètres carrés de bâtiments, dont 23,1 millions de bureaux.",
+  "La loi crée une foncière de l'État, établissement public industriel et commercial, à qui sont transférés des biens immobiliers de l'État.",
+  "La foncière les met à disposition des administrations par un bail : les ministères lui paient un loyer.",
+  "Ces recettes doivent permettre d'acquérir, d'entretenir et de rénover le patrimoine. Le Parlement a ajouté un contrôle sur ses travaux.",
+  "Cette réforme avait déjà été votée dans le budget 2025, puis censurée par le Conseil constitutionnel pour une raison de procédure."
+ ],
+ "pourquoi": [
+  "Selon le Sénat, la politique immobilière de l'État « se trouve aujourd'hui dans une impasse » : le patrimoine est mal valorisé et peu entretenu.",
+  "La rénovation énergétique des bâtiments de l'État pourrait coûter entre 140 et 150 milliards d'euros d'ici 2050, selon les estimations citées par le Sénat."
+ ],
+ "change": [
+  [
+   "Les bâtiments appartiennent directement à l'État.",
+   "Des bâtiments sont transférés à la foncière de l'État ; les établissements publics peuvent aussi lui transférer les leurs.",
+   "Patrimoine immobilier public",
+   "Progressivement"
+  ],
+  [
+   "Pas de loyer entre administrations.",
+   "Les ministères paient un loyer à la foncière.",
+   "Ministères",
+   "Selon les transferts"
+  ],
+  [
+   "—",
+   "Contrôle du Parlement sur la foncière et obligation de définir une stratégie immobilière.",
+   "Parlement, foncière",
+   "Après promulgation"
+  ]
+ ],
+ "pasfait": [
+  "Elle ne vend pas les bâtiments de l'État : elle change leur propriétaire au sein du secteur public.",
+  "Elle ne transfère pas tout le patrimoine d'un coup : les transferts sont progressifs."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Les promoteurs de la réforme, dont Thomas Cazenave (EPR)",
+    "arg": "Les ministères n'ont jamais vraiment été incités à entretenir leur parc, alors que la rénovation énergétique pourrait coûter jusqu'à 150 milliards d'euros d'ici 2050 selon la Cour des comptes (2023).",
+    "source": "https://acteurspublics.fr/articles/le-parlement-adopte-definitivement-la-fonciere-de-letat-qui-sattaquera-en-priorite-aux-espaces-ou-les-gains-sont-les-plus-rapides"
+   },
+   {
+    "qui": "La commission des finances du Sénat",
+    "arg": "Cette réforme « constitue une avancée majeure et attendue pour la politique immobilière de l'État ».",
+    "source": "https://www.senat.fr/lessentiel/ppl25-319.pdf"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Les députés LFI, auteurs d'un recours",
+    "arg": "L'exonération de taxe foncière accordée à la foncière et à ses filiales, sans condition, créerait une inégalité avec les opérateurs privés. Le Conseil constitutionnel a jugé la loi conforme.",
+    "source": "https://www.conseil-constitutionnel.fr/decision/2026/2026913DC.htm"
+   },
+   {
+    "qui": "Les groupes LFI, écologiste et GDR",
+    "arg": "Ils ont voté contre (86 voix contre au vote final). Leurs autres raisons ne figurent pas dans les sources consultées.",
+    "source": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8434"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Les votes",
+   "texte": "Assemblée, première lecture (28 janvier 2026) : 77 pour, 22 contre. Vote final (21 juillet 2026) : 276 pour, 86 contre, 2 abstentions (scrutin n° 8434)."
+  },
+  {
+   "titre": "Le patrimoine",
+   "texte": "96,7 millions de m² de surface bâtie au 31 décembre 2024, dont 23,1 millions de m² de bureaux, 18,5 millions de m² de logements et 20,2 millions de m² pour l'enseignement, ainsi que 31 170 terrains non bâtis (Sénat)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Sénat, « L'essentiel » du rapport de la commission des finances, juin 2026",
+   "url": "https://www.senat.fr/lessentiel/ppl25-319.pdf"
+  },
+  {
+   "titre": "Acteurs publics, « Le Parlement adopte définitivement la foncière de l'État », juillet 2026",
+   "url": "https://acteurspublics.fr/articles/le-parlement-adopte-definitivement-la-fonciere-de-letat-qui-sattaquera-en-priorite-aux-espaces-ou-les-gains-sont-les-plus-rapides"
+  },
+  {
+   "titre": "Conseil constitutionnel, décision n° 2026-913 DC du 14 août 2026",
+   "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026913DC.htm"
+  },
+  {
+   "titre": "Scrutin n° 8434 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8434"
+  }
+ ],
+ "auteur": "Rédaction Aux Voix",
+ "verif": "",
+ "version": {
+  "n": 1,
+  "date": "2026-10-20"
+ }
+}

@@ -1,0 +1,155 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53715",
+ "titre_officiel": "Proposition de loi visant à renforcer la place des agriculteurs dans l’aménagement du territoire et à sécuriser l’exercice des activités agricoles face au changement climatique",
+ "phrase": "Les organismes qui gèrent les appellations (AOP, IGP) seraient consultés sur les plans d'urbanisme, et les travaux agricoles décalés à cause du climat mieux protégés. Le Sénat doit voter.",
+ "note": "Texte adopté à l'unanimité par l'Assemblée en première lecture le 26 mars 2026 (122 voix pour). Le Sénat doit encore l'examiner.",
+ "essentiel": {
+  "points": [
+   "Les AOP et IGP (beaucoup de vins et de fromages) dépendent de terres précises : en perdre peut fragiliser toute une filière.",
+   "Le texte associe les organismes qui gèrent ces appellations à l'élaboration des plans d'urbanisme.",
+   "Décaler ses horaires à cause d'aléas climatiques ne ferait pas perdre aux agriculteurs leur protection contre les plaintes pour troubles du voisinage."
+  ],
+  "pour": "Tous les groupes l'ont votée : protéger les terroirs et adapter le travail agricole aux fortes chaleurs.",
+  "contre": "Personne n'a voté contre. Des députés jugent la consultation inutile, ou le texte trop timide face au changement climatique."
+ },
+ "court": {
+  "resume": [
+   "Les produits sous signe de qualité (AOP, IGP) doivent venir d'une aire précise, définie par un cahier des charges.",
+   "Avec les canicules, des exploitants travaillent la nuit ou très tôt : vendanges « à la fraîche », fauche nocturne pour limiter les risques d'incendie.",
+   "Le texte d'Hubert Ott (Démocrates) veut mieux protéger ces terres et ces pratiques."
+  ],
+  "change": [
+   [
+    "Les organismes de défense et de gestion (ODG) des appellations ne sont pas consultés en tant que tels.",
+    "Ils sont consultés sur les schémas de cohérence territoriale et les plans locaux d'urbanisme.",
+    "Producteurs sous AOP et IGP"
+   ],
+   [
+    "—",
+    "La chambre d'agriculture prévient l'ODG de tout projet qui réduit les surfaces sous signe de qualité.",
+    "Filières de qualité"
+   ],
+   [
+    "Changer d'horaires peut faire perdre la protection contre les plaintes de voisinage.",
+    "Pas si le changement est exceptionnel, saisonnier et dû à des aléas climatiques.",
+    "Agriculteurs, riverains"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Dominique Potier (socialiste)",
+    "arg": "« Il est effectivement très important que les ODG soient consultés dans l'élaboration des documents d'urbanisme. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2520.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Thierry Benoit (Horizons)",
+    "arg": "Les élus locaux associent déjà ces organismes : « Préciser dans la loi que ces ODG y sont associés est inutile. »",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2520.html"
+   }
+  ]
+ },
+ "resume": [
+  "Les organismes de défense et de gestion (ODG), chargés de faire respecter les cahiers des charges des appellations, rejoignent la liste des organismes consultés pour les schémas de cohérence territoriale et les plans locaux d'urbanisme.",
+  "Dès qu'elle connaît un projet ou un document d'urbanisme qui réduit les surfaces sous signe de qualité, la chambre d'agriculture doit prévenir sans délai l'ODG concerné.",
+  "Le code rural protège déjà les agriculteurs contre les actions pour troubles anormaux du voisinage lorsque leur activité existait avant et se poursuit dans les mêmes conditions.",
+  "Le texte précise qu'une activité dont les horaires changent, de manière exceptionnelle et saisonnière, à cause d'aléas climatiques est réputée se poursuivre dans les mêmes conditions."
+ ],
+ "pourquoi": [
+  "Selon le rapporteur, la baisse du budget de l'Institut national de l'origine et de la qualité (Inao) l'éloigne de la protection du foncier, d'où le rôle donné aux ODG.",
+  "Le rapport cite les vendanges « à la fraîche », les sorties du bétail hors des pics de chaleur et la fauche de nuit pour limiter les risques d'incendie."
+ ],
+ "change": [
+  [
+   "—",
+   "Consultation des ODG sur les documents d'urbanisme.",
+   "Communes, producteurs",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "—",
+   "Information des ODG par la chambre d'agriculture.",
+   "Filières de qualité",
+   "Si le texte est adopté définitivement"
+  ],
+  [
+   "—",
+   "Protection maintenue en cas d'horaires décalés pour aléas climatiques.",
+   "Agriculteurs",
+   "Si le texte est adopté définitivement"
+  ]
+ ],
+ "pasfait": [
+  "Il ne donne pas aux ODG un pouvoir de blocage : ils sont consultés.",
+  "Il ne traite ni de l'accès au foncier ni du revenu des agriculteurs, points soulevés par la gauche.",
+  "Il n'est pas en vigueur : le Sénat doit l'examiner."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Hubert Ott (Démocrates), auteur et rapporteur",
+    "arg": "« Concerter en amont, c'est aussi sécuriser » : les projets des collectivités, les exploitations et le développement des territoires.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2520.html"
+   },
+   {
+    "qui": "Jean-François Rousset (Ensemble pour la République)",
+    "arg": "Le texte garantit la prise en compte des activités des agriculteurs et de leur avis dans l'aménagement.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2520.html"
+   },
+   {
+    "qui": "Dominique Potier (socialiste)",
+    "arg": "Il s'agit de préserver des sols, des traditions et des paysages qui sont « presque » un bien commun.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2520.html"
+   }
+  ],
+  "contre": [
+   {
+    "qui": "Thierry Benoit (Horizons)",
+    "arg": "Associer les ODG dans la loi risque, à terme, de rendre leur avis obligatoire et de compliquer les projets, comme avec les architectes des bâtiments de France.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2520.html"
+   },
+   {
+    "qui": "Benoît Biteau (écologiste)",
+    "arg": "La notion d'horaires adaptés au changement climatique « semble floue et difficilement contrôlable » ; un encadrement préfectoral serait préférable.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2520.html"
+   },
+   {
+    "qui": "Mathilde Feld (La France insoumise)",
+    "arg": "La priorité est de changer un modèle agricole productiviste qui contribue lui-même au dérèglement climatique.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2520.html"
+   }
+  ]
+ },
+ "details": [
+  {
+   "titre": "Le vote",
+   "texte": "Assemblée : 122 pour, 0 contre (26 mars 2026, scrutin n° 5839)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport d'Hubert Ott, Assemblée nationale (n° 2520)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2520.html"
+  },
+  {
+   "titre": "Texte adopté par l'Assemblée (n° 252)",
+   "url": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17BTA0252.raw"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53715"
+  },
+  {
+   "titre": "Scrutin n° 5839 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/5839"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-22"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

@@ -1,0 +1,135 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N52549",
+ "titre_officiel": "Projet de loi autorisant l’approbation de la convention fiscale entre la France et la Finlande et de l’avenant à la convention fiscale entre la France et la Suède",
+ "phrase": "La France modernise ses accords fiscaux avec la Finlande et la Suède pour éviter qu'un revenu soit taxé deux fois et pour lutter contre la fraude fiscale.",
+ "note": "Loi promulguée le 15 juin 2026, adoptée sans vote public. La Finlande et la Suède avaient déjà approuvé ces textes.",
+ "essentiel": {
+  "points": [
+   "Une convention fiscale dit quel pays peut taxer quel revenu, pour éviter de payer l'impôt deux fois.",
+   "Celle avec la Finlande remplace un texte de 1970 et vise notamment les montages frauduleux sur les dividendes, dits « CumEx ».",
+   "Celle avec la Suède est mise à jour sur le règlement des litiges et la lutte contre les abus."
+  ],
+  "pour": "Tous les groupes en commission : une mise à jour aux standards internationaux, utile contre l'évasion fiscale.",
+  "contre": "Personne ne s'y est opposé ; le texte a été adopté sans vote public."
+ },
+ "court": {
+  "resume": [
+   "Quand une personne vit dans un pays et touche des revenus d'un autre, une convention fiscale répartit le droit de taxer entre les deux pays.",
+   "La nouvelle convention avec la Finlande, signée en 2023, remplace celle de 1970 et suit le modèle de l'OCDE ; l'avenant avec la Suède ajoute des règles récentes contre les abus.",
+   "Les deux pays nordiques les avaient déjà approuvées : elles entrent en vigueur dès l'approbation française."
+  ],
+  "change": [
+   [
+    "Dividendes : règles de 1970, exposées aux montages « CumEx ».",
+    "Imposition partagée des dividendes, avec une retenue à la source de 15 %.",
+    "Actionnaires entre la France et la Finlande"
+   ],
+   [
+    "Pensions de retraite privées : règles anciennes.",
+    "Les deux pays peuvent les taxer ; un crédit d'impôt évite la double imposition.",
+    "Retraités franco-finlandais"
+   ],
+   [
+    "Convention avec la Suède sans les derniers standards.",
+    "Règles nouvelles sur le règlement des différends et contre les abus.",
+    "Contribuables franco-suédois"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "La rapporteure, Dieynaba Diop (socialiste)",
+    "arg": "La convention avec la Finlande, devenue obsolète, est remplacée par un texte conforme au modèle de l'OCDE, qui renforce la lutte contre l'optimisation fiscale.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2736.html"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "La Constitution impose qu'une loi autorise l'approbation des traités qui touchent aux finances de l'État, comme les conventions fiscales.",
+  "La convention avec la Finlande, signée le 4 avril 2023, remplace celle du 11 septembre 1970 et s'appuie sur le modèle de l'OCDE de 2017.",
+  "Elle prévoit une imposition partagée des dividendes avec une retenue à la source de 15 %, pour contrer les montages « CumEx » ; les intérêts et redevances restent taxés dans le pays de résidence.",
+  "Les pensions de retraite privées peuvent être taxées par les deux pays, la double imposition étant évitée par un crédit d'impôt ; les pensions publiques restent taxées par le pays qui les verse.",
+  "L'avenant avec la Suède intègre des évolutions mineures sur le règlement des différends et la lutte contre les abus."
+ ],
+ "pourquoi": [
+  "La convention franco-finlandaise de 1970 figurait parmi les plus anciennes en vigueur en France, selon les débats en commission.",
+  "Les montages « CumEx » consistent à déplacer des dividendes pour obtenir des remboursements d'impôts indus ; révélés par les « CumEx Files », ils ont privé plusieurs pays européens de recettes."
+ ],
+ "change": [
+  [
+   "Convention de 1970.",
+   "Convention de 2023 fondée sur le modèle OCDE.",
+   "Contribuables entre la France et la Finlande",
+   "Depuis l'approbation"
+  ],
+  [
+   "—",
+   "Dividendes : imposition partagée, retenue à la source de 15 %.",
+   "Actionnaires",
+   "Depuis l'approbation"
+  ],
+  [
+   "—",
+   "Pensions privées : imposition possible dans les deux pays, avec crédit d'impôt ; pensions publiques : pays qui verse.",
+   "Retraités",
+   "Depuis l'approbation"
+  ],
+  [
+   "Convention franco-suédoise ancienne.",
+   "Avenant sur le règlement des différends et la lutte contre les abus.",
+   "Contribuables franco-suédois",
+   "Depuis l'approbation"
+  ]
+ ],
+ "pasfait": [
+  "Elle ne crée pas de nouvel impôt : elle répartit le droit de taxer entre deux pays.",
+  "Elle ne règle pas les fraudes passées : elle s'applique pour l'avenir."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Charlotte Parmentier-Lecocq (Horizons)",
+    "arg": "Le texte met à jour le cadre fiscal avec deux partenaires européens en l'alignant sur les standards internationaux.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2736.html"
+   },
+   {
+    "qui": "Stéphane Hablot (socialiste)",
+    "arg": "« Nous sommes manifestement tous favorables » à ces conventions qui modernisent nos accords fiscaux.",
+    "source": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2736.html"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucun groupe ne s'y est opposé ; le texte a été adopté sans vote public. Pierre Pribetich (socialiste) a rappelé l'ampleur de la fraude « CumEx », estimée à 140 milliards d'euros pour l'Allemagne, le Danemark et la France."
+ },
+ "details": [
+  {
+   "titre": "Les dates",
+   "texte": "Convention franco-finlandaise signée à Helsinki le 4 avril 2023 ; Sénat : 29 octobre 2025 ; Assemblée : 9 juin 2026, sans modification."
+  },
+  {
+   "titre": "Les revenus du travail",
+   "texte": "Conformément au modèle de l'OCDE, les salaires sont taxés dans le pays où le travail est exercé."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rapport de Dieynaba Diop, commission des affaires étrangères (n° 2736)",
+   "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2736.html"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N52549"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/pjl24-855.html"
+  }
+ ],
+ "version": {
+  "n": 1,
+  "date": "2026-10-21"
+ },
+ "auteur": "Rédaction Aux Voix",
+ "verif": ""
+}

@@ -1,0 +1,108 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N54379",
+ "titre_officiel": "Projet de loi autorisant l’approbation de l’accord multilatéral entre autorités compétentes portant sur l’échange des informations GloBE",
+ "phrase": "La France approuve un accord pour que les grandes entreprises déclarent une seule fois les informations liées à l'impôt minimum mondial de 15 %.",
+ "note": "Loi promulguée en octobre 2026.",
+ "essentiel": {
+  "points": [
+   "Depuis 2024, les groupes de plus de 750 millions d'euros de chiffre d'affaires doivent payer au moins 15 % d'impôt sur leurs bénéfices dans chaque pays.",
+   "Avec cet accord, ils pourront faire une seule déclaration, transmise aux autres pays signataires, au lieu d'une par pays.",
+   "Selon l'administration fiscale, cet impôt minimum doit rapporter 500 millions d'euros à la France en 2026."
+  ],
+  "pour": "Le rapporteur du Sénat : une simplification « bienvenue et nécessaire » pour appliquer l'impôt minimum mondial.",
+  "contre": "Aucune opposition n'a été enregistrée ; le rapporteur du Sénat a seulement regretté un calendrier trop tardif pour les déclarations de 2026."
+ },
+ "court": {
+  "resume": [
+   "En 2021, les pays réunis par l'OCDE et le G20 se sont mis d'accord pour que les grandes entreprises paient au moins 15 % d'impôt sur leurs bénéfices partout où elles sont présentes : c'est l'« impôt minimum mondial ».",
+   "Pour le contrôler, chaque groupe remplit une déclaration détaillée. Cet accord permet de la déposer dans un seul pays, qui la transmet aux autres signataires.",
+   "La loi autorise la France à approuver cet accord."
+  ],
+  "change": [
+   [
+    "Les filiales françaises d'un groupe étranger devaient déclarer en France.",
+    "Le groupe peut faire une seule déclaration dans un pays signataire, transmise à la France.",
+    "Les groupes de plus de 750 millions d'euros de chiffre d'affaires"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Emmanuel Capus (Les Indépendants), rapporteur au Sénat",
+    "arg": "L'accord est « une étape bienvenue et nécessaire » à la simplification de l'impôt minimum mondial, vu la lourdeur des déclarations pour les entreprises.",
+    "source": "https://www.senat.fr/lessentiel/pjl25-670.pdf"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "L'impôt minimum mondial, aussi appelé « pilier 2 », vise à ce que les grands groupes paient au moins 15 % d'impôt sur leurs bénéfices dans chaque pays où ils sont présents.",
+  "Il s'applique en France depuis l'exercice 2024, après la loi de finances pour 2024.",
+  "Les groupes concernés doivent remplir une déclaration d'information dite « GloBE », ce qui représente une lourde charge quand ils sont présents dans de nombreux pays.",
+  "L'accord approuvé par cette loi organise l'échange automatique de ces déclarations entre pays signataires : un groupe peut ainsi déclarer une seule fois."
+ ],
+ "pourquoi": [
+  "Le droit français ne permet le dépôt centralisé à l'étranger que si le pays de dépôt a signé avec la France un accord d'échange des informations GloBE. Cette loi approuve cet accord."
+ ],
+ "change": [
+  [
+   "Dépôt de la déclaration en France pour les filiales françaises de groupes étrangers.",
+   "Dépôt unique possible dans un pays signataire de l'accord, qui transmet les informations à la France.",
+   "Groupes de plus de 750 millions d'euros de chiffre d'affaires",
+   "Après l'approbation de l'accord"
+  ]
+ ],
+ "pasfait": [
+  "Elle ne crée pas l'impôt minimum de 15 % : celui-ci existe en France depuis la loi de finances pour 2024.",
+  "Elle ne change pas le montant de l'impôt dû, seulement la façon de déclarer."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Emmanuel Capus (Les Indépendants), rapporteur au Sénat",
+    "arg": "L'approbation est « une étape bienvenue et nécessaire » : elle sécurise le dépôt centralisé pour les entreprises situées en France.",
+    "source": "https://www.senat.fr/lessentiel/pjl25-670.pdf"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucune opposition n'a été enregistrée : la commission des finances du Sénat a adopté le texte sans modification, et il n'y a pas eu de scrutin public à l'Assemblée. Le rapporteur du Sénat a seulement regretté que le calendrier choisi par le Gouvernement n'ait pas permis de simplifier dès la campagne de déclaration de 2026."
+ },
+ "details": [
+  {
+   "titre": "Le seuil",
+   "texte": "Les règles GloBE s'appliquent aux groupes dont le chiffre d'affaires consolidé dépasse 750 millions d'euros."
+  },
+  {
+   "titre": "Les recettes",
+   "texte": "L'administration fiscale estime les recettes du pilier 2 à 500 millions d'euros en 2026, contre 1,5 milliard d'euros dans les prévisions initiales."
+  },
+  {
+   "titre": "Les pays",
+   "texte": "Selon l'OCDE, cité par le Sénat en juin 2026 : 148 États ou juridictions membres du Cadre inclusif, dont 36 signataires de l'accord."
+  },
+  {
+   "titre": "Les dates",
+   "texte": "Accord signé à Paris le 9 juillet 2025. Projet de loi déposé au Sénat le 27 mai 2026, avec procédure accélérée."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Sénat, « L'essentiel » du rapport de la commission des finances",
+   "url": "https://www.senat.fr/lessentiel/pjl25-670.pdf"
+  },
+  {
+   "titre": "Dossier législatif de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54379"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/pjl25-670.html"
+  }
+ ],
+ "auteur": "Rédaction Aux Voix",
+ "verif": "",
+ "version": {
+  "n": 1,
+  "date": "2026-10-20"
+ }
+}
