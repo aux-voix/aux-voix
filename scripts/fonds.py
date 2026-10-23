@@ -233,23 +233,23 @@ def pages_themes(g, T, fiches):
         nom = lib[slug]
         L.sort(key=lambda f: (f.get("version") or {}).get("date", ""), reverse=True)
         items = "".join(
-            f'<li><a href="/loi/{ESC(f["dossier"])}/">{ESC(f["titre_officiel"][:1].upper() + f["titre_officiel"][1:])}</a><br><span class="meta">{ESC(f.get("phrase", ""))}'
-            + (f" {ESC(f['note'])}" if f.get("note") else "") + "</span></li>" for f in L)
+            f'<li><a href="/loi/{ESC(f["dossier"])}/"><span class="h">{ESC(f["titre_officiel"][:1].upper() + f["titre_officiel"][1:])}</span>'
+            + (f'<span class="d">{ESC(f.get("phrase", ""))}' + (f" {ESC(f['note'])}" if f.get("note") else "") + "</span>" if f.get("phrase") else "") + "</a></li>" for f in L)
         titre = f"{nom} : les lois et propositions de loi, ce qui change et qui a voté"
         desc = f"{len(L)} textes concernant {T['intro'].get(slug, nom.lower())} : pour chacun, ce qui change, les arguments de chaque camp, le parcours et les votes. Sources officielles."
         corps = f"""{fil(("/lois-par-theme/", "Lois par thème"))}<h1>{ESC(nom)}</h1>
 <p class="lede">{len(L)} textes concernant {ESC(T['intro'].get(slug, nom.lower()))}. Pour chacun : ce qui change, les arguments de chaque camp, le parcours au Parlement et les votes.</p>
-<ul class="l">{items}</ul>
+<ul class="textes">{items}</ul>
 <p class="meta">Chaque texte est rangé dans un seul thème, choisi par la rédaction d'après son objet principal. Un texte peut toucher plusieurs sujets.</p>"""
         g.page(chemin, titre, desc, corps, jsonld=_ld(g, chemin, titre, desc, [("Lois par thème", "/lois-par-theme/"), (nom, chemin)]), og_type="article")
         g.urls.setdefault("fonds", []).append((chemin, g.aujourdhui))
         hub.append((slug, nom, len(L)))
     if hub:
         chemin = "/lois-par-theme/"
-        lis = "".join(f'<li><a href="/theme/{s}/">{ESC(n)}</a> <span class="meta">({k} textes)</span></li>' for s, n, k in hub)
+        lis = "".join(f'<li><a href="/theme/{s}/"><span class="n">{k} texte{"s" if k > 1 else ""}</span><span class="h">{ESC(n)}</span><span class="d">{ESC(T["intro"].get(s, "")[:1].upper() + T["intro"].get(s, "")[1:])}</span></a></li>' for s, n, k in hub)
         titre = "Les lois par thème : logement, santé, école, travail, sécurité…"
         desc = "Retrouvez les lois et propositions de loi classées par thème : logement, santé, éducation, travail, sécurité, énergie… avec, pour chacune, une explication simple et les votes."
-        corps = f"""{fil(("/#/lois", "Lois"))}<h1>Les lois par thème</h1><p class="lede">Choisissez un sujet pour voir les textes qui le concernent.</p><ul class="l">{lis}</ul>
+        corps = f"""{fil(("/#/lois", "Lois"))}<h1>Les lois par thème</h1><p class="lede">Choisissez un sujet pour voir les textes qui le concernent.</p><ul class="cartes">{lis}</ul>
 <p>Pour comprendre le parcours d'un texte : <a href="/comprendre/comment-une-loi-est-votee/">comment une loi est votée</a>, <a href="/comprendre/projet-de-loi-proposition-de-loi/">projet ou proposition de loi</a>, <a href="/lexique/">le lexique</a>.</p>"""
         g.page(chemin, titre, desc, corps, jsonld=_ld(g, chemin, titre, desc, [("Lois par thème", chemin)]), og_type="article")
         g.urls.setdefault("fonds", []).append((chemin, g.aujourdhui))
