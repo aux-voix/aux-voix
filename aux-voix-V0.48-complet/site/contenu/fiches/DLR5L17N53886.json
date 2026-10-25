@@ -1,0 +1,170 @@
+{
+ "publie": true,
+ "dossier": "DLR5L17N53886",
+ "titre_officiel": "Proposition de loi visant à assouplir la procédure d'autorisation des établissements et services médico-sociaux à caractère expérimental",
+ "phrase": "Les structures sociales et médico-sociales expérimentales qui ont fait leurs preuves pourront obtenir une autorisation durable au lieu de devoir fermer ou changer de modèle.",
+ "note": "Adoptée définitivement par le Parlement le 12 octobre 2026 ; loi promulguée le 21 octobre 2026.",
+ "essentiel": {
+  "points": [
+   "Environ 426 structures « expérimentales » accueillent des personnes âgées, handicapées ou des enfants protégés.",
+   "Jusqu'ici, à la fin de l'expérience, elles devaient entrer dans une catégorie classique, souvent impossible.",
+   "Désormais, après une évaluation positive, elles peuvent être autorisées comme les autres, pour 15 ans."
+  ],
+  "pour": "La commission des affaires sociales du Sénat : il faut garantir la continuité de l'accompagnement des personnes accueillies dans ces structures.",
+  "contre": "Personne n'a voté contre : unanimité en commission au Sénat, 53 voix pour et aucune contre à l'Assemblée."
+ },
+ "court": {
+  "resume": [
+   "Depuis 2002, la loi permet de créer des établissements ou services « expérimentaux » pour tester de nouvelles façons d'accompagner des personnes vulnérables.",
+   "Problème : à la fin de l'expérience, ceux qui marchent ne rentrent dans aucune case du code de l'action sociale, et ont du mal à obtenir une autorisation durable.",
+   "Le texte leur permet d'être autorisés pour la durée habituelle, 15 ans, après une évaluation positive."
+  ],
+  "change": [
+   [
+    "Fin de l'expérience : il fallait correspondre à une catégorie existante.",
+    "Après évaluation positive, autorisation dans les mêmes conditions que l'expérience, pour 15 ans.",
+    "Les structures expérimentales et les personnes qu'elles accompagnent"
+   ]
+  ],
+  "pour": [
+   {
+    "qui": "Commission des affaires sociales du Sénat (rapporteure : Monique Lubin, socialiste)",
+    "arg": "Elle veut « sécuriser l'avenir » de structures devenues essentielles pour les personnes accompagnées, et encourager l'innovation dans les territoires.",
+    "source": "https://www.senat.fr/lessentiel/ppl25-446.pdf"
+   }
+  ],
+  "contre": []
+ },
+ "resume": [
+  "Les établissements et services sociaux et médico-sociaux (Ehpad, foyers, services d'aide…) doivent être autorisés par le département et, selon les cas, l'agence régionale de santé.",
+  "Depuis la loi du 2 janvier 2002, certains peuvent l'être à titre « expérimental », pour tester des réponses nouvelles.",
+  "La loi fixe la durée maximale de l'expérience à 10 ans au total, renouvellements compris.",
+  "À l'issue, et sous réserve d'une nouvelle évaluation positive, la structure peut être autorisée dans les mêmes conditions, pour la durée de droit commun de 15 ans."
+ ],
+ "pourquoi": [
+  "Selon le Sénat, les structures expérimentales ne correspondent, par nature, à aucune catégorie du code de l'action sociale, ce qui les empêchait d'obtenir une autorisation classique même quand elles avaient fait leurs preuves."
+ ],
+ "change": [
+  [
+   "À la fin de l'expérience, obligation d'entrer dans une catégorie existante.",
+   "Autorisation possible dans les mêmes conditions que l'expérience, pour 15 ans, après une évaluation positive.",
+   "Structures expérimentales",
+   "Après la promulgation"
+  ]
+ ],
+ "pasfait": [
+  "Il ne crée pas de nouveaux financements pour ces structures.",
+  "Il ne pérennise pas automatiquement toutes les structures : il faut une évaluation positive."
+ ],
+ "arguments": {
+  "pour": [
+   {
+    "qui": "Commission des affaires sociales du Sénat (rapporteure : Monique Lubin, socialiste)",
+    "arg": "Les structures expérimentales sont un « moteur de la transformation de l'offre » ; il faut garantir la continuité de la prise en charge des personnes accompagnées.",
+    "source": "https://www.senat.fr/lessentiel/ppl25-446.pdf"
+   }
+  ],
+  "contre": [],
+  "consensus": "Aucune opposition : la commission des affaires sociales du Sénat a adopté le texte à l'unanimité, et l'Assemblée l'a voté par 53 voix pour et aucune contre, sans le modifier."
+ },
+ "details": [
+  {
+   "titre": "Les structures concernées",
+   "texte": "426 structures expérimentales en activité selon la direction générale de la cohésion sociale (mai 2026), dont plus de la moitié dans la protection de l'enfance."
+  },
+  {
+   "titre": "Les financements",
+   "texte": "En 2025, les agences régionales de santé y consacrent 13 millions d'euros pour les personnes âgées et 80 millions d'euros pour les personnes handicapées. Les montants versés par les départements ne sont pas recensés."
+  },
+  {
+   "titre": "Un exemple",
+   "texte": "Le Village landais Alzheimer, dans les Landes, accueille près de 120 personnes dans une structure organisée comme un village."
+  },
+  {
+   "titre": "Le vote",
+   "texte": "Sénat : adopté le 28 mai 2026. Assemblée : adopté sans modification le 12 octobre 2026, par 53 voix pour et aucune contre (scrutin n° 8694)."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Sénat, « L'essentiel » du rapport de la commission des affaires sociales, mai 2026",
+   "url": "https://www.senat.fr/lessentiel/ppl25-446.pdf"
+  },
+  {
+   "titre": "Texte adopté par le Sénat le 28 mai 2026",
+   "url": "https://www.senat.fr/leg/tas25-121.pdf"
+  },
+  {
+   "titre": "Scrutin n° 8694 de l'Assemblée nationale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8694"
+  },
+  {
+   "titre": "Dossier législatif du Sénat",
+   "url": "https://www.senat.fr/dossier-legislatif/ppl25-446.html"
+  }
+ ],
+ "auteur": "Rédaction Aux Voix",
+ "verif": "l'éditeur du site",
+ "version": {
+  "n": 1,
+  "date": "2026-10-20"
+ },
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Structure expérimentale",
+    "def": "Établissement qui teste un nouveau modèle d'accueil."
+   },
+   {
+    "terme": "Médico-social",
+    "def": "Accueil et accompagnement de personnes âgées, handicapées ou d'enfants protégés."
+   },
+   {
+    "terme": "Autorisation",
+    "def": "Permission officielle d'exercer."
+   },
+   {
+    "terme": "Évaluation",
+    "def": "Examen des résultats d'une expérience."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de structures expérimentales existent ?",
+    "choix": [
+     "Environ 426",
+     "Environ 42",
+     "Environ 4 260"
+    ],
+    "bonne": 0,
+    "expl": "Selon la direction générale de la cohésion sociale."
+   },
+   {
+    "q": "Pour combien de temps l'autorisation est-elle accordée ?",
+    "choix": [
+     "Un an",
+     "Quinze ans",
+     "À vie"
+    ],
+    "bonne": 1,
+    "expl": "Après une évaluation positive."
+   },
+   {
+    "q": "Comment l'Assemblée a-t-elle voté ?",
+    "choix": [
+     "Rejet",
+     "Adoption serrée",
+     "53 voix pour, 0 contre"
+    ],
+    "bonne": 2,
+    "expl": "Adoptée définitivement le 12 octobre 2026."
+   }
+  ],
+  "debat": {
+   "question": "Comment faire durer les structures qui ont fait leurs preuves ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
+}
