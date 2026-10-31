@@ -939,8 +939,8 @@ def verifier_contenus():
                         erreurs.append(f"site.json : « public » est activé mais « {champ} » est vide (ou passez « anonyme » à true pour un éditeur non professionnel)")
             if not ment.get("contact"):
                 erreurs.append("site.json : « public » est activé mais l'adresse de contact est vide")
-            if not re.match(r"^https://docs\.google\.com/forms/d/e/[A-Za-z0-9_-]+/viewform", str((contenu.get("avis") or {}).get("form_url", ""))):
-                erreurs.append("site.json : « public » est activé mais « avis » / « form_url » n'a pas été remplacé par le lien du formulaire Google de la page « Donner mon avis »")
+            if not re.match(r"^https://(?:docs\.google\.com/forms/d/e/[A-Za-z0-9_-]+/viewform|tally\.so/(?:r|embed)/[A-Za-z0-9]+)", str((contenu.get("avis") or {}).get("form_url", ""))):
+                erreurs.append("site.json : « public » est activé mais « avis » / « form_url » n'a pas été remplacé par le lien du formulaire (Google Forms ou Tally) de la page « Donner mon avis »")
         if nom == "programmes.json":
             for i, t in enumerate(contenu or []):
                 if not (isinstance(t, dict) and t.get("publie")):
