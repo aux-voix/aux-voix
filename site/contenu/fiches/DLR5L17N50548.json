@@ -123,5 +123,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Zoo humain",
+    "def": "Exhibition de personnes, présentées comme des attractions, à l'époque coloniale."
+   },
+   {
+    "terme": "Collections publiques",
+    "def": "Objets et restes conservés dans les musées appartenant à l'État."
+   },
+   {
+    "terme": "Kali'nas et Arawaks",
+    "def": "Peuples amérindiens de Guyane."
+   },
+   {
+    "terme": "Rites coutumiers",
+    "def": "Cérémonies selon les traditions d'un peuple."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "En quelle année des Kali'nas et Arawaks ont-ils été exhibés à Paris ?",
+    "choix": [
+     "1892",
+     "1792",
+     "1992"
+    ],
+    "bonne": 0,
+    "expl": "Huit sont morts en Europe."
+   },
+   {
+    "q": "Où ont-ils été exhibés ?",
+    "choix": [
+     "Au Louvre",
+     "Au Jardin d'acclimatation",
+     "À Versailles"
+    ],
+    "bonne": 1,
+    "expl": "C'était un « zoo humain »."
+   },
+   {
+    "q": "À qui la loi remet-elle leurs restes ?",
+    "choix": [
+     "À un autre musée parisien",
+     "Aux descendants, à Paris",
+     "À la collectivité de Guyane, pour des funérailles selon leurs rites"
+    ],
+    "bonne": 2,
+    "expl": "Les restes de six personnes étaient conservés au Musée de l'Homme."
+   }
+  ],
+  "debat": {
+   "question": "Que doit faire un pays des restes humains conservés dans ses musées ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

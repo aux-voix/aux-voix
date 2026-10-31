@@ -159,5 +159,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "MaPrimeRénov'",
+    "def": "Aide de l'État pour financer des travaux de rénovation énergétique des logements."
+   },
+   {
+    "terme": "Démarchage téléphonique",
+    "def": "Appel d'un commercial pour vendre un produit ou un service."
+   },
+   {
+    "terme": "Bloctel",
+    "def": "Liste où l'on peut s'inscrire pour ne plus être démarché par téléphone."
+   },
+   {
+    "terme": "Cavalier législatif",
+    "def": "Disposition ajoutée à une loi sans lien suffisant avec son sujet ; le Conseil constitutionnel la censure."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de temps l'administration peut-elle suspendre une aide en cas d'indices sérieux de fraude ?",
+    "choix": [
+     "Trois mois, renouvelables une fois",
+     "Dix ans",
+     "Une semaine"
+    ],
+    "bonne": 0,
+    "expl": "Les pénalités des fraudeurs passent de 80 % à 100 % des sommes à rendre."
+   },
+   {
+    "q": "Depuis quand le démarchage téléphonique est-il interdit sans accord préalable ?",
+    "choix": [
+     "Depuis 1990",
+     "Depuis le 11 août 2026",
+     "Depuis le 1er janvier 2020"
+    ],
+    "bonne": 1,
+    "expl": "Auparavant, il était permis sauf inscription sur Bloctel."
+   },
+   {
+    "q": "Pourquoi le Conseil constitutionnel a-t-il censuré quatre articles, en tout ou partie ?",
+    "choix": [
+     "Parce qu'ils coûtaient trop cher",
+     "Parce que le Sénat les avait refusés",
+     "Faute de lien avec le texte initial"
+    ],
+    "bonne": 2,
+    "expl": "Décision n° 2025-887 DC du 26 juin 2025."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il pouvoir suspendre une aide dès qu'un soupçon de fraude existe, avant la fin de l'enquête ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

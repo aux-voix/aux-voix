@@ -173,5 +173,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Chômeur de longue durée",
+    "def": "Personne privée d'emploi depuis longtemps."
+   },
+   {
+    "terme": "Entreprise à but d'emploi",
+    "def": "Entreprise locale créée pour embaucher ces personnes en CDI."
+   },
+   {
+    "terme": "Expérimentation",
+    "def": "Essai limité dans le temps."
+   },
+   {
+    "terme": "CDI",
+    "def": "Contrat à durée indéterminée."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Depuis quand l'expérimentation existe-t-elle ?",
+    "choix": [
+     "2006",
+     "2016",
+     "2026"
+    ],
+    "bonne": 1,
+    "expl": "Elle a commencé dans dix territoires."
+   },
+   {
+    "q": "Que se passerait-il fin 2026 sans nouvelle loi ?",
+    "choix": [
+     "Elle s'arrêterait",
+     "Elle serait étendue à tous",
+     "Rien ne changerait"
+    ],
+    "bonne": 0,
+    "expl": "Environ 4 000 personnes y travaillent."
+   },
+   {
+    "q": "Qui s'est abstenu à l'Assemblée ?",
+    "choix": [
+     "Le RN",
+     "LFI",
+     "Les socialistes"
+    ],
+    "bonne": 1,
+    "expl": "96 pour, 0 contre, 23 abstentions."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il rendre permanent un dispositif qui embauche des chômeurs de longue durée, et avec quel financement ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

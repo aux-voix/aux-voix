@@ -128,5 +128,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Maîtrise d'ouvrage",
+    "def": "Fait, pour une commune, de commander et de financer des travaux."
+   },
+   {
+    "terme": "Participation minimale",
+    "def": "Part du coût d'un projet qu'une commune doit financer elle-même : 20 % aujourd'hui."
+   },
+   {
+    "terme": "Préfet",
+    "def": "Représentant de l'État dans un département."
+   },
+   {
+    "terme": "Commune rurale",
+    "def": "Commune de campagne, souvent petite et avec peu de moyens financiers."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelle part du coût des travaux une commune doit-elle payer elle-même, selon la règle actuelle ?",
+    "choix": [
+     "5 %",
+     "20 %",
+     "50 %"
+    ],
+    "bonne": 1,
+    "expl": "Même si d'autres collectivités ou l'État subventionnent le projet."
+   },
+   {
+    "q": "À quel taux le texte l'abaisse-t-il pour certains travaux ?",
+    "choix": [
+     "5 %",
+     "10 %",
+     "15 %"
+    ],
+    "bonne": 0,
+    "expl": "Il s'agit de l'eau, de l'assainissement, de la voirie, des ponts et de la rénovation de bâtiments."
+   },
+   {
+    "q": "Où en est le texte d'après la fiche ?",
+    "choix": [
+     "Il est promulgué",
+     "Le Sénat l'a modifié en octobre 2026 : il doit revenir à l'Assemblée",
+     "L'Assemblée l'a rejeté"
+    ],
+    "bonne": 1,
+    "expl": "Le désaccord porte sur les communes concernées : le Sénat cible les plus pauvres, l'Assemblée avait élargi."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il alléger la part que paient les petites communes pour leurs travaux, et pour lesquelles ?",
+   "consigne": "Aucun groupe n'a voté contre : le désaccord porte sur les communes concernées. La classe présente la position du Sénat et celle de l'Assemblée rapportées dans la fiche, puis cherche selon quels critères on pourrait choisir les communes aidées. On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

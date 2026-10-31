@@ -150,5 +150,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Juriste d'entreprise",
+    "def": "Juriste salarié d'une entreprise, qui conseille sa direction."
+   },
+   {
+    "terme": "Confidentialité des avis",
+    "def": "Les avis ne peuvent pas être saisis ni exigés dans une procédure, comme ceux d'un avocat (« legal privilege »)."
+   },
+   {
+    "terme": "Réserve d'interprétation",
+    "def": "Le Conseil constitutionnel valide la loi à condition qu'elle soit appliquée d'une certaine manière."
+   },
+   {
+    "terme": "Matière pénale et fiscale",
+    "def": "Procédures contre des infractions et contrôles des impôts ; la confidentialité n'y joue pas."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Environ combien de juristes d'entreprise y a-t-il en France ?",
+    "choix": [
+     "2 000",
+     "20 000",
+     "200 000"
+    ],
+    "bonne": 1,
+    "expl": "Leurs avis pouvaient être saisis, contrairement à ceux des avocats."
+   },
+   {
+    "q": "Dans quelles procédures la confidentialité ne joue-t-elle pas ?",
+    "choix": [
+     "Pénales et fiscales",
+     "Civiles et commerciales",
+     "Administratives"
+    ],
+    "bonne": 0,
+    "expl": "Un juge peut aussi la lever en cas de fraude."
+   },
+   {
+    "q": "Combien de réserves le Conseil constitutionnel a-t-il formulées ?",
+    "choix": [
+     "Aucune",
+     "Trois",
+     "Dix"
+    ],
+    "bonne": 1,
+    "expl": "Décision du 18 février 2026, saisi par les députés LFI."
+   }
+  ],
+  "debat": {
+   "question": "Les avis des juristes salariés d'une entreprise doivent-ils être aussi confidentiels que ceux d'un avocat ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

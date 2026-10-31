@@ -112,5 +112,63 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Loi organique",
+    "def": "Loi qui précise l'organisation des pouvoirs publics prévue par la Constitution ; elle est contrôlée par le Conseil constitutionnel."
+   },
+   {
+    "terme": "Loi ordinaire",
+    "def": "Loi du type habituel, votée par le Parlement."
+   },
+   {
+    "terme": "Cumul des mandats",
+    "def": "Fait d'exercer plusieurs mandats d'élu en même temps."
+   },
+   {
+    "terme": "Scrutin de liste",
+    "def": "Mode de vote où l'on choisit une liste entière."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Pourquoi faut-il une loi organique en plus de la loi ordinaire ?",
+    "choix": [
+     "Certaines règles liées, comme le cumul des mandats, relèvent d'une loi organique",
+     "Parce que la loi ordinaire est interdite",
+     "Pour fixer la date des élections"
+    ],
+    "bonne": 0,
+    "expl": "Ce texte les ajuste pour garder les mêmes effets qu'avant la réforme."
+   },
+   {
+    "q": "Quel seuil de population est inscrit directement ?",
+    "choix": [
+     "100 habitants",
+     "1 000 habitants",
+     "10 000 habitants"
+    ],
+    "bonne": 1,
+    "expl": "Le scrutin de liste paritaire s'applique aux communes de moins de 1 000 habitants."
+   },
+   {
+    "q": "Comment l'Assemblée a-t-elle voté en avril 2025 ?",
+    "choix": [
+     "À l'unanimité",
+     "À une voix près",
+     "204 voix contre 180"
+    ],
+    "bonne": 2,
+    "expl": "Adoptée sans modification, avec 24 abstentions."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il le même mode de scrutin dans toutes les communes, quelle que soit leur taille ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

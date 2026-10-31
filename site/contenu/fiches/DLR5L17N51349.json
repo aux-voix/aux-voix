@@ -158,5 +158,67 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Consentement",
+    "def": "Accord libre et éclairé donné à un acte. Selon la loi : libre, éclairé, spécifique, préalable et révocable."
+   },
+   {
+    "terme": "Viol",
+    "def": "Acte sexuel non consenti, selon la nouvelle définition du code pénal."
+   },
+   {
+    "terme": "Agression sexuelle",
+    "def": "Autre acte sexuel non consenti, défini de la même manière."
+   },
+   {
+    "terme": "Commission mixte paritaire",
+    "def": "Réunion de députés et de sénateurs chargés de trouver un texte commun."
+   },
+   {
+    "terme": "3919",
+    "def": "Numéro gratuit et anonyme, Violences Femmes Info. En cas de danger immédiat : 17 ou 112."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Comment le viol était-il défini avant la loi ?",
+    "choix": [
+     "Par le consentement",
+     "Par l'usage de violence, contrainte, menace ou surprise",
+     "Par l'âge de la victime"
+    ],
+    "bonne": 1,
+    "expl": "Le consentement n'apparaissait pas dans la définition."
+   },
+   {
+    "q": "Selon la loi, le consentement doit être…",
+    "choix": [
+     "Libre, éclairé, spécifique, préalable et révocable",
+     "Écrit et signé devant notaire",
+     "Donné une seule fois pour toujours"
+    ],
+    "bonne": 0,
+    "expl": "Il peut donc être retiré."
+   },
+   {
+    "q": "Le silence ou l'absence de réaction vaut-il accord ?",
+    "choix": [
+     "Oui, toujours",
+     "Oui, après un certain temps",
+     "Non"
+    ],
+    "bonne": 2,
+    "expl": "« Consentir, c'est dire oui », selon la ministre Aurore Bergé."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il définir le consentement dans la loi ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

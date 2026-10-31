@@ -165,5 +165,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Logement social",
+    "def": "Logement à loyer modéré attribué sous conditions."
+   },
+   {
+    "terme": "Clause de fonction",
+    "def": "Règle qui permet d'attribuer un logement en raison du poste occupé."
+   },
+   {
+    "terme": "Commission mixte paritaire",
+    "def": "Réunion de députés et de sénateurs pour trouver un texte commun."
+   },
+   {
+    "terme": "Décret",
+    "def": "Texte du Gouvernement qui précise l'application d'une loi."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Pour quels agents le texte crée-t-il de nouveaux outils ?",
+    "choix": [
+     "Seulement les policiers",
+     "Les agents des services publics, hôpitaux, État, mairies",
+     "Les salariés du privé"
+    ],
+    "bonne": 1,
+    "expl": "Pour recruter et garder des agents."
+   },
+   {
+    "q": "Quel vote final à l'Assemblée sur le texte de la CMP ?",
+    "choix": [
+     "292 pour, 160 contre",
+     "46 pour, 7 contre",
+     "Unanimité"
+    ],
+    "bonne": 0,
+    "expl": "Le 17 juin 2026."
+   },
+   {
+    "q": "Quelle critique la gauche formule-t-elle ?",
+    "choix": [
+     "Le texte coûte trop cher",
+     "Lier logement et emploi fragilise les agents",
+     "Le texte est trop long"
+    ],
+    "bonne": 1,
+    "expl": "Un agent peut perdre emploi et logement à la fois."
+   }
+  ],
+  "debat": {
+   "question": "Un employeur public doit-il pouvoir loger ses agents, et avec quelles protections pour eux ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

@@ -134,5 +134,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Société portuaire",
+    "def": "Société à capitaux publics qui exploite un port, associant collectivités et chambres de commerce."
+   },
+   {
+    "terme": "Chambre de commerce",
+    "def": "Organisme qui représente les entreprises d'un territoire."
+   },
+   {
+    "terme": "Collectivité",
+    "def": "Commune, département ou région."
+   },
+   {
+    "terme": "Capitaux publics",
+    "def": "Argent apporté par des collectivités ou l'État."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de ports sont gérés par des collectivités ?",
+    "choix": [
+     "Plus de 600",
+     "60",
+     "6 000"
+    ],
+    "bonne": 0,
+    "expl": "Ports de pêche, de commerce ou de plaisance."
+   },
+   {
+    "q": "Combien d'entre eux pouvaient être exploités par une société portuaire ?",
+    "choix": [
+     "Tous",
+     "18",
+     "180"
+    ],
+    "bonne": 1,
+    "expl": "La loi ouvre cette possibilité à tous les ports des collectivités."
+   },
+   {
+    "q": "Comment LFI a-t-elle voté à l'Assemblée ?",
+    "choix": [
+     "Pour",
+     "Elle s'est abstenue",
+     "Contre"
+    ],
+    "bonne": 2,
+    "expl": "56 voix pour, 5 contre ; écologistes et communistes se sont abstenus."
+   }
+  ],
+  "debat": {
+   "question": "Gérer un port public avec une société à capitaux publics et des chambres de commerce : un outil souple, ou un risque pour la décision publique ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

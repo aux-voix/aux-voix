@@ -114,5 +114,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "TVA",
+    "def": "Taxe sur la valeur ajoutée, payée par le client."
+   },
+   {
+    "terme": "Micro-entrepreneur",
+    "def": "Entrepreneur individuel au régime simplifié (auto-entrepreneur)."
+   },
+   {
+    "terme": "Franchise en base",
+    "def": "Dispense de facturer la TVA sous un certain chiffre d'affaires."
+   },
+   {
+    "terme": "Chiffre d'affaires",
+    "def": "Total des ventes d'une activité."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quel seuil le budget 2025 prévoyait-il ?",
+    "choix": [
+     "25 000 euros",
+     "250 000 euros",
+     "2 500 euros"
+    ],
+    "bonne": 0,
+    "expl": "Il a été suspendu puis annulé."
+   },
+   {
+    "q": "Quels seuils sont maintenus ?",
+    "choix": [
+     "10 000 et 20 000 euros",
+     "25 000 et 50 000 euros",
+     "37 500 et 85 000 euros"
+    ],
+    "bonne": 2,
+    "expl": "Selon l'activité."
+   },
+   {
+    "q": "Comment l'Assemblée a-t-elle voté ?",
+    "choix": [
+     "À l'unanimité",
+     "Par 100 voix contre 99",
+     "Elle a rejeté"
+    ],
+    "bonne": 0,
+    "expl": "Le 2 juin 2025."
+   }
+  ],
+  "debat": {
+   "question": "Comment concilier simplicité pour les petits entrepreneurs et égalité de concurrence avec les autres entreprises ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

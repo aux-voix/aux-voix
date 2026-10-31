@@ -118,5 +118,63 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Plainte classée sans suite",
+    "def": "Plainte que le procureur décide de ne pas poursuivre."
+   },
+   {
+    "terme": "Procureur",
+    "def": "Magistrat qui décide des poursuites."
+   },
+   {
+    "terme": "Recours",
+    "def": "Moyen de contester une décision."
+   },
+   {
+    "terme": "Lettre recommandée",
+    "def": "Courrier dont la remise est prouvée."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qui choisirait comment recevoir l'avis de classement ?",
+    "choix": [
+     "Le procureur",
+     "La victime, dès la plainte",
+     "Le greffier"
+    ],
+    "bonne": 1,
+    "expl": "Lettre recommandée, courriel ou autre moyen."
+   },
+   {
+    "q": "Quel a été le vote de l'Assemblée le 7 mai 2025 ?",
+    "choix": [
+     "Rejet",
+     "Adoption sans voix contre",
+     "30 voix contre 29"
+    ],
+    "bonne": 1,
+    "expl": "55 pour, 0 contre, 5 abstentions."
+   },
+   {
+    "q": "Où en est le texte ?",
+    "choix": [
+     "Transmis au Sénat, qui ne l'a pas examiné à ce jour",
+     "Promulgué",
+     "Abandonné"
+    ],
+    "bonne": 0,
+    "expl": "Il n'est pas devenu loi."
+   }
+  ],
+  "debat": {
+   "question": "Comment une victime doit-elle être informée de la décision de la justice ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

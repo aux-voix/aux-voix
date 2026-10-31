@@ -158,5 +158,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Arrondissement",
+    "def": "Division d'une grande ville, avec son propre conseil et sa mairie."
+   },
+   {
+    "terme": "Prime majoritaire",
+    "def": "Sièges supplémentaires donnés à la liste arrivée en tête."
+   },
+   {
+    "terme": "Étude d'impact",
+    "def": "Document qui évalue les effets d'une loi avant son vote."
+   },
+   {
+    "terme": "Commission mixte paritaire",
+    "def": "Réunion de députés et de sénateurs chargés de trouver un texte commun."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de scrutins les électeurs de Paris, Lyon et Marseille ont-ils le même jour ?",
+    "choix": [
+     "Un seul",
+     "Deux : ville et arrondissement",
+     "Trois"
+    ],
+    "bonne": 1,
+    "expl": "Un pour le conseil de la ville, un pour celui de l'arrondissement."
+   },
+   {
+    "q": "Comment évolue la prime majoritaire dans ces villes ?",
+    "choix": [
+     "Elle passe de 50 % à 25 %",
+     "Elle passe de 25 % à 50 %",
+     "Elle disparaît de toutes les communes"
+    ],
+    "bonne": 0,
+    "expl": "Comme dans une commune ordinaire."
+   },
+   {
+    "q": "Combien de conseillers municipaux à Marseille après la réforme ?",
+    "choix": [
+     "90 au lieu de 101",
+     "200 au lieu de 101",
+     "111 au lieu de 101"
+    ],
+    "bonne": 2,
+    "expl": "Le Conseil constitutionnel a jugé la loi conforme le 7 août 2025."
+   }
+  ],
+  "debat": {
+   "question": "Dans une grande ville divisée en arrondissements, faut-il voter pour la ville entière ou par arrondissement ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

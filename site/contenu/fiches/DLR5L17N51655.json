@@ -152,5 +152,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Aide sociale à l'enfance",
+    "def": "Service du département qui protège les enfants en danger (ASE)."
+   },
+   {
+    "terme": "Contrôle inopiné",
+    "def": "Contrôle sans prévenir à l'avance."
+   },
+   {
+    "terme": "Structure lucrative",
+    "def": "Organisme qui cherche à faire des bénéfices."
+   },
+   {
+    "terme": "Pouponnière",
+    "def": "Lieu d'accueil pour les très jeunes enfants."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien d'enfants et de jeunes majeurs font l'objet d'une mesure de protection de l'enfance ?",
+    "choix": [
+     "Environ 3 850",
+     "Environ 385 000",
+     "Environ 38 millions"
+    ],
+    "bonne": 1,
+    "expl": "Le système est décrit comme en crise."
+   },
+   {
+    "q": "À quelle fréquence les lieux d'accueil seraient-ils contrôlés ?",
+    "choix": [
+     "Jamais",
+     "Chaque jour",
+     "Au moins tous les 3 ans, dont 70 % de contrôles inopinés"
+    ],
+    "bonne": 2,
+    "expl": "Tous les 2 ans pour les pouponnières."
+   },
+   {
+    "q": "Que deviendraient les structures privées lucratives ?",
+    "choix": [
+     "Interdites, avec un délai de trois ans pour celles qui existent",
+     "Encouragées",
+     "Inchangées"
+    ],
+    "bonne": 0,
+    "expl": "Le Sénat doit encore examiner le texte."
+   }
+  ],
+  "debat": {
+   "question": "Contrôler davantage les lieux d'accueil suffit-il à mieux protéger les enfants, ou faut-il aussi plus de moyens humains ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

@@ -138,5 +138,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Service d'incendie et de secours",
+    "def": "Service qui regroupe les sapeurs-pompiers d'un département."
+   },
+   {
+    "terme": "Sapeur-pompier volontaire",
+    "def": "Pompier qui exerce en plus d'une autre activité."
+   },
+   {
+    "terme": "Décret",
+    "def": "Texte du Gouvernement qui précise l'application d'une loi."
+   },
+   {
+    "terme": "Marins-pompiers de Marseille",
+    "def": "Militaires qui assurent les secours à Marseille."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de soignants travaillent avec les pompiers, selon la fiche ?",
+    "choix": [
+     "Près de 130",
+     "Près de 13 000",
+     "Plus d'un million"
+    ],
+    "bonne": 1,
+    "expl": "Médecins, infirmiers, pharmaciens, psychologues, vétérinaires."
+   },
+   {
+    "q": "Quelle part sont volontaires ?",
+    "choix": [
+     "6 %",
+     "50 %",
+     "96 %"
+    ],
+    "bonne": 2,
+    "expl": "Leurs missions étaient surtout fixées par des textes réglementaires."
+   },
+   {
+    "q": "Que précise la loi ?",
+    "choix": [
+     "Les missions de chaque profession, du secours d'urgence au suivi de la santé des pompiers",
+     "Le salaire des pompiers",
+     "L'interdiction du volontariat"
+    ],
+    "bonne": 0,
+    "expl": "Certaines tâches peuvent être déléguées aux infirmiers."
+   }
+  ],
+  "debat": {
+   "question": "Que doit faire la loi pour mieux protéger les sapeurs-pompiers et les soignants qui travaillent avec eux ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

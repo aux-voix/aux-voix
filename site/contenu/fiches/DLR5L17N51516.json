@@ -147,5 +147,63 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Liberté d'installation",
+    "def": "Possibilité pour un médecin de s'installer où il veut."
+   },
+   {
+    "terme": "Désert médical",
+    "def": "Territoire où il est difficile de trouver un médecin."
+   },
+   {
+    "terme": "Agence régionale de santé",
+    "def": "Organisme de l'État qui organise la santé dans une région."
+   },
+   {
+    "terme": "Médecin traitant",
+    "def": "Médecin choisi par un patient pour suivre sa santé."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de Français n'ont pas de médecin traitant, selon l'auteur du texte ?",
+    "choix": [
+     "600 000",
+     "Plus de 6 millions",
+     "60 millions"
+    ],
+    "bonne": 1,
+    "expl": "L'auteur est le député socialiste Guillaume Garot."
+   },
+   {
+    "q": "Que crée le texte ?",
+    "choix": [
+     "Une autorisation d'installation, refusée dans les zones bien dotées sauf départ d'un confrère",
+     "Une interdiction totale d'exercer en ville",
+     "Un salaire unique pour tous les médecins"
+    ],
+    "bonne": 0,
+    "expl": "Elle est accordée de droit là où les médecins manquent."
+   },
+   {
+    "q": "Où en est le texte d'après la fiche ?",
+    "choix": [
+     "Il est promulgué",
+     "L'Assemblée l'a rejeté",
+     "Adopté par l'Assemblée le 7 mai 2025, l'examen au Sénat n'a pas été achevé"
+    ],
+    "bonne": 2,
+    "expl": "Il n'est pas devenu loi à ce jour."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il encadrer la liberté d'installation des médecins pour mieux répartir l'offre de soins ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

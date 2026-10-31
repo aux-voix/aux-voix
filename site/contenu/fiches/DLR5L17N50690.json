@@ -167,5 +167,63 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Excuse de minorité",
+    "def": "Principe qui réduit les peines d'un mineur par rapport à celles d'un adulte."
+   },
+   {
+    "terme": "Comparution immédiate",
+    "def": "Procédure qui juge rapidement une personne, peu après les faits."
+   },
+   {
+    "terme": "Conseil constitutionnel",
+    "def": "Institution qui vérifie qu'une loi respecte la Constitution."
+   },
+   {
+    "terme": "Commission mixte paritaire",
+    "def": "Réunion de députés et de sénateurs chargés de trouver un texte commun."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qu'a censuré le Conseil constitutionnel ?",
+    "choix": [
+     "La totalité de la loi",
+     "La comparution immédiate dès 16 ans et la remise en cause de l'excuse de minorité",
+     "Aucune mesure"
+    ],
+    "bonne": 1,
+    "expl": "Il a censuré les articles 4, 5, 7, 12 et 15 et une partie du 6."
+   },
+   {
+    "q": "Qu'a-t-il validé ?",
+    "choix": [
+     "Des peines plus lourdes pour certains parents",
+     "La prison pour tous les mineurs",
+     "La suppression de la justice des mineurs"
+    ],
+    "bonne": 0,
+    "expl": "Pour un parent dont les manquements ont directement conduit son enfant à commettre des infractions."
+   },
+   {
+    "q": "Combien d'articles ont été censurés, en tout ou partie ?",
+    "choix": [
+     "Deux",
+     "Six",
+     "Quinze"
+    ],
+    "bonne": 1,
+    "expl": "Décision n° 2025-886 DC du 19 juin 2025."
+   }
+  ],
+  "debat": {
+   "question": "Comment concilier sanction et éducation dans la justice des mineurs ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

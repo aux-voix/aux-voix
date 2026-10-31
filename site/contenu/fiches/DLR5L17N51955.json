@@ -161,5 +161,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Conjoint collaborateur",
+    "def": "Époux ou épouse qui travaille avec l'agriculteur sans salaire."
+   },
+   {
+    "terme": "Smic",
+    "def": "Salaire minimum légal."
+   },
+   {
+    "terme": "MSA",
+    "def": "Mutualité sociale agricole, qui gère la protection sociale du monde agricole."
+   },
+   {
+    "terme": "Transaction financière",
+    "def": "Achat ou vente d'un produit financier."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelle pension moyenne pour un ancien chef d'exploitation ?",
+    "choix": [
+     "1 295 € brut par mois",
+     "295 €",
+     "2 950 €"
+    ],
+    "bonne": 0,
+    "expl": "Un conjoint collaborateur touche environ 550 €."
+   },
+   {
+    "q": "Comment le texte serait-il financé ?",
+    "choix": [
+     "Par une hausse de la TVA",
+     "Par un emprunt",
+     "Par une taxe additionnelle sur les transactions financières"
+    ],
+    "bonne": 2,
+    "expl": "Le Gouvernement s'est opposé."
+   },
+   {
+    "q": "Quel coût annuel la MSA avance-t-elle ?",
+    "choix": [
+     "Environ 10 millions d'euros",
+     "Environ 1 milliard d'euros",
+     "Environ 100 milliards d'euros"
+    ],
+    "bonne": 1,
+    "expl": "Selon le ministre du Travail."
+   }
+  ],
+  "debat": {
+   "question": "Comment revaloriser les petites retraites agricoles, et qui doit payer ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

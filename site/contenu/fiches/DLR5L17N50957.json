@@ -125,5 +125,63 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Cybersécurité",
+    "def": "Protection des ordinateurs et des réseaux contre les attaques informatiques."
+   },
+   {
+    "terme": "Balkans occidentaux",
+    "def": "Région d'Europe du Sud-Est où se trouvent par exemple l'Albanie et le Monténégro."
+   },
+   {
+    "terme": "Organisation internationale",
+    "def": "Organisation créée par plusieurs États, dotée d'un statut juridique propre."
+   },
+   {
+    "terme": "Adoption sans scrutin public",
+    "def": "Texte adopté sans vote enregistré avec le détail des voix."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Que forme le centre créé en 2022 ?",
+    "choix": [
+     "Des pilotes d'avion",
+     "Des spécialistes de la cybersécurité des Balkans occidentaux",
+     "Des diplomates"
+    ],
+    "bonne": 1,
+    "expl": "Il est installé au Monténégro, à l'initiative de la France."
+   },
+   {
+    "q": "Que change l'accord ?",
+    "choix": [
+     "Il ferme le centre",
+     "Il fait du centre une organisation internationale, qui pourra accueillir d'autres partenaires",
+     "Il transfère le centre en France"
+    ],
+    "bonne": 1,
+    "expl": "Auparavant, le centre reposait sur une lettre d'intention."
+   },
+   {
+    "q": "Combien de membres au départ ?",
+    "choix": [
+     "Trois : la France, le Monténégro et la Slovénie",
+     "Vingt-sept",
+     "Un seul"
+    ],
+    "bonne": 0,
+    "expl": "La France y contribue pour près d'un million d'euros en 2025."
+   }
+  ],
+  "debat": {
+   "question": "Pourquoi un pays aide-t-il des pays voisins à se défendre contre les cyberattaques ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

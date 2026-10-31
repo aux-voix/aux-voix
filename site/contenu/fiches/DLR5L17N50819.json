@@ -177,5 +177,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Acétamipride",
+    "def": "Insecticide de la famille des néonicotinoïdes, interdit en France."
+   },
+   {
+    "terme": "Motion de rejet",
+    "def": "Vote qui permet à une assemblée d'écarter un texte sans en débattre en détail."
+   },
+   {
+    "terme": "Conseil constitutionnel",
+    "def": "Institution qui vérifie qu'une loi respecte la Constitution, dont la Charte de l'environnement."
+   },
+   {
+    "terme": "Pétition",
+    "def": "Texte signé par des citoyens pour demander quelque chose aux pouvoirs publics."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qu'a censuré le Conseil constitutionnel le 7 août 2025 ?",
+    "choix": [
+     "La réautorisation de l'acétamipride",
+     "La totalité de la loi",
+     "Les réserves d'eau"
+    ],
+    "bonne": 0,
+    "expl": "Il s'est appuyé sur la Charte de l'environnement."
+   },
+   {
+    "q": "Que sont devenues les réunions publiques pour certains projets d'élevage ?",
+    "choix": [
+     "Elles sont multipliées",
+     "Elles sont remplacées par des permanences en mairie",
+     "Elles sont supprimées sans remplacement"
+    ],
+    "bonne": 1,
+    "expl": "La loi facilite aussi l'agrandissement des élevages."
+   },
+   {
+    "q": "Combien de signatures a dépassé la pétition contre la loi ?",
+    "choix": [
+     "Cent mille",
+     "Un million",
+     "Plus de deux millions"
+    ],
+    "bonne": 2,
+    "expl": "Les partisans y voyaient « un premier pas » pour la production agricole."
+   }
+  ],
+  "debat": {
+   "question": "Comment concilier la compétitivité des agriculteurs et la protection de la santé et de l'environnement ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

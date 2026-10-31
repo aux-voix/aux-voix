@@ -114,5 +114,63 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "PLU",
+    "def": "Plan local d'urbanisme : les règles de construction d'une commune."
+   },
+   {
+    "terme": "Permis de construire",
+    "def": "Autorisation d'une mairie pour construire ou transformer un bâtiment."
+   },
+   {
+    "terme": "Permis à destinations multiples",
+    "def": "Permis qui prévoit plusieurs usages successifs d'un même bâtiment, comme pour le village olympique."
+   },
+   {
+    "terme": "Commission mixte paritaire",
+    "def": "Réunion de députés et de sénateurs chargés de trouver un texte commun."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Que permet la loi au maire ?",
+    "choix": [
+     "Autoriser la transformation de bâtiments en logements même si le plan d'urbanisme l'interdit",
+     "Supprimer le plan local d'urbanisme",
+     "Construire sans permis"
+    ],
+    "bonne": 0,
+    "expl": "Il s'agit de bureaux, de commerces et d'autres bâtiments vides."
+   },
+   {
+    "q": "Combien de demandes de logement social, selon l'Union sociale pour l'habitat ?",
+    "choix": [
+     "28 000",
+     "280 000",
+     "2,8 millions"
+    ],
+    "bonne": 2,
+    "expl": "Alors que des millions de mètres carrés de bureaux sont inutilisés."
+   },
+   {
+    "q": "Combien de députés ont voté contre le texte de compromis à l'Assemblée ?",
+    "choix": [
+     "Aucun",
+     "Une centaine",
+     "La moitié"
+    ],
+    "bonne": 0,
+    "expl": "Il a été adopté par 214 voix contre 0."
+   }
+  ],
+  "debat": {
+   "question": "Transformer des bâtiments vides suffit-il à répondre à la crise du logement ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

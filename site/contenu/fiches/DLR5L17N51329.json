@@ -160,5 +160,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Indivision",
+    "def": "Situation où plusieurs personnes, souvent des héritiers, possèdent ensemble un même bien."
+   },
+   {
+    "terme": "Succession vacante",
+    "def": "Succession sans héritier connu."
+   },
+   {
+    "terme": "Partage judiciaire",
+    "def": "Partage des biens décidé par un juge, quand les héritiers ne s'entendent pas."
+   },
+   {
+    "terme": "Bien sans maître",
+    "def": "Bien dont personne ne se présente comme propriétaire."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "En principe, que faut-il pour vendre un bien en indivision ?",
+    "choix": [
+     "L'accord du maire",
+     "L'accord de tous les indivisaires",
+     "L'accord d'un seul"
+    ],
+    "bonne": 1,
+    "expl": "Des maisons restent ainsi vides et se dégradent pendant des années."
+   },
+   {
+    "q": "Que peut faire le juge chargé du partage ?",
+    "choix": [
+     "Trancher aussi les contestations et ordonner des ventes aux enchères",
+     "Interdire toute vente",
+     "Choisir les héritiers"
+    ],
+    "bonne": 0,
+    "expl": "Aujourd'hui, le partage se fait en plusieurs étapes, devant plusieurs juges."
+   },
+   {
+    "q": "Que reçoivent les maires, à leur demande ?",
+    "choix": [
+     "Une subvention",
+     "Un droit de préemption",
+     "Les informations du fisc sur les biens sans maître"
+    ],
+    "bonne": 2,
+    "expl": "Ils manquaient d'informations sur ces biens."
+   }
+  ],
+  "debat": {
+   "question": "Peut-on vendre un bien en indivision sans l'accord de tous les héritiers ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

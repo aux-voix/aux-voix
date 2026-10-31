@@ -115,5 +115,63 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "ONU",
+    "def": "Organisation des Nations unies."
+   },
+   {
+    "terme": "Accord-cadre",
+    "def": "Accord général qui fixe des règles communes pour plusieurs cas."
+   },
+   {
+    "terme": "Immunité",
+    "def": "Protection juridique accordée à certains participants à une réunion."
+   },
+   {
+    "terme": "Multilatéralisme",
+    "def": "Coopération entre de nombreux pays."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quand s'est tenue la conférence de l'ONU sur l'océan à Nice ?",
+    "choix": [
+     "Du 9 au 13 juin 2025",
+     "En 2030",
+     "En mars 2024"
+    ],
+    "bonne": 0,
+    "expl": "C'est la troisième conférence de ce type."
+   },
+   {
+    "q": "Combien a coûté la conférence de Nice ?",
+    "choix": [
+     "4,7 millions d'euros",
+     "47,7 millions d'euros",
+     "477 millions d'euros"
+    ],
+    "bonne": 1,
+    "expl": "Des députés se sont interrogés sur ce coût."
+   },
+   {
+    "q": "Comment faisait-on avant ?",
+    "choix": [
+     "Aucun accord",
+     "Un traité européen",
+     "Un accord à négocier pour chaque réunion"
+    ],
+    "bonne": 2,
+    "expl": "Désormais un accord-cadre unique suffit."
+   }
+  ],
+  "debat": {
+   "question": "Pourquoi un pays accueille-t-il des conférences internationales, et à quel prix ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

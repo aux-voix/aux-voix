@@ -143,5 +143,63 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Directive européenne",
+    "def": "Règle fixée par l'Union européenne que chaque pays doit intégrer dans son droit."
+   },
+   {
+    "terme": "Transposer",
+    "def": "Faire entrer une règle européenne dans le droit français par une loi."
+   },
+   {
+    "terme": "Rapport de durabilité",
+    "def": "Document par lequel de grandes entreprises publient leur impact social et environnemental (directive CSRD)."
+   },
+   {
+    "terme": "Commission mixte paritaire",
+    "def": "Réunion de députés et de sénateurs chargés de trouver un texte commun."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "De combien de temps le texte reporte-t-il les rapports de durabilité de certaines entreprises ?",
+    "choix": [
+     "Un an",
+     "Deux ans",
+     "Dix ans"
+    ],
+    "bonne": 1,
+    "expl": "Le Sénat voulait quatre ans ; la commission mixte paritaire a retenu deux ans."
+   },
+   {
+    "q": "Pourquoi une loi d'adaptation au droit de l'Union européenne est-elle souvent un texte « fourre-tout » ?",
+    "choix": [
+     "Elle regroupe de nombreux sujets techniques",
+     "Elle ne traite qu'un sujet",
+     "Elle est votée en une heure"
+    ],
+    "bonne": 0,
+    "expl": "Finance, électricité, énergies renouvelables, protection des espèces…"
+   },
+   {
+    "q": "Qu'a décidé le Conseil constitutionnel le 29 avril 2025 ?",
+    "choix": [
+     "Il a annulé toute la loi",
+     "Il a refusé de l'examiner",
+     "Il l'a déclarée conforme"
+    ],
+    "bonne": 2,
+    "expl": "Saisi sur l'article 23 relatif aux espèces protégées."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il alléger certaines obligations des entreprises pour tenir compte de la concurrence internationale ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

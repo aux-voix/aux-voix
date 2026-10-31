@@ -134,5 +134,63 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Captage et stockage du CO2",
+    "def": "Techniques qui récupèrent le CO2 des usines pour l'enfouir."
+   },
+   {
+    "terme": "Protocole de Londres",
+    "def": "Accord international qui interdit en principe d'immerger des déchets en mer."
+   },
+   {
+    "terme": "Décarboner",
+    "def": "Réduire les émissions de CO2."
+   },
+   {
+    "terme": "Commission mixte paritaire",
+    "def": "Réunion de députés et de sénateurs chargés de trouver un texte commun."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qu'autorise la loi ?",
+    "choix": [
+     "L'immersion de déchets nucléaires",
+     "L'export de CO2 capté vers des sites de stockage sous la mer",
+     "La fermeture des usines"
+    ],
+    "bonne": 1,
+    "expl": "En vertu d'un amendement de 2009 au protocole de Londres."
+   },
+   {
+    "q": "Qu'a fait l'Assemblée le 10 avril 2025 ?",
+    "choix": [
+     "Elle a rejeté le texte, par 55 voix contre 49",
+     "Elle l'a adopté à l'unanimité",
+     "Elle ne l'a pas examiné"
+    ],
+    "bonne": 0,
+    "expl": "Elle l'a adopté en juin après une commission mixte paritaire."
+   },
+   {
+    "q": "Vers quels pays les industriels comptent-ils envoyer le CO2 ?",
+    "choix": [
+     "L'Australie",
+     "Le Brésil",
+     "La Norvège, les Pays-Bas ou le Royaume-Uni"
+    ],
+    "bonne": 2,
+    "expl": "La France n'a pas de site de stockage prêt."
+   }
+  ],
+  "debat": {
+   "question": "Le stockage du CO2 est-il une option complémentaire pour réduire les émissions, ou une solution qui retarde les vrais changements ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

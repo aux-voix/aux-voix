@@ -150,5 +150,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Papi",
+    "def": "Programme d'actions de prévention des inondations, mené localement."
+   },
+   {
+    "terme": "Crue",
+    "def": "Montée du niveau d'un cours d'eau, qui peut provoquer une inondation."
+   },
+   {
+    "terme": "Enquête publique",
+    "def": "Procédure où les habitants peuvent donner leur avis sur un projet."
+   },
+   {
+    "terme": "Collectivité territoriale",
+    "def": "Commune, département ou région."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de personnes vivent en zone exposée aux inondations, selon la fiche ?",
+    "choix": [
+     "Environ 180 000",
+     "Moins d'un million",
+     "Plus de 18 millions"
+    ],
+    "bonne": 2,
+    "expl": "Les inondations sont le premier risque naturel en France."
+   },
+   {
+    "q": "Que deviennent les Papi avec la loi ?",
+    "choix": [
+     "Ils sont inscrits dans la loi et accélérés",
+     "Ils sont supprimés",
+     "Ils sont réservés à Paris"
+    ],
+    "bonne": 0,
+    "expl": "Le préfet peut reconnaître à leurs projets un « intérêt public majeur »."
+   },
+   {
+    "q": "Comment LFI a-t-elle voté en deuxième lecture à l'Assemblée ?",
+    "choix": [
+     "Pour",
+     "Contre",
+     "Elle s'est abstenue"
+    ],
+    "bonne": 1,
+    "expl": "56 pour, 22 contre, 11 abstentions (26 mars 2026)."
+   }
+  ],
+  "debat": {
+   "question": "Pour mieux se protéger des inondations, faut-il surtout accélérer les travaux, ou d'abord traiter les causes (sols, espaces naturels) ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

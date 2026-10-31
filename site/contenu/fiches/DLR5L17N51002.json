@@ -133,5 +133,63 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Infirmier",
+    "def": "Professionnel de santé qui réalise des soins et surveille les patients, sur prescription ou de sa propre initiative."
+   },
+   {
+    "terme": "Rôle propre",
+    "def": "Soins que l'infirmier peut réaliser de sa propre initiative, sans prescription médicale."
+   },
+   {
+    "terme": "Désert médical",
+    "def": "Territoire où il est difficile de trouver un médecin."
+   },
+   {
+    "terme": "Décret et arrêté",
+    "def": "Textes du Gouvernement qui précisent l'application d'une loi."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien d'infirmiers exercent en France, selon la fiche ?",
+    "choix": [
+     "Environ 6 000",
+     "Environ 60 000",
+     "Environ 600 000"
+    ],
+    "bonne": 2,
+    "expl": "Leur métier était défini par une liste d'actes fixée par un décret jugé dépassé."
+   },
+   {
+    "q": "Qu'inscrit la loi concernant les infirmiers ?",
+    "choix": [
+     "La consultation et le diagnostic infirmiers",
+     "La fin de la prescription médicale",
+     "L'interdiction des soins à domicile"
+    ],
+    "bonne": 0,
+    "expl": "Elle élargit aussi leur droit de prescrire, à préciser par décret."
+   },
+   {
+    "q": "Pour quels soins un patient peut-il consulter directement un infirmier ?",
+    "choix": [
+     "Pour toutes les opérations",
+     "Pour les soins du rôle propre de l'infirmier",
+     "Pour aucun soin"
+    ],
+    "bonne": 1,
+    "expl": "Une expérimentation va plus loin."
+   }
+  ],
+  "debat": {
+   "question": "Peut-on confier davantage de responsabilités aux infirmiers pour répondre aux déserts médicaux ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

@@ -173,5 +173,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Antisémitisme",
+    "def": "Hostilité envers les personnes juives parce qu'elles sont juives."
+   },
+   {
+    "terme": "Commission disciplinaire",
+    "def": "Instance d'une université qui peut sanctionner un étudiant ou un agent."
+   },
+   {
+    "terme": "Mission « égalité et diversité »",
+    "def": "Équipe chargée, dans chaque établissement, de la lutte contre les discriminations."
+   },
+   {
+    "terme": "Commission mixte paritaire",
+    "def": "Réunion de députés et de sénateurs chargés de trouver un texte commun."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Selon une mission du Sénat, combien de commissions disciplinaires ont été saisies pour 67 actes antisémites ?",
+    "choix": [
+     "6",
+     "67",
+     "670"
+    ],
+    "bonne": 0,
+    "expl": "Entre octobre 2023 et avril 2024, dans l'enseignement supérieur."
+   },
+   {
+    "q": "Que peut faire un président d'université, selon la loi ?",
+    "choix": [
+     "Expulser tout étudiant",
+     "Confier une affaire disciplinaire à une section régionale présidée par un juge administratif",
+     "Fermer l'université"
+    ],
+    "bonne": 1,
+    "expl": "La loi crée aussi une obligation de signalement."
+   },
+   {
+    "q": "Que crée la loi dans chaque établissement ?",
+    "choix": [
+     "Un tribunal",
+     "Une police universitaire",
+     "Une mission « égalité et diversité »"
+    ],
+    "bonne": 2,
+    "expl": "Elle intègre aussi la lutte contre l'antisémitisme et le racisme aux formations."
+   }
+  ],
+  "debat": {
+   "question": "Comment lutter contre l'antisémitisme à l'université tout en protégeant la liberté de débat politique ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

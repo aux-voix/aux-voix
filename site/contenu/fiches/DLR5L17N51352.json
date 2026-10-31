@@ -129,5 +129,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Ratification",
+    "def": "Acte par lequel un pays s'engage officiellement à respecter un accord."
+   },
+   {
+    "terme": "Bureau à contrôles juxtaposés",
+    "def": "Lieu où policiers et douaniers de deux pays contrôlent ensemble, au même endroit."
+   },
+   {
+    "terme": "Effet rétroactif",
+    "def": "Qui s'applique aussi au passé."
+   },
+   {
+    "terme": "Souveraineté",
+    "def": "Pouvoir d'un pays de décider seul sur son territoire."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien y a-t-il de bureaux à contrôles juxtaposés ?",
+    "choix": [
+     "13",
+     "137",
+     "1 370"
+    ],
+    "bonne": 1,
+    "expl": "Dans des gares, sur des routes ou dans des aéroports."
+   },
+   {
+    "q": "Entre quelles années les six accords ont-ils été signés ?",
+    "choix": [
+     "1990 et 2000",
+     "2020 et 2025",
+     "1958 et 1965"
+    ],
+    "bonne": 2,
+    "expl": "Ils n'avaient jamais été approuvés par le Parlement."
+   },
+   {
+    "q": "Pourquoi la loi les approuve-t-elle ?",
+    "choix": [
+     "Pour sécuriser juridiquement ces contrôles",
+     "Pour les supprimer",
+     "Pour les étendre à tous les pays"
+    ],
+    "bonne": 0,
+    "expl": "L'approbation a un effet rétroactif."
+   }
+  ],
+  "debat": {
+   "question": "Le Parlement doit-il approuver tous les accords internationaux, même longtemps après leur signature ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

@@ -129,5 +129,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Chlordécone",
+    "def": "Pesticide toxique utilisé dans les bananeraies de Guadeloupe et de Martinique de 1973 à 1993."
+   },
+   {
+    "terme": "Responsabilité de l'État",
+    "def": "Fait que l'État reconnaisse avoir sa part dans un dommage subi par des personnes."
+   },
+   {
+    "terme": "Fonds d'indemnisation des victimes des pesticides",
+    "def": "Fonds qui indemnise des victimes ; il était réservé aux victimes professionnelles."
+   },
+   {
+    "terme": "Deuxième lecture",
+    "def": "Nouvel examen du texte par une assemblée, après son passage dans l'autre."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Pendant quelles années le chlordécone a-t-il été utilisé dans les bananeraies ?",
+    "choix": [
+     "De 1973 à 1993",
+     "De 1950 à 1960",
+     "De 2000 à 2010"
+    ],
+    "bonne": 0,
+    "expl": "Il pollue encore les sols et les eaux."
+   },
+   {
+    "q": "Quelle formule la loi emploie-t-elle pour la place de l'État ?",
+    "choix": [
+     "La « faute exclusive » de l'État",
+     "La « part de responsabilité » de l'État",
+     "La responsabilité des seuls agriculteurs"
+    ],
+    "bonne": 1,
+    "expl": "Le débat a porté sur le choix des mots : « sa responsabilité » ou « sa part de responsabilité »."
+   },
+   {
+    "q": "Comment l'Assemblée a-t-elle voté en deuxième lecture ?",
+    "choix": [
+     "236 pour, 0 contre",
+     "Elle a rejeté le texte",
+     "À une voix près"
+    ],
+    "bonne": 0,
+    "expl": "Scrutin du 2 juin 2026."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il inscrire dans une loi la « responsabilité » de l'État ou sa « part de responsabilité » ?",
+   "consigne": "Personne n'a voté contre en deuxième lecture ; le débat a porté sur le choix des mots. La classe présente les arguments rapportés dans la fiche, puis cherche ce que change un mot dans une loi. On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

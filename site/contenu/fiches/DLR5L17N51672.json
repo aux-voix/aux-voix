@@ -161,5 +161,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Soins palliatifs",
+    "def": "Soins qui soulagent la douleur et accompagnent les personnes gravement malades et leurs proches."
+   },
+   {
+    "terme": "Droit opposable",
+    "def": "Droit que l'on peut réclamer en justice."
+   },
+   {
+    "terme": "Unité de soins palliatifs",
+    "def": "Service d'hôpital spécialisé dans ces soins."
+   },
+   {
+    "terme": "Cour des comptes",
+    "def": "Institution qui contrôle l'usage de l'argent public."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelle part des besoins en soins palliatifs était couverte, selon la Cour des comptes (2023) ?",
+    "choix": [
+     "4,8 %",
+     "48 %",
+     "98 %"
+    ],
+    "bonne": 1,
+    "expl": "On meurt mal en France, disent plusieurs élus."
+   },
+   {
+    "q": "Combien d'unités de soins palliatifs par région d'ici fin 2030 ?",
+    "choix": [
+     "Au moins deux",
+     "Une seule pour toute la France",
+     "Cent"
+    ],
+    "bonne": 0,
+    "expl": "Ainsi que des maisons d'accompagnement."
+   },
+   {
+    "q": "Qu'est-ce qu'un droit opposable ?",
+    "choix": [
+     "Un droit réservé aux élus",
+     "Un droit supprimé",
+     "Un droit qu'on peut réclamer en justice"
+    ],
+    "bonne": 2,
+    "expl": "La gauche en voulait un ; il a été refusé."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il un droit opposable aux soins palliatifs, ou d'abord créer des lits et des équipes ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

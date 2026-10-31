@@ -167,5 +167,63 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Narcotrafic",
+    "def": "Trafic de drogue organisé à grande échelle."
+   },
+   {
+    "terme": "Parquet national",
+    "def": "Service de magistrats chargé d'enquêter et de poursuivre des infractions complexes dans tout le pays."
+   },
+   {
+    "terme": "Repenti",
+    "def": "Criminel qui coopère avec la justice en échange d'une peine réduite."
+   },
+   {
+    "terme": "Conseil constitutionnel",
+    "def": "Institution qui vérifie qu'une loi respecte la Constitution."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Que crée la loi ?",
+    "choix": [
+     "Un parquet national anti-criminalité organisée",
+     "Une police municipale nationale",
+     "Un tribunal pour mineurs"
+    ],
+    "bonne": 0,
+    "expl": "Il doit être en place à partir de janvier 2026."
+   },
+   {
+    "q": "Pour qui sont prévus les quartiers de prison isolés ?",
+    "choix": [
+     "Pour tous les détenus",
+     "Pour les 700 à 800 détenus jugés les plus dangereux",
+     "Pour les mineurs"
+    ],
+    "bonne": 1,
+    "expl": "Régime strict : téléphone limité, parloirs avec vitre, fouilles."
+   },
+   {
+    "q": "Combien d'articles le Conseil constitutionnel a-t-il censurés, en tout ou partie ?",
+    "choix": [
+     "Aucun",
+     "Six",
+     "Cinquante"
+    ],
+    "bonne": 1,
+    "expl": "Décision du 12 juin 2025."
+   }
+  ],
+  "debat": {
+   "question": "Pour lutter contre le narcotrafic, jusqu'où peut-on aller dans les pouvoirs de la police et de la justice ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

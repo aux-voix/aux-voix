@@ -113,5 +113,63 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Flavescence dorée",
+    "def": "Maladie de la vigne qui peut détruire des récoltes."
+   },
+   {
+    "terme": "Friche viticole",
+    "def": "Vigne laissée à l'abandon."
+   },
+   {
+    "terme": "Injonction",
+    "def": "Ordre donné d'agir dans un délai fixé."
+   },
+   {
+    "terme": "Amende de cinquième classe",
+    "def": "Amende pouvant aller jusqu'à 1 500 €."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Pourquoi les vignes à l'abandon posent-elles problème ?",
+    "choix": [
+     "Elles favorisent la flavescence dorée, qui peut détruire des récoltes",
+     "Elles consomment trop d'eau",
+     "Elles gênent la circulation"
+    ],
+    "bonne": 0,
+    "expl": "Les voisins doivent traiter davantage."
+   },
+   {
+    "q": "Quelle sanction remplace le délit dans la plupart des cas ?",
+    "choix": [
+     "La prison à vie",
+     "Une injonction, puis une amende de cinquième classe",
+     "Aucune sanction"
+    ],
+    "bonne": 1,
+    "expl": "Le délit était jugé trop lourd et presque jamais appliqué."
+   },
+   {
+    "q": "Dans quels cas le délit reste-t-il possible ?",
+    "choix": [
+     "Jamais",
+     "Dans tous les cas",
+     "Pour un refus d'obéir à une injonction et pour les cas graves"
+    ],
+    "bonne": 2,
+    "expl": "Le texte a été adopté sans voix contre."
+   }
+  ],
+  "debat": {
+   "question": "Comment protéger le vignoble sans pénaliser les petits propriétaires qui n'ont pas les moyens d'arracher ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

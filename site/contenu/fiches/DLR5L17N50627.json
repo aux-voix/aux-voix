@@ -117,5 +117,63 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Enquête sous pseudonyme",
+    "def": "Des enquêteurs se font passer pour une personne fictive sur internet, sous le contrôle d'un magistrat."
+   },
+   {
+    "terme": "Loyauté de la preuve",
+    "def": "Principe selon lequel les enquêteurs ne doivent jamais pousser quelqu'un à commettre une infraction."
+   },
+   {
+    "terme": "Délit",
+    "def": "Infraction plus grave qu'une contravention, jugée par un tribunal correctionnel."
+   },
+   {
+    "terme": "119",
+    "def": "Numéro gratuit, ouvert 24 h sur 24, pour un enfant en danger ou un témoin (Allô Enfance en danger)."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Que permet de poursuivre le texte ?",
+    "choix": [
+     "Les enfants qui utilisent un faux profil",
+     "Un adulte qui cible en ligne une personne se présentant comme mineure, même si c'est un enquêteur",
+     "Les parents des mineurs"
+    ],
+    "bonne": 1,
+    "expl": "Jusqu'ici, plusieurs délits n'étaient pas retenus si la « victime » était en réalité un adulte."
+   },
+   {
+    "q": "Sous le contrôle de qui se fait l'enquête sous pseudonyme ?",
+    "choix": [
+     "Du procureur ou du juge d'instruction",
+     "D'une entreprise privée",
+     "D'un maire"
+    ],
+    "bonne": 0,
+    "expl": "Elle est autorisée depuis 2007."
+   },
+   {
+    "q": "Où en est le texte d'après la fiche ?",
+    "choix": [
+     "Il est promulgué",
+     "Adopté par l'Assemblée le 15 mai 2025, il attend le Sénat",
+     "Il a été rejeté"
+    ],
+    "bonne": 1,
+    "expl": "Il n'est pas devenu loi à ce jour."
+   }
+  ],
+  "debat": {
+   "question": "Comment donner aux enquêteurs les moyens de poursuivre les prédateurs en ligne tout en respectant la loyauté de la preuve ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

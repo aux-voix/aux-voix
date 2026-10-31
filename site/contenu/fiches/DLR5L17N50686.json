@@ -170,5 +170,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "AESH",
+    "def": "Accompagnant d'élèves en situation de handicap : il aide un élève handicapé à l'école."
+   },
+   {
+    "terme": "MDPH",
+    "def": "Maison départementale des personnes handicapées : elle décide des aides accordées."
+   },
+   {
+    "terme": "Livret de parcours inclusif",
+    "def": "Livret numérique partagé entre professionnels et parents, qui suit l'élève."
+   },
+   {
+    "terme": "Nouvelle lecture",
+    "def": "Nouvel examen du texte après l'échec de la commission mixte paritaire."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qui décide de ce que contient le livret numérique ?",
+    "choix": [
+     "Le ministre",
+     "Les parents",
+     "Le rectorat"
+    ],
+    "bonne": 1,
+    "expl": "Il est effacé 6 mois après la fin de la scolarité."
+   },
+   {
+    "q": "Quand l'AESH devrait-il être affecté, après la décision de la MDPH ?",
+    "choix": [
+     "Au plus tard au début des vacances scolaires suivantes",
+     "Dans cinq ans",
+     "Seulement après le bac"
+    ],
+    "bonne": 0,
+    "expl": "Il n'existe aujourd'hui aucun délai légal."
+   },
+   {
+    "q": "Combien d'élèves handicapés vont à l'école ordinaire, selon la rapporteure ?",
+    "choix": [
+     "49 000",
+     "Moins de 10 000",
+     "Plus de 490 000"
+    ],
+    "bonne": 2,
+    "expl": "Ils étaient 155 000 en 2006."
+   }
+  ],
+  "debat": {
+   "question": "Un livret numérique partagé aide-t-il le suivi des élèves, ou pose-t-il un risque pour la vie privée ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

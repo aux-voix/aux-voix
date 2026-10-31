@@ -140,5 +140,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "IBAN",
+    "def": "Numéro international d'un compte bancaire."
+   },
+   {
+    "terme": "Banque de France",
+    "def": "Institution publique qui gère notamment des fichiers bancaires ; elle tiendra le fichier des comptes suspects."
+   },
+   {
+    "terme": "Fraude",
+    "def": "Tromperie destinée à obtenir de l'argent de façon illégale."
+   },
+   {
+    "terme": "Fichier national des comptes suspects",
+    "def": "Liste commune aux banques des comptes soupçonnés d'être utilisés pour des fraudes."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien coûtent ces fraudes chaque année, selon la fiche ?",
+    "choix": [
+     "12 000 euros",
+     "12 millions d'euros",
+     "Environ 1,2 milliard d'euros"
+    ],
+    "bonne": 2,
+    "expl": "Aux particuliers et aux entreprises."
+   },
+   {
+    "q": "Qui gère le fichier national des comptes suspects ?",
+    "choix": [
+     "La Banque de France",
+     "Chaque banque, séparément",
+     "La police municipale"
+    ],
+    "bonne": 0,
+    "expl": "Auparavant, une banque qui repérait un compte frauduleux ne prévenait pas les autres."
+   },
+   {
+    "q": "Depuis quand le fichier fonctionne-t-il ?",
+    "choix": [
+     "1990",
+     "Mai 2026",
+     "Il n'existe pas encore"
+    ],
+    "bonne": 1,
+    "expl": "La loi a été promulguée en novembre 2025."
+   }
+  ],
+  "debat": {
+   "question": "Les banques doivent-elles partager des informations sur des comptes suspects ? Avec quelles garanties pour les titulaires ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

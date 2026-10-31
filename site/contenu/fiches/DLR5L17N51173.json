@@ -153,5 +153,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Polynésie française",
+    "def": "Collectivité française du Pacifique, avec son propre gouvernement et sa propre assemblée."
+   },
+   {
+    "terme": "Loi du pays",
+    "def": "Texte voté par l'assemblée de la Polynésie française."
+   },
+   {
+    "terme": "Commune",
+    "def": "Collectivité locale dirigée par un maire et un conseil municipal."
+   },
+   {
+    "terme": "Loi organique",
+    "def": "Loi qui précise l'organisation des pouvoirs publics ; le Conseil constitutionnel la contrôle toujours."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Que devaient attendre les communes de Polynésie pour agir dans huit domaines ?",
+    "choix": [
+     "Une loi du pays",
+     "Un référendum",
+     "Un décret du maire de Paris"
+    ],
+    "bonne": 0,
+    "expl": "Seules quatre lois du pays ont été adoptées en vingt ans."
+   },
+   {
+    "q": "Que peut désormais faire une commune ?",
+    "choix": [
+     "Agir par sa propre décision, après un délai d'au moins six mois",
+     "Voter ses propres lois sans limite",
+     "Fermer son conseil"
+    ],
+    "bonne": 0,
+    "expl": "En respectant les règles du Pays."
+   },
+   {
+    "q": "Pourquoi le Conseil constitutionnel a-t-il examiné ce texte ?",
+    "choix": [
+     "Il y avait un recours d'un maire",
+     "Parce qu'une loi organique est contrôlée automatiquement",
+     "Parce qu'il y avait une pétition"
+    ],
+    "bonne": 1,
+    "expl": "Décision du 30 décembre 2025 : conforme."
+   }
+  ],
+  "debat": {
+   "question": "Un maire d'une île éloignée doit-il pouvoir agir sans attendre une autorisation du Pays ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

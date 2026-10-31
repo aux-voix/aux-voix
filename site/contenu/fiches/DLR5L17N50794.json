@@ -116,5 +116,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "SKAO",
+    "def": "Observatoire international qui construit le plus grand radiotélescope du monde."
+   },
+   {
+    "terme": "Radiotélescope",
+    "def": "Instrument qui capte les ondes radio venues de l'espace pour étudier l'univers."
+   },
+   {
+    "terme": "Approbation d'un accord",
+    "def": "Vote du Parlement qui autorise la France à s'engager dans un accord international."
+   },
+   {
+    "terme": "Adoption sans vote public",
+    "def": "Texte adopté sans scrutin enregistré ; il n'y a pas de détail des votes."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Que construit le SKAO ?",
+    "choix": [
+     "Un satellite de communication",
+     "Le plus grand radiotélescope du monde",
+     "Une centrale nucléaire"
+    ],
+    "bonne": 1,
+    "expl": "Deux immenses réseaux d'antennes pour observer l'univers lointain."
+   },
+   {
+    "q": "Combien la France s'engage-t-elle à verser entre 2022 et 2030 ?",
+    "choix": [
+     "48 millions d'euros",
+     "4,8 millions d'euros",
+     "480 millions d'euros"
+    ],
+    "bonne": 0,
+    "expl": "Elle devient État membre."
+   },
+   {
+    "q": "Où sont construits les deux réseaux d'antennes ?",
+    "choix": [
+     "En France et en Espagne",
+     "Au Groenland",
+     "En Australie et en Afrique du Sud"
+    ],
+    "bonne": 2,
+    "expl": "L'organisation a été créée en 2019."
+   }
+  ],
+  "debat": {
+   "question": "Pourquoi financer de grands projets scientifiques internationaux ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

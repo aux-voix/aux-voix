@@ -149,5 +149,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Outrage",
+    "def": "Fait d'insulter ou de manquer de respect à une personne, puni par la loi."
+   },
+   {
+    "terme": "Plainte",
+    "def": "Démarche pour signaler une infraction à la justice."
+   },
+   {
+    "terme": "Commission mixte paritaire",
+    "def": "Réunion de députés et de sénateurs chargés de trouver un texte commun."
+   },
+   {
+    "terme": "Abstention",
+    "def": "Choix de ne voter ni pour ni contre."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qui peut désormais porter plainte à la place de la victime ?",
+    "choix": [
+     "L'employeur, avec l'accord écrit de la victime",
+     "Un voisin",
+     "Le maire"
+    ],
+    "bonne": 0,
+    "expl": "Pour contrer la peur des représailles."
+   },
+   {
+    "q": "Pourquoi cette mesure, selon la rapporteure Agnès Firmin Le Bodo ?",
+    "choix": [
+     "Pour réduire le nombre de tribunaux",
+     "Pour mettre fin à l'autocensure des victimes, qui hésitent à porter plainte",
+     "Pour supprimer le délit d'outrage"
+    ],
+    "bonne": 1,
+    "expl": "L'objectif est de lutter contre le renoncement à porter plainte."
+   },
+   {
+    "q": "Quels groupes se sont abstenus ?",
+    "choix": [
+     "Les socialistes et les écologistes",
+     "Le RN et Horizons",
+     "Aucun groupe"
+    ],
+    "bonne": 0,
+    "expl": "LFI a voté contre."
+   }
+  ],
+  "debat": {
+   "question": "Alourdir les peines suffit-il à protéger les soignants, ou faut-il d'abord davantage de moyens humains ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

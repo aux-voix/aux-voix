@@ -149,5 +149,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Plan local d'urbanisme (PLU)",
+    "def": "Document qui fixe où et comment on peut construire dans une commune."
+   },
+   {
+    "terme": "Dérogation",
+    "def": "Autorisation exceptionnelle de s'écarter d'une règle."
+   },
+   {
+    "terme": "Recours gracieux",
+    "def": "Demande adressée à l'autorité qui a pris la décision pour qu'elle la revoie."
+   },
+   {
+    "terme": "Cavalier législatif",
+    "def": "Article sans lien avec le texte, censuré par le Conseil constitutionnel."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de procédures de modification du PLU reste-t-il ?",
+    "choix": [
+     "Une seule",
+     "Deux",
+     "Dix"
+    ],
+    "bonne": 0,
+    "expl": "Avant, il y en avait deux."
+   },
+   {
+    "q": "Quel délai pour un recours gracieux contre un permis ?",
+    "choix": [
+     "Deux mois",
+     "Un an",
+     "Un mois"
+    ],
+    "bonne": 2,
+    "expl": "Il était de deux mois."
+   },
+   {
+    "q": "Que s'est-il passé devant le Conseil constitutionnel ?",
+    "choix": [
+     "Il a validé tout le texte",
+     "Il a censuré plus d'un tiers du texte",
+     "Il a rejeté la saisine"
+    ],
+    "bonne": 1,
+    "expl": "Décision du 20 novembre 2025."
+   }
+  ],
+  "debat": {
+   "question": "Simplifier les règles d'urbanisme pour construire plus vite : comment concilier rapidité, environnement et droits des habitants ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

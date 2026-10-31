@@ -146,5 +146,63 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Panachage",
+    "def": "Possibilité de rayer ou d'ajouter des noms sur un bulletin de vote."
+   },
+   {
+    "terme": "Scrutin de liste",
+    "def": "Mode de vote où l'on choisit une liste entière de candidats, et non des personnes séparément."
+   },
+   {
+    "terme": "Parité",
+    "def": "Égale place des femmes et des hommes ; ici, des listes qui alternent une femme et un homme."
+   },
+   {
+    "terme": "Conseil constitutionnel",
+    "def": "Institution qui vérifie qu'une loi respecte la Constitution."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Que change la loi dans les communes de moins de 1 000 habitants ?",
+    "choix": [
+     "On y vote pour une liste paritaire, sans pouvoir rayer ni ajouter de noms",
+     "Elles n'ont plus de conseil municipal",
+     "Le maire est désigné par le préfet"
+    ],
+    "bonne": 0,
+    "expl": "Auparavant, on y votait pour des candidats, avec la possibilité de rayer ou d'ajouter des noms (le panachage)."
+   },
+   {
+    "q": "À quelles élections la règle s'applique-t-elle pour la première fois ?",
+    "choix": [
+     "Aux élections européennes de 2024",
+     "Aux municipales de mars 2026",
+     "Aux législatives de 2027"
+    ],
+    "bonne": 1,
+    "expl": "La loi est promulguée le 21 mai 2025 et appliquée depuis les municipales de mars 2026."
+   },
+   {
+    "q": "Selon la députée Sabine Thillaye, quelle part des conseillers municipaux de ces communes sont des femmes ?",
+    "choix": [
+     "La moitié",
+     "Les deux tiers",
+     "Seulement un tiers"
+    ],
+    "bonne": 2,
+    "expl": "C'est l'un des arguments avancés en faveur de la parité dans ces communes."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il appliquer aux très petites communes les mêmes règles de parité qu'aux autres ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

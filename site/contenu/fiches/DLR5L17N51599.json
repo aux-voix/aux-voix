@@ -125,5 +125,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Entraide judiciaire",
+    "def": "Coopération entre deux pays pour mener des enquêtes pénales."
+   },
+   {
+    "terme": "Extradition",
+    "def": "Remise par un pays à un autre d'une personne poursuivie ou condamnée."
+   },
+   {
+    "terme": "Convention bilatérale",
+    "def": "Accord signé entre deux pays."
+   },
+   {
+    "terme": "Secret bancaire",
+    "def": "Règle qui interdit aux banques de révéler les informations sur leurs clients."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qu'est-ce que l'extradition ?",
+    "choix": [
+     "Remise d'une personne poursuivie ou condamnée à un autre pays",
+     "Vente d'une entreprise",
+     "Visite officielle"
+    ],
+    "bonne": 0,
+    "expl": "Les deux conventions encadrent l'entraide et l'extradition."
+   },
+   {
+    "q": "Le secret bancaire peut-il justifier un refus d'entraide ?",
+    "choix": [
+     "Oui, toujours",
+     "Non, selon les conventions",
+     "Seulement pour les petits montants"
+    ],
+    "bonne": 1,
+    "expl": "Ces conventions visent à lutter contre le blanchiment et la fraude fiscale."
+   },
+   {
+    "q": "Combien de demandes d'entraide la France a-t-elle adressées au Panama depuis 2014 ?",
+    "choix": [
+     "4",
+     "490",
+     "49"
+    ],
+    "bonne": 2,
+    "expl": "Trois demandes d'extradition ont été échangées."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il coopérer judiciairement avec un pays même si certaines de ses pratiques sont critiquées ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

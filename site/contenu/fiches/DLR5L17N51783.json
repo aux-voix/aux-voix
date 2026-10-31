@@ -109,5 +109,63 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Frontalier",
+    "def": "Personne qui habite dans un pays et travaille dans un autre."
+   },
+   {
+    "terme": "Double imposition",
+    "def": "Impôt payé deux fois sur le même revenu."
+   },
+   {
+    "terme": "Avenant",
+    "def": "Texte qui modifie un accord existant."
+   },
+   {
+    "terme": "Télétravail",
+    "def": "Travail à distance, ici depuis le pays de résidence."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de Français travaillent en Suisse ?",
+    "choix": [
+     "236",
+     "23 600",
+     "Près de 236 000"
+    ],
+    "bonne": 2,
+    "expl": "Selon la fiche."
+   },
+   {
+    "q": "Jusqu'à quelle part de télétravail l'impôt ne change-t-il pas ?",
+    "choix": [
+     "10 %",
+     "40 %",
+     "80 %"
+    ],
+    "bonne": 1,
+    "expl": "Cette règle devient durable."
+   },
+   {
+    "q": "Que reçoit le pays de résidence ?",
+    "choix": [
+     "40 % de l'impôt prélevé sur les jours télétravaillés",
+     "Rien",
+     "Tout l'impôt"
+    ],
+    "bonne": 0,
+    "expl": "Versé par le pays de l'employeur."
+   }
+  ],
+  "debat": {
+   "question": "Comment répartir l'impôt des travailleurs qui vivent d'un côté d'une frontière et travaillent de l'autre ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

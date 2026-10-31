@@ -153,5 +153,59 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Commission mixte paritaire",
+    "def": "Réunion de députés et de sénateurs chargés de trouver un texte commun quand les deux assemblées ne sont pas d'accord."
+   },
+   {
+    "terme": "Indemnisation",
+    "def": "Somme versée à une personne pour compenser un préjudice."
+   },
+   {
+    "terme": "Nouvelle lecture",
+    "def": "Nouvel examen du texte par chaque assemblée après l'échec de la commission mixte paritaire."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Jusqu'à quelle année le code pénal a-t-il puni plus sévèrement les relations homosexuelles, d'après la fiche ?",
+    "choix": [
+     "1982",
+     "1945",
+     "1999"
+    ],
+    "bonne": 0,
+    "expl": "Au moins 10 000 personnes ont été condamnées, selon le rapporteur de l'Assemblée."
+   },
+   {
+    "q": "Sur quoi l'Assemblée et le Sénat ne sont-ils pas d'accord ?",
+    "choix": [
+     "Le principe même de reconnaître la discrimination",
+     "La période concernée et l'indemnisation",
+     "L'âge minimum des personnes concernées"
+    ],
+    "bonne": 1,
+    "expl": "Les deux chambres veulent reconnaître la discrimination ; l'Assemblée inclut la période 1942-1945 et une indemnisation, le Sénat refuse les deux."
+   },
+   {
+    "q": "Que s'est-il passé en commission mixte paritaire, le 15 janvier 2026 ?",
+    "choix": [
+     "Elle a trouvé un accord",
+     "Elle a échoué : le texte attend une nouvelle lecture",
+     "Elle a rejeté définitivement le texte"
+    ],
+    "bonne": 1,
+    "expl": "Le texte n'est donc pas encore devenu loi."
+   }
+  ],
+  "debat": {
+   "question": "Une reconnaissance par la loi doit-elle s'accompagner d'une indemnisation financière ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

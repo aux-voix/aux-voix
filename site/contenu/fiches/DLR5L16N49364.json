@@ -190,5 +190,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Mode ultra-express",
+    "def": "Mode qui propose énormément de nouveaux modèles à des prix si bas qu'on ne répare pas les vêtements. Un décret la définit."
+   },
+   {
+    "terme": "Pénalité",
+    "def": "Somme à payer, ici par vêtement, pour compenser l'impact environnemental."
+   },
+   {
+    "terme": "Décret",
+    "def": "Texte du Gouvernement qui précise comment une loi s'applique."
+   },
+   {
+    "terme": "Commission mixte paritaire",
+    "def": "Réunion de députés et de sénateurs chargés de trouver un texte commun."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Comment le plafond de la pénalité est-il fixé ?",
+    "choix": [
+     "50 % du prix hors taxes au maximum",
+     "10 euros par vêtement",
+     "1 % du chiffre d'affaires"
+    ],
+    "bonne": 0,
+    "expl": "Pour un article vendu 6 €, au plus 3 €."
+   },
+   {
+    "q": "À partir de quand la promotion par les influenceurs est-elle interdite ?",
+    "choix": [
+     "Dès 2020",
+     "Le 1er janvier 2027",
+     "Elle reste autorisée"
+    ],
+    "bonne": 1,
+    "expl": "La publicité des marques concernées est interdite."
+   },
+   {
+    "q": "Qui définit précisément la « mode ultra-express » ?",
+    "choix": [
+     "Le Conseil constitutionnel",
+     "Les marques elles-mêmes",
+     "Un décret"
+    ],
+    "bonne": 2,
+    "expl": "Il fixe des seuils : très grand nombre de nouveaux modèles et faible incitation à réparer."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il interdire la publicité de certaines marques pour réduire l'impact environnemental des vêtements ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

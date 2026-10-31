@@ -108,5 +108,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Pacte entre générations",
+    "def": "Dans les écoles du ski, système où les moniteurs âgés réduisent leur activité pour laisser des heures de cours aux jeunes."
+   },
+   {
+    "terme": "Moniteur stagiaire",
+    "def": "Moniteur de ski encore en formation, qui doit donner des cours pratiques."
+   },
+   {
+    "terme": "Discrimination",
+    "def": "Traitement défavorable fondé sur un critère comme l'âge. L'ancien système avait été jugé discriminatoire en 2010 et 2012."
+   },
+   {
+    "terme": "Commission des affaires sociales",
+    "def": "Groupe de sénateurs qui examine d'abord les textes sur le travail et la santé."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Depuis quand les écoles du ski français réduisent-elles l'activité des moniteurs âgés ?",
+    "choix": [
+     "1963",
+     "1990",
+     "2014"
+    ],
+    "bonne": 0,
+    "expl": "La loi de 2014 a encadré ce pacte pour qu'il ne soit pas jugé discriminatoire."
+   },
+   {
+    "q": "Qui profite désormais du pacte, en plus des jeunes diplômés ?",
+    "choix": [
+     "Les skieurs débutants",
+     "Les moniteurs stagiaires en formation",
+     "Les stations de ski"
+    ],
+    "bonne": 1,
+    "expl": "Ils doivent donner des cours pendant leur formation."
+   },
+   {
+    "q": "Comment la commission des affaires sociales du Sénat a-t-elle adopté ce texte ?",
+    "choix": [
+     "Elle l'a rejeté",
+     "À une voix près",
+     "À l'unanimité"
+    ],
+    "bonne": 2,
+    "expl": "Personne ne s'y est opposé."
+   }
+  ],
+  "debat": {
+   "question": "Peut-on réduire l'activité de certains professionnels, selon leur âge, pour laisser de la place à d'autres ?",
+   "consigne": "Personne ne s'est opposé au texte. La classe présente l'objectif des auteurs rapporté dans la fiche, puis relève pourquoi l'ancien système avait été jugé discriminatoire (Halde en 2010, tribunal d'Albertville en 2012). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

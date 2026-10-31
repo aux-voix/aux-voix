@@ -130,5 +130,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "CHU",
+    "def": "Centre hospitalier universitaire : un hôpital qui soigne, forme les futurs médecins et fait de la recherche."
+   },
+   {
+    "terme": "Décret",
+    "def": "Texte du Gouvernement qui précise comment une loi s'applique."
+   },
+   {
+    "terme": "Adopté avec modifications",
+    "def": "Une assemblée vote le texte en le changeant : il doit revenir devant l'autre assemblée."
+   },
+   {
+    "terme": "Égalité d'accès aux soins",
+    "def": "Idée que chacun doit pouvoir se faire soigner, où qu'il habite."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de CHU compte la France, selon la fiche ?",
+    "choix": [
+     "32",
+     "3",
+     "320"
+    ],
+    "bonne": 0,
+    "expl": "Mais aucun en Corse, seule région de métropole dans ce cas."
+   },
+   {
+    "q": "Quelle échéance le Sénat a-t-il fixée pour la création du CHU ?",
+    "choix": [
+     "2026",
+     "2031",
+     "2050"
+    ],
+    "bonne": 1,
+    "expl": "La ministre de la Santé juge l'objectif légitime mais « de long terme »."
+   },
+   {
+    "q": "Environ combien de déplacements médicaux vers le continent chaque année, selon le Sénat ?",
+    "choix": [
+     "350",
+     "3 500",
+     "35 000"
+    ],
+    "bonne": 2,
+    "expl": "Faute de soins spécialisés sur l'île."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il fixer dans la loi la création d'un équipement de santé, ou laisser le Gouvernement en décider ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

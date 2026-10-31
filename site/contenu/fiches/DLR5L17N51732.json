@@ -127,5 +127,63 @@
  "version": {
   "n": 1,
   "date": "2026-10-20"
+ },
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Droits télé",
+    "def": "Sommes versées pour retransmettre les matchs."
+   },
+   {
+    "terme": "Ligue",
+    "def": "Organisme qui gère un championnat."
+   },
+   {
+    "terme": "Cour des comptes",
+    "def": "Institution qui contrôle l'argent public."
+   },
+   {
+    "terme": "Piratage",
+    "def": "Diffusion illégale de matchs."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelle peine pour le piratage de matchs en bande organisée ?",
+    "choix": [
+     "7 ans de prison et 750 000 €",
+     "1 an et 1 000 €",
+     "Aucune"
+    ],
+    "bonne": 0,
+    "expl": "Le blocage serait aussi plus rapide."
+   },
+   {
+    "q": "Qui peut désormais contrôler fédérations et ligues ?",
+    "choix": [
+     "Le Conseil d'État",
+     "La Cour des comptes",
+     "Personne"
+    ],
+    "bonne": 1,
+    "expl": "Les rachats de clubs peuvent aussi être bloqués."
+   },
+   {
+    "q": "Comment ont évolué les droits télé du football ?",
+    "choix": [
+     "Ils ont augmenté",
+     "Ils sont restés stables",
+     "Ils sont passés de 730 à 500 millions d'euros"
+    ],
+    "bonne": 2,
+    "expl": "Selon le Sénat."
+   }
+  ],
+  "debat": {
+   "question": "Comment partager l'argent du sport professionnel entre clubs, ligues, sport masculin et féminin ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
  }
 }

@@ -118,5 +118,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Tambour parleur",
+    "def": "Grand tambour qui servait à transmettre des messages dans la communauté atchan (Ébrié) de Côte d'Ivoire."
+   },
+   {
+    "terme": "Restitution",
+    "def": "Fait de rendre un bien à son pays ou à ses propriétaires d'origine."
+   },
+   {
+    "terme": "Inaliénable",
+    "def": "Qui ne peut pas être vendu ou donné ; c'est le cas des œuvres des musées publics, sauf loi spéciale."
+   },
+   {
+    "terme": "Spoliation coloniale",
+    "def": "Prise d'un bien à ses propriétaires par l'administration coloniale."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Pourquoi faut-il une loi pour rendre cette œuvre ?",
+    "choix": [
+     "Parce que les œuvres des musées publics ne peuvent pas être cédées sans loi",
+     "Parce que le tambour est trop lourd",
+     "Parce que la Côte d'Ivoire l'a demandé hier"
+    ],
+    "bonne": 0,
+    "expl": "Chaque restitution exige aujourd'hui une loi particulière."
+   },
+   {
+    "q": "En quelle année le tambour a-t-il été confisqué ?",
+    "choix": [
+     "1816",
+     "1916",
+     "2016"
+    ],
+    "bonne": 1,
+    "expl": "Par l'administration coloniale française ; il est conservé dans les musées français depuis 1929-1930."
+   },
+   {
+    "q": "Comment l'Assemblée a-t-elle voté le 7 juillet 2025 ?",
+    "choix": [
+     "À une voix près",
+     "Elle a rejeté le texte",
+     "111 voix contre 0"
+    ],
+    "bonne": 2,
+    "expl": "Plusieurs groupes demandent une loi générale pour éviter une loi à chaque restitution."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il une loi à chaque restitution d'œuvre, ou une loi générale ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

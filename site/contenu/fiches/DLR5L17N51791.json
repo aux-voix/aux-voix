@@ -144,5 +144,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Contrat de professionnalisation",
+    "def": "Contrat en alternance entre travail en entreprise et formation."
+   },
+   {
+    "terme": "Alternance",
+    "def": "Rythme qui combine période en entreprise et période de formation."
+   },
+   {
+    "terme": "Expérimentation",
+    "def": "Essai limité dans le temps avant une décision durable."
+   },
+   {
+    "terme": "Compétences",
+    "def": "Savoir-faire précis, par opposition à un diplôme complet."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Que devient la version expérimentale ?",
+    "choix": [
+     "Elle est supprimée",
+     "Elle devient permanente",
+     "Elle est limitée aux cadres"
+    ],
+    "bonne": 1,
+    "expl": "Elle existait depuis 2018."
+   },
+   {
+    "q": "En quoi consiste ce contrat ?",
+    "choix": [
+     "Alterner travail en entreprise et formation",
+     "Suivre uniquement des cours",
+     "Faire un stage non rémunéré"
+    ],
+    "bonne": 0,
+    "expl": "Il est ouvert aux jeunes et aux demandeurs d'emploi."
+   },
+   {
+    "q": "Combien de contrats expérimentaux entre 2018 et 2023 ?",
+    "choix": [
+     "3 535",
+     "35 356",
+     "353 560"
+    ],
+    "bonne": 1,
+    "expl": "Avec près de 8 400 entreprises."
+   }
+  ],
+  "debat": {
+   "question": "Mieux vaut-il former à des compétences précises ou à un diplôme complet ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

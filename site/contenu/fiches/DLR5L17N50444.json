@@ -156,5 +156,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Congé de présence parentale",
+    "def": "Congé pour s'occuper d'un enfant gravement malade ou handicapé."
+   },
+   {
+    "terme": "Allocation d'éducation de l'enfant handicapé",
+    "def": "Aide financière versée aux parents d'un enfant handicapé."
+   },
+   {
+    "terme": "Protocole de soins",
+    "def": "Plan qui fixe les soins pris en charge pour une maladie de longue durée."
+   },
+   {
+    "terme": "Expérimentation",
+    "def": "Essai d'une mesure, dans un nombre limité de lieux, avant de décider de la généraliser."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "De combien de jours passe le congé à l'annonce d'une maladie grave ou d'un handicap ?",
+    "choix": [
+     "De 5 à 10 jours",
+     "De 10 à 15 jours",
+     "De 1 à 3 jours"
+    ],
+    "bonne": 0,
+    "expl": "C'est le premier changement du texte."
+   },
+   {
+    "q": "Pendant combien de temps un parent ne peut-il pas être licencié après un congé de présence parentale ?",
+    "choix": [
+     "10 jours",
+     "10 semaines",
+     "1 an"
+    ],
+    "bonne": 1,
+    "expl": "Un employeur ne peut plus le licencier dans les 10 semaines suivant son retour."
+   },
+   {
+    "q": "Dans combien de départements l'avance automatique de l'allocation est-elle expérimentée ?",
+    "choix": [
+     "50",
+     "101",
+     "10"
+    ],
+    "bonne": 2,
+    "expl": "Après 2 mois sans réponse."
+   }
+  ],
+  "debat": {
+   "question": "Que faudrait-il faire de plus pour aider les parents d'enfants gravement malades ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

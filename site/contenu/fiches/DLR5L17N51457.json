@@ -149,5 +149,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Prévoyance",
+    "def": "Protection qui compense la perte de salaire en cas de maladie longue, d'invalidité ou de décès."
+   },
+   {
+    "terme": "Protection sociale complémentaire",
+    "def": "Protection qui s'ajoute à la Sécurité sociale, comme une mutuelle ou une prévoyance."
+   },
+   {
+    "terme": "Agent public territorial",
+    "def": "Personne qui travaille pour une commune, un département ou une région."
+   },
+   {
+    "terme": "Cotisation",
+    "def": "Somme versée régulièrement pour financer une protection."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelle part de la cotisation l'employeur doit-il payer au minimum ?",
+    "choix": [
+     "10 %",
+     "Au moins 50 %",
+     "100 %"
+    ],
+    "bonne": 1,
+    "expl": "Pour la cotisation de base."
+   },
+   {
+    "q": "À quelle date l'obligation s'applique-t-elle au plus tard ?",
+    "choix": [
+     "Le 1er janvier 2027",
+     "En 2040",
+     "Le 1er janvier 2029"
+    ],
+    "bonne": 2,
+    "expl": "La loi a été promulguée en décembre 2025."
+   },
+   {
+    "q": "Que protège la prévoyance ?",
+    "choix": [
+     "La perte de salaire en cas de maladie longue, d'invalidité ou de décès",
+     "Les vacances",
+     "Le logement"
+    ],
+    "bonne": 0,
+    "expl": "Plus de la moitié des 2 millions d'agents des collectivités n'en ont pas."
+   }
+  ],
+  "debat": {
+   "question": "Une prévoyance collective obligatoire, payée au moins à moitié par l'employeur, est-elle la bonne solution ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

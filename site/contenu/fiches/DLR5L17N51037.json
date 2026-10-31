@@ -174,5 +174,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Légitime défense",
+    "def": "Droit de se défendre, en respectant des conditions de nécessité et de proportion."
+   },
+   {
+    "terme": "Présomption",
+    "def": "Fait de considérer quelque chose comme vrai tant que le contraire n'est pas prouvé."
+   },
+   {
+    "terme": "Défenseur des droits",
+    "def": "Autorité indépendante chargée de veiller au respect des droits des citoyens."
+   },
+   {
+    "terme": "Première lecture",
+    "def": "Premier examen d'un texte par une assemblée ; le Sénat doit encore l'examiner."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Que prévoit le texte pour un policier ou un gendarme qui tire ?",
+    "choix": [
+     "Il serait présumé avoir respecté les conditions de la légitime défense, sauf preuve contraire",
+     "Il ne serait jamais enquêté",
+     "Il devrait toujours prouver sa bonne foi"
+    ],
+    "bonne": 0,
+    "expl": "Aujourd'hui, il doit montrer que son geste était absolument nécessaire et proportionné."
+   },
+   {
+    "q": "Qui est concerné par le texte ?",
+    "choix": [
+     "Les polices municipales",
+     "La police et la gendarmerie nationales",
+     "Tous les citoyens"
+    ],
+    "bonne": 1,
+    "expl": "Les policiers municipaux ne sont pas concernés."
+   },
+   {
+    "q": "Combien de députés ont voté pour, d'après la fiche ?",
+    "choix": [
+     "50",
+     "313",
+     "Aucun"
+    ],
+    "bonne": 1,
+    "expl": "Contre : 199. Le texte doit encore passer au Sénat."
+   }
+  ],
+  "debat": {
+   "question": "Un policier qui tire doit-il être présumé avoir agi légalement, ou l'enquête doit-elle tout vérifier ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

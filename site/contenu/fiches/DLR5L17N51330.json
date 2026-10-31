@@ -139,5 +139,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Droits voisins",
+    "def": "Droits qui obligent les plateformes à payer les journaux dont elles reprennent des articles."
+   },
+   {
+    "terme": "Arcom",
+    "def": "Autorité qui régule la communication audiovisuelle et numérique."
+   },
+   {
+    "terme": "Plateforme",
+    "def": "Site ou service en ligne qui diffuse des contenus, comme un moteur de recherche."
+   },
+   {
+    "terme": "Chiffre d'affaires",
+    "def": "Total des ventes d'une entreprise sur une période."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Depuis quand les plateformes doivent-elles payer la presse ?",
+    "choix": [
+     "Depuis 1950",
+     "Depuis 2019",
+     "Depuis 2026"
+    ],
+    "bonne": 1,
+    "expl": "Mais les négociations traînent."
+   },
+   {
+    "q": "Que pourrait faire l'Arcom après trois mois sans accord ?",
+    "choix": [
+     "Fermer la plateforme",
+     "Ne rien faire",
+     "Fixer elle-même la rémunération"
+    ],
+    "bonne": 2,
+    "expl": "Le texte n'est pas encore définitif."
+   },
+   {
+    "q": "Quelle sanction l'Arcom pourrait-elle infliger ?",
+    "choix": [
+     "Jusqu'à 1 % du chiffre d'affaires mondial",
+     "Une amende de 10 euros",
+     "Une peine de prison"
+    ],
+    "bonne": 0,
+    "expl": "Après une mise en demeure."
+   }
+  ],
+  "debat": {
+   "question": "Qui doit payer l'information que les grandes plateformes utilisent ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

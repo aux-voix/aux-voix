@@ -127,5 +127,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Loi Veil",
+    "def": "Loi de 1975 qui a autorisé l'avortement en France."
+   },
+   {
+    "terme": "Réhabilitation",
+    "def": "Reconnaissance qu'une condamnation était injuste."
+   },
+   {
+    "terme": "Préjudice",
+    "def": "Dommage subi par une personne."
+   },
+   {
+    "terme": "Commission nationale de reconnaissance",
+    "def": "Commission indépendante qui recueille et transmet la mémoire des femmes concernées."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Avant 1975, avorter était…",
+    "choix": [
+     "Autorisé sans condition",
+     "Un délit : plus de 11 660 condamnations entre 1870 et 1975",
+     "Remboursé"
+    ],
+    "bonne": 1,
+    "expl": "Selon les estimations officielles."
+   },
+   {
+    "q": "Que crée la loi ?",
+    "choix": [
+     "Une commission chargée de recueillir et de transmettre la mémoire des femmes concernées",
+     "Une indemnité de 10 000 euros par personne",
+     "Un nouveau délit"
+    ],
+    "bonne": 0,
+    "expl": "La gauche regrette l'absence d'indemnisation."
+   },
+   {
+    "q": "Comment l'Assemblée a-t-elle voté le 18 décembre 2025 ?",
+    "choix": [
+     "À une voix près",
+     "Elle a rejeté le texte",
+     "93 voix contre 0"
+    ],
+    "bonne": 2,
+    "expl": "Le Sénat l'avait adopté à l'unanimité."
+   }
+  ],
+  "debat": {
+   "question": "Une reconnaissance par la loi doit-elle s'accompagner d'une indemnisation ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

@@ -152,5 +152,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Vote par correspondance",
+    "def": "Vote envoyé par courrier, sans se déplacer au bureau de vote."
+   },
+   {
+    "terme": "Procuration",
+    "def": "Fait de charger quelqu'un de voter à sa place."
+   },
+   {
+    "terme": "Droits civiques",
+    "def": "Droits qui permettent de participer à la vie politique, comme voter."
+   },
+   {
+    "terme": "Chef-lieu",
+    "def": "Ville principale d'un département, où se trouve la préfecture."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "À quelles élections les détenus ne peuvent-ils plus voter par correspondance ?",
+    "choix": [
+     "À la présidentielle",
+     "Aux municipales et aux législatives",
+     "Aux référendums"
+    ],
+    "bonne": 1,
+    "expl": "Ils le peuvent toujours à la présidentielle, aux européennes et aux référendums."
+   },
+   {
+    "q": "À quelle commune leur vote était-il rattaché depuis 2019 ?",
+    "choix": [
+     "Au chef-lieu du département de la prison",
+     "À leur ville de naissance",
+     "À Paris"
+    ],
+    "bonne": 0,
+    "expl": "Une ville souvent sans lien avec eux."
+   },
+   {
+    "q": "Qu'a jugé le Conseil constitutionnel ?",
+    "choix": [
+     "Que ces règles privent les détenus du droit de vote",
+     "Que la loi est contraire à la Constitution",
+     "Que ces règles n'ont ni pour objet ni pour effet de les priver du droit de vote"
+    ],
+    "bonne": 2,
+    "expl": "Il invoque l'objectif de préserver le lien entre l'électeur et sa commune."
+   }
+  ],
+  "debat": {
+   "question": "Les personnes détenues doivent-elles pouvoir voter par correspondance à toutes les élections ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

@@ -162,5 +162,63 @@
  "version": {
   "n": 1,
   "date": "2026-10-20"
+ },
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Aide à mourir",
+    "def": "Possibilité, pour un malade qui remplit des conditions strictes, de demander à mettre fin à ses jours avec un cadre médical."
+   },
+   {
+    "terme": "Soins palliatifs",
+    "def": "Soins qui soulagent la douleur et accompagnent les personnes gravement malades et leurs proches."
+   },
+   {
+    "terme": "Clause de conscience",
+    "def": "Droit pour un soignant de refuser un acte qui heurte ses convictions, en orientant vers un confrère."
+   },
+   {
+    "terme": "Décret d'application",
+    "def": "Texte du Gouvernement qui précise comment la loi s'applique ; la loi s'appliquera après sa publication."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de conditions strictes la loi pose-t-elle ?",
+    "choix": [
+     "Deux",
+     "Cinq",
+     "Douze"
+    ],
+    "bonne": 1,
+    "expl": "Dont une maladie grave et incurable en phase avancée ou terminale."
+   },
+   {
+    "q": "Qui prend le produit ?",
+    "choix": [
+     "Le malade lui-même ; un soignant n'aide que s'il en est physiquement incapable",
+     "Toujours un médecin",
+     "Toujours un proche"
+    ],
+    "bonne": 0,
+    "expl": "Un médecin vérifie les conditions."
+   },
+   {
+    "q": "Que prévoit la clause de conscience ?",
+    "choix": [
+     "Aucun soignant ne peut refuser",
+     "Un médecin, un infirmier ou un pharmacien peut refuser, mais doit orienter vers un confrère",
+     "Seuls les médecins peuvent refuser"
+    ],
+    "bonne": 1,
+    "expl": "Les votes ont été partagés dans la plupart des groupes."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il reconnaître un droit à l'aide à mourir et à quelles conditions ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
  }
 }

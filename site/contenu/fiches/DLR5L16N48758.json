@@ -144,5 +144,63 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Numerus clausus",
+    "def": "Ancien système qui limitait chaque année le nombre d'étudiants admis en médecine ; il est remplacé par un « numerus apertus »."
+   },
+   {
+    "terme": "Désert médical",
+    "def": "Territoire où il est difficile de trouver un médecin."
+   },
+   {
+    "terme": "Paramédical",
+    "def": "Profession de santé qui n'est pas médecin (infirmier, kinésithérapeute…)."
+   },
+   {
+    "terme": "Passerelle",
+    "def": "Voie qui permet de changer de formation ou de métier sans tout recommencer."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Selon Yannick Neuder, combien de Français n'ont pas de médecin traitant ?",
+    "choix": [
+     "600 000",
+     "6 millions",
+     "60 millions"
+    ],
+    "bonne": 1,
+    "expl": "Il ajoute que 30 % des Français vivent dans un désert médical."
+   },
+   {
+    "q": "Le nombre d'étudiants admis en médecine dépend désormais d'abord…",
+    "choix": [
+     "Des besoins de santé du territoire",
+     "Du budget de l'État",
+     "Du choix des étudiants"
+    ],
+    "bonne": 0,
+    "expl": "Puis des capacités de formation des universités."
+   },
+   {
+    "q": "Que crée la loi pour les paramédicaux ?",
+    "choix": [
+     "Une interdiction d'exercer",
+     "Des passerelles vers la médecine",
+     "Un nouveau diplôme"
+    ],
+    "bonne": 1,
+    "expl": "Elle facilite aussi le retour d'étudiants français partis étudier la médecine en Europe."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il fixer le nombre d'étudiants en médecine d'abord selon les besoins de santé des territoires ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

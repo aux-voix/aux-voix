@@ -170,5 +170,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Instance consultative",
+    "def": "Organisme chargé de donner des avis, sans pouvoir de décision."
+   },
+   {
+    "terme": "ZFE",
+    "def": "Zone à faibles émissions : zone où l'accès des véhicules les plus polluants est restreint."
+   },
+   {
+    "terme": "Zéro artificialisation nette",
+    "def": "Objectif de limiter la transformation de terres naturelles ou agricoles en terrains construits."
+   },
+   {
+    "terme": "Cavalier législatif",
+    "def": "Disposition ajoutée à une loi sans lien suffisant avec son sujet (article 45 de la Constitution) ; le Conseil constitutionnel la censure."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien d'instances consultatives la loi supprime-t-elle ?",
+    "choix": [
+     "Une vingtaine",
+     "Plus de mille",
+     "Aucune"
+    ],
+    "bonne": 0,
+    "expl": "Elle allège aussi des formalités pour les entreprises."
+   },
+   {
+    "q": "Pourquoi le Conseil constitutionnel a-t-il annulé la suppression des ZFE ?",
+    "choix": [
+     "Elle coûtait trop cher",
+     "Elle était contraire au droit européen",
+     "Elle n'avait pas de lien avec le texte initial"
+    ],
+    "bonne": 2,
+    "expl": "L'assouplissement du « zéro artificialisation nette » a été censuré pour la même raison."
+   },
+   {
+    "q": "Quel article de la Constitution le Conseil invoque-t-il pour censurer ces articles ?",
+    "choix": [
+     "L'article 45",
+     "L'article 49",
+     "L'article 16"
+    ],
+    "bonne": 0,
+    "expl": "Décision n° 2026-903 DC du 21 mai 2026."
+   }
+  ],
+  "debat": {
+   "question": "Une loi de simplification pour les entreprises doit-elle aussi modifier des règles environnementales ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

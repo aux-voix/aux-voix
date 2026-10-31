@@ -114,5 +114,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Évacuation",
+    "def": "Opération qui met des personnes en sécurité en les faisant quitter une zone dangereuse."
+   },
+   {
+    "terme": "Ressortissant",
+    "def": "Personne qui a la nationalité d'un pays, où qu'elle se trouve."
+   },
+   {
+    "terme": "Accord bilatéral",
+    "def": "Accord entre deux pays."
+   },
+   {
+    "terme": "Approbation d'un accord",
+    "def": "Vote du Parlement qui autorise la France à s'engager dans un accord."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "À quelle distance Chypre se trouve-t-elle du Liban, de la Syrie et d'Israël ?",
+    "choix": [
+     "Dix kilomètres",
+     "Une centaine de kilomètres",
+     "Dix mille kilomètres"
+    ],
+    "bonne": 1,
+    "expl": "Chypre est un pays de l'Union européenne."
+   },
+   {
+    "q": "Quelle est la durée maximale de transit prévue ?",
+    "choix": [
+     "Une semaine",
+     "Un mois",
+     "48 heures"
+    ],
+    "bonne": 2,
+    "expl": "L'accord prévoit aussi l'accès aux ports, aux aéroports et aux soins."
+   },
+   {
+    "q": "Quand la France a-t-elle déjà évacué des Français via Chypre ?",
+    "choix": [
+     "En 2006, 2023, 2024 et 2025",
+     "Jamais",
+     "Seulement en 1950"
+    ],
+    "bonne": 0,
+    "expl": "Sans cadre juridique précis."
+   }
+  ],
+  "debat": {
+   "question": "Un État doit-il préparer à l'avance l'évacuation de ses ressortissants en cas de crise ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

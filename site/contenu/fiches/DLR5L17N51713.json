@@ -136,5 +136,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Droit de préemption",
+    "def": "Droit d'acheter un bien en priorité quand il est mis en vente."
+   },
+   {
+    "terme": "Fonds de commerce",
+    "def": "Ensemble des éléments d'un commerce : clientèle, nom, matériel."
+   },
+   {
+    "terme": "Parts de société",
+    "def": "Parts de propriété d'une entreprise."
+   },
+   {
+    "terme": "Commerce de proximité",
+    "def": "Commerce proche des habitants, comme une boulangerie."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Depuis quand une commune peut-elle préempter un fonds de commerce ?",
+    "choix": [
+     "1995",
+     "2005",
+     "2015"
+    ],
+    "bonne": 1,
+    "expl": "Pour garder des commerces variés."
+   },
+   {
+    "q": "Comment ce droit est-il contourné ?",
+    "choix": [
+     "En vendant les parts de la société qui détient le commerce",
+     "En fermant le commerce",
+     "En changeant le nom du commerce"
+    ],
+    "bonne": 0,
+    "expl": "Le texte étend la préemption à ce cas."
+   },
+   {
+    "q": "Qui a voté contre à l'Assemblée ?",
+    "choix": [
+     "La gauche",
+     "Le RN (et un UDR)",
+     "Les Démocrates"
+    ],
+    "bonne": 1,
+    "expl": "57 voix pour, 15 contre."
+   }
+  ],
+  "debat": {
+   "question": "Une commune doit-elle pouvoir intervenir dans la vente d'un commerce pour préserver son centre-ville ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

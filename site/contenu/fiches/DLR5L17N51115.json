@@ -114,5 +114,63 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Encadrement des loyers",
+    "def": "Règle qui limite le montant des loyers dans certaines communes."
+   },
+   {
+    "terme": "Outre-mer",
+    "def": "Territoires français situés hors d'Europe : Guadeloupe, Martinique, La Réunion, etc."
+   },
+   {
+    "terme": "Zone tendue",
+    "def": "Zone où la demande de logements dépasse l'offre."
+   },
+   {
+    "terme": "Marquage CE",
+    "def": "Marque qui indique qu'un produit respecte les règles européennes."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Pendant combien de temps les communes d'outre-mer peuvent-elles encadrer les loyers ?",
+    "choix": [
+     "Un an",
+     "Cinq ans",
+     "Cinquante ans"
+    ],
+    "bonne": 1,
+    "expl": "Dans les communes en zone tendue."
+   },
+   {
+    "q": "Depuis quand des villes comme Paris ou Lyon peuvent-elles plafonner les loyers ?",
+    "choix": [
+     "Depuis 2018",
+     "Depuis 1950",
+     "Depuis 2025"
+    ],
+    "bonne": 0,
+    "expl": "Les outre-mer avaient été exclus de cette expérimentation."
+   },
+   {
+    "q": "De combien les loyers ont-ils augmenté à Saint-Denis et Saint-Pierre de La Réunion en cinq ans ?",
+    "choix": [
+     "De moins de 3 %",
+     "De moins de 10 %",
+     "De plus de 30 %"
+    ],
+    "bonne": 2,
+    "expl": "Selon le rapport cité dans la fiche."
+   }
+  ],
+  "debat": {
+   "question": "L'encadrement des loyers est-il une bonne réponse à la vie chère dans les outre-mer ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

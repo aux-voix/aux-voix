@@ -148,5 +148,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Réparation",
+    "def": "Compensation accordée à des victimes pour un préjudice subi."
+   },
+   {
+    "terme": "Mineur",
+    "def": "Personne de moins de 18 ans."
+   },
+   {
+    "terme": "Responsabilité de l'État",
+    "def": "Reconnaissance que l'État a commis une faute."
+   },
+   {
+    "terme": "Allocation de réparation",
+    "def": "Somme versée par l'État aux victimes ou à leurs descendants."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien d'enfants réunionnais ont été déplacés entre 1962 et 1984 ?",
+    "choix": [
+     "215",
+     "2 015",
+     "20 150"
+    ],
+    "bonne": 1,
+    "expl": "Ils ont été envoyés dans 83 départements, surtout ruraux."
+   },
+   {
+    "q": "Quelle journée nationale la loi crée-t-elle ?",
+    "choix": [
+     "Le 18 février",
+     "Le 14 juillet",
+     "Le 11 novembre"
+    ],
+    "bonne": 0,
+    "expl": "C'est une journée d'hommage."
+   },
+   {
+    "q": "Comment la loi a-t-elle été votée ?",
+    "choix": [
+     "De justesse",
+     "À l'unanimité dans les deux assemblées",
+     "Rejetée par le Sénat"
+    ],
+    "bonne": 1,
+    "expl": "Promulguée le 29 juin 2026."
+   }
+  ],
+  "debat": {
+   "question": "Comment un pays peut-il reconnaître et réparer une politique passée jugée injuste ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

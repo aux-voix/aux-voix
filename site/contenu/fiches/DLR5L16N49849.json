@@ -146,5 +146,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Programmation de l'énergie",
+    "def": "Document qui fixe les objectifs énergétiques de la France pour les années à venir ; il est adopté par décret."
+   },
+   {
+    "terme": "Moratoire",
+    "def": "Suspension temporaire. Ici, un arrêt de nouveaux projets d'éolien et de solaire."
+   },
+   {
+    "terme": "Décret",
+    "def": "Texte du Gouvernement qui s'applique sans vote du Parlement."
+   },
+   {
+    "terme": "Rejet",
+    "def": "Une assemblée vote contre l'ensemble d'un texte : il n'est pas adopté."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Comment la programmation de l'énergie a-t-elle finalement été adoptée, en février 2026 ?",
+    "choix": [
+     "Par une loi votée par le Parlement",
+     "Par décret, sans vote du Parlement",
+     "Par référendum"
+    ],
+    "bonne": 1,
+    "expl": "Le code de l'énergie permet cette procédure ; des parlementaires l'ont reprochée au gouvernement."
+   },
+   {
+    "q": "Que s'est-il passé à l'Assemblée le 24 juin 2025 ?",
+    "choix": [
+     "Elle a rejeté le texte (377 voix contre 142)",
+     "Elle l'a adopté à l'unanimité",
+     "Elle ne l'a pas examiné"
+    ],
+    "bonne": 0,
+    "expl": "Le texte n'est pas devenu loi."
+   },
+   {
+    "q": "Qu'ont ajouté au texte les députés de droite et du RN ?",
+    "choix": [
+     "Un moratoire sur l'éolien et le solaire",
+     "Une taxe sur le nucléaire",
+     "Un référendum"
+    ],
+    "bonne": 0,
+    "expl": "Le centre et la gauche ont alors rejeté le texte."
+   }
+  ],
+  "debat": {
+   "question": "Les grands objectifs énergétiques doivent-ils être fixés par une loi, votée par le Parlement, ou par décret ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

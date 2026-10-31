@@ -126,5 +126,63 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Succession",
+    "def": "Ensemble des biens qu'une personne laisse à ses héritiers à son décès."
+   },
+   {
+    "terme": "Plafond",
+    "def": "Montant maximum qu'on ne peut pas dépasser."
+   },
+   {
+    "terme": "Décret",
+    "def": "Texte du Gouvernement qui précise comment une loi s'applique."
+   },
+   {
+    "terme": "Héritiers",
+    "def": "Personnes qui reçoivent les biens d'une personne décédée."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Pour quelles successions ces frais sont-ils interdits ?",
+    "choix": [
+     "Les petites successions (moins de 5 910 €), les successions simples et les comptes d'un mineur",
+     "Toutes les successions",
+     "Seulement celles de plus de 100 000 €"
+    ],
+    "bonne": 0,
+    "expl": "Le seuil est fixé par le décret d'application."
+   },
+   {
+    "q": "Quel est le plafond des frais dans les autres cas ?",
+    "choix": [
+     "10 % des sommes",
+     "1 % des sommes, et 850 € au plus",
+     "5 000 € au plus"
+    ],
+    "bonne": 1,
+    "expl": "Il est revalorisé chaque année selon l'inflation."
+   },
+   {
+    "q": "Combien coûtaient en moyenne ces frais, selon le rapport ?",
+    "choix": [
+     "303 euros",
+     "30 euros",
+     "3 000 euros"
+    ],
+    "bonne": 0,
+    "expl": "Chaque banque les fixait librement."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il aller jusqu'à interdire totalement ces frais, comme certains le souhaitaient ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

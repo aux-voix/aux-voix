@@ -157,5 +157,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Rave-party",
+    "def": "Fête musicale en plein air, souvent non déclarée."
+   },
+   {
+    "terme": "Délit",
+    "def": "Infraction grave, jugée par le tribunal correctionnel, qui peut être punie de prison."
+   },
+   {
+    "terme": "Contravention",
+    "def": "Infraction légère, punie d'une amende."
+   },
+   {
+    "terme": "Préfecture",
+    "def": "Services de l'État dans un département, qui reçoivent la déclaration."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Aujourd'hui, comment est puni le fait d'organiser une rave illégale ?",
+    "choix": [
+     "Six mois de prison",
+     "Une amende de 1 500 euros au plus",
+     "Ce n'est pas puni"
+    ],
+    "bonne": 1,
+    "expl": "Participer n'est pas puni en soi."
+   },
+   {
+    "q": "À partir de combien de personnes la déclaration deviendrait-elle obligatoire ?",
+    "choix": [
+     "250",
+     "100",
+     "1 000"
+    ],
+    "bonne": 0,
+    "expl": "Aujourd'hui, le seuil est de 500."
+   },
+   {
+    "q": "Quel a été le vote de l'Assemblée le 9 avril 2026 ?",
+    "choix": [
+     "Unanimité",
+     "Rejet du texte",
+     "78 voix pour, 67 contre"
+    ],
+    "bonne": 2,
+    "expl": "Le Sénat doit encore examiner le texte."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il punir plus sévèrement les rave-parties illégales, ou privilégier d'autres moyens ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

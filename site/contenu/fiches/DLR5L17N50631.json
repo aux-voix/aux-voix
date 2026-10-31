@@ -139,5 +139,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Peine d'emprisonnement ferme",
+    "def": "Peine de prison qui doit être exécutée, sans sursis."
+   },
+   {
+    "terme": "Aménagement de peine",
+    "def": "Modalité qui évite la prison ou l'adoucit (bracelet électronique, semi-liberté…)."
+   },
+   {
+    "terme": "Surpopulation carcérale",
+    "def": "Situation où il y a plus de détenus que de places dans les prisons."
+   },
+   {
+    "terme": "Commission des lois",
+    "def": "Groupe de députés qui examine d'abord les textes sur la justice."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Depuis une loi de 2019, quelle peine de prison ferme un juge ne peut-il plus prononcer ?",
+    "choix": [
+     "Une peine d'un mois ou moins",
+     "Une peine de plus de dix ans",
+     "Aucune peine"
+    ],
+    "bonne": 0,
+    "expl": "Les peines d'un an ou moins sont en principe aménagées."
+   },
+   {
+    "q": "Que prévoit le texte pour les peines jusqu'à deux ans ?",
+    "choix": [
+     "Il les supprime",
+     "Il laisse le juge libre de les aménager ou non",
+     "Il les rend toutes automatiques"
+    ],
+    "bonne": 1,
+    "expl": "Il rétablit aussi les très courtes peines."
+   },
+   {
+    "q": "Où en est le texte ?",
+    "choix": [
+     "Il est promulgué",
+     "Il a été adopté définitivement",
+     "La commission des lois l'a rejeté en deuxième lecture (avril 2026) : il n'est pas une loi"
+    ],
+    "bonne": 2,
+    "expl": "Il n'est pas devenu loi à ce jour."
+   }
+  ],
+  "debat": {
+   "question": "Les très courtes peines de prison sont-elles utiles ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

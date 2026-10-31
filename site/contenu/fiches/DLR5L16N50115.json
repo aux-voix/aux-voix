@@ -107,5 +107,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Organisation internationale du travail",
+    "def": "Organisation (l'OIT) qui rédige des conventions sur les droits des travailleurs."
+   },
+   {
+    "terme": "Convention internationale",
+    "def": "Texte que des pays s'engagent à respecter."
+   },
+   {
+    "terme": "Ratification",
+    "def": "Acte par lequel un pays s'engage officiellement à respecter une convention."
+   },
+   {
+    "terme": "Convention fondamentale",
+    "def": "Convention que l'OIT juge essentielle ; la n° 155 l'est devenue en 2022."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Que signifie ratifier une convention ?",
+    "choix": [
+     "Un pays s'engage officiellement à la respecter",
+     "Il la supprime",
+     "Il la rédige seul"
+    ],
+    "bonne": 0,
+    "expl": "La loi autorise cette ratification."
+   },
+   {
+    "q": "En quelle année la convention n° 155 a-t-elle été rédigée ?",
+    "choix": [
+     "1981",
+     "2025",
+     "2022"
+    ],
+    "bonne": 0,
+    "expl": "Elle est devenue « fondamentale » en 2022."
+   },
+   {
+    "q": "La ratification crée-t-elle de nouveaux droits en France ?",
+    "choix": [
+     "Oui, de nombreux",
+     "Elle les supprime",
+     "Non, la France applique déjà des règles semblables"
+    ],
+    "bonne": 2,
+    "expl": "Elle engage surtout le pays au niveau international."
+   }
+  ],
+  "debat": {
+   "question": "Une convention internationale que la France applique déjà change-t-elle quelque chose ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

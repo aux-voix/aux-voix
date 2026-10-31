@@ -138,5 +138,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Rapatriés d'Indochine",
+    "def": "Français revenus d'Indochine après la fin de la guerre, en 1954."
+   },
+   {
+    "terme": "Reconnaissance de la Nation",
+    "def": "Déclaration officielle, dans une loi, qui reconnaît une injustice."
+   },
+   {
+    "terme": "Indemnisation",
+    "def": "Somme versée pour compenser un préjudice."
+   },
+   {
+    "terme": "Camp de rapatriés",
+    "def": "Lieu où l'État a logé des rapatriés, ici dans des conditions indignes."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de Français ont été rapatriés d'Indochine après 1954 ?",
+    "choix": [
+     "440",
+     "44 000",
+     "4,4 millions"
+    ],
+    "bonne": 1,
+    "expl": "4 000 à 6 000 d'entre eux ont été logés dans des camps."
+   },
+   {
+    "q": "Où ont-ils été logés ?",
+    "choix": [
+     "Dans des camps aux conditions indignes",
+     "Dans des hôtels",
+     "Dans des logements neufs"
+    ],
+    "bonne": 0,
+    "expl": "Parfois pendant des décennies."
+   },
+   {
+    "q": "Quand le Parlement a-t-il adopté définitivement le texte ?",
+    "choix": [
+     "En 1954",
+     "Le 3 juin 2025",
+     "Le 19 octobre 2026"
+    ],
+    "bonne": 2,
+    "expl": "À l'unanimité ; la promulgation est attendue."
+   }
+  ],
+  "debat": {
+   "question": "Comment un pays peut-il réparer des injustices commises par l'État envers certains de ses citoyens ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

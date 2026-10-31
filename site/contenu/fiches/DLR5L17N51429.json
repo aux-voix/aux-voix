@@ -153,5 +153,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Centre de rétention",
+    "def": "Lieu où un étranger qui doit quitter la France est retenu le temps d'organiser son départ."
+   },
+   {
+    "terme": "Rétention administrative",
+    "def": "Fait de maintenir un étranger dans un centre sur décision administrative, avant son départ."
+   },
+   {
+    "terme": "Conseil constitutionnel",
+    "def": "Institution qui vérifie qu'une loi respecte la Constitution."
+   },
+   {
+    "terme": "Réserve d'interprétation",
+    "def": "Le Conseil valide la loi à condition qu'elle soit appliquée d'une certaine manière."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelle est, en principe, la durée maximale de rétention ?",
+    "choix": [
+     "30 jours",
+     "90 jours",
+     "1 an"
+    ],
+    "bonne": 1,
+    "expl": "Elle est de 210 jours pour le terrorisme."
+   },
+   {
+    "q": "À combien le texte voulait-il la porter pour certains étrangers condamnés pour des faits graves ?",
+    "choix": [
+     "210 jours",
+     "120 jours",
+     "1 000 jours"
+    ],
+    "bonne": 0,
+    "expl": "C'était la mesure centrale du texte."
+   },
+   {
+    "q": "Qu'a décidé le Conseil constitutionnel le 7 août 2025 ?",
+    "choix": [
+     "Il a validé la totalité de la loi",
+     "Il a supprimé la rétention",
+     "Il a censuré l'allongement de la rétention"
+    ],
+    "bonne": 2,
+    "expl": "Il a validé le reste, avec deux réserves."
+   }
+  ],
+  "debat": {
+   "question": "Jusqu'à quelle durée peut-on retenir un étranger qui doit quitter le pays, et à quelles conditions ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

@@ -118,5 +118,63 @@
   "date": "2026-10-23"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": ""
+ "verif": "",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Registre des cancers",
+    "def": "Base de données qui recense les cas de cancer pour les compter et suivre leur répartition."
+   },
+   {
+    "terme": "Institut national du cancer",
+    "def": "Organisme public chargé de la politique de lutte contre le cancer ; il gérera le registre national."
+   },
+   {
+    "terme": "Décret",
+    "def": "Texte du Gouvernement qui précise comment une loi s'applique."
+   },
+   {
+    "terme": "Adoption sans modification",
+    "def": "Une assemblée adopte le texte tel que l'autre l'a voté : la navette s'arrête et la loi peut être promulguée."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qui gérera le registre national des cancers ?",
+    "choix": [
+     "Le ministère de l'Économie",
+     "L'Institut national du cancer",
+     "Les hôpitaux privés"
+    ],
+    "bonne": 1,
+    "expl": "Son organisation sera fixée par décret."
+   },
+   {
+    "q": "Combien de nouveaux cas de cancer sont recensés chaque année en France, selon la fiche ?",
+    "choix": [
+     "Plus de 430 000",
+     "Environ 43 000",
+     "Plus de 4 millions"
+    ],
+    "bonne": 0,
+    "expl": "C'est la première cause de décès chez les hommes."
+   },
+   {
+    "q": "Quelle part de la population couvrent les registres existants ?",
+    "choix": [
+     "Plus de la moitié",
+     "Moins d'un quart",
+     "Toute la population"
+    ],
+    "bonne": 1,
+    "expl": "Les chiffres nationaux sont donc des estimations."
+   }
+  ],
+  "debat": {
+   "question": "Un registre national suffit-il pour mieux prévenir et soigner les cancers ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

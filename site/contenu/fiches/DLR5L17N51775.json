@@ -128,5 +128,63 @@
   "date": "2026-10-21"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Restauration collective",
+    "def": "Repas servis à de nombreuses personnes, comme les cantines."
+   },
+   {
+    "terme": "Conseil d'État",
+    "def": "Plus haute juridiction administrative."
+   },
+   {
+    "terme": "Substances chimiques",
+    "def": "Produits qui peuvent passer du plastique vers les aliments."
+   },
+   {
+    "terme": "Gage",
+    "def": "Article qui compense une dépense ; ici, il a été supprimé."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Où l'interdiction s'applique-t-elle ?",
+    "choix": [
+     "Cantines scolaires, crèches, maternités",
+     "Prisons",
+     "Aéroports"
+    ],
+    "bonne": 0,
+    "expl": "Des lois de 2018 et 2020 l'avaient déjà prévue."
+   },
+   {
+    "q": "Quel groupe a voté contre à l'Assemblée ?",
+    "choix": [
+     "LFI",
+     "Le RN",
+     "Les socialistes"
+    ],
+    "bonne": 1,
+    "expl": "72 pour, 17 contre."
+   },
+   {
+    "q": "Que précise le texte ?",
+    "choix": [
+     "Seules les bouteilles sont visées",
+     "Seuls les sacs sont visés",
+     "Gobelets, assiettes, récipients et couverts sont visés"
+    ],
+    "bonne": 2,
+    "expl": "Une décision du Conseil d'État avait limité la portée."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il interdire le plastique dans les lieux d'accueil des jeunes enfants, et comment le faire ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

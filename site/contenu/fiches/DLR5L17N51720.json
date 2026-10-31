@@ -146,5 +146,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Analyse vidéo automatique",
+    "def": "Logiciel qui repère à l'avance des gestes jugés suspects dans les images de caméras."
+   },
+   {
+    "terme": "Reconnaissance faciale",
+    "def": "Identification d'une personne à partir de son visage."
+   },
+   {
+    "terme": "Cnil",
+    "def": "Autorité qui contrôle l'usage des données personnelles."
+   },
+   {
+    "terme": "Expérimentation",
+    "def": "Essai limité dans le temps, évalué avant toute décision définitive."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Jusqu'à quand durerait l'essai ?",
+    "choix": [
+     "Fin 2027",
+     "Fin 2030",
+     "Il serait définitif"
+    ],
+    "bonne": 0,
+    "expl": "Avec une évaluation avant fin septembre 2027."
+   },
+   {
+    "q": "Que prévoit le texte sur la reconnaissance faciale ?",
+    "choix": [
+     "Elle serait autorisée",
+     "Elle serait interdite",
+     "Elle serait obligatoire"
+    ],
+    "bonne": 1,
+    "expl": "Les données biométriques sont aussi exclues."
+   },
+   {
+    "q": "Qui autoriserait ces outils ?",
+    "choix": [
+     "Le magasin seul",
+     "Le maire",
+     "Le préfet, sous contrôle de la Cnil"
+    ],
+    "bonne": 2,
+    "expl": "Le public doit être informé."
+   }
+  ],
+  "debat": {
+   "question": "Des caméras intelligentes dans les magasins : protection des commerçants ou menace pour les libertés ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

@@ -151,5 +151,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Homicide routier",
+    "def": "Nouvelle infraction : un conducteur qui tue après avoir commis une faute grave (alcool, drogue, grand excès de vitesse, téléphone…)."
+   },
+   {
+    "terme": "Délit",
+    "def": "Infraction plus grave qu'une contravention, jugée par un tribunal correctionnel."
+   },
+   {
+    "terme": "Récidive",
+    "def": "Fait de commettre à nouveau une infraction après une condamnation."
+   },
+   {
+    "terme": "Circonstance aggravante",
+    "def": "Élément qui rend une infraction plus grave et la peine plus lourde."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Quelles sont les peines prévues pour l'homicide routier ?",
+    "choix": [
+     "3 mois de prison",
+     "7 ans de prison, 10 ans en cas de plusieurs fautes",
+     "La prison à vie"
+    ],
+    "bonne": 1,
+    "expl": "Les peines restent de 7 ans, ou 10 ans en cas de plusieurs fautes."
+   },
+   {
+    "q": "Quand parle-t-on d'homicide routier ?",
+    "choix": [
+     "Quand le conducteur n'a commis aucune faute particulière",
+     "Quand il a commis au moins une faute parmi dix (alcool, drogue, téléphone…)",
+     "Seulement quand il a commis les dix fautes"
+    ],
+    "bonne": 1,
+    "expl": "Les familles de victimes trouvaient insupportable le mot « involontaire »."
+   },
+   {
+    "q": "Rouler 50 km/h au-dessus de la limite est désormais…",
+    "choix": [
+     "Un délit dès la première fois",
+     "Une simple contravention",
+     "Autorisé sur autoroute"
+    ],
+    "bonne": 0,
+    "expl": "Jusqu'à 3 mois de prison et 3 750 € d'amende."
+   }
+  ],
+  "debat": {
+   "question": "Changer le nom d'une infraction peut-il suffire à mieux protéger les victimes et à réduire les accidents ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

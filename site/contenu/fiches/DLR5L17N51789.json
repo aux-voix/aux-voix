@@ -140,5 +140,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Traité de défense",
+    "def": "Accord entre deux pays sur leur aide militaire mutuelle."
+   },
+   {
+    "terme": "Ratification",
+    "def": "Approbation officielle d'un traité."
+   },
+   {
+    "terme": "Base militaire",
+    "def": "Site où stationnent des troupes."
+   },
+   {
+    "terme": "Autocratie",
+    "def": "Régime où le pouvoir est concentré dans une seule main."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Pour combien de temps le nouveau traité est-il conclu ?",
+    "choix": [
+     "10 ans",
+     "20 ans",
+     "50 ans"
+    ],
+    "bonne": 1,
+    "expl": "Le précédent durait dix ans."
+   },
+   {
+    "q": "Comment évolue la contribution française ?",
+    "choix": [
+     "De 30 à 85 millions d'euros par an",
+     "De 85 à 30 millions",
+     "Elle ne change pas"
+    ],
+    "bonne": 0,
+    "expl": "Une partie de l'îlot du Héron est rendue."
+   },
+   {
+    "q": "Quel a été le vote final à l'Assemblée ?",
+    "choix": [
+     "Rejet",
+     "Unanimité",
+     "65 voix pour, 2 contre, 4 abstentions"
+    ],
+    "bonne": 2,
+    "expl": "Les communistes ont voté contre."
+   }
+  ],
+  "debat": {
+   "question": "Une base militaire à l'étranger : atout stratégique ou choix discutable ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }

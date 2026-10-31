@@ -120,5 +120,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "PMA",
+    "def": "Procréation médicalement assistée : techniques médicales qui aident à avoir un enfant."
+   },
+   {
+    "terme": "Discrimination",
+    "def": "Traitement défavorable fondé sur un critère interdit par la loi."
+   },
+   {
+    "terme": "Adoption",
+    "def": "Procédure légale qui fait d'un enfant l'enfant d'une personne ou d'un couple."
+   },
+   {
+    "terme": "Autorisation d'absence",
+    "def": "Droit de s'absenter du travail, ici pour des rendez-vous liés au projet parental."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Qui est protégé en plus des femmes en PMA ?",
+    "choix": [
+     "Les hommes en PMA et les personnes qui veulent adopter",
+     "Les employeurs",
+     "Les enfants"
+    ],
+    "bonne": 0,
+    "expl": "Contre un refus d'embauche ou un licenciement lié à cette situation."
+   },
+   {
+    "q": "Que leur ouvre la loi pour leurs rendez-vous ?",
+    "choix": [
+     "Un double salaire",
+     "Des autorisations d'absence, y compris dans la fonction publique",
+     "Un mois de vacances"
+    ],
+    "bonne": 1,
+    "expl": "Auparavant, il n'y avait pas de droit d'absence pour les rendez-vous d'adoption."
+   },
+   {
+    "q": "Comment l'Assemblée a-t-elle voté le 5 mai 2025 ?",
+    "choix": [
+     "À une voix près",
+     "Elle a rejeté le texte",
+     "127 voix contre 0"
+    ],
+    "bonne": 2,
+    "expl": "Personne ne s'y est opposé."
+   }
+  ],
+  "debat": {
+   "question": "Un texte qui renforce des droits déjà en partie protégés par la loi est-il utile ?",
+   "consigne": "Aucun camp ne s'est opposé au texte. La classe présente les arguments rapportés dans la fiche, puis cherche quelles questions restent ouvertes (moyens, application, limites). On ne demande à aucun élève de dire ce qu'il pense."
+  }
+ }
 }

@@ -161,5 +161,63 @@
   "date": "2026-10-22"
  },
  "auteur": "Rédaction Aux Voix",
- "verif": "l'éditeur du site"
+ "verif": "l'éditeur du site",
+ "classe": {
+  "niveau": "Collège (3e) et lycée",
+  "duree": "20 minutes",
+  "mots": [
+   {
+    "terme": "Élu local",
+    "def": "Personne élue dans une commune, un département ou une région, comme un maire ou un adjoint."
+   },
+   {
+    "terme": "Indemnité",
+    "def": "Somme versée à un élu en contrepartie de son mandat."
+   },
+   {
+    "terme": "Conflit d'intérêts",
+    "def": "Situation où l'intérêt personnel d'un élu pourrait influencer une décision publique."
+   },
+   {
+    "terme": "Adoption sans modification",
+    "def": "Une assemblée adopte le texte tel que l'autre l'a voté : la loi peut être promulguée."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Combien de maires démissionnent chaque année, selon la ministre Françoise Gatel ?",
+    "choix": [
+     "45",
+     "450",
+     "4 500"
+    ],
+    "bonne": 1,
+    "expl": "Elle cite la difficulté de concilier mandat, travail et famille."
+   },
+   {
+    "q": "Quelles communes voient les indemnités de leurs élus augmenter ?",
+    "choix": [
+     "Celles de moins de 20 000 habitants, surtout les plus petites",
+     "Seulement Paris, Lyon et Marseille",
+     "Toutes les communes de plus de 100 000 habitants"
+    ],
+    "bonne": 0,
+    "expl": "Hausse d'environ 10 % sous 500 habitants, de 4 % entre 10 000 et 20 000."
+   },
+   {
+    "q": "Quel groupe s'est abstenu, notamment à cause des règles sur les conflits d'intérêts ?",
+    "choix": [
+     "Le RN",
+     "La France insoumise",
+     "Les socialistes"
+    ],
+    "bonne": 1,
+    "expl": "Personne n'a voté contre."
+   }
+  ],
+  "debat": {
+   "question": "Faut-il mieux rémunérer et protéger les élus locaux pour limiter les démissions ?",
+   "consigne": "Deux groupes présentent chacun les arguments d'un camp tels que la fiche les rapporte (rubrique « Ce qu'en disent les différents camps »). On ne demande à aucun élève de dire ce qu'il pense. La classe relève ensuite ce que chaque camp met en avant."
+  }
+ }
 }
