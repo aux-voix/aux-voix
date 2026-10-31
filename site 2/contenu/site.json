@@ -1,0 +1,22 @@
+{
+  "public": false,
+  "url": "https://auxvoix.fr",
+  "mentions": {
+    "anonyme": true,
+    "editeur": "",
+    "directeur_publication": "",
+    "contact": "contact@auxvoix.fr",
+    "hebergeur": "GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis"
+  },
+  "mesure_audience": {
+    "goatcounter": "auxvoix"
+  },
+  "avis": {
+    "form_url": "GOOGLE_FORM_URL"
+  },
+  "signalement": {
+    "delai_jours": 7,
+    "github": false,
+    "depot": "aux-voix/aux-voix.github.io"
+  }
+}

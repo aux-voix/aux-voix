@@ -1,0 +1,1407 @@
+{
+ "cours": [
+  {
+   "slug": "les-institutions",
+   "titre": "Les institutions de la Ve République",
+   "niveau": "Collège (3e)",
+   "groupe": "college",
+   "duree": "45 min de cours, 45 min de TD",
+   "objectif": "Savoir qui fait quoi : Président, Gouvernement, Parlement, Conseil constitutionnel et justice.",
+   "intro": "La France est une République dont les règles sont fixées par la Constitution du 4 octobre 1958. On parle de Ve République. Son principe de base est la séparation des pouvoirs : personne ne doit pouvoir décider de tout, tout seul.",
+   "parties": [
+    {
+     "h": "Trois pouvoirs distincts",
+     "p": [
+      "Le pouvoir exécutif applique les lois et dirige l'action de l'État : c'est le Président de la République et le Gouvernement.",
+      "Le pouvoir législatif écrit et vote les lois : c'est le Parlement, composé de l'Assemblée nationale et du Sénat.",
+      "Le pouvoir judiciaire règle les litiges et sanctionne les infractions : ce sont les juges et les tribunaux. La Constitution prévoit que la justice est indépendante."
+     ]
+    },
+    {
+     "h": "L'exécutif : le Président et le Gouvernement",
+     "p": [
+      "Le Président de la République est élu par les citoyens au suffrage universel direct, pour 5 ans, et ne peut pas faire plus de deux mandats consécutifs. Il nomme le Premier ministre, promulgue les lois, peut dissoudre l'Assemblée nationale, peut proposer un référendum dans les cas prévus par la Constitution et il est le chef des armées.",
+      "Le Gouvernement est dirigé par le Premier ministre. Selon la Constitution, il détermine et conduit la politique de la Nation. Il propose des lois (les projets de loi) et rédige les décrets. Il est responsable devant l'Assemblée nationale, qui peut le faire tomber par une motion de censure adoptée à la majorité absolue de ses membres."
+     ]
+    },
+    {
+     "h": "Le législatif : le Parlement",
+     "p": [
+      "L'Assemblée nationale compte 577 députés, élus au suffrage universel direct pour 5 ans, dans des circonscriptions.",
+      "Le Sénat compte 348 sénateurs, élus pour 6 ans au suffrage universel indirect : ce sont des élus locaux (les grands électeurs) qui votent. Il est renouvelé par moitié tous les 3 ans.",
+      "Le Parlement vote les lois, contrôle le Gouvernement (questions, commissions d'enquête, motion de censure) et vote le budget de l'État."
+     ]
+    },
+    {
+     "h": "Le contrôle : Conseil constitutionnel et justice",
+     "p": [
+      "Le Conseil constitutionnel compte 9 membres, nommés pour 9 ans non renouvelables : trois par le Président de la République, trois par le président de l'Assemblée nationale et trois par le président du Sénat. Il vérifie qu'une loi respecte la Constitution. Depuis 2010, un justiciable peut aussi soulever cette question devant un tribunal : c'est la question prioritaire de constitutionnalité (QPC).",
+      "Les juges appliquent la loi dans des affaires concrètes. Ils ne font pas la loi et ne dépendent ni du Gouvernement ni du Parlement."
+     ]
+    }
+   ],
+   "retenir": [
+    "La Constitution de 1958 organise la Ve République.",
+    "Séparation des pouvoirs : exécutif, législatif, judiciaire.",
+    "Le Président est élu au suffrage universel direct pour 5 ans ; le Gouvernement est dirigé par le Premier ministre.",
+    "Le Parlement (577 députés, 348 sénateurs) vote la loi et contrôle le Gouvernement.",
+    "Le Conseil constitutionnel vérifie qu'une loi respecte la Constitution."
+   ],
+   "mots": [
+    [
+     "Constitution",
+     "Texte suprême qui fixe l'organisation des pouvoirs et les droits fondamentaux."
+    ],
+    [
+     "Suffrage universel direct",
+     "Tous les citoyens votent eux-mêmes pour désigner l'élu."
+    ],
+    [
+     "Suffrage indirect",
+     "Des élus (et non tous les citoyens) votent pour désigner l'élu."
+    ],
+    [
+     "Promulguer",
+     "Signer une loi votée pour la rendre officielle."
+    ],
+    [
+     "Dissolution",
+     "Fin anticipée du mandat des députés, suivie de nouvelles élections législatives."
+    ],
+    [
+     "Motion de censure",
+     "Vote par lequel l'Assemblée peut renverser le Gouvernement."
+    ]
+   ],
+   "td": {
+    "consigne": "Réponds en une ou deux phrases. Utilise le cours.",
+    "questions": [
+     {
+      "q": "Qui élit le Président de la République ?",
+      "choix": [
+       "Les députés",
+       "Les citoyens, au suffrage universel direct",
+       "Le Sénat"
+      ],
+      "rep": "Les citoyens, au suffrage universel direct (réponse b)."
+     },
+     {
+      "q": "Combien y a-t-il de députés à l'Assemblée nationale ?",
+      "choix": [
+       "348",
+       "577",
+       "9"
+      ],
+      "rep": "577 (réponse b). 348 est le nombre de sénateurs, 9 celui des membres du Conseil constitutionnel."
+     },
+     {
+      "q": "Quelle institution vote les lois ?",
+      "choix": [
+       "Le Gouvernement",
+       "Le Conseil constitutionnel",
+       "Le Parlement"
+      ],
+      "rep": "Le Parlement (réponse c) : l'Assemblée nationale et le Sénat."
+     },
+     {
+      "q": "Cite deux pouvoirs du Président de la République.",
+      "rep": "Par exemple : nommer le Premier ministre, promulguer les lois, dissoudre l'Assemblée nationale, être chef des armées, proposer un référendum dans les cas prévus."
+     },
+     {
+      "q": "Explique la différence entre l'élection d'un député et celle d'un sénateur.",
+      "rep": "Les députés sont élus par tous les citoyens (suffrage direct) pour 5 ans. Les sénateurs sont élus pour 6 ans par des grands électeurs, qui sont des élus locaux (suffrage indirect)."
+     },
+     {
+      "q": "Relie chaque institution à son rôle : Gouvernement / Conseil constitutionnel / Assemblée nationale. Rôles : A. vérifier qu'une loi respecte la Constitution ; B. conduire la politique de la Nation ; C. voter les lois avec le Sénat.",
+      "rep": "Gouvernement : B. Conseil constitutionnel : A. Assemblée nationale : C."
+     }
+    ]
+   },
+   "liens": [
+    [
+     "La Constitution sur Légifrance",
+     "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000571356/"
+    ],
+    [
+     "Assemblée nationale",
+     "https://www.assemblee-nationale.fr/"
+    ],
+    [
+     "Sénat",
+     "https://www.senat.fr/"
+    ],
+    [
+     "Conseil constitutionnel",
+     "https://www.conseil-constitutionnel.fr/"
+    ]
+   ]
+  },
+  {
+   "slug": "comment-une-loi-est-votee",
+   "titre": "Comment une loi est votée",
+   "niveau": "Collège (3e)",
+   "groupe": "college",
+   "duree": "45 min de cours, 45 min de TD",
+   "objectif": "Suivre le parcours d'un texte, de son dépôt à sa publication.",
+   "intro": "Une loi ne se décide pas en une fois. Elle passe par des étapes précises, avec des votes et des débats publics. Connaître ce parcours permet de comprendre pourquoi une loi met parfois des mois à aboutir, ou n'aboutit pas.",
+   "parties": [
+    {
+     "h": "1. Qui peut proposer une loi ?",
+     "p": [
+      "Un projet de loi est déposé par le Gouvernement. Une proposition de loi est déposée par un ou plusieurs parlementaires (députés ou sénateurs). Dans les deux cas, le texte est ensuite examiné et peut être modifié par les parlementaires."
+     ]
+    },
+    {
+     "h": "2. L'examen dans la première assemblée",
+     "p": [
+      "Le texte est d'abord étudié en commission : un petit groupe de députés ou de sénateurs l'examine article par article et vote des amendements (des propositions de modification). Puis il est discuté en séance publique, article par article, et l'assemblée vote sur l'ensemble."
+     ]
+    },
+    {
+     "h": "3. La navette",
+     "p": [
+      "Le texte voté passe à l'autre assemblée, qui l'examine à son tour et peut le modifier. Ces allers-retours s'appellent la navette parlementaire. Un texte ne devient une loi que si les deux assemblées l'adoptent dans les mêmes termes."
+     ]
+    },
+    {
+     "h": "4. Le désaccord : la commission mixte paritaire",
+     "p": [
+      "Si les deux assemblées ne s'accordent pas, le Gouvernement peut réunir une commission mixte paritaire (CMP) : 7 députés et 7 sénateurs cherchent un texte de compromis. Si le désaccord persiste, l'Assemblée nationale peut avoir le dernier mot."
+     ]
+    },
+    {
+     "h": "5. Après le vote",
+     "p": [
+      "Avant la promulgation, des parlementaires (au moins 60 députés ou 60 sénateurs) ou certaines autorités peuvent demander au Conseil constitutionnel de vérifier le texte. Le Président de la République promulgue ensuite la loi dans un délai de 15 jours. Elle est publiée au Journal officiel et devient applicable. Souvent, des décrets d'application sont nécessaires pour la mettre en œuvre."
+     ]
+    },
+    {
+     "h": "Le cas particulier de l'article 49.3",
+     "p": [
+      "L'article 49, alinéa 3 de la Constitution permet au Premier ministre d'engager la responsabilité du Gouvernement sur un texte. Le texte est alors considéré comme adopté, sauf si une motion de censure est votée par la majorité absolue des députés. Depuis 2008, son usage est limité : les lois de finances, les lois de financement de la sécurité sociale et un autre texte par session."
+     ]
+    }
+   ],
+   "retenir": [
+    "Projet de loi : vient du Gouvernement. Proposition de loi : vient des parlementaires.",
+    "Étapes : commission, séance, navette entre les deux assemblées, CMP si désaccord.",
+    "Le Conseil constitutionnel peut vérifier la loi avant sa promulgation.",
+    "Le Président promulgue dans un délai de 15 jours ; la loi est publiée au Journal officiel."
+   ],
+   "mots": [
+    [
+     "Amendement",
+     "Proposition de modification d'un texte en discussion."
+    ],
+    [
+     "Navette parlementaire",
+     "Allers-retours d'un texte entre l'Assemblée nationale et le Sénat."
+    ],
+    [
+     "CMP",
+     "Commission mixte paritaire : 7 députés et 7 sénateurs chargés de trouver un compromis."
+    ],
+    [
+     "Promulgation",
+     "Acte du Président qui rend la loi officielle."
+    ],
+    [
+     "Décret d'application",
+     "Texte du Gouvernement qui précise comment appliquer une loi."
+    ]
+   ],
+   "td": {
+    "consigne": "Un TD en deux temps : les questions 1 à 5 avec le cours, la question 6 sur un vrai texte du site.",
+    "questions": [
+     {
+      "q": "Quelle est la différence entre un projet de loi et une proposition de loi ?",
+      "rep": "Le projet de loi est déposé par le Gouvernement. La proposition de loi est déposée par des parlementaires."
+     },
+     {
+      "q": "Remets dans l'ordre : A. promulgation et publication au Journal officiel ; B. examen en commission ; C. dépôt du texte ; D. vote en séance publique.",
+      "rep": "C, B, D, A : dépôt, commission, séance publique, promulgation et publication."
+     },
+     {
+      "q": "Que signifie CMP, et que fait-elle ?",
+      "rep": "Commission mixte paritaire : 7 députés et 7 sénateurs cherchent un compromis quand les deux assemblées ne sont pas d'accord."
+     },
+     {
+      "q": "Qui peut saisir le Conseil constitutionnel avant la promulgation d'une loi ? Que vérifie-t-il ?",
+      "rep": "Notamment 60 députés ou 60 sénateurs, ainsi que le Président de la République, le Premier ministre et les présidents des deux assemblées. Il vérifie que la loi respecte la Constitution."
+     },
+     {
+      "q": "Que se passe-t-il quand le Gouvernement utilise l'article 49.3 sur un texte ?",
+      "rep": "Le texte est considéré comme adopté, sauf si une motion de censure est votée à la majorité absolue des députés. Si la motion est adoptée, le texte est rejeté et le Gouvernement doit démissionner."
+     },
+     {
+      "q": "Sur auxvoix.fr, choisis une loi dans « Lois par thème ». Note : son titre, qui l'a déposée (Gouvernement ou parlementaires), le nombre d'étapes de son parcours, et le résultat des votes.",
+      "rep": "Réponse libre, à vérifier avec la fiche choisie : la fiche indique le parcours et les votes avec des liens vers les sources officielles. Aucune opinion n'est attendue, seulement des faits."
+     }
+    ]
+   },
+   "liens": [
+    [
+     "Comment une loi est votée, sur Aux Voix",
+     "https://auxvoix.fr/comprendre/comment-une-loi-est-votee/"
+    ],
+    [
+     "Lois par thème",
+     "https://auxvoix.fr/lois-par-theme/"
+    ],
+    [
+     "La fabrique de la loi, Assemblée nationale",
+     "https://www.assemblee-nationale.fr/"
+    ]
+   ]
+  },
+  {
+   "slug": "les-elections",
+   "titre": "Les élections en France",
+   "niveau": "Collège (3e)",
+   "groupe": "college",
+   "duree": "45 min de cours, 45 min de TD",
+   "objectif": "Distinguer les grandes élections, comprendre les deux modes de scrutin et savoir lire des résultats.",
+   "intro": "Voter est le moyen pour les citoyens de choisir ceux qui prennent les décisions. En France, on vote pour plusieurs sortes d'élections, avec des règles qui diffèrent. Comprendre ces règles permet de lire correctement des résultats.",
+   "parties": [
+    {
+     "h": "Qui peut voter ?",
+     "p": [
+      "Il faut avoir 18 ans, être de nationalité française et être inscrit sur les listes électorales. Les citoyens de l'Union européenne résidant en France peuvent voter aux élections municipales et européennes. En France, le vote est un droit, pas une obligation."
+     ]
+    },
+    {
+     "h": "Les grandes élections",
+     "p": [
+      "Présidentielle : tous les 5 ans. Législatives : tous les 5 ans, pour élire les 577 députés. Municipales : tous les 6 ans, pour les conseils municipaux. Européennes : tous les 5 ans, pour le Parlement européen. S'y ajoutent les élections départementales et régionales."
+     ]
+    },
+    {
+     "h": "Deux grands modes de scrutin",
+     "p": [
+      "Le scrutin majoritaire désigne le ou les candidats qui arrivent en tête. C'est le cas pour la présidentielle et les législatives : à la présidentielle, un candidat est élu au premier tour s'il obtient la majorité absolue des suffrages exprimés (plus de la moitié), sinon les deux premiers s'affrontent au second tour.",
+      "Aux législatives, un député est élu par circonscription. Au second tour peuvent se maintenir les candidats ayant obtenu au moins 12,5 % des électeurs inscrits.",
+      "Le scrutin proportionnel répartit les sièges selon le score de chaque liste. Il est utilisé pour les européennes (avec un seuil de 5 % des suffrages exprimés) et, avec une prime à la liste arrivée en tête, pour les municipales dans les communes d'au moins 1 000 habitants."
+     ]
+    },
+    {
+     "h": "Savoir lire des résultats",
+     "p": [
+      "Inscrits : tous les électeurs. Votants : ceux qui se sont déplacés. Abstention : les inscrits qui n'ont pas voté. Les bulletins blancs ou nuls sont comptés à part : depuis 2014, les votes blancs sont comptabilisés séparément des suffrages exprimés. Un pourcentage doit toujours être rapporté à la bonne base : suffrages exprimés ou inscrits ?"
+     ]
+    },
+    {
+     "h": "Se présenter à la présidentielle",
+     "p": [
+      "Pour être candidat à l'élection présidentielle, il faut recueillir les parrainages de 500 élus (maires, parlementaires, conseillers…), répartis dans au moins 30 départements ou collectivités."
+     ]
+    }
+   ],
+   "retenir": [
+    "Voter : 18 ans, nationalité française, inscription sur les listes ; c'est un droit.",
+    "Présidentielle : deux tours, majorité absolue des suffrages exprimés pour gagner dès le premier.",
+    "Scrutin majoritaire : le plus de voix gagne. Scrutin proportionnel : les sièges suivent les scores.",
+    "Abstention = inscrits − votants, rapportée aux inscrits."
+   ],
+   "mots": [
+    [
+     "Suffrages exprimés",
+     "Votes valables, sans les blancs ni les nuls."
+    ],
+    [
+     "Abstention",
+     "Part des inscrits qui n'ont pas voté."
+    ],
+    [
+     "Circonscription",
+     "Zone géographique où est élu un député."
+    ],
+    [
+     "Scrutin majoritaire",
+     "Les candidats arrivés en tête sont élus."
+    ],
+    [
+     "Scrutin proportionnel",
+     "Les sièges sont répartis selon le score de chaque liste."
+    ],
+    [
+     "Parrainage",
+     "Soutien d'un élu à un candidat à la présidentielle."
+    ]
+   ],
+   "td": {
+    "consigne": "Calculatrice autorisée. Les chiffres des exercices sont inventés.",
+    "questions": [
+     {
+      "q": "Vrai ou faux : en France, le vote est obligatoire. Justifie.",
+      "rep": "Faux. Le vote est un droit, pas une obligation."
+     },
+     {
+      "q": "Au premier tour d'une présidentielle fictive, A obtient 42 voix, B 31 voix et C 27 voix, sur 100 suffrages exprimés. Y a-t-il un élu ? Que se passe-t-il ?",
+      "rep": "Non : il faut plus de la moitié des suffrages exprimés (plus de 50). A et B, les deux premiers, vont au second tour."
+     },
+     {
+      "q": "Dans une ville de 1 000 inscrits, 640 personnes ont voté. Calcule le taux d'abstention.",
+      "rep": "Abstention : 1 000 − 640 = 360 personnes, soit 360 / 1 000 = 36 %."
+     },
+     {
+      "q": "Dans une circonscription de 80 000 inscrits, quel nombre de voix faut-il au minimum pour se maintenir au second tour des législatives (12,5 % des inscrits) ?",
+      "rep": "12,5 % de 80 000 = 10 000 voix."
+     },
+     {
+      "q": "Explique la différence entre scrutin majoritaire et scrutin proportionnel avec un exemple de chaque.",
+      "rep": "Majoritaire : les candidats arrivés en tête sont élus (présidentielle, législatives). Proportionnel : les sièges sont répartis selon les scores des listes (européennes)."
+     },
+     {
+      "q": "Cherche sur service-public.fr comment s'inscrire sur les listes électorales. Note deux informations utiles.",
+      "rep": "Réponse libre, à vérifier sur service-public.fr : par exemple l'inscription possible en ligne, les pièces demandées (identité, justificatif de domicile) et une date limite avant le scrutin."
+     }
+    ]
+   },
+   "liens": [
+    [
+     "Service-public.fr : s'inscrire sur les listes électorales",
+     "https://www.service-public.fr/"
+    ],
+    [
+     "Vie-publique.fr : les élections",
+     "https://www.vie-publique.fr/"
+    ],
+    [
+     "Candidats à la présidentielle 2027 sur Aux Voix",
+     "https://auxvoix.fr/#/presidentielle"
+    ]
+   ]
+  },
+  {
+   "slug": "droits-et-devoirs",
+   "titre": "Droits et devoirs du citoyen",
+   "niveau": "Collège (3e)",
+   "groupe": "college",
+   "duree": "45 min de cours, 45 min de TD",
+   "objectif": "Connaître les grands textes des droits, leurs limites, et les devoirs qui les accompagnent.",
+   "intro": "Vivre en démocratie, c'est avoir des droits et des responsabilités. Les droits protègent chacun, les limites protègent les autres. Les deux vont ensemble.",
+   "parties": [
+    {
+     "h": "Les grands textes",
+     "p": [
+      "La Déclaration des droits de l'homme et du citoyen de 1789 pose les principes de liberté et d'égalité. Elle affirme par exemple : « Les hommes naissent et demeurent libres et égaux en droits » (article 1) et « La loi est l'expression de la volonté générale » (article 6).",
+      "Le Préambule de la Constitution de 1946 ajoute des droits économiques et sociaux. La Charte de l'environnement de 2004 en fait partie. Ces textes sont rappelés par la Constitution de 1958 et le Conseil constitutionnel s'y réfère."
+     ]
+    },
+    {
+     "h": "Des droits et des libertés",
+     "p": [
+      "Les libertés : s'exprimer, penser, croire ou ne pas croire, se réunir, circuler. L'égalité : les mêmes droits pour tous devant la loi. Les droits civiques : voter, se présenter à une élection."
+     ]
+    },
+    {
+     "h": "Des limites",
+     "p": [
+      "Selon l'article 4 de la Déclaration de 1789, « La liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui ». La liberté d'expression est protégée, mais la loi sanctionne les abus : l'injure, la diffamation, l'incitation à la haine ou à la violence."
+     ]
+    },
+    {
+     "h": "Des devoirs",
+     "p": [
+      "Respecter la loi. Contribuer aux dépenses publiques par l'impôt, en fonction de ses moyens. Suivre l'instruction obligatoire : en France, de 3 à 16 ans, puis une obligation de formation jusqu'à 18 ans. Participer à la journée défense et citoyenneté (JDC). Siéger comme juré en cour d'assises si on est tiré au sort. Respecter les droits des autres."
+     ]
+    }
+   ],
+   "retenir": [
+    "La Déclaration de 1789, le Préambule de 1946 et la Charte de l'environnement de 2004 fondent nos droits.",
+    "Les libertés ont des limites : elles s'arrêtent là où elles nuisent à autrui.",
+    "Des droits, mais aussi des devoirs : respecter la loi, payer l'impôt, être instruit."
+   ],
+   "mots": [
+    [
+     "Droit",
+     "Ce que la loi garantit à chacun."
+    ],
+    [
+     "Liberté",
+     "Pouvoir faire ce que la loi n'interdit pas."
+    ],
+    [
+     "Devoir",
+     "Obligation envers les autres et la société."
+    ],
+    [
+     "Diffamation",
+     "Accusation fausse portant atteinte à l'honneur d'une personne."
+    ],
+    [
+     "Juré",
+     "Citoyen tiré au sort pour participer à un jugement en cour d'assises."
+    ]
+   ],
+   "td": {
+    "consigne": "Réponds avec des phrases courtes. Aucune opinion personnelle n'est attendue : appuie-toi sur les textes.",
+    "questions": [
+     {
+      "q": "En quelle année a été adoptée la Déclaration des droits de l'homme et du citoyen ?",
+      "choix": [
+       "1789",
+       "1946",
+       "2004"
+      ],
+      "rep": "1789 (réponse a)."
+     },
+     {
+      "q": "Complète : « La liberté consiste à pouvoir faire tout ce qui ne ... à autrui. » De quel article s'agit-il ?",
+      "rep": "« ... ne nuit pas à autrui. » C'est l'article 4 de la Déclaration de 1789."
+     },
+     {
+      "q": "Le droit de vote est-il un devoir ? Explique.",
+      "rep": "Non. Le vote est un droit ; il n'est pas obligatoire en France."
+     },
+     {
+      "q": "Cite trois devoirs d'un citoyen.",
+      "rep": "Par exemple : respecter la loi, payer l'impôt, suivre l'instruction obligatoire, participer à la JDC, siéger comme juré si on est tiré au sort."
+     },
+     {
+      "q": "Un élève publie sur un réseau social une insulte visant un camarade. Peut-il invoquer la liberté d'expression ? Justifie avec le cours.",
+      "rep": "Non, pas sans limite. La liberté d'expression s'arrête là où elle nuit à autrui : l'injure est sanctionnée par la loi (article 4 de la Déclaration de 1789 et lois sur l'injure et le harcèlement)."
+     },
+     {
+      "q": "Choisis un droit dans le Préambule de 1946 ou la Déclaration de 1789 et explique-le en une phrase avec tes mots.",
+      "rep": "Réponse libre, à vérifier avec le texte choisi. On valorise la reformulation fidèle, sans interprétation partisane."
+     }
+    ]
+   },
+   "liens": [
+    [
+     "Conseil constitutionnel : textes de référence",
+     "https://www.conseil-constitutionnel.fr/"
+    ],
+    [
+     "Vie-publique.fr : droits et libertés",
+     "https://www.vie-publique.fr/"
+    ]
+   ]
+  },
+  {
+   "slug": "lire-un-texte-de-loi",
+   "titre": "Lire un texte de loi",
+   "niveau": "Collège (3e)",
+   "groupe": "college",
+   "duree": "45 min de cours, 45 min de TD",
+   "objectif": "Savoir trouver un texte officiel, repérer sa structure et comprendre ses verbes clés.",
+   "intro": "Un texte de loi paraît difficile, mais il suit toujours la même structure. Avec quelques repères, tu peux lire un texte officiel toi-même plutôt que de dépendre d'un résumé.",
+   "parties": [
+    {
+     "h": "Où trouver les textes officiels ?",
+     "p": [
+      "Légifrance (legifrance.gouv.fr) publie le Journal officiel et tous les textes en vigueur. Les sites de l'Assemblée nationale et du Sénat publient les textes en discussion, les amendements et les comptes rendus des débats."
+     ]
+    },
+    {
+     "h": "Comment est construit un texte",
+     "p": [
+      "Un projet ou une proposition de loi commence par un exposé des motifs : il explique pourquoi l'auteur propose ce texte. Il n'a pas de valeur de loi. Puis viennent les articles, numérotés (article 1er, article 2, …), parfois regroupés en titres et chapitres. Chaque article peut contenir plusieurs alinéas.",
+      "Dans les codes (code civil, code du travail…), les articles ont des numéros du type L. 123-4. Une loi nouvelle peut modifier ces articles."
+     ]
+    },
+    {
+     "h": "Les verbes à repérer",
+     "p": [
+      "Modifier : on change des mots. Insérer ou ajouter : on ajoute un passage. Remplacer : on substitue un texte à un autre. Abroger : on supprime un texte. Le texte dit souvent « après l'article X, il est inséré un article Y » : c'est une consigne de modification du code."
+     ]
+    },
+    {
+     "h": "Qu'est-ce qui l'emporte ? La hiérarchie des normes",
+     "p": [
+      "La Constitution est au sommet. Viennent ensuite les traités internationaux, puis les lois, puis les décrets et arrêtés. Une règle inférieure ne peut pas contredire une règle supérieure.",
+      "Une loi s'applique à partir de sa publication, ou à la date qu'elle fixe. Quand elle renvoie à un décret, elle ne s'applique pleinement qu'après ce décret d'application."
+     ]
+    }
+   ],
+   "retenir": [
+    "Les textes officiels sont sur Légifrance, assemblee-nationale.fr et senat.fr.",
+    "Exposé des motifs : explique l'intention, mais n'est pas la loi. Les articles : c'est la loi.",
+    "Verbes clés : modifier, insérer, remplacer, abroger.",
+    "Hiérarchie : Constitution, traités, lois, décrets."
+   ],
+   "mots": [
+    [
+     "Exposé des motifs",
+     "Introduction qui explique les raisons d'un texte."
+    ],
+    [
+     "Article",
+     "Unité numérotée d'un texte de loi."
+    ],
+    [
+     "Alinéa",
+     "Paragraphe d'un article."
+    ],
+    [
+     "Abroger",
+     "Supprimer un texte en vigueur."
+    ],
+    [
+     "Code",
+     "Recueil qui regroupe les textes d'une matière."
+    ],
+    [
+     "Décret d'application",
+     "Texte qui précise les modalités d'application d'une loi."
+    ]
+   ],
+   "td": {
+    "consigne": "Le texte ci-dessous est inventé pour l'exercice. Il ne s'agit pas d'une vraie loi.",
+    "doc": "EXTRAIT FICTIF. Exposé des motifs : « Les bibliothèques municipales sont ouvertes trop peu de jours par semaine. Cette proposition de loi vise à les ouvrir le samedi. » Article 1er : Après l'article L. 100-1 du code de la lecture publique, il est inséré un article L. 100-2 ainsi rédigé : « Les bibliothèques municipales sont ouvertes au moins un samedi par mois. » Article 2 : L'article L. 100-5 du même code est abrogé.",
+    "questions": [
+     {
+      "q": "Dans l'extrait fictif, quelle partie explique les raisons du texte ? A-t-elle valeur de loi ?",
+      "rep": "L'exposé des motifs. Il n'a pas valeur de loi : seuls les articles ont cet effet."
+     },
+     {
+      "q": "Que fait l'article 1er ? Quel verbe te l'indique ?",
+      "rep": "Il ajoute un nouvel article L. 100-2 au code. Le verbe est « insérer » (« il est inséré »)."
+     },
+     {
+      "q": "Que fait l'article 2 ?",
+      "rep": "Il supprime l'article L. 100-5 du code : le verbe est « abroger »."
+     },
+     {
+      "q": "Classe dans l'ordre de la hiérarchie des normes, du plus haut au plus bas : décret, Constitution, loi, traité international.",
+      "rep": "Constitution, traité international, loi, décret."
+     },
+     {
+      "q": "Pourquoi un texte de loi peut-il être publié mais pas encore pleinement appliqué ?",
+      "rep": "Parce qu'il peut renvoyer à un décret d'application qui précise les modalités. Tant que ce décret n'est pas publié, la mise en œuvre est incomplète."
+     },
+     {
+      "q": "Sur Légifrance, retrouve un vrai article de loi de ton choix et note : son numéro, le code où il se trouve, et un verbe d'action qu'il contient.",
+      "rep": "Réponse libre, à vérifier sur Légifrance."
+     }
+    ]
+   },
+   "liens": [
+    [
+     "Légifrance",
+     "https://www.legifrance.gouv.fr/"
+    ],
+    [
+     "Assemblée nationale : textes en discussion",
+     "https://www.assemblee-nationale.fr/"
+    ],
+    [
+     "Sénat : textes en discussion",
+     "https://www.senat.fr/"
+    ]
+   ]
+  },
+  {
+   "slug": "sinformer-sans-se-faire-manipuler",
+   "titre": "S'informer sans se faire manipuler",
+   "niveau": "Collège (3e)",
+   "groupe": "college",
+   "duree": "45 min de cours, 45 min de TD",
+   "objectif": "Distinguer un fait d'une opinion et vérifier une information avant de la croire ou de la partager.",
+   "intro": "Sur Internet, une information peut être exacte, fausse, ancienne, tronquée ou simplement une opinion. Aucune source n'est parfaite : ce qui compte, c'est de savoir vérifier.",
+   "parties": [
+    {
+     "h": "Fait, opinion, rumeur",
+     "p": [
+      "Un fait peut être vérifié : « L'Assemblée nationale compte 577 députés ». Une opinion exprime un jugement : « Cette loi est utile » ou « Cette loi est inutile ». Elle peut être défendable, mais elle n'est ni vraie ni fausse comme un fait. Une rumeur est une information non vérifiée qui circule."
+     ]
+    },
+    {
+     "h": "Source primaire et source secondaire",
+     "p": [
+      "Une source primaire est la source d'origine : le texte de la loi sur Légifrance, le résultat d'un vote sur le site de l'Assemblée, un rapport officiel. Une source secondaire commente ou résume : un article de presse, une vidéo, un post. Quand c'est possible, remonte à la source primaire."
+     ]
+    },
+    {
+     "h": "Les réflexes de vérification",
+     "p": [
+      "Qui a publié, et dans quel but ? Quelle est la date ? D'où vient le chiffre, et à quoi se compare-t-il ? Le titre correspond-il au contenu ? Une autre source indépendante dit-elle la même chose ? Une capture d'écran, une image ou une vidéo sont-elles dans leur contexte d'origine ?"
+     ]
+    },
+    {
+     "h": "Nos propres biais",
+     "p": [
+      "Nous avons tendance à croire plus facilement ce qui confirme ce que nous pensons déjà : c'est le biais de confirmation. Pour s'en protéger, il est utile de lire aussi des sources qui ne vont pas dans notre sens, et de ne pas partager une information qui nous met en colère avant de l'avoir vérifiée."
+     ]
+    },
+    {
+     "h": "Et sur Aux Voix ?",
+     "p": [
+      "Aux Voix cite ses sources officielles pour chaque texte, présente les arguments de chaque camp et permet de signaler une erreur. Vérifier reste ton réflexe : compare toujours avec la source."
+     ]
+    }
+   ],
+   "retenir": [
+    "Un fait se vérifie ; une opinion se discute.",
+    "Remonter à la source primaire dès que possible.",
+    "Recouper avec au moins deux sources indépendantes.",
+    "Vérifier avant de partager."
+   ],
+   "mots": [
+    [
+     "Fait",
+     "Information qui peut être vérifiée."
+    ],
+    [
+     "Opinion",
+     "Jugement personnel, qu'on peut discuter."
+    ],
+    [
+     "Source primaire",
+     "Document ou donnée d'origine."
+    ],
+    [
+     "Recouper",
+     "Comparer plusieurs sources indépendantes."
+    ],
+    [
+     "Biais de confirmation",
+     "Tendance à croire ce qui confirme nos idées."
+    ]
+   ],
+   "td": {
+    "consigne": "Aucune des phrases ne cherche à te faire adopter un camp : il s'agit seulement d'identifier leur nature.",
+    "questions": [
+     {
+      "q": "Classe chaque phrase en « fait vérifiable » ou « opinion » : 1. Le Sénat compte 348 sénateurs. 2. Le Sénat est plus sage que l'Assemblée. 3. Un texte a été adopté par 300 voix contre 200. 4. Cette loi est inutile.",
+      "rep": "1. Fait vérifiable (site du Sénat). 2. Opinion. 3. Fait vérifiable (résultat du scrutin sur le site de l'Assemblée). 4. Opinion."
+     },
+     {
+      "q": "Où peux-tu vérifier le résultat d'un vote à l'Assemblée nationale ?",
+      "rep": "Sur le site de l'Assemblée nationale (assemblee-nationale.fr), rubrique des scrutins, ou sur la fiche du texte."
+     },
+     {
+      "q": "Une publication affirme : « Cette loi va changer votre vie, ils vous le cachent ! ». Cite deux réflexes à avoir avant de la partager.",
+      "rep": "Par exemple : chercher la source primaire (le texte de la loi), vérifier la date, regarder qui publie et pourquoi, recouper avec une autre source indépendante."
+     },
+     {
+      "q": "Quelle est la différence entre une source primaire et une source secondaire ? Donne un exemple de chaque.",
+      "rep": "Primaire : source d'origine (texte sur Légifrance). Secondaire : commentaire ou résumé (article de presse, vidéo)."
+     },
+     {
+      "q": "Qu'est-ce que le biais de confirmation ? Comment s'en protéger ?",
+      "rep": "C'est la tendance à croire ce qui confirme nos idées. Se protéger : lire des sources variées, vérifier avant de partager."
+     },
+     {
+      "q": "Choisis un chiffre cité dans une actualité récente. Retrouve sa source d'origine et note : qui l'a produit, à quelle date, et ce qu'il mesure exactement.",
+      "rep": "Réponse libre, à vérifier avec la source trouvée."
+     }
+    ]
+   },
+   "liens": [
+    [
+     "Légifrance",
+     "https://www.legifrance.gouv.fr/"
+    ],
+    [
+     "Assemblée nationale : scrutins",
+     "https://www.assemblee-nationale.fr/"
+    ],
+    [
+     "Aux Voix : sources officielles",
+     "https://auxvoix.fr/"
+    ]
+   ]
+  },
+  {
+   "slug": "lycee-pouvoirs-et-ve-republique",
+   "titre": "La Ve République : un régime entre présidentiel et parlementaire",
+   "niveau": "Lycée",
+   "duree": "1 h de cours, 1 h de TD",
+   "objectif": "Comprendre l'équilibre des pouvoirs en 1958, ses évolutions et les situations de cohabitation.",
+   "intro": "La Constitution de 1958 organise un exécutif à deux têtes (Président et Premier ministre) et un Parlement qui peut faire tomber le Gouvernement. On parle de régime semi-présidentiel. Le texte est resté le même dans ses grandes lignes, mais sa pratique a beaucoup évolué.",
+   "parties": [
+    {
+     "h": "Régime parlementaire, régime présidentiel",
+     "p": [
+      "Dans un régime parlementaire, le Gouvernement est responsable devant le Parlement, qui peut le renverser ; en échange, l'exécutif peut dissoudre le Parlement. Dans un régime présidentiel, le chef de l'État est élu directement et ne peut ni être renversé par le Parlement ni le dissoudre. La Ve République mélange les deux : le Président est élu directement, mais le Gouvernement reste responsable devant l'Assemblée nationale."
+     ]
+    },
+    {
+     "h": "Ce que dit la Constitution",
+     "p": [
+      "Article 3 : « La souveraineté nationale appartient au peuple qui l'exerce par ses représentants et par la voie du référendum. » Article 5 : le Président veille au respect de la Constitution et assure le fonctionnement régulier des pouvoirs publics. Article 20 : « Le Gouvernement détermine et conduit la politique de la Nation. » Article 24 : « Le Parlement vote la loi. Il contrôle l'action du Gouvernement. Il évalue les politiques publiques. »"
+     ]
+    },
+    {
+     "h": "Les moments clés",
+     "p": [
+      "1962 : par référendum, le Président est désormais élu au suffrage universel direct. 2000 : un référendum ramène le mandat de 7 à 5 ans (le quinquennat). 2008 : une révision constitutionnelle limite le Président à deux mandats consécutifs, encadre le recours à l'article 49.3 et renforce les pouvoirs du Parlement ; elle crée aussi la question prioritaire de constitutionnalité, applicable depuis 2010."
+     ]
+    },
+    {
+     "h": "La cohabitation",
+     "p": [
+      "Quand le Président et la majorité à l'Assemblée nationale appartiennent à des camps opposés, le Président doit nommer un Premier ministre issu de cette majorité : c'est la cohabitation. Elle a eu lieu trois fois : 1986-1988, 1993-1995 et 1997-2002. Le Premier ministre dirige alors réellement la politique du Gouvernement. Depuis le quinquennat et l'élection des députés juste après le Président, les cohabitations sont devenues moins probables."
+     ]
+    },
+    {
+     "h": "Les pouvoirs exceptionnels",
+     "p": [
+      "Le Président peut dissoudre l'Assemblée nationale (article 12), soumettre certains textes à référendum (article 11) et, en cas de menace grave et immédiate, exercer des pouvoirs exceptionnels (article 16) sous contrôle du Conseil constitutionnel. L'Assemblée peut renverser le Gouvernement par une motion de censure (article 49)."
+     ]
+    }
+   ],
+   "retenir": [
+    "La Ve République est un régime semi-présidentiel : Président élu directement, Gouvernement responsable devant l'Assemblée.",
+    "Dates clés : 1958 (Constitution), 1962 (élection directe), 2000 (quinquennat), 2008 (révision), 2010 (QPC).",
+    "Cohabitation : Président et majorité parlementaire de camps opposés ; 3 fois sous la Ve République.",
+    "Dissolution et motion de censure : les deux armes d'équilibre entre exécutif et Assemblée."
+   ],
+   "mots": [
+    [
+     "Régime semi-présidentiel",
+     "Régime qui combine un chef de l'État élu directement et un Gouvernement responsable devant le Parlement."
+    ],
+    [
+     "Cohabitation",
+     "Président et majorité de l'Assemblée de camps opposés."
+    ],
+    [
+     "Révision constitutionnelle",
+     "Modification du texte de la Constitution."
+    ],
+    [
+     "Référendum",
+     "Vote direct des citoyens sur un texte ou une question."
+    ],
+    [
+     "Souveraineté nationale",
+     "Le pouvoir appartient à la Nation, qui le délègue à des représentants."
+    ]
+   ],
+   "td": {
+    "consigne": "Réponds de façon rédigée et appuie-toi sur les articles cités dans le cours.",
+    "doc": "Article 3 de la Constitution : « La souveraineté nationale appartient au peuple qui l'exerce par ses représentants et par la voie du référendum. » Article 24 : « Le Parlement vote la loi. Il contrôle l'action du Gouvernement. Il évalue les politiques publiques. »",
+    "questions": [
+     {
+      "q": "Selon l'article 3, de quelles deux façons le peuple exerce-t-il la souveraineté ?",
+      "rep": "Par ses représentants (élus) et par la voie du référendum."
+     },
+     {
+      "q": "Donne les trois missions du Parlement selon l'article 24.",
+      "rep": "Voter la loi, contrôler l'action du Gouvernement, évaluer les politiques publiques."
+     },
+     {
+      "q": "Définis régime parlementaire et régime présidentiel, puis explique pourquoi la Ve République est qualifiée de semi-présidentielle.",
+      "rep": "Parlementaire : le Gouvernement est responsable devant le Parlement. Présidentiel : le chef de l'État est élu directement, sans responsabilité devant le Parlement. La Ve République combine un Président élu directement et un Gouvernement responsable devant l'Assemblée nationale."
+     },
+     {
+      "q": "Place sur une frise : 1958, 1962, 2000, 2008, 2010, et indique l'événement de chaque date.",
+      "rep": "1958 : Constitution. 1962 : élection du Président au suffrage direct. 2000 : quinquennat. 2008 : révision (deux mandats, 49.3 encadré). 2010 : QPC applicable."
+     },
+     {
+      "q": "Qu'est-ce qu'une cohabitation ? Cite les trois périodes.",
+      "rep": "Président et majorité à l'Assemblée de camps opposés. 1986-1988, 1993-1995, 1997-2002."
+     },
+     {
+      "q": "Pourquoi les cohabitations sont-elles devenues moins probables depuis les années 2000 ?",
+      "rep": "Le mandat présidentiel est de 5 ans comme celui des députés, et les législatives suivent la présidentielle de quelques semaines : les électeurs tendent à voter dans la même direction."
+     },
+     {
+      "q": "Rédige un court paragraphe (5 à 8 lignes) : « Quels sont les moyens d'action réciproques de l'exécutif et de l'Assemblée nationale ? »",
+      "rep": "Éléments attendus : dissolution (article 12) pour le Président ; motion de censure (article 49) et vote de la loi/contrôle pour l'Assemblée ; référendum (article 11) ; 49.3 pour le Gouvernement. On valorise la précision des articles et un plan clair, pas une prise de position."
+     }
+    ]
+   },
+   "liens": [
+    [
+     "Constitution du 4 octobre 1958",
+     "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000571356/"
+    ],
+    [
+     "Conseil constitutionnel : histoire et textes",
+     "https://www.conseil-constitutionnel.fr/"
+    ],
+    [
+     "Vie-publique.fr : les institutions",
+     "https://www.vie-publique.fr/"
+    ]
+   ],
+   "groupe": "lycee"
+  },
+  {
+   "slug": "lycee-fabrique-de-la-loi",
+   "titre": "La fabrique de la loi : procédures et domaine de la loi",
+   "niveau": "Lycée",
+   "duree": "1 h de cours, 1 h de TD",
+   "objectif": "Maîtriser le vocabulaire de la procédure parlementaire et comprendre ce que la loi peut ou ne peut pas régler.",
+   "intro": "Au-delà du parcours simple d'un texte, la procédure législative comporte des variantes et des règles précises. Comprendre ces règles permet d'analyser un débat ou un vote de façon rigoureuse.",
+   "parties": [
+    {
+     "h": "Loi ou règlement ?",
+     "p": [
+      "L'article 34 de la Constitution liste les domaines que la loi fixe (droits civiques, crimes et délits, impôts, nationalité…). Tout ce qui n'y figure pas relève du règlement, c'est-à-dire des décrets du Gouvernement (article 37). Il existe plusieurs catégories de lois : les lois ordinaires, les lois organiques (qui précisent l'organisation des pouvoirs publics et sont obligatoirement contrôlées par le Conseil constitutionnel), les lois de finances (le budget) et les lois de financement de la sécurité sociale."
+     ]
+    },
+    {
+     "h": "Les variantes de la procédure",
+     "p": [
+      "Procédure accélérée : le Gouvernement peut demander que le texte ne soit lu qu'une fois dans chaque assemblée avant la CMP, au lieu de deux. Après l'échec de la CMP, l'Assemblée nationale peut avoir le dernier mot (lecture définitive). Ordonnances (article 38) : le Parlement peut autoriser le Gouvernement à prendre par ordonnance des mesures qui relèvent normalement de la loi, pendant un temps limité ; une loi de ratification doit ensuite les confirmer. Vote bloqué (article 44, alinéa 3) : le Gouvernement peut demander à l'assemblée de se prononcer par un seul vote sur tout ou partie du texte, avec les seuls amendements qu'il accepte."
+     ]
+    },
+    {
+     "h": "Les règles qui encadrent les amendements",
+     "p": [
+      "L'article 40 rend irrecevable un amendement parlementaire qui diminuerait les recettes publiques ou créerait une charge publique. Les amendements doivent aussi avoir un lien avec le texte. Une journée par mois est réservée aux groupes d'opposition et aux groupes minoritaires (article 48) : c'est la « niche parlementaire »."
+     ]
+    },
+    {
+     "h": "Le contrôle de constitutionnalité",
+     "p": [
+      "Avant la promulgation, la saisine du Conseil constitutionnel est possible (60 députés ou 60 sénateurs, ou les autorités citées par la Constitution). Après la promulgation, la QPC permet à un justiciable de contester une disposition déjà en vigueur. Le Conseil peut déclarer des articles conformes, non conformes (ils sont supprimés) ou conformes sous réserve d'interprétation."
+     ]
+    },
+    {
+     "h": "Du texte à l'application",
+     "p": [
+      "Une loi ne suffit pas toujours : si elle renvoie à un décret d'application, elle n'est pleinement effective qu'à la publication de ce décret. Légifrance et les dossiers législatifs de l'Assemblée et du Sénat permettent de suivre le parcours complet."
+     ]
+    }
+   ],
+   "retenir": [
+    "Article 34 : domaine de la loi ; article 37 : domaine du règlement.",
+    "Variantes : procédure accélérée, ordonnances, vote bloqué.",
+    "Article 40 : irrecevabilité financière des amendements parlementaires.",
+    "QPC : contrôle après promulgation ; saisine préalable : contrôle avant promulgation."
+   ],
+   "mots": [
+    [
+     "Loi organique",
+     "Loi qui précise l'organisation des pouvoirs publics ; contrôle obligatoire du Conseil constitutionnel."
+    ],
+    [
+     "Ordonnance",
+     "Texte pris par le Gouvernement dans le domaine de la loi, avec l'autorisation du Parlement."
+    ],
+    [
+     "Procédure accélérée",
+     "Une seule lecture par assemblée avant la CMP."
+    ],
+    [
+     "Vote bloqué",
+     "Un seul vote sur le texte avec les amendements retenus par le Gouvernement."
+    ],
+    [
+     "QPC",
+     "Question prioritaire de constitutionnalité, posée à l'occasion d'un procès."
+    ]
+   ],
+   "td": {
+    "consigne": "Utilise les articles et le vocabulaire du cours. Les cas sont fictifs.",
+    "questions": [
+     {
+      "q": "Complète : le domaine de la loi est défini par l'article ... de la Constitution, et le domaine du règlement par l'article ....",
+      "rep": "34 et 37."
+     },
+     {
+      "q": "Qu'est-ce qu'une ordonnance ? Pourquoi une loi de ratification est-elle ensuite nécessaire ?",
+      "rep": "Un texte pris par le Gouvernement dans le domaine de la loi, avec l'autorisation du Parlement et pour une durée limitée. La ratification donne à l'ordonnance la valeur de loi."
+     },
+     {
+      "q": "Un groupe de députés propose un amendement qui supprime un impôt. Quelle règle peut le rendre irrecevable ?",
+      "rep": "L'article 40 : un amendement parlementaire ne peut pas diminuer les recettes publiques sans compensation."
+     },
+     {
+      "q": "Compare le contrôle de constitutionnalité avant promulgation et la QPC (qui, quand, effet).",
+      "rep": "Avant promulgation : saisine par des autorités ou 60 parlementaires, avant l'entrée en vigueur. QPC : posée par un justiciable lors d'un procès, après l'entrée en vigueur. Dans les deux cas, une disposition non conforme peut être censurée."
+     },
+     {
+      "q": "Que change la procédure accélérée ? Dans quel but ?",
+      "rep": "Une seule lecture par assemblée avant la CMP au lieu de deux : cela raccourcit le parcours du texte."
+     },
+     {
+      "q": "Sur auxvoix.fr, choisis une fiche de loi. Retrouve : le type de texte (projet ou proposition), si une CMP a eu lieu, et si le Conseil constitutionnel a été saisi.",
+      "rep": "Réponse libre, à vérifier sur la fiche et les liens officiels."
+     },
+     {
+      "q": "Rédige un paragraphe argumenté : « Pourquoi la procédure législative comporte-t-elle autant d'étapes et de règles ? ». Reste factuel.",
+      "rep": "Éléments possibles : garantir le débat public et le pluralisme, permettre aux deux assemblées de s'exprimer, vérifier la constitutionnalité, éviter l'adoption précipitée, mais aussi des variantes (procédure accélérée, 49.3) pour permettre de décider. On attend un plan et des références précises, pas un jugement partisan."
+     }
+    ]
+   },
+   "liens": [
+    [
+     "Constitution : articles 34 à 49",
+     "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000571356/"
+    ],
+    [
+     "Règlement de l'Assemblée nationale",
+     "https://www.assemblee-nationale.fr/"
+    ],
+    [
+     "Les dossiers législatifs du Sénat",
+     "https://www.senat.fr/"
+    ]
+   ],
+   "groupe": "lycee"
+  },
+  {
+   "slug": "lycee-systemes-electoraux",
+   "titre": "Les systèmes électoraux et leurs effets",
+   "niveau": "Lycée",
+   "duree": "1 h de cours, 1 h de TD",
+   "objectif": "Comparer scrutin majoritaire et proportionnel, calculer une répartition de sièges et analyser l'abstention.",
+   "intro": "Le mode de scrutin n'est pas neutre : à partir des mêmes votes, des règles différentes peuvent donner des résultats différents. Étudier ces règles, avec des chiffres, permet d'analyser une élection sans parti pris.",
+   "parties": [
+    {
+     "h": "Le scrutin majoritaire",
+     "p": [
+      "Uninominal à deux tours (législatives) : un siège par circonscription ; au premier tour, il faut la majorité absolue des suffrages exprimés et un nombre de voix au moins égal à 25 % des inscrits ; sinon second tour, ouvert aux candidats ayant obtenu au moins 12,5 % des inscrits. Avantages avancés : un lien direct entre l'élu et un territoire, des majorités claires. Limite avancée : une part des votes peut ne pas être représentée en sièges."
+     ]
+    },
+    {
+     "h": "Le scrutin proportionnel",
+     "p": [
+      "Les sièges sont répartis selon le score de chaque liste. Avec la règle de la plus forte moyenne (méthode d'Hondt), on divise les voix de chaque liste par 1, 2, 3… et on attribue les sièges aux plus grands quotients. Avantages avancés : une meilleure représentation des courants d'opinion. Limite avancée : des majorités plus difficiles à former. Un seuil (5 % pour les européennes) écarte les très petites listes."
+     ]
+    },
+    {
+     "h": "Les scrutins mixtes",
+     "p": [
+      "Aux municipales dans les communes d'au moins 1 000 habitants, la liste arrivée en tête reçoit la moitié des sièges (prime majoritaire), le reste est réparti à la proportionnelle entre les listes ayant atteint 5 %. Le but est de dégager une majorité de gestion tout en représentant les minorités."
+     ]
+    },
+    {
+     "h": "Participation et abstention",
+     "p": [
+      "L'abstention se calcule en rapportant les inscrits qui n'ont pas voté à l'ensemble des inscrits. Elle varie selon le type d'élection, l'âge et le contexte. Pour l'interpréter, il faut éviter les raccourcis : elle peut traduire du désintérêt, un désaccord avec l'offre politique, un empêchement ou un choix. L'inscription est un préalable : des citoyens non inscrits ou mal inscrits ne peuvent pas voter."
+     ]
+    },
+    {
+     "h": "Lire un résultat sans se tromper",
+     "p": [
+      "Un même résultat peut se lire en pourcentage des exprimés, des votants ou des inscrits. Il faut toujours préciser la base. Les bulletins blancs sont comptés séparément des suffrages exprimés depuis 2014."
+     ]
+    }
+   ],
+   "retenir": [
+    "Majoritaire : les arrivés en tête gagnent ; proportionnel : les sièges suivent les scores.",
+    "Plus forte moyenne : on divise les voix par 1, 2, 3… et on classe les quotients.",
+    "Mixte : prime majoritaire aux municipales (communes de 1 000 habitants et plus).",
+    "Toujours préciser la base d'un pourcentage : exprimés, votants ou inscrits."
+   ],
+   "mots": [
+    [
+     "Prime majoritaire",
+     "Part de sièges attribuée d'abord à la liste arrivée en tête."
+    ],
+    [
+     "Plus forte moyenne",
+     "Méthode de répartition des sièges par quotients successifs."
+    ],
+    [
+     "Seuil",
+     "Score minimal pour obtenir des sièges."
+    ],
+    [
+     "Uninominal",
+     "Un seul siège à pourvoir, un seul nom sur le bulletin."
+    ],
+    [
+     "Taux de participation",
+     "Part des inscrits qui ont voté."
+    ]
+   ],
+   "td": {
+    "consigne": "Les listes et les résultats sont inventés. Détaille tes calculs.",
+    "questions": [
+     {
+      "q": "Dans une circonscription fictive de 60 000 inscrits, 36 000 personnes ont voté. Calcule le taux de participation et le taux d'abstention.",
+      "rep": "Participation : 36 000 / 60 000 = 60 %. Abstention : 40 %."
+     },
+     {
+      "q": "Au second tour, quel nombre minimal de voix faut-il à un candidat pour se maintenir dans cette circonscription (12,5 % des inscrits) ?",
+      "rep": "12,5 % de 60 000 = 7 500 voix."
+     },
+     {
+      "q": "Six sièges sont à pourvoir à la proportionnelle (plus forte moyenne). Les listes obtiennent : A 5 000 voix, B 3 000 voix, C 2 000 voix. Répartis les sièges.",
+      "rep": "Quotients : A : 5 000, 2 500, 1 667, 1 250… ; B : 3 000, 1 500, 1 000 ; C : 2 000, 1 000. Les six plus grands : 5 000 (A), 3 000 (B), 2 500 (A), 2 000 (C), 1 667 (A), 1 500 (B). Résultat : A 3 sièges, B 2 sièges, C 1 siège."
+     },
+     {
+      "q": "Avec les mêmes voix, la liste D a obtenu 4 % des exprimés dans une élection à seuil de 5 %. Peut-elle avoir des sièges ? Justifie.",
+      "rep": "Non : elle n'atteint pas le seuil de 5 %, elle n'est pas prise en compte pour la répartition."
+     },
+     {
+      "q": "Compare deux avantages et deux limites du scrutin majoritaire et du scrutin proportionnel, tels que les présentent leurs défenseurs et leurs critiques.",
+      "rep": "Majoritaire : avantages avancés (lien élu-territoire, majorités claires), limites avancées (votes non représentés). Proportionnel : avantage avancé (représentation de la diversité des opinions), limite avancée (majorités plus difficiles). On valorise la présentation équilibrée des arguments."
+     },
+     {
+      "q": "Un journal titre : « 70 % des électeurs ont soutenu X ». Quelles questions poser pour vérifier ce chiffre ?",
+      "rep": "Sur quelle base ? Exprimés, votants ou inscrits ? Quel tour ? Quelle élection ? Quel périmètre ? Quelle source officielle ?"
+     },
+     {
+      "q": "Rédige un court paragraphe : « Pourquoi le mode de scrutin influence-t-il la composition d'une assemblée ? »",
+      "rep": "Idée attendue : les règles de transformation des votes en sièges (circonscription, seuil, prime, quotient) changent le résultat à partir des mêmes votes. L'exemple chiffré de la question 3 peut servir. Pas de prise de position."
+     }
+    ]
+   },
+   "liens": [
+    [
+     "Vie-publique.fr : les modes de scrutin",
+     "https://www.vie-publique.fr/"
+    ],
+    [
+     "Ministère de l'Intérieur : résultats des élections",
+     "https://www.resultats-elections.interieur.gouv.fr/"
+    ],
+    [
+     "Service-public.fr : voter",
+     "https://www.service-public.fr/"
+    ]
+   ],
+   "groupe": "lycee"
+  },
+  {
+   "slug": "lycee-libertes-et-limites",
+   "titre": "Les libertés fondamentales et leurs limites",
+   "niveau": "Lycée",
+   "duree": "1 h de cours, 1 h de TD",
+   "objectif": "Comprendre comment le droit protège les libertés, comment il les limite et qui tranche en cas de conflit.",
+   "intro": "Une liberté n'est pas absolue : elle s'exerce dans un cadre fixé par la loi, sous le contrôle d'un juge. Le droit cherche constamment à concilier des libertés qui peuvent entrer en conflit, comme la liberté d'expression et le respect de la vie privée.",
+   "parties": [
+    {
+     "h": "Les sources des libertés",
+     "p": [
+      "Le bloc de constitutionnalité regroupe la Constitution de 1958, la Déclaration de 1789, le Préambule de 1946 et la Charte de l'environnement de 2004. S'y ajoute la Convention européenne des droits de l'homme (1950), appliquée par la Cour européenne des droits de l'homme (Strasbourg)."
+     ]
+    },
+    {
+     "h": "Deux textes à connaître",
+     "p": [
+      "Article 10 de la Déclaration de 1789 : « Nul ne doit être inquiété pour ses opinions, même religieuses, pourvu que leur manifestation ne trouble pas l'ordre public établi par la loi. » Article 11 : « La libre communication des pensées et des opinions est un des droits les plus précieux de l'homme : tout citoyen peut donc parler, écrire, imprimer librement, sauf à répondre de l'abus de cette liberté dans les cas déterminés par la loi. »"
+     ]
+    },
+    {
+     "h": "La laïcité",
+     "p": [
+      "La loi du 9 décembre 1905 organise la séparation des Églises et de l'État. L'article 1er dispose : « La République assure la liberté de conscience. Elle garantit le libre exercice des cultes sous les seules restrictions édictées ci-après dans l'intérêt de l'ordre public. » L'article 2 : « La République ne reconnaît, ne salarie ni ne subventionne aucun culte. » La laïcité garantit à la fois la liberté de croire ou de ne pas croire et la neutralité de l'État."
+     ]
+    },
+    {
+     "h": "Limiter une liberté : à quelles conditions ?",
+     "p": [
+      "Une restriction doit être prévue par la loi, poursuivre un but légitime (ordre public, droits d'autrui…) et rester proportionnée : on ne doit pas aller plus loin que nécessaire. Le juge contrôle cette proportionnalité. Exemples : la loi du 29 juillet 1881 sur la liberté de la presse définit les abus de la liberté d'expression (diffamation, injure) ; la loi du 3 avril 1955 permet de déclarer l'état d'urgence, qui autorise temporairement des mesures exceptionnelles sous contrôle du juge."
+     ]
+    },
+    {
+     "h": "Qui protège les libertés ?",
+     "p": [
+      "Les juges judiciaires et administratifs, le Conseil constitutionnel (y compris par la QPC), la Cour européenne des droits de l'homme, et le Défenseur des droits, autorité indépendante que chacun peut saisir."
+     ]
+    }
+   ],
+   "retenir": [
+    "Libertés protégées par le bloc de constitutionnalité et la Convention européenne des droits de l'homme.",
+    "Une restriction doit être légale, justifiée et proportionnée.",
+    "La laïcité garantit la liberté de conscience et la neutralité de l'État.",
+    "Le juge, le Conseil constitutionnel, la CEDH et le Défenseur des droits protègent les libertés."
+   ],
+   "mots": [
+    [
+     "Bloc de constitutionnalité",
+     "Ensemble des textes de valeur constitutionnelle."
+    ],
+    [
+     "Proportionnalité",
+     "Une mesure ne doit pas excéder ce qui est nécessaire pour atteindre son but."
+    ],
+    [
+     "Ordre public",
+     "Ensemble des règles de sécurité, de tranquillité et de salubrité publiques."
+    ],
+    [
+     "Laïcité",
+     "Séparation des Églises et de l'État, liberté de conscience."
+    ],
+    [
+     "Défenseur des droits",
+     "Autorité indépendante qui protège les droits et libertés."
+    ]
+   ],
+   "td": {
+    "consigne": "Cite les articles à l'appui de tes réponses. Il ne s'agit pas de donner ton opinion mais d'appliquer le droit.",
+    "doc": "Article 11 de la Déclaration de 1789 : « La libre communication des pensées et des opinions est un des droits les plus précieux de l'homme : tout citoyen peut donc parler, écrire, imprimer librement, sauf à répondre de l'abus de cette liberté dans les cas déterminés par la loi. »",
+    "questions": [
+     {
+      "q": "Selon l'article 11, la liberté d'expression est-elle absolue ? Relève l'expression qui le montre.",
+      "rep": "Non. L'expression « sauf à répondre de l'abus de cette liberté dans les cas déterminés par la loi » prévoit des limites fixées par la loi."
+     },
+     {
+      "q": "Cite trois conditions pour qu'une restriction à une liberté soit légitime.",
+      "rep": "Prévue par la loi, poursuivant un but légitime (ordre public, droits d'autrui), proportionnée."
+     },
+     {
+      "q": "Que garantissent les articles 1er et 2 de la loi de 1905 ?",
+      "rep": "Art. 1 : la liberté de conscience et le libre exercice des cultes dans l'intérêt de l'ordre public. Art. 2 : la République ne reconnaît, ne salarie ni ne subventionne aucun culte."
+     },
+     {
+      "q": "Distingue la CEDH du Conseil constitutionnel : qui, quel texte de référence, où ?",
+      "rep": "CEDH : juridiction européenne à Strasbourg, applique la Convention européenne des droits de l'homme. Conseil constitutionnel : juridiction française, applique la Constitution et le bloc de constitutionnalité."
+     },
+     {
+      "q": "Un site publie une accusation fausse contre un particulier. Quelles libertés sont en jeu ? Quel texte définit l'abus ?",
+      "rep": "La liberté d'expression et le droit à l'honneur et à la vie privée de la personne visée. La loi de 1881 sur la liberté de la presse définit la diffamation et l'injure."
+     },
+     {
+      "q": "Qu'est-ce que l'état d'urgence ? Comment est-il encadré ?",
+      "rep": "Régime exceptionnel prévu par la loi de 1955 qui permet des mesures temporaires renforcées. Il doit être prévu par la loi, limité dans le temps et contrôlé par le juge et le Parlement."
+     },
+     {
+      "q": "Rédige un paragraphe : « Comment le droit concilie-t-il deux libertés qui s'opposent ? » Prends l'exemple liberté d'expression / vie privée.",
+      "rep": "Éléments attendus : principe de proportionnalité, rôle du juge, texte de référence (art. 11 de la Déclaration, loi de 1881), mise en balance au cas par cas. Aucune prise de position partisane."
+     }
+    ]
+   },
+   "liens": [
+    [
+     "Déclaration de 1789 et textes de référence",
+     "https://www.conseil-constitutionnel.fr/"
+    ],
+    [
+     "Cour européenne des droits de l'homme",
+     "https://www.echr.coe.int/"
+    ],
+    [
+     "Défenseur des droits",
+     "https://www.defenseurdesdroits.fr/"
+    ]
+   ],
+   "groupe": "lycee"
+  },
+  {
+   "slug": "lycee-justice-et-droit",
+   "titre": "La justice : organisation et grands principes",
+   "niveau": "Lycée",
+   "duree": "1 h de cours, 1 h de TD",
+   "objectif": "Distinguer les deux ordres de juridictions et connaître les principes d'un procès équitable.",
+   "intro": "La justice tranche des conflits et sanctionne des infractions en appliquant la loi. En France, elle est organisée en deux ordres de juridictions, avec des principes communs de protection de la personne jugée.",
+   "parties": [
+    {
+     "h": "Deux ordres de juridictions",
+     "p": [
+      "L'ordre judiciaire juge les litiges entre particuliers (civil) et les infractions (pénal). Ses juridictions sont notamment le tribunal judiciaire, la cour d'appel et, au sommet, la Cour de cassation. L'ordre administratif juge les litiges entre un particulier et l'administration : tribunal administratif, cour administrative d'appel et, au sommet, le Conseil d'État. Le Tribunal des conflits désigne l'ordre compétent en cas de doute."
+     ]
+    },
+    {
+     "h": "Civil et pénal",
+     "p": [
+      "En matière civile, un juge règle un litige (contrat, famille, voisinage) et peut accorder des dommages-intérêts. En matière pénale, la société sanctionne une infraction : contravention, délit ou crime, de la plus légère à la plus grave. Pour les crimes les plus graves, des citoyens tirés au sort participent au jugement devant la cour d'assises."
+     ]
+    },
+    {
+     "h": "Des principes protecteurs",
+     "p": [
+      "Article 8 de la Déclaration de 1789 : « nul ne peut être puni qu'en vertu d'une loi établie et promulguée antérieurement au délit » (légalité des délits et des peines). Article 9 : tout homme est « présumé innocent jusqu'à ce qu'il ait été déclaré coupable » (présomption d'innocence). S'y ajoutent le droit à un procès équitable, le droit à un avocat et la possibilité de faire appel d'une décision."
+     ]
+    },
+    {
+     "h": "L'indépendance de la justice",
+     "p": [
+      "La Constitution fait du Président de la République le garant de l'indépendance de l'autorité judiciaire, assisté par le Conseil supérieur de la magistrature. Les juges ne reçoivent pas d'ordres du Gouvernement dans les affaires qu'ils jugent."
+     ]
+    },
+    {
+     "h": "Accéder à la justice",
+     "p": [
+      "L'aide juridictionnelle permet à une personne aux ressources modestes d'être aidée pour les frais de justice. Le Défenseur des droits peut être saisi gratuitement en cas de difficulté avec l'administration."
+     ]
+    }
+   ],
+   "retenir": [
+    "Deux ordres : judiciaire (Cour de cassation) et administratif (Conseil d'État).",
+    "Légalité des délits et des peines, présomption d'innocence, procès équitable.",
+    "La justice est indépendante ; le Conseil supérieur de la magistrature y contribue.",
+    "L'aide juridictionnelle facilite l'accès à la justice."
+   ],
+   "mots": [
+    [
+     "Infraction",
+     "Comportement interdit par la loi et puni : contravention, délit ou crime."
+    ],
+    [
+     "Présomption d'innocence",
+     "Toute personne est innocente tant que sa culpabilité n'est pas établie."
+    ],
+    [
+     "Appel",
+     "Demande de réexamen d'un jugement par une juridiction supérieure."
+    ],
+    [
+     "Dommages-intérêts",
+     "Somme versée pour réparer un préjudice."
+    ],
+    [
+     "Aide juridictionnelle",
+     "Prise en charge totale ou partielle des frais de justice."
+    ]
+   ],
+   "td": {
+    "consigne": "Les cas sont fictifs. Applique les principes du cours sans te prononcer sur le fond.",
+    "questions": [
+     {
+      "q": "Dans quel ordre juridictionnel se règle chaque litige : A. un voisin conteste une clôture ; B. un habitant conteste un refus de permis de construire de la mairie ; C. un vol.",
+      "rep": "A : judiciaire (civil). B : administratif. C : judiciaire (pénal)."
+     },
+     {
+      "q": "Donne la juridiction suprême de chaque ordre.",
+      "rep": "Judiciaire : Cour de cassation. Administratif : Conseil d'État."
+     },
+     {
+      "q": "Explique la présomption d'innocence et cite l'article de la Déclaration de 1789 qui la fonde.",
+      "rep": "Toute personne est considérée comme innocente jusqu'à ce que sa culpabilité soit prouvée. Article 9."
+     },
+     {
+      "q": "Qu'affirme l'article 8 de la Déclaration de 1789 sur les peines ?",
+      "rep": "Nul ne peut être puni qu'en vertu d'une loi établie et promulguée avant le délit : légalité des délits et des peines, et pas de rétroactivité."
+     },
+     {
+      "q": "Pourquoi la possibilité de faire appel est-elle une garantie pour les justiciables ?",
+      "rep": "Une deuxième juridiction réexamine l'affaire, ce qui limite le risque d'erreur."
+     },
+     {
+      "q": "Qui garantit l'indépendance de la justice, et avec quel organe ?",
+      "rep": "Le Président de la République, assisté du Conseil supérieur de la magistrature."
+     },
+     {
+      "q": "Rédige un paragraphe : « En quoi l'indépendance des juges protège-t-elle les citoyens ? »",
+      "rep": "Éléments attendus : impartialité, jugement fondé sur la loi et non sur des pressions, égalité devant la loi, confiance dans les institutions. On attend des arguments et des références, pas de commentaire sur une affaire réelle."
+     }
+    ]
+   },
+   "liens": [
+    [
+     "Justice.fr : l'organisation de la justice",
+     "https://www.justice.fr/"
+    ],
+    [
+     "Cour de cassation",
+     "https://www.courdecassation.fr/"
+    ],
+    [
+     "Conseil d'État",
+     "https://www.conseil-etat.fr/"
+    ]
+   ],
+   "groupe": "lycee"
+  },
+  {
+   "slug": "lycee-medias-et-information",
+   "titre": "Médias, information et esprit critique",
+   "niveau": "Lycée",
+   "duree": "1 h de cours, 1 h de TD",
+   "objectif": "Comprendre comment fonctionnent les médias et les plateformes, ce que dit le droit et comment vérifier une information.",
+   "intro": "Une information arrive jusqu'à nous après de nombreuses étapes : production, choix éditoriaux, diffusion, recommandation par des algorithmes. Comprendre cette chaîne aide à mieux juger ce que l'on lit et à savoir ce qu'on a le droit de publier.",
+   "parties": [
+    {
+     "h": "Qui fabrique l'information ?",
+     "p": [
+      "Les journalistes recueillent, vérifient et hiérarchisent les informations. Les médias ont des modèles économiques différents (publicité, abonnements, financement public) et des propriétaires divers. Le pluralisme est reconnu par le Conseil constitutionnel comme un objectif de valeur constitutionnelle. Les agences de presse fournissent des dépêches reprises par de nombreux médias."
+     ]
+    },
+    {
+     "h": "Le rôle des plateformes",
+     "p": [
+      "Les réseaux sociaux et les moteurs de recherche ne produisent pas l'information mais la diffusent. Leurs algorithmes de recommandation mettent en avant certains contenus, souvent ceux qui suscitent le plus de réactions. L'information qui apparaît dans un fil dépend donc de choix techniques et des comportements passés de l'utilisateur."
+     ]
+    },
+    {
+     "h": "Ce que dit le droit",
+     "p": [
+      "Publier est une liberté, mais engage la responsabilité : la loi de 1881 sanctionne notamment la diffamation et l'injure, et les délais pour agir sont courts. L'Arcom, régulateur de l'audiovisuel et du numérique, veille notamment au pluralisme et au respect des règles à la télévision et à la radio. Une personne mise en cause dans un média peut demander un droit de réponse."
+     ]
+    },
+    {
+     "h": "Une méthode de vérification",
+     "p": [
+      "1. Identifier la source d'origine (source primaire). 2. Lire latéralement : ouvrir d'autres sources indépendantes pour juger la fiabilité du site qui publie. 3. Vérifier la date et le contexte. 4. Retrouver l'origine d'une image (recherche d'image inversée). 5. Se demander qui a intérêt à diffuser l'information. 6. Garder un doute raisonnable : une information incertaine peut se dire « pas confirmé »."
+     ]
+    },
+    {
+     "h": "Les biais qui nous trompent",
+     "p": [
+      "Biais de confirmation, effet de groupe, émotion. Les contenus qui nous indignent sont plus partagés : c'est un signal pour vérifier avant de relayer. Les images et sons générés par des outils peuvent sembler réalistes : leur apparence ne prouve rien."
+     ]
+    }
+   ],
+   "retenir": [
+    "Distinguer production, diffusion et recommandation de l'information.",
+    "Publier engage la responsabilité (loi de 1881).",
+    "Remonter à la source primaire et lire latéralement.",
+    "Une émotion forte doit pousser à vérifier avant de partager."
+   ],
+   "mots": [
+    [
+     "Pluralisme",
+     "Diversité des opinions et des sources dans les médias."
+    ],
+    [
+     "Algorithme de recommandation",
+     "Programme qui choisit les contenus montrés à chaque utilisateur."
+    ],
+    [
+     "Lecture latérale",
+     "Vérifier une source en consultant d'autres sites à son sujet."
+    ],
+    [
+     "Droit de réponse",
+     "Droit de répondre à un média qui a mis une personne en cause."
+    ],
+    [
+     "Arcom",
+     "Autorité de régulation de l'audiovisuel et du numérique."
+    ]
+   ],
+   "td": {
+    "consigne": "Aucune des affirmations ne vise à te faire choisir un camp. Il s'agit d'appliquer une méthode.",
+    "questions": [
+     {
+      "q": "Explique la différence entre produire une information et la diffuser. Donne un acteur pour chaque étape.",
+      "rep": "Produire : recueillir, vérifier (journaliste, agence de presse). Diffuser : rendre accessible (média, réseau social, moteur de recherche)."
+     },
+     {
+      "q": "Pourquoi un algorithme de recommandation peut-il influencer ce qu'on voit ?",
+      "rep": "Il classe les contenus selon des critères (réactions, historique) et met en avant certains contenus plutôt que d'autres."
+     },
+     {
+      "q": "Un post affirme : « Un article a été voté en cachette cette nuit ! ». Décris trois étapes de vérification.",
+      "rep": "Chercher le texte et la date du vote sur le site de l'Assemblée ou de Légifrance ; vérifier le compte rendu et les séances publiques ; recouper avec une autre source indépendante."
+     },
+     {
+      "q": "Que sanctionne la loi de 1881 ? Pourquoi cela concerne aussi un utilisateur de réseau social ?",
+      "rep": "Notamment la diffamation et l'injure. Un propos publié en ligne est public et peut engager la responsabilité de son auteur."
+     },
+     {
+      "q": "À quoi sert la lecture latérale ?",
+      "rep": "À juger la fiabilité d'une source en consultant d'autres sites qui parlent d'elle plutôt qu'en se fiant à son propre discours."
+     },
+     {
+      "q": "Une image montre un événement. Quels moyens pour vérifier son origine et sa date ?",
+      "rep": "Recherche d'image inversée, recherche des premières publications, vérification des métadonnées et du contexte, recoupement avec des sources fiables."
+     },
+     {
+      "q": "Rédige un paragraphe : « Pourquoi le pluralisme des médias est-il important dans une démocratie ? »",
+      "rep": "Éléments attendus : accès à des points de vue variés, contrôle du pouvoir, libre formation de l'opinion, référence au rôle du Conseil constitutionnel. Éviter tout jugement sur un média en particulier."
+     }
+    ]
+   },
+   "liens": [
+    [
+     "Arcom",
+     "https://www.arcom.fr/"
+    ],
+    [
+     "Légifrance : loi du 29 juillet 1881",
+     "https://www.legifrance.gouv.fr/"
+    ],
+    [
+     "Vie-publique.fr : médias et information",
+     "https://www.vie-publique.fr/"
+    ]
+   ],
+   "groupe": "lycee"
+  }
+ ],
+ "note": "Supports pédagogiques neutres. Chaque cours : cours, TD, corrigé. Les PDF sont générés par scripts/pdf_cours.py."
+}
