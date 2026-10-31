@@ -42,13 +42,13 @@ c.hidden=false;b.setAttribute("aria-expanded","true");b.textContent="Masquer le 
     else:
         formulaire = """<p class="encart att"><strong>Formulaire pas encore branché.</strong> Remplacer <code>GOOGLE_FORM_URL</code> par le lien du formulaire Google dans <code>site/contenu/site.json</code> (clé <code>avis</code>, <code>form_url</code>).</p>"""
     corps = f"""<h1>Donner mon avis</h1>
-<p class="lede">Aux Voix est en version bêta : le site n'est pas encore ouvert à tout le monde. Ton avis nous aide à l'améliorer, et le formulaire est anonyme.</p>
+<p class="lede">Aux Voix est en version bêta : le site n'est pas encore ouvert à tout le monde. Dis-nous ce qu'on devrait améliorer ou ajouter : une idée, un cours qui manque, une page à simplifier. Ton avis guide les prochaines évolutions, et le formulaire est anonyme.</p>
 <h2 id="form">Le formulaire</h2>
-<p>Il y a 5 questions, la plupart facultatives. Tu peux répondre en 2 minutes.</p>
-<ol class="q"><li>Clarté du site, de 1 à 5.</li><li>Ce qui t'a manqué ou paru confus.</li><li>Ton profil : lycéen, étudiant, actif, enseignant ou autre (facultatif).</li><li>Un contenu qui t'a paru orienté, et lequel.</li><li>Ton e-mail, seulement si tu veux une réponse (facultatif).</li></ol>
+<p>Il y a 6 questions, la plupart facultatives. Tu peux répondre en 2 minutes.</p>
+<ol class="q"><li>Clarté du site, de 1 à 5.</li><li>Ce que nous devrions améliorer ou ajouter en priorité.</li><li>Ce qui t'a manqué ou paru confus.</li><li>Ton profil : lycéen, étudiant, actif, enseignant ou autre (facultatif).</li><li>Un contenu qui t'a paru orienté, et lequel.</li><li>Ton e-mail, seulement si tu veux une réponse (facultatif).</li></ol>
 {formulaire}
 <h2 id="reponse">Notre réponse</h2>
-<p>Si tu laisses ton e-mail, nous te répondons sous {delai} jours, comme pour le signalement d'une erreur. Pour une erreur précise sur une page, utilise plutôt <a href="/#/signaler">Signaler une erreur</a> : elle est corrigée et notée dans le <a href="/#/methode/corrections">journal des corrections</a>.</p>
+<p>Si tu laisses ton e-mail, nous te répondons sous {delai} jours, comme pour le signalement d'une erreur. Une idée ou une suggestion passe par le formulaire ci-dessus. Pour une erreur précise sur une page (un chiffre, une date, une phrase fausse), utilise plutôt <a href="/#/signaler">Signaler une erreur</a> : elle est corrigée et notée dans le <a href="/#/methode/corrections">journal des corrections</a>.</p>
 <h2 id="donnees">Tes données</h2>
 <div class="encart" role="note" aria-labelledby="donnees">
 <ul>
@@ -59,6 +59,6 @@ c.hidden=false;b.setAttribute("aria-expanded","true");b.textContent="Masquer le 
 <li><strong>Tes droits :</strong> accéder à tes réponses, les corriger ou les faire supprimer en écrivant à <a href="mailto:{ESC(contact)}">{ESC(contact)}</a>. Tu peux aussi saisir la <a href="https://www.cnil.fr/" rel="noopener">CNIL</a>.</li>
 </ul></div>"""
     titre = "Donner mon avis sur Aux Voix : formulaire anonyme"
-    desc = "Aux Voix est en version bêta. Dis-nous ce qui est clair, confus ou orienté grâce à un court formulaire anonyme. Réponse sous 7 jours si tu laisses ton e-mail."
+    desc = "Aux Voix est en version bêta. Dis-nous ce qu'on devrait améliorer ou ajouter, et ce qui est confus ou orienté, grâce à un court formulaire anonyme. Réponse sous 7 jours si tu laisses ton e-mail."
     g.page("/avis/", titre, desc, corps, jsonld=[{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Donner mon avis", "item": g.url + "/avis/"}]}])
     g.urls.setdefault("fonds", []).append(("/avis/", g.aujourdhui))
