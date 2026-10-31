@@ -348,6 +348,16 @@ def generer_fonds(g):
     T = charger_themes(g.site) if os.path.exists(app) else None
     lex = lire_lexique(app) if os.path.exists(app) else []
     pages_explication(g)
+    try:
+        from avis import pages_avis
+        pages_avis(g)
+    except ImportError:
+        pass
+    try:
+        from cours import pages_cours
+        pages_cours(g)
+    except ImportError:
+        pass
     page_lexique(g, lex)
     if T:
         pages_themes(g, T, fiches)

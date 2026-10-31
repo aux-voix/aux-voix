@@ -55,6 +55,10 @@ table{border-collapse:collapse;width:100%;font-size:15px}th{text-align:left;bord
 .art p{margin:0 0 .6em}.cite{border:1px solid var(--b);padding:12px 16px;margin:18px 0;font-size:15px}.cite p{margin:0 0 6px}.cite button{font:600 14px inherit;padding:6px 10px;border:1px solid var(--b);background:#fff;cursor:pointer;margin-right:6px}
 .cite button:hover{border-color:var(--bl2);color:var(--bl2)}.meta{font-size:14px;color:var(--t2)}.noms{font-size:14.5px;line-height:1.7}ul.l{padding-left:1.1em}
 footer{border-top:1px solid var(--b);background:var(--g);font-size:14px;color:var(--t2);padding:22px 0}footer a{margin-right:14px}
+ol.q{padding-left:1.3em}ol.q>li{margin:0 0 12px}ol.choix{margin:4px 0 0;padding-left:1.4em;color:var(--t2)}ul.retenir{padding-left:1.2em}ul.retenir li{margin-bottom:4px}
+div.avis-act{margin:14px 0 6px}.encart{border:1px solid var(--b);border-top:3px solid #F3C24F;border-left:4px solid var(--bl);background:var(--blc);padding:12px 18px;margin:14px 0}.encart ul{margin:0;padding-left:1.1em}.encart li{margin:4px 0}.encart.att{border-left-color:#F3C24F;background:#FFF8E5}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}#avis-cadre iframe{border:1px solid var(--b);min-height:700px;background:#fff}button.cta{font-family:inherit;font-weight:600;font-size:16.5px;line-height:1.6;border:1px solid var(--bl);cursor:pointer}a:focus-visible,button:focus-visible,iframe:focus-visible,summary:focus-visible{outline:3px solid #F3C24F;outline-offset:2px}.beta a{margin-left:14px;font-weight:600}
+details.corr{border:1px solid var(--b);background:var(--g);padding:12px 18px;margin:18px 0}details.corr summary{cursor:pointer;font-weight:600}h3{font-size:18px;margin:22px 0 6px}
 .tw{overflow-x:auto;margin:0 0 8px}.cite span,.art,.lede,dd{overflow-wrap:anywhere}
 ul.cartes{list-style:none;padding:0;margin:20px 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
 ul.cartes li{margin:0}ul.cartes a{display:flex;flex-direction:column;gap:6px;height:100%;padding:16px 18px;border:1px solid var(--b);border-left:4px solid var(--bl);background:#fff;color:var(--t);text-decoration:none}
@@ -108,12 +112,12 @@ class Generateur:
 <title>{ESC(titre)} | Aux Voix</title><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" href="/favicon.ico" sizes="48x48">{self.audience}<meta name="description" content="{ESC(description[:300])}">
 <meta property="og:type" content="{og_type}"><meta property="og:site_name" content="Aux Voix"><meta property="og:locale" content="fr_FR"><meta property="og:title" content="{ESC(titre)}"><meta property="og:description" content="{ESC(description[:200])}"><meta property="og:url" content="{ESC(self.url + chemin)}"><meta property="og:image" content="{ESC(self.url)}{ESC(image or "/icones/partage.png")}"><meta name="twitter:card" content="summary_large_image">
 {robots}<link rel="canonical" href="{ESC(self.url + chemin)}">{alt}{ld}<link rel="stylesheet" href="/statique.css"></head><body>
-{'' if self.public else '<aside class="beta" aria-label="État du site"><div class="w">Version bêta du site.</div></aside>'}
+{'' if self.public else '<aside class="beta" aria-label="État du site"><div class="w">Version bêta du site.<a href="/avis/">Donner mon avis</a></div></aside>'}
 <header><div class="w"><a class="logo" href="/" aria-label="Aux Voix, accueil"><svg class="emb" viewBox="0 2 120 64" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"><path d="M43.0 60.0 A17 17 0 0 1 50.0 46.2"/><path d="M53.1 44.5 A17 17 0 0 1 66.9 44.5"/><path d="M70.0 46.2 A17 17 0 0 1 77.0 60.0"/><path d="M32.0 60.0 A28 28 0 0 1 43.5 37.3"/><path d="M48.6 34.4 A28 28 0 0 1 71.4 34.4"/><path d="M76.5 37.3 A28 28 0 0 1 88.0 60.0"/><path d="M21.0 60.0 A39 39 0 0 1 37.1 28.4"/><path d="M44.1 24.4 A39 39 0 0 1 75.9 24.4"/><path d="M82.9 28.4 A39 39 0 0 1 99.0 60.0"/><path d="M10.0 60.0 A50 50 0 0 1 30.6 19.5"/><path d="M39.7 14.3 A50 50 0 0 1 80.3 14.3"/><path d="M89.4 19.5 A50 50 0 0 1 110.0 60.0"/></g></svg><span><span class="wm1">Aux </span><span class="wm2">Voix</span></span></a><nav aria-label="Rubriques"><a href="/#/presidentielle">Présidentielle 2027</a><a href="/#/actualites">Actualités</a><a href="/#/lois">Lois</a><a href="/#/votes">Votes</a><a href="/#/elus">Députés</a><a href="/#/codes">Codes</a></nav></div></header>
 <main id="main"><div class="w">{corps}</div></main>
 <footer><div class="w"><p>Données officielles de l'Assemblée nationale et de la DILA (Légifrance), sous Licence Ouverte, mises à jour le {fd(self.aujourdhui)}.</p>
-<p><a href="/comprendre/comment-une-loi-est-votee/">Comment une loi est votée</a><a href="/lois-par-theme/">Lois par thème</a><a href="/lexique/">Lexique</a><a href="/comprendre/article-49-3/">Le 49.3</a></p>
-<p><a href="/#/methode/sources">Sources</a><a href="/#/methode/mentions">Mentions légales</a><a href="/#/methode/accessibilite">Accessibilité</a><a href="/flux/">Flux de suivi</a></p></div></footer>
+<p><a href="/comprendre/comment-une-loi-est-votee/">Comment une loi est votée</a><a href="/lois-par-theme/">Lois par thème</a><a href="/lexique/">Lexique</a><a href="/cours/">Cours et TD</a><a href="/comprendre/article-49-3/">Le 49.3</a></p>
+<p><a href="/#/signaler">Signaler une erreur</a><a href="/avis/">Donner mon avis</a><a href="/#/methode/ia">Rédaction et IA</a><a href="/#/methode/sources">Sources</a><a href="/#/methode/mentions">Mentions légales</a><a href="/#/methode/accessibilite">Accessibilité</a><a href="/flux/">Flux de suivi</a></p></div></footer>
 <script src="/statique.js" defer></script></body></html>"""
         doc = doc.replace("<table>", '<div class="tw"><table>').replace("</table>", "</table></div>")
         if self.base:
@@ -292,7 +296,7 @@ class Generateur:
                 cote = lambda L: "<ul class='l'>" + "".join(f"<li><strong>{ESC(a.get('qui', ''))}</strong> : {ESC(a.get('arg', ''))}</li>" for a in L if isinstance(a, dict)) + "</ul>"
                 lignes = [r for r in (f.get("change") or []) if isinstance(r, list) and len(r) >= 3]
                 fiche = (f"<p class='lede'><strong>{ESC(f.get('phrase', ''))}</strong></p>"
-                         + ("" if f.get("verif") else "<p><em>Fiche pas encore relue par la rédaction.</em></p>")
+                         + "<p class='meta'>Fiche rédigée avec l'aide d'une intelligence artificielle, à partir des sources officielles citées plus bas" + (f", relue par {ESC(f['verif'])}" if f.get("verif") else ", pas encore relue") + ". <a href='/#/methode/ia'>Comment sont rédigées les fiches</a>.</p>"
                          + ("<h2>En bref</h2>" + "".join(f"<p>{ESC(x)}</p>" for x in f.get("resume") or []) if f.get("resume") else "")
                          + ("<h2>Pourquoi ce texte</h2>" + "".join(f"<p>{ESC(x)}</p>" for x in ([f["pourquoi"]] if isinstance(f.get("pourquoi"), str) else f.get("pourquoi") or [])) if f.get("pourquoi") else "")
                          + ("<h2>Ce qui change</h2><table><thead><tr><th>Avant</th><th>Après</th><th>Qui est concerné</th><th>À partir de quand</th></tr></thead><tbody>"
