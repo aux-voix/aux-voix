@@ -11,6 +11,9 @@
   "mesure_audience": {
     "goatcounter": "auxvoix"
   },
+  "avis": {
+    "form_url": "https://tally.so/r/e5Ma1l"
+  },
   "signalement": {
     "delai_jours": 7,
     "github": false,

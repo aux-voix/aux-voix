@@ -658,6 +658,7 @@ main{view-transition-name:page;min-height:calc(100vh - 60px)}
 .folio .wrap{display:flex;flex-wrap:nowrap;align-items:center;gap:12px;padding-top:7px;padding-bottom:7px;font-size:13px;white-space:nowrap}
 .folio #folio-maj{overflow:hidden;text-overflow:ellipsis;min-width:0}
 .folio .folio-m{margin-left:auto;flex:none}
+.folio .folio-m2{flex:none}
 .beta{flex:none;font-size:11.5px;font-weight:700;letter-spacing:.02em;color:var(--bleu);background:var(--bleuclair);border:1px solid var(--bleubord);padding:1px 7px;border-radius:2px}
 .lien-leg{all:unset;cursor:pointer;color:var(--bleu2);text-decoration:underline;text-underline-offset:.18em;margin-left:6px}
 .lien-leg:focus-visible{outline:2px solid var(--bleu2);outline-offset:2px}
@@ -1136,7 +1137,7 @@ main,dialog{overflow-wrap:break-word}
 </head>
 <body data-lv="2">
 <a class="skip" href="#main">Aller au contenu</a>
-<aside class="folio" aria-label="État des données"><div class="wrap"><span class="beta">Bêta</span><span id="folio-maj" aria-live="polite">Chargement des données officielles</span><span class="folio-h" id="folio-hors" hidden>Hors connexion</span><a class="folio-s" id="folio-suivis" href="#/suivis" hidden>Mes suivis<span id="folio-sn"></span></a><a class="folio-m" href="#/methode/sources">Méthode</a></div></aside>
+<aside class="folio" aria-label="État des données"><div class="wrap"><span class="beta">Bêta</span><span id="folio-maj" aria-live="polite">Chargement des données officielles</span><span class="folio-h" id="folio-hors" hidden>Hors connexion</span><a class="folio-s" id="folio-suivis" href="#/suivis" hidden>Mes suivis<span id="folio-sn"></span></a><a class="folio-m" href="avis/">Donner mon avis</a><a class="folio-m2" href="#/methode/sources">Méthode</a></div></aside>
 <header class="mast">
   <div class="wrap">
     <a class="wordmark" href="#/" aria-label="Aux Voix, accueil"><svg class="emb" viewBox="0 2 120 64" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"><path d="M43.0 60.0 A17 17 0 0 1 50.0 46.2"/><path d="M53.1 44.5 A17 17 0 0 1 66.9 44.5"/><path d="M70.0 46.2 A17 17 0 0 1 77.0 60.0"/><path d="M32.0 60.0 A28 28 0 0 1 43.5 37.3"/><path d="M48.6 34.4 A28 28 0 0 1 71.4 34.4"/><path d="M76.5 37.3 A28 28 0 0 1 88.0 60.0"/><path d="M21.0 60.0 A39 39 0 0 1 37.1 28.4"/><path d="M44.1 24.4 A39 39 0 0 1 75.9 24.4"/><path d="M82.9 28.4 A39 39 0 0 1 99.0 60.0"/><path d="M10.0 60.0 A50 50 0 0 1 30.6 19.5"/><path d="M39.7 14.3 A50 50 0 0 1 80.3 14.3"/><path d="M89.4 19.5 A50 50 0 0 1 110.0 60.0"/></g></svg><span><span class="wm1">Aux </span><span class="wm2">Voix</span></span></a>
@@ -1167,7 +1168,7 @@ main,dialog{overflow-wrap:break-word}
 <script>/* Accueil affiché tout de suite ; sur une autre page, simple message de chargement */
 (function(){var h=location.hash;if(h&&h!=="#"&&h!=="#/"){document.getElementById("main").innerHTML='<div class="wrap loading"><b>Chargement</b>Lecture des données officielles de l’Assemblée nationale…</div>';}})();</script>
 <footer class="foot"><div class="wrap">
-  <div><h2>Dernières corrections</h2><ul id="foot-corr"><li class="meta">Aucune correction publiée.</li></ul><p class="meta"><a href="#/methode/corrections">Journal des corrections</a></p><p class="meta"><a href="#/signaler" id="foot-sg">Signaler une erreur sur cette page</a></p></div>
+  <div><h2>Dernières corrections</h2><ul id="foot-corr"><li class="meta">Aucune correction publiée.</li></ul><p class="meta"><a href="#/methode/corrections">Journal des corrections</a></p><p class="meta"><a href="#/signaler" id="foot-sg">Signaler une erreur sur cette page</a></p><p class="meta"><a href="avis/">Donner mon avis sur le site</a></p></div>
   <div><h2>Méthode</h2><ul><li><a href="#/verifier">Comment on vérifie</a></li><li><a href="#/methode/indicateurs">Comment sont calculés les chiffres</a></li><li><a href="#/methode/sources">Sources et données brutes</a></li><li><a href="#/methode/mentions">Mentions légales</a></li><li><a href="#/methode/donnees-personnelles">Données personnelles</a></li><li><a href="#/methode/accessibilite">Accessibilité</a></li><li><a href="flux/">Flux de suivi (RSS)</a></li></ul></div>
   <div class="foot-o"><h2>Outils</h2><ul><li><a href="#/suivis">Mes suivis</a></li><li><a href="#/semaine">La semaine à l'Assemblée</a></li><li><a href="#/lexique">Lexique</a></li><li><a href="#/quiz">Quiz</a></li><li><a href="#/classe">Aux Voix en classe</a></li><li><button type="button" data-installer>Installer l'application</button></li></ul></div>
   <div><h2>Indépendance</h2><ul><li id="foot-indep">Aucune publicité, aucun cookie, aucun traceur.</li><li>Données : Assemblée nationale, Licence Ouverte.</li></ul></div>
