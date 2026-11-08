@@ -67,7 +67,33 @@ ul.cartes .n{font-size:13px;font-weight:600;color:var(--bl2);text-transform:uppe
 ul.textes{list-style:none;padding:0;margin:18px 0}ul.textes li{margin:0;border-bottom:1px solid var(--b2)}ul.textes a{display:block;padding:14px 4px;color:var(--t);text-decoration:none}
 ul.textes a:hover,ul.textes a:focus-visible{background:var(--g)}ul.textes .h{display:block;font-weight:600;font-size:17px;line-height:1.35;color:var(--bl)}ul.textes a:hover .h{text-decoration:underline}
 ul.textes .d{display:block;margin-top:3px;font-size:15px;color:var(--t2);line-height:1.45}
-@media(max-width:600px){dl{grid-template-columns:1fr;gap:2px}dd{margin-bottom:8px}table{font-size:14px}}"""
+@media(max-width:600px){dl{grid-template-columns:1fr;gap:2px}dd{margin-bottom:8px}table{font-size:14px}}
+/* Cours et TD : colonne centrée, titres centrés, mise en valeur */
+.cours{max-width:46rem;margin:0 auto}
+.cours .fil,.cours h1,.cours .lede,.cours .niv,.cours .actions{text-align:center}
+.cours h1{font-size:clamp(28px,4.6vw,40px);color:#123B6D;margin-bottom:14px}
+.cours .lede{max-width:36rem;margin:0 auto 14px}
+.cours .niv{margin:0 0 6px}.cours .niv span{display:inline-block;background:#EAF0F7;color:#123B6D;font-weight:600;font-size:14px;padding:4px 12px;border-radius:999px;margin:3px 3px}
+.cours .actions{margin:14px 0 4px}.cours .actions .cta{margin:6px 5px}
+.cours h2{text-align:center;border:0;padding:0;margin:48px 0 20px;font-size:clamp(22px,3.2vw,27px);color:#123B6D}
+.cours h2::after{content:"";display:block;width:56px;height:4px;background:#F3C24F;margin:11px auto 0}
+.cours h3{margin:30px 0 10px;padding-left:12px;border-left:4px solid #1B58A3;font-size:19px;color:#123B6D;text-align:left}
+.cours p,.cours li,.cours dd{line-height:1.72}
+.cours p{margin:0 0 14px}.cours p.intro{font-size:18px}
+.cours strong{font-weight:700;color:#123B6D}
+.cours mark{background:#FFF1BF;color:inherit;padding:0 .18em;border-radius:3px}
+.cours u{text-decoration-thickness:2px;text-underline-offset:.22em;text-decoration-color:#1B58A3}
+.retenir-box{background:#EAF0F7;border:1px solid #D2DFEC;border-top:4px solid #F3C24F;padding:6px 26px 18px;margin:44px 0}
+.retenir-box h2{margin-top:26px}
+.cours ul.retenir{list-style:none;padding:0;margin:0}.cours ul.retenir li{position:relative;padding-left:30px;margin:0 0 11px}
+.cours ul.retenir li::before{content:"";position:absolute;left:4px;top:.62em;width:9px;height:9px;background:#F3C24F;border:2px solid #1B58A3;border-radius:50%}
+.cours dl{display:block;margin:0}.cours dt{font-family:"Lexend","Source Sans 3",Arial,sans-serif;font-weight:600;color:#123B6D;margin-top:16px}
+.cours dd{margin:3px 0 0;padding-bottom:12px;border-bottom:1px solid var(--b)}
+.cours .meta.fin{text-align:center;margin-top:40px}
+.cours.hub ul.cartes{text-align:left}
+.cours.hub .meta{text-align:center}
+@media print{.cours .actions{display:none}}
+"""
 
 JS = """document.addEventListener("click",function(e){var b=e.target.closest("[data-copie]");if(!b)return;var t=document.getElementById(b.getAttribute("data-copie")).textContent;
 function ok(){var x=b.textContent;b.textContent="Copié";setTimeout(function(){b.textContent=x;},1500);}
