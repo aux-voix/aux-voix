@@ -1605,9 +1605,14 @@ function pageComprendreAccueil(){
     <p class="lede intro">Comment se fait une loi, ce que veut dire un vote, les mots du Parlement : l'essentiel, expliqué simplement et sans parti pris.</p>
     <div class="cp-outils">
       <a href="#/lexique"><span class="cat">${n(LEX.length)} mots</span><span class="h3">Le lexique</span><span class="meta">Amendement, navette, 49.3… expliqués en une phrase.</span></a>
-      <a href="/lois-par-theme/"><span class="cat">17 thèmes</span><span class="h3">Les lois par thème</span><span class="meta">Logement, santé, école, travail… les textes classés par sujet.</span></a><a href="/cours/"><span class="cat">Pour la classe</span><span class="h3">Cours et TD</span><span class="meta">12 cours du collège au lycée, avec exercices corrigés, en ligne et en PDF.</span></a>
+      <a href="/lois-par-theme/"><span class="cat">17 thèmes</span><span class="h3">Les lois par thème</span><span class="meta">Logement, santé, école, travail… les textes classés par sujet.</span></a>
       <a href="#/quiz"><span class="cat">${n(QUIZ.length)} questions</span><span class="h3">Le quiz</span><span class="meta">Testez vos connaissances sur les institutions.</span></a>
-      <a href="#/classe"><span class="cat">${n(CLASSE.length)} fiches</span><span class="h3">En classe</span><span class="meta">Des activités prêtes à imprimer pour les enseignants.</span></a>
+    </div>
+    <h2 class="h2" style="margin-top:36px">Pour la classe</h2>
+    <p class="meta" style="margin-top:6px">Deux ressources pour les enseignants, au même endroit.</p>
+    <div class="cp-outils">
+      <a href="/cours/"><span class="cat">12 cours</span><span class="h3">Cours et TD</span><span class="meta">Du collège au lycée, avec exercices corrigés, en ligne et en PDF.</span></a>
+      <a href="#/classe"><span class="cat">${n(CLASSE.length)} activités</span><span class="h3">Activités en classe</span><span class="meta">Des fiches courtes prêtes à imprimer, à partir des données officielles.</span></a>
     </div>
     <h2 class="h2" style="margin-top:36px">Les fiches</h2>
     <div class="quad" style="margin-top:14px">${COMP.map(c=>`<a href="#/comprendre/${c.id}"><span class="h3">${c.titre}</span><span class="meta">${c.sous}</span></a>`).join("")}</div></div>`};
@@ -1656,6 +1661,7 @@ function pageClasse(q){
   return {title:"Aux Voix en classe",html:`<div class="wrap sec col" style="--col:860px">
     <h1 class="h1s">Aux Voix en classe</h1>
     <p class="lede intro">Des activités courtes pour l'enseignement moral et civique ou l'histoire-géographie, prêtes à imprimer. Elles s'appuient sur les données officielles et respectent la neutralité attendue à l'école : on étudie le fonctionnement des institutions, jamais les opinions.</p>
+    <p class="notice">Besoin d'un cours complet, avec TD et corrigé ? Voir les <a href="/cours/">Cours et TD</a>, du collège au lycée.</p>
     <nav class="sauts" aria-label="Aller à une fiche"><span class="meta">Les fiches :</span>${CLASSE.map((c,i)=>`<button type="button" data-ancre="cl-${c.id}">${n(i+1)}. ${esc(c.titre)}</button>`).join("")}</nav>
     ${CLASSE.map((c,i)=>`<article class="cl-f${c.id===f?" lx-on":""}" data-site="${esc(BASEURL().replace(/^https?:\/\//,""))}" id="cl-${c.id}" tabindex="-1" aria-labelledby="clt-${c.id}">
       <p class="cat">Fiche ${n(i+1)} · ${esc(c.duree)} · ${esc(c.niveau)}</p>
@@ -2185,13 +2191,13 @@ function embellir(){lienSignaler();animer(main);navInd();segs();paginerListes();
   _lexT=ric(()=>{_lexT=null;try{lexiquer(main);}catch(e){}},{timeout:1500});majSuivisFolio();etatConnexion();}
 
 /* ============ Sous-menus et choix de la législature ============ */
-const FAMILLES=[[["presidentielle","L'essentiel"],["candidats","Les candidats"],["programmes","Programmes des partis"],["propositions","Ce que proposent les groupes"],["elections","Calendrier des élections"],["campagne","Actualités de la campagne"]],[["votes","Tous les votes"],["agenda","À venir"],["semaine","La semaine"],["themes","Par thème"],["calendrier","Mois par mois"],["comparateur","Comparer"]],[["comprendre","Les fiches"],["lexique","Lexique"],["quiz","Quiz"],["classe","En classe"]],[["elus","Les députés"],["groupes","Les groupes"],["simulateur","Simulateur de coalition"]]];
+const FAMILLES=[[["presidentielle","L'essentiel"],["candidats","Les candidats"],["programmes","Programmes des partis"],["propositions","Ce que proposent les groupes"],["elections","Calendrier des élections"],["campagne","Actualités de la campagne"]],[["votes","Tous les votes"],["agenda","À venir"],["semaine","La semaine"],["themes","Par thème"],["calendrier","Mois par mois"],["comparateur","Comparer"]],[["comprendre","Les fiches"],["lexique","Lexique"],["quiz","Quiz"],["cours","Cours et TD"],["classe","Activités en classe"]],[["elus","Les députés"],["groupes","Les groupes"],["simulateur","Simulateur de coalition"]]];
 const AVEC_LEG=["votes","themes","calendrier","comparateur","groupes","simulateur","elus","lois"];
 let LEGOPTS="";
 function barreHaut(p0){
   const fam=FAMILLES.find(f=>f.some(x=>x[0]===p0)),leg=AVEC_LEG.includes(p0)&&IDX&&IDX.legislatures.length>1;
   if(!fam&&!leg)return "";
-  return `<div class="wrap sousnav-w"><div class="sousnav">${fam?`<nav class="sous" aria-label="Affichage">${fam.map(([k,l])=>`<a href="#/${k}"${k===p0?' aria-current="page"':""}>${l}</a>`).join("")}</nav>`:""}${leg?`<span class="legx"><label for="legx">Législature</label><select id="legx" class="legsel-x">${LEGOPTS.replace(`value="${LEG}"`,`value="${LEG}" selected`)}</select></span>`:""}</div></div>`;
+  return `<div class="wrap sousnav-w"><div class="sousnav">${fam?`<nav class="sous" aria-label="Affichage">${fam.map(([k,l])=>`<a href="${k==="cours"?"/cours/":"#/"+k}"${k===p0?' aria-current="page"':""}>${l}</a>`).join("")}</nav>`:""}${leg?`<span class="legx"><label for="legx">Législature</label><select id="legx" class="legsel-x">${LEGOPTS.replace(`value="${LEG}"`,`value="${LEG}" selected`)}</select></span>`:""}</div></div>`;
 }
 document.addEventListener("change",e=>{const s=e.target.closest&&e.target.closest(".legsel-x");if(s)chargerLeg(s.value).catch(erreur);});
 document.addEventListener("click",e=>{const b=e.target.closest&&e.target.closest("[data-leg]");if(b){e.preventDefault();chargerLeg(b.dataset.leg).catch(erreur);}});

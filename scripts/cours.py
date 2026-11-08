@@ -59,6 +59,6 @@ def pages_cours(g):
 <h2>Collège (3e)</h2><p class="meta">Les bases : qui décide, comment, et comment s'informer.</p><ul class="cartes">{cartes("college")}</ul>
 <h2>Lycée</h2><p class="meta">Pour aller plus loin : procédures, calculs, textes de droit, analyse et rédaction.</p><ul class="cartes">{cartes("lycee")}</ul>
 <h2>Pour les enseignants</h2><p>Chaque cours est lisible en ligne et téléchargeable en PDF, avec le TD (version élève) et le corrigé (version enseignant). Ils sont en lien avec l'éducation morale et civique (EMC) et peuvent servir en histoire-géographie. Le contenu reste factuel et neutre : aucune opinion n'est demandée aux élèves, seulement l'analyse de textes et de faits vérifiables. Ces supports sont rédigés avec l'aide d'une intelligence artificielle à partir de sources officielles : les enseignants restent libres de les adapter, et les textes cités font foi.</p>
-<p>Pour illustrer un cours avec un texte réel : <a href="/lois-par-theme/">les lois par thème</a>, <a href="/lexique/">le lexique</a>.</p>"""
+<p>Pour illustrer un cours avec un texte réel : <a href="/lois-par-theme/">les lois par thème</a>, <a href="/lexique/">le lexique</a>. Pour une séance courte à imprimer : <a href="/#/classe">les activités en classe</a>.</p>"""
     g.page(chemin, titre, desc, corps, jsonld=_ld(g, chemin, titre, desc, [("Cours et TD", chemin)]), og_type="website")
     g.urls.setdefault("fonds", []).append((chemin, g.aujourdhui))
