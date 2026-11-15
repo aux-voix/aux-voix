@@ -17,6 +17,6 @@
   "signalement": {
     "delai_jours": 7,
     "github": false,
-    "depot": "aux-voix/aux-voix.github.io"
+    "depot": "aux-voix/aux-voix"
   }
 }

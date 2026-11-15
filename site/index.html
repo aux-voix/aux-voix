@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Aux Voix : ce que votent les députés</title>
+<title>Aux Voix : la politique française, expliquée simplement</title>
 <link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="icon" href="favicon.ico" sizes="48x48">
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#123B6D">
 <link rel="apple-touch-icon" href="icones/apple-touch-icon.png">
-<meta name="description" content="Ce que votent les députés, d'après les données officielles de l'Assemblée nationale.">
+<meta name="description" content="Les votes des députés, les lois, les élus et l'élection présidentielle 2027, expliqués simplement d'après les sources officielles. Gratuit, sans publicité et sans parti pris.">
 <meta property="og:type" content="website"><meta property="og:site_name" content="Aux Voix"><meta property="og:locale" content="fr_FR">
-<meta property="og:title" content="Aux Voix : ce que votent les députés"><meta property="og:description" content="Ce que votent les députés, d'après les données officielles de l'Assemblée nationale."><meta property="og:url" content="https://auxvoix.fr/">
+<meta property="og:title" content="Aux Voix : la politique française, expliquée simplement"><meta property="og:description" content="Les votes des députés, les lois, les élus et l'élection présidentielle 2027, expliqués simplement d'après les sources officielles. Gratuit, sans publicité et sans parti pris."><meta property="og:url" content="https://auxvoix.fr/">
 <meta property="og:image" content="https://auxvoix.fr/icones/partage.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Aux Voix : ce que votent les députés, expliqué simplement">
 <meta name="twitter:card" content="summary_large_image">
 <!-- Version bêta : retirer la ligne suivante à l'ouverture publique -->
@@ -812,6 +812,15 @@ main,dialog{overflow-wrap:break-word}
 
 /* ===== Accueil : une vraie porte d'entrée, sobre et rangée ===== */
 .acc-hero{padding-top:var(--e7);padding-bottom:var(--e6)}
+.acc-q{margin:22px 0 0;max-width:640px}
+.acc-q-l{display:flex;gap:8px}
+.acc-q-l input{flex:1;min-width:0;height:48px;font-size:var(--t-base)}
+.acc-q-l .btn{min-height:48px;padding:0 20px}
+.acc-q .meta{margin:8px 0 0}
+.q-g{margin-top:26px}.q-l{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:14px}
+.q-l li{border-left:3px solid var(--bleubord);padding-left:14px}
+.q-l a{font-weight:600}.q-l .meta{display:block;margin-top:3px}
+@media (max-width:560px){.acc-q-l{flex-direction:column}.acc-q-l .btn{width:100%}}
 .acc-hero .h1{max-width:20ch;margin:0}
 .acc-hero .lede{max-width:62ch;margin:14px 0 0}
 .acc-portes{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:var(--e6)}
@@ -833,7 +842,14 @@ main,dialog{overflow-wrap:break-word}
 .mini-vote{display:flex;height:10px;margin:10px 0 6px;background:var(--gris);box-shadow:inset 0 0 0 1px var(--bord)}
 .mini-vote i{display:block;height:100%}.mini-vote .r1{background:var(--pourfill,var(--pour))}.mini-vote .r2{background:var(--contrefill,var(--contre))}.mini-vote .r3{background:var(--abst)}
 .acc-comp{padding-top:var(--e6)}
+.acc-portes .porte-presi{grid-column:1/-1;border-top:4px solid #F3C24F;background:var(--bleuclair);border-color:var(--bleubord);border-top-color:#F3C24F;padding:20px 20px 22px}
+.acc-portes .porte-presi .h3{font-family:var(--titre);font-weight:600;font-size:var(--t-lg);letter-spacing:-.015em}
+.acc-portes .porte-presi .meta{font-size:var(--t-base);color:var(--texte);max-width:70ch}
+.acc-portes .porte-presi:hover{background:var(--bleuclair);border-color:var(--bleu2);border-top-color:#F3C24F}
+.acc-portes .porte-presi:hover .h3{color:var(--bleu2);text-decoration:underline}
 @media (max-width:900px){.acc-portes{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* Téléphone : accès resserrés (le titre suffit), textes d'introduction un peu plus courts à l'écran */
+@media (max-width:560px){.acc-portes a:not(.porte-presi) .meta{display:none}.acc-portes a:not(.porte-presi){padding:14px;min-height:48px;justify-content:center}.acc-portes .porte-presi{padding:16px}.acc-portes .porte-presi .meta{font-size:15px;line-height:1.5}.acc-portes{margin-top:var(--e5)}.lede{font-size:17px;line-height:1.5}.notice,.flag{font-size:14.5px;padding:11px 14px}}
 @media (max-width:560px){.acc-hero{padding-top:var(--e5);padding-bottom:var(--e5)}.acc-hero .h1{font-size:28px}.acc-portes a{padding:14px}.acc-portes .meta{font-size:13px}.acc-trouver select{min-width:0;width:100%}}
 
 /* Accueil : une seule police pour tout ce qui n'est pas le grand titre */
@@ -1157,7 +1173,11 @@ main,dialog{overflow-wrap:break-word}
   <section class="wrap acc-hero" aria-labelledby="acc-t">
     <h1 class="h1" id="acc-t">La politique française, expliquée simplement</h1>
     <p class="lede">Ce que votent les députés, les lois en cours, les élus et l’élection présidentielle, d’après les sources officielles. Gratuit, sans publicité et sans parti pris.</p>
+    <form class="acc-q" role="search" aria-label="Poser une question" data-question><label class="lab" for="acc-q-i">Une question sur la politique ?</label>
+      <div class="acc-q-l"><input id="acc-q-i" type="search" name="q" autocomplete="off" spellcheck="false" maxlength="200" placeholder="Par exemple : c’est quoi le 49.3 ?" aria-describedby="acc-q-a"><button type="submit" class="btn btn-p">Chercher</button></div>
+      <p class="meta" id="acc-q-a">La réponse vient des textes déjà publiés sur le site, sans intelligence artificielle. Ce que vous tapez n’est pas enregistré.</p></form>
     <nav class="acc-portes" aria-label="Accès principaux">
+      <a class="porte-presi" href="#/presidentielle"><span class="h3">Présidentielle 2027</span><span class="meta">Premier tour le dimanche 18 avril 2027, second tour le dimanche 2 mai. Les dates, les candidats et le fonctionnement du vote.</span></a>
       <a href="#/elus"><span class="h3">Les députés</span><span class="meta">Votre député, ses votes, son groupe</span></a>
       <a href="#/lois"><span class="h3">Les lois</span><span class="meta">Les textes en cours et leur parcours</span></a>
       <a href="#/votes"><span class="h3">Les votes</span><span class="meta">Chaque scrutin, expliqué simplement</span></a>
@@ -1172,7 +1192,7 @@ main,dialog{overflow-wrap:break-word}
   <div><h2>Méthode</h2><ul><li><a href="#/verifier">Comment on vérifie</a></li><li><a href="#/methode/indicateurs">Comment sont calculés les chiffres</a></li><li><a href="#/methode/sources">Sources et données brutes</a></li><li><a href="#/methode/mentions">Mentions légales</a></li><li><a href="#/methode/donnees-personnelles">Données personnelles</a></li><li><a href="#/methode/accessibilite">Accessibilité</a></li><li><a href="flux/">Flux de suivi (RSS)</a></li></ul></div>
   <div class="foot-o"><h2>Outils</h2><ul><li><a href="#/suivis">Mes suivis</a></li><li><a href="#/semaine">La semaine à l'Assemblée</a></li><li><a href="#/lexique">Lexique</a></li><li><a href="#/quiz">Quiz</a></li><li><a href="/cours/">Cours et TD</a></li><li><a href="#/classe">Activités en classe</a></li><li><button type="button" data-installer>Installer l'application</button></li></ul></div>
   <div><h2>Indépendance</h2><ul><li id="foot-indep">Aucune publicité, aucun cookie, aucun traceur.</li><li>Données : Assemblée nationale, Licence Ouverte.</li></ul></div>
-  <div class="fine"><span class="meta" id="foot-maj">Aux Voix, version bêta.</span>
+  <div class="fine"><span class="meta" id="foot-maj">Aux Voix V0.50, version bêta.</span>
     <div class="seg" role="group" aria-label="Thème d'affichage" id="theme-seg"><button type="button" data-th="auto">Automatique</button><button type="button" data-th="light">Clair</button><button type="button" data-th="dark">Sombre</button></div></div>
 </div></footer>
 <dialog id="dlg" aria-labelledby="dlg-t"><div class="dlg-in"><div class="dlg-h"><h2 id="dlg-t" class="h3"></h2><button class="dlg-x" type="button" aria-label="Fermer">×</button></div><div id="dlg-b"></div></div></dialog>

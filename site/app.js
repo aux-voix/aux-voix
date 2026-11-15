@@ -319,6 +319,9 @@ function titresMedias(k){
   for(let i=0;out.length<k&&srcs.some(x=>par[x][i]);i++)srcs.forEach(x=>{if(par[x][i]&&out.length<k)out.push(par[x][i]);});
   return out.sort((a,b)=>a.date<b.date?1:a.date>b.date?-1:0);
 }
+/* Numéro de version affiché en bas de page : à augmenter à chaque livraison (V0.x pendant la bêta).
+   Le même numéro est écrit en dur dans index.html (pied de page). */
+const VERSION="V0.50";
 function pageHome(){
   const s=scrutinUne(),jour=s.d.slice(0,10),rel=jourRel(jour),nbJour=SC.filter(x=>x.d.slice(0,10)===jour).length,c1=compteRebours(PRESI.t1);
   const ens=estEnsemble(s),loi=s.moc?null:loiDe(s),tx=s.moc||ens?null:texteDe(s.ti),lec=lectureDe(s.ti),expl=expliquer(s)[0];
@@ -332,7 +335,11 @@ function pageHome(){
   <section class="wrap acc-hero" aria-labelledby="acc-t">
     <h1 class="h1" id="acc-t">La politique française, expliquée simplement</h1>
     <p class="lede">Ce que votent les députés, les lois en cours, les élus et l'élection présidentielle, d'après les sources officielles. Gratuit, sans publicité et sans parti pris.</p>
+    <form class="acc-q" role="search" aria-label="Poser une question" data-question><label class="lab" for="acc-q-i">Une question sur la politique ?</label>
+      <div class="acc-q-l"><input id="acc-q-i" type="search" name="q" autocomplete="off" spellcheck="false" maxlength="200" placeholder="Par exemple : c'est quoi le 49.3 ?" aria-describedby="acc-q-a"><button type="submit" class="btn btn-p">Chercher</button></div>
+      <p class="meta" id="acc-q-a">La réponse vient des textes déjà publiés sur le site, sans intelligence artificielle. Ce que vous tapez n'est pas enregistré.</p></form>
     <nav class="acc-portes" aria-label="Accès principaux">
+      <a class="porte-presi" href="#/presidentielle"><span class="h3">Présidentielle 2027</span><span class="meta">Premier tour le dimanche 18 avril 2027${c1?` (${c1})`:""}, second tour le dimanche 2 mai. Les dates, les candidats et le fonctionnement du vote.</span></a>
       <a href="#/elus"><span class="h3">Les députés</span><span class="meta">Votre député, ses votes, son groupe</span></a>
       <a href="#/lois"><span class="h3">Les lois</span><span class="meta">Les textes en cours et leur parcours</span></a>
       <a href="#/votes"><span class="h3">Les votes</span><span class="meta">Chaque scrutin, expliqué simplement</span></a>
@@ -358,9 +365,8 @@ function pageHome(){
     </section>
     <div class="acc-col">
       <section class="acc-carte acc-presi" aria-labelledby="ap-t">
-        <p class="cat">${c1?cap(c1):"2027"}</p><h2 class="h3" id="ap-t">Présidentielle 2027</h2>
-        <p class="ui">Premier tour le dimanche 18 avril, second tour le dimanche 2 mai 2027.</p>
-        <p class="acc-liens"><a href="#/presidentielle">L'essentiel</a><a href="#/candidats">Les candidats</a><a href="#/campagne">Actualités de la campagne</a></p>
+        <h2 class="h3" id="ap-t">Suivre la campagne</h2>
+        <p class="acc-liens"><a href="#/candidats">Les candidats</a><a href="#/campagne">Actualités de la campagne</a><a href="#/elections">Le calendrier électoral</a></p>
       </section>
       ${COURANTE?`<section class="acc-carte acc-ag" id="acc-ag" aria-labelledby="ag-t" hidden></section>`:""}
     </div>
@@ -392,7 +398,8 @@ function etapeInfo(e,l){
   return {lib:cap(e[1]||c),expl:""};
 }
 function etapeLib(e,l){return etapeInfo(e,l).lib;}
-function statutLoi(l){if(l.prom)return `Promulguée le ${fd(l.prom.date)}`;const e=last(l.etapes||[]);return e?`En cours : ${etapeLib(e,l).toLowerCase()} le ${fd(e[2])}`:"En cours";}
+const minus1=t=>{t=String(t||"");return t.charAt(0).toLowerCase()+t.slice(1);};
+function statutLoi(l){if(l.prom)return `Promulguée le ${fd(l.prom.date)}`;const e=last(l.etapes||[]);return e?`En cours : ${minus1(etapeLib(e,l))} le ${fd(e[2])}`:"En cours";}
 function dateLoi(l){return l.prom?l.prom.date:(last(l.etapes||[])||[])[2]||"";}
 let LF={q:"",st:"all",sort:{k:"date",dir:-1},lim:60};
 function pageLois(){
@@ -573,7 +580,7 @@ function pageLoi(id){
       ${ed&&ed.note?`<p class="meta">${esc(ed.note)}</p>`:""}
       ${ficheEssentiel(ed)}
       ${!(ed&&ed.essentiel)?`<p class="ui lv1only" id="tx-ess" hidden></p>`:""}
-      ${ed&&ed.publie===true&&!ed.verif&&!ed.leger?`<p class="meta">Fiche pas encore relue par la rédaction. Une erreur ? <a href="#/signaler">Signalez-la</a> : elle sera corrigée et consignée.</p>`:""}
+      ${ed&&ed.publie===true&&!ed.verif&&!ed.leger?`<p class="meta">Fiche pas encore relue par l'éditeur du site. Une erreur ? <a href="#/signaler">Signalez-la</a> : elle sera corrigée et consignée.</p>`:""}
       ${ed&&ed.publie!==true?`<div class="notice"><strong>Brouillon à vérifier.</strong> Cette fiche n'est pas publiée : elle n'apparaît qu'avec ?brouillons=1 dans l'adresse. Contrôlez chaque chiffre et chaque source, puis indiquez le nom du vérificateur dans « verif » et passez « publie » à true dans le fichier de la fiche (site/contenu/fiches/).</div>`:""}
       ${!ed?`<p class="meta">Résumé établi à partir du titre officiel du texte. <a href="#/methode/themes">Comment</a></p>`:""}</section>
 
@@ -1678,6 +1685,58 @@ document.addEventListener("click",e=>{const b=e.target.closest&&e.target.closest
   document.body.dataset.imprimer=b.dataset.imprimer;window.print();});
 addEventListener("afterprint",()=>{delete document.body.dataset.imprimer;});
 
+/* ============ Poser une question : retrouve des passages déjà publiés sur le site ============
+   Pas d'intelligence artificielle, aucun serveur : la recherche se fait dans le navigateur, sur les textes du site
+   (fiches de lois, « Comprendre », lexique, pages principales, noms des candidats). Rien n'est rédigé ni envoyé.
+   Le classement ne dépend que des mots de la question ; à égalité, ordre alphabétique. */
+const Q_VIDE=new Set("a au aux avec ce ces cet cette c ca ça comment combien dans de des du d elle elles en est et etre il ils j je la le les leur leurs l ma mes mon n ne nous on ou où par pas peut peuvent plus pour pourquoi qu quand que quel quelle quels quelles qui quoi s sa se ses son sont sur ta tes ton tu un une y vous veut faut fait font veulent dit dire signifie signifient sert servent mean cela ceci".split(" "));
+const Q_AVIS=/(meilleur|pire\b|mauvais|bon candidat|pour qui (je )?(vote|voter)|qui (voter|choisir|gagner|va gagner|gagnera)|faut.?il voter|a qui donner|le plus (bien|nul|competent|honnete|fiable)|sondage|favori|pronostic|gagnant|a ma place|quel parti)/;
+const Q_PAGES=[
+  {t:"Présidentielle 2027",h:"#/presidentielle",s:"Les dates des deux tours, comment fonctionne le vote, les parrainages.",k:"election presidentielle president 2027 vote dates premier tour second tour parrainage elire scrutin republique"},
+  {t:"Les candidats à la présidentielle",h:"#/candidats",s:"Les candidatures annoncées et officielles, avec les sources, dans le même format pour tous.",k:"candidat candidature presidentielle liste officielle conseil constitutionnel parrainage"},
+  {t:"Calendrier des élections",h:"#/elections",s:"Les prochaines élections et leurs dates.",k:"elections municipales europeennes legislatives departementales regionales date voter prochain calendrier"},
+  {t:"Programmes des partis",h:"#/programmes",s:"Les programmes publiés par les partis, d'après leurs propres documents.",k:"programme parti propositions projet"},
+  {t:"Les députés",h:"#/elus",s:"Chercher un député, ses votes, son groupe, sa circonscription.",k:"depute assemblee nationale circonscription elu representant parlementaire"},
+  {t:"Les groupes politiques de l'Assemblée",h:"#/groupes",s:"Les groupes de l'Assemblée nationale et leurs effectifs.",k:"groupe politique parti assemblee nationale effectif majorite opposition"},
+  {t:"Les votes à l'Assemblée",h:"#/votes",s:"Chaque scrutin public : résultat, vote de chaque groupe.",k:"vote scrutin assemblee resultat pour contre abstention"},
+  {t:"Les lois",h:"#/lois",s:"Les textes en cours d'examen et leur parcours.",k:"loi projet proposition texte parlement parcours adoptee"},
+  {t:"Les codes de loi",h:"#/codes",s:"La Constitution, le Code civil et d'autres codes, avec les articles les plus cités.",k:"constitution code civil code penal article legifrance droit"},
+  {t:"Le lexique",h:"#/lexique",s:"Les mots du Parlement expliqués en une ou deux phrases.",k:"mot definition lexique vocabulaire glossaire"},
+  {t:"Signaler une erreur",h:"#/signaler",s:"Une erreur sur le site ? Signalez-la : réponse sous 7 jours.",k:"erreur correction signaler contact probleme faux"},
+  {t:"Méthode, sources et usage de l'IA",h:"#/methode/ia",s:"D'où viennent les informations et comment les fiches sont rédigées.",k:"methode sources ia intelligence artificielle donnees neutralite fiabilite redaction"}
+];
+function qMots(q){const n0=norm(q),op=Q_AVIS.test(n0);return n0.replace(/[’'\-]/g," ").split(/[^a-z0-9]+/).filter(m=>m&&!Q_VIDE.has(m)&&(m.length>1||/\d/.test(m))&&!(op&&/^(meilleur|pire|mauvai|favori|sondage|pronostic|gagn|competent|honnete|fiable|nul)/.test(m)));}
+function qRacine(m){let r=m;if(/^vot(e|er|ee|es|ent|ons)?$/.test(r))return "vote";if(r.length>4&&/ee$/.test(r))r=r.slice(0,-1);if(r.length>3&&/[sx]$/.test(r))r=r.slice(0,-1);if(r.length>5&&/e$/.test(r))r=r.slice(0,-1);return r;}
+function qRegex(r){return r.length>=4?new RegExp("(^|[^a-z0-9])"+r):new RegExp("(^|[^a-z0-9])"+r+"(s|x)?([^a-z0-9]|$)");}
+let QCORPUS=null;
+function qCorpus(){if(QCORPUS)return QCORPUS;const D=[],nz=s=>norm(s).replace(/[’'\-]/g," ");
+  const ajout=(g,t,h,s,k,b)=>D.push({g,t,h,s,tn:nz(t),kn:nz(k||""),bn:nz(b||"")});
+  COMP.forEach(c=>ajout("Comprendre",c.titre,"#/comprendre/"+c.id,c.sous||"",c.sous,(c.corps||[]).join(" ")));
+  LEX.forEach(e=>ajout("Lexique",e[1],"#/lexique?m="+e[0],e[3].length>230?e[3].slice(0,227).replace(/\s+\S*$/,"")+"…":e[3],"",e[3]));
+  LOIS.forEach(l=>{const ed=l.ed;ajout("Lois",cap(l.titre),"#/loi/"+l.id,(ed&&ed.phrase)||statutLoi(l),(ed&&ed.titre_officiel)||"",(ed&&[ed.phrase,ed.note,JSON.stringify(ed.resume||""),JSON.stringify(ed.pourquoi||"")].join(" "))||"");});
+  Q_PAGES.forEach(p=>ajout("Pages du site",p.t,p.h,p.s,p.k,p.s));
+  PCAND.filter(c=>c.publie===true).forEach(c=>ajout("Candidats",c.prenom+" "+c.nom,"#/candidats","Fiche et sources sur la page des candidats, même présentation pour tous.",c.prenom+" "+c.nom,""));
+  return QCORPUS=D;}
+function qChercher(q){const mots=[...new Set(qMots(q))];if(!mots.length)return {mots,res:[]};
+  const R=[...new Set(mots.map(qRacine))].map(r=>({r,re:qRegex(r),df:0})),C=qCorpus(),out=[];
+  C.forEach(d=>{d.pt=R.map(x=>x.re.test(d.tn)?4:x.re.test(d.kn)?3:x.re.test(d.bn)?1:0);d.pt.forEach((v,i)=>{if(v)R[i].df++;});});
+  const w=R.map(x=>x.df?1+Math.log(C.length/x.df):0);
+  C.forEach(d=>{let sc=0;d.pt.forEach((v,i)=>{sc+=v*w[i];});if(sc>0)out.push({d,sc});});
+  const best=out.reduce((m,x)=>Math.max(m,x.sc),0),keep=out.filter(x=>x.sc>=best*0.4);
+  keep.sort((a,b)=>b.sc-a.sc||a.d.t.localeCompare(b.d.t,"fr"));return {mots,res:keep};}
+function pageQuestion(q){const texte=(q.get("q")||"").trim().slice(0,200),avis=Q_AVIS.test(norm(texte)),{mots,res}=texte?qChercher(texte):{mots:[],res:[]};
+  const ORDRE=["Comprendre","Lexique","Lois","Pages du site","Candidats"],groupes=ORDRE.map(g=>[g,res.filter(r=>r.d.g===g).slice(0,g==="Lois"?3:4)]).filter(x=>x[1].length).sort((a,b)=>(a[0]==="Lois")-(b[0]==="Lois")||b[1][0].sc-a[1][0].sc||ORDRE.indexOf(a[0])-ORDRE.indexOf(b[0])),aff=groupes.reduce((t,x)=>t+x[1].length,0);
+  const form=`<form class="acc-q" role="search" aria-label="Poser une question" data-question><label class="lab" for="q-i">Votre question</label>
+    <div class="acc-q-l"><input id="q-i" type="search" name="q" autocomplete="off" spellcheck="false" maxlength="200" value="${esc(texte)}" placeholder="Par exemple : c'est quoi le 49.3 ?"><button type="submit" class="btn btn-p">Chercher</button></div></form>`;
+  const corps=!texte?`<p class="ui">Écrivez votre question avec vos mots : le site vous montre les passages qui y répondent. Par exemple : « comment une loi est votée », « quand a lieu la présidentielle », « qu'est-ce qu'un amendement ».</p>`
+   :(avis?`<div class="notice"><strong>Aux Voix ne dit pas pour qui voter.</strong> Le site ne classe ni les candidats ni les partis, et ne publie ni sondage ni pronostic. Il explique comment fonctionne le vote et présente chaque candidature de la même façon, avec ses sources.</div>`:"")
+   +(groupes.length?`<p class="meta" role="status">${n(aff)} ${aff>1?"passages les plus proches":"passage le plus proche"} de votre question.</p>`+groupes.map(([g,L])=>`<section class="q-g" aria-labelledby="qg-${esc(norm(g).replace(/\W+/g,""))}"><h2 class="h3" id="qg-${esc(norm(g).replace(/\W+/g,""))}">${esc(g==="Lois"?"Lois qui en parlent":g)}</h2><ul class="q-l">${L.map(r=>`<li><a href="${esc(r.d.h)}">${esc(r.d.t)}</a>${r.d.s?`<span class="meta">${esc(r.d.s)}</span>`:""}</li>`).join("")}</ul></section>`).join("")
+     :`<p class="ui" role="status">Aucun passage du site ne correspond à cette question. Essayez avec d'autres mots, ou parcourez le <a href="#/lexique">lexique</a> et la page <a href="#/comprendre">Comprendre</a>.</p><p class="ui">Un sujet manque ? <a href="#/signaler">Dites-le-nous</a> : réponse sous 7 jours.</p>`);
+  return {title:"Poser une question",html:`<div class="wrap sec col" style="--col:760px"><h1 class="h1s">Poser une question</h1>
+    <p class="lede intro">Cette recherche ne fait pas appel à l'intelligence artificielle : elle retrouve des passages déjà publiés sur le site, classés selon les mots de votre question. Ce que vous tapez n'est ni enregistré ni envoyé.</p>
+    ${form}${corps}</div>`,after(){const i=$("#q-i");if(i&&!texte)i.focus({preventScroll:true});}};}
+document.addEventListener("submit",e=>{const f=e.target&&e.target.closest&&e.target.closest("form[data-question]");if(!f)return;e.preventDefault();const v=f.q.value.trim();if(v)location.hash="#/question?q="+encodeURIComponent(v);});
+
 /* ============ Qui vous représente ? Recherche par commune ou code postal ============ */
 let COMMUNES=null,_comP=null;
 function chargerCommunes(){if(COMMUNES)return Promise.resolve(COMMUNES);
@@ -2269,7 +2328,7 @@ function route(){
     case "presidentielle":pg=pagePresi();nav="presidentielle";break;case "candidats":pg=pageCandidats(q);nav="presidentielle";break;case "programmes":pg=pageProgrammes(q);nav="presidentielle";break;case "propositions":pg=pagePropositions(q);nav="presidentielle";break;
     case "elections":pg=pageElections();nav="presidentielle";break;case "actualites":pg=pageActualites(q);nav="actualites";break;case "campagne":pg=pageActualites(q,true);nav="presidentielle";break;
     case "code":pg=parts[2]?pageArticle(parts[1],parts[2]):pageCode(parts[1],q);nav="codes";break;case "classements":pg=pageElus();nav="elus";break;case "methode":pg=pageMethode();nav="";break;case "comprendre":pg=parts[1]?pageComprendre(parts[1]):pageComprendreAccueil();break;
-    case "lexique":pg=pageLexique(q);break;case "quiz":pg=pageQuiz();break;case "classe":pg=pageClasse(q);break;
+    case "question":pg=pageQuestion(q);break;case "lexique":pg=pageLexique(q);break;case "quiz":pg=pageQuiz();break;case "classe":pg=pageClasse(q);break;
     case "semaine":pg=pageSemaine(q);nav="votes";break;case "agenda":pg=pageAgenda();nav="votes";break;case "signaler":pg=pageSignaler(q);break;case "verifier":pg=pageVerifier();break;case "suivis":pg=pageSuivis();break;default:pg=pageNotFound();}
   if(dlg.open)dlg.close();
   const rendre=()=>{
@@ -2301,7 +2360,7 @@ function chargerLeg(leg){
   return g.then(d=>d||(tot?tot.then(x=>x||getJSON(L.fichier)):getJSON(L.fichier))).then(d=>{prepare(d);try{localStorage.setItem("lr-leg",d.legislature);}catch(e){}
     const fm=$("#folio-maj");fm.innerHTML=COURANTE?`<span class="fm-l">${esc(frStr(`Données officielles de l'Assemblée nationale, vérifiées le ${fd(d.maj.slice(0,10))}`))}</span><span class="fm-c">${esc(frStr(`Données vérifiées le ${fds(d.maj.slice(0,10))}`))}</span>`
       :`${esc(frStr(`Archives : ${d.label}`))} <button type="button" class="lien-leg" data-leg="${esc(IDX.legislatures[0].leg)}">${esc(frStr("Revenir à la législature actuelle"))}</button>`;
-    $("#foot-maj").textContent=frStr(`Aux Voix, version bêta. Données de l'Assemblée nationale au ${fd(d.maj.slice(0,10))}, Licence Ouverte.`);
+    $("#foot-maj").textContent=frStr(`Aux Voix ${VERSION}, version bêta. Données de l'Assemblée nationale au ${fd(d.maj.slice(0,10))}, Licence Ouverte.`);
     frTypo($(".folio"));frTypo($(".foot"));buildSearch();first=true;route();
 });
 }
