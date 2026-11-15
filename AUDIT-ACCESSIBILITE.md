@@ -1,3 +1,17 @@
+# Contrôle automatique : V0.50 (9 novembre 2026)
+
+Contrôle automatique fait par un assistant IA avec axe-core (WCAG 2.0, 2.1 et 2.2, niveaux A et AA, bonnes pratiques).
+Il ne remplace pas un audit RGAA : le site reste « non audité ».
+
+- 16 pages (Accueil, Présidentielle, Candidats, Calendrier électoral, Actualités, Lois, Votes, Députés, Groupes, Codes,
+  Comprendre, Lexique, Quiz, Signaler une erreur, Méthode, Accessibilité), thèmes clair et sombre, largeurs 390 et 1360 px :
+  64 états, 0 erreur, aucun défilement horizontal.
+- Limite de ce contrôle : fait sur une copie locale sans les codes ni les pages publiques (`/loi/…`, `/depute/…`, `/cours/`, `/avis/`).
+- Nouveau : ce contrôle est relancé à chaque mise à jour automatique (`scripts/accessibilite.py`). Son résultat s'affiche
+  dans l'onglet Actions (« Contrôle d'accessibilité automatique ») et n'empêche jamais la publication.
+
+Le « Reste à faire par une personne » ci-dessous est inchangé.
+
 # Contrôle d'accessibilité : V0.27 (19 octobre 2026)
 
 Contrôle automatique et semi-automatique, fait par un assistant IA. Il ne remplace pas un audit RGAA complet,

@@ -53,7 +53,7 @@ c.hidden=false;b.setAttribute("aria-expanded","true");b.textContent="Masquer le 
     else:
         ou = "<li><strong>Où :</strong> le formulaire est fourni par Google Forms. Google traite les réponses et peut le faire en dehors de l'Union européenne. Quand tu affiches ou ouvres le formulaire, Google peut aussi déposer des cookies.</li>"
     corps = f"""<h1>Donner mon avis</h1>
-<p class="lede">Aux Voix est en version bêta : le site n'est pas encore ouvert à tout le monde. Dis-nous ce qu'on devrait améliorer ou ajouter : une idée, un cours qui manque, une page à simplifier. Ton avis guide les prochaines évolutions, et le formulaire est anonyme.</p>
+<p class="lede">Aux Voix est en version bêta : le site est ouvert à tous et continue d'évoluer. Dis-nous ce qu'on devrait améliorer ou ajouter : une idée, un cours qui manque, une page à simplifier. Ton avis guide les prochaines évolutions, et le formulaire est anonyme.</p>
 <h2 id="form">Le formulaire</h2>
 <p>Il y a 6 questions, la plupart facultatives. Tu peux répondre en 2 minutes.</p>
 <ol class="q"><li>Clarté du site, de 1 à 5.</li><li>Ce que nous devrions améliorer ou ajouter en priorité.</li><li>Ce qui t'a manqué ou paru confus.</li><li>Ton profil : lycéen, étudiant, actif, enseignant ou autre (facultatif).</li><li>Un contenu qui t'a paru orienté, et lequel.</li><li>Ton e-mail, seulement si tu veux une réponse (facultatif).</li></ol>

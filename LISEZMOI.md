@@ -80,7 +80,7 @@ deux personnes différentes. En cas d'erreur de saisie, l'onglet Actions affiche
 
 > Bonjour, je développe Aux Voix, un site gratuit et indépendant qui rend accessibles les votes des députés,
 > le parcours des lois et les principaux codes, avec la référence prête à citer pour chaque article
-> (https://aux-voix.github.io). Nous aimerions publier de courtes explications des articles les plus
+> (https://auxvoix.fr). Nous aimerions publier de courtes explications des articles les plus
 > étudiés, rédigées par des étudiants et relues par un enseignant, avec le nom des auteurs.
 > Seriez-vous intéressés par un échange ? Bien cordialement.
 

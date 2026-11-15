@@ -299,7 +299,7 @@ class Generateur:
             titre = l["titre"][:1].upper() + l["titre"][1:]
             etapes = "".join(f"<tr><td class='meta'>{fd(e[2])}</td><td>{ESC(libelle_etape(e, E))}</td><td>{ESC((e[3] if len(e) > 3 else '') or '')}</td></tr>" for e in E if i_utile(e, E))
             prom = l.get("prom")
-            statut = f"Promulguée le {fd(prom['date'])}" if prom else (f"En cours : {libelle_etape(E[-1], E).lower()} le {fd(E[-1][2])}" if E else "En cours")
+            statut = f"Promulguée le {fd(prom['date'])}" if prom else (f"En cours : {(lambda t: t[:1].lower() + t[1:])(libelle_etape(E[-1], E))} le {fd(E[-1][2])}" if E else "En cours")
             fin = [scr_n for scr_n in l.get("scrutins", []) if scr_n in num_retenus]
             cit = [("Référence", ((prom or {}).get("titre") or titre) + (f", JO du {fd(prom['date'])}" if prom else f" ({d['label']}, dossier législatif de l'Assemblée nationale)")),
                    ("Avec la source", f"Aux Voix, d'après les données de l'Assemblée nationale, {self.url}{chemin} (consulté le {fd(self.aujourdhui)}).")]
